@@ -1,0 +1,204 @@
+<script setup>
+import Case from '/component/Case.vue'
+</script>
+
+# stroke
+
+描边，类似于 HTML5 中的 border-color。
+
+<case name="Stroke" editor=false></case>
+
+## 关键属性
+
+### stroke: `string` | [`Paint`](../interface/ui/Paint) ｜ [`Paint`](../interface/ui/Paint.md)[]
+
+描边。
+
+支持 [纯色](/reference/property/paint/solid.md)、 [线性渐变](/reference/property/paint/linear.md)、[径向渐变](/reference/property/paint/radial.md)、[角度渐变](/reference/property/paint/angular.md)、[图案](/reference/property/paint/image.md) 等类型， 支持多个描边同时叠加。
+
+:::danger 描边方式
+
+[UI](/reference/display/UI.md) 和闭合类图形 默认为 内描边，[Path](../display/Path.md) / [Line](../display/Line.md) 默认为 居中描边, [Text](../display/Text.md) 默认为 外描边。
+:::
+
+## 描边样式属性
+
+### strokeAlign?: `StrokeAlign`
+
+描边的对齐方式，[UI](/reference/display/UI.md) 和闭合类图形 默认为 inside，[Path](../display/Path.md) / [Line](../display/Line.md) 默认为 center, [Text](../display/Text.md) 默认为 outside。
+
+```tsx
+type StrokeAlign = 'inside' | 'center' | 'outside' //  内部  |  居中 ｜ 外部
+```
+
+### strokeWidth?: `number`
+
+描边的宽度, 默认为 1。
+
+### strokeWidthFixed?: `boolean`
+
+是否固定线宽，默认为 false。
+
+固定线宽后，当画面放大时，线宽不会跟随放大，画面缩小时仍会跟随缩小（防止堆成一团）。
+
+在此场景下，建议 strokeAlign 使用高性能的居中描边， 另 [hitFill](/reference/property/hit.md#hitfill-ihittype) 为 all 可节省填充操作。
+
+### strokeCap?: `StrokeCap`
+
+描边的端点形状，默认为 none。
+
+```ts
+type StrokeCap =
+  | 'none' // 无
+  | 'round' // 圆形
+  | 'square' // 方形
+```
+
+### strokeJoin?: `StrokeJoin`
+
+描边的拐角处理，默认为 miter 。
+
+```ts
+type StrokeJoin =  'miter' ｜ 'bevel' | 'round' //  直角 ｜ 平角 ｜ 圆角
+```
+
+### dashPattern?: `number`[]
+
+虚线描边的数值。
+
+```ts
+rect.dashPattern = [20, 10] // [线段，间隙]
+```
+
+### dashOffset: `number`
+
+虚线描边的起点偏移值。
+
+## 归属
+
+### [UI](/reference/display/UI.md)
+
+## 示例
+
+<case name="SolidStroke" index=0  editor=false></case>
+
+### 纯色描边
+
+```ts
+// #纯色描边
+import { Leafer, Rect } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: { // [!code hl:4]
+        type: 'solid',
+        color: '#32cd79'
+    }
+})
+
+leafer.add(rect)
+```
+
+<case name="GradientStroke" index=0  editor=false></case>
+
+### 渐变描边
+
+支持 [线性渐变](./paint/linear.md)、[径向渐变](./paint/radial.md)、[角度渐变](./paint/angular.md) 等类型。
+
+```ts
+// #线性渐变描边 [默认方向]
+import { Leafer, Rect } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: {  // [!code hl:4]
+        type: 'linear',  // 从顶部居中 -> 底部居中垂直绘制的渐变
+        stops: ['#FF4B4B', '#FEB027']
+    },
+})
+
+leafer.add(rect)
+```
+
+<case name="ImageStroke" index=0  editor=false></case>
+
+### 图案描边
+
+[图案描边](./paint/image.md) 支持 覆盖、适应、裁剪、平铺等模式。
+
+```ts
+// #图案描边 [默认 cover 覆盖模式]
+import { Leafer, Rect } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: {  // [!code hl:5]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        // mode: 'cover' // 默认模式，相当于 CSS 的 background-size: cover
+    }
+})
+
+leafer.add(rect)
+```
+
+<case name="Strokes" index=0  editor=false></case>
+
+### 多个描边叠加
+
+描边的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
+
+```ts
+// #多个不同类型的描边叠加 [线性渐变描边 + 图案描边]
+import { Leafer, Rect } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: [ // [!code hl:11]
+        {
+            type: 'linear', // 线性渐变描边
+            stops: [{ offset: 0, color: '#FF4B4B' }, { offset: 1, color: '#FEB027' }]
+        },
+        {
+            type: 'image', // 图案描边
+            url: '/image/leafer.jpg',
+            mode: 'cover',
+            opacity: 0.5
+        }]
+})
+
+leafer.add(rect)
+```
+
+<case name="Stroke" index=3  editor=false></case>
+
+### 绘制虚线
+
+```ts
+// #虚线描边
+import { Leafer, Rect } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: '#32cd79',
+    strokeWidth: 2,
+    dashPattern: [6, 6] // [!code hl]
+})
+
+leafer.add(rect)
+```

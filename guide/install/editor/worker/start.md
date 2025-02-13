@@ -1,0 +1,55 @@
+# @leafer-editor/worker
+
+### [web 版](/guide/install/editor/start) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/editor/node/start) &nbsp; &nbsp; [小程序版](/guide/install/editor/miniapp/start)
+
+##
+
+在 WebWorker 环境中运行。
+
+基于 [@leafer-ui/worker](/guide/install/ui/worker/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[文本编辑](/plugin/in/text-editor/)、[视口](/plugin/in/viewport/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/scroll/)、[箭头](/plugin/in/arrow/)、[HTML](/plugin/in/html/)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md) 插件，适用于在线图形编辑的场景。
+
+## 安装
+
+::: code-group
+
+```sh [npm]
+npm install @leafer-editor/worker
+```
+
+```sh [pnpm]
+pnpm add @leafer-editor/worker
+```
+
+```sh [yarn]
+yarn add @leafer-editor/worker
+```
+
+```sh [bun]
+bun add @leafer-editor/worker
+```
+
+:::
+
+## importScripts 引入
+
+通过全局变量 LeaferUI 访问内部功能。
+
+::: code-group
+
+```js [worker.min.js]
+importScripts(
+  'https://unpkg.com/@leafer-editor/worker@1.4.0/dist/worker.min.js'
+)
+```
+
+```js [worker.js]
+importScripts('https://unpkg.com/@leafer-editor/worker@1.4.0/dist/worker.js')
+```
+
+:::
+
+https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+
+## 使用
+
+使用方式、全局变量和 [@leafer-ui/worker](/guide/install/ui/worker/start.md)一致, 只需改下包名，即可运行官网示例代码。
