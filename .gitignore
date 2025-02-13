@@ -1,13 +1,6 @@
 dist
 cache
-build
 node_modules
-
-api
-code
-public
-component
-temp
 
 package.json
 pnpm-lock.yaml

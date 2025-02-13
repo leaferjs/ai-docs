@@ -1,0 +1,566 @@
+# Interface: IAppConfig
+
+## Hierarchy
+
+- [`ILeaferConfig`](ILeaferConfig.md)
+
+  ↳ **`IAppConfig`**
+
+## Table of contents
+
+### Properties
+
+- [start](IAppConfig.md#start)
+- [type](IAppConfig.md#type)
+- [mobile](IAppConfig.md#mobile)
+- [realCanvas](IAppConfig.md#realcanvas)
+- [grow](IAppConfig.md#grow)
+- [growWidth](IAppConfig.md#growwidth)
+- [growHeight](IAppConfig.md#growheight)
+- [lazySpeard](IAppConfig.md#lazyspeard)
+- [view](IAppConfig.md#view)
+- [canvas](IAppConfig.md#canvas)
+- [pixelRatio](IAppConfig.md#pixelratio)
+- [smooth](IAppConfig.md#smooth)
+- [hittable](IAppConfig.md#hittable)
+- [webgl](IAppConfig.md#webgl)
+- [contextSettings](IAppConfig.md#contextsettings)
+- [wheel](IAppConfig.md#wheel)
+- [pointer](IAppConfig.md#pointer)
+- [touch](IAppConfig.md#touch)
+- [multiTouch](IAppConfig.md#multitouch)
+- [zoom](IAppConfig.md#zoom)
+- [move](IAppConfig.md#move)
+- [eventer](IAppConfig.md#eventer)
+- [cursor](IAppConfig.md#cursor)
+- [keyEvent](IAppConfig.md#keyevent)
+- [partLayout](IAppConfig.md#partlayout)
+- [top](IAppConfig.md#top)
+- [right](IAppConfig.md#right)
+- [bottom](IAppConfig.md#bottom)
+- [left](IAppConfig.md#left)
+- [width](IAppConfig.md#width)
+- [height](IAppConfig.md#height)
+- [usePartRender](IAppConfig.md#usepartrender)
+- [maxFPS](IAppConfig.md#maxfps)
+- [fill](IAppConfig.md#fill)
+- [ground](IAppConfig.md#ground)
+- [tree](IAppConfig.md#tree)
+- [sky](IAppConfig.md#sky)
+- [editor](IAppConfig.md#editor)
+
+## Properties
+
+### start
+
+• `Optional` **start**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[start](ILeaferConfig.md#start)
+
+#### Defined in
+
+[leafer/packages/interface/src/app/ILeafer.ts:22](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L22)
+
+___
+
+### type
+
+• `Optional` **type**: [`ILeaferType`](../modules.md#ileafertype)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[type](ILeaferConfig.md#type)
+
+#### Defined in
+
+[leafer/packages/interface/src/app/ILeafer.ts:23](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L23)
+
+___
+
+### mobile
+
+• `Optional` **mobile**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[mobile](ILeaferConfig.md#mobile)
+
+#### Defined in
+
+[leafer/packages/interface/src/app/ILeafer.ts:24](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L24)
+
+___
+
+### realCanvas
+
+• `Optional` **realCanvas**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[realCanvas](ILeaferConfig.md#realcanvas)
+
+#### Defined in
+
+[leafer/packages/interface/src/app/ILeafer.ts:25](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L25)
+
+___
+
+### grow
+
+• `Optional` **grow**: `boolean` \| ``"box"`` \| ``"render"``
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[grow](ILeaferConfig.md#grow)
+
+#### Defined in
+
+[leafer/packages/interface/src/app/ILeafer.ts:26](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L26)
+
+___
+
+### growWidth
+
+• `Optional` **growWidth**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[growWidth](ILeaferConfig.md#growwidth)
+
+#### Defined in
+
+[leafer/packages/interface/src/app/ILeafer.ts:27](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L27)
+
+___
+
+### growHeight
+
+• `Optional` **growHeight**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[growHeight](ILeaferConfig.md#growheight)
+
+#### Defined in
+
+[leafer/packages/interface/src/app/ILeafer.ts:28](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L28)
+
+___
+
+### lazySpeard
+
+• `Optional` **lazySpeard**: [`IFourNumber`](../modules.md#ifournumber)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[lazySpeard](ILeaferConfig.md#lazyspeard)
+
+#### Defined in
+
+[leafer/packages/interface/src/app/ILeafer.ts:29](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L29)
+
+___
+
+### view
+
+• `Optional` **view**: `string` \| [`IObject`](IObject.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[view](ILeaferConfig.md#view)
+
+#### Defined in
+
+[leafer/packages/interface/src/canvas/ILeaferCanvas.ts:12](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/canvas/ILeaferCanvas.ts#L12)
+
+___
+
+### canvas
+
+• `Optional` **canvas**: `string` \| [`IObject`](IObject.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[canvas](ILeaferConfig.md#canvas)
+
+#### Defined in
+
+[leafer/packages/interface/src/canvas/ILeaferCanvas.ts:13](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/canvas/ILeaferCanvas.ts#L13)
+
+___
+
+### pixelRatio
+
+• `Optional` **pixelRatio**: `number`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[pixelRatio](ILeaferConfig.md#pixelratio)
+
+#### Defined in
+
+[leafer/packages/interface/src/canvas/ILeaferCanvas.ts:15](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/canvas/ILeaferCanvas.ts#L15)
+
+___
+
+### smooth
+
+• `Optional` **smooth**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[smooth](ILeaferConfig.md#smooth)
+
+#### Defined in
+
+[leafer/packages/interface/src/canvas/ILeaferCanvas.ts:16](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/canvas/ILeaferCanvas.ts#L16)
+
+___
+
+### hittable
+
+• `Optional` **hittable**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[hittable](ILeaferConfig.md#hittable)
+
+#### Defined in
+
+[leafer/packages/interface/src/canvas/ILeaferCanvas.ts:17](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/canvas/ILeaferCanvas.ts#L17)
+
+___
+
+### webgl
+
+• `Optional` **webgl**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[webgl](ILeaferConfig.md#webgl)
+
+#### Defined in
+
+[leafer/packages/interface/src/canvas/ILeaferCanvas.ts:18](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/canvas/ILeaferCanvas.ts#L18)
+
+___
+
+### contextSettings
+
+• `Optional` **contextSettings**: `ICanvasRenderingContext2DSettings`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[contextSettings](ILeaferConfig.md#contextsettings)
+
+#### Defined in
+
+[leafer/packages/interface/src/canvas/ILeaferCanvas.ts:19](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/canvas/ILeaferCanvas.ts#L19)
+
+___
+
+### wheel
+
+• `Optional` **wheel**: [`IWheelConfig`](IWheelConfig.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[wheel](ILeaferConfig.md#wheel)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:96](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L96)
+
+___
+
+### pointer
+
+• `Optional` **pointer**: [`IPointerConfig`](IPointerConfig.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[pointer](ILeaferConfig.md#pointer)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:97](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L97)
+
+___
+
+### touch
+
+• `Optional` **touch**: [`ITouchConfig`](ITouchConfig.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[touch](ILeaferConfig.md#touch)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:98](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L98)
+
+___
+
+### multiTouch
+
+• `Optional` **multiTouch**: [`IMultiTouchConfig`](IMultiTouchConfig.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[multiTouch](ILeaferConfig.md#multitouch)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:99](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L99)
+
+___
+
+### zoom
+
+• `Optional` **zoom**: [`IZoomConfig`](IZoomConfig.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[zoom](ILeaferConfig.md#zoom)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:100](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L100)
+
+___
+
+### move
+
+• `Optional` **move**: [`IMoveConfig`](IMoveConfig.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[move](ILeaferConfig.md#move)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:101](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L101)
+
+___
+
+### eventer
+
+• `Optional` **eventer**: [`IObject`](IObject.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[eventer](ILeaferConfig.md#eventer)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:102](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L102)
+
+___
+
+### cursor
+
+• `Optional` **cursor**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[cursor](ILeaferConfig.md#cursor)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:103](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L103)
+
+___
+
+### keyEvent
+
+• `Optional` **keyEvent**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[keyEvent](ILeaferConfig.md#keyevent)
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:104](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/interaction/IInteraction.ts#L104)
+
+___
+
+### partLayout
+
+• `Optional` **partLayout**: [`IPartLayoutConfig`](IPartLayoutConfig.md)
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[partLayout](ILeaferConfig.md#partlayout)
+
+#### Defined in
+
+[leafer/packages/interface/src/layouter/ILayouter.ts:31](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/layouter/ILayouter.ts#L31)
+
+___
+
+### top
+
+• `Optional` **top**: `number`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[top](ILeaferConfig.md#top)
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:135](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L135)
+
+___
+
+### right
+
+• `Optional` **right**: `number`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[right](ILeaferConfig.md#right)
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:136](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L136)
+
+___
+
+### bottom
+
+• `Optional` **bottom**: `number`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[bottom](ILeaferConfig.md#bottom)
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:137](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L137)
+
+___
+
+### left
+
+• `Optional` **left**: `number`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[left](ILeaferConfig.md#left)
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:138](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L138)
+
+___
+
+### width
+
+• `Optional` **width**: `number`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[width](ILeaferConfig.md#width)
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:143](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L143)
+
+___
+
+### height
+
+• `Optional` **height**: `number`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[height](ILeaferConfig.md#height)
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:144](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L144)
+
+___
+
+### usePartRender
+
+• `Optional` **usePartRender**: `boolean`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[usePartRender](ILeaferConfig.md#usepartrender)
+
+#### Defined in
+
+[leafer/packages/interface/src/renderer/IRenderer.ts:16](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/renderer/IRenderer.ts#L16)
+
+___
+
+### maxFPS
+
+• `Optional` **maxFPS**: `number`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[maxFPS](ILeaferConfig.md#maxfps)
+
+#### Defined in
+
+[leafer/packages/interface/src/renderer/IRenderer.ts:17](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/renderer/IRenderer.ts#L17)
+
+___
+
+### fill
+
+• `Optional` **fill**: `string`
+
+#### Inherited from
+
+[ILeaferConfig](ILeaferConfig.md).[fill](ILeaferConfig.md#fill)
+
+#### Defined in
+
+[leafer/packages/interface/src/renderer/IRenderer.ts:18](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/renderer/IRenderer.ts#L18)
+
+___
+
+### ground
+
+• `Optional` **ground**: [`ILeaferConfig`](ILeaferConfig.md)
+
+#### Defined in
+
+[ui/packages/interface/src/app/IApp.ts:12](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/app/IApp.ts#L12)
+
+___
+
+### tree
+
+• `Optional` **tree**: [`ILeaferConfig`](ILeaferConfig.md)
+
+#### Defined in
+
+[ui/packages/interface/src/app/IApp.ts:13](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/app/IApp.ts#L13)
+
+___
+
+### sky
+
+• `Optional` **sky**: [`ILeaferConfig`](ILeaferConfig.md)
+
+#### Defined in
+
+[ui/packages/interface/src/app/IApp.ts:14](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/app/IApp.ts#L14)
+
+___
+
+### editor
+
+• `Optional` **editor**: [`IEditorConfig`](IEditorConfig.md)
+
+#### Defined in
+
+[ui/packages/interface/src/app/IApp.ts:15](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/app/IApp.ts#L15)

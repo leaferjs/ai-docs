@@ -1,0 +1,555 @@
+# Class: EditorScaleEvent
+
+## Hierarchy
+
+- [`EditorEvent`](EditorEvent.md)
+
+  ↳ **`EditorScaleEvent`**
+
+## Implements
+
+- [`IEditorScaleEvent`](../interfaces/IEditorScaleEvent.md)
+
+## Table of contents
+
+### Constructors
+
+- [constructor](EditorScaleEvent.md#constructor)
+
+### Properties
+
+- [SELECT](EditorScaleEvent.md#select)
+- [HOVER](EditorScaleEvent.md#hover)
+- [target](EditorScaleEvent.md#target)
+- [editor](EditorScaleEvent.md#editor)
+- [value](EditorScaleEvent.md#value)
+- [oldValue](EditorScaleEvent.md#oldvalue)
+- [worldOrigin](EditorScaleEvent.md#worldorigin)
+- [origin](EditorScaleEvent.md#origin)
+- [SCALE](EditorScaleEvent.md#scale)
+- [scaleX](EditorScaleEvent.md#scalex)
+- [scaleY](EditorScaleEvent.md#scaley)
+- [transform](EditorScaleEvent.md#transform)
+- [drag](EditorScaleEvent.md#drag)
+- [direction](EditorScaleEvent.md#direction)
+- [lockRatio](EditorScaleEvent.md#lockratio)
+- [around](EditorScaleEvent.md#around)
+- [type](EditorScaleEvent.md#type)
+- [current](EditorScaleEvent.md#current)
+- [bubbles](EditorScaleEvent.md#bubbles)
+- [phase](EditorScaleEvent.md#phase)
+- [isStopDefault](EditorScaleEvent.md#isstopdefault)
+- [isStop](EditorScaleEvent.md#isstop)
+- [isStopNow](EditorScaleEvent.md#isstopnow)
+
+### Accessors
+
+- [list](EditorScaleEvent.md#list)
+- [oldList](EditorScaleEvent.md#oldlist)
+
+### Methods
+
+- [stopDefault](EditorScaleEvent.md#stopdefault)
+- [stopNow](EditorScaleEvent.md#stopnow)
+- [stop](EditorScaleEvent.md#stop)
+
+## Constructors
+
+### constructor
+
+• **new EditorScaleEvent**(`type`, `data?`)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `type` | `string` |
+| `data?` | [`IEditorScaleEvent`](../interfaces/IEditorScaleEvent.md) |
+
+#### Overrides
+
+[EditorEvent](EditorEvent.md).[constructor](EditorEvent.md#constructor)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:24](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L24)
+
+## Properties
+
+### SELECT
+
+▪ `Static` **SELECT**: `string` = `'editor.select'`
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[SELECT](EditorEvent.md#select)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:13](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L13)
+
+___
+
+### HOVER
+
+▪ `Static` **HOVER**: `string` = `'editor.hover'`
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[HOVER](EditorEvent.md#hover)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:14](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L14)
+
+___
+
+### target
+
+• `Readonly` **target**: [`IUI`](../interfaces/IUI.md)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[target](../interfaces/IEditorScaleEvent.md#target)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[target](EditorEvent.md#target)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:16](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L16)
+
+___
+
+### editor
+
+• `Readonly` **editor**: [`IEditor`](../interfaces/IEditor.md)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[editor](../interfaces/IEditorScaleEvent.md#editor)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[editor](EditorEvent.md#editor)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:17](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L17)
+
+___
+
+### value
+
+• `Readonly` **value**: [`IUI`](../interfaces/IUI.md) \| [`IUI`](../interfaces/IUI.md)[]
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[value](../interfaces/IEditorScaleEvent.md#value)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[value](EditorEvent.md#value)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:19](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L19)
+
+___
+
+### oldValue
+
+• `Readonly` **oldValue**: [`IUI`](../interfaces/IUI.md) \| [`IUI`](../interfaces/IUI.md)[]
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[oldValue](../interfaces/IEditorScaleEvent.md#oldvalue)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[oldValue](EditorEvent.md#oldvalue)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:20](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L20)
+
+___
+
+### worldOrigin
+
+• `Readonly` **worldOrigin**: [`IPointData`](../interfaces/IPointData.md)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[worldOrigin](../interfaces/IEditorScaleEvent.md#worldorigin)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[worldOrigin](EditorEvent.md#worldorigin)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:25](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L25)
+
+___
+
+### origin
+
+• `Readonly` **origin**: [`IPointData`](../interfaces/IPointData.md)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[origin](../interfaces/IEditorScaleEvent.md#origin)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[origin](EditorEvent.md#origin)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:26](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L26)
+
+___
+
+### SCALE
+
+▪ `Static` **SCALE**: `string` = `'editor.scale'`
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:11](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L11)
+
+___
+
+### scaleX
+
+• `Readonly` **scaleX**: `number`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[scaleX](../interfaces/IEditorScaleEvent.md#scalex)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:14](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L14)
+
+___
+
+### scaleY
+
+• `Readonly` **scaleY**: `number`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[scaleY](../interfaces/IEditorScaleEvent.md#scaley)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:15](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L15)
+
+___
+
+### transform
+
+• `Optional` `Readonly` **transform**: [`IMatrixData`](../interfaces/IMatrixData.md)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[transform](../interfaces/IEditorScaleEvent.md#transform)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:16](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L16)
+
+___
+
+### drag
+
+• `Readonly` **drag**: [`IDragEvent`](../interfaces/IDragEvent.md)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[drag](../interfaces/IEditorScaleEvent.md#drag)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:18](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L18)
+
+___
+
+### direction
+
+• `Readonly` **direction**: [`Direction9`](../enums/Direction9.md)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[direction](../interfaces/IEditorScaleEvent.md#direction)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:20](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L20)
+
+___
+
+### lockRatio
+
+• `Readonly` **lockRatio**: `boolean`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[lockRatio](../interfaces/IEditorScaleEvent.md#lockratio)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:21](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L21)
+
+___
+
+### around
+
+• `Readonly` **around**: [`IAround`](../modules.md#iaround)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[around](../interfaces/IEditorScaleEvent.md#around)
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorScaleEvent.ts:22](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorScaleEvent.ts#L22)
+
+___
+
+### type
+
+• `Readonly` **type**: `string`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[type](../interfaces/IEditorScaleEvent.md#type)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[type](EditorEvent.md#type)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L9)
+
+___
+
+### current
+
+• `Readonly` **current**: [`IEventTarget`](../interfaces/IEventTarget.md)
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[current](../interfaces/IEditorScaleEvent.md#current)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[current](EditorEvent.md#current)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L11)
+
+___
+
+### bubbles
+
+• `Readonly` **bubbles**: `boolean` = `false`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[bubbles](../interfaces/IEditorScaleEvent.md#bubbles)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[bubbles](EditorEvent.md#bubbles)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L13)
+
+___
+
+### phase
+
+• `Readonly` **phase**: `number`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[phase](../interfaces/IEditorScaleEvent.md#phase)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[phase](EditorEvent.md#phase)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L14)
+
+___
+
+### isStopDefault
+
+• **isStopDefault**: `boolean`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[isStopDefault](../interfaces/IEditorScaleEvent.md#isstopdefault)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[isStopDefault](EditorEvent.md#isstopdefault)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L16)
+
+___
+
+### isStop
+
+• **isStop**: `boolean`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[isStop](../interfaces/IEditorScaleEvent.md#isstop)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[isStop](EditorEvent.md#isstop)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L17)
+
+___
+
+### isStopNow
+
+• **isStopNow**: `boolean`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[isStopNow](../interfaces/IEditorScaleEvent.md#isstopnow)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[isStopNow](EditorEvent.md#isstopnow)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L18)
+
+## Accessors
+
+### list
+
+• `get` **list**(): [`IUI`](../interfaces/IUI.md)[]
+
+#### Returns
+
+[`IUI`](../interfaces/IUI.md)[]
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[list](../interfaces/IEditorScaleEvent.md#list)
+
+#### Inherited from
+
+EditorEvent.list
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:22](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L22)
+
+___
+
+### oldList
+
+• `get` **oldList**(): [`IUI`](../interfaces/IUI.md)[]
+
+#### Returns
+
+[`IUI`](../interfaces/IUI.md)[]
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[oldList](../interfaces/IEditorScaleEvent.md#oldlist)
+
+#### Inherited from
+
+EditorEvent.oldList
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorEvent.ts:23](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/event/EditorEvent.ts#L23)
+
+## Methods
+
+### stopDefault
+
+▸ **stopDefault**(): `void`
+
+#### Returns
+
+`void`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[stopDefault](../interfaces/IEditorScaleEvent.md#stopdefault)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[stopDefault](EditorEvent.md#stopdefault)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L25)
+
+___
+
+### stopNow
+
+▸ **stopNow**(): `void`
+
+#### Returns
+
+`void`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[stopNow](../interfaces/IEditorScaleEvent.md#stopnow)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[stopNow](EditorEvent.md#stopnow)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L30)
+
+___
+
+### stop
+
+▸ **stop**(): `void`
+
+#### Returns
+
+`void`
+
+#### Implementation of
+
+[IEditorScaleEvent](../interfaces/IEditorScaleEvent.md).[stop](../interfaces/IEditorScaleEvent.md#stop)
+
+#### Inherited from
+
+[EditorEvent](EditorEvent.md).[stop](EditorEvent.md#stop)
+
+#### Defined in
+
+[leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/a596007/packages/event/src/Event.ts#L36)

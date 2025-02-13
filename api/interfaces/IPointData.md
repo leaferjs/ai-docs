@@ -1,0 +1,44 @@
+# Interface: IPointData
+
+## Hierarchy
+
+- **`IPointData`**
+
+  ↳ [`IPoint`](IPoint.md)
+
+  ↳ [`IUnitPointData`](IUnitPointData.md)
+
+  ↳ [`IRotationPointData`](IRotationPointData.md)
+
+  ↳ [`IRadiusPointData`](IRadiusPointData.md)
+
+  ↳ [`IBoundsData`](IBoundsData.md)
+
+  ↳ [`ILayoutData`](ILayoutData.md)
+
+## Table of contents
+
+### Properties
+
+- [x](IPointData.md#x)
+- [y](IPointData.md#y)
+
+## Properties
+
+### x
+
+• **x**: `number`
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:5](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L5)
+
+___
+
+### y
+
+• **y**: `number`
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:6](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L6)
