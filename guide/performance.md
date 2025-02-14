@@ -86,4 +86,4 @@ console.log(`创建100万个矩形用时：`, Date.now() - startTime, '毫秒')
 
 ## 下一步
 
-### [快速入门](/guide/basic/leafer)
+### [快速入门](/guide/basic/leafer.md)

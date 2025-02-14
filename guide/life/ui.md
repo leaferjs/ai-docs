@@ -10,7 +10,7 @@
 
 ## 示例
 
-生命周期中的不同状态会通过 [ChildEvent](/reference/event/basic/Child)、 [PropertyEvent](/reference/event/basic/Property) 进行通知。
+生命周期中的不同状态会通过 [ChildEvent](/reference/event/basic/Child.md)、 [PropertyEvent](/reference/event/basic/Property.md) 进行通知。
 
 ### 监听元素生命周期事件
 
@@ -81,4 +81,4 @@ rect.on('unmounted', () => {
 
 ## 下一步
 
-### [应用周期](/guide/life/app)
+### [应用周期](/guide/life/app.md)

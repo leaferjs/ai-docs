@@ -185,4 +185,4 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 
 ## 下一步
 
-### [创建元素](/guide/basic/display)
+### [创建元素](/guide/basic/display.md)

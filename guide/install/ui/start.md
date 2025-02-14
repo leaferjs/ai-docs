@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # leafer-ui
 
-### web 版 &nbsp; &nbsp; [worker 版](/guide/install/ui/worker/start) &nbsp; &nbsp; [node 版](/guide/install/ui/node/start) &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start)
+### web 版 &nbsp; &nbsp; [worker 版](/guide/install/ui/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/ui/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start.md)
 
 ##
 
@@ -157,4 +157,4 @@ leafer.add(rect)
 
 ## 下一步
 
-### [体验性能](/guide/performance)
+### [体验性能](/guide/performance.md)
