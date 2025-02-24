@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:15](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L15)
+[leafer/packages/math/src/AutoBounds.ts:15](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L15)
 
 ## Properties
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:7](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L7)
+[leafer/packages/math/src/AutoBounds.ts:7](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L7)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:8](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L8)
+[leafer/packages/math/src/AutoBounds.ts:8](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L8)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:9](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L9)
+[leafer/packages/math/src/AutoBounds.ts:9](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L9)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:10](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L10)
+[leafer/packages/math/src/AutoBounds.ts:10](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L10)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:12](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L12)
+[leafer/packages/math/src/AutoBounds.ts:12](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L12)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:13](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L13)
+[leafer/packages/math/src/AutoBounds.ts:13](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L13)
 
 ## Methods
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:19](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L19)
+[leafer/packages/math/src/AutoBounds.ts:19](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L19)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:28](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L28)
+[leafer/packages/math/src/AutoBounds.ts:28](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L28)
 
 ___
 
@@ -205,4 +205,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/AutoBounds.ts:33](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/AutoBounds.ts#L33)
+[leafer/packages/math/src/AutoBounds.ts:33](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/AutoBounds.ts#L33)

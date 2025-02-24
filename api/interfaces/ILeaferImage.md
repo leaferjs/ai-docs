@@ -26,6 +26,7 @@
 
 - [load](ILeaferImage.md#load)
 - [unload](ILeaferImage.md#unload)
+- [getFull](ILeaferImage.md#getfull)
 - [getCanvas](ILeaferImage.md#getcanvas)
 - [getPattern](ILeaferImage.md#getpattern)
 - [destroy](ILeaferImage.md#destroy)
@@ -38,7 +39,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:31](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L31)
+[leafer/packages/interface/src/image/ILeaferImage.ts:33](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L33)
 
 ___
 
@@ -48,17 +49,17 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:32](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L32)
+[leafer/packages/interface/src/image/ILeaferImage.ts:34](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L34)
 
 ___
 
 ### view
 
-• **view**: `unknown`
+• **view**: `any`
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:34](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L34)
+[leafer/packages/interface/src/image/ILeaferImage.ts:36](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L36)
 
 ___
 
@@ -68,7 +69,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:35](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L35)
+[leafer/packages/interface/src/image/ILeaferImage.ts:37](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L37)
 
 ___
 
@@ -78,7 +79,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:36](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L36)
+[leafer/packages/interface/src/image/ILeaferImage.ts:38](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L38)
 
 ___
 
@@ -88,7 +89,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:38](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L38)
+[leafer/packages/interface/src/image/ILeaferImage.ts:40](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L40)
 
 ___
 
@@ -98,7 +99,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:39](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L39)
+[leafer/packages/interface/src/image/ILeaferImage.ts:41](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L41)
 
 ___
 
@@ -108,7 +109,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:41](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L41)
+[leafer/packages/interface/src/image/ILeaferImage.ts:43](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L43)
 
 ___
 
@@ -118,7 +119,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:42](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L42)
+[leafer/packages/interface/src/image/ILeaferImage.ts:44](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L44)
 
 ___
 
@@ -128,7 +129,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:43](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L43)
+[leafer/packages/interface/src/image/ILeaferImage.ts:45](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L45)
 
 ___
 
@@ -138,7 +139,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:44](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L44)
+[leafer/packages/interface/src/image/ILeaferImage.ts:46](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L46)
 
 ___
 
@@ -148,7 +149,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:46](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L46)
+[leafer/packages/interface/src/image/ILeaferImage.ts:48](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L48)
 
 ___
 
@@ -158,7 +159,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:47](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L47)
+[leafer/packages/interface/src/image/ILeaferImage.ts:49](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L49)
 
 ## Methods
 
@@ -179,7 +180,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:49](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L49)
+[leafer/packages/interface/src/image/ILeaferImage.ts:51](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L51)
 
 ___
 
@@ -200,13 +201,33 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:50](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L50)
+[leafer/packages/interface/src/image/ILeaferImage.ts:52](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L52)
+
+___
+
+### getFull
+
+▸ **getFull**(`filters?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `filters?` | [`IObject`](IObject.md) |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+[leafer/packages/interface/src/image/ILeaferImage.ts:53](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L53)
 
 ___
 
 ### getCanvas
 
-▸ **getCanvas**(`width`, `height`, `opacity?`, `_filters?`): `unknown`
+▸ **getCanvas**(`width`, `height`, `opacity?`, `filters?`): `any`
 
 #### Parameters
 
@@ -215,15 +236,15 @@ ___
 | `width` | `number` |
 | `height` | `number` |
 | `opacity?` | `number` |
-| `_filters?` | [`IObject`](IObject.md) |
+| `filters?` | [`IObject`](IObject.md) |
 
 #### Returns
 
-`unknown`
+`any`
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:51](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L51)
+[leafer/packages/interface/src/image/ILeaferImage.ts:54](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L54)
 
 ___
 
@@ -246,7 +267,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:52](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L52)
+[leafer/packages/interface/src/image/ILeaferImage.ts:55](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L55)
 
 ___
 
@@ -260,4 +281,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:53](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L53)
+[leafer/packages/interface/src/image/ILeaferImage.ts:56](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L56)

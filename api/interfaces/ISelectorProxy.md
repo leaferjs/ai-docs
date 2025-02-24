@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:45](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/selector/ISelector.ts#L45)
+[leafer/packages/interface/src/selector/ISelector.ts:45](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/selector/ISelector.ts#L45)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:46](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/selector/ISelector.ts#L46)
+[leafer/packages/interface/src/selector/ISelector.ts:46](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/selector/ISelector.ts#L46)

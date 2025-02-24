@@ -12,7 +12,17 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 📘 [绝境中盛开，LeaferJS 的创业故事](/blog/2024-04-08.md)
 
-如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/leafer-ui) 🌟 ，让这个库被更多的人看见 - [GitHub](https://github.com/leaferjs/leafer-ui) / [Gitee](https://gitee.com/leaferjs/ui) ✨ ✨ ✨
+如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/leafer-ui) 🌟 ，让这个库被更多的人看见 ✨ ✨ ✨
+
+<div style="display:flex; gap: 12px">
+<a target="_blank" href="https://github.com/leaferjs/leafer-ui">
+  <img width="120" title="github" src="https://www.leaferjs.com/svg/github-stars.svg" />
+</a>
+
+<a target="_blank" href="https://gitee.com/leaferjs/leafer-ui">
+  <img width="100" title="gitee" src="https://gitee.com/leaferjs/leafer-ui/badge/star.svg?theme=white" />
+</a>
+</div>
 
 ## 快速入门
 
@@ -28,13 +38,13 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 🚀 想马上在产品中使用，请安装 [leafer-ui](/guide/install/ui/start.md) （60KB min+gzip），开始你的探索之旅。
 
-### 场景集成包
+<!-- ### 场景集成包
 
 高效绘图场景，推荐直接安装更轻量的 [leafer-draw](/guide/install/draw/start.md) （50KB min+gzip）。
 
 游戏开发场景，推荐直接安装更省心的 [leafer-game](/guide/install/game/start.md)，已集成了游戏相关插件。
 
-图形编辑场景，推荐直接安装更省心的 [leafer-editor](/guide/install/editor/start.md)，已集成了图形编辑器相关插件。
+图形编辑场景，推荐直接安装更省心的 [leafer-editor](/guide/install/editor/start.md)，已集成了图形编辑器相关插件。 -->
 
 ## 社区提问指南
 
@@ -49,7 +59,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.0
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.1
 
 复现步骤：请提供详细的复现逻辑及可直接运行的代码，以便更快解决问题。
 :::
@@ -67,7 +77,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【leaferjs】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.0
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.1
 
 #LeaferJS （点击知乎提问框底部的 # 号，可绑定话题）
 :::

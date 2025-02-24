@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:64](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L64)
+[in/packages/interface/src/editor/IEditor.ts:64](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L64)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:65](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L65)
+[in/packages/interface/src/editor/IEditor.ts:65](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L65)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:67](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L67)
+[in/packages/interface/src/editor/IEditor.ts:67](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L67)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:68](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L68)
+[in/packages/interface/src/editor/IEditor.ts:68](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L68)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:69](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L69)
+[in/packages/interface/src/editor/IEditor.ts:69](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L69)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:70](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L70)
+[in/packages/interface/src/editor/IEditor.ts:70](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L70)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:72](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L72)
+[in/packages/interface/src/editor/IEditor.ts:72](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L72)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:73](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L73)
+[in/packages/interface/src/editor/IEditor.ts:73](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L73)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:112](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L112)
+[in/packages/interface/src/editor/IEditor.ts:112](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L112)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:113](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L113)
+[in/packages/interface/src/editor/IEditor.ts:113](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L113)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-[in/packages/interface/src/editor/IEditor.ts:114](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/interface/src/editor/IEditor.ts#L114)
+[in/packages/interface/src/editor/IEditor.ts:114](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/interface/src/editor/IEditor.ts#L114)
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:11](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L11)
+[leafer/packages/interface/src/event/IEvent.ts:11](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L11)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:13](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L13)
+[leafer/packages/interface/src/event/IEvent.ts:13](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L13)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:15](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L15)
+[leafer/packages/interface/src/event/IEvent.ts:15](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L15)
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:16](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L16)
+[leafer/packages/interface/src/event/IEvent.ts:16](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L16)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:18](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L18)
+[leafer/packages/interface/src/event/IEvent.ts:18](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L18)
 
 ___
 
@@ -263,7 +263,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:19](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L19)
+[leafer/packages/interface/src/event/IEvent.ts:19](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L19)
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:20](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L20)
+[leafer/packages/interface/src/event/IEvent.ts:20](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L20)
 
 ## Methods
 
@@ -295,7 +295,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:21](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L21)
+[leafer/packages/interface/src/event/IEvent.ts:21](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L21)
 
 ___
 
@@ -313,7 +313,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:22](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L22)
+[leafer/packages/interface/src/event/IEvent.ts:22](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L22)
 
 ___
 
@@ -331,4 +331,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:23](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/event/IEvent.ts#L23)
+[leafer/packages/interface/src/event/IEvent.ts:23](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/event/IEvent.ts#L23)

@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IExport.ts:5](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/module/IExport.ts#L5)
+[ui/packages/interface/src/module/IExport.ts:5](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/module/IExport.ts#L5)
 
 ## Methods
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IExport.ts:6](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/module/IExport.ts#L6)
+[ui/packages/interface/src/module/IExport.ts:6](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/module/IExport.ts#L6)

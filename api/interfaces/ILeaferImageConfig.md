@@ -7,6 +7,7 @@
 - [url](ILeaferImageConfig.md#url)
 - [thumb](ILeaferImageConfig.md#thumb)
 - [format](ILeaferImageConfig.md#format)
+- [view](ILeaferImageConfig.md#view)
 
 ## Properties
 
@@ -16,7 +17,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:8](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L8)
+[leafer/packages/interface/src/image/ILeaferImage.ts:9](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L9)
 
 ___
 
@@ -26,7 +27,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:9](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L9)
+[leafer/packages/interface/src/image/ILeaferImage.ts:10](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L10)
 
 ___
 
@@ -36,4 +37,14 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:10](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/image/ILeaferImage.ts#L10)
+[leafer/packages/interface/src/image/ILeaferImage.ts:11](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L11)
+
+___
+
+### view
+
+• `Optional` **view**: [`IObject`](IObject.md) \| [`ILeaferCanvas`](ILeaferCanvas.md) \| [`ILeaferImage`](ILeaferImage.md)
+
+#### Defined in
+
+[leafer/packages/interface/src/image/ILeaferImage.ts:12](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/image/ILeaferImage.ts#L12)

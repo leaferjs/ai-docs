@@ -133,8 +133,6 @@ import { Leafer, Rect } from 'leafer-ui'
 const leafer = new Leafer({
     view: window,
     grow: true, // 自动生长 // [!code hl:3] 
-    // growWidth: true, // 进一步细化宽度是否生长， 默认同 grow
-    // growHeight: true  // 进一步细化高度是否生长， 默认同 grow
     fill: '#333'
 })
 
@@ -148,9 +146,8 @@ import { Leafer, Rect } from 'leafer-ui'
 // 宽度自动生长, 高度固定不变
 const leafer = new Leafer({
     view: window,
-    height: 200,
     grow: true, // 自动生长 // [!code hl:3] 
-    growHeight: false,  // 单独阻止高度自动生长
+    height: 200,  // 固定高度
     fill: '#333'
 })
 
@@ -164,9 +161,8 @@ import { Leafer, Rect } from 'leafer-ui'
 // 高度自动生长, 宽度固定不变
 const leafer = new Leafer({
     view: window,
-    width: 200,
     grow: true, // 自动生长 // [!code hl:3] 
-    growWidth: false,  // 单独阻止宽度自动生长
+    width: 200,  // 固定宽度
     fill: '#333'
 })
 

@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:3](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L3)
+[leafer/packages/interface/src/path/IPathDrawer.ts:3](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L3)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:5](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L5)
+[leafer/packages/interface/src/path/IPathDrawer.ts:5](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L5)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:6](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L6)
+[leafer/packages/interface/src/path/IPathDrawer.ts:6](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L6)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:7](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L7)
+[leafer/packages/interface/src/path/IPathDrawer.ts:7](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L7)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:8](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L8)
+[leafer/packages/interface/src/path/IPathDrawer.ts:8](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L8)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:9](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L9)
+[leafer/packages/interface/src/path/IPathDrawer.ts:9](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L9)
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:11](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L11)
+[leafer/packages/interface/src/path/IPathDrawer.ts:11](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L11)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:12](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L12)
+[leafer/packages/interface/src/path/IPathDrawer.ts:12](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L12)
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:13](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L13)
+[leafer/packages/interface/src/path/IPathDrawer.ts:13](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L13)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:15](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L15)
+[leafer/packages/interface/src/path/IPathDrawer.ts:15](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L15)
 
 ___
 
@@ -263,4 +263,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/path/IPathDrawer.ts:16](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/path/IPathDrawer.ts#L16)
+[leafer/packages/interface/src/path/IPathDrawer.ts:16](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/path/IPathDrawer.ts#L16)

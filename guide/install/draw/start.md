@@ -1,12 +1,14 @@
 # leafer-draw
 
+相对 [leafer-ui](/guide/install/ui/start.md)，减少了 [App](/reference/display/App.md) 、事件交互等功能，适用于纯绘图场景（50KB min+gzip）。
+
+##
+
 ### web 版 &nbsp; &nbsp; [worker 版](/guide/install/draw/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/draw/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/draw/miniapp/start.md)
 
 ##
 
 在 Web 环境中运行，已适配移动端。
-
-相对 [leafer-ui](/guide/install/ui/start.md)，减少了 [App](/reference/display/App.md) 、查找元素、事件交互等功能，适用于纯绘图场景。
 
 ## 安装
 
@@ -36,7 +38,7 @@ bun add leafer-draw
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-draw@1.4.0/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-draw@1.4.1/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI
   // ...
@@ -44,7 +46,7 @@ bun add leafer-draw
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-draw@1.4.0/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-draw@1.4.1/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI
   // ...
@@ -53,14 +55,14 @@ bun add leafer-draw
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.0/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.1/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.0/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.1/dist/web.module.js'
   // ...
 </script>
 ```

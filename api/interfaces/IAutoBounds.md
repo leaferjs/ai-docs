@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:135](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L135)
+[leafer/packages/interface/src/math/IMath.ts:135](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L135)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:136](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L136)
+[leafer/packages/interface/src/math/IMath.ts:136](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L136)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:137](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L137)
+[leafer/packages/interface/src/math/IMath.ts:137](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L137)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:138](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L138)
+[leafer/packages/interface/src/math/IMath.ts:138](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L138)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:143](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L143)
+[leafer/packages/interface/src/math/IMath.ts:143](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L143)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:144](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L144)
+[leafer/packages/interface/src/math/IMath.ts:144](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L144)
 
 ## Methods
 
@@ -134,7 +134,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:149](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L149)
+[leafer/packages/interface/src/math/IMath.ts:149](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L149)
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:150](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L150)
+[leafer/packages/interface/src/math/IMath.ts:150](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L150)
 
 ___
 
@@ -174,4 +174,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:151](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L151)
+[leafer/packages/interface/src/math/IMath.ts:151](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L151)

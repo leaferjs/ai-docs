@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:174](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L174)
+[leafer/packages/interface/src/math/IMath.ts:174](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L174)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:175](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/math/IMath.ts#L175)
+[leafer/packages/interface/src/math/IMath.ts:175](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/math/IMath.ts#L175)

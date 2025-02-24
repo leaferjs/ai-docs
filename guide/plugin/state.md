@@ -22,7 +22,7 @@ import { Leafer, Box } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件
 import '@leafer-in/animate' // 导入动画插件
 
-const leafer = new Leafer({ view: window, fill: '#333' })
+const leafer = new Leafer({ view: window })
 
 const box = new Box({
     x: 100,

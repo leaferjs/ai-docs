@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:108](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L108)
+[leafer/packages/interface/src/app/ILeafer.ts:107](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/app/ILeafer.ts#L107)
 
 ## Methods
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:109](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L109)
+[leafer/packages/interface/src/app/ILeafer.ts:108](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/app/ILeafer.ts#L108)
 
 ___
 
@@ -61,4 +61,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:110](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/app/ILeafer.ts#L110)
+[leafer/packages/interface/src/app/ILeafer.ts:109](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/app/ILeafer.ts#L109)

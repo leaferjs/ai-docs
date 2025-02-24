@@ -76,7 +76,7 @@
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:17](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L17)
+[leafer/packages/math/src/Bounds.ts:17](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L17)
 
 ## Properties
 
@@ -90,7 +90,7 @@
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:7](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L7)
+[leafer/packages/math/src/Bounds.ts:7](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L7)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:8](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L8)
+[leafer/packages/math/src/Bounds.ts:8](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L8)
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:9](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L9)
+[leafer/packages/math/src/Bounds.ts:9](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L9)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:10](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L10)
+[leafer/packages/math/src/Bounds.ts:10](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L10)
 
 ## Accessors
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:12](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L12)
+[leafer/packages/math/src/Bounds.ts:12](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L12)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:13](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L13)
+[leafer/packages/math/src/Bounds.ts:13](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L13)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:14](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L14)
+[leafer/packages/math/src/Bounds.ts:14](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L14)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:15](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L15)
+[leafer/packages/math/src/Bounds.ts:15](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L15)
 
 ## Methods
 
@@ -231,7 +231,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:21](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L21)
+[leafer/packages/math/src/Bounds.ts:21](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L21)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:26](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L26)
+[leafer/packages/math/src/Bounds.ts:26](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L26)
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:31](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L31)
+[leafer/packages/math/src/Bounds.ts:31](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L31)
 
 ___
 
@@ -292,7 +292,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:36](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L36)
+[leafer/packages/math/src/Bounds.ts:36](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L36)
 
 ___
 
@@ -317,7 +317,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:41](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L41)
+[leafer/packages/math/src/Bounds.ts:41](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L41)
 
 ___
 
@@ -343,7 +343,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:46](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L46)
+[leafer/packages/math/src/Bounds.ts:46](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L46)
 
 ___
 
@@ -368,7 +368,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:51](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L51)
+[leafer/packages/math/src/Bounds.ts:51](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L51)
 
 ___
 
@@ -393,7 +393,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:56](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L56)
+[leafer/packages/math/src/Bounds.ts:56](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L56)
 
 ___
 
@@ -418,7 +418,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:61](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L61)
+[leafer/packages/math/src/Bounds.ts:61](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L61)
 
 ___
 
@@ -443,7 +443,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:65](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L65)
+[leafer/packages/math/src/Bounds.ts:65](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L65)
 
 ___
 
@@ -468,7 +468,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:70](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L70)
+[leafer/packages/math/src/Bounds.ts:70](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L70)
 
 ___
 
@@ -486,7 +486,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:75](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L75)
+[leafer/packages/math/src/Bounds.ts:75](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L75)
 
 ___
 
@@ -504,7 +504,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:80](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L80)
+[leafer/packages/math/src/Bounds.ts:80](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L80)
 
 ___
 
@@ -528,7 +528,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:85](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L85)
+[leafer/packages/math/src/Bounds.ts:85](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L85)
 
 ___
 
@@ -552,7 +552,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:91](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L91)
+[leafer/packages/math/src/Bounds.ts:91](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L91)
 
 ___
 
@@ -576,7 +576,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:96](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L96)
+[leafer/packages/math/src/Bounds.ts:96](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L96)
 
 ___
 
@@ -600,7 +600,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:101](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L101)
+[leafer/packages/math/src/Bounds.ts:101](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L101)
 
 ___
 
@@ -625,7 +625,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:106](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L106)
+[leafer/packages/math/src/Bounds.ts:106](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L106)
 
 ___
 
@@ -650,7 +650,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:111](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L111)
+[leafer/packages/math/src/Bounds.ts:111](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L111)
 
 ___
 
@@ -674,7 +674,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:117](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L117)
+[leafer/packages/math/src/Bounds.ts:117](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L117)
 
 ___
 
@@ -698,7 +698,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:122](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L122)
+[leafer/packages/math/src/Bounds.ts:122](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L122)
 
 ___
 
@@ -722,7 +722,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:127](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L127)
+[leafer/packages/math/src/Bounds.ts:127](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L127)
 
 ___
 
@@ -740,7 +740,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:132](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L132)
+[leafer/packages/math/src/Bounds.ts:132](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L132)
 
 ___
 
@@ -765,7 +765,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:138](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L138)
+[leafer/packages/math/src/Bounds.ts:138](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L138)
 
 ___
 
@@ -790,7 +790,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:142](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L142)
+[leafer/packages/math/src/Bounds.ts:142](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L142)
 
 ___
 
@@ -815,7 +815,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:146](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L146)
+[leafer/packages/math/src/Bounds.ts:146](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L146)
 
 ___
 
@@ -840,7 +840,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:150](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L150)
+[leafer/packages/math/src/Bounds.ts:150](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L150)
 
 ___
 
@@ -865,7 +865,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:155](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L155)
+[leafer/packages/math/src/Bounds.ts:155](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L155)
 
 ___
 
@@ -890,7 +890,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:160](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L160)
+[leafer/packages/math/src/Bounds.ts:160](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L160)
 
 ___
 
@@ -914,7 +914,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:165](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L165)
+[leafer/packages/math/src/Bounds.ts:165](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L165)
 
 ___
 
@@ -932,7 +932,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:169](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L169)
+[leafer/packages/math/src/Bounds.ts:169](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L169)
 
 ___
 
@@ -950,4 +950,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Bounds.ts:173](https://github.com/leaferjs/leafer/blob/a596007/packages/math/src/Bounds.ts#L173)
+[leafer/packages/math/src/Bounds.ts:173](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/math/src/Bounds.ts#L173)

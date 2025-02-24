@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[ui/packages/interface/src/editor/IEditor.ts:172](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/editor/IEditor.ts#L172)
+[ui/packages/interface/src/editor/IEditor.ts:172](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/editor/IEditor.ts#L172)

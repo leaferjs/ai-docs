@@ -19,4 +19,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:41](https://github.com/leaferjs/leafer/blob/a596007/packages/interface/src/selector/ISelector.ts#L41)
+[leafer/packages/interface/src/selector/ISelector.ts:41](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/selector/ISelector.ts#L41)

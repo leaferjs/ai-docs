@@ -68,7 +68,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:28](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L28)
+[in/packages/editor/src/tool/InnerEditor.ts:28](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L28)
 
 ## Properties
 
@@ -86,7 +86,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L16)
+[in/packages/editor/src/tool/InnerEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L16)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:18](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L18)
+[in/packages/editor/src/tool/InnerEditor.ts:18](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L18)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L20)
+[in/packages/editor/src/tool/InnerEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L20)
 
 ___
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L23)
+[in/packages/editor/src/tool/InnerEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L23)
 
 ___
 
@@ -158,7 +158,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:25](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L25)
+[in/packages/editor/src/tool/InnerEditor.ts:25](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L25)
 
 ## Accessors
 
@@ -180,7 +180,7 @@ InnerEditor.tag
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:15](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L15)
+[in/packages/editor/src/tool/EditTool.ts:15](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L15)
 
 ___
 
@@ -202,7 +202,7 @@ InnerEditor.editBox
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:21](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L21)
+[in/packages/editor/src/tool/InnerEditor.ts:21](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L21)
 
 ## Methods
 
@@ -216,7 +216,7 @@ InnerEditor.editBox
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:10](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L10)
+[in/packages/editor/src/tool/EditTool.ts:10](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L10)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:20](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L20)
+[in/packages/editor/src/tool/EditTool.ts:20](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L20)
 
 ___
 
@@ -264,7 +264,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:30](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L30)
+[in/packages/editor/src/tool/EditTool.ts:30](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L30)
 
 ___
 
@@ -288,7 +288,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:45](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L45)
+[in/packages/editor/src/tool/EditTool.ts:45](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L45)
 
 ___
 
@@ -312,7 +312,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:60](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L60)
+[in/packages/editor/src/tool/EditTool.ts:60](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L60)
 
 ___
 
@@ -334,7 +334,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:77](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L77)
+[in/packages/editor/src/tool/EditTool.ts:77](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L77)
 
 ___
 
@@ -356,7 +356,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:82](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L82)
+[in/packages/editor/src/tool/EditTool.ts:82](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L82)
 
 ___
 
@@ -378,7 +378,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:90](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/EditTool.ts#L90)
+[in/packages/editor/src/tool/EditTool.ts:90](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/EditTool.ts#L90)
 
 ___
 
@@ -396,7 +396,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:9](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L9)
+[in/packages/editor/src/tool/InnerEditor.ts:9](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L9)
 
 ___
 
@@ -418,7 +418,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:34](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L34)
+[in/packages/editor/src/tool/InnerEditor.ts:34](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L34)
 
 ___
 
@@ -440,7 +440,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:35](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L35)
+[in/packages/editor/src/tool/InnerEditor.ts:35](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L35)
 
 ___
 
@@ -462,7 +462,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:43](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L43)
+[in/packages/editor/src/tool/InnerEditor.ts:43](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L43)
 
 ___
 
@@ -484,7 +484,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:52](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L52)
+[in/packages/editor/src/tool/InnerEditor.ts:52](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L52)
 
 ___
 
@@ -502,7 +502,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:55](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L55)
+[in/packages/editor/src/tool/InnerEditor.ts:55](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L55)
 
 ___
 
@@ -524,7 +524,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:64](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L64)
+[in/packages/editor/src/tool/InnerEditor.ts:64](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L64)
 
 ___
 
@@ -546,4 +546,4 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:65](https://github.com/leaferjs/leafer-in/blob/daed4bb/packages/editor/src/tool/InnerEditor.ts#L65)
+[in/packages/editor/src/tool/InnerEditor.ts:65](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/tool/InnerEditor.ts#L65)

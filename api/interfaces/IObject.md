@@ -8,6 +8,8 @@
 
   ↳ [`IEditorConfig`](IEditorConfig.md)
 
+  ↳ [`IFilter`](IFilter.md)
+
   ↳ [`IMiniappSelect`](IMiniappSelect.md)
 
   ↳ [`IPlugin`](IPlugin.md)

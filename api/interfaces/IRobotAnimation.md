@@ -16,7 +16,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/IUI.ts:111](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/IUI.ts#L111)
+[ui/packages/interface/src/IUI.ts:111](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/IUI.ts#L111)
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IUI.ts:112](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/IUI.ts#L112)
+[ui/packages/interface/src/IUI.ts:112](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/IUI.ts#L112)
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IUI.ts:113](https://github.com/leaferjs/leafer-ui/blob/d1253e2/packages/interface/src/IUI.ts#L113)
+[ui/packages/interface/src/IUI.ts:113](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/IUI.ts#L113)
