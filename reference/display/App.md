@@ -53,7 +53,7 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 ## 预留属性
 
-### editor: [`IEditor`](/plugin/in/editor/Editor.md)
+### editor: [`IEditor`](/plugin/in/editor/index.md)
 
 图形编辑器实例，需安装 [图形编辑器](/plugin/in/editor/index.md) 。
 
@@ -63,7 +63,7 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 缩放平移视图层， 默认使用 app.tree.zoomLayer 作为缩放平移层。
 
-可以手动修改它的 [x](/reference/property/layout.md)、[y](/reference/property/layout.md)、[scale](/reference/property/layout.md#scale-number-ipointdata)、[scaleX](/reference/property/layout.md#scalex-number)、[scaleY](/reference/property/layout.md#scaley-number) 属性进行缩放平移视图。
+可以手动修改它的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scale](/reference/UI/layout.md#scale-number-ipointdata)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 属性进行缩放平移视图。
 
 另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
@@ -113,7 +113,7 @@ import '@leafer-in/viewport' // 导入视口插件(可选)
 
 const app = new App({ // [!code hl:6]
     view: window,
-    fill: '#F2F2F2', // 背景色
+    fill: '#333', // 背景色
     tree: { type: 'design' }, // 添加 tree 层
     sky: {}  // 添加 sky 层
 })
@@ -136,7 +136,7 @@ import '@leafer-in/viewport' // 导入视口插件(可选)
 
 const app = new App({ // [!code hl:7]
     view: window,
-    fill: '#F2F2F2',
+    fill: '#333',
     editor: {},  //  配置 editor 会自动创建并添加 app.editor 实例、tree 层、sky 层
     //  tree: { type: 'design' },
     //  sky: {}
@@ -159,7 +159,7 @@ import { App, Leafer, Frame, Rect } from 'leafer-ui'
 import { Editor } from '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件(可选)
 
-const app = new App({ view: window, fill: '#F2F2F2' }) // [!code hl:4]
+const app = new App({ view: window, fill: '#333' }) // [!code hl:4]
 
 app.add(app.tree = new Leafer({ type: 'design' })) // 添加 tree 层
 app.add(app.sky = new Leafer())  // 添加 sky 层

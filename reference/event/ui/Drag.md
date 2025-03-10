@@ -114,7 +114,7 @@ totalX, totalY 属性的转换。
 
 ### getPageBounds ( ): [`IBoundsData`](/reference/interface/math/Math.md#iboundsdata)
 
-获取事件在 page 坐标系中形成的拖拽区域，可用于快速 [创建图形](/plugin/in/editor/Editor.md#创建图形模式)。
+获取事件在 page 坐标系中形成的拖拽区域，可用于快速 [创建图形](/plugin/in/editor/index.md#创建图形模式)。
 
 ## 静态方法
 
@@ -138,7 +138,7 @@ totalX, totalY 属性的转换。
 
 ### 手动拖拽元素
 
-默认 [drggable](/reference/property/draggable.md) 为 true 或 [DragEvent.setList()](./Drag.md#静态方法) 的元素会自动拖拽。
+默认 [drggable](/reference/UI/draggable.md) 为 true 或 [DragEvent.setList()](./Drag.md#静态方法) 的元素会自动拖拽。
 
 ::: code-group
 ```ts
@@ -191,14 +191,17 @@ leafer.interaction.isDrag(leaf)
 import { Leafer, DragEvent, Pen } from 'leafer-ui'
 import '@leafer-in/viewport'
 
-const leafer = new Leafer({ view: window, type: 'design' })
+const leafer = new Leafer({ view: window, type: 'design', fill: '#333', })
+
+leafer.add({ tag: 'Text', x: 100, y: 100, text: '按下鼠标拖动开始画线，抬起结束', fill: '#999', fontSize: 16 })
 
 const pen = new Pen()
 leafer.add(pen)
 
+// 按下鼠标拖动开始画线，抬起结束，当缩放平移视图后，仍然可以准确绘制新的线条
 leafer.on(DragEvent.START, (e: DragEvent) => {
     const point = e.getPagePoint() // 转换事件为 page 坐标 = pen.getPagePoint(e)  // [!code hl]
-    pen.setStyle({ stroke: 'black', strokeWidth: 10, strokeCap: 'round', strokeJoin: 'round' })
+    pen.setStyle({ stroke: '#32cd79', strokeWidth: 10, strokeCap: 'round', strokeJoin: 'round' })
     pen.moveTo(point.x, point.y)
 })
 
@@ -212,14 +215,17 @@ leafer.on(DragEvent.DRAG, (e: DragEvent) => {
 import { Leafer, DragEvent, Pen } from 'leafer-ui'
 import '@leafer-in/viewport'
 
-const leafer = new Leafer({ view: window, type: 'design' })
+const leafer = new Leafer({ view: window, type: 'design', fill: '#333', })
+
+leafer.add({ tag: 'Text', x: 100, y: 100, text: '按下鼠标拖动开始画线，抬起结束', fill: '#999', fontSize: 16 })
 
 const pen = new Pen()
 leafer.add(pen)
 
+// 按下鼠标拖动开始画线，抬起结束，当缩放平移视图后，仍然可以准确绘制新的线条
 leafer.on(DragEvent.START, (e) => {
     const inner = e.getPagePoint() // 转换事件为 page 坐标 = pen.getPagePoint(e)  // [!code hl]
-    pen.setStyle({ stroke: 'black', strokeWidth: 10, strokeCap: 'round', strokeJoin: 'round' })
+    pen.setStyle({ stroke: '#32cd79', strokeWidth: 10, strokeCap: 'round', strokeJoin: 'round' })
     pen.moveTo(inner.x, inner.y)
 })
 

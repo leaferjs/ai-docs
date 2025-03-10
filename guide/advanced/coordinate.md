@@ -1,6 +1,6 @@
 # 转换坐标
 
-当你 [缩放平移视图](/guide/advanced/viewport.md) 后，想在画布中用鼠标创建图形，会发现将 [事件坐标 x, y](/reference/event/ui/Pointer.md#x-number) 给到图形，位置已经不对了，此时就需要用到 [转换坐标](/reference/property/point/index.md) 的功能。
+当你 [缩放平移视图](/guide/advanced/viewport.md) 后，想在画布中用鼠标创建图形，会发现将 [事件坐标 x, y](/reference/event/ui/Pointer.md#x-number) 给到图形，位置已经不对了，此时就需要用到 [转换坐标](/reference/UI/point/index.md) 的功能。
 
 ## 先了解一下坐标系的原理
 
@@ -12,7 +12,7 @@
 
 <br/>
 
-[转换坐标](/reference/property/point/index.md) 的原理就是转换不同层级间的这些属性因子关系，省去手动计算。
+[转换坐标](/reference/UI/point/index.md) 的原理就是转换不同层级间的这些属性因子关系，省去手动计算。
 
 <br/>
 
@@ -49,14 +49,14 @@
 
 ### box 坐标系
 
-在元素、组元素 [box 包围盒](/reference/property/bounds.md#boxbounds-iboundsdata) 内的坐标，以元素实际内容的左上角为起点。
+在元素、组元素 [box 包围盒](/reference/UI/bounds.md#boxbounds-iboundsdata) 内的坐标，以元素实际内容的左上角为起点。
 
 <!--
 ，一般情况下和 inner 坐标一样，当元素内容的起点不是从 inner 坐标（0，0）开始时会有差异，如路径 Path 经常不是从 0,0 开始绘制的。 -->
 
 ## 示例
 
-### 我们通过 画笔工具 的例子， 来了解 [转换坐标](/reference/property/point/index.md) 的作用
+### 我们通过 画笔工具 的例子， 来了解 [转换坐标](/reference/UI/point/index.md) 的作用
 
 按下鼠标拖动开始画线，抬起结束，当缩放平移视图后，仍然可以准确绘制新的线条。
 
@@ -66,14 +66,17 @@
 import { Leafer, DragEvent, Pen } from 'leafer-ui'
 import '@leafer-in/viewport'
 
-const leafer = new Leafer({ view: window, type: 'design' })
+const leafer = new Leafer({ view: window, type: 'design', fill: '#333', })
+
+leafer.add({ tag: 'Text', x: 100, y: 100, text: '按下鼠标拖动开始画线，抬起结束', fill: '#999', fontSize: 16 })
 
 const pen = new Pen()
 leafer.add(pen)
 
+// 按下鼠标拖动开始画线，抬起结束，当缩放平移视图后，仍然可以准确绘制新的线条
 leafer.on(DragEvent.START, (e: DragEvent) => {
     const point = e.getPagePoint() // 转换事件为 page 坐标 = pen.getPagePoint(e)  // [!code hl]
-    pen.setStyle({ stroke: 'black', strokeWidth: 10, strokeCap: 'round', strokeJoin: 'round' })
+    pen.setStyle({ stroke: '#32cd79', strokeWidth: 10, strokeCap: 'round', strokeJoin: 'round' })
     pen.moveTo(point.x, point.y)
 })
 
@@ -87,14 +90,17 @@ leafer.on(DragEvent.DRAG, (e: DragEvent) => {
 import { Leafer, DragEvent, Pen } from 'leafer-ui'
 import '@leafer-in/viewport'
 
-const leafer = new Leafer({ view: window, type: 'design' })
+const leafer = new Leafer({ view: window, type: 'design', fill: '#333', })
+
+leafer.add({ tag: 'Text', x: 100, y: 100, text: '按下鼠标拖动开始画线，抬起结束', fill: '#999', fontSize: 16 })
 
 const pen = new Pen()
 leafer.add(pen)
 
+// 按下鼠标拖动开始画线，抬起结束，当缩放平移视图后，仍然可以准确绘制新的线条
 leafer.on(DragEvent.START, (e) => {
     const inner = e.getPagePoint() // 转换事件为 page 坐标 = pen.getPagePoint(e)  // [!code hl]
-    pen.setStyle({ stroke: 'black', strokeWidth: 10, strokeCap: 'round', strokeJoin: 'round' })
+    pen.setStyle({ stroke: '#32cd79', strokeWidth: 10, strokeCap: 'round', strokeJoin: 'round' })
     pen.moveTo(inner.x, inner.y)
 })
 
@@ -105,11 +111,115 @@ leafer.on(DragEvent.DRAG, (e) => {
 ```
 :::
 
+### 拖拽创建图形
+
+拖拽 dom 元素到画布中创建图形，需要使用浏览器原生坐标转换
+
+::: code-group
+```ts
+// #拖拽创建图形 [添加到 tree]
+import { App, Rect, Ellipse } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件(可选)
+
+// 创建可拖拽的 dom 图形（圆形、矩形）
+document.body.innerHTML = `
+<div id="circle" draggable="true" style="width: 50px; height: 50px; border-radius: 25px; background-color: #32cd79; cursor: move; display: inline-block" ></div>
+<div id="rect" draggable="true" style="width: 50px; height: 50px; background-color: #32cd79; cursor: move; display: inline-block" ></div>
+<div id="leafer" style="position: absolute; top: 70px; right: 0; bottom: 0; left: 0;"></div>
+`
+
+// 创建应用
+const app = new App({ view: 'leafer', fill: '#333', editor: {} })
+
+app.tree.add({ tag: 'Text', x: 100, y: 100, text: '可拖拽上方图形到这里', fill: '#999', fontSize: 16 })
+
+
+// 设置拖拽数据
+document.getElementById('rect').addEventListener('dragstart', function (e) {
+    e.dataTransfer.setData("type", 'rect')
+})
+
+document.getElementById('circle').addEventListener('dragstart', function (e) {
+    e.dataTransfer.setData("type", 'circle')
+})
+
+
+// 让画布可以接收拖拽内容
+document.getElementById('leafer').addEventListener('dragover', function (e) {
+    e.preventDefault()
+})
+
+// 拖拽释放，创建相应图形
+document.getElementById('leafer').addEventListener('drop', function (e) {
+    const type = e.dataTransfer.getData("type")
+    const point = app.getPagePointByClient(e) // 浏览器原生事件的 client 坐标 转 应用的 page 坐标 // [!code hl:6] 
+    if (type === 'rect') {
+        app.tree.add(Rect.one({ fill: '#32cd79', editable: true }, point.x, point.y))
+    } else if (type === 'circle') {
+        app.tree.add(Ellipse.one({ fill: '#32cd79', editable: true }, point.x, point.y))
+    }
+})
+
+```
+```ts
+// #拖拽创建图形 [添加到 Frame]
+import { App, Frame, Rect, Ellipse } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件(可选)
+
+// 创建可拖拽的 dom 图形（圆形、矩形）
+document.body.innerHTML = `
+<div id="circle" draggable="true" style="width: 50px; height: 50px; border-radius: 25px; background-color: #32cd79; cursor: move; display: inline-block" ></div>
+<div id="rect" draggable="true" style="width: 50px; height: 50px; background-color: #32cd79; cursor: move; display: inline-block" ></div>
+<div id="leafer" style="position: absolute; top: 70px; right: 0; bottom: 0; left: 0;"></div>
+`
+
+// 创建应用
+const app = new App({ view: 'leafer', fill: '#333', editor: {} })
+
+const frame = Frame.one({
+    children: [{ tag: 'Text', x: 100, y: 100, text: '可拖拽上方图形到这里', fill: '#999', fontSize: 16 }]
+}, 100, 100, 500, 500)
+
+app.tree.add(frame)
+
+
+// 设置拖拽数据
+document.getElementById('rect').addEventListener('dragstart', function (e) {
+    e.dataTransfer.setData("type", 'rect')
+})
+
+document.getElementById('circle').addEventListener('dragstart', function (e) {
+    e.dataTransfer.setData("type", 'circle')
+})
+
+
+// 让画布可以接收拖拽内容
+document.getElementById('leafer').addEventListener('dragover', function (e) {
+    e.preventDefault()
+})
+
+// 拖拽释放，创建相应图形
+document.getElementById('leafer').addEventListener('drop', function (e) {
+    const type = e.dataTransfer.getData("type")
+    const point = app.getWorldPointByClient(e) // 浏览器原生事件的 client 坐标 转 世界坐标 // [!code hl:7] 
+    const framePoint = frame.getInnerPoint(point) // 世界坐标 再转 frame 内坐标
+    if (type === 'rect') {
+        frame.add(Rect.one({ fill: '#32cd79', editable: true }, framePoint.x, framePoint.y))
+    } else if (type === 'circle') {
+        frame.add(Ellipse.one({ fill: '#32cd79', editable: true }, framePoint.x, framePoint.y))
+    }
+})
+
+```
+:::
+
 <!-- ## 应用示例
 
-### [transform](/reference/property/transform.md)
+### [transform](/reference/UI/transform.md)
 
-### [元素转换坐标](/reference/property/point/index.md) -->
+### [元素转换坐标](/reference/UI/point/index.md) -->
 
 ## 转换方法
 
@@ -119,22 +229,22 @@ leafer.on(DragEvent.DRAG, (e) => {
 
 ### 元素上的坐标转换方法
 
-| 名称                                                                                | 描述                                                                                                                               |
-| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [worldTransform](/reference/property/transform.md#worldtransform-imatrixwithscaledata) | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性，转换坐标的因子                                                                 |
-| [localTransform](/reference/property/transform.md#localtransform-imatrixdata)          | 相对于父元素的变换矩阵，转换坐标的因子                                                                                             |
-| [getPagePoint()](/reference/property/point/index.md#转换世界坐标)                   | 获取 page 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [page 坐标](/guide/basic/coordinate.md#page) ），支持转换移动距离 |
-| [getLocalPoint()](/reference/property/point/index.md#转换世界坐标)                  | 获取本地坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
-| [getInnerPoint()](/reference/property/point/index.md#转换世界坐标)                  | 获取内部坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
-| [getBoxPoint()](/reference/property/point/index.md#转换世界坐标)                    | 获取 box 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
-| [getWorldPointByPage()](/reference/property/point/index.md#转换-page-坐标)          | 获取世界坐标（ [page 坐标](/guide/basic/coordinate.md#page) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getWorldPointByLocal()](/reference/property/point/index.md#转换本地坐标)           | 获取世界坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getInnerPointByLocal()](/reference/property/point/index.md#转换本地坐标)           | 获取内部坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
-| [getWorldPoint()](/reference/property/point/index.md#转换内部坐标)                  | 获取世界坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getLocalPointByInner()](/reference/property/point/index.md#转换内部坐标)           | 获取本地坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
-| [getBoxPointByInner()](/reference/property/point/index.md#转换内部坐标)             | 获取 box 坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
-| [getWorldPointByBox()](/reference/property/point/index.md#转换内部坐标)             | 获取世界坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离     |
-| [getInnerPointByBox()](/reference/property/point/index.md#转换内部坐标)             | 获取内部坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离     |
+| 名称                                                                             | 描述                                                                                                                               |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [worldTransform](/reference/UI/transform.md#worldtransform-imatrixwithscaledata) | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性，转换坐标的因子                                                                 |
+| [localTransform](/reference/UI/transform.md#localtransform-imatrixdata)          | 相对于父元素的变换矩阵，转换坐标的因子                                                                                             |
+| [getPagePoint()](/reference/UI/point/index.md#转换世界坐标)                      | 获取 page 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [page 坐标](/guide/basic/coordinate.md#page) ），支持转换移动距离 |
+| [getLocalPoint()](/reference/UI/point/index.md#转换世界坐标)                     | 获取本地坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
+| [getInnerPoint()](/reference/UI/point/index.md#转换世界坐标)                     | 获取内部坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
+| [getBoxPoint()](/reference/UI/point/index.md#转换世界坐标)                       | 获取 box 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
+| [getWorldPointByPage()](/reference/UI/point/index.md#转换-page-坐标)             | 获取世界坐标（ [page 坐标](/guide/basic/coordinate.md#page) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
+| [getWorldPointByLocal()](/reference/UI/point/index.md#转换本地坐标)              | 获取世界坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
+| [getInnerPointByLocal()](/reference/UI/point/index.md#转换本地坐标)              | 获取内部坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
+| [getWorldPoint()](/reference/UI/point/index.md#转换内部坐标)                     | 获取世界坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
+| [getLocalPointByInner()](/reference/UI/point/index.md#转换内部坐标)              | 获取本地坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
+| [getBoxPointByInner()](/reference/UI/point/index.md#转换内部坐标)                | 获取 box 坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
+| [getWorldPointByBox()](/reference/UI/point/index.md#转换内部坐标)                | 获取世界坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离     |
+| [getInnerPointByBox()](/reference/UI/point/index.md#转换内部坐标)                | 获取内部坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离     |
 
 ### 浏览器原生事件的坐标转换方法
 

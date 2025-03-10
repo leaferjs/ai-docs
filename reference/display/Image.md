@@ -2,9 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Image
+# Image 元素
 
-图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](/reference/property/paint/image.md) 来显示图片。
+图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](/reference/UI/paint/image.md) 来显示图片。
 
 <case name="ImageFill" editor=false></case>
 
@@ -38,7 +38,7 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 辅助属性
 
-[图案填充](/reference/property/paint/image.md) 的元素也支持这些辅助属性。
+[图案填充](/reference/UI/paint/image.md) 的元素也支持这些辅助属性。
 
 ### pixelRatio: `number`
 
@@ -119,6 +119,12 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+
+## 资源库
+
+我们还提供了 [资源库](/reference/resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url。
+
+应用中的所有图片都会通过 资源库 有序并行加载，当图片不再使用时，会进入回收列表，到达阈值会自动销毁。
 
 ## 图片事件
 

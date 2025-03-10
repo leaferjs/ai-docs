@@ -33,12 +33,12 @@ bun add leafer-draw
 :::
 同时我们提供了 [Playground 环境](/guide/runtime.md) 和 [create-leafer 命令行工具](/create/leafer.md)，方便大家直接体验官网示例。
 
-### 通过 script 标签引入
+#### 或通过 script 标签引入
 
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-draw@1.4.1/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-draw@1.4.2/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI
   // ...
@@ -46,7 +46,7 @@ bun add leafer-draw
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-draw@1.4.1/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-draw@1.4.2/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI
   // ...
@@ -55,19 +55,20 @@ bun add leafer-draw
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.1/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.2/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.1/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.2/dist/web.module.js'
   // ...
 </script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
 ## 使用

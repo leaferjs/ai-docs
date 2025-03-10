@@ -15,12 +15,11 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/leafer-ui) 🌟 ，让这个库被更多的人看见 ✨ ✨ ✨
 
 <div style="display:flex; gap: 12px">
+<a href="https://gitee.com/leaferjs/leafer-ui" aria-label="gitee"  target="_blank" rel="noopener" >
+    <img width="98"  titel="gitee" src="https://www.leaferjs.com/svg/gitee-stars.svg" />
+</a>
 <a target="_blank" href="https://github.com/leaferjs/leafer-ui">
   <img width="120" title="github" src="https://www.leaferjs.com/svg/github-stars.svg" />
-</a>
-
-<a target="_blank" href="https://gitee.com/leaferjs/leafer-ui">
-  <img width="100" title="gitee" src="https://gitee.com/leaferjs/leafer-ui/badge/star.svg?theme=white" />
 </a>
 </div>
 
@@ -59,7 +58,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.1
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.2
 
 复现步骤：请提供详细的复现逻辑及可直接运行的代码，以便更快解决问题。
 :::
@@ -77,7 +76,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【leaferjs】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.1
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.2
 
 #LeaferJS （点击知乎提问框底部的 # 号，可绑定话题）
 :::

@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # 图形编辑器
 
-图形编辑器是一个有意思的例子，它采用了 App 结构。可移动、缩放、旋转、倾斜，支持多选、框选、打组、锁定、层级，[可配置样式](/plugin/in/editor/config.md)，支持自定义 [编辑工具](/plugin/in/editor/EditTool.md)、 [内部编辑器](/plugin/in/editor/InnerEditor.md)。
+图形编辑器是一个有意思的例子，它采用了 App 结构。可移动、缩放、旋转、倾斜，支持多选、框选、编组、锁定、层级，[可配置样式](/plugin/in/editor/config/base.md)，支持自定义 [编辑工具](/plugin/in/editor/EditTool.md)、 [内部编辑器](/plugin/in/editor/InnerEditor.md)。
 
 ::: tip 注意事项
 需安装 [图形编辑器插件](/plugin/in/editor/index.md) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成了图形编辑器相关插件）。
@@ -22,7 +22,7 @@ import '@leafer-in/viewport' // 导入视口插件(可选)
 
 const app = new App({ // [!code hl:5]
     view: window,
-    fill: '#F2F2F2',
+    fill: '#333',
     editor: {},  //  配置 editor 会自动创建并添加 app.editor 实例、tree 层、sky 层
 })
 
@@ -40,7 +40,7 @@ import { App, Leafer, Frame, Rect } from 'leafer-ui'
 import { Editor } from '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件(可选)
 
-const app = new App({ view: window, fill: '#F2F2F2' }) // [!code hl:4]
+const app = new App({ view: window, fill: '#333' }) // [!code hl:4]
 
 app.add(app.tree = new Leafer({ type: 'design' })) // 添加 tree 层
 app.add(app.sky = new Leafer())  // 添加 sky 层

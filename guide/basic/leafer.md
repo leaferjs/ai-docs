@@ -132,7 +132,7 @@ import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({
     view: window,
-    grow: true, // 自动生长 // [!code hl:3] 
+    grow: true, // 自动生长 // [!code hl:2] 
     fill: '#333'
 })
 

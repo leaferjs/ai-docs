@@ -39,19 +39,19 @@
 
 以元素自身为起点（0，0），由元素的宽高、路径形成的内部边界。
 
-已提供了 [获取属性](/reference/property/bounds.md#boxbounds-iboundsdata) 与 [获取方法](/reference/property/bounds.md#关键方法)。
+已提供了 [获取属性](/reference/UI/bounds.md#boxbounds-iboundsdata) 与 [获取方法](/reference/UI/bounds.md#关键方法)。
 
 ### 本地坐标系边界
 
-以父元素为起点（0，0），将内部边界与 [localTransform](/reference/property/transform.md#localtransform-imatrixdata) 相乘而来，会受元素的 x、y、scaleX、scaleY、rotation 影响。
+以父元素为起点（0，0），将内部边界与 [localTransform](/reference/UI/transform.md#localtransform-imatrixdata) 相乘而来，会受元素的 x、y、scaleX、scaleY、rotation 影响。
 
-已提供了[获取方法](/reference/property/bounds.md#关键方法)。
+已提供了[获取方法](/reference/UI/bounds.md#关键方法)。
 
 ### 世界坐标系边界
 
-以画布左上角为起点（0，0），将内部边界与 [worldTransform](/reference/property/transform.md#worldtransform-imatrixdata) 相乘而来，会受元素及中间层级元素的 x、y、scaleX、scaleY、rotation 影响。
+以画布左上角为起点（0，0），将内部边界与 [worldTransform](/reference/UI/transform.md#worldtransform-imatrixdata) 相乘而来，会受元素及中间层级元素的 x、y、scaleX、scaleY、rotation 影响。
 
-已提供了 [获取属性](/reference/property/bounds.md#boxbounds-iboundsdata) 与 [获取方法](/reference/property/bounds.md#关键方法)。 -->
+已提供了 [获取属性](/reference/UI/bounds.md#boxbounds-iboundsdata) 与 [获取方法](/reference/UI/bounds.md#关键方法)。 -->
 
 ## 示例
 
@@ -67,12 +67,15 @@ import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件(可选)
 
 
-const app = new App({ view: window, editor: {} })
+const app = new App({ view: window, editor: {}, fill: '#333' })
 
-app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100))
-app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', rotation: 10, cornerRadius: [0, 20, 20, 0] }, 300, 100))
+app.tree.add({ tag: 'Text', x: 100, y: 100, text: '2秒后，按下鼠标拖动可创建矩形', fill: '#999', fontSize: 16 })
 
-app.editor.select(app.tree.children[0])
+
+app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 300))
+app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', rotation: 10, cornerRadius: [0, 20, 20, 0] }, 300, 300))
+
+app.editor.select(app.tree.children[2])
 
 setTimeout(() => {
 
@@ -102,7 +105,9 @@ import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件(可选)
 
 
-const app = new App({ view: window, editor: {} })
+const app = new App({ view: window, editor: {}, fill: '#333' })
+
+app.tree.add({ tag: 'Text', x: 100, y: 100, text: '2秒后，按下鼠标拖动可创建矩形', fill: '#999', fontSize: 16 })
 
 app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100))
 app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', rotation: 10, cornerRadius: [0, 20, 20, 0] }, 300, 100))
@@ -132,6 +137,31 @@ setTimeout(() => {
 ```
 :::
 
+### 检测元素的包围盒是否碰撞
+
+```ts
+// #元素包围盒 [检测 rect2 是否与 rect1 碰撞]
+import { Leafer, Frame, Rect, DragEvent, Bounds } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window, fill: '#333' })
+
+const rect1 = Rect.one({ fill: '#FEB027', draggable: true }, 100, 100)
+
+leafer.add(Frame.one({ children: [rect1] }, 100, 100, 500, 600)) // rect1 在 frame 内
+
+const rect2 = Rect.one({ fill: '#FFE04B', draggable: true }, 200, 50)  // rect2 在 frame 外
+
+leafer.add(rect2)
+
+// 检测 rect2 是否与 rect1 碰撞 （通过世界坐标中的 box 包围盒跨层级检测）
+rect2.on(DragEvent.DRAG, () => {
+
+    const rect2Bounds = new Bounds(rect2.worldBoxBounds)  // [!code hl:2]
+    rect1.stroke = rect2Bounds.hit(rect1.worldBoxBounds) ? 'blue' : '' // 碰撞则显示蓝色边框
+
+})
+```
+
 ## 获取方法
 
 ### 事件中的获取方法
@@ -140,15 +170,15 @@ setTimeout(() => {
 
 ### 元素上的获取方法
 
-| 名称                                                                                                                                                   | 描述                                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| [boxBounds](/reference/property/bounds.md#boxbounds-iboundsdata)                                                                                          | 元素在 [内部坐标系](/guide/basic/coordinate.md) 中的基础边界（[OBB](/reference/property/bounds.md) 包围盒）        |
-| [renderBounds](/reference/property/bounds.md#renderbounds-iboundsdata)                                                                                    | 元素在 [内部坐标系](/guide/basic/coordinate.md) 中的渲染边界（[AABB](/reference/property/bounds.md) 包围盒）       |
-| [worldBoxBounds](/reference/property/bounds.md#worldboxbounds-iboundsdata)                                                                                | 元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的基础边界（[AABB](/reference/property/bounds.md) 包围盒） |
-| [worldRenderBounds](/reference/property/bounds.md#worldrenderbounds-iboundsdata)                                                                          | 元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的渲染边界（[AABB](/reference/property/bounds.md) 包围盒） |
-| [getBounds()](/reference/property/bounds.md#getbounds-type-iboundstype-box-relative-ilocationtype-ui-world-iboundsdata)                                   | 获取 [AABB](/reference/property/bounds.md) 包围盒（边界）                                                          |
-| [getLayoutBounds()](/reference/property/bounds.md#getlayoutbounds-type-iboundstype-box-relative-ilocationtype-ui-world-unscale-boolean-ilayoutboundsdata) | 获取 [OBB](/reference/property/bounds.md) 包围盒（边界），含缩放、旋转等布局属性                                   |
-| [getLayoutPoints()](/reference/property/bounds.md#getlayoutpoints-type-iboundstype-box-relative-ilocationtype-ui-world-ipointdata)                        | 获取 [OBB](/reference/property/bounds.md) 包围盒（边界）的四个坐标点）                                             |
+| 名称                                                                                                                                                | 描述                                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)                                                                                          | 元素在 [内部坐标系](/guide/basic/coordinate.md) 中的基础边界（[OBB](/reference/UI/bounds.md) 包围盒）        |
+| [renderBounds](/reference/UI/bounds.md#renderbounds-iboundsdata)                                                                                    | 元素在 [内部坐标系](/guide/basic/coordinate.md) 中的渲染边界（[AABB](/reference/UI/bounds.md) 包围盒）       |
+| [worldBoxBounds](/reference/UI/bounds.md#worldboxbounds-iboundsdata)                                                                                | 元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的基础边界（[AABB](/reference/UI/bounds.md) 包围盒） |
+| [worldRenderBounds](/reference/UI/bounds.md#worldrenderbounds-iboundsdata)                                                                          | 元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的渲染边界（[AABB](/reference/UI/bounds.md) 包围盒） |
+| [getBounds()](/reference/UI/bounds.md#getbounds-type-iboundstype-box-relative-ilocationtype-ui-world-iboundsdata)                                   | 获取 [AABB](/reference/UI/bounds.md) 包围盒（边界）                                                          |
+| [getLayoutBounds()](/reference/UI/bounds.md#getlayoutbounds-type-iboundstype-box-relative-ilocationtype-ui-world-unscale-boolean-ilayoutboundsdata) | 获取 [OBB](/reference/UI/bounds.md) 包围盒（边界），含缩放、旋转等布局属性                                   |
+| [getLayoutPoints()](/reference/UI/bounds.md#getlayoutpoints-type-iboundstype-box-relative-ilocationtype-ui-world-ipointdata)                        | 获取 [OBB](/reference/UI/bounds.md) 包围盒（边界）的四个坐标点）                                             |
 
 ### 数学计算
 
