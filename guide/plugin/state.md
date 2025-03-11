@@ -90,4 +90,4 @@ rect.on('click', () => { // 点击切换状态  // [!code hl:2]
 
 ## 下一步
 
-### [动画功能](/guide/plugin/animate.md)
+### [运动路径](/guide/plugin/motion-path.md)

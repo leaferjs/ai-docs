@@ -119,7 +119,7 @@ setTimeout(() => {
 
 ## 下一步
 
-### [交互状态](/guide/plugin/state.md)
+### [动画功能](/guide/plugin/animate.md)
 
 <br/>
 
