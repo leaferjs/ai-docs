@@ -59,14 +59,13 @@ import Case from '/component/Case.vue'
 <case name="FlowAutoSize" index=2 count=2 height=160 editor=false></case>
 
 ```ts
-// #自动布局 - 布局方向 [沿 X 轴自动布局]
+// #自动布局
 import { Leafer, Box } from 'leafer-ui'
 import { Flow } from '@leafer-in/flow'  // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
-const flow = new Flow({
-    flow: 'x', // 沿 X 轴自动布局 // [!code hl]
+const flow = new Flow({ // [!code hl:10]
     fill: '#676',
     width: 100,
     height: 100,

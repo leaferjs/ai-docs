@@ -29,7 +29,7 @@
 ::: code-group
 
 ```ts
-// # 图形编辑器 [自定义内部编辑工具]
+// #图形编辑器 [自定义内部编辑工具]
 import { App, Star, Box, DragEvent, PointerEvent } from 'leafer-ui'
 import { InnerEditor, Editor, registerInnerEditor } from '@leafer-in/editor'
 
