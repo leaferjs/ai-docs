@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [flow.min]
-<script src="https://unpkg.com/@leafer-in/flow@1.4.2/dist/flow.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.4.2/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.5.0/dist/flow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.5.0/dist/resize.min.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
 ```
 
 ```html [flow]
-<script src="https://unpkg.com/@leafer-in/flow@1.4.2/dist/flow.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.4.2/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.5.0/dist/flow.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.5.0/dist/resize.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
@@ -105,7 +105,7 @@ bun add @leafer-in/resize
 ```ts
 // #自动布局
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -130,7 +130,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 自动换行 [沿 X 轴自动换行]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -160,7 +160,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [居中对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -186,7 +186,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 子元素间距 [固定数值的间距]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -212,7 +212,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 内边距
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -238,7 +238,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 子元素不加入自动布局 
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -268,7 +268,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 自动宽度 [自动宽度（填充剩余宽度）]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -296,7 +296,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 自动高度 [自动高度（填充剩余高度）]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -323,7 +323,7 @@ leafer.add(flow)
 ```ts
 // #自动布局
 import { Leafer, Rect, Star, Ellipse } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

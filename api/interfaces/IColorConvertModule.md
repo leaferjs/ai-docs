@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IColorConvert.ts:4](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/module/IColorConvert.ts#L4)
+[ui/packages/interface/src/module/IColorConvert.ts:4](https://github.com/leaferjs/leafer-ui/blob/c3451ed/packages/interface/src/module/IColorConvert.ts#L4)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IColorConvert.ts:5](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/module/IColorConvert.ts#L5)
+[ui/packages/interface/src/module/IColorConvert.ts:5](https://github.com/leaferjs/leafer-ui/blob/c3451ed/packages/interface/src/module/IColorConvert.ts#L5)

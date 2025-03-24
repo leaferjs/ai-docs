@@ -56,7 +56,7 @@ rect.heightRange = { min: 10, max: 200 }
 
 ### [resize 元素 / 组元素](/reference/UI/resize.md)
 
-## 只读属性
+## 编辑配置属性
 
 ### editConfig： [`IEditorConfig`](/plugin/in/editor/config/base.md)
 
@@ -64,7 +64,7 @@ rect.heightRange = { min: 10, max: 200 }
 
 ```ts
 // #图形编辑器 [editConfig]
-import { Text, defineKey } from 'leafer-ui'
+import { Text } from 'leafer-ui'
 
 // 1. 设置类，所有 Text 元素生效（推荐）
 Text.setEditConfig({
@@ -77,13 +77,12 @@ Text.setEditConfig(function (text: Text) {
     }
 })
 
-
-// 2. 设置实例，单个元素生效 （不推荐）
-const text = new Text({ text: 'hello', editable: true })
-defineKey(text, 'editConfig', {
-    get() { return { moveable: false } }
+// 2. 设置单个元素，支持导出json，会增加内存开销
+new Text({
+    text: 'hello',
+    editable: true,
+    editConfig: { moveable: false }
 })
-
 ```
 
 ### editOuter: `string`
@@ -94,7 +93,7 @@ Line 默认为 [`'LineEditTool'`](/api/classes/LineEditTool.md)，可自定义 [
 
 ```ts
 // #图形编辑器 [editOuter]
-import { Text, defineKey } from 'leafer-ui'
+import { Text } from 'leafer-ui'
 
 // 1. 设置类，所有 Text 元素生效（推荐）
 Text.setEditOuter('TextEditTool')
@@ -104,13 +103,12 @@ Text.setEditOuter(function (text: Text) {
     return text.get('width') ? 'EditTool' : 'TextEditTool'
 })
 
-
-// 2. 设置实例，单个元素生效 （不推荐）
-const text = new Text({ text: 'hello', editable: true })
-defineKey(text, 'editOuter', {
-    get() { return 'TextEditTool' }
+// 2. 设置单个元素，支持导出json，会增加内存开销
+new Text({
+    text: 'hello',
+    editable: true,
+    editOuter: 'TextEditTool'
 })
-
 ```
 
 ### editInner: `string`
@@ -121,7 +119,7 @@ Text 默认为: `'TextEditor'`，可自定义 [内部编辑器](/plugin/in/edito
 
 ```ts
 // #图形编辑器 [editInner]
-import { Text, defineKey } from 'leafer-ui'
+import { Text } from 'leafer-ui'
 
 // 1. 设置类，所有 Text 元素生效（推荐）
 Text.setEditInner('TextEditor')
@@ -131,11 +129,11 @@ Text.setEditInner(function (text: Text) {
     return text.get('width') ? 'PathEditor' : 'TextEditor'
 })
 
-
-// 2. 设置实例，单个元素生效 （不推荐）
-const text = new Text({ text: 'hello', editable: true })
-defineKey(text, 'editInner', {
-    get() { return 'TextEditor' }
+// 2. 设置单个元素，支持导出json，会增加内存开销
+new Text({
+    text: 'hello',
+    editable: true,
+    editInner: 'TextEditor'
 })
 ```
 
@@ -150,8 +148,8 @@ defineKey(text, 'editInner', {
 ```ts
 // #图形编辑器 [editable]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({ view: window, editor: {} })
 

@@ -170,7 +170,7 @@ group.set(json)
 
 ```
 
-## 了解元素外观样式
+## 初步了解元素外观样式
 
 ### [fill](/reference/UI/fill.md)
 
@@ -385,7 +385,7 @@ leafer.add(group)
 group.add([image, eraser])  // [!code hl]
 ```
 
-## 元素可见性
+### 元素可见性
 
 ### [visible](/reference/UI/visible.md)
 
@@ -435,7 +435,7 @@ setTimeout(() => {
 }, 1000)
 ```
 
-## 高级定位属性
+### 高级定位属性
 
 ### [origin](/reference/UI/origin.md)
 
@@ -491,11 +491,11 @@ const rect = new Rect({
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
 
-## 了解元素通用属性
+## 概览元素通用属性
 
 <!--@include: ../../reference/api/UI/property.md-->
 
-## 了解元素通用方法
+## 概览元素通用方法
 
 <!--@include: ../..//reference/api/UI/method.md-->
 

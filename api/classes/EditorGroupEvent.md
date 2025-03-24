@@ -26,10 +26,13 @@
 - [oldValue](EditorGroupEvent.md#oldvalue)
 - [worldOrigin](EditorGroupEvent.md#worldorigin)
 - [origin](EditorGroupEvent.md#origin)
+- [BEFORE\_GROUP](EditorGroupEvent.md#before_group)
 - [GROUP](EditorGroupEvent.md#group)
 - [BEFORE\_UNGROUP](EditorGroupEvent.md#before_ungroup)
 - [UNGROUP](EditorGroupEvent.md#ungroup)
+- [BEFORE\_OPEN](EditorGroupEvent.md#before_open)
 - [OPEN](EditorGroupEvent.md#open)
+- [BEFORE\_CLOSE](EditorGroupEvent.md#before_close)
 - [CLOSE](EditorGroupEvent.md#close)
 - [editTarget](EditorGroupEvent.md#edittarget)
 - [type](EditorGroupEvent.md#type)
@@ -70,7 +73,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorGroupEvent.ts:19](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorGroupEvent.ts#L19)
+[in/packages/editor/src/event/EditorGroupEvent.ts:25](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L25)
 
 ## Properties
 
@@ -84,7 +87,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:13](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L13)
+[in/packages/editor/src/event/EditorEvent.ts:13](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L13)
 
 ___
 
@@ -98,7 +101,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:14](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L14)
+[in/packages/editor/src/event/EditorEvent.ts:14](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L14)
 
 ___
 
@@ -116,7 +119,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:16](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L16)
+[in/packages/editor/src/event/EditorEvent.ts:16](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L16)
 
 ___
 
@@ -134,7 +137,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:17](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L17)
+[in/packages/editor/src/event/EditorEvent.ts:17](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L17)
 
 ___
 
@@ -152,7 +155,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:19](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L19)
+[in/packages/editor/src/event/EditorEvent.ts:19](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L19)
 
 ___
 
@@ -170,7 +173,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:20](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L20)
+[in/packages/editor/src/event/EditorEvent.ts:20](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L20)
 
 ___
 
@@ -188,7 +191,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:25](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L25)
+[in/packages/editor/src/event/EditorEvent.ts:25](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L25)
 
 ___
 
@@ -206,7 +209,17 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:26](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L26)
+[in/packages/editor/src/event/EditorEvent.ts:26](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L26)
+
+___
+
+### BEFORE\_GROUP
+
+▪ `Static` **BEFORE\_GROUP**: `string` = `'editor.before_group'`
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorGroupEvent.ts:11](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L11)
 
 ___
 
@@ -216,7 +229,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorGroupEvent.ts:10](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorGroupEvent.ts#L10)
+[in/packages/editor/src/event/EditorGroupEvent.ts:12](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L12)
 
 ___
 
@@ -226,7 +239,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorGroupEvent.ts:11](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorGroupEvent.ts#L11)
+[in/packages/editor/src/event/EditorGroupEvent.ts:14](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L14)
 
 ___
 
@@ -236,7 +249,17 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorGroupEvent.ts:12](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorGroupEvent.ts#L12)
+[in/packages/editor/src/event/EditorGroupEvent.ts:15](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L15)
+
+___
+
+### BEFORE\_OPEN
+
+▪ `Static` **BEFORE\_OPEN**: `string` = `'editor.before_open_group'`
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorGroupEvent.ts:17](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L17)
 
 ___
 
@@ -246,7 +269,17 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorGroupEvent.ts:14](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorGroupEvent.ts#L14)
+[in/packages/editor/src/event/EditorGroupEvent.ts:18](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L18)
+
+___
+
+### BEFORE\_CLOSE
+
+▪ `Static` **BEFORE\_CLOSE**: `string` = `'editor.before_close_group'`
+
+#### Defined in
+
+[in/packages/editor/src/event/EditorGroupEvent.ts:20](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L20)
 
 ___
 
@@ -256,7 +289,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorGroupEvent.ts:15](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorGroupEvent.ts#L15)
+[in/packages/editor/src/event/EditorGroupEvent.ts:21](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L21)
 
 ___
 
@@ -270,7 +303,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorGroupEvent.ts:17](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorGroupEvent.ts#L17)
+[in/packages/editor/src/event/EditorGroupEvent.ts:23](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorGroupEvent.ts#L23)
 
 ___
 
@@ -288,7 +321,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L9)
+[leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L9)
 
 ___
 
@@ -306,7 +339,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L11)
+[leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L11)
 
 ___
 
@@ -324,7 +357,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L13)
+[leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L13)
 
 ___
 
@@ -342,7 +375,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L14)
+[leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L14)
 
 ___
 
@@ -360,7 +393,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L16)
+[leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L16)
 
 ___
 
@@ -378,7 +411,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L17)
+[leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L17)
 
 ___
 
@@ -396,7 +429,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L18)
+[leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L18)
 
 ## Accessors
 
@@ -418,7 +451,7 @@ EditorEvent.list
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:22](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L22)
+[in/packages/editor/src/event/EditorEvent.ts:22](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L22)
 
 ___
 
@@ -440,7 +473,7 @@ EditorEvent.oldList
 
 #### Defined in
 
-[in/packages/editor/src/event/EditorEvent.ts:23](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/editor/src/event/EditorEvent.ts#L23)
+[in/packages/editor/src/event/EditorEvent.ts:23](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/editor/src/event/EditorEvent.ts#L23)
 
 ## Methods
 
@@ -462,7 +495,7 @@ EditorEvent.oldList
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L25)
+[leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L25)
 
 ___
 
@@ -484,7 +517,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L30)
+[leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L30)
 
 ___
 
@@ -506,4 +539,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/event/src/Event.ts#L36)
+[leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/a165a56/packages/event/src/Event.ts#L36)

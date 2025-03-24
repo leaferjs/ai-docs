@@ -23,7 +23,7 @@
 ```ts
 // #查找功能 [通过 name 查找]
 import { Leafer, Rect, Ellipse } from 'leafer-ui'
-import '@leafer-in/find' // 导入查找元素插件
+import '@leafer-in/find' // 导入查找元素插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

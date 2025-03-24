@@ -15,7 +15,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:158](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/type/IType.ts#L158)
+[ui/packages/interface/src/type/IType.ts:160](https://github.com/leaferjs/leafer-ui/blob/c3451ed/packages/interface/src/type/IType.ts#L160)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:159](https://github.com/leaferjs/leafer-ui/blob/a39c489/packages/interface/src/type/IType.ts#L159)
+[ui/packages/interface/src/type/IType.ts:161](https://github.com/leaferjs/leafer-ui/blob/c3451ed/packages/interface/src/type/IType.ts#L161)

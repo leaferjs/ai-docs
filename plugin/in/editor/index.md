@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.4.2/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.4.2/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.5.0/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.5.0/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.4.2/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.4.2/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.5.0/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.5.0/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -242,8 +242,8 @@ bun add @leafer-in/resize
 ```ts
 // #图形编辑器 [简洁创建]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({ // [!code hl:4]
     view: window,
@@ -257,8 +257,8 @@ app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 2
 ```ts
 // #图形编辑器 [实现原理]
 import { App, Rect } from 'leafer-ui'
-import { Editor } from '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import { Editor } from '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({ view: window }) // [!code hl:7]
 
@@ -284,8 +284,8 @@ app.sky.add(app.editor = new Editor())  // 添加图形编辑器，用于选中�
 ```ts
 // #图形编辑器 [editable]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({ view: window, editor: {} })
 
@@ -305,8 +305,8 @@ app.tree.add(rect2)
 ```ts
 // #图形编辑器 [显示旋转控制点]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({  // [!code hl:4]
     view: window,
@@ -316,7 +316,7 @@ const app = new App({  // [!code hl:4]
 const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
 app.tree.add(rect)
 
-app.editor.target = rect
+app.editor.select(rect)
 ```
 
 <case name="EditorConfig" index=14 x=20></case>
@@ -328,8 +328,8 @@ app.editor.target = rect
 ```ts
 // #图形编辑器 [显示中间控制点，并修改样式]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({  // [!code hl:7]
     view: window,
@@ -342,7 +342,7 @@ const app = new App({  // [!code hl:7]
 const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
 app.tree.add(rect)
 
-app.editor.target = rect
+app.editor.select(rect)
 ```
 
 <case name="EditorConfig" index=10 x=20 height=180></case>
@@ -354,8 +354,8 @@ app.editor.target = rect
 ```ts
 // #图形编辑器 [添加底部固定按钮]
 import { App, Rect, Box, PointerEvent } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({ // [!code hl:4]
     view: window,
@@ -381,7 +381,7 @@ button.on(PointerEvent.TAP, () => { // 点击删除元素，并取消选择
     app.editor.target = null
 })
 
-app.editor.target = rect
+app.editor.select(rect)
 ```
 
 ### 监听选择事件
@@ -390,8 +390,8 @@ app.editor.target = rect
 ```ts
 // #图形编辑器 [选中元素事件]
 import { App, Rect } from 'leafer-ui'
-import { EditorEvent } from '@leafer-in/editor'
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import { EditorEvent } from '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
     view: window,
@@ -407,8 +407,8 @@ app.editor.on(EditorEvent.SELECT, (e: EditorEvent) => { // [!code hl:3]
 ```
 ```js
 import { App, Rect } from 'leafer-ui'
-import { EditorEvent } from '@leafer-in/editor'
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import { EditorEvent } from '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
     view: window,
@@ -429,8 +429,8 @@ app.editor.on(EditorEvent.SELECT, (e) => { // [!code hl:3]
 ```ts
 // #图形编辑器 [手动旋转元素]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({ view: window, editor: {} })
 
@@ -460,8 +460,8 @@ setTimeout(() => {
 ```ts
 // #图形编辑器 [创建图形]
 import { App, DragEvent, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 
 const app = new App({ view: window, editor: {}, fill: '#333' })
@@ -498,8 +498,8 @@ setTimeout(() => {
 ```js
 // #图形编辑器 [创建图形]
 import { App, DragEvent, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 
 const app = new App({ view: window, editor: {}, fill: '#333' })

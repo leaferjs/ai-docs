@@ -29,7 +29,7 @@
 ```ts
 // #查找功能 [通过 id 查找]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/find' // 导入查找元素插件
+import '@leafer-in/find' // 导入查找元素插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -49,7 +49,7 @@ console.log(
 ```ts
 // #查找功能 [通过 innerId 查找]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/find' // 导入查找元素插件
+import '@leafer-in/find' // 导入查找元素插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -68,7 +68,7 @@ console.log(
 ```ts
 // #查找功能 [通过 className 查找]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/find' // 导入查找元素插件
+import '@leafer-in/find' // 导入查找元素插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -90,7 +90,7 @@ console.log(
 ```ts
 // #查找功能 [通过 tag 查找]
 import { Leafer, Rect, Ellipse } from 'leafer-ui'
-import '@leafer-in/find' // 导入查找元素插件
+import '@leafer-in/find' // 导入查找元素插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -112,7 +112,7 @@ console.log(
 ```ts
 // #查找功能 [通过 自定义函数 查找]
 import { Leafer, Rect, Ellipse } from 'leafer-ui'
-import '@leafer-in/find' // 导入查找元素插件
+import '@leafer-in/find' // 导入查找元素插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

@@ -6,7 +6,7 @@
 
 ### addAttr ( attrName: `string`, defaultValue: [`IValue`](/api/modules.md#ivalue), typeFn?: [IAttrDecorator](/api/interfaces/IAttrDecorator.md) )
 
-新增元素属性（全局操作）， defaultValue 为默认值，typeFn 为数据装饰器（默认为 [boundsType](/api/modules.md#boundstype)）。
+新增元素属性（全局操作）， defaultValue 为默认值（支持函数返回），typeFn 为数据装饰器（默认为 [boundsType](/api/modules.md#boundstype)）。
 
 ## 数据装饰器
 
@@ -61,6 +61,35 @@ const text2 = new Text({ float: 'right' } as any)
 console.log((text2 as any).float) // right
 ```
 
+### 为文本新增一个可变的 float 属性
+
+```ts
+// #新增元素属性 [为文本新增一个可变 float 属性]
+import { Leafer, Text } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+Text.addAttr('float', (text: Text) => { return text.width === 200 ? 'center' : 'left' })  //  [!code hl]
+
+// default float
+
+const text = new Text({ text: 'Welcome to LeaferJS' })
+
+leafer.add(text)
+
+console.log((text as any).float) // left
+
+text.width = 200
+
+console.log((text as any).float) // right
+
+// set float
+
+const text2 = new Text({ float: 'right' } as any)
+
+console.log((text2 as any).float) // right
+```
+
 ### 为文本新增一个 dataType 类型的属性
 
 ```ts
@@ -69,7 +98,7 @@ import { Leafer, Text, dataType } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-Text.addAttr('version', '1.4.2', dataType)  //  [!code hl]
+Text.addAttr('version', '1.5.0', dataType)  //  [!code hl]
 
 // default version
 
@@ -77,11 +106,11 @@ const text = new Text({ text: 'Welcome to LeaferJS' })
 
 leafer.add(text)
 
-console.log((text as any).version) // 1.4.2
+console.log((text as any).version) // 1.5.0
 
 // set version
 
-const text2 = new Text({ version: '1.4.2' } as any)
+const text2 = new Text({ version: '1.5.0' } as any)
 
-console.log((text2 as any).version) // 1.4.2
+console.log((text2 as any).version) // 1.5.0
 ```

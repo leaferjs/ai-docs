@@ -67,7 +67,7 @@ type IAxisAlign = 'from' | 'center' | 'to'
 ```ts
 // #自动布局 - 对齐内容 [左上角对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -93,7 +93,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [顶部居中对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -119,7 +119,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [右上角对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -145,7 +145,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [左对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -171,7 +171,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [居中对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -197,7 +197,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [右对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -223,7 +223,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [左下角对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -249,7 +249,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [底部居中对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -275,7 +275,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [右下角对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -301,7 +301,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [居中对齐，且行内顶部对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -330,7 +330,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [居中对齐，且行内居中对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -359,7 +359,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 对齐内容 [居中对齐，且行内底部对齐]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

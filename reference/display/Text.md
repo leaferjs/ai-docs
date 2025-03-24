@@ -260,7 +260,7 @@ text 属性传入数字，可支持 count [动画](/guide/plugin/animate.md)，�
 ```ts
 // #动画样式 [文本count动画]
 import { Leafer, Text } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -281,7 +281,7 @@ leafer.add(text)
 ```ts
 // #动画样式 [打字机动画]
 import { Leafer, Text } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -301,7 +301,7 @@ leafer.add(text)
 ```ts
 // #动画样式 [删除文本动画]
 import { Leafer, Text } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

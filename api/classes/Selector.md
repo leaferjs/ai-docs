@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:17](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L17)
+[leafer/packages/partner/selector/src/Selector.ts:17](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L17)
 
 ## Properties
 
@@ -53,7 +53,7 @@
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:9](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L9)
+[leafer/packages/partner/selector/src/Selector.ts:9](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L9)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:10](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L10)
+[leafer/packages/partner/selector/src/Selector.ts:10](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L10)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:12](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L12)
+[leafer/packages/partner/selector/src/Selector.ts:12](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L12)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:14](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L14)
+[leafer/packages/partner/selector/src/Selector.ts:14](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L14)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:15](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L15)
+[leafer/packages/partner/selector/src/Selector.ts:15](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L15)
 
 ## Methods
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:23](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L23)
+[leafer/packages/partner/selector/src/Selector.ts:23](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L23)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:30](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L30)
+[leafer/packages/partner/selector/src/Selector.ts:30](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L30)
 
 ___
 
@@ -180,4 +180,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:34](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/partner/selector/src/Selector.ts#L34)
+[leafer/packages/partner/selector/src/Selector.ts:34](https://github.com/leaferjs/leafer/blob/a165a56/packages/partner/selector/src/Selector.ts#L34)

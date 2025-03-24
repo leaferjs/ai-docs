@@ -31,7 +31,7 @@ type IFlowWrap = boolean | 'reverse' // reverse表示颠倒行顺序
 ```ts
 // #自动布局 - 自动换行 [沿 X 轴自动换行]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -61,7 +61,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 自动换行 [沿 X 轴自动换行（颠倒行顺序）]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -91,7 +91,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 自动换行 [沿 Y 轴自动换行]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -122,7 +122,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 自动换行 [沿 Y 轴自动换行（颠倒行顺序）]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

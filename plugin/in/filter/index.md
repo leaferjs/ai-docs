@@ -31,11 +31,11 @@ bun add @leafer-in/filter
 ::: code-group
 
 ```html [filter.min]
-<script src="https://unpkg.com/@leafer-in/filter@1.4.2/dist/filter.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/filter@1.5.0/dist/filter.min.js"></script>
 ```
 
 ```html [filter]
-<script src="https://unpkg.com/@leafer-in/filter@1.4.2/dist/filter.js"></script>
+<script src="https://unpkg.com/@leafer-in/filter@1.5.0/dist/filter.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
@@ -47,7 +47,7 @@ bun add @leafer-in/filter
 ```ts
 // #自定义滤镜 [blur 滤镜]
 import { Leafer, Rect, Filter } from 'leafer-ui'
-import '@leafer-in/filter'
+import '@leafer-in/filter'  // 导入滤镜插件  // [!code hl] 
 
 // 注册自定义滤镜
 Filter.register('blur', {

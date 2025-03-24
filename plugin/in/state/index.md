@@ -35,11 +35,11 @@ bun add @leafer-in/state
 ::: code-group
 
 ```html [state.min]
-<script src="https://unpkg.com/@leafer-in/state@1.4.2/dist/state.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@1.5.0/dist/state.min.js"></script>
 ```
 
 ```html [state]
-<script src="https://unpkg.com/@leafer-in/state@1.4.2/dist/state.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@1.5.0/dist/state.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
@@ -55,7 +55,7 @@ bun add @leafer-in/state
 ```ts
 // #交互状态 [按钮效果]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/state' // 导入交互状态插件
+import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

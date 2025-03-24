@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:16](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/canvas/ISkiaCanvas.ts#L16)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:16](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/canvas/ISkiaCanvas.ts#L16)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:17](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/canvas/ISkiaCanvas.ts#L17)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:17](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/canvas/ISkiaCanvas.ts#L17)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:18](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/canvas/ISkiaCanvas.ts#L18)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:18](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/canvas/ISkiaCanvas.ts#L18)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:19](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/canvas/ISkiaCanvas.ts#L19)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:19](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/canvas/ISkiaCanvas.ts#L19)
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:20](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/canvas/ISkiaCanvas.ts#L20)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:20](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/canvas/ISkiaCanvas.ts#L20)

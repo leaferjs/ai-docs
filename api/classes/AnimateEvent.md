@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:2](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/animate/src/AnimateEvent.ts#L2)
+[in/packages/animate/src/AnimateEvent.ts:2](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/animate/src/AnimateEvent.ts#L2)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:4](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/animate/src/AnimateEvent.ts#L4)
+[in/packages/animate/src/AnimateEvent.ts:4](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/animate/src/AnimateEvent.ts#L4)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:5](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/animate/src/AnimateEvent.ts#L5)
+[in/packages/animate/src/AnimateEvent.ts:5](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/animate/src/AnimateEvent.ts#L5)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:6](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/animate/src/AnimateEvent.ts#L6)
+[in/packages/animate/src/AnimateEvent.ts:6](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/animate/src/AnimateEvent.ts#L6)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:7](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/animate/src/AnimateEvent.ts#L7)
+[in/packages/animate/src/AnimateEvent.ts:7](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/animate/src/AnimateEvent.ts#L7)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:9](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/animate/src/AnimateEvent.ts#L9)
+[in/packages/animate/src/AnimateEvent.ts:9](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/animate/src/AnimateEvent.ts#L9)
 
 ___
 
@@ -90,4 +90,4 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:10](https://github.com/leaferjs/leafer-in/blob/db8cfc9/packages/animate/src/AnimateEvent.ts#L10)
+[in/packages/animate/src/AnimateEvent.ts:10](https://github.com/leaferjs/leafer-in/blob/89d5b4b/packages/animate/src/AnimateEvent.ts#L10)

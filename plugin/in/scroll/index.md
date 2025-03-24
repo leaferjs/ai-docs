@@ -35,14 +35,14 @@ bun add @leafer-in/scroll
 ::: code-group
 
 ```html [scroll.min]
-<script src="https://unpkg.com/@leafer-in/scroll@1.4.2/dist/scroll.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@1.5.0/dist/scroll.min.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>
 ```
 
 ```html [scroll]
-<script src="https://unpkg.com/@leafer-in/scroll@1.4.2/dist/scroll.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@1.5.0/dist/scroll.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>
@@ -100,7 +100,8 @@ light 主题适用于浅色背景的画布。
 // #滚动条 [默认主题]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件
+import '@leafer-in/viewport' // 导入视口插件
+import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 
@@ -118,7 +119,8 @@ dark 主题适用于深色背景的画布。
 // #滚动条 [暗黑主题]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件
+import '@leafer-in/viewport' // 导入视口插件
+import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件  // [!code hl] 
 
 const app = new App({ view: window, fill: '#000', editor: {} })
 
@@ -134,7 +136,8 @@ app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 2
 // #滚动条 [自定义样式]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件
+import '@leafer-in/viewport' // 导入视口插件
+import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件  // [!code hl] 
 
 const app = new App({ view: window, fill: '#000', editor: {} })
 
@@ -150,7 +153,8 @@ app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 2
 // #滚动条 [修改主题]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件
+import '@leafer-in/viewport' // 导入视口插件
+import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件  // [!code hl] 
 
 const app = new App({ view: window, fill: '#000', editor: {} })
 
@@ -175,7 +179,8 @@ padding 支持 [fourNumber](/reference/interface/math/Math.md#ifournumber)
 // #滚动条 [设置画布 padding]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件
+import '@leafer-in/viewport' // 导入视口插件
+import { ScrollBar } from '@leafer-in/scroll' // 导入滚动条插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 

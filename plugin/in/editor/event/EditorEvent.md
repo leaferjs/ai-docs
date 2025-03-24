@@ -26,6 +26,12 @@
 
 ## 事件名称
 
+### EditorEvent.BEFORE_SELECT
+
+before 选择元素事件 (下个版本即将支持)。
+
+`editor.before_select`
+
 ### EditorEvent.SELECT
 
 选择元素事件。
@@ -33,6 +39,12 @@
 选择和取消都会触发， 通过 [editor.target](/plugin/in/editor/index.md#target-ui-ui) 获取选中的元素。
 
 `editor.select`
+
+### EditorEvent.BEFORE_HOVER
+
+before hover 元素事件 (下个版本即将支持)。
+
+`editor.before_hover`
 
 ### EditorEvent.HOVER
 
@@ -59,8 +71,8 @@ hover 元素事件。
 ```ts
 // #图形编辑器 [选中元素事件]
 import { App, Rect } from 'leafer-ui'
-import { EditorEvent } from '@leafer-in/editor'
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import { EditorEvent } from '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
     view: window,
@@ -76,8 +88,8 @@ app.editor.on(EditorEvent.SELECT, (e: EditorEvent) => { // [!code hl:3]
 ```
 ```js
 import { App, Rect } from 'leafer-ui'
-import { EditorEvent } from '@leafer-in/editor'
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import { EditorEvent } from '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
     view: window,

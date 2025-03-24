@@ -74,7 +74,7 @@ const json = { "tag": 'Group', "x": 20, "y": 20, "children": [{ "tag": "Rect", "
 leafer.add(json)
 ```
 
-## 了解图形元素
+## 初步了解图形元素
 
 ### [Rect 元素](/reference/display/Rect.md)
 

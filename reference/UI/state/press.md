@@ -31,7 +31,7 @@ pointer.down 状态， 支持添加 [过渡效果](/reference/UI/transition.md)�
 ```ts
 // #光标按下时的交互样式
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/state' // 导入交互状态插件
+import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

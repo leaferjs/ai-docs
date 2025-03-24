@@ -97,7 +97,7 @@ interface IAnimateOptions {
 ```ts
 // #动画方法 [摇摆动画]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -121,7 +121,7 @@ rect.animate(  // [!code hl:7]
 ```ts
 // #动画方法 [颜色过渡]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件  // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -145,7 +145,7 @@ rect.animate(  // [!code hl:7]
 ```ts
 // #动画方法 [关键帧动画]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

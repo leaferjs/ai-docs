@@ -36,14 +36,14 @@ import Case from '/component/Case.vue'
 
 设置控制点样式，可单独设置 4 个点。
 
-并支持通过设置 pointType = `'button'` ｜`'rotate'` 来自定义功能。
+并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
 ```ts
 point: [
-  {},
+  { pointType: 'resize' }, // 默认 resize 按钮
   {
     // 支持 Box 元素的所有属性
-    pointType: 'button',
+    pointType: 'button', // 变为自定义按钮
     event: {
       tap: function () {
         alert('button')
@@ -54,15 +54,17 @@ point: [
       type: 'image',
       url: '/image/leafer.jpg',
     },
-  }, // 变为自定义按钮
+  },
   { pointType: 'rotate' }, // 变为旋转按钮
-  {},
+  { pointType: 'resize-rotate' }, // 变为 resize + 旋转按钮
 ]
 ```
 
 ### middlePoint: [`IBoxInputData`](/reference/display/Box.md)｜ [`IBoxInputData`](/reference/display/Box.md)[]
 
 设置中间控制点样式（会继承基础样式），可单独设置 4 个点，为空时不显示， 默认为空。
+
+并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
 ### rect: [`IBoxInputData`](/reference/display/Box.md)
 
@@ -78,7 +80,7 @@ point: [
 
 设置独立旋转控制点样式（会继承基础样式）， 为空时不显示， 默认为空。
 
-并支持通过设置 pointType = `'button'` 来自定义功能。
+并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
 ```ts
 circle: {
@@ -110,6 +112,10 @@ circle: {
 
 hover 样式，目前只能定义笔触和填充样式（会继承基础样式）。
 
+### selectedStyle: [`IPathInputData`](/reference/display/Path.md)
+
+选中元素的样式（区分 hover 样式，多选元素时比较容易看出来），目前只能定义笔触和填充样式（会继承基础样式）。
+
 ### 遮罩
 
 ### mask: `string` | `boolean`
@@ -125,8 +131,8 @@ hover 样式，目前只能定义笔触和填充样式（会继承基础样式�
 ```ts
 // #图形编辑器 [显示所有控制点]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({  // [!code hl:7]
     view: window,
@@ -140,7 +146,7 @@ const app = new App({  // [!code hl:7]
 const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
 app.tree.add(rect)
 
-app.editor.target = rect
+app.editor.select(rect)
 ```
 
 <case name="EditorConfig" index=2 x=20></case>
@@ -150,8 +156,8 @@ app.editor.target = rect
 ```ts
 // #图形编辑器 [快速修改样式]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({  // [!code hl:4]
     view: window,
@@ -161,7 +167,7 @@ const app = new App({  // [!code hl:4]
 const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
 app.tree.add(rect)
 
-app.editor.target = rect
+app.editor.select(rect)
 ```
 
 <case name="EditorConfig" index=9 x=20 height=170></case>
@@ -173,8 +179,8 @@ app.editor.target = rect
 ```ts
 // #图形编辑器 [自定义样式]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({  // [!code hl:9]
     view: window,
@@ -189,7 +195,7 @@ const app = new App({  // [!code hl:9]
 const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
 app.tree.add(rect)
 
-app.editor.target = rect
+app.editor.select(rect)
 ```
 
 <case name="EditorConfig" index=11 x=20 height=160></case>
@@ -201,8 +207,8 @@ app.editor.target = rect
 ```ts
 // #图形编辑器 [显示旋转控制点]
 import { App, Rect } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({  // [!code hl:4]
     view: window,
@@ -212,5 +218,148 @@ const app = new App({  // [!code hl:4]
 const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
 app.tree.add(rect)
 
-app.editor.target = rect
+app.editor.select(rect)
+```
+
+### 自定义控制点功能类型
+
+::: code-group
+```ts
+// #图形编辑器 [自定义 point 控制点功能类型]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {
+        pointSize: 24,
+        point: [ // [!code hl:19]
+            { pointType: 'resize' }, // 默认 resize 按钮
+            {
+                // 支持 Box 元素的所有属性
+                pointType: 'button', // 变为自定义按钮
+                event: {
+                    tap: function () {
+                        alert('button')
+                    },
+                },
+                fill: {
+                    // 使用图片
+                    type: 'image',
+                    url: '/image/leafer.jpg',
+                },
+            },
+            { pointType: 'rotate' }, // 变为旋转按钮
+            { pointType: 'resize-rotate' }, // 变为 resize + 旋转按钮
+        ]
+    }
+})
+
+const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
+app.tree.add(rect)
+
+app.editor.select(rect)
+```
+```ts
+// #图形编辑器 [自定义 middlePoint 控制点功能类型]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {
+        pointSize: 24,
+        point: { width: 12, height: 12 },
+        middlePoint: [ // [!code hl:19]
+            { pointType: 'resize' }, // 默认 resize 按钮
+            {
+                // 支持 Box 元素的所有属性
+                pointType: 'button', // 变为自定义按钮
+                event: {
+                    tap: function () {
+                        alert('button')
+                    },
+                },
+                fill: {
+                    // 使用图片
+                    type: 'image',
+                    url: '/image/leafer.jpg',
+                },
+            },
+            { pointType: 'rotate' }, // 变为旋转按钮
+            { pointType: 'resize-rotate' }, // 变为 resize + 旋转按钮
+        ]
+    }
+})
+
+const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
+app.tree.add(rect)
+
+app.editor.select(rect)
+```
+```ts
+// #图形编辑器 [自定义 circle 控制点功能类型]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {
+        circle: // [!code hl:19]
+        {
+            // 支持 Box 元素的所有属性
+            pointType: 'button', // 变为自定义按钮
+            width: 24,
+            height: 24,
+            event: {
+                tap: function () {
+                    alert('button')
+                },
+            },
+            fill: {
+                // 使用图片
+                type: 'image',
+                url: '/image/leafer.jpg',
+            },
+        }
+    }
+})
+
+const rect = Rect.one({ editable: true, fill: '#32cd79', cornerRadius: 30 }, 100, 100)
+app.tree.add(rect)
+
+app.editor.select(rect)
+```
+:::
+
+### 拖拽控制点修改字体大小，拖拽边框控制文本宽高
+
+```ts
+// #图形编辑器 [拖拽控制点修改字体大小，拖拽边框控制文本宽高]
+import { App, Text } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/text-editor' // 导入文本编辑插件 (可选)
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {
+        editSize: 'size', // 默认修改元素宽高
+        point: {  // [!code hl:3] 
+            editConfig: { editSize: 'font-size' } // 拖拽控制点修改字体大小
+        }
+    }
+})
+
+const text = Text.one({
+    text: 'Action is the proper fruit of knowledge.',
+    editable: true, fill: '#FFE04B', fontSize: 16,
+}, 100, 100, 100)
+
+app.tree.add(text)
+
+app.editor.select(text)
 ```

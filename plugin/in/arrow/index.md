@@ -41,14 +41,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@1.4.2/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.5.0/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@1.4.2/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.5.0/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
@@ -139,7 +139,7 @@ interface IPathDataArrowOffset {
 ```ts
 // #箭头样式 [角度箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -159,7 +159,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [角度箭头 - 箭头变得更大一些]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -180,7 +180,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [角度箭头 - strokeCap变的平滑]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -201,7 +201,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [角度箭头 - strokeJoin变的平滑]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -222,7 +222,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [角度箭头 - 箭头变得平滑]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -244,7 +244,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [单边角度箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -265,7 +265,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [标准箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -286,7 +286,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [标准箭头 - 箭头都变得平滑]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -309,7 +309,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [三角形箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -330,7 +330,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [反向三角形箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -351,7 +351,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [圆形箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -372,7 +372,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [圆形箭头（线性）]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -393,7 +393,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [方形箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -414,7 +414,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [方形箭头（线性）]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -435,7 +435,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [菱形箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -456,7 +456,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [菱形箭头（线性）]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -477,7 +477,7 @@ leafer.add(arrow)
 ```ts
 // #箭头样式 [标注箭头]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -499,7 +499,7 @@ leafer.add(arrow)
 ```ts
 // #动画样式 [虚线箭头动画]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 import '@leafer-in/animate' // 导入动画插件
 
 const leafer = new Leafer({ view: window })

@@ -37,7 +37,7 @@ interface IPointGap {
 ```ts
 // #自动布局 - 子元素间距 [固定数值的间距]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -63,7 +63,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 子元素间距 [自动分配剩余空间为间距]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -89,7 +89,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 子元素间距 [自动分配剩余空间为间距（允许负值）]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -118,7 +118,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 子元素间距 [分别指定 X 轴和 Y 轴间距]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -148,7 +148,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 子元素间距 [自动分配 Y 轴剩余空间为间距]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

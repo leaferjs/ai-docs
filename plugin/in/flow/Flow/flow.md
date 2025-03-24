@@ -31,7 +31,7 @@ type IFlowType = 'x' | 'y' | 'x-reverse' | 'y-reverse' // 轴方向，reverse �
 ```ts
 // #自动布局 - 布局方向 [沿 X 轴自动布局]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -57,7 +57,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 布局方向 [沿 X 轴反向自动布局]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -83,7 +83,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 布局方向 [沿 Y 轴自动布局]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -109,7 +109,7 @@ leafer.add(flow)
 ```ts
 // #自动布局 - 布局方向 [沿 Y 轴反向自动布局]
 import { Leafer, Box } from 'leafer-ui'
-import { Flow } from '@leafer-in/flow'  // [!code hl] 
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

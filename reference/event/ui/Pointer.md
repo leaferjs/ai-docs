@@ -293,7 +293,7 @@ rect.on(PointerEvent.LONG_PRESS, () => {
 // #图形编辑器 [右键菜单]
 import { App, Rect, PointerEvent } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
     view: window,
@@ -336,7 +336,7 @@ function showMenu(name: string, x: number, y: number) {
 // #图形编辑器 [右键菜单]
 import { App, Rect, PointerEvent } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/viewport' // 导入视口插件(可选)
+import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
     view: window,

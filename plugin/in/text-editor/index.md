@@ -55,14 +55,14 @@ bun add @leafer-in/text-editor
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.4.2/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.5.0/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.4.2/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.5.0/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
@@ -115,8 +115,9 @@ interface ITextEditorConfig {
 ```ts
 // #文本编辑器
 import { App, Text } from 'leafer-ui'
-import '@leafer-in/editor' // 导入图形编辑器插件  // [!code hl:2] 
-import '@leafer-in/text-editor'
+import '@leafer-in/editor' // 导入图形编辑器插件  
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/text-editor' // 导入文本编辑插件 // [!code hl] 
 
 const app = new App({
     view: window,

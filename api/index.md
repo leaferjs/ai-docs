@@ -446,6 +446,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IEditPointInputData](interfaces/IEditPointInputData.md)
 - [IEditPoint](interfaces/IEditPoint.md)
 - [IEditBoxBase](interfaces/IEditBoxBase.md)
+- [IEditorDragStartData](/api/interfaces/IEditorDragStartData.md)
 - [IEditorConfigFunction](interfaces/IEditorConfigFunction.md)
 - [IEditToolFunction](interfaces/IEditToolFunction.md)
 - [IColorConvertModule](interfaces/IColorConvertModule.md)

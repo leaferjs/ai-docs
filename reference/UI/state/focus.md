@@ -29,7 +29,7 @@
 ```ts
 // #聚焦状态 
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/state' // 导入交互状态插件
+import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

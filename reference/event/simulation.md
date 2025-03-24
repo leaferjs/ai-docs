@@ -52,18 +52,17 @@ leafer.add(rect)
 
 rect.on(PointerEvent.DOWN, (e) => {
     console.log('down', e)
+    if (e.left) rect.fill = 'blue'
 })
 
 rect.on(PointerEvent.TAP, (e) => {
     console.log('tap', e)
+    if (e.left) rect.fill = '#32cd79'
 })
 
 const { interaction } = leafer
 
-leafer.waitReady(() => { // [!code hl:12]
-
-    interaction.pointerDown({ x: 100, y: 100 })
-    interaction.pointerUp()
+setTimeout(() => {  // [!code hl:15]
 
     interaction.pointerDown({ x: 100, y: 100, buttons: PointerButton.MIDDLE })
     interaction.pointerUp()
@@ -71,11 +70,13 @@ leafer.waitReady(() => { // [!code hl:12]
     interaction.pointerDown({ x: 100, y: 100, buttons: PointerButton.RIGHT })
     interaction.pointerUp()
 
-})
+    interaction.pointerDown({ x: 100, y: 100 })
 
+    setTimeout(() => {
+        interaction.pointerUp({ x: 100, y: 100 })
+    }, 500)
 
-
-
+}, 1000)
 ```
 
 ### 模拟 drag 事件
@@ -96,13 +97,13 @@ rect.on(DragEvent.DRAG, (e) => {
 
 const { interaction } = leafer
 
-leafer.waitReady(() => { // [!code hl:7]
+setTimeout(() => {  // [!code hl:7]
 
     interaction.pointerDown({ x: 100, y: 100 })
     interaction.pointerMove({ x: 500, y: 500 }) // drag
     interaction.pointerUp()
 
-})
+}, 1000)
 ```
 
 ### 模拟缩放
@@ -110,8 +111,9 @@ leafer.waitReady(() => { // [!code hl:7]
 ```ts
 // #模拟缩放事件
 import { Leafer, Rect, ZoomEvent } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件 // [!code hl]
 
-const leafer = new Leafer({ view: window })
+const leafer = new Leafer({ view: window, type: 'viewport' })
 
 const rect = new Rect({ x: 100, y: 100, width: 200, height: 200, fill: '#32cd79' })
 
@@ -123,12 +125,12 @@ rect.on(ZoomEvent.ZOOM, (e) => {
 
 const { interaction } = leafer
 
-leafer.waitReady(() => {  // [!code hl:6]
+setTimeout(() => {  // [!code hl:6]
 
     // origin is {x: 100, y: 100}
     interaction.zoom({ x: 100, y: 100, scale: 0.2 })
 
-})
+}, 1000)
 ```
 
 ### 模拟平移
@@ -136,8 +138,9 @@ leafer.waitReady(() => {  // [!code hl:6]
 ```ts
 // #模拟平移事件
 import { Leafer, Rect, MoveEvent } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件 // [!code hl]
 
-const leafer = new Leafer({ view: window })
+const leafer = new Leafer({ view: window, type: 'viewport' })
 
 const rect = new Rect({ x: 100, y: 100, width: 200, height: 200, fill: '#32cd79' })
 
@@ -149,11 +152,11 @@ rect.on(MoveEvent.MOVE, (e) => {
 
 const { interaction } = leafer
 
-leafer.waitReady(() => {  // [!code hl:5]
+setTimeout(() => {  // [!code hl:5]
 
     interaction.move({ x: 100, y: 100, moveX: -100, moveY: -100 })
 
-})
+}, 1000)
 ```
 
 ### 模拟旋转
@@ -162,8 +165,9 @@ leafer.waitReady(() => {  // [!code hl:5]
 ```ts
 // #模拟旋转事件
 import { Leafer, Rect, RotateEvent } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件 // [!code hl]
 
-const leafer = new Leafer({ view: window })
+const leafer = new Leafer({ view: window, type: 'viewport' })
 
 const rect = new Rect({ x: 100, y: 100, width: 200, height: 200, fill: '#32cd79' })
 
@@ -176,18 +180,19 @@ rect.on(RotateEvent.ROTATE, (e: RotateEvent) => {
 
 const { interaction } = leafer
 
-leafer.waitReady(() => {  // [!code hl:6]
+setTimeout(() => {   // [!code hl:6]
 
     // origin is {x: 100, y: 100}
     interaction.rotate({ x: 100, y: 100, rotation: 30 })
 
-})
+}, 1000)
 ```
 ```js
 // #模拟旋转事件
 import { Leafer, Rect, RotateEvent } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件 // [!code hl]
 
-const leafer = new Leafer({ view: window })
+const leafer = new Leafer({ view: window, type: 'viewport'  })
 
 const rect = new Rect({ x: 100, y: 100, width: 200, height: 200, fill: '#32cd79' })
 
@@ -200,11 +205,11 @@ rect.on(RotateEvent.ROTATE, (e) => {
 
 const { interaction } = leafer
 
-leafer.waitReady(() => {  // [!code hl:6]
+setTimeout(() => {   // [!code hl:6]
 
     // origin is {x: 100, y: 100}
     interaction.rotate({ x: 100, y: 100, rotation: 30 })
 
-})
+}, 1000)
 ```
 :::

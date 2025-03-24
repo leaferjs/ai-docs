@@ -20,7 +20,7 @@ import Case from '/component/Case.vue'
 ```ts
 // #动画样式 [入场和出场动画]
 import { Group, Leafer, Frame } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -65,7 +65,7 @@ setInterval(() => {
 ```ts
 // #动画样式 [颜色过渡]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -88,7 +88,7 @@ leafer.add(rect)
 ```ts
 // #动画样式 [关键帧动画]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
@@ -119,7 +119,7 @@ leafer.add(rect)
 ```ts
 // #动画样式 [虚线箭头动画]
 import { Leafer } from 'leafer-ui'
-import { Arrow } from '@leafer-in/arrow'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 import '@leafer-in/animate' // 导入动画插件
 
 const leafer = new Leafer({ view: window })

@@ -31,11 +31,11 @@ bun add @leafer-in/view
 ::: code-group
 
 ```html [view.min]
-<script src="https://unpkg.com/@leafer-in/view@1.4.2/dist/view.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@1.5.0/dist/view.min.js"></script>
 ```
 
 ```html [view]
-<script src="https://unpkg.com/@leafer-in/view@1.4.2/dist/view.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@1.5.0/dist/view.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
@@ -91,7 +91,8 @@ leafer.zoom('fit', null, null, 2) // 过渡 2 秒
 // #视图控制 [放大]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/view'
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/view' // 导入视图控制插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 
@@ -112,7 +113,8 @@ setTimeout(() => {
 // #视图控制 [缩小]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/view'
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/view' // 导入视图控制插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 
@@ -133,7 +135,8 @@ setTimeout(() => {
 // #视图控制 [指定缩放值]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/view'
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/view' // 导入视图控制插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 
@@ -154,7 +157,8 @@ setTimeout(() => {
 // #视图控制 [缩放到合适大小]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/view'
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/view' // 导入视图控制插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 
@@ -175,7 +179,8 @@ setTimeout(() => {
 // #视图控制 [让画布内容居中显示]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/view'
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/view' // 导入视图控制插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 
@@ -196,7 +201,8 @@ setTimeout(() => {
 // #视图控制 [聚焦到指定元素]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/view'
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/view' // 导入视图控制插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 
@@ -218,7 +224,8 @@ setTimeout(() => {
 // #视图控制 [聚焦到指定元素 - 不缩放画布，只进行位移]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/view'
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/view' // 导入视图控制插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 
@@ -240,7 +247,8 @@ setTimeout(() => {
 // #视图控制 [聚焦到指定区域]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
-import '@leafer-in/view'
+import '@leafer-in/viewport' // 导入视口插件（可选）
+import '@leafer-in/view' // 导入视图控制插件  // [!code hl] 
 
 const app = new App({ view: window, editor: {} })
 

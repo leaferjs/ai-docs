@@ -53,10 +53,11 @@ RotateEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic
 ```ts
 // #监听旋转交互事件
 import { Leafer, Rect, RotateEvent, LeafHelper } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件 // [!code hl]
 
 const leafer = new Leafer({
     view: window,
-    type: 'draw'
+    type: 'custom'
 })
 
 const rect = new Rect({ x: 100, y: 100, fill: '#32cd79', draggable: true })
@@ -71,10 +72,11 @@ leafer.on(RotateEvent.ROTATE, function (e: RotateEvent) { // [!code hl:4]
 ```js
 // #监听旋转交互事件
 import { Leafer, Rect, RotateEvent, LeafHelper } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件 // [!code hl]
 
 const leafer = new Leafer({
     view: window,
-    type: 'draw'
+    type: 'custom'
 })
 
 const rect = new Rect({ x: 100, y: 100, fill: '#32cd79', draggable: true })

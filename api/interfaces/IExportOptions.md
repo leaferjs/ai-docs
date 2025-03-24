@@ -18,6 +18,7 @@
 - [relative](IExportOptions.md#relative)
 - [json](IExportOptions.md#json)
 - [contextSettings](IExportOptions.md#contextsettings)
+- [canvas](IExportOptions.md#canvas)
 - [onCanvas](IExportOptions.md#oncanvas)
 
 ## Properties
@@ -28,7 +29,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:9](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L9)
+[leafer/packages/interface/src/file/IExport.ts:9](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L9)
 
 ___
 
@@ -38,7 +39,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:10](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L10)
+[leafer/packages/interface/src/file/IExport.ts:10](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L10)
 
 ___
 
@@ -48,7 +49,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:11](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L11)
+[leafer/packages/interface/src/file/IExport.ts:11](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L11)
 
 ___
 
@@ -58,7 +59,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:12](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L12)
+[leafer/packages/interface/src/file/IExport.ts:12](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L12)
 
 ___
 
@@ -68,7 +69,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:13](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L13)
+[leafer/packages/interface/src/file/IExport.ts:13](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L13)
 
 ___
 
@@ -78,7 +79,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:14](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L14)
+[leafer/packages/interface/src/file/IExport.ts:14](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L14)
 
 ___
 
@@ -88,7 +89,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:15](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L15)
+[leafer/packages/interface/src/file/IExport.ts:15](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L15)
 
 ___
 
@@ -98,7 +99,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:16](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L16)
+[leafer/packages/interface/src/file/IExport.ts:16](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L16)
 
 ___
 
@@ -108,7 +109,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:17](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L17)
+[leafer/packages/interface/src/file/IExport.ts:17](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L17)
 
 ___
 
@@ -118,7 +119,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:18](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L18)
+[leafer/packages/interface/src/file/IExport.ts:18](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L18)
 
 ___
 
@@ -128,7 +129,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:19](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L19)
+[leafer/packages/interface/src/file/IExport.ts:19](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L19)
 
 ___
 
@@ -138,7 +139,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:20](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L20)
+[leafer/packages/interface/src/file/IExport.ts:20](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L20)
 
 ___
 
@@ -148,7 +149,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:21](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L21)
+[leafer/packages/interface/src/file/IExport.ts:21](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L21)
 
 ___
 
@@ -158,7 +159,17 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:22](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L22)
+[leafer/packages/interface/src/file/IExport.ts:22](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L22)
+
+___
+
+### canvas
+
+• `Optional` **canvas**: [`ILeaferCanvas`](ILeaferCanvas.md)
+
+#### Defined in
+
+[leafer/packages/interface/src/file/IExport.ts:23](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L23)
 
 ___
 
@@ -168,4 +179,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:23](https://github.com/leaferjs/leafer/blob/0c6b9de/packages/interface/src/file/IExport.ts#L23)
+[leafer/packages/interface/src/file/IExport.ts:24](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/file/IExport.ts#L24)

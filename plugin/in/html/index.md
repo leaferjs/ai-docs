@@ -48,14 +48,14 @@ bun add @leafer-in/html
 ::: code-group
 
 ```html [html.min]
-<script src="https://unpkg.com/@leafer-in/html@1.4.2/dist/html.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@1.5.0/dist/html.min.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>
 ```
 
 ```html [html]
-<script src="https://unpkg.com/@leafer-in/html@1.4.2/dist/html.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@1.5.0/dist/html.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>
@@ -92,7 +92,7 @@ LeaferJS 内部对 SVG 渲染做了很多优化，不会有太大的性能影响
 ```ts
 // #HTML 文本
 import { Leafer } from 'leafer-ui'
-import { HTMLText } from '@leafer-in/html'
+import { HTMLText } from '@leafer-in/html' // 导入 html 插件  // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

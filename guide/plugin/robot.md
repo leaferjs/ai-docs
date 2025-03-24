@@ -22,7 +22,7 @@ Robot 元素类似于游戏中的精灵元素，集成了帧播放和动作预�
 ```ts
 // #创建 Robot 游戏元素
 import { Leafer, KeyEvent } from 'leafer-ui'
-import { Robot } from '@leafer-in/robot'
+import { Robot } from '@leafer-in/robot' // 导入 robot 插件  // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 

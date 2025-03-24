@@ -51,7 +51,7 @@ setTimeout(() => {
 ```ts
 // #通过 flip() 镜像元素 [有动画过渡]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/animate' // 导入动画插件
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
 const leafer = new Leafer({ view: window })
 
