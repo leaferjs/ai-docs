@@ -83,7 +83,7 @@ leafer.add(json)
 <case name="Rect" editor=false></case>
 
 ```ts
-// #创建 Rect [绘制不同圆角的矩形]
+// #创建 Rect [绘制不同圆角的矩形（Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -105,7 +105,7 @@ leafer.add(rect)
 <case name="Ellipse" editor=false></case>
 
 ```ts
-// #创建 Ellipse [绘制扇形圆环]
+// #创建 Ellipse [绘制扇形圆环（Leafer)]
 import { Leafer, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -129,7 +129,7 @@ leafer.add(ellipse)
 <case name="Line" editor=false></case>
 
 ```ts
-// #创建 Line [绘制横线]
+// #创建 Line [绘制横线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -150,12 +150,12 @@ leafer.add(line)
 <case name="Polygon" editor=false></case>
 
 ```ts
-// #创建 Polygon [绘制圆角六边形]
+// #创建 Polygon [绘制圆角六边形（Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const polygon = new Polygon({  // [!code hl:5]
+const polygon = new Polygon({  // [!code hl:7]
     width: 100,
     height: 100,
     sides: 6,
@@ -173,12 +173,12 @@ leafer.add(polygon)
 <case name="Star" editor=false></case>
 
 ```ts
-// #创建 Star [绘制圆角星形]
+// #创建 Star [绘制圆角星形（Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const star = new Star({  // [!code hl:5]
+const star = new Star({  // [!code hl:8]
     width: 100,
     height: 100,
     innerRadius: 0.5,
@@ -199,7 +199,7 @@ leafer.add(star)
 <case name="Path" editor=false></case>
 
 ```ts
-// #创建 Path [标准创建]
+// #创建 Path [标准创建（Leafer)]
 import { Leafer, Path } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -220,7 +220,7 @@ leafer.add(path)
 <case name="Pen" editor=false></case>
 
 ```ts
-// #创建 Pen [画出不同颜色的形状]
+// #创建 Pen [画出不同颜色的形状（Leafer)]
 import { Leafer, Pen } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -243,12 +243,12 @@ leafer.add(pen)
 <case name="ImageFill" editor=false></case>
 
 ```ts
-// #创建Image [使用默认宽高]
+// #创建Image [使用默认宽高（Leafer)]
 import { Leafer, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const image = new Image({  // [!code hl:3]
+const image = new Image({  // [!code hl:4]
     url: '/image/leafer.jpg',
     draggable: true
 })
@@ -293,7 +293,7 @@ leafer.add(image)
 <case name="Pen" editor=false></case>
 
 ```ts
-// #创建 Canvas [使用 context 绘制]
+// #创建 Canvas [使用 context 绘制（Leafer)]
 import { Leafer, Canvas } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -325,7 +325,7 @@ leafer.add(canvas)
 <case name="Text" editor=false></case>
 
 ```ts
-// #创建 Text [标准创建]
+// #创建 Text [标准创建（Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -353,7 +353,7 @@ leafer.add(text)
 类似于 HTML5 中的 DIV，但自身没有填充/描边等外观样式，用于组合多个子元素，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套。
 
 ```ts
-// #创建 Group [通过 add 方法添加]
+// #创建 Group [通过 add 方法添加（Leafer)]
 import { Leafer, Group, Rect, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -391,7 +391,7 @@ leafer.add(group)
 <case name="Box" editor=false></case>
 
 ```ts
-// #创建 Box [标准创建]
+// #创建 Box [标准创建（Leafer)]
 import { Leafer, Box, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })
@@ -422,7 +422,7 @@ box.add(rect)
 <case name="Frame" editor=false></case>
 
 ```ts
-// #创建 Frame [标准创建]
+// #创建 Frame [标准创建（Leafer)]
 import { Leafer, Frame, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })

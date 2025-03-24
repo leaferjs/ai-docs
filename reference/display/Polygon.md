@@ -75,13 +75,14 @@ sides: 5
 
 ### 绘制三角形
 
+::: code-group
 ```ts
-// #创建 Polygon [绘制三角形]
+// #创建 Polygon [绘制三角形（Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const polygon = new Polygon({  // [!code hl:5]
+const polygon = new Polygon({  // [!code hl:6]
     width: 100,
     height: 100,
     sides: 3,
@@ -90,18 +91,38 @@ const polygon = new Polygon({  // [!code hl:5]
 
 leafer.add(polygon)
 ```
+```ts
+// #创建 Polygon [绘制三角形（App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({  // [!code hl:7]
+    width: 100,
+    height: 100,
+    sides: 3,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(polygon)
+```
+:::
 
 <case name="Polygon" index=1 editor=false></case>
 
 ### 绘制五边形
 
+::: code-group
 ```ts
-// #创建 Polygon [绘制五边形]
+// #创建 Polygon [绘制五边形（Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const polygon = new Polygon({  // [!code hl:5]
+const polygon = new Polygon({  // [!code hl:6]
     width: 100,
     height: 100,
     sides: 5,
@@ -110,18 +131,38 @@ const polygon = new Polygon({  // [!code hl:5]
 
 leafer.add(polygon)
 ```
+```ts
+// #创建 Polygon [绘制五边形（App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({  // [!code hl:7]
+    width: 100,
+    height: 100,
+    sides: 5,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(polygon)
+```
+:::
 
 <case name="Polygon" index=2 editor=false></case>
 
 ### 绘制圆角六边形
 
+::: code-group
 ```ts
-// #创建 Polygon [绘制圆角六边形]
+// #创建 Polygon [绘制圆角六边形（Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const polygon = new Polygon({  // [!code hl:5]
+const polygon = new Polygon({  // [!code hl:7]
     width: 100,
     height: 100,
     sides: 6,
@@ -131,36 +172,75 @@ const polygon = new Polygon({  // [!code hl:5]
 
 leafer.add(polygon)
 ```
+```ts
+// #创建 Polygon [绘制圆角六边形（App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({  // [!code hl:8]
+    width: 100,
+    height: 100,
+    sides: 6,
+    cornerRadius: 10,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(polygon)
+```
+:::
 
 <case name="Polygon" index=3 editor=false></case>
 
 ### 绘制自由多边形
 
+::: code-group
 ```ts
-// #创建 Polygon [绘制自由多边形]
+// #创建 Polygon [绘制自由多边形（Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const polygon = new Polygon({  // [!code hl:5]
+const polygon = new Polygon({  // [!code hl:4]
     points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90],  // [x,y, x,y ...]
     fill: '#32cd79'
 })
 
 leafer.add(polygon)
 ```
+```ts
+// #创建 Polygon [绘制自由多边形（App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({  // [!code hl:5]
+    points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90],  // [x,y, x,y ...]
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(polygon)
+```
+:::
 
 <case name="Polygon" index=4 editor=false></case>
 
 ### 绘制平滑多边形
 
+::: code-group
 ```ts
-// #创建 Polygon [绘制平滑多边形]
+// #创建 Polygon [绘制平滑多边形（Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const polygon = new Polygon({  // [!code hl:6]
+const polygon = new Polygon({  // [!code hl:5]
     points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90, 90, 90, 10, 90],  // [x,y, x,y ...]
     curve: true,
     fill: '#32cd79'
@@ -168,18 +248,37 @@ const polygon = new Polygon({  // [!code hl:6]
 
 leafer.add(polygon)
 ```
+```ts
+// #创建 Polygon [绘制平滑多边形（App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({  // [!code hl:6]
+    points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90, 90, 90, 10, 90],  // [x,y, x,y ...]
+    curve: true,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(polygon)
+```
+:::
 
 <case name="Polygon" index=6 editor=false></case>
 
 ### 绘制 0.2 曲率的平滑多边形
 
+::: code-group
 ```ts
-// #创建 Polygon [绘制 0.2 曲率的平滑多边形]
+// #创建 Polygon [绘制 0.2 曲率的平滑多边形（Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const polygon = new Polygon({  // [!code hl:6]
+const polygon = new Polygon({  // [!code hl:5]
     points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90, 90, 90, 10, 90],  // [x,y, x,y ...]
     curve: 0.2,
     fill: '#32cd79'
@@ -187,18 +286,37 @@ const polygon = new Polygon({  // [!code hl:6]
 
 leafer.add(polygon)
 ```
+```ts
+// #创建 Polygon [绘制 0.2 曲率的平滑多边形（App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({  // [!code hl:6]
+    points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90, 90, 90, 10, 90],  // [x,y, x,y ...]
+    curve: 0.2,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(polygon)
+```
+:::
 
 <case name="Polygon" index=5 editor=false></case>
 
 ### 绘制趋势图
 
+::: code-group
 ```ts
-// #创建 Polygon [绘制趋势图]
+// #创建 Polygon [绘制趋势图（Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const polygon = new Polygon({  // [!code hl:6]
+const polygon = new Polygon({  // [!code hl:5]
     points: [0, 90, 20, 60, 40, 80, 60, 40, 75, 50, 90, 10, 100, 90, 100, 90, 0, 90],
     curve: true,
     fill: '#32cd79'
@@ -206,3 +324,21 @@ const polygon = new Polygon({  // [!code hl:6]
 
 leafer.add(polygon)
 ```
+```ts
+// #创建 Polygon [绘制趋势图（App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({  // [!code hl:6]
+    points: [0, 90, 20, 60, 40, 80, 60, 40, 75, 50, 90, 10, 100, 90, 100, 90, 0, 90],
+    curve: true,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(polygon)
+```
+:::

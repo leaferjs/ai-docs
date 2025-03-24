@@ -102,8 +102,9 @@ Platform.image.crossOrigin = 'anonymous'
 
 想为图片设置 fill 时，请用 Rect 代替，Rect 不设置宽高也会自适应图片，并支持多个填充。
 
+::: code-group
 ```ts
-// #使用 Rect 代替 Image
+// #使用 Rect 代替 Image（Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -119,6 +120,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #使用 Rect 代替 Image（App)
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    fill: {  // [!code hl:5]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        mode: 'stretch'
+    },
+    editable: true
+})
+
+app.tree.add(rect)
+```
+:::
 
 ## 资源库
 
@@ -144,29 +165,47 @@ leafer.add(rect)
 
 ### 使用默认宽高
 
+::: code-group
 ```ts
-// #创建Image [使用默认宽高]
+// #创建Image [使用默认宽高（Leafer)]
 import { Leafer, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const image = new Image({  // [!code hl:3]
+const image = new Image({  // [!code hl:4]
     url: '/image/leafer.jpg',
     draggable: true
 })
 
 leafer.add(image)
 ```
+```ts
+// #创建Image [使用默认宽高（App)]
+import { App, Image } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const image = new Image({  // [!code hl:4]
+    url: '/image/leafer.jpg',
+    editable: true
+})
+
+app.tree.add(image)
+```
+:::
 
 ### 固定宽度，自适应高度
 
+::: code-group
 ```ts
-// #创建Image [固定宽度，自适应高度]
+// #创建Image [固定宽度，自适应高度（Leafer)]
 import { Leafer, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const image = new Image({  // [!code hl:3]
+const image = new Image({  // [!code hl:4]
     url: '/image/leafer.jpg',
     width: 50,
     draggable: true
@@ -174,16 +213,34 @@ const image = new Image({  // [!code hl:3]
 
 leafer.add(image)
 ```
+```ts
+// #创建Image [固定宽度，自适应高度（App)]
+import { App, Image } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const image = new Image({  // [!code hl:4]
+    url: '/image/leafer.jpg',
+    width: 50,
+    editable: true
+})
+
+app.tree.add(image)
+```
+:::
 
 ### 固定高度，自适应宽度
 
+::: code-group
 ```ts
-// #创建Image [固定高度，自适应宽度]
+// #创建Image [固定高度，自适应宽度（Leafer)]
 import { Leafer, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const image = new Image({  // [!code hl:3]
+const image = new Image({  // [!code hl:5]
     url: '/image/leafer.jpg',
     height: 50,
     draggable: true
@@ -191,6 +248,23 @@ const image = new Image({  // [!code hl:3]
 
 leafer.add(image)
 ```
+```ts
+// #创建Image [固定高度，自适应宽度（App)]
+import { App, Image } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const image = new Image({  // [!code hl:5]
+    url: '/image/leafer.jpg',
+    height: 50,
+    editable: true
+})
+
+app.tree.add(image)
+```
+:::
 
 ### 监听图片加载
 

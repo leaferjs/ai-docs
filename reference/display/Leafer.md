@@ -126,7 +126,7 @@ leafer.on(LeaferEvent.VIEW_READY, function () {
 
 ### cursorPoint：[`IPointData`](../interface/math/Math#ipointdata)
 
-当前光标的位置 - [世界坐标](/guide/basic/coordinate.md#world)。
+当前光标的位置 - [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)。
 
 ### clientBounds：[`IBoundsData`](../interface/math/Math#iboundsdata)
 
@@ -232,11 +232,11 @@ leafer.start()
 
 ### getWorldPointByClient ( clientPoint: `IClientPointData`, update?: `boolean` ):[`IPointData`](../interface/math/Math#ipointdata)
 
-获取 [世界坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [世界坐标](/guide/basic/coordinate.md#world)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](/guide/advanced/coordinate.md#拖拽创建图形)。
+获取 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](/guide/advanced/coordinate.md#拖拽创建图形)。
 
 ### getPagePointByClient ( clientPoint: `IClientPointData`, update?: `boolean` ):[`IPointData`](../interface/math/Math#ipointdata)
 
-获取 [page 坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/basic/coordinate.md#page)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](/guide/advanced/coordinate.md#拖拽创建图形)。
+获取 [page 坐标](/guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](/guide/advanced/coordinate.md#拖拽创建图形)。
 
 可用于转换浏览器原生事件坐标（自带 clientX / clientY 坐标属性）到应用中。
 

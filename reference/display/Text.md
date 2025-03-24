@@ -208,8 +208,9 @@ padding: 20 // all
 
 ### 创建文本
 
+::: code-group
 ```ts
-// #创建 Text [标准创建]
+// #创建 Text [标准创建（Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -221,6 +222,24 @@ const text = new Text({
 
 leafer.add(text)
 ```
+```ts
+// #创建 Text [标准创建（App)]
+import { App, Text } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+import '@leafer-in/text-editor' // 导入文本编辑插件 
+
+const app = new App({ view: window, editor: {} })
+
+const text = new Text({
+    fill: '#32cd79',
+    text: 'Welcome to LeaferJS',
+    editable: true
+})
+
+app.tree.add(text)
+```
+:::
 
 <case name="Box" index=6 editor=false></case>
 
@@ -228,8 +247,9 @@ leafer.add(text)
 
 [Box](./Box.md) 不设置宽高时，支持自适应内容。
 
+::: code-group
 ```ts
-// #创建 Box [自适应文本]
+// #创建 Box [自适应文本（Leafer)]
 import { Leafer, Box } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })
@@ -252,6 +272,38 @@ const box = new Box({
 
 leafer.add(box)
 ```
+```ts
+// #创建 Box [自适应文本（App)]
+import { App, Box } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+import '@leafer-in/text-editor' // 导入文本编辑插件 
+
+
+const app = new App({ view: window, editor: {}, fill: '#333' })
+
+// Box 不设置宽高时，将自适应内容
+const box = new Box({
+    x: 100,
+    y: 100,
+    fill: '#FF4B4B',
+    cornerRadius: 20,
+    textBox: true,
+    hitChildren: false, // 阻止直接选择子元素（防止父子选择冲突，可双击进入组内选择子元素）
+    editable: true,
+    children: [{
+        tag: 'Text',
+        text: 'Welcome to LeaferJS',
+        fill: 'black',
+        padding: [10, 20],
+        textAlign: 'left',
+        verticalAlign: 'top'
+    }]
+})
+
+app.tree.add(box)
+```
+:::
 
 ### 文本 count 动画
 

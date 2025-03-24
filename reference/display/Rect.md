@@ -51,8 +51,9 @@ cornerRadius: 20 // all
 
 ### 绘制矩形
 
+::: code-group
 ```ts
-// #创建 Rect [绘制矩形]
+// #创建 Rect [绘制矩形（Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -65,13 +66,32 @@ const rect = new Rect({  // [!code hl:5]
 
 leafer.add(rect)
 ```
+```ts
+// #创建 Rect [绘制矩形（App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({  // [!code hl:6]
+    width: 100,
+    height: 100,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Rect" index=1 editor=false></case>
 
 ### 绘制圆角矩形
 
+::: code-group
 ```ts
-// #创建 Rect [绘制圆角矩形]
+// #创建 Rect [绘制圆角矩形（Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -85,13 +105,33 @@ const rect = new Rect({ // [!code hl:6]
 
 leafer.add(rect)
 ```
+```ts
+// #创建 Rect [绘制圆角矩形（App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({ // [!code hl:7]
+    width: 100,
+    height: 100,
+    fill: '#32cd79',
+    cornerRadius: 20,
+    editable: true
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Rect" index=4 editor=false></case>
 
 ### 绘制不同圆角的矩形
 
+::: code-group
 ```ts
-// #创建 Rect [绘制不同圆角的矩形]
+// #创建 Rect [绘制不同圆角的矩形（Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -105,3 +145,22 @@ const rect = new Rect({ // [!code hl:6]
 
 leafer.add(rect)
 ```
+```ts
+// #创建 Rect [绘制不同圆角的矩形（App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({ // [!code hl:7]
+    width: 100,
+    height: 100,
+    fill: '#32cd79',
+    cornerRadius: [0, 40, 20, 40],
+    editable: true
+})
+
+app.tree.add(rect)
+```
+:::

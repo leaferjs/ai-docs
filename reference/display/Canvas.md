@@ -73,7 +73,7 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 绘制图形元素。
 
-以元素的 [inner 坐标](/guide/basic/coordinate.md#inner) 为基准进行绘制，暂时只支持`2d`类型的画布。
+以元素的 [inner 坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 为基准进行绘制，暂时只支持`2d`类型的画布。
 
 ### paint ( )
 
@@ -99,8 +99,9 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 ### 使用 context 绘制
 
+::: code-group
 ```ts
-// #创建 Canvas [使用 context 绘制]
+// #创建 Canvas [使用 context 绘制（Leafer)]
 import { Leafer, Canvas } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -124,13 +125,42 @@ canvas.paint() // 更新渲染
 leafer.add(canvas)
 
 ```
+```ts
+// #创建 Canvas [使用 context 绘制（App)]
+import { App, Canvas } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const canvas = new Canvas({ width: 800, height: 600 }) // [!code hl:15]
+const { context } = canvas
+
+context.fillStyle = '#FF4B4B'
+context.beginPath()
+context.roundRect(0, 0, 100, 100, 30)
+context.arc(50, 50, 25, 0, Math.PI * 2)
+context.fill('evenodd')
+
+context.fillStyle = '#FEB027'
+context.beginPath()
+context.arc(50, 50, 20, 0, Math.PI * 2)
+context.fill()
+
+canvas.paint() // 更新渲染
+
+app.tree.add(canvas)
+
+```
+:::
 
 <case name="Pen" index=2 editor=false></case>
 
 ### 使用图形元素绘制
 
+::: code-group
 ```ts
-// #创建 Canvas [使用图形元素绘制]
+// #创建 Canvas [使用图形元素绘制（Leafer)]
 import { Leafer, Canvas, Pen } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -148,3 +178,25 @@ pen.moveTo(40, 30).bezierCurveTo(70, 30, 90, 60, 63, 80).quadraticCurveTo(50, 88
 
 canvas.draw(pen) // [!code hl]
 ```
+```ts
+// #创建 Canvas [使用图形元素绘制（App)]
+import { App, Canvas, Pen } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const canvas = new Canvas({ width: 800, height: 600 })
+app.tree.add(canvas)
+
+const pen = new Pen()
+
+pen.setStyle({ fill: { type: 'radial', stops: [{ offset: 0, color: '#FF4B4B' }, { offset: 1, color: '#FEB027' }] } })
+pen.roundRect(0, 0, 100, 100, 30)
+
+pen.setStyle({ y: -5, fill: 'white' })
+pen.moveTo(40, 30).bezierCurveTo(70, 30, 90, 60, 63, 80).quadraticCurveTo(50, 88, 40, 80).bezierCurveTo(10, 60, 50, 40, 40, 30)
+
+canvas.draw(pen) // [!code hl]
+```
+:::

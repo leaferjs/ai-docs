@@ -87,8 +87,9 @@ console.log(line.toPoint) // {x: 0, y: 100})  会根据 width 与 rotation 自�
 
 ### 绘制横线
 
+::: code-group
 ```ts
-// #创建 Line [绘制横线]
+// #创建 Line [绘制横线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -101,13 +102,32 @@ const line = new Line({  // [!code hl:4]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制横线（App)]
+import { App, Line } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const line = new Line({  // [!code hl:5]
+    width: 100,
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    editable: true
+})
+
+app.tree.add(line)
+```
+:::
 
 <case name="Line" x = 5 index=1 editor=false></case>
 
 ### 绘制到目标点的直线
 
+::: code-group
 ```ts
-// #创建 Line [绘制到目标点的直线]
+// #创建 Line [绘制到目标点的直线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -120,13 +140,32 @@ const line = new Line({  // [!code hl:5]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制到目标点的直线（App)]
+import { App, Line } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const line = new Line({  // [!code hl:6]
+    toPoint: { x: 100, y: 50 },
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    editable: true
+})
+
+app.tree.add(line)
+```
+:::
 
 <case name="Line" x = 5 index=2 editor=false></case>
 
 ### 绘制斜线
 
+::: code-group
 ```ts
-// #创建 Line [绘制斜线]
+// #创建 Line [绘制斜线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -141,13 +180,34 @@ const line = new Line({  // [!code hl:5]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制斜线（App)]
+import { App, Line } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const line = new Line({  // [!code hl:6]
+    width: 100,
+    rotation: 45,
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    dashPattern: [10, 10], // 虚线描边属性
+    editable: true
+})
+
+app.tree.add(line)
+```
+:::
 
 <case name="Line" x = 5 index=6 editor=false></case>
 
 ### 绘制竖线
 
+::: code-group
 ```ts
-// #创建 Line [绘制竖线]
+// #创建 Line [绘制竖线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -161,13 +221,33 @@ const line = new Line({  // [!code hl:5]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制竖线（App)]
+import { App, Line } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const line = new Line({  // [!code hl:6]
+    width: 100,
+    rotation: 90,
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    editable: true
+})
+
+app.tree.add(line)
+```
+:::
 
 <case name="Line" x = 5 index=8 editor=false></case>
 
 ### 绘制折线
 
+::: code-group
 ```ts
-// #创建 Line [绘制折线]
+// #创建 Line [绘制折线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -180,13 +260,32 @@ const line = new Line({  // [!code hl:5]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制折线（App)]
+import { App, Line } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const line = new Line({  // [!code hl:6]
+    points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90],  // [x,y, x,y ...]
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    editable: true
+})
+
+app.tree.add(line)
+```
+:::
 
 <case name="Line" x = 5 index=3 editor=false></case>
 
 ### 绘制圆角折线
 
+::: code-group
 ```ts
-// #创建 Line [绘制圆角折线]
+// #创建 Line [绘制圆角折线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -200,13 +299,30 @@ const line = new Line({  // [!code hl:5]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制圆角折线（Leafer)]
+import { Leafer, Line } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+const line = new Line({  // [!code hl:5]
+    points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90], // [x,y, x,y ...]
+    cornerRadius: 5,
+    strokeWidth: 5,
+    stroke: '#32cd79'
+})
+
+leafer.add(line)
+```
+:::
 
 <case name="Line" x = 5 index=4 editor=false></case>
 
 ### 绘制曲线
 
+::: code-group
 ```ts
-// #创建 Line [绘制曲线]
+// #创建 Line [绘制曲线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -220,13 +336,33 @@ const line = new Line({  // [!code hl:6]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制曲线（App)]
+import { App, Line } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const line = new Line({  // [!code hl:7]
+    points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90],  // [x,y, x,y ...]
+    curve: true,
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    editable: true
+})
+
+app.tree.add(line)
+```
+:::
 
 <case name="Line" x = 5 index=7 editor=false></case>
 
 ### 绘制 0.2 曲率的曲线
 
+::: code-group
 ```ts
-// #创建 Line [绘制 0.2 曲率的曲线]
+// #创建 Line [绘制 0.2 曲率的曲线（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -240,13 +376,33 @@ const line = new Line({  // [!code hl:6]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制 0.2 曲率的曲线（App)]
+import { App, Line } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const line = new Line({  // [!code hl:7]
+    points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90],  // [x,y, x,y ...]
+    curve: 0.2,
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    editable: true
+})
+
+app.tree.add(line)
+```
+:::
 
 <case name="Line" x = 5 index=5 editor=false></case>
 
 ### 绘制趋势图
 
+::: code-group
 ```ts
-// #创建 Line [绘制趋势图]
+// #创建 Line [绘制趋势图（Leafer)]
 import { Leafer, Line } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -260,3 +416,22 @@ const line = new Line({  // [!code hl:6]
 
 leafer.add(line)
 ```
+```ts
+// #创建 Line [绘制趋势图（App)]
+import { App, Line } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const line = new Line({  // [!code hl:7]
+    points: [0, 90, 20, 60, 40, 80, 60, 40, 75, 50, 90, 10, 100, 90],  // [x,y, x,y ...]
+    curve: true,
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    editable: true
+})
+
+app.tree.add(line)
+```
+:::

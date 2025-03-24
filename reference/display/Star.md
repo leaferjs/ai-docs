@@ -60,13 +60,14 @@ innerRadius: 0.382
 
 ### 绘制车标
 
+::: code-group
 ```ts
-// #创建 Star [绘制车标]
+// #创建 Star [绘制车标（Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const star = new Star({  // [!code hl:6]
+const star = new Star({  // [!code hl:7]
     width: 100,
     height: 100,
     corners: 3,
@@ -76,18 +77,39 @@ const star = new Star({  // [!code hl:6]
 
 leafer.add(star)
 ```
+```ts
+// #创建 Star [绘制车标（App)]
+import { App, Star } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const star = new Star({  // [!code hl:8]
+    width: 100,
+    height: 100,
+    corners: 3,
+    innerRadius: 0.15,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(star)
+```
+:::
 
 <case name="Star" index=1 editor=false></case>
 
 ### 绘制星光
 
+::: code-group
 ```ts
-// #创建 Star [绘制星光]
+// #创建 Star [绘制星光（Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const star = new Star({  // [!code hl:6]
+const star = new Star({  // [!code hl:7]
     width: 100,
     height: 100,
     corners: 4,
@@ -97,18 +119,39 @@ const star = new Star({  // [!code hl:6]
 
 leafer.add(star)
 ```
+```ts
+// #创建 Star [绘制星光（App)]
+import { App, Star } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const star = new Star({  // [!code hl:8]
+    width: 100,
+    height: 100,
+    corners: 4,
+    innerRadius: 0.1,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(star)
+```
+:::
 
 <case name="Star" index=2 editor=false></case>
 
 ### 绘制五角星
 
+::: code-group
 ```ts
-// #创建 Star [绘制五角星]
+// #创建 Star [绘制五角星（Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const star = new Star({  // [!code hl:5]
+const star = new Star({  // [!code hl:6]
     width: 100,
     height: 100,
     corners: 5,
@@ -117,18 +160,38 @@ const star = new Star({  // [!code hl:5]
 
 leafer.add(star)
 ```
+```ts
+// #创建 Star [绘制五角星（App)]
+import { App, Star } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const star = new Star({  // [!code hl:7]
+    width: 100,
+    height: 100,
+    corners: 5,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(star)
+```
+:::
 
 <case name="Star" index=5 editor=false></case>
 
 ### 绘制圆角星形
 
+::: code-group
 ```ts
-// #创建 Star [绘制圆角星形]
+// #创建 Star [绘制圆角星形（Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 
-const star = new Star({  // [!code hl:5]
+const star = new Star({  // [!code hl:8]
     width: 100,
     height: 100,
     innerRadius: 0.5,
@@ -139,3 +202,24 @@ const star = new Star({  // [!code hl:5]
 
 leafer.add(star)
 ```
+```ts
+// #创建 Star [绘制圆角星形（App)]
+import { App, Star } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const star = new Star({  // [!code hl:9]
+    width: 100,
+    height: 100,
+    innerRadius: 0.5,
+    corners: 8,
+    cornerRadius: 5,
+    fill: '#32cd79',
+    editable: true
+})
+
+app.tree.add(star)
+```
+:::
