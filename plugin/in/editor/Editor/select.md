@@ -47,11 +47,9 @@ app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 2
 setTimeout(() => {
 
     // 手动选择元素 
-    const target = app.tree.children[1] // [!code hl:3]
+    app.editor.select(app.tree.children[1]) // [!code hl]
 
-    app.editor.select(target)
-
-}, 2000)
+}, 1000)
 
 
 ```

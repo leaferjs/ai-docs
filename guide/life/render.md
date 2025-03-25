@@ -39,7 +39,7 @@ leafer.on(RenderEvent.BEFORE, function () { // [!code hl:3]
 
 🍉 了解应用、元素、属性方法、事件、类库的使用。
 
-🍊 了解让你事半功倍的官方、社区 [插件](/plugin/index.md)。
+🍊 了解让你事半功倍的官方、社区插件。
 
 ### 在前端环境中使用
 

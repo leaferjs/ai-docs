@@ -36,7 +36,7 @@ before 缩放大小事件（调整元素大小）。
 
 ## 辅助
 
-[editor.editBox.enterPoint](../EditBox.md#enterpoint-editpoint) 表示当前正在操作的控制点。
+[editor.editBox.dragPoint](../EditBox.md#dragpoint-editpoint) 表示当前正在操作的控制点。
 
 ## 继承事件
 
@@ -45,3 +45,26 @@ before 缩放大小事件（调整元素大小）。
 <!-- ## API
 
 ### [EditorScaleEvent](/api/classes/EditorScaleEvent.md) -->
+
+## 示例
+
+### 缩放（resize）元素事件
+
+```ts
+// #图形编辑器 [缩放元素事件（resize）]
+import { App, Rect } from 'leafer-ui'
+import { EditorScaleEvent } from '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {}
+})
+
+app.tree.add(Rect.one({ fill: '#32cd79', editable: true }, 100, 100))
+app.tree.add(Rect.one({ fill: '#32cd79', editable: true }, 300, 100))
+
+app.editor.on(EditorScaleEvent.SCALE, (e: EditorScaleEvent) => { // [!code hl:3]
+    console.log(e.scaleX, e.scaleY, e.transform)
+})
+```
