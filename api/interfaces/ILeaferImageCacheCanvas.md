@@ -15,7 +15,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:24](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/ILeaferImage.ts#L24)
+[leafer/packages/interface/src/image/ILeaferImage.ts:24](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/ILeaferImage.ts#L24)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:25](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/ILeaferImage.ts#L25)
+[leafer/packages/interface/src/image/ILeaferImage.ts:25](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/ILeaferImage.ts#L25)

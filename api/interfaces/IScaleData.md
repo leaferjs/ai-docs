@@ -4,6 +4,8 @@
 
 - **`IScaleData`**
 
+  ↳ [`IEditorScaleData`](IEditorScaleData.md)
+
   ↳ [`IMatrixWithScaleData`](IMatrixWithScaleData.md)
 
   ↳ [`IMatrixWithBoundsScaleData`](IMatrixWithBoundsScaleData.md)
@@ -25,7 +27,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:165](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/math/IMath.ts#L165)
+[leafer/packages/interface/src/math/IMath.ts:171](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/math/IMath.ts#L171)
 
 ___
 
@@ -35,4 +37,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:166](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/math/IMath.ts#L166)
+[leafer/packages/interface/src/math/IMath.ts:172](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/math/IMath.ts#L172)

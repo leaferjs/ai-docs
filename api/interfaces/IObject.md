@@ -8,6 +8,14 @@
 
   ↳ [`IEditorConfig`](IEditorConfig.md)
 
+  ↳ [`IEditorMoveData`](IEditorMoveData.md)
+
+  ↳ [`IEditorScaleData`](IEditorScaleData.md)
+
+  ↳ [`IEditorRotationData`](IEditorRotationData.md)
+
+  ↳ [`IEditorSkewData`](IEditorSkewData.md)
+
   ↳ [`IFilter`](IFilter.md)
 
   ↳ [`IMiniappSelect`](IMiniappSelect.md)

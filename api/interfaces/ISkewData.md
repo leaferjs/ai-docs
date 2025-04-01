@@ -4,6 +4,8 @@
 
 - **`ISkewData`**
 
+  ↳ [`IEditorSkewData`](IEditorSkewData.md)
+
   ↳ [`ILayoutData`](ILayoutData.md)
 
 ## Table of contents
@@ -21,7 +23,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:174](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/math/IMath.ts#L174)
+[leafer/packages/interface/src/math/IMath.ts:180](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/math/IMath.ts#L180)
 
 ___
 
@@ -31,4 +33,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:175](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/math/IMath.ts#L175)
+[leafer/packages/interface/src/math/IMath.ts:181](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/math/IMath.ts#L181)

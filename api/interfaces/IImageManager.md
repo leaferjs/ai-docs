@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:7](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L7)
+[leafer/packages/interface/src/image/IImageManager.ts:7](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L7)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:8](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L8)
+[leafer/packages/interface/src/image/IImageManager.ts:8](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L8)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:10](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L10)
+[leafer/packages/interface/src/image/IImageManager.ts:10](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L10)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:11](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L11)
+[leafer/packages/interface/src/image/IImageManager.ts:11](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L11)
 
 ## Methods
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:13](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L13)
+[leafer/packages/interface/src/image/IImageManager.ts:13](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L13)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:14](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L14)
+[leafer/packages/interface/src/image/IImageManager.ts:14](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L14)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:15](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L15)
+[leafer/packages/interface/src/image/IImageManager.ts:15](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L15)
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:16](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L16)
+[leafer/packages/interface/src/image/IImageManager.ts:16](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L16)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:17](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L17)
+[leafer/packages/interface/src/image/IImageManager.ts:17](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L17)
 
 ___
 
@@ -165,4 +165,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:19](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/image/IImageManager.ts#L19)
+[leafer/packages/interface/src/image/IImageManager.ts:19](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/image/IImageManager.ts#L19)

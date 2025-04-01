@@ -15,7 +15,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/animate/ITransition.ts:44](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/animate/ITransition.ts#L44)
+[leafer/packages/interface/src/animate/ITransition.ts:44](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/animate/ITransition.ts#L44)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/animate/ITransition.ts:45](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/animate/ITransition.ts#L45)
+[leafer/packages/interface/src/animate/ITransition.ts:45](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/animate/ITransition.ts#L45)

@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:82](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/math/IMath.ts#L82)
+[leafer/packages/interface/src/math/IMath.ts:88](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/math/IMath.ts#L88)

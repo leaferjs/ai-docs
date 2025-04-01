@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:50](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/selector/ISelector.ts#L50)
+[leafer/packages/interface/src/selector/ISelector.ts:50](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/selector/ISelector.ts#L50)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:51](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/selector/ISelector.ts#L51)
+[leafer/packages/interface/src/selector/ISelector.ts:51](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/selector/ISelector.ts#L51)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:53](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/selector/ISelector.ts#L53)
+[leafer/packages/interface/src/selector/ISelector.ts:53](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/selector/ISelector.ts#L53)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:55](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/selector/ISelector.ts#L55)
+[leafer/packages/interface/src/selector/ISelector.ts:55](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/selector/ISelector.ts#L55)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:56](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/selector/ISelector.ts#L56)
+[leafer/packages/interface/src/selector/ISelector.ts:56](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/selector/ISelector.ts#L56)
 
 ## Methods
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:58](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/selector/ISelector.ts#L58)
+[leafer/packages/interface/src/selector/ISelector.ts:58](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/selector/ISelector.ts#L58)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:59](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/selector/ISelector.ts#L59)
+[leafer/packages/interface/src/selector/ISelector.ts:59](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/selector/ISelector.ts#L59)
 
 ___
 
@@ -127,4 +127,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/selector/ISelector.ts:60](https://github.com/leaferjs/leafer/blob/a165a56/packages/interface/src/selector/ISelector.ts#L60)
+[leafer/packages/interface/src/selector/ISelector.ts:60](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/selector/ISelector.ts#L60)

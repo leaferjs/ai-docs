@@ -241,7 +241,7 @@ import '@leafer-in/animate' // 导入动画插件
 
 const leafer = new Leafer({ view: window })
 
-const rect = new Arrow({
+const arrow = new Arrow({
     x: 100,
     y: 100,
     stroke: '#32cd79',
@@ -256,5 +256,5 @@ const rect = new Arrow({
     }
 })
 
-leafer.add(rect)
+leafer.add(arrow)
 ```

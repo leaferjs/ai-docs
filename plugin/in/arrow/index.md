@@ -41,14 +41,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@1.5.1/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.5.2/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@1.5.1/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.5.2/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
@@ -504,7 +504,7 @@ import '@leafer-in/animate' // 导入动画插件
 
 const leafer = new Leafer({ view: window })
 
-const rect = new Arrow({
+const arrow = new Arrow({
     x: 100,
     y: 100,
     stroke: '#32cd79',
@@ -519,5 +519,5 @@ const rect = new Arrow({
     }
 })
 
-leafer.add(rect)
+leafer.add(arrow)
 ```
