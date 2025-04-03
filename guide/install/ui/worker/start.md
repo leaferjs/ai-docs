@@ -4,9 +4,9 @@
 
 ##
 
-在 WebWorker 环境中运行。
+在 Web Worker 后台多线程环境中运行，不能操作 DOM。
 
-<!-- 如果你需要编辑图形，推荐更省心的 [leafer-editor](/guide/install/editor/worker/start.md)，已集成了图形编辑器相关插件。 -->
+Web 版和 Worker 版可以在同一个项目中共存，按需搭配使用。
 
 ## 安装
 
@@ -30,18 +30,18 @@ bun add @leafer-ui/worker
 
 :::
 
-#### importScripts 引入
+#### 或通过 importScripts 引入
 
 通过全局变量 LeaferUI 访问内部功能。
 
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-ui/worker@1.5.2/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.5.3/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-ui/worker@1.5.2/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.5.3/dist/worker.js')
 ```
 
 :::
@@ -67,7 +67,7 @@ worker.onmessage = (e) => { // 通过worker生成一张图片进行显示
 ```js
 // 你也可以使用npm包模式，编译成js文件供worker调用
 importScripts(
-  'https://unpkg.com/@leafer-ui/worker@1.5.2/dist/worker.min.js'
+  'https://unpkg.com/@leafer-ui/worker@1.5.3/dist/worker.min.js'
 )
 
 const { Leafer, Rect } = LeaferUI

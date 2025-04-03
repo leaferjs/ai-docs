@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITransition.ts:5](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/module/ITransition.ts#L5)
+[ui/packages/interface/src/module/ITransition.ts:5](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/module/ITransition.ts#L5)
 
 ## Methods
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITransition.ts:6](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/module/ITransition.ts#L6)
+[ui/packages/interface/src/module/ITransition.ts:6](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/module/ITransition.ts#L6)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITransition.ts:7](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/module/ITransition.ts#L7)
+[ui/packages/interface/src/module/ITransition.ts:7](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/module/ITransition.ts#L7)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITransition.ts:9](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/module/ITransition.ts#L9)
+[ui/packages/interface/src/module/ITransition.ts:9](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/module/ITransition.ts#L9)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITransition.ts:10](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/module/ITransition.ts#L10)
+[ui/packages/interface/src/module/ITransition.ts:10](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/module/ITransition.ts#L10)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITransition.ts:11](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/module/ITransition.ts#L11)
+[ui/packages/interface/src/module/ITransition.ts:11](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/module/ITransition.ts#L11)
 
 ___
 
@@ -155,4 +155,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITransition.ts:12](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/module/ITransition.ts#L12)
+[ui/packages/interface/src/module/ITransition.ts:12](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/module/ITransition.ts#L12)

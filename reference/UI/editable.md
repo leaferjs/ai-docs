@@ -24,6 +24,8 @@
 
 限制元素的宽度范围（目前只有编辑器单选元素时可以控制）。
 
+同时编辑器配置支持事件钩子 [beforeScale](/plugin/in/editor/config/event.md#beforescale-ieditorbeforescale) 限制宽度。
+
 ```ts
 interface IRangeSize {
   min?: number
@@ -36,6 +38,8 @@ rect.widthRange = { min: 10, max: 200 }
 ### heightRange: `IRangeSize`
 
 限制元素的高度范围（目前只有编辑器单选元素时可以控制）。
+
+同时编辑器配置支持事件钩子 [beforeScale](/plugin/in/editor/config/event.md#beforescale-ieditorbeforescale) 限制高度。
 
 ```ts
 interface IRangeSize {
@@ -66,7 +70,7 @@ rect.heightRange = { min: 10, max: 200 }
 // #图形编辑器 [editConfig]
 import { Text } from 'leafer-ui'
 
-// 1. 设置类，所有 Text 元素生效（推荐）
+// 1. 设置类，所有 Text 元素生效，不会导出json（推荐）
 Text.setEditConfig({
     editSize: 'scale' // 使用对象
 })
@@ -77,7 +81,13 @@ Text.setEditConfig(function (text: Text) {
     }
 })
 
-// 2. 设置单个元素，支持导出json，会增加内存开销
+// 2. 设置单个元素，不会导出json
+const text = new Text({ text: 'hello', editable: true })
+Object.defineProperty(text, 'editConfig', {
+    get() { return { moveable: false } }
+})
+
+// 3. 设置单个元素，支持导出json，会增加内存开销
 new Text({
     text: 'hello',
     editable: true,
@@ -103,6 +113,12 @@ Text.setEditOuter(function (text: Text) {
     return text.get('width') ? 'EditTool' : 'TextEditTool'
 })
 
+// 2. 设置单个元素，不会导出json
+const text = new Text({ text: 'hello', editable: true })
+Object.defineProperty(text, 'editOuter', {
+    get() { return 'TextEditTool' }
+})
+
 // 2. 设置单个元素，支持导出json，会增加内存开销
 new Text({
     text: 'hello',
@@ -121,7 +137,7 @@ Text 默认为: `'TextEditor'`，可自定义 [内部编辑器](/plugin/in/edito
 // #图形编辑器 [editInner]
 import { Text } from 'leafer-ui'
 
-// 1. 设置类，所有 Text 元素生效（推荐）
+// 1. 设置类，所有 Text 元素生效，不会导出json（推荐）
 Text.setEditInner('TextEditor')
 
 Text.setEditInner(function (text: Text) {
@@ -129,7 +145,13 @@ Text.setEditInner(function (text: Text) {
     return text.get('width') ? 'PathEditor' : 'TextEditor'
 })
 
-// 2. 设置单个元素，支持导出json，会增加内存开销
+// 2. 设置单个元素，不会导出json
+const text = new Text({ text: 'hello', editable: true })
+Object.defineProperty(text, 'editInner', {
+    get() { return 'TextEditor' }
+})
+
+// 3. 设置单个元素，支持导出json，会增加内存开销
 new Text({
     text: 'hello',
     editable: true,

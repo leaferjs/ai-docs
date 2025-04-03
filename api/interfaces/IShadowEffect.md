@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:156](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L156)
+[ui/packages/interface/src/type/IType.ts:156](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L156)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:157](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L157)
+[ui/packages/interface/src/type/IType.ts:157](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L157)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:158](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L158)
+[ui/packages/interface/src/type/IType.ts:158](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L158)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:159](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L159)
+[ui/packages/interface/src/type/IType.ts:159](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L159)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:160](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L160)
+[ui/packages/interface/src/type/IType.ts:160](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L160)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:161](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L161)
+[ui/packages/interface/src/type/IType.ts:161](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L161)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:162](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L162)
+[ui/packages/interface/src/type/IType.ts:162](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L162)
 
 ___
 
@@ -91,4 +91,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:163](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L163)
+[ui/packages/interface/src/type/IType.ts:163](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L163)

@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:85](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L85)
+[ui/packages/interface/src/type/IType.ts:85](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L85)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:86](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L86)
+[ui/packages/interface/src/type/IType.ts:86](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L86)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:87](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L87)
+[ui/packages/interface/src/type/IType.ts:87](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L87)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:88](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L88)
+[ui/packages/interface/src/type/IType.ts:88](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L88)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:89](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L89)
+[ui/packages/interface/src/type/IType.ts:89](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L89)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:90](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L90)
+[ui/packages/interface/src/type/IType.ts:90](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L90)
 
 ___
 
@@ -80,4 +80,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:91](https://github.com/leaferjs/leafer-ui/blob/6deed4d/packages/interface/src/type/IType.ts#L91)
+[ui/packages/interface/src/type/IType.ts:91](https://github.com/leaferjs/leafer-ui/blob/63b7718/packages/interface/src/type/IType.ts#L91)

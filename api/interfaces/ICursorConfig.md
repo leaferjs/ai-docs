@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:168](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/interaction/IInteraction.ts#L168)
+[leafer/packages/interface/src/interaction/IInteraction.ts:168](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L168)

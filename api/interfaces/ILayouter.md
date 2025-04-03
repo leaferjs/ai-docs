@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:35](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L35)
+[leafer/packages/interface/src/layouter/ILayouter.ts:35](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L35)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:36](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L36)
+[leafer/packages/interface/src/layouter/ILayouter.ts:36](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L36)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:37](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L37)
+[leafer/packages/interface/src/layouter/ILayouter.ts:37](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L37)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:39](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L39)
+[leafer/packages/interface/src/layouter/ILayouter.ts:39](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L39)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:40](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L40)
+[leafer/packages/interface/src/layouter/ILayouter.ts:40](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L40)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:42](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L42)
+[leafer/packages/interface/src/layouter/ILayouter.ts:42](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L42)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:43](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L43)
+[leafer/packages/interface/src/layouter/ILayouter.ts:43](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L43)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:44](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L44)
+[leafer/packages/interface/src/layouter/ILayouter.ts:44](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L44)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:46](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L46)
+[leafer/packages/interface/src/layouter/ILayouter.ts:46](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L46)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:48](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L48)
+[leafer/packages/interface/src/layouter/ILayouter.ts:48](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L48)
 
 ## Methods
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:2](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/control/IControl.ts#L2)
+[leafer/packages/interface/src/control/IControl.ts:2](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/control/IControl.ts#L2)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:3](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/control/IControl.ts#L3)
+[leafer/packages/interface/src/control/IControl.ts:3](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/control/IControl.ts#L3)
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:4](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/control/IControl.ts#L4)
+[leafer/packages/interface/src/control/IControl.ts:4](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/control/IControl.ts#L4)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:50](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L50)
+[leafer/packages/interface/src/layouter/ILayouter.ts:50](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L50)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:52](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L52)
+[leafer/packages/interface/src/layouter/ILayouter.ts:52](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L52)
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:53](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L53)
+[leafer/packages/interface/src/layouter/ILayouter.ts:53](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L53)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:54](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L54)
+[leafer/packages/interface/src/layouter/ILayouter.ts:54](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L54)
 
 ___
 
@@ -263,7 +263,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:55](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L55)
+[leafer/packages/interface/src/layouter/ILayouter.ts:55](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L55)
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:56](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L56)
+[leafer/packages/interface/src/layouter/ILayouter.ts:56](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L56)
 
 ___
 
@@ -297,7 +297,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:58](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L58)
+[leafer/packages/interface/src/layouter/ILayouter.ts:58](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L58)
 
 ___
 
@@ -317,7 +317,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:60](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L60)
+[leafer/packages/interface/src/layouter/ILayouter.ts:60](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L60)
 
 ___
 
@@ -337,7 +337,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:61](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L61)
+[leafer/packages/interface/src/layouter/ILayouter.ts:61](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L61)
 
 ___
 
@@ -357,4 +357,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/layouter/ILayouter.ts:62](https://github.com/leaferjs/leafer/blob/8d161c2/packages/interface/src/layouter/ILayouter.ts#L62)
+[leafer/packages/interface/src/layouter/ILayouter.ts:62](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/layouter/ILayouter.ts#L62)

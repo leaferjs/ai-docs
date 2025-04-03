@@ -8,7 +8,9 @@
 
 ##
 
-在 WebWorker 环境中运行。
+在 Web Worker 后台多线程环境中运行，不能操作 DOM。
+
+Web 版和 Worker 版可以在同一个项目中共存，按需搭配使用。
 
 ## 安装
 
@@ -32,7 +34,7 @@ bun add @leafer-editor/worker
 
 :::
 
-#### importScripts 引入
+#### 或通过 importScripts 引入
 
 通过全局变量 LeaferUI 访问内部功能。
 
@@ -40,12 +42,12 @@ bun add @leafer-editor/worker
 
 ```js [worker.min.js]
 importScripts(
-  'https://unpkg.com/@leafer-editor/worker@1.5.2/dist/worker.min.js'
+  'https://unpkg.com/@leafer-editor/worker@1.5.3/dist/worker.min.js'
 )
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-editor/worker@1.5.2/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-editor/worker@1.5.3/dist/worker.js')
 ```
 
 :::
