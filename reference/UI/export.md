@@ -100,6 +100,40 @@ syncExport( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `strin
 
 ## 示例
 
+### 导出元素为图片
+
+```ts
+// #导出图片 [导出文件]
+import { Leafer, Rect } from 'leafer-ui'
+import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
+
+const leafer = new Leafer({ view: window })
+
+const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
+leafer.add(rect)
+
+rect.export('test.png') // 传文件名参数，浏览器版会直接下载文件，Node.js 版会保存到指定路径 // [!code hl:3]
+
+// const result = await rect.export('./home/test.png')
+```
+
+### 导出高清图
+
+```ts
+// #导出图片 [导出高清图]
+import { Leafer, Rect } from 'leafer-ui'
+import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
+
+const leafer = new Leafer({ view: window })
+
+const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
+leafer.add(rect)
+
+rect.export('HD.png', { pixelRatio: 2 }) // 导出2倍高清图 [!code hl:3]
+
+// const result = await rect.export('HD.png', { pixelRatio: 2 }}
+```
+
 ### 导出 Base64 编码数据
 
 默认图片质量为 0.92。
@@ -114,7 +148,7 @@ const leafer = new Leafer({ view: window })
 const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
 leafer.add(rect)
 
-rect.export('jpg').then(result => { // [!code hl:5]
+rect.export('jpg').then(result => { // 可设置图片质量 export('jpg', 0.92), 默认为0.92 // [!code hl:5]
     console.log(result.data)
 })
 
@@ -133,11 +167,28 @@ const leafer = new Leafer({ view: window })
 const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
 leafer.add(rect)
 
-rect.export('jpg', 0.5).then(result => { // [!code hl:5]
+rect.export('jpg', 0.5).then(result => { // 第2个参数为图片质量，可选参数（默认为0.92） [!code hl:5]
     console.log(result.data)
 })
 
 // const result = await rect.export('jpg', {quality: 0.5})
+```
+
+### 同步导出 Base64 编码数据
+
+```ts
+// #导出图片 [同步导出 Base64 编码数据]
+import { Leafer, Rect } from 'leafer-ui'
+import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
+
+const leafer = new Leafer({ view: window })
+
+const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
+leafer.add(rect)
+
+// 同步导出图片，前提：需确认异步加载的图片已经完成，才能同步导出 [!code hl:3]
+const result = rect.syncExport('jpg') // 可设置图片质量 syncExport('jpg', 0.92), 默认为0.92
+console.log(result.data)
 ```
 
 ### 导出二进制数据
@@ -152,19 +203,17 @@ const leafer = new Leafer({ view: window })
 const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
 leafer.add(rect)
 
-rect.export('png', true).then(result => { // [!code hl:5]
+rect.export('png', true).then(result => { // 第2个参数为true表示导出二进制 [!code hl:5]
     console.log(result.data)
 })
 
 // const result = await rect.export('png', { blob: true })
 ```
 
-### 导出文件
-
-浏览器版会直接下载文件，Node.js 版会保存到指定路径。
+### 导出时绘制水印
 
 ```ts
-// #导出图片 [导出文件]
+// #导出图片 [绘制水印]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
 
@@ -173,12 +222,20 @@ const leafer = new Leafer({ view: window })
 const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
 leafer.add(rect)
 
-rect.export('test.png') // [!code hl:3]
+rect.export('test.png', {
+    onCanvas(canvas) {  // 通过onCanvas钩子函数绘制水印 // [!code hl:9]
+        const {
+            context,  // CanvasRenderingContext2D，原生canvas上下文对象
+            pixelWidth, // 实际像素宽度
+            pixelHeight  // 实际像素高度
+        } = canvas
 
-// const result = await rect.export('./home/test.png')
+        context.fillText('绘制水印', pixelWidth - 60, pixelHeight - 20)
+    }
+})
 ```
 
-### 导出画布
+### 导出为画布
 
 ```ts
 // #导出图片 [导出画布]
@@ -205,24 +262,9 @@ rect.export('canvas').then(result => { // [!code hl:5]
 // const result = await rect.export('canvas')
 ```
 
-### 导出高清图
+### 导出整个画布
 
-```ts
-// #导出图片 [导出高清图]
-import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
-
-const leafer = new Leafer({ view: window })
-
-const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
-leafer.add(rect)
-
-rect.export('HD.png', { pixelRatio: 2 }) // [!code hl:3]
-
-// const result = await rect.export('HD.png', { pixelRatio: 2 }}
-```
-
-### 画面截图
+将当前应用画布进行截图导出。
 
 ```ts
 // #导出图片 [画面截图]
@@ -233,7 +275,7 @@ const leafer = new Leafer({ view: window })
 
 leafer.add(Rect.one({ fill: '#32cd79' }, 100, 100))
 
-leafer.export('screenshot.png', { screenshot: true }) // [!code hl:3]
+leafer.export('screenshot.png', { screenshot: true }) // 将当前应用画布进行截图导出 [!code hl:3]
 
 // const result = await leafer.export('screenshot.png', {screenshot: true}
 ```
