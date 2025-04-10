@@ -40,7 +40,7 @@
 
 ```ts
 // #自定义元素 [定义数据]
-import { Leafer, Rect, RectData, registerUI, dataProcessor } from 'leafer-ui'
+import { Rect, RectData, registerUI, dataProcessor } from '@leafer-ui/core' // 引入跨平台核心包
 import { IRectInputData, IRectData } from '@leafer-ui/interface'
 
 
@@ -79,6 +79,9 @@ export class Custom extends Rect {
 }
 
 
+// 使用自定义元素
+import { Leafer } from 'leafer-ui'
+
 const leafer = new Leafer({ view: window })
 const custom = new Custom({ width: 100, height: 200, fill: 'blue', draggable: true })
 
@@ -89,7 +92,7 @@ console.log(custom.toJSON()) // 导出json {tag: 'Custom', width: 200, height: 5
 ```
 
 ```js
-import { Leafer, Rect, RectData, registerUI, dataProcessor } from 'leafer-ui'
+import { Rect, RectData } from '@leafer-ui/core' // 引入跨平台核心包
 
 
 export class Custom extends Rect {
@@ -107,6 +110,9 @@ export class CustomData extends RectData {
  Custom.registerData(CustomData)
 
 
+ // 使用自定义元素
+ import { Leafer } from 'leafer-ui'
+ 
 const leafer = new Leafer({ view: window })
 const custom = new Custom({ width: 100, height: 200, fill: 'blue', draggable: true })
 

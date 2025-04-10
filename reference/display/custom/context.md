@@ -30,7 +30,7 @@
 
 ```ts
 // #自定义元素 [使用 canvas.context 自定义图形]
-import { Leafer, UI, registerUI, dataProcessor, UIData } from 'leafer-ui'
+import { UI, registerUI, dataProcessor, UIData } from '@leafer-ui/core' // 引入跨平台核心包
 import { IUIInputData, ILeaferCanvas, IRadiusPointData, IUIData } from '@leafer-ui/interface'
 
 
@@ -107,6 +107,10 @@ class Custom extends UI {
     }
 
 }
+
+
+// 使用自定义元素
+import { Leafer } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 

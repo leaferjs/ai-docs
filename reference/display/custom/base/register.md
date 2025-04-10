@@ -20,6 +20,14 @@ TypeScript 环境需在 `tsconfig.json` 配置文件中开启装饰器功能支�
 
 :::
 
+想要做成跨平台元素，需引入 `@leafer-ui/core`（跨平台核心包，用来代替 leafer-ui 包）、`@leafer-ui/interface`（接口） 作为外部依赖。
+
+```ts
+import { Rect } from '@leafer-ui/core'
+
+export class CustomRect extends Rect {}
+```
+
 ## 注册步骤
 
 ### 1. 注册元素
@@ -40,7 +48,7 @@ TypeScript 环境需在 `tsconfig.json` 配置文件中开启装饰器功能支�
 
 ```ts
 // #自定义元素 [注册元素]
-import { Leafer, Rect, UI, registerUI } from 'leafer-ui'
+import { Rect, registerUI } from '@leafer-ui/core' // 引入跨平台核心包
 
 
 @registerUI()  // 1. 注册元素  // [!code hl:6]
@@ -50,6 +58,10 @@ class Custom extends Rect {
 
 }
 
+
+
+// 使用自定义元素
+import { Leafer, UI } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 const custom = new Custom({ width: 100, height: 200, fill: 'blue', draggable: true })
@@ -64,7 +76,7 @@ leafer.add(UI.one(json)) // 通过json创建自定义元素
 ```
 
 ```js
-import { Leafer, Rect, UI, registerUI } from 'leafer-ui'
+import { Rect } from '@leafer-ui/core' // 引入跨平台核心包
 
 
 class Custom extends Rect {   // [!code hl:7]
@@ -75,6 +87,9 @@ class Custom extends Rect {   // [!code hl:7]
 
 Custom.registerUI() // 1. 注册元素
 
+
+// 使用自定义元素
+import { Leafer, UI  } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 const custom = new Custom({ width: 100, height: 200, fill:'blue', draggable: true })

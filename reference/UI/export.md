@@ -223,14 +223,16 @@ const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
 leafer.add(rect)
 
 rect.export('test.png', {
-    onCanvas(canvas) {  // 通过onCanvas钩子函数绘制水印 // [!code hl:9]
+    pixelRatio: 2,
+    onCanvas(canvas) {  // 通过onCanvas钩子函数绘制水印 // [!code hl:10]
         const {
             context,  // CanvasRenderingContext2D，原生canvas上下文对象
-            pixelWidth, // 实际像素宽度
-            pixelHeight  // 实际像素高度
+            pixelRatio, // 像素比
+            width, // 逻辑宽度， 获取实际像素宽度请使用 pixelWidth
+            height // 逻辑高度， 获取实际像素高度请使用 pixelHeight
         } = canvas
-
-        context.fillText('绘制水印', pixelWidth - 60, pixelHeight - 20)
+        context.scale(pixelRatio, pixelRatio) // 抹平像素比差异
+        context.fillText('绘制水印', width - 60, height - 20)
     }
 })
 ```
@@ -247,7 +249,7 @@ const leafer = new Leafer({ view: window })
 const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
 leafer.add(rect)
 
-rect.export('canvas').then(result => { // [!code hl:5]
+rect.export('canvas').then(result => { // [!code hl:11]
     const leaferCanvas = result.data
     const canvas = leaferCanvas.view
     const context = leaferCanvas.context

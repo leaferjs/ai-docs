@@ -112,14 +112,16 @@ const rect = Rect.one({ fill: '#32cd79' }, 100, 100)
 leafer.add(rect)
 
 rect.export('test.png', {
-    onCanvas(canvas) {  // 通过onCanvas钩子函数绘制水印 // [!code hl:9]
+    pixelRatio: 2,
+    onCanvas(canvas) {  // 通过onCanvas钩子函数绘制水印 // [!code hl:10]
         const {
             context,  // CanvasRenderingContext2D，原生canvas上下文对象
-            pixelWidth, // 实际像素宽度
-            pixelHeight  // 实际像素高度
+            pixelRatio, // 像素比
+            width, // 逻辑宽度， 获取实际像素宽度请使用 pixelWidth
+            height // 逻辑高度， 获取实际像素高度请使用 pixelHeight
         } = canvas
-
-        context.fillText('绘制水印', pixelWidth - 60, pixelHeight - 20)
+        context.scale(pixelRatio, pixelRatio) // 抹平像素比差异
+        context.fillText('绘制水印', width - 60, height - 20)
     }
 })
 ```

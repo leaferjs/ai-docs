@@ -20,7 +20,7 @@
 
 ```ts
 // #自定义元素 [自定义线条]
-import { Leafer, UI, PathCommandDataHelper, affectStrokeBoundsType, PathBounds, Debug, registerUI, dataProcessor, UIData } from 'leafer-ui'
+import { UI, PathCommandDataHelper, affectStrokeBoundsType, PathBounds, Debug, registerUI, dataProcessor, UIData } from '@leafer-ui/core' // 引入跨平台核心包
 import { IStrokeAlign, IUIInputData, IUIData } from '@leafer-ui/interface'
 
 
@@ -72,6 +72,9 @@ class CustomLine extends UI {
 }
 
 
+// 使用自定义元素
+import { Leafer } from 'leafer-ui'
+
 const leafer = new Leafer({ view: window })
 const custom = new CustomLine({ x: 100, y: 100, width: 200, height: 200, stroke: 'black', draggable: true })
 leafer.add(custom)
@@ -82,7 +85,7 @@ Debug.showRepaint = true // 通过显示重绘区域，查看图形边界是否�
 
 ```ts
 // #自定义元素 [自定义图形]
-import { Leafer, UI, PathCommandDataHelper, PathBounds, Debug, registerUI, dataProcessor, UIData } from 'leafer-ui'
+import { UI, PathCommandDataHelper, PathBounds, Debug, registerUI, dataProcessor, UIData } from '@leafer-ui/core' // 引入跨平台核心包
 import { IUIInputData, IUIData } from '@leafer-ui/interface'
 
 
@@ -130,6 +133,9 @@ class CustomShape extends UI {
 
 }
 
+
+// 使用自定义元素
+import { Leafer } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
 const custom = new CustomShape({ x: 100, y: 100, width: 200, height: 200, fill: 'blue', draggable: true })
