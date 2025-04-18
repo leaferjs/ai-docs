@@ -204,3 +204,7 @@ console.log(json) // {"tag":"Leafer","width":1273,"height":877,"pixelRatio":2,"h
 [VitePress](/guide/framework/vitepress/index.md)
 
 [Next.js](/guide/framework/next/index.md)
+
+### 组件式开发（社区提供）
+
+[leafer-vue](https://leafer-vue.netlify.app/)
