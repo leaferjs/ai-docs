@@ -9,6 +9,7 @@
 - [hideBounds](IRenderOptions.md#hidebounds)
 - [matrix](IRenderOptions.md#matrix)
 - [inCamera](IRenderOptions.md#incamera)
+- [dimOpacity](IRenderOptions.md#dimopacity)
 
 ## Properties
 
@@ -18,7 +19,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:8](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/renderer/IRenderer.ts#L8)
+[leafer/packages/interface/src/renderer/IRenderer.ts:8](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/renderer/IRenderer.ts#L8)
 
 ___
 
@@ -28,7 +29,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:9](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/renderer/IRenderer.ts#L9)
+[leafer/packages/interface/src/renderer/IRenderer.ts:9](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/renderer/IRenderer.ts#L9)
 
 ___
 
@@ -38,7 +39,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:10](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/renderer/IRenderer.ts#L10)
+[leafer/packages/interface/src/renderer/IRenderer.ts:10](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/renderer/IRenderer.ts#L10)
 
 ___
 
@@ -48,7 +49,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:11](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/renderer/IRenderer.ts#L11)
+[leafer/packages/interface/src/renderer/IRenderer.ts:11](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/renderer/IRenderer.ts#L11)
 
 ___
 
@@ -58,4 +59,14 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:12](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/renderer/IRenderer.ts#L12)
+[leafer/packages/interface/src/renderer/IRenderer.ts:12](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/renderer/IRenderer.ts#L12)
+
+___
+
+### dimOpacity
+
+• `Optional` **dimOpacity**: `number`
+
+#### Defined in
+
+[leafer/packages/interface/src/renderer/IRenderer.ts:13](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/renderer/IRenderer.ts#L13)

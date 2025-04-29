@@ -2,7 +2,7 @@
 
 ## Hierarchy
 
-- [`IMatrixData`](IMatrixData.md)
+- [`IMatrixWithOptionHalfData`](IMatrixWithOptionHalfData.md)
 
 - [`IBoundsData`](IBoundsData.md)
 
@@ -26,6 +26,7 @@
 - [f](IMatrixWithBoundsScaleData.md#f)
 - [scaleX](IMatrixWithBoundsScaleData.md#scalex)
 - [scaleY](IMatrixWithBoundsScaleData.md#scaley)
+- [half](IMatrixWithBoundsScaleData.md#half)
 
 ## Properties
 
@@ -39,7 +40,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:5](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L5)
+[leafer/packages/interface/src/math/IMath.ts:5](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L5)
 
 ___
 
@@ -53,7 +54,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:6](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L6)
+[leafer/packages/interface/src/math/IMath.ts:6](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L6)
 
 ___
 
@@ -67,7 +68,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:63](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L63)
+[leafer/packages/interface/src/math/IMath.ts:63](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L63)
 
 ___
 
@@ -81,7 +82,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:64](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L64)
+[leafer/packages/interface/src/math/IMath.ts:64](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L64)
 
 ___
 
@@ -91,11 +92,11 @@ ___
 
 #### Inherited from
 
-[IMatrixData](IMatrixData.md).[a](IMatrixData.md#a)
+[IMatrixWithOptionHalfData](IMatrixWithOptionHalfData.md).[a](IMatrixWithOptionHalfData.md#a)
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:162](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L162)
+[leafer/packages/interface/src/math/IMath.ts:162](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L162)
 
 ___
 
@@ -105,11 +106,11 @@ ___
 
 #### Inherited from
 
-[IMatrixData](IMatrixData.md).[b](IMatrixData.md#b)
+[IMatrixWithOptionHalfData](IMatrixWithOptionHalfData.md).[b](IMatrixWithOptionHalfData.md#b)
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:163](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L163)
+[leafer/packages/interface/src/math/IMath.ts:163](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L163)
 
 ___
 
@@ -119,11 +120,11 @@ ___
 
 #### Inherited from
 
-[IMatrixData](IMatrixData.md).[c](IMatrixData.md#c)
+[IMatrixWithOptionHalfData](IMatrixWithOptionHalfData.md).[c](IMatrixWithOptionHalfData.md#c)
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:164](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L164)
+[leafer/packages/interface/src/math/IMath.ts:164](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L164)
 
 ___
 
@@ -133,11 +134,11 @@ ___
 
 #### Inherited from
 
-[IMatrixData](IMatrixData.md).[d](IMatrixData.md#d)
+[IMatrixWithOptionHalfData](IMatrixWithOptionHalfData.md).[d](IMatrixWithOptionHalfData.md#d)
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:165](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L165)
+[leafer/packages/interface/src/math/IMath.ts:165](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L165)
 
 ___
 
@@ -147,11 +148,11 @@ ___
 
 #### Inherited from
 
-[IMatrixData](IMatrixData.md).[e](IMatrixData.md#e)
+[IMatrixWithOptionHalfData](IMatrixWithOptionHalfData.md).[e](IMatrixWithOptionHalfData.md#e)
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:166](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L166)
+[leafer/packages/interface/src/math/IMath.ts:166](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L166)
 
 ___
 
@@ -161,11 +162,11 @@ ___
 
 #### Inherited from
 
-[IMatrixData](IMatrixData.md).[f](IMatrixData.md#f)
+[IMatrixWithOptionHalfData](IMatrixWithOptionHalfData.md).[f](IMatrixWithOptionHalfData.md#f)
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:167](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L167)
+[leafer/packages/interface/src/math/IMath.ts:167](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L167)
 
 ___
 
@@ -179,7 +180,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:171](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L171)
+[leafer/packages/interface/src/math/IMath.ts:171](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L171)
 
 ___
 
@@ -193,4 +194,18 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:172](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/math/IMath.ts#L172)
+[leafer/packages/interface/src/math/IMath.ts:172](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L172)
+
+___
+
+### half
+
+• `Optional` **half**: `number`
+
+#### Inherited from
+
+[IMatrixWithOptionHalfData](IMatrixWithOptionHalfData.md).[half](IMatrixWithOptionHalfData.md#half)
+
+#### Defined in
+
+[leafer/packages/interface/src/math/IMath.ts:251](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/math/IMath.ts#L251)

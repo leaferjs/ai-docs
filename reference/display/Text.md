@@ -202,11 +202,45 @@ padding: [20, 10] // [ (top-bottom), (right-left)]
 padding: 20 // all
 ```
 
+## 背景框
+
+### boxStyle: [`IBackgroundBoxStyle`](/reference/display/Rect.md)
+
+文字的背景框样式对象，支持 [Rect](/reference/display/Rect.md) 元素的大部分外观样式。
+
+```ts
+boxStyle: {
+  fill: '#32cd79',
+  stroke: 'black',
+  cornerRadius: 6,
+  shadow: {
+    x: 10,
+    y: -10,
+    blur: 20,
+    color: '#FF0000AA'
+  }
+}
+```
+
 ## 编辑属性
 
 ### resizeFontSize: `boolean`
 
 自动宽高的文本是否通过修改字体大小进行 resize, 默认为 false。
+
+## 计算属性（只读）
+
+### isOverflow: `boolean`
+
+文本是否溢出了 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)，文字布局完成后此属性才有值。
+
+## 获取 content 包围盒
+
+获取文字内容的实际宽高（包围盒）
+
+```ts
+const { x, y, width, height } = text.getBounds('content', 'inner')
+```
 
 <!--
 ## 继承元素
@@ -218,6 +252,8 @@ padding: 20 // all
 ### [Text](/api/classes/Text.md) -->
 
 ## 示例
+
+<case name="Text" index=6 editor=false></case>
 
 ### 创建文本
 
@@ -254,11 +290,68 @@ app.tree.add(text)
 ```
 :::
 
+<case name="Text" index=7 editor=false></case>
+
+### 创建带背景框的文本
+
+::: code-group
+```ts
+// #创建 Text [带背景框样式（Leafer)]
+import { Leafer, Text } from 'leafer-ui'
+import '@leafer-in/state' // 导入交互状态插件 
+import '@leafer-in/animate' // 导入动画插件  
+
+const leafer = new Leafer({ view: window })
+
+const text = new Text({
+    fill: 'black',
+    text: 'Welcome to LeaferJS',
+    padding: 10,
+    boxStyle: { // 设置背景框样式 // [!code hl:5]
+        fill: '#32cd79',
+        stroke: 'black',
+        cornerRadius: 6
+    },
+    hoverStyle: { // hover 样式
+        boxStyle: {
+            fill: '#FF4B4B',
+            cornerRadius: 20
+        }
+    }
+})
+
+leafer.add(text)
+```
+```ts
+// #创建 Text [带背景框样式（App)]
+import { App, Text } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+import '@leafer-in/text-editor' // 导入文本编辑插件 
+
+const app = new App({ view: window, editor: {} })
+
+const text = new Text({
+    fill: 'black',
+    text: 'Welcome to LeaferJS',
+    padding: 10,
+    boxStyle: { // 设置背景框样式 // [!code hl:5]
+        fill: '#32cd79',
+        stroke: 'black',
+        cornerRadius: 6
+    },
+    editable: true
+})
+
+app.tree.add(text)
+```
+:::
+
 <case name="Box" index=6 editor=false></case>
 
 ### 创建自适应背景的文本
 
-[Box](./Box.md) 不设置宽高时，支持自适应内容。
+背景框的另一种实现方式， [Box](./Box.md) 不设置宽高时，支持自适应内容。
 
 ::: code-group
 ```ts
@@ -304,6 +397,7 @@ const box = new Box({
     textBox: true,
     hitChildren: false, // 阻止直接选择子元素（防止父子选择冲突，可双击进入组内选择子元素）
     editable: true,
+    resizeChildren: true, // 同时 resize 文本
     children: [{
         tag: 'Text',
         text: 'Welcome to LeaferJS',

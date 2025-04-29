@@ -10,6 +10,8 @@
 - [moveSpeed](IWheelConfig.md#movespeed)
 - [rotateSpeed](IWheelConfig.md#rotatespeed)
 - [delta](IWheelConfig.md#delta)
+- [posDeltaSpeed](IWheelConfig.md#posdeltaspeed)
+- [negDeltaSpeed](IWheelConfig.md#negdeltaspeed)
 - [getScale](IWheelConfig.md#getscale)
 - [getMove](IWheelConfig.md#getmove)
 - [preventDefault](IWheelConfig.md#preventdefault)
@@ -22,7 +24,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:127](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L127)
+[leafer/packages/interface/src/interaction/IInteraction.ts:127](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L127)
 
 ___
 
@@ -32,7 +34,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:128](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L128)
+[leafer/packages/interface/src/interaction/IInteraction.ts:128](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L128)
 
 ___
 
@@ -42,7 +44,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:129](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L129)
+[leafer/packages/interface/src/interaction/IInteraction.ts:129](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L129)
 
 ___
 
@@ -52,7 +54,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:130](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L130)
+[leafer/packages/interface/src/interaction/IInteraction.ts:130](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L130)
 
 ___
 
@@ -62,7 +64,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:131](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L131)
+[leafer/packages/interface/src/interaction/IInteraction.ts:131](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L131)
 
 ___
 
@@ -72,7 +74,27 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:132](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L132)
+[leafer/packages/interface/src/interaction/IInteraction.ts:132](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L132)
+
+___
+
+### posDeltaSpeed
+
+• `Optional` **posDeltaSpeed**: `number`
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:133](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L133)
+
+___
+
+### negDeltaSpeed
+
+• `Optional` **negDeltaSpeed**: `number`
+
+#### Defined in
+
+[leafer/packages/interface/src/interaction/IInteraction.ts:134](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L134)
 
 ___
 
@@ -82,7 +104,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:133](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L133)
+[leafer/packages/interface/src/interaction/IInteraction.ts:135](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L135)
 
 ___
 
@@ -92,7 +114,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:134](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L134)
+[leafer/packages/interface/src/interaction/IInteraction.ts:136](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L136)
 
 ___
 
@@ -102,4 +124,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:135](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/interaction/IInteraction.ts#L135)
+[leafer/packages/interface/src/interaction/IInteraction.ts:137](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/interaction/IInteraction.ts#L137)

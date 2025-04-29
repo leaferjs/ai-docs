@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IExport.ts:44](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/file/IExport.ts#L44)
+[leafer/packages/interface/src/file/IExport.ts:44](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/file/IExport.ts#L44)

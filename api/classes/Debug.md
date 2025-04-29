@@ -13,8 +13,7 @@
 - [excludeList](Debug.md#excludelist)
 - [showWarn](Debug.md#showwarn)
 - [showRepaint](Debug.md#showrepaint)
-- [showHitView](Debug.md#showhitview)
-- [showBoundsView](Debug.md#showboundsview)
+- [showBounds](Debug.md#showbounds)
 - [name](Debug.md#name)
 - [repeatMap](Debug.md#repeatmap)
 
@@ -26,6 +25,8 @@
 ### Methods
 
 - [get](Debug.md#get)
+- [drawRepaint](Debug.md#drawrepaint)
+- [drawBounds](Debug.md#drawbounds)
 - [log](Debug.md#log)
 - [tip](Debug.md#tip)
 - [warn](Debug.md#warn)
@@ -46,7 +47,7 @@
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:20](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L20)
+[leafer/packages/debug/src/Debug.ts:22](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L22)
 
 ## Properties
 
@@ -56,7 +57,7 @@
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:5](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L5)
+[leafer/packages/debug/src/Debug.ts:8](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L8)
 
 ___
 
@@ -66,7 +67,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:7](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L7)
+[leafer/packages/debug/src/Debug.ts:10](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L10)
 
 ___
 
@@ -76,7 +77,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:8](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L8)
+[leafer/packages/debug/src/Debug.ts:11](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L11)
 
 ___
 
@@ -86,37 +87,27 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:11](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L11)
+[leafer/packages/debug/src/Debug.ts:14](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L14)
 
 ___
 
 ### showRepaint
 
-▪ `Static` **showRepaint**: `boolean`
+▪ `Static` **showRepaint**: `string` \| `boolean`
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:12](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L12)
+[leafer/packages/debug/src/Debug.ts:15](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L15)
 
 ___
 
-### showHitView
+### showBounds
 
-▪ `Static` **showHitView**: `string` \| `boolean` \| `string`[]
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:13](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L13)
-
-___
-
-### showBoundsView
-
-▪ `Static` **showBoundsView**: `string` \| `boolean` \| `string`[]
+▪ `Static` **showBounds**: `string` \| `boolean`
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:14](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L14)
+[leafer/packages/debug/src/Debug.ts:16](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L16)
 
 ___
 
@@ -126,7 +117,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:16](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L16)
+[leafer/packages/debug/src/Debug.ts:18](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L18)
 
 ___
 
@@ -136,7 +127,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:18](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L18)
+[leafer/packages/debug/src/Debug.ts:20](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L20)
 
 ## Accessors
 
@@ -156,7 +147,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:28](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L28)
+[leafer/packages/debug/src/Debug.ts:30](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L30)
 
 ___
 
@@ -176,7 +167,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:32](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L32)
+[leafer/packages/debug/src/Debug.ts:34](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L34)
 
 ## Methods
 
@@ -196,7 +187,50 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:24](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L24)
+[leafer/packages/debug/src/Debug.ts:26](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L26)
+
+___
+
+### drawRepaint
+
+▸ `Static` **drawRepaint**(`canvas`, `bounds`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `canvas` | [`ILeaferCanvas`](../interfaces/ILeaferCanvas.md) |
+| `bounds` | [`IBoundsData`](../interfaces/IBoundsData.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[leafer/packages/debug/src/Debug.ts:38](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L38)
+
+___
+
+### drawBounds
+
+▸ `Static` **drawBounds**(`leaf`, `canvas`, `_options`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `leaf` | [`ILeaf`](../interfaces/ILeaf.md) |
+| `canvas` | [`ILeaferCanvas`](../interfaces/ILeaferCanvas.md) |
+| `_options` | [`IRenderOptions`](../interfaces/IRenderOptions.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[leafer/packages/debug/src/Debug.ts:44](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L44)
 
 ___
 
@@ -216,7 +250,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:37](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L37)
+[leafer/packages/debug/src/Debug.ts:54](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L54)
 
 ___
 
@@ -236,7 +270,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:45](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L45)
+[leafer/packages/debug/src/Debug.ts:62](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L62)
 
 ___
 
@@ -256,7 +290,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:49](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L49)
+[leafer/packages/debug/src/Debug.ts:66](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L66)
 
 ___
 
@@ -277,7 +311,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:53](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L53)
+[leafer/packages/debug/src/Debug.ts:70](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L70)
 
 ___
 
@@ -297,4 +331,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:60](https://github.com/leaferjs/leafer/blob/8db572e/packages/debug/src/Debug.ts#L60)
+[leafer/packages/debug/src/Debug.ts:77](https://github.com/leaferjs/leafer/blob/27a24ec/packages/debug/src/Debug.ts#L77)

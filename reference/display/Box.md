@@ -56,6 +56,12 @@ type IOverflow = 'show' | 'hide'
 
 子元素是否跟随 resize， 默认为 false。
 
+## 计算属性（只读）
+
+### isOverflow: `boolean`
+
+子元素是否溢出了 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)，Box 布局完成后此属性才有值。
+
 ## 路径模式
 
 ### [path 优先模式](/reference/UI/path.md)
@@ -239,6 +245,7 @@ const box = new Box({
     textBox: true,
     hitChildren: false, // 阻止直接选择子元素（防止父子选择冲突，可双击进入组内选择子元素）
     editable: true,
+    resizeChildren: true, // 同时 resize 文本
     children: [{
         tag: 'Text',
         text: 'Welcome to LeaferJS',

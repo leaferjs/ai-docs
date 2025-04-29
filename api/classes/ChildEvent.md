@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:19](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L19)
+[leafer/packages/event/src/ChildEvent.ts:19](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L19)
 
 ## Properties
 
@@ -72,7 +72,7 @@
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:8](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L8)
+[leafer/packages/event/src/ChildEvent.ts:8](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L8)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:9](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L9)
+[leafer/packages/event/src/ChildEvent.ts:9](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L9)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:11](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L11)
+[leafer/packages/event/src/ChildEvent.ts:11](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L11)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:12](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L12)
+[leafer/packages/event/src/ChildEvent.ts:12](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L12)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:13](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L13)
+[leafer/packages/event/src/ChildEvent.ts:13](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L13)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:14](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L14)
+[leafer/packages/event/src/ChildEvent.ts:14](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L14)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:16](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L16)
+[leafer/packages/event/src/ChildEvent.ts:16](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L16)
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ChildEvent.ts:17](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/ChildEvent.ts#L17)
+[leafer/packages/event/src/ChildEvent.ts:17](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/ChildEvent.ts#L17)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:7](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L7)
+[leafer/packages/event/src/Event.ts:7](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L7)
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L9)
+[leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L9)
 
 ___
 
@@ -204,7 +204,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:10](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L10)
+[leafer/packages/event/src/Event.ts:10](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L10)
 
 ___
 
@@ -222,7 +222,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L11)
+[leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L11)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L13)
+[leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L13)
 
 ___
 
@@ -258,7 +258,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L14)
+[leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L14)
 
 ___
 
@@ -276,7 +276,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L16)
+[leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L16)
 
 ___
 
@@ -294,7 +294,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L17)
+[leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L17)
 
 ___
 
@@ -312,7 +312,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L18)
+[leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L18)
 
 ## Methods
 
@@ -334,7 +334,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L25)
+[leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L25)
 
 ___
 
@@ -356,7 +356,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L30)
+[leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L30)
 
 ___
 
@@ -378,4 +378,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/8db572e/packages/event/src/Event.ts#L36)
+[leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/27a24ec/packages/event/src/Event.ts#L36)

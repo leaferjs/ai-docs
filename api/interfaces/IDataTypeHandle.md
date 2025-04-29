@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/data/IData.ts:40](https://github.com/leaferjs/leafer/blob/8db572e/packages/interface/src/data/IData.ts#L40)
+[leafer/packages/interface/src/data/IData.ts:40](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/data/IData.ts#L40)
