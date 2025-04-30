@@ -21,4 +21,4 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITransition.ts:22](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/ITransition.ts#L22)
+[ui/packages/interface/src/module/ITransition.ts:22](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/ITransition.ts#L22)

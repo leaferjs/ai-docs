@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:28](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L28)
+[ui/packages/interface/src/module/IPaint.ts:28](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L28)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:29](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L29)
+[ui/packages/interface/src/module/IPaint.ts:29](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L29)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:30](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L30)
+[ui/packages/interface/src/module/IPaint.ts:30](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L30)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:31](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L31)
+[ui/packages/interface/src/module/IPaint.ts:31](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L31)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:33](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L33)
+[ui/packages/interface/src/module/IPaint.ts:33](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L33)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:34](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L34)
+[ui/packages/interface/src/module/IPaint.ts:34](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L34)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:35](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L35)
+[ui/packages/interface/src/module/IPaint.ts:35](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L35)
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:36](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L36)
+[ui/packages/interface/src/module/IPaint.ts:36](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L36)
 
 ___
 
@@ -228,4 +228,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:37](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/module/IPaint.ts#L37)
+[ui/packages/interface/src/module/IPaint.ts:37](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPaint.ts#L37)

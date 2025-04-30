@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/IHitCanvasManager.ts:6](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/IHitCanvasManager.ts#L6)
+[leafer/packages/interface/src/canvas/IHitCanvasManager.ts:6](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/IHitCanvasManager.ts#L6)
 
 ## Methods
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvasManager.ts:4](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/ICanvasManager.ts#L4)
+[leafer/packages/interface/src/canvas/ICanvasManager.ts:4](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvasManager.ts#L4)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvasManager.ts:5](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/ICanvasManager.ts#L5)
+[leafer/packages/interface/src/canvas/ICanvasManager.ts:5](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvasManager.ts#L5)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvasManager.ts:6](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/ICanvasManager.ts#L6)
+[leafer/packages/interface/src/canvas/ICanvasManager.ts:6](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvasManager.ts#L6)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvasManager.ts:7](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/ICanvasManager.ts#L7)
+[leafer/packages/interface/src/canvas/ICanvasManager.ts:7](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvasManager.ts#L7)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvasManager.ts:8](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/ICanvasManager.ts#L8)
+[leafer/packages/interface/src/canvas/ICanvasManager.ts:8](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvasManager.ts#L8)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvasManager.ts:9](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/ICanvasManager.ts#L9)
+[leafer/packages/interface/src/canvas/ICanvasManager.ts:9](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvasManager.ts#L9)
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/IHitCanvasManager.ts:7](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/IHitCanvasManager.ts#L7)
+[leafer/packages/interface/src/canvas/IHitCanvasManager.ts:7](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/IHitCanvasManager.ts#L7)
 
 ___
 
@@ -202,4 +202,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/IHitCanvasManager.ts:8](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/canvas/IHitCanvasManager.ts#L8)
+[leafer/packages/interface/src/canvas/IHitCanvasManager.ts:8](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/IHitCanvasManager.ts#L8)

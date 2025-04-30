@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:28](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L28)
+[in/packages/find/src/Finder.ts:28](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L28)
 
 ## Properties
 
@@ -59,7 +59,7 @@
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:10](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L10)
+[in/packages/find/src/Finder.ts:10](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L10)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:12](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L12)
+[in/packages/find/src/Finder.ts:12](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L12)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:13](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L13)
+[in/packages/find/src/Finder.ts:13](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L13)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:15](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L15)
+[in/packages/find/src/Finder.ts:15](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L15)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:17](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L17)
+[in/packages/find/src/Finder.ts:17](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L17)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:25](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L25)
+[in/packages/find/src/Finder.ts:25](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L25)
 
 ## Methods
 
@@ -146,7 +146,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:32](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L32)
+[in/packages/find/src/Finder.ts:32](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L32)
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:62](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L62)
+[in/packages/find/src/Finder.ts:62](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L62)
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:69](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L69)
+[in/packages/find/src/Finder.ts:69](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L69)
 
 ___
 
@@ -221,7 +221,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:76](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L76)
+[in/packages/find/src/Finder.ts:76](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L76)
 
 ___
 
@@ -246,7 +246,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:80](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L80)
+[in/packages/find/src/Finder.ts:80](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L80)
 
 ___
 
@@ -273,7 +273,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:84](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L84)
+[in/packages/find/src/Finder.ts:84](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L84)
 
 ___
 
@@ -296,7 +296,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:91](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L91)
+[in/packages/find/src/Finder.ts:91](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L91)
 
 ___
 
@@ -316,7 +316,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:108](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L108)
+[in/packages/find/src/Finder.ts:108](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L108)
 
 ___
 
@@ -336,7 +336,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:114](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L114)
+[in/packages/find/src/Finder.ts:114](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L114)
 
 ___
 
@@ -356,7 +356,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:120](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L120)
+[in/packages/find/src/Finder.ts:120](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L120)
 
 ___
 
@@ -370,7 +370,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:128](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L128)
+[in/packages/find/src/Finder.ts:128](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L128)
 
 ___
 
@@ -384,7 +384,7 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:135](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L135)
+[in/packages/find/src/Finder.ts:135](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L135)
 
 ___
 
@@ -402,4 +402,4 @@ ___
 
 #### Defined in
 
-[in/packages/find/src/Finder.ts:140](https://github.com/leaferjs/leafer-in/blob/21ad900/packages/find/src/Finder.ts#L140)
+[in/packages/find/src/Finder.ts:140](https://github.com/leaferjs/leafer-in/blob/fa455ee/packages/find/src/Finder.ts#L140)

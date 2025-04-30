@@ -37,16 +37,20 @@ bun add @leafer-ui/worker
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-ui/worker@1.6.0/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.6.1/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-ui/worker@1.6.0/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.6.1/dist/worker.js')
 ```
 
 :::
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
+## 更新
+
+了解如何 [快速更新版本](/guide/update.md)。
 
 ## 体验
 
@@ -67,7 +71,7 @@ worker.onmessage = (e) => { // 通过worker生成一张图片进行显示
 ```js
 // 你也可以使用npm包模式，编译成js文件供worker调用
 importScripts(
-  'https://unpkg.com/@leafer-ui/worker@1.6.0/dist/worker.min.js'
+  'https://unpkg.com/@leafer-ui/worker@1.6.1/dist/worker.min.js'
 )
 
 const { Leafer, Rect } = LeaferUI

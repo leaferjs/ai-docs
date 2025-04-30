@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/watcher/IWatcher.ts:6](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/watcher/IWatcher.ts#L6)
+[leafer/packages/interface/src/watcher/IWatcher.ts:6](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/watcher/IWatcher.ts#L6)

@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/function/IFunction.ts:25](https://github.com/leaferjs/leafer/blob/27a24ec/packages/interface/src/function/IFunction.ts#L25)
+[leafer/packages/interface/src/function/IFunction.ts:25](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/function/IFunction.ts#L25)

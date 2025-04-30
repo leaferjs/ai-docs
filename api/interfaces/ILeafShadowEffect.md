@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/type/IComputedType.ts:47](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/type/IComputedType.ts#L47)
+[ui/packages/interface/src/type/IComputedType.ts:47](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/type/IComputedType.ts#L47)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IComputedType.ts:48](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/type/IComputedType.ts#L48)
+[ui/packages/interface/src/type/IComputedType.ts:48](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/type/IComputedType.ts#L48)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IComputedType.ts:49](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/type/IComputedType.ts#L49)
+[ui/packages/interface/src/type/IComputedType.ts:49](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/type/IComputedType.ts#L49)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IComputedType.ts:50](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/type/IComputedType.ts#L50)
+[ui/packages/interface/src/type/IComputedType.ts:50](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/type/IComputedType.ts#L50)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IComputedType.ts:51](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/type/IComputedType.ts#L51)
+[ui/packages/interface/src/type/IComputedType.ts:51](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/type/IComputedType.ts#L51)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IComputedType.ts:52](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/type/IComputedType.ts#L52)
+[ui/packages/interface/src/type/IComputedType.ts:52](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/type/IComputedType.ts#L52)
 
 ___
 
@@ -80,4 +80,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IComputedType.ts:53](https://github.com/leaferjs/leafer-ui/blob/4b7f368/packages/interface/src/type/IComputedType.ts#L53)
+[ui/packages/interface/src/type/IComputedType.ts:53](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/type/IComputedType.ts#L53)
