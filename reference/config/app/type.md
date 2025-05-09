@@ -1,10 +1,10 @@
-# 应用配置
+# 应用与引擎配置
 
 ### [基础](/reference/config/app/base.md) &nbsp; &nbsp; 视口类型 &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
 
 ##
 
-初始化视口类型，应用运行中不可再更改。
+初始化视口类型，引擎运行中不可再更改。
 
 :::tip 注意事项
 [App 结构](/guide/advanced/app.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
@@ -41,7 +41,7 @@ type ILeaferType =
 移动端在元素 draggable / editable 属性为 `false`，及没有监听 DragEvent.DRAG 的空间上拖拽可直接滑动页面，了解 [touch 配置](/reference/config/app/touch.md#touchpreventdefault-boolean-auto)。
 
 ```ts
-// #应用配置 - block 视口类型 [Leafer]
+// #应用与引擎配置 - block 视口类型 [Leafer]
 import { Leafer, Rect } from 'leafer-ui'
 
 const div = document.body.appendChild(document.createElement('div'))
@@ -86,7 +86,7 @@ leafer.add(rect)
 ::: code-group
 
 ```ts
-// #应用配置 - viewport 视口类型 [App]
+// #应用与引擎配置 - viewport 视口类型 [App]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -99,7 +99,7 @@ app.tree.add(Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200))
 ```
 
 ```ts
-// #应用配置 - viewport 视口类型 [Leafer]
+// #应用与引擎配置 - viewport 视口类型 [Leafer]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -112,7 +112,7 @@ leafer.add(Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200))
 ```
 
 ```ts
-// #应用配置 - viewport 视口类型 [实现原理]
+// #应用与引擎配置 - viewport 视口类型 [实现原理]
 import { App, Rect, MoveEvent, ZoomEvent } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -145,7 +145,7 @@ app.tree.on(ZoomEvent.BEFORE_ZOOM, (e: ZoomEvent) => {
 
 ::: code-group
 ```ts
-// #应用配置 - custom 视口类型 [App]
+// #应用与引擎配置 - custom 视口类型 [App]
 import { App, Rect, MoveEvent, ZoomEvent } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -170,7 +170,7 @@ app.tree.add(Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200))
 ```
 
 ```ts
-// #应用配置 - custom 视口类型 [Leafer]
+// #应用与引擎配置 - custom 视口类型 [Leafer]
 import { Leafer, Rect, MoveEvent, ZoomEvent } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -195,7 +195,7 @@ leafer.add(Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200))
 ```
 
 ```ts
-// #应用配置 - custom 视口类型 [实现原理]
+// #应用与引擎配置 - custom 视口类型 [实现原理]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -218,7 +218,7 @@ app.tree.add(Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200))
 
 ::: code-group
 ```ts
-// #应用配置 - design 视口类型 [App]
+// #应用与引擎配置 - design 视口类型 [App]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -231,7 +231,7 @@ app.tree.add(Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200))
 ```
 
 ```ts
-// #应用配置 - design 视口类型 [Leafer]
+// #应用与引擎配置 - design 视口类型 [Leafer]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -244,7 +244,7 @@ leafer.add(Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200))
 ```
 
 ```ts
-// #应用配置 - design 视口类型 [实现原理]
+// #应用与引擎配置 - design 视口类型 [实现原理]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -272,7 +272,7 @@ app.tree.add(Rect.one({ fill: '#32cd79' }, 100, 100, 200, 200))
 
 ::: code-group
 ```ts
-// #应用配置 - document 视口类型 [App]
+// #应用与引擎配置 - document 视口类型 [App]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -288,7 +288,7 @@ app.tree.add(Rect.one({ fill: '#32cd79' }, 100, 1800, 200, 200))
 ```
 
 ```ts
-// #应用配置 - document 视口类型 [Leafer]
+// #应用与引擎配置 - document 视口类型 [Leafer]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 
@@ -304,7 +304,7 @@ leafer.add(Rect.one({ fill: '#32cd79' }, 100, 1800, 200, 200))
 ```
 
 ```ts
-// #应用配置 - document 视口类型 [实现原理]
+// #应用与引擎配置 - document 视口类型 [实现原理]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/viewport' // 导入视口插件
 

@@ -1,4 +1,4 @@
-# 应用配置
+# 应用与引擎配置
 
 ### 基础 &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
 
@@ -10,13 +10,13 @@
 
 ### start: `boolean`
 
-是否自动启动应用，默认为 true。
+是否自动启动引擎，默认为 true。
 
-应用启动后，可以通过 [app.stop()](/reference/display/Leafer.md#start)、 [app.start()](/reference/display/Leafer.md#start) 手动控制渲染。
+启动后，可以通过 [app.stop()](/reference/display/Leafer.md#start)、 [app.start()](/reference/display/Leafer.md#start) 手动控制渲染。
 
 ## 渲染属性
 
-应用运行中修改 [leafer.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+引擎运行中修改 [leafer.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
 ### usePartRender: `boolean`
 
@@ -28,7 +28,7 @@
 
 ## 交互属性
 
-应用运行中修改 [app.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+引擎运行中修改 [app.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
 :::tip 注意事项
 [App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
@@ -52,7 +52,7 @@
 
 对齐逻辑像素：拖拽元素时对坐标进行 round 取整，避免产生小数。
 
-应用运行中修改 [app.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+引擎运行中修改 [app.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
 ### pixelSnap: `boolean`
 
@@ -62,17 +62,17 @@
 
 想要图片不模糊，还可以继续配置 [config.smooth](/reference/config/app/canvas.md#smooth-boolean) 属性。
 
-应用运行中修改 [leafer.confg / app.tree.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+引擎运行中修改 [leafer.confg / app.tree.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
 ## 示例
 
-### 手动启动应用
+### 手动启动
 
 当图形数量很多，异步创建完后，通过手动 start()，可以加快创建速度。
 
 ::: code-group
 ```ts
-// #应用配置 - 手动启动应用 [Leafer]
+// #应用与引擎配置 - 手动启动应用 [Leafer]
 import { Leafer } from 'leafer-ui'
 
 const leafer = new Leafer({
@@ -86,7 +86,7 @@ leafer.start()
 ```
 
 ```ts
-// #应用配置 - 手动启动应用 [App]
+// #应用与引擎配置 - 手动启动应用 [App]
 import { App } from 'leafer-ui'
 
 const app = new App({
@@ -105,7 +105,7 @@ app.start()
 
 ::: code-group
 ```ts
-// #应用配置 - 关闭局部渲染 [Leafer]
+// #应用与引擎配置 - 关闭局部渲染 [Leafer]
 import { Leafer, Rect, Debug } from 'leafer-ui'
 
 const leafer = new Leafer({
@@ -119,7 +119,7 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 ```
 
 ```ts
-// #应用配置 - 关闭局部渲染 [App]
+// #应用与引擎配置 - 关闭局部渲染 [App]
 import { App, Rect, Debug } from 'leafer-ui'
 
 const app = new App({

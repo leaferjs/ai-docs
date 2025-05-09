@@ -21,7 +21,7 @@ name 为文件名时表示保存文件。
 options 为数字时表示图片质量， 为布尔时表示二进制数据 。
 
 :::tip 注意事项
-[Leafer](/reference/display/Leafer.md) 实例默认导出为内容（非画布），想导出画布需要增加 `screenshot` 截图参数。
+[Leafer](/reference/display/Leafer.md) 引擎默认导出为内容（非画布），想导出画布需要增加 `screenshot` 截图参数。
 
 单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。
 :::
@@ -266,7 +266,7 @@ rect.export('canvas').then(result => { // [!code hl:11]
 
 ### 导出整个画布
 
-将当前应用画布进行截图导出。
+将当前引擎画布进行截图导出。
 
 ```ts
 // #导出图片 [画面截图]
@@ -277,7 +277,7 @@ const leafer = new Leafer({ view: window })
 
 leafer.add(Rect.one({ fill: '#32cd79' }, 100, 100))
 
-leafer.export('screenshot.png', { screenshot: true }) // 将当前应用画布进行截图导出 [!code hl:3]
+leafer.export('screenshot.png', { screenshot: true }) // 将当前引擎画布进行截图导出 [!code hl:3]
 
 // const result = await leafer.export('screenshot.png', {screenshot: true}
 ```

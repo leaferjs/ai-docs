@@ -1,6 +1,6 @@
 # Leafer
 
-创建 Leafer，了解初始化 [应用配置](/reference/config/app/base.md)、[视口交互](/guide/advanced/viewport.md)。
+创建 Leafer 引擎，了解初始化 [引擎配置](/reference/config/app/base.md)、[视口交互](/guide/advanced/viewport.md)。
 
 <br/>
 
@@ -48,7 +48,7 @@ App 实例, 如果不存在则是自身。
 
 ### config: [`ILeaferConfig`](/reference/config/app/base.md)
 
-应用的配置对象，部分配置运行中可以修改，立即生效。
+引擎的配置对象，部分配置运行中可以修改，立即生效。
 
 ### canvas: [`ILeaferCanvas`](/api/interfaces/ILeaferCanvas.md)
 
@@ -84,15 +84,15 @@ console.log('2d context', context) // CanvasRenderingContext2D
 
 ### created: `boolean`
 
-应用及子元素创建完成（完成首次创建）。
+引擎及子元素创建完成（完成首次创建）。
 
 ### ready: `boolean`
 
-应用是否准备就绪（完成首次布局）。
+引擎是否准备就绪（完成首次布局）。
 
 ### viewReady: `boolean`
 
-应用视图是否准备就绪（完成首次渲染）。
+引擎视图是否准备就绪（完成首次渲染）。
 
 ```ts
 import { Leafer, LeaferEvent } from 'leafer-ui'
@@ -100,7 +100,7 @@ import { Leafer, LeaferEvent } from 'leafer-ui'
 const leafer = new Leafer({ view: window })
 
 leafer.on(LeaferEvent.READY, function () {
-    // 应用准备就绪
+    // 引擎准备就绪
 })
 
 leafer.on(LeaferEvent.VIEW_READY, function () {
@@ -110,11 +110,11 @@ leafer.on(LeaferEvent.VIEW_READY, function () {
 
 ### viewCompleted： `boolean`
 
-应用视图加载完成（画布内的图片加载并渲染完成），会随时会变化。
+引擎视图加载完成（画布内的图片加载并渲染完成），会随时会变化。
 
 ### running: `boolean`
 
-应用是否运行中。
+引擎是否运行中。
 
 ## FPS：`number`
 
@@ -130,9 +130,9 @@ leafer.on(LeaferEvent.VIEW_READY, function () {
 
 ### clientBounds：[`IBoundsData`](../interface/math/Math#iboundsdata)
 
-当前应用在浏览器窗口中的位置（client 坐标）及宽高。
+当前引擎在浏览器窗口中的位置（client 坐标）及宽高。
 
-另可使用 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法转换浏览器原生事件坐标到应用中。
+另可使用 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法转换浏览器原生事件坐标到引擎中。
 
 ## 辅助属性
 
@@ -144,7 +144,7 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ### list: [`Leafer`](./Leafer.md)[]
 
-当前创建的所有 Leafer 实例。
+当前创建的所有 Leafer 引擎。
 
 ## 关键方法
 
@@ -154,25 +154,25 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ### waitInit (item: `function`, bind?: `object` )
 
-应用初始化（完成 init 各种管理器）后时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+引擎初始化（完成 init 各种管理器）后时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已完成则立即执行。
 
 ### waitReady ( item: `function`, bind?: `object` )
 
-应用准备就绪（完成首次布局）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+引擎准备就绪（完成首次布局）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已完成则立即执行。
 
 ### waitViewReady ( item: `function`, bind?: `object` )
 
-应用视图准备就绪（完成首次渲染）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+引擎视图准备就绪（完成首次渲染）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已完成则立即执行。
 
 ### waitViewCompleted ( item: `function`, bind?: `object` )
 
-应用视图加载完成（画布内的图片加载并渲染完成）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+引擎视图加载完成（画布内的图片加载并渲染完成）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已完成则立即执行。
 
@@ -192,10 +192,10 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ### start ( )
 
-启动/重启应用。
+启动/重启引擎。
 
 ```ts
-// #应用配置 - 手动启动应用 [Leafer]
+// #应用与引擎配置 - 手动启动应用 [Leafer]
 import { Leafer } from 'leafer-ui'
 
 const leafer = new Leafer({
@@ -210,7 +210,7 @@ leafer.start()
 
 ### stop ( )
 
-停止应用。
+停止引擎。
 
 将停止渲染、布局，仍会收集元素变化数据待用，可通过 start() 重启。
 
@@ -220,7 +220,7 @@ leafer.start()
 
 ### destroy ( sync?: `boolean` )
 
-销毁应用，默认采用异步销毁，不会立即执行。
+销毁引擎，默认采用异步销毁，不会立即执行。
 
 当 sync 参数为 true 时，表示同步销毁。
 
@@ -238,7 +238,7 @@ leafer.start()
 
 获取 [page 坐标](/guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](/guide/advanced/coordinate.md#拖拽创建图形)。
 
-可用于转换浏览器原生事件坐标（自带 clientX / clientY 坐标属性）到应用中。
+可用于转换浏览器原生事件坐标（自带 clientX / clientY 坐标属性）到引擎中。
 
 ```ts
 interface IClientPointData {
@@ -277,7 +277,7 @@ leafer.unlockLayout()
 
 ## 配置
 
-### [应用配置](/reference/config/app/base.md)
+### [引擎配置](/reference/config/app/base.md)
 
 ## 视图
 
@@ -306,6 +306,169 @@ leafer.unlockLayout()
 ### [Group](./Group.md) -->
 
 ## 示例
+
+### 创建固定宽高的 Leafer
+
+view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字符串时不用加 # 号。
+
+::: code-group
+```ts
+// #创建固定宽高的 Leafer [window]
+import { Leafer, Rect } from 'leafer-ui'
+
+const leafer = new Leafer({
+    view: window, // view 参数支持设置 window 对象
+    width: 600, // 不能设置为 0， 否则会变成自动布局
+    height: 600,
+    fill: '#333'
+})
+
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
+```
+```ts
+// #创建固定宽高的 Leafer [div]
+import { Leafer, Rect } from 'leafer-ui'
+
+const div = document.createElement('div')
+document.body.appendChild(div)
+
+const leafer = new Leafer({
+    view: div, // view 参数支持设置 div 标签对象
+    width: 600, // 不能设置为 0， 否则会变成自动布局
+    height: 600,
+    fill: '#333'
+})
+
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
+```
+```ts
+// #创建固定宽高的 Leafer [canvas]
+import { Leafer, Rect } from 'leafer-ui'
+
+const canvas = document.createElement('canvas')
+document.body.appendChild(canvas)
+
+const leafer = new Leafer({
+    view: canvas, // view 参数支持设置 canvas 标签对象
+    width: 600, // 不能设置为 0， 否则会变成自动布局
+    height: 600,
+    fill: '#333'
+})
+
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
+```
+```ts
+// #创建固定宽高的 Leafer [id]
+import { Leafer, Rect } from 'leafer-ui'
+
+const div = document.createElement('div')
+div.setAttribute('id', 'leafer-view')
+document.body.appendChild(div)
+
+
+const leafer = new Leafer({
+    view: 'leafer-view', // view 参数支持使用id字符串(不用加 # 号)
+    width: 600, // 不能设置为 0， 否则会变成自动布局
+    height: 600,
+    fill: '#333'
+})
+
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
+```
+:::
+
+### 创建自适应布局的 Leafer
+
+当画布的父节点尺寸改变后会自动 resize， [了解详情](/reference/config/app/canvas.md#自适应布局)。
+
+::: code-group
+```ts
+// #创建自适应布局的 Leafer [full]
+import { Leafer, Rect } from 'leafer-ui'
+
+// 等同于 { view: window, top:0, right: 0, bottom: 0, left: 0 } 
+const leafer = new Leafer({ view: window, fill: '#333' })
+
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100)) 
+```
+```ts
+// #创建自适应布局的 Leafer [padding-left]
+import { Leafer, Rect } from 'leafer-ui'
+
+// 等同于 { view: window, top:0, right: 0, bottom: 0, left: 100 }
+const leafer = new Leafer({ view: window, left: 100, fill: '#333' })
+
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100)) 
+```
+```ts
+// #创建自适应布局的 Leafer [padding]
+import { Leafer, Rect } from 'leafer-ui'
+
+// 四周始终保持固定的间距
+const leafer = new Leafer({
+    view: window,
+    top: 50,
+    left: 100,
+    right: 100,
+    bottom: 30,
+    fill: '#333'
+})
+
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100)) 
+```
+:::
+
+### 创建自动生长的 Leafer
+
+画布大小会生长，自动贴合实际内容，用于快速在 HTML 中嵌入 Leafer 元素，[了解详情](/reference/config/app/canvas.md#自动生长)。
+
+注意 [App 结构](/guide/advanced/app.md) 暂不支持此功能。
+
+::: code-group
+```ts
+// #创建自动生长的 Leafer [grow]
+import { Leafer, Rect } from 'leafer-ui'
+
+const leafer = new Leafer({
+    view: window,
+    grow: true, // 自动生长 // [!code hl:2] 
+    fill: '#333'
+})
+
+// 拖拽矩形可以看到画布在生长，自动贴合内容
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100)) 
+```
+```ts
+// #创建自动生长的 Leafer [grow-width]
+import { Leafer, Rect } from 'leafer-ui'
+
+// 宽度自动生长, 高度固定不变
+const leafer = new Leafer({
+    view: window,
+    grow: true, // 自动生长 // [!code hl:3] 
+    height: 200,  // 固定高度
+    fill: '#333'
+})
+
+// 拖拽矩形可以看到画布在生长，自动贴合内容
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100)) 
+```
+```ts
+// #创建自动生长的 Leafer [grow-height]
+import { Leafer, Rect } from 'leafer-ui'
+
+// 高度自动生长, 宽度固定不变
+const leafer = new Leafer({
+    view: window,
+    grow: true, // 自动生长 // [!code hl:3] 
+    width: 200,  // 固定宽度
+    fill: '#333'
+})
+
+// 拖拽矩形可以看到画布在生长，自动贴合内容
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100)) 
+```
+:::
 
 ### 单独指定缩放层
 

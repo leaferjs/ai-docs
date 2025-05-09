@@ -252,7 +252,7 @@ rect.on(PointerEvent.LONG_PRESS, () => {
 
 ### 同时派发多种点击事件
 
-配置应用的 `pointer.tapMore` 为 true, `tap`、`double_tap`、`long_tap` 事件会同时触发。
+配置引擎的 `pointer.tapMore` 为 true, `tap`、`double_tap`、`long_tap` 事件会同时触发。
 
 ```ts
 // #监听点击事件 [同时派发多种点击事件]

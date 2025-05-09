@@ -1,6 +1,6 @@
 # 局部渲染
 
-应用通过局部渲染来提高画布重绘的效率，当页面中有数万个元素的时候，只更新变化的区域。
+引擎通过局部渲染来提高画布重绘的效率，当页面中有数万个元素的时候，只更新变化的区域。
 
 变化前和变化后的元素 [渲染边界（包围盒）](/guide/advanced/bounds.md) 组成了变化区域。
 
@@ -16,7 +16,7 @@
 
 ::: code-group
 ```ts
-// #应用配置 - 关闭局部渲染 [App]
+// #应用与引擎配置 - 关闭局部渲染 [App]
 import { App, Rect, Debug } from 'leafer-ui'
 
 const app = new App({
@@ -30,7 +30,7 @@ app.tree.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 ```
 
 ```ts
-// #应用配置 - 关闭局部渲染 [Leafer]
+// #应用与引擎配置 - 关闭局部渲染 [Leafer]
 import { Leafer, Rect, Debug } from 'leafer-ui'
 
 const leafer = new Leafer({

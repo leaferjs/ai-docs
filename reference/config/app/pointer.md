@@ -1,10 +1,10 @@
-# 应用配置
+# 应用与引擎配置
 
 ### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; 点按 &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
 
 ##
 
-点按操作相关配置， 应用运行中修改 [app.config.pointer](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+点按操作相关配置，引擎运行中修改 [app.config.pointer](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
 :::tip 注意事项
 [App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
@@ -26,7 +26,7 @@
 
 :::tip
 
-当光标距离元素在 `hitRadius` 范围内时，应用可以拾取到元素，并进行了穿透检测，从多个碰撞到的元素中，优先拾取最符合碰撞条件的元素，防止误拾取。
+当光标距离元素在 `hitRadius` 范围内时，引擎可以拾取到元素，并进行了穿透检测，从多个碰撞到的元素中，优先拾取最符合碰撞条件的元素，防止误拾取。
 
 :::
 
@@ -86,7 +86,7 @@
 
 ::: code-group
 ```ts
-// #应用配置 - 取消光标碰撞半径 [Leafer]
+// #应用与引擎配置 - 取消光标碰撞半径 [Leafer]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({
@@ -98,7 +98,7 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 ```
 
 ```ts
-// #应用配置 - 取消光标碰撞半径 [App]
+// #应用与引擎配置 - 取消光标碰撞半径 [App]
 import { App, Rect } from 'leafer-ui'
 
 const app = new App({
@@ -115,7 +115,7 @@ app.tree.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 
 ::: code-group
 ```ts
-// #应用配置 - 获取穿透路径 [Leafer]
+// #应用与引擎配置 - 获取穿透路径 [Leafer]
 import { Leafer, Rect, PointerEvent } from 'leafer-ui'
 
 const leafer = new Leafer({
@@ -137,7 +137,7 @@ rect.on(PointerEvent.DOWN, (e: PointerEvent) => {
 ```
 
 ```ts
-// #应用配置 - 获取穿透路径 [App]
+// #应用与引擎配置 - 获取穿透路径 [App]
 import { App, Rect, PointerEvent } from 'leafer-ui'
 
 const app = new App({

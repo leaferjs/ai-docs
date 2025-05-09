@@ -36,10 +36,10 @@
 
 ## 　示例
 
-### 等待图片加载完，再添加到应用中
+### 等待图片加载完，再添加到引擎中
 
 ```ts
-// #等待图片加载完，再添加到应用中
+// #等待图片加载完，再添加到引擎中
 import { Leafer, Image, Resource } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

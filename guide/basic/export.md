@@ -128,7 +128,7 @@ rect.export('test.png', {
 
 ### 导出整个画布
 
-将当前应用画布进行截图导出。
+将当前引擎画布进行截图导出。
 
 ```ts
 // #导出图片 [画面截图]
@@ -139,7 +139,7 @@ const leafer = new Leafer({ view: window })
 
 leafer.add(Rect.one({ fill: '#32cd79' }, 100, 100))
 
-leafer.export('screenshot.png', { screenshot: true }) // 将当前应用画布进行截图导出 [!code hl:3]
+leafer.export('screenshot.png', { screenshot: true }) // 将当前引擎画布进行截图导出 [!code hl:3]
 
 // const result = await leafer.export('screenshot.png', {screenshot: true}
 ```
