@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/animate/ITransition.ts:29](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/animate/ITransition.ts#L29)
+[leafer/packages/interface/src/animate/ITransition.ts:29](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/animate/ITransition.ts#L29)

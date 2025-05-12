@@ -45,7 +45,9 @@ interface IExportOptions {
   smooth?: boolean // 设置画布的平滑绘制属性，默认同当前leafer画布
   contextSettings?: ICanvasRenderingContext2DSettings // 原生画布的 context 设置, 默认同当前leafer画布
 
-  slice?: boolean // 是否为切片，将导出切片bounds内的画布上所有内容
+  clip?: IBoundsData // 相对元素渲染区域进行裁剪，需指定裁剪区域
+
+  slice?: boolean // 是否为切片元素，将导出切片bounds内的画布上所有内容
   trim?: boolean // 是否裁剪透明像素，默认false
   screenshot?: IBoundsData | boolean // 以当前视图比例导出截图，可指定一个截图区域
 
@@ -262,6 +264,31 @@ rect.export('canvas').then(result => { // [!code hl:11]
 })
 
 // const result = await rect.export('canvas')
+```
+
+### 裁剪元素后导出
+
+相对元素渲染区域进行裁剪。
+
+```ts
+// #导出图片 [裁剪元素]
+import { Leafer, Ellipse } from 'leafer-ui'
+import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
+
+const leafer = new Leafer({ view: window })
+
+const ellipse = new Ellipse({
+    width: 100,
+    height: 100,
+    innerRadius: 0.5,
+    fill: "#32cd79"
+})
+
+leafer.add(ellipse)
+
+ellipse.export('clip.jpg', {
+    clip: { x: 50, y: 50, width: 50, height: 50 }  // 对导出元素进行裁剪 // [!code hl]
+})
 ```
 
 ### 导出整个画布

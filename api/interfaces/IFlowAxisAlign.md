@@ -16,7 +16,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/display/ILeaf.ts:49](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/display/ILeaf.ts#L49)
+[leafer/packages/interface/src/display/ILeaf.ts:49](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/display/ILeaf.ts#L49)
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/ILeaf.ts:49](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/display/ILeaf.ts#L49)
+[leafer/packages/interface/src/display/ILeaf.ts:49](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/display/ILeaf.ts#L49)
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/ILeaf.ts:49](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/display/ILeaf.ts#L49)
+[leafer/packages/interface/src/display/ILeaf.ts:49](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/display/ILeaf.ts#L49)

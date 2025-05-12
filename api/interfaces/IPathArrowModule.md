@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPathArrow.ts:6](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPathArrow.ts#L6)
+[ui/packages/interface/src/module/IPathArrow.ts:6](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPathArrow.ts#L6)
 
 ## Methods
 
@@ -39,4 +39,4 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPathArrow.ts:7](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IPathArrow.ts#L7)
+[ui/packages/interface/src/module/IPathArrow.ts:7](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPathArrow.ts#L7)

@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:9](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L9)
+[leafer/packages/math/src/Point.ts:9](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L9)
 
 ## Properties
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:6](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L6)
+[leafer/packages/math/src/Point.ts:6](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L6)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:7](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L7)
+[leafer/packages/math/src/Point.ts:7](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L7)
 
 ## Methods
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:13](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L13)
+[leafer/packages/math/src/Point.ts:13](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L13)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:18](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L18)
+[leafer/packages/math/src/Point.ts:18](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L18)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:24](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L24)
+[leafer/packages/math/src/Point.ts:24](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L24)
 
 ___
 
@@ -164,7 +164,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:29](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L29)
+[leafer/packages/math/src/Point.ts:29](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L29)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:34](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L34)
+[leafer/packages/math/src/Point.ts:34](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L34)
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:39](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L39)
+[leafer/packages/math/src/Point.ts:39](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L39)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:44](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L44)
+[leafer/packages/math/src/Point.ts:44](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L44)
 
 ___
 
@@ -265,7 +265,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:49](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L49)
+[leafer/packages/math/src/Point.ts:49](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L49)
 
 ___
 
@@ -291,7 +291,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:54](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L54)
+[leafer/packages/math/src/Point.ts:54](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L54)
 
 ___
 
@@ -316,7 +316,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:59](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L59)
+[leafer/packages/math/src/Point.ts:59](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L59)
 
 ___
 
@@ -341,7 +341,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:64](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L64)
+[leafer/packages/math/src/Point.ts:64](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L64)
 
 ___
 
@@ -365,7 +365,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:70](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L70)
+[leafer/packages/math/src/Point.ts:70](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L70)
 
 ___
 
@@ -389,7 +389,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:74](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L74)
+[leafer/packages/math/src/Point.ts:74](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L74)
 
 ___
 
@@ -415,7 +415,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:78](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L78)
+[leafer/packages/math/src/Point.ts:78](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L78)
 
 ___
 
@@ -439,7 +439,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:82](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L82)
+[leafer/packages/math/src/Point.ts:82](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L82)
 
 ___
 
@@ -463,7 +463,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:86](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L86)
+[leafer/packages/math/src/Point.ts:86](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L86)
 
 ___
 
@@ -481,4 +481,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/math/src/Point.ts:91](https://github.com/leaferjs/leafer/blob/27e942d/packages/math/src/Point.ts#L91)
+[leafer/packages/math/src/Point.ts:91](https://github.com/leaferjs/leafer/blob/fd13609/packages/math/src/Point.ts#L91)

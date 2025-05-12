@@ -120,7 +120,7 @@ CanvasCompositing.globalAlpha
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:23](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L23)
+[leafer/packages/interface/src/canvas/ICanvas.ts:23](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L23)
 
 ___
 
@@ -134,7 +134,7 @@ CanvasCompositing.globalCompositeOperation
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:24](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L24)
+[leafer/packages/interface/src/canvas/ICanvas.ts:24](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L24)
 
 ___
 
@@ -148,7 +148,7 @@ CanvasFillStrokeStyles.fillStyle
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:49](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L49)
+[leafer/packages/interface/src/canvas/ICanvas.ts:49](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L49)
 
 ___
 
@@ -162,7 +162,7 @@ CanvasFillStrokeStyles.strokeStyle
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:50](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L50)
+[leafer/packages/interface/src/canvas/ICanvas.ts:50](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L50)
 
 ___
 
@@ -176,7 +176,7 @@ CanvasFilters.filter
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:58](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L58)
+[leafer/packages/interface/src/canvas/ICanvas.ts:58](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L58)
 
 ___
 
@@ -190,7 +190,7 @@ CanvasImageSmoothing.imageSmoothingEnabled
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:83](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L83)
+[leafer/packages/interface/src/canvas/ICanvas.ts:83](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L83)
 
 ___
 
@@ -204,7 +204,7 @@ CanvasImageSmoothing.imageSmoothingQuality
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:84](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L84)
+[leafer/packages/interface/src/canvas/ICanvas.ts:84](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L84)
 
 ___
 
@@ -218,7 +218,7 @@ CanvasPathDrawingStyles.lineCap
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:101](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L101)
+[leafer/packages/interface/src/canvas/ICanvas.ts:101](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L101)
 
 ___
 
@@ -232,7 +232,7 @@ CanvasPathDrawingStyles.lineDashOffset
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:102](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L102)
+[leafer/packages/interface/src/canvas/ICanvas.ts:102](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L102)
 
 ___
 
@@ -246,7 +246,7 @@ CanvasPathDrawingStyles.lineJoin
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:103](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L103)
+[leafer/packages/interface/src/canvas/ICanvas.ts:103](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L103)
 
 ___
 
@@ -260,7 +260,7 @@ CanvasPathDrawingStyles.lineWidth
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:104](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L104)
+[leafer/packages/interface/src/canvas/ICanvas.ts:104](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L104)
 
 ___
 
@@ -274,7 +274,7 @@ CanvasPathDrawingStyles.miterLimit
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:105](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L105)
+[leafer/packages/interface/src/canvas/ICanvas.ts:105](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L105)
 
 ___
 
@@ -284,7 +284,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:138](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L138)
+[leafer/packages/interface/src/canvas/ICanvas.ts:138](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L138)
 
 ___
 
@@ -298,7 +298,7 @@ CanvasShadowStyles.shadowBlur
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:148](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L148)
+[leafer/packages/interface/src/canvas/ICanvas.ts:148](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L148)
 
 ___
 
@@ -312,7 +312,7 @@ CanvasShadowStyles.shadowColor
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:149](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L149)
+[leafer/packages/interface/src/canvas/ICanvas.ts:149](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L149)
 
 ___
 
@@ -326,7 +326,7 @@ CanvasShadowStyles.shadowOffsetX
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:150](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L150)
+[leafer/packages/interface/src/canvas/ICanvas.ts:150](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L150)
 
 ___
 
@@ -340,7 +340,7 @@ CanvasShadowStyles.shadowOffsetY
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:151](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L151)
+[leafer/packages/interface/src/canvas/ICanvas.ts:151](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L151)
 
 ___
 
@@ -354,7 +354,7 @@ CanvasTextDrawingStyles.direction
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:194](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L194)
+[leafer/packages/interface/src/canvas/ICanvas.ts:194](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L194)
 
 ___
 
@@ -368,7 +368,7 @@ CanvasTextDrawingStyles.font
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:195](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L195)
+[leafer/packages/interface/src/canvas/ICanvas.ts:195](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L195)
 
 ___
 
@@ -382,7 +382,7 @@ CanvasTextDrawingStyles.textAlign
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:196](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L196)
+[leafer/packages/interface/src/canvas/ICanvas.ts:196](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L196)
 
 ___
 
@@ -396,7 +396,7 @@ CanvasTextDrawingStyles.textBaseline
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:197](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L197)
+[leafer/packages/interface/src/canvas/ICanvas.ts:197](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L197)
 
 ## Methods
 
@@ -422,7 +422,7 @@ CanvasDrawImage.drawImage
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:29](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L29)
+[leafer/packages/interface/src/canvas/ICanvas.ts:29](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L29)
 
 ▸ **drawImage**(`image`, `dx`, `dy`, `dw`, `dh`): `void`
 
@@ -446,7 +446,7 @@ CanvasDrawImage.drawImage
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:30](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L30)
+[leafer/packages/interface/src/canvas/ICanvas.ts:30](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L30)
 
 ▸ **drawImage**(`image`, `sx`, `sy`, `sw`, `sh`, `dx`, `dy`, `dw`, `dh`): `void`
 
@@ -474,7 +474,7 @@ CanvasDrawImage.drawImage
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:31](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L31)
+[leafer/packages/interface/src/canvas/ICanvas.ts:31](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L31)
 
 ___
 
@@ -492,7 +492,7 @@ CanvasDrawPath.beginPath
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:35](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L35)
+[leafer/packages/interface/src/canvas/ICanvas.ts:35](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L35)
 
 ___
 
@@ -516,7 +516,7 @@ CanvasDrawPath.clip
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:36](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L36)
+[leafer/packages/interface/src/canvas/ICanvas.ts:36](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L36)
 
 ▸ **clip**(`path`, `fillRule?`): `void`
 
@@ -537,7 +537,7 @@ CanvasDrawPath.clip
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:37](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L37)
+[leafer/packages/interface/src/canvas/ICanvas.ts:37](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L37)
 
 ___
 
@@ -561,7 +561,7 @@ CanvasDrawPath.fill
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:38](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L38)
+[leafer/packages/interface/src/canvas/ICanvas.ts:38](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L38)
 
 ▸ **fill**(`path`, `fillRule?`): `void`
 
@@ -582,7 +582,7 @@ CanvasDrawPath.fill
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:39](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L39)
+[leafer/packages/interface/src/canvas/ICanvas.ts:39](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L39)
 
 ___
 
@@ -608,7 +608,7 @@ CanvasDrawPath.isPointInPath
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:40](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L40)
+[leafer/packages/interface/src/canvas/ICanvas.ts:40](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L40)
 
 ▸ **isPointInPath**(`path`, `x`, `y`, `fillRule?`): `boolean`
 
@@ -631,7 +631,7 @@ CanvasDrawPath.isPointInPath
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:41](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L41)
+[leafer/packages/interface/src/canvas/ICanvas.ts:41](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L41)
 
 ___
 
@@ -656,7 +656,7 @@ CanvasDrawPath.isPointInStroke
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:42](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L42)
+[leafer/packages/interface/src/canvas/ICanvas.ts:42](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L42)
 
 ▸ **isPointInStroke**(`path`, `x`, `y`): `boolean`
 
@@ -678,7 +678,7 @@ CanvasDrawPath.isPointInStroke
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:43](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L43)
+[leafer/packages/interface/src/canvas/ICanvas.ts:43](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L43)
 
 ___
 
@@ -696,7 +696,7 @@ CanvasDrawPath.stroke
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:44](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L44)
+[leafer/packages/interface/src/canvas/ICanvas.ts:44](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L44)
 
 ▸ **stroke**(`path`): `void`
 
@@ -716,7 +716,7 @@ CanvasDrawPath.stroke
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:45](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L45)
+[leafer/packages/interface/src/canvas/ICanvas.ts:45](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L45)
 
 ___
 
@@ -742,7 +742,7 @@ CanvasFillStrokeStyles.createConicGradient
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:51](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L51)
+[leafer/packages/interface/src/canvas/ICanvas.ts:51](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L51)
 
 ___
 
@@ -769,7 +769,7 @@ CanvasFillStrokeStyles.createLinearGradient
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:52](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L52)
+[leafer/packages/interface/src/canvas/ICanvas.ts:52](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L52)
 
 ___
 
@@ -794,7 +794,7 @@ CanvasFillStrokeStyles.createPattern
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:53](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L53)
+[leafer/packages/interface/src/canvas/ICanvas.ts:53](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L53)
 
 ___
 
@@ -823,7 +823,7 @@ CanvasFillStrokeStyles.createRadialGradient
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:54](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L54)
+[leafer/packages/interface/src/canvas/ICanvas.ts:54](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L54)
 
 ___
 
@@ -849,7 +849,7 @@ CanvasImageData.createImageData
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:75](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L75)
+[leafer/packages/interface/src/canvas/ICanvas.ts:75](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L75)
 
 ▸ **createImageData**(`imagedata`): `ImageData`
 
@@ -869,7 +869,7 @@ CanvasImageData.createImageData
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:76](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L76)
+[leafer/packages/interface/src/canvas/ICanvas.ts:76](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L76)
 
 ___
 
@@ -897,7 +897,7 @@ CanvasImageData.getImageData
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:77](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L77)
+[leafer/packages/interface/src/canvas/ICanvas.ts:77](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L77)
 
 ___
 
@@ -923,7 +923,7 @@ CanvasImageData.putImageData
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:78](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L78)
+[leafer/packages/interface/src/canvas/ICanvas.ts:78](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L78)
 
 ▸ **putImageData**(`imagedata`, `dx`, `dy`, `dirtyX`, `dirtyY`, `dirtyWidth`, `dirtyHeight`): `void`
 
@@ -949,7 +949,7 @@ CanvasImageData.putImageData
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:79](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L79)
+[leafer/packages/interface/src/canvas/ICanvas.ts:79](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L79)
 
 ___
 
@@ -978,7 +978,7 @@ CanvasPath.arc
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:88](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L88)
+[leafer/packages/interface/src/canvas/ICanvas.ts:88](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L88)
 
 ___
 
@@ -1006,7 +1006,7 @@ CanvasPath.arcTo
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:89](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L89)
+[leafer/packages/interface/src/canvas/ICanvas.ts:89](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L89)
 
 ___
 
@@ -1035,7 +1035,7 @@ CanvasPath.bezierCurveTo
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:90](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L90)
+[leafer/packages/interface/src/canvas/ICanvas.ts:90](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L90)
 
 ___
 
@@ -1053,7 +1053,7 @@ CanvasPath.closePath
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:91](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L91)
+[leafer/packages/interface/src/canvas/ICanvas.ts:91](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L91)
 
 ___
 
@@ -1084,7 +1084,7 @@ CanvasPath.ellipse
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:92](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L92)
+[leafer/packages/interface/src/canvas/ICanvas.ts:92](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L92)
 
 ___
 
@@ -1109,7 +1109,7 @@ CanvasPath.lineTo
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:93](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L93)
+[leafer/packages/interface/src/canvas/ICanvas.ts:93](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L93)
 
 ___
 
@@ -1134,7 +1134,7 @@ CanvasPath.moveTo
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:94](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L94)
+[leafer/packages/interface/src/canvas/ICanvas.ts:94](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L94)
 
 ___
 
@@ -1161,7 +1161,7 @@ CanvasPath.quadraticCurveTo
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:95](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L95)
+[leafer/packages/interface/src/canvas/ICanvas.ts:95](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L95)
 
 ___
 
@@ -1188,7 +1188,7 @@ CanvasPath.rect
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:96](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L96)
+[leafer/packages/interface/src/canvas/ICanvas.ts:96](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L96)
 
 ___
 
@@ -1216,7 +1216,7 @@ CanvasPath.roundRect
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:97](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L97)
+[leafer/packages/interface/src/canvas/ICanvas.ts:97](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L97)
 
 ___
 
@@ -1234,7 +1234,7 @@ CanvasPathDrawingStyles.getLineDash
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:106](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L106)
+[leafer/packages/interface/src/canvas/ICanvas.ts:106](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L106)
 
 ___
 
@@ -1258,7 +1258,7 @@ CanvasPathDrawingStyles.setLineDash
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:107](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L107)
+[leafer/packages/interface/src/canvas/ICanvas.ts:107](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L107)
 
 ___
 
@@ -1285,7 +1285,7 @@ CanvasRect.clearRect
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:122](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L122)
+[leafer/packages/interface/src/canvas/ICanvas.ts:122](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L122)
 
 ___
 
@@ -1312,7 +1312,7 @@ CanvasRect.fillRect
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:123](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L123)
+[leafer/packages/interface/src/canvas/ICanvas.ts:123](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L123)
 
 ___
 
@@ -1339,7 +1339,7 @@ CanvasRect.strokeRect
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:124](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L124)
+[leafer/packages/interface/src/canvas/ICanvas.ts:124](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L124)
 
 ___
 
@@ -1353,7 +1353,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:139](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L139)
+[leafer/packages/interface/src/canvas/ICanvas.ts:139](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L139)
 
 ___
 
@@ -1371,7 +1371,7 @@ CanvasState.restore
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:155](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L155)
+[leafer/packages/interface/src/canvas/ICanvas.ts:155](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L155)
 
 ___
 
@@ -1389,7 +1389,7 @@ CanvasState.save
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:156](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L156)
+[leafer/packages/interface/src/canvas/ICanvas.ts:156](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L156)
 
 ___
 
@@ -1413,7 +1413,7 @@ CanvasUserInterface.drawFocusIfNeeded
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:160](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L160)
+[leafer/packages/interface/src/canvas/ICanvas.ts:160](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L160)
 
 ▸ **drawFocusIfNeeded**(`path`, `element`): `void`
 
@@ -1434,7 +1434,7 @@ CanvasUserInterface.drawFocusIfNeeded
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:161](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L161)
+[leafer/packages/interface/src/canvas/ICanvas.ts:161](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L161)
 
 ___
 
@@ -1461,7 +1461,7 @@ CanvasText.fillText
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:188](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L188)
+[leafer/packages/interface/src/canvas/ICanvas.ts:188](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L188)
 
 ___
 
@@ -1485,7 +1485,7 @@ CanvasText.measureText
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:189](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L189)
+[leafer/packages/interface/src/canvas/ICanvas.ts:189](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L189)
 
 ___
 
@@ -1512,7 +1512,7 @@ CanvasText.strokeText
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:190](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L190)
+[leafer/packages/interface/src/canvas/ICanvas.ts:190](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L190)
 
 ___
 
@@ -1530,7 +1530,7 @@ CanvasTransform.getTransform
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:201](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L201)
+[leafer/packages/interface/src/canvas/ICanvas.ts:201](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L201)
 
 ___
 
@@ -1548,7 +1548,7 @@ CanvasTransform.resetTransform
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:202](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L202)
+[leafer/packages/interface/src/canvas/ICanvas.ts:202](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L202)
 
 ___
 
@@ -1572,7 +1572,7 @@ CanvasTransform.rotate
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:203](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L203)
+[leafer/packages/interface/src/canvas/ICanvas.ts:203](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L203)
 
 ___
 
@@ -1597,7 +1597,7 @@ CanvasTransform.scale
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:204](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L204)
+[leafer/packages/interface/src/canvas/ICanvas.ts:204](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L204)
 
 ___
 
@@ -1626,7 +1626,7 @@ CanvasTransform.setTransform
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:205](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L205)
+[leafer/packages/interface/src/canvas/ICanvas.ts:205](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L205)
 
 ▸ **setTransform**(`transform?`): `void`
 
@@ -1646,7 +1646,7 @@ CanvasTransform.setTransform
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:206](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L206)
+[leafer/packages/interface/src/canvas/ICanvas.ts:206](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L206)
 
 ___
 
@@ -1675,7 +1675,7 @@ CanvasTransform.transform
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:207](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L207)
+[leafer/packages/interface/src/canvas/ICanvas.ts:207](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L207)
 
 ___
 
@@ -1700,4 +1700,4 @@ CanvasTransform.translate
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ICanvas.ts:208](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/canvas/ICanvas.ts#L208)
+[leafer/packages/interface/src/canvas/ICanvas.ts:208](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/canvas/ICanvas.ts#L208)

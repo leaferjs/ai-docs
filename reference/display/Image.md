@@ -50,6 +50,10 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 图片是否懒加载，可以加快页面显示速度， 默认为 false。
 
+### placeholderColor: `string`
+
+图片占位符的背景颜色，当图片加载中(延迟 100ms)或加载失败时均会显示。
+
 ## 只读属性
 
 ### ready: `boolean`
@@ -263,6 +267,59 @@ const image = new Image({  // [!code hl:5]
 })
 
 app.tree.add(image)
+```
+:::
+
+### 图片占位符
+
+::: code-group
+```ts
+// #创建Image [图片占位符（Leafer)]
+import { Leafer, Image } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+const image = new Image({
+    url: '/image/leafer-error.jpg',
+    width: 110,
+    height: 80,
+    draggable: true,
+    placeholderColor: 'rgba(120,120,120,0.2)' // 设置图片占位符的背景颜色 // [!code hl] 
+})
+
+leafer.add(image)
+
+
+setTimeout(() => {
+
+    image.url = '/image/leafer.jpg' // 变为正确的图片
+
+}, 1000)
+```
+```ts
+// #创建Image [图片占位符（Leafer)]
+import { App, Image } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const image = new Image({
+    url: '/image/leafer-error.jpg',
+    width: 110,
+    height: 80,
+    draggable: true,
+    placeholderColor: 'rgba(120,120,120,0.2)' // 设置图片占位符的背景颜色 // [!code hl] 
+})
+
+app.tree.add(image)
+
+
+setTimeout(() => {
+
+    image.url = '/image/leafer.jpg' // 变为正确的图片
+
+}, 1000)
 ```
 :::
 

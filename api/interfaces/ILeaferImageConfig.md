@@ -7,6 +7,7 @@
 - [url](ILeaferImageConfig.md#url)
 - [thumb](ILeaferImageConfig.md#thumb)
 - [format](ILeaferImageConfig.md#format)
+- [showProgress](ILeaferImageConfig.md#showprogress)
 - [view](ILeaferImageConfig.md#view)
 
 ## Properties
@@ -17,7 +18,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:9](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/image/ILeaferImage.ts#L9)
+[leafer/packages/interface/src/image/ILeaferImage.ts:10](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/ILeaferImage.ts#L10)
 
 ___
 
@@ -27,7 +28,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:10](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/image/ILeaferImage.ts#L10)
+[leafer/packages/interface/src/image/ILeaferImage.ts:11](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/ILeaferImage.ts#L11)
 
 ___
 
@@ -37,7 +38,17 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:11](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/image/ILeaferImage.ts#L11)
+[leafer/packages/interface/src/image/ILeaferImage.ts:12](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/ILeaferImage.ts#L12)
+
+___
+
+### showProgress
+
+• `Optional` **showProgress**: `boolean`
+
+#### Defined in
+
+[leafer/packages/interface/src/image/ILeaferImage.ts:13](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/ILeaferImage.ts#L13)
 
 ___
 
@@ -47,4 +58,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/ILeaferImage.ts:12](https://github.com/leaferjs/leafer/blob/27e942d/packages/interface/src/image/ILeaferImage.ts#L12)
+[leafer/packages/interface/src/image/ILeaferImage.ts:14](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/ILeaferImage.ts#L14)

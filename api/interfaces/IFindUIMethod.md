@@ -19,4 +19,4 @@
 
 #### Defined in
 
-[ui/packages/interface/src/IUI.ts:461](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IUI.ts#L461)
+[ui/packages/interface/src/IUI.ts:467](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IUI.ts#L467)

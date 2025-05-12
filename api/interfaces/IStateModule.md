@@ -15,6 +15,7 @@
 - [isFocus](IStateModule.md#isfocus)
 - [isHover](IStateModule.md#ishover)
 - [isPress](IStateModule.md#ispress)
+- [isPlacehold](IStateModule.md#isplacehold)
 - [isDrag](IStateModule.md#isdrag)
 - [setStyleName](IStateModule.md#setstylename)
 - [set](IStateModule.md#set)
@@ -30,7 +31,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:5](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L5)
+[ui/packages/interface/src/module/IState.ts:5](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L5)
 
 ___
 
@@ -40,7 +41,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:6](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L6)
+[ui/packages/interface/src/module/IState.ts:6](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L6)
 
 ## Methods
 
@@ -62,7 +63,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:8](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L8)
+[ui/packages/interface/src/module/IState.ts:8](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L8)
 
 ___
 
@@ -83,7 +84,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:9](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L9)
+[ui/packages/interface/src/module/IState.ts:9](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L9)
 
 ___
 
@@ -104,7 +105,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:10](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L10)
+[ui/packages/interface/src/module/IState.ts:10](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L10)
 
 ___
 
@@ -125,7 +126,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:12](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L12)
+[ui/packages/interface/src/module/IState.ts:12](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L12)
 
 ___
 
@@ -146,7 +147,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:13](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L13)
+[ui/packages/interface/src/module/IState.ts:13](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L13)
 
 ___
 
@@ -167,7 +168,28 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:14](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L14)
+[ui/packages/interface/src/module/IState.ts:14](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L14)
+
+___
+
+### isPlacehold
+
+▸ **isPlacehold**(`leaf`, `button?`): `boolean`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `leaf` | [`ILeaf`](ILeaf.md) |
+| `button?` | `boolean` \| [`ILeaf`](ILeaf.md) |
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[ui/packages/interface/src/module/IState.ts:15](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L15)
 
 ___
 
@@ -188,7 +210,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:16](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L16)
+[ui/packages/interface/src/module/IState.ts:17](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L17)
 
 ___
 
@@ -210,7 +232,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:18](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L18)
+[ui/packages/interface/src/module/IState.ts:19](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L19)
 
 ___
 
@@ -231,7 +253,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:19](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L19)
+[ui/packages/interface/src/module/IState.ts:20](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L20)
 
 ___
 
@@ -251,7 +273,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:21](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L21)
+[ui/packages/interface/src/module/IState.ts:22](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L22)
 
 ___
 
@@ -273,7 +295,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:23](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L23)
+[ui/packages/interface/src/module/IState.ts:24](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L24)
 
 ___
 
@@ -294,4 +316,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IState.ts:24](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/module/IState.ts#L24)
+[ui/packages/interface/src/module/IState.ts:25](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IState.ts#L25)

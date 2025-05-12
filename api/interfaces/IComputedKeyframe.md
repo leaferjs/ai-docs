@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:38](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L38)
+[ui/packages/interface/src/IAnimation.ts:38](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L38)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:39](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L39)
+[ui/packages/interface/src/IAnimation.ts:39](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L39)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:40](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L40)
+[ui/packages/interface/src/IAnimation.ts:40](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L40)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:42](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L42)
+[ui/packages/interface/src/IAnimation.ts:42](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L42)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:44](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L44)
+[ui/packages/interface/src/IAnimation.ts:44](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L44)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:45](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L45)
+[ui/packages/interface/src/IAnimation.ts:45](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L45)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:47](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L47)
+[ui/packages/interface/src/IAnimation.ts:47](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L47)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:48](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L48)
+[ui/packages/interface/src/IAnimation.ts:48](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L48)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:50](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L50)
+[ui/packages/interface/src/IAnimation.ts:50](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L50)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:51](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L51)
+[ui/packages/interface/src/IAnimation.ts:51](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L51)
 
 ___
 
@@ -124,4 +124,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/IAnimation.ts:53](https://github.com/leaferjs/leafer-ui/blob/e76fc82/packages/interface/src/IAnimation.ts#L53)
+[ui/packages/interface/src/IAnimation.ts:53](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/IAnimation.ts#L53)

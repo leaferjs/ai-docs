@@ -28,6 +28,16 @@ Text &nbsp;>&nbsp; [UI](./UI.md)
 
 文本内容。
 
+## 占位符属性
+
+### placeholder: `string`
+
+占位符文本，当文本为空字符串时显示。
+
+### placeholderColor: `string`
+
+占位符文本的颜色。
+
 ## 样式属性
 
 ### fontFamily: `string`
@@ -409,6 +419,51 @@ const box = new Box({
 })
 
 app.tree.add(box)
+```
+:::
+
+### 占位符文本
+
+文本为空字符串时显示占位符文本。
+
+::: code-group
+```ts
+// #创建 Text [占位符文本（Leafer)]
+import { Leafer, Text } from 'leafer-ui'
+
+const leafer = new Leafer({ view: window })
+
+const text = new Text({
+    fill: '#32cd79',
+    placeholder: '请输入文本', // 占位符文本 // [!code hl:2] 
+    placeholderColor: 'rgba(120,120,120,0.5)',  // 占位符颜色
+})
+
+leafer.add(text)
+
+setTimeout(() => {
+
+    text.text = 'Welcome to LeaferJS'
+
+}, 1000)
+```
+```ts
+// #创建 Text [占位符文本（App)]
+import { App, Text } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+import '@leafer-in/text-editor' // 导入文本编辑插件 
+
+const app = new App({ view: window, editor: {} })
+
+const text = new Text({
+    fill: '#32cd79',
+    placeholder: '请输入文本', // 占位符文本 // [!code hl:2] 
+    placeholderColor: 'rgba(120,120,120,0.5)',  // 占位符颜色
+    editable: true
+})
+
+app.tree.add(text)
 ```
 :::
 
