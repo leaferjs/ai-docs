@@ -83,7 +83,7 @@ type IOverflow = 'show' | 'hide'
 
 ::: code-group
 ```ts
-// #创建 Box [标准创建（Leafer)]
+// #创建 Box [标准创建 (Leafer)]
 import { Leafer, Box, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })
@@ -107,7 +107,7 @@ leafer.add(box)
 box.add(rect)
 ```
 ```ts
-// #创建 Box [标准创建（App)]
+// #创建 Box [标准创建 (App)]
 import { App, Box, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -142,7 +142,7 @@ box.add(rect)
 
 ::: code-group
 ```ts
-// #创建 Box [隐藏超出宽高的内容（Leafer)]
+// #创建 Box [隐藏超出宽高的内容 (Leafer)]
 import { Leafer, Box, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })
@@ -167,7 +167,7 @@ leafer.add(box)
 box.add(rect)
 ```
 ```ts
-// #创建 Box [隐藏超出宽高的内容（App)]
+// #创建 Box [隐藏超出宽高的内容 (App)]
 import { App, Box, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -203,7 +203,7 @@ box.add(rect)
 
 ::: code-group
 ```ts
-// #创建 Box [自适应文本（Leafer)]
+// #创建 Box [自适应文本 (Leafer)]
 import { Leafer, Box } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })
@@ -227,7 +227,7 @@ const box = new Box({
 leafer.add(box)
 ```
 ```ts
-// #创建 Box [自适应文本（App)]
+// #创建 Box [自适应文本 (App)]
 import { App, Box } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

@@ -77,7 +77,7 @@ sides: 5
 
 ::: code-group
 ```ts
-// #创建 Polygon [绘制三角形（Leafer)]
+// #创建 Polygon [绘制三角形 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -92,7 +92,7 @@ const polygon = new Polygon({  // [!code hl:6]
 leafer.add(polygon)
 ```
 ```ts
-// #创建 Polygon [绘制三角形（App)]
+// #创建 Polygon [绘制三角形 (App)]
 import { App, Polygon } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -117,7 +117,7 @@ app.tree.add(polygon)
 
 ::: code-group
 ```ts
-// #创建 Polygon [绘制五边形（Leafer)]
+// #创建 Polygon [绘制五边形 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -132,7 +132,7 @@ const polygon = new Polygon({  // [!code hl:6]
 leafer.add(polygon)
 ```
 ```ts
-// #创建 Polygon [绘制五边形（App)]
+// #创建 Polygon [绘制五边形 (App)]
 import { App, Polygon } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -157,7 +157,7 @@ app.tree.add(polygon)
 
 ::: code-group
 ```ts
-// #创建 Polygon [绘制圆角六边形（Leafer)]
+// #创建 Polygon [绘制圆角六边形 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -173,7 +173,7 @@ const polygon = new Polygon({  // [!code hl:7]
 leafer.add(polygon)
 ```
 ```ts
-// #创建 Polygon [绘制圆角六边形（App)]
+// #创建 Polygon [绘制圆角六边形 (App)]
 import { App, Polygon } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -199,7 +199,7 @@ app.tree.add(polygon)
 
 ::: code-group
 ```ts
-// #创建 Polygon [绘制自由多边形（Leafer)]
+// #创建 Polygon [绘制自由多边形 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -212,7 +212,7 @@ const polygon = new Polygon({  // [!code hl:4]
 leafer.add(polygon)
 ```
 ```ts
-// #创建 Polygon [绘制自由多边形（App)]
+// #创建 Polygon [绘制自由多边形 (App)]
 import { App, Polygon } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -235,7 +235,7 @@ app.tree.add(polygon)
 
 ::: code-group
 ```ts
-// #创建 Polygon [绘制平滑多边形（Leafer)]
+// #创建 Polygon [绘制平滑多边形 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -249,7 +249,7 @@ const polygon = new Polygon({  // [!code hl:5]
 leafer.add(polygon)
 ```
 ```ts
-// #创建 Polygon [绘制平滑多边形（App)]
+// #创建 Polygon [绘制平滑多边形 (App)]
 import { App, Polygon } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -273,7 +273,7 @@ app.tree.add(polygon)
 
 ::: code-group
 ```ts
-// #创建 Polygon [绘制 0.2 曲率的平滑多边形（Leafer)]
+// #创建 Polygon [绘制 0.2 曲率的平滑多边形 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -287,7 +287,7 @@ const polygon = new Polygon({  // [!code hl:5]
 leafer.add(polygon)
 ```
 ```ts
-// #创建 Polygon [绘制 0.2 曲率的平滑多边形（App)]
+// #创建 Polygon [绘制 0.2 曲率的平滑多边形 (App)]
 import { App, Polygon } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -311,7 +311,7 @@ app.tree.add(polygon)
 
 ::: code-group
 ```ts
-// #创建 Polygon [绘制趋势图（Leafer)]
+// #创建 Polygon [绘制趋势图 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -325,7 +325,7 @@ const polygon = new Polygon({  // [!code hl:5]
 leafer.add(polygon)
 ```
 ```ts
-// #创建 Polygon [绘制趋势图（App)]
+// #创建 Polygon [绘制趋势图 (App)]
 import { App, Polygon } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

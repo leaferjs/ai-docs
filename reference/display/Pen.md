@@ -144,7 +144,7 @@ close 表示是否闭合折线。
 
 ::: code-group
 ```ts
-// #创建 Pen [画出不同颜色的形状（Leafer)]
+// #创建 Pen [画出不同颜色的形状 (Leafer)]
 import { Leafer, Pen } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -160,7 +160,7 @@ pen.arc(0, 0, 20)
 leafer.add(pen)
 ```
 ```ts
-// #创建 Pen [画出不同颜色的形状（App)]
+// #创建 Pen [画出不同颜色的形状 (App)]
 import { App, Pen } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -185,7 +185,7 @@ app.tree.add(pen)
 
 ::: code-group
 ```ts
-// #创建 Pen [画曲线（Leafer)]
+// #创建 Pen [画曲线 (Leafer)]
 import { Leafer, Pen } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -201,7 +201,7 @@ pen.moveTo(40, 30).bezierCurveTo(70, 30, 90, 60, 63, 80).quadraticCurveTo(50, 88
 leafer.add(pen)
 ```
 ```ts
-// #创建 Pen [画曲线（App)]
+// #创建 Pen [画曲线 (App)]
 import { App, Pen } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -226,7 +226,7 @@ app.tree.add(pen)
 
 ::: code-group
 ```ts
-// #创建 Pen [结合图形组件（Leafer)]
+// #创建 Pen [结合图形组件 (Leafer)]
 import { Leafer, Pen, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -241,7 +241,7 @@ pen.add(new Ellipse({ x: 20, y: 20, width: 60, height: 60, innerRadius: 0.5, sta
 leafer.add(pen)
 ```
 ```ts
-// #创建 Pen [结合图形组件（App)]
+// #创建 Pen [结合图形组件 (App)]
 import { App, Pen, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -265,7 +265,7 @@ app.tree.add(pen)
 
 ::: code-group
 ```ts
-// #创建 Pen [结合图片（Leafer)]
+// #创建 Pen [结合图片 (Leafer)]
 import { Leafer, Pen } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -281,7 +281,7 @@ pen.arc(50, 50, 20)
 leafer.add(pen)
 ```
 ```ts
-// #创建 Pen [结合图片（App)]
+// #创建 Pen [结合图片 (App)]
 import { App, Pen } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -306,7 +306,7 @@ app.tree.add(pen)
 
 ::: code-group
 ```ts
-// #创建 Pen [结合文字（Leafer)]
+// #创建 Pen [结合文字 (Leafer)]
 import { Leafer, Pen, Text } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -324,7 +324,7 @@ pen.arc(30, 50, 23)
 leafer.add(pen)
 ```
 ```ts
-// #创建 Pen [结合文字（App)]
+// #创建 Pen [结合文字 (App)]
 import { App, Pen, Text } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

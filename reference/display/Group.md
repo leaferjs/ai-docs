@@ -91,7 +91,7 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 ::: code-group
 ```ts
-// #创建 Group [通过 add 方法添加（Leafer)]
+// #创建 Group [通过 add 方法添加 (Leafer)]
 import { Leafer, Group, Rect, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -122,7 +122,7 @@ group.add([rect, ellipse])
 leafer.add(group)
 ```
 ```ts
-// #创建 Group [通过 add 方法添加（App)]
+// #创建 Group [通过 add 方法添加 (App)]
 import { App, Group, Rect, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -163,7 +163,7 @@ app.tree.add(group)
 
 ::: code-group
 ```ts
-// #创建 Group [通过 children 属性添加（Leafer)]
+// #创建 Group [通过 children 属性添加 (Leafer)]
 import { Leafer, Group, Rect, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -193,7 +193,7 @@ const group = new Group({ // [!code hl:5]
 leafer.add(group)
 ```
 ```ts
-// #创建 Group [通过 children 属性添加（App)]
+// #创建 Group [通过 children 属性添加 (App)]
 import { App, Group, Rect, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

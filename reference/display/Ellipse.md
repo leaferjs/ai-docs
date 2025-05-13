@@ -73,7 +73,7 @@ innerRadius: 0.5
 
 ::: code-group
 ```ts
-// #创建 Ellipse [绘制圆（Leafer)]
+// #创建 Ellipse [绘制圆 (Leafer)]
 import { Leafer, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -87,7 +87,7 @@ const ellipse = new Ellipse({  // [!code hl:6]
 leafer.add(ellipse)
 ```
 ```ts
-// #创建 Ellipse [绘制圆（App)]
+// #创建 Ellipse [绘制圆 (App)]
 import { App, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -111,7 +111,7 @@ app.tree.add(ellipse)
 
 ::: code-group
 ```ts
-// #创建 Ellipse [绘制圆环（Leafer)]
+// #创建 Ellipse [绘制圆环 (Leafer)]
 import { Leafer, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -126,7 +126,7 @@ const ellipse = new Ellipse({  // [!code hl:6]
 leafer.add(ellipse)
 ```
 ```ts
-// #创建 Ellipse [绘制圆环（App)]
+// #创建 Ellipse [绘制圆环 (App)]
 import { App, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -151,7 +151,7 @@ app.tree.add(ellipse)
 
 ::: code-group
 ```ts
-// #创建 Ellipse [绘制扇形圆环（Leafer)]
+// #创建 Ellipse [绘制扇形圆环 (Leafer)]
 import { Leafer, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -168,7 +168,7 @@ const ellipse = new Ellipse({  // [!code hl:8]
 leafer.add(ellipse)
 ```
 ```ts
-// #创建 Ellipse [绘制扇形圆环（App)]
+// #创建 Ellipse [绘制扇形圆环 (App)]
 import { App, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -195,7 +195,7 @@ app.tree.add(ellipse)
 
 ::: code-group
 ```ts
-// #创建 Ellipse [绘制扇形（Leafer)]
+// #创建 Ellipse [绘制扇形 (Leafer)]
 import { Leafer, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -211,7 +211,7 @@ const ellipse = new Ellipse({  // [!code hl:7]
 leafer.add(ellipse)
 ```
 ```ts
-// #创建 Ellipse [绘制扇形（App)]
+// #创建 Ellipse [绘制扇形 (App)]
 import { App, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -237,7 +237,7 @@ app.tree.add(ellipse)
 
 ::: code-group
 ```ts
-// #创建 Ellipse [绘制圆角弧线（Leafer)]
+// #创建 Ellipse [绘制圆角弧线 (Leafer)]
 import { Leafer, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -257,7 +257,7 @@ const ellipse = new Ellipse({  // [!code hl:11]
 leafer.add(ellipse)
 ```
 ```ts
-// #创建 Ellipse [绘制圆角弧线（App)]
+// #创建 Ellipse [绘制圆角弧线 (App)]
 import { App, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -287,7 +287,7 @@ app.tree.add(ellipse)
 
 ::: code-group
 ```ts
-// #创建 Ellipse [绘制椭圆（Leafer)]
+// #创建 Ellipse [绘制椭圆 (Leafer)]
 import { Leafer, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -301,7 +301,7 @@ const ellipse = new Ellipse({  // [!code hl:5]
 leafer.add(ellipse)
 ```
 ```ts
-// #创建 Ellipse [绘制椭圆（App)]
+// #创建 Ellipse [绘制椭圆 (App)]
 import { App, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

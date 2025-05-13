@@ -101,7 +101,7 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 ::: code-group
 ```ts
-// #创建 Canvas [使用 context 绘制（Leafer)]
+// #创建 Canvas [使用 context 绘制 (Leafer)]
 import { Leafer, Canvas } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -126,7 +126,7 @@ leafer.add(canvas)
 
 ```
 ```ts
-// #创建 Canvas [使用 context 绘制（App)]
+// #创建 Canvas [使用 context 绘制 (App)]
 import { App, Canvas } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -160,7 +160,7 @@ app.tree.add(canvas)
 
 ::: code-group
 ```ts
-// #创建 Canvas [使用图形元素绘制（Leafer)]
+// #创建 Canvas [使用图形元素绘制 (Leafer)]
 import { Leafer, Canvas, Pen } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -179,7 +179,7 @@ pen.moveTo(40, 30).bezierCurveTo(70, 30, 90, 60, 63, 80).quadraticCurveTo(50, 88
 canvas.draw(pen) // [!code hl]
 ```
 ```ts
-// #创建 Canvas [使用图形元素绘制（App)]
+// #创建 Canvas [使用图形元素绘制 (App)]
 import { App, Canvas, Pen } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

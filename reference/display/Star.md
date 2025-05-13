@@ -62,7 +62,7 @@ innerRadius: 0.382
 
 ::: code-group
 ```ts
-// #创建 Star [绘制车标（Leafer)]
+// #创建 Star [绘制车标 (Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -78,7 +78,7 @@ const star = new Star({  // [!code hl:7]
 leafer.add(star)
 ```
 ```ts
-// #创建 Star [绘制车标（App)]
+// #创建 Star [绘制车标 (App)]
 import { App, Star } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -104,7 +104,7 @@ app.tree.add(star)
 
 ::: code-group
 ```ts
-// #创建 Star [绘制星光（Leafer)]
+// #创建 Star [绘制星光 (Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -120,7 +120,7 @@ const star = new Star({  // [!code hl:7]
 leafer.add(star)
 ```
 ```ts
-// #创建 Star [绘制星光（App)]
+// #创建 Star [绘制星光 (App)]
 import { App, Star } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -146,7 +146,7 @@ app.tree.add(star)
 
 ::: code-group
 ```ts
-// #创建 Star [绘制五角星（Leafer)]
+// #创建 Star [绘制五角星 (Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -161,7 +161,7 @@ const star = new Star({  // [!code hl:6]
 leafer.add(star)
 ```
 ```ts
-// #创建 Star [绘制五角星（App)]
+// #创建 Star [绘制五角星 (App)]
 import { App, Star } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -186,7 +186,7 @@ app.tree.add(star)
 
 ::: code-group
 ```ts
-// #创建 Star [绘制圆角星形（Leafer)]
+// #创建 Star [绘制圆角星形 (Leafer)]
 import { Leafer, Star } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -203,7 +203,7 @@ const star = new Star({  // [!code hl:8]
 leafer.add(star)
 ```
 ```ts
-// #创建 Star [绘制圆角星形（App)]
+// #创建 Star [绘制圆角星形 (App)]
 import { App, Star } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

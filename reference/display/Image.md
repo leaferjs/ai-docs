@@ -108,7 +108,7 @@ Platform.image.crossOrigin = 'anonymous'
 
 ::: code-group
 ```ts
-// #使用 Rect 代替 Image（Leafer)
+// #使用 Rect 代替 Image (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -125,7 +125,7 @@ const rect = new Rect({
 leafer.add(rect)
 ```
 ```ts
-// #使用 Rect 代替 Image（App)
+// #使用 Rect 代替 Image (App)
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -171,7 +171,7 @@ app.tree.add(rect)
 
 ::: code-group
 ```ts
-// #创建Image [使用默认宽高（Leafer)]
+// #创建Image [使用默认宽高 (Leafer)]
 import { Leafer, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -184,7 +184,7 @@ const image = new Image({  // [!code hl:4]
 leafer.add(image)
 ```
 ```ts
-// #创建Image [使用默认宽高（App)]
+// #创建Image [使用默认宽高 (App)]
 import { App, Image } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -204,7 +204,7 @@ app.tree.add(image)
 
 ::: code-group
 ```ts
-// #创建Image [固定宽度，自适应高度（Leafer)]
+// #创建Image [固定宽度，自适应高度 (Leafer)]
 import { Leafer, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -218,7 +218,7 @@ const image = new Image({  // [!code hl:4]
 leafer.add(image)
 ```
 ```ts
-// #创建Image [固定宽度，自适应高度（App)]
+// #创建Image [固定宽度，自适应高度 (App)]
 import { App, Image } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -239,7 +239,7 @@ app.tree.add(image)
 
 ::: code-group
 ```ts
-// #创建Image [固定高度，自适应宽度（Leafer)]
+// #创建Image [固定高度，自适应宽度 (Leafer)]
 import { Leafer, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -253,7 +253,7 @@ const image = new Image({  // [!code hl:5]
 leafer.add(image)
 ```
 ```ts
-// #创建Image [固定高度，自适应宽度（App)]
+// #创建Image [固定高度，自适应宽度 (App)]
 import { App, Image } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -274,7 +274,7 @@ app.tree.add(image)
 
 ::: code-group
 ```ts
-// #创建Image [图片占位符（Leafer)]
+// #创建Image [图片占位符 (Leafer)]
 import { Leafer, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -297,7 +297,7 @@ setTimeout(() => {
 }, 1000)
 ```
 ```ts
-// #创建Image [图片占位符（Leafer)]
+// #创建Image [图片占位符 (App)]
 import { App, Image } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

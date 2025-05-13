@@ -269,7 +269,7 @@ const { x, y, width, height } = text.getBounds('content', 'inner')
 
 ::: code-group
 ```ts
-// #创建 Text [标准创建（Leafer)]
+// #创建 Text [标准创建 (Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -282,7 +282,7 @@ const text = new Text({
 leafer.add(text)
 ```
 ```ts
-// #创建 Text [标准创建（App)]
+// #创建 Text [标准创建 (App)]
 import { App, Text } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -306,7 +306,7 @@ app.tree.add(text)
 
 ::: code-group
 ```ts
-// #创建 Text [带背景框样式（Leafer)]
+// #创建 Text [带背景框样式 (Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件 
 import '@leafer-in/animate' // 导入动画插件  
@@ -333,7 +333,7 @@ const text = new Text({
 leafer.add(text)
 ```
 ```ts
-// #创建 Text [带背景框样式（App)]
+// #创建 Text [带背景框样式 (App)]
 import { App, Text } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -365,7 +365,7 @@ app.tree.add(text)
 
 ::: code-group
 ```ts
-// #创建 Box [自适应文本（Leafer)]
+// #创建 Box [自适应文本 (Leafer)]
 import { Leafer, Box } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })
@@ -389,7 +389,7 @@ const box = new Box({
 leafer.add(box)
 ```
 ```ts
-// #创建 Box [自适应文本（App)]
+// #创建 Box [自适应文本 (App)]
 import { App, Box } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -428,7 +428,7 @@ app.tree.add(box)
 
 ::: code-group
 ```ts
-// #创建 Text [占位符文本（Leafer)]
+// #创建 Text [占位符文本 (Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -448,7 +448,7 @@ setTimeout(() => {
 }, 1000)
 ```
 ```ts
-// #创建 Text [占位符文本（App)]
+// #创建 Text [占位符文本 (App)]
 import { App, Text } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

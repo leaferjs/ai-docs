@@ -58,7 +58,7 @@ type IOverflow = 'show' | 'hide'
 
 ::: code-group
 ```ts
-// #创建 Frame [标准创建（Leafer)]
+// #创建 Frame [标准创建 (Leafer)]
 import { Leafer, Frame, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })
@@ -81,7 +81,7 @@ leafer.add(frame)
 frame.add(rect)
 ```
 ```ts
-// #创建 Frame [标准创建（App)]
+// #创建 Frame [标准创建 (App)]
 import { App, Frame, Ellipse } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

@@ -64,7 +64,7 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ::: code-group
 ```ts
-// #创建 Path [标准创建（Leafer)]
+// #创建 Path [标准创建 (Leafer)]
 import { Leafer, Path } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -78,7 +78,7 @@ const path = new Path({ // [!code hl:5]
 leafer.add(path)
 ```
 ```ts
-// #创建 Path [标准创建（App)]
+// #创建 Path [标准创建 (App)]
 import { App, Path } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -104,7 +104,7 @@ app.tree.add(path)
 
 ::: code-group
 ```ts
-// #创建 Path [缠绕路径（Leafer)]
+// #创建 Path [缠绕路径 (Leafer)]
 import { Leafer, Path } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -124,7 +124,7 @@ leafer.add(path1)
 leafer.add(path2)
 ```
 ```ts
-// #创建 Path [缠绕路径（App)]
+// #创建 Path [缠绕路径 (App)]
 import { App, Path } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)

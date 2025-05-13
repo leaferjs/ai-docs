@@ -33,7 +33,7 @@
 ### 创建矩形，并设置宽高
 
 ```ts
-// #创建 Rect [绘制矩形（Leafer)]
+// #创建 Rect [绘制矩形 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

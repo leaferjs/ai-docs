@@ -53,7 +53,7 @@ cornerRadius: 20 // all
 
 ::: code-group
 ```ts
-// #创建 Rect [绘制矩形（Leafer)]
+// #创建 Rect [绘制矩形 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -67,7 +67,7 @@ const rect = new Rect({  // [!code hl:5]
 leafer.add(rect)
 ```
 ```ts
-// #创建 Rect [绘制矩形（App)]
+// #创建 Rect [绘制矩形 (App)]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -91,7 +91,7 @@ app.tree.add(rect)
 
 ::: code-group
 ```ts
-// #创建 Rect [绘制圆角矩形（Leafer)]
+// #创建 Rect [绘制圆角矩形 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -106,7 +106,7 @@ const rect = new Rect({ // [!code hl:6]
 leafer.add(rect)
 ```
 ```ts
-// #创建 Rect [绘制圆角矩形（App)]
+// #创建 Rect [绘制圆角矩形 (App)]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
@@ -131,7 +131,7 @@ app.tree.add(rect)
 
 ::: code-group
 ```ts
-// #创建 Rect [绘制不同圆角的矩形（Leafer)]
+// #创建 Rect [绘制不同圆角的矩形 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -146,7 +146,7 @@ const rect = new Rect({ // [!code hl:6]
 leafer.add(rect)
 ```
 ```ts
-// #创建 Rect [绘制不同圆角的矩形（App)]
+// #创建 Rect [绘制不同圆角的矩形 (App)]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件
 import '@leafer-in/viewport' // 导入视口插件 (可选)
