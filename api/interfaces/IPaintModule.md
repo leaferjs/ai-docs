@@ -12,6 +12,7 @@
 - [stroke](IPaintModule.md#stroke)
 - [strokes](IPaintModule.md#strokes)
 - [strokeText](IPaintModule.md#stroketext)
+- [strokeArrow](IPaintModule.md#strokearrow)
 - [drawTextStroke](IPaintModule.md#drawtextstroke)
 - [shape](IPaintModule.md#shape)
 
@@ -34,7 +35,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:10](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L10)
+[ui/packages/interface/src/module/IPaint.ts:10](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L10)
 
 ___
 
@@ -56,7 +57,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:12](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L12)
+[ui/packages/interface/src/module/IPaint.ts:12](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L12)
 
 ___
 
@@ -78,7 +79,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:13](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L13)
+[ui/packages/interface/src/module/IPaint.ts:13](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L13)
 
 ___
 
@@ -99,7 +100,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:15](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L15)
+[ui/packages/interface/src/module/IPaint.ts:15](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L15)
 
 ___
 
@@ -120,7 +121,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:16](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L16)
+[ui/packages/interface/src/module/IPaint.ts:16](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L16)
 
 ___
 
@@ -142,7 +143,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:18](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L18)
+[ui/packages/interface/src/module/IPaint.ts:18](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L18)
 
 ___
 
@@ -164,7 +165,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:19](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L19)
+[ui/packages/interface/src/module/IPaint.ts:19](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L19)
 
 ___
 
@@ -186,7 +187,29 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:21](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L21)
+[ui/packages/interface/src/module/IPaint.ts:21](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L21)
+
+___
+
+### strokeArrow
+
+▸ `Optional` **strokeArrow**(`stroke`, `ui`, `canvas`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `stroke` | `string` \| [`ILeafPaint`](ILeafPaint.md)[] |
+| `ui` | [`IUI`](IUI.md) |
+| `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[ui/packages/interface/src/module/IPaint.ts:22](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L22)
 
 ___
 
@@ -207,7 +230,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:22](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L22)
+[ui/packages/interface/src/module/IPaint.ts:23](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L23)
 
 ___
 
@@ -229,4 +252,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IPaint.ts:24](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/IPaint.ts#L24)
+[ui/packages/interface/src/module/IPaint.ts:25](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IPaint.ts#L25)

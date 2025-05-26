@@ -94,7 +94,7 @@ const box = new Box({ // [!code hl:4]
     fill: '#FF4B4B'
 })
 
-const rect = new Ellipse({
+const circle = new Ellipse({
     x: 60,
     y: 60,
     width: 50,
@@ -104,7 +104,7 @@ const rect = new Ellipse({
 })
 
 leafer.add(box)
-box.add(rect)
+box.add(circle)
 ```
 ```ts
 // #创建 Box [标准创建 (App)]
@@ -122,7 +122,7 @@ const box = new Box({ // [!code hl:7]
     editable: true
 })
 
-const rect = new Ellipse({
+const circle = new Ellipse({
     x: 60,
     y: 60,
     width: 50,
@@ -132,7 +132,7 @@ const rect = new Ellipse({
 })
 
 app.tree.add(box)
-box.add(rect)
+box.add(circle)
 ```
 :::
 
@@ -154,7 +154,7 @@ const box = new Box({ // [!code hl:6]
     overflow: 'hide'
 })
 
-const rect = new Ellipse({
+const circle = new Ellipse({
     x: 60,
     y: 60,
     width: 50,
@@ -164,7 +164,7 @@ const rect = new Ellipse({
 })
 
 leafer.add(box)
-box.add(rect)
+box.add(circle)
 ```
 ```ts
 // #创建 Box [隐藏超出宽高的内容 (App)]
@@ -183,7 +183,7 @@ const box = new Box({ // [!code hl:8]
     editable: true
 })
 
-const rect = new Ellipse({
+const circle = new Ellipse({
     x: 60,
     y: 60,
     width: 50,
@@ -193,7 +193,7 @@ const rect = new Ellipse({
 })
 
 app.tree.add(box)
-box.add(rect)
+box.add(circle)
 ```
 :::
 

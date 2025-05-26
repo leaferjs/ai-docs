@@ -14,7 +14,7 @@
 - [get](IImageManager.md#get)
 - [recycle](IImageManager.md#recycle)
 - [clearRecycled](IImageManager.md#clearrecycled)
-- [hasOpacityPixel](IImageManager.md#hasopacitypixel)
+- [hasAlphaPixel](IImageManager.md#hasalphapixel)
 - [isFormat](IImageManager.md#isformat)
 - [destroy](IImageManager.md#destroy)
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:7](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L7)
+[leafer/packages/interface/src/image/IImageManager.ts:7](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L7)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:8](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L8)
+[leafer/packages/interface/src/image/IImageManager.ts:8](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L8)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:10](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L10)
+[leafer/packages/interface/src/image/IImageManager.ts:10](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L10)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:11](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L11)
+[leafer/packages/interface/src/image/IImageManager.ts:11](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L11)
 
 ## Methods
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:13](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L13)
+[leafer/packages/interface/src/image/IImageManager.ts:13](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L13)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:14](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L14)
+[leafer/packages/interface/src/image/IImageManager.ts:14](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L14)
 
 ___
 
@@ -110,13 +110,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:15](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L15)
+[leafer/packages/interface/src/image/IImageManager.ts:15](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L15)
 
 ___
 
-### hasOpacityPixel
+### hasAlphaPixel
 
-▸ **hasOpacityPixel**(`config`): `boolean`
+▸ **hasAlphaPixel**(`config`): `boolean`
 
 #### Parameters
 
@@ -130,7 +130,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:16](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L16)
+[leafer/packages/interface/src/image/IImageManager.ts:16](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L16)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:17](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L17)
+[leafer/packages/interface/src/image/IImageManager.ts:17](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L17)
 
 ___
 
@@ -165,4 +165,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/image/IImageManager.ts:19](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/image/IImageManager.ts#L19)
+[leafer/packages/interface/src/image/IImageManager.ts:19](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/image/IImageManager.ts#L19)

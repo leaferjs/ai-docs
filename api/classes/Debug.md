@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:22](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L22)
+[leafer/packages/debug/src/Debug.ts:22](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L22)
 
 ## Properties
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:8](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L8)
+[leafer/packages/debug/src/Debug.ts:8](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L8)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:10](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L10)
+[leafer/packages/debug/src/Debug.ts:10](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L10)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:11](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L11)
+[leafer/packages/debug/src/Debug.ts:11](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L11)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:14](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L14)
+[leafer/packages/debug/src/Debug.ts:14](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L14)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:15](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L15)
+[leafer/packages/debug/src/Debug.ts:15](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L15)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:16](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L16)
+[leafer/packages/debug/src/Debug.ts:16](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L16)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:18](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L18)
+[leafer/packages/debug/src/Debug.ts:18](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L18)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:20](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L20)
+[leafer/packages/debug/src/Debug.ts:20](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L20)
 
 ## Accessors
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:30](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L30)
+[leafer/packages/debug/src/Debug.ts:30](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L30)
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:34](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L34)
+[leafer/packages/debug/src/Debug.ts:34](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L34)
 
 ## Methods
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:26](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L26)
+[leafer/packages/debug/src/Debug.ts:26](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L26)
 
 ___
 
@@ -208,7 +208,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:38](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L38)
+[leafer/packages/debug/src/Debug.ts:38](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L38)
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:44](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L44)
+[leafer/packages/debug/src/Debug.ts:44](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L44)
 
 ___
 
@@ -250,7 +250,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:54](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L54)
+[leafer/packages/debug/src/Debug.ts:54](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L54)
 
 ___
 
@@ -270,7 +270,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:62](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L62)
+[leafer/packages/debug/src/Debug.ts:62](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L62)
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:66](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L66)
+[leafer/packages/debug/src/Debug.ts:66](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L66)
 
 ___
 
@@ -311,7 +311,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:70](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L70)
+[leafer/packages/debug/src/Debug.ts:70](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L70)
 
 ___
 
@@ -331,4 +331,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:77](https://github.com/leaferjs/leafer/blob/fd13609/packages/debug/src/Debug.ts#L77)
+[leafer/packages/debug/src/Debug.ts:77](https://github.com/leaferjs/leafer/blob/985f85e/packages/debug/src/Debug.ts#L77)

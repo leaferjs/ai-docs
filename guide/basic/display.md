@@ -350,7 +350,7 @@ leafer.add(text)
 
 ### [Group 元素](/reference/display/Group.md)
 
-类似于 HTML5 中的 DIV，但自身没有填充/描边等外观样式，用于组合多个子元素，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套。
+用于组合多个子元素，自身没有填充/描边等外观样式，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套。
 
 ```ts
 // #创建 Group [通过 add 方法添加 (Leafer)]
@@ -402,7 +402,7 @@ const box = new Box({ // [!code hl:4]
     fill: '#FF4B4B'
 })
 
-const rect = new Ellipse({
+const circle = new Ellipse({
     x: 60,
     y: 60,
     width: 50,
@@ -412,7 +412,7 @@ const rect = new Ellipse({
 })
 
 leafer.add(box)
-box.add(rect)
+box.add(circle)
 ```
 
 ### [Frame 元素](/reference/display/Frame.md)
@@ -432,7 +432,7 @@ const frame = new Frame({ // [!code hl:4]
     height: 100
 })
 
-const rect = new Ellipse({
+const circle = new Ellipse({
     x: 60,
     y: 60,
     width: 50,
@@ -442,7 +442,7 @@ const rect = new Ellipse({
 })
 
 leafer.add(frame)
-frame.add(rect)
+frame.add(circle)
 ```
 
 ## 下一步

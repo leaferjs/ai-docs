@@ -13,6 +13,8 @@
 - [innerId](IEventTarget.md#innerid)
 - [\_\_captureMap](IEventTarget.md#__capturemap)
 - [\_\_bubbleMap](IEventTarget.md#__bubblemap)
+- [\_\_hasLocalEvent](IEventTarget.md#__haslocalevent)
+- [\_\_hasWorldEvent](IEventTarget.md#__hasworldevent)
 - [syncEventer](IEventTarget.md#synceventer)
 - [event](IEventTarget.md#event)
 
@@ -41,7 +43,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:39](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L39)
+[leafer/packages/interface/src/event/IEventer.ts:41](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L41)
 
 ___
 
@@ -55,7 +57,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:40](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L40)
+[leafer/packages/interface/src/event/IEventer.ts:42](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L42)
 
 ___
 
@@ -69,7 +71,35 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:41](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L41)
+[leafer/packages/interface/src/event/IEventer.ts:43](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L43)
+
+___
+
+### \_\_hasLocalEvent
+
+• `Optional` **\_\_hasLocalEvent**: `boolean`
+
+#### Inherited from
+
+[IEventer](IEventer.md).[__hasLocalEvent](IEventer.md#__haslocalevent)
+
+#### Defined in
+
+[leafer/packages/interface/src/event/IEventer.ts:44](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L44)
+
+___
+
+### \_\_hasWorldEvent
+
+• `Optional` **\_\_hasWorldEvent**: `boolean`
+
+#### Inherited from
+
+[IEventer](IEventer.md).[__hasWorldEvent](IEventer.md#__hasworldevent)
+
+#### Defined in
+
+[leafer/packages/interface/src/event/IEventer.ts:45](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L45)
 
 ___
 
@@ -83,13 +113,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:42](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L42)
+[leafer/packages/interface/src/event/IEventer.ts:46](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L46)
 
 ___
 
 ### event
 
-• `Optional` **event**: [`IEventMap`](IEventMap.md)
+• `Optional` **event**: [`IEventParamsMap`](IEventParamsMap.md)
 
 #### Inherited from
 
@@ -97,7 +127,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:43](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L43)
+[leafer/packages/interface/src/event/IEventer.ts:47](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L47)
 
 ## Methods
 
@@ -115,7 +145,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:18](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/display/module/ILeafEventer.ts#L18)
+[leafer/packages/interface/src/display/module/ILeafEventer.ts:18](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/ILeafEventer.ts#L18)
 
 ___
 
@@ -127,7 +157,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `type` | `string` \| `string`[] \| [`IEventMap`](IEventMap.md) |
+| `type` | `string` \| `string`[] \| [`IEventParamsMap`](IEventParamsMap.md) \| [`IEventParams`](../modules.md#ieventparams)[] |
 | `listener?` | [`IFunction`](IFunction.md) |
 | `options?` | [`IEventOption`](../modules.md#ieventoption) |
 
@@ -141,7 +171,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:45](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L45)
+[leafer/packages/interface/src/event/IEventer.ts:49](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L49)
 
 ___
 
@@ -167,20 +197,20 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:46](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L46)
+[leafer/packages/interface/src/event/IEventer.ts:50](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L50)
 
 ___
 
 ### on\_
 
-▸ **on_**(`type`, `listener`, `bind?`, `options?`): [`IEventListenerId`](IEventListenerId.md)
+▸ **on_**(`type`, `listener?`, `bind?`, `options?`): [`IEventListenerId`](IEventListenerId.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `type` | `string` \| `string`[] |
-| `listener` | [`IFunction`](IFunction.md) |
+| `type` | `string` \| `string`[] \| [`IEventParams`](../modules.md#ieventparams)[] |
+| `listener?` | [`IFunction`](IFunction.md) |
 | `bind?` | [`IObject`](IObject.md) |
 | `options?` | [`IEventOption`](../modules.md#ieventoption) |
 
@@ -194,7 +224,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:47](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L47)
+[leafer/packages/interface/src/event/IEventer.ts:51](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L51)
 
 ___
 
@@ -218,20 +248,22 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:48](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L48)
+[leafer/packages/interface/src/event/IEventer.ts:52](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L52)
 
 ___
 
 ### once
 
-▸ **once**(`type`, `listener`): `void`
+▸ **once**(`type`, `listener?`, `captureOrBind?`, `capture?`): `void`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `type` | `string` \| `string`[] |
-| `listener` | [`IFunction`](IFunction.md) |
+| `type` | `string` \| `string`[] \| [`IEventParams`](../modules.md#ieventparams)[] |
+| `listener?` | [`IFunction`](IFunction.md) |
+| `captureOrBind?` | `boolean` \| [`IObject`](IObject.md) |
+| `capture?` | `boolean` |
 
 #### Returns
 
@@ -243,7 +275,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:49](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L49)
+[leafer/packages/interface/src/event/IEventer.ts:53](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L53)
 
 ___
 
@@ -269,7 +301,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:50](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L50)
+[leafer/packages/interface/src/event/IEventer.ts:54](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L54)
 
 ___
 
@@ -294,7 +326,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:51](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L51)
+[leafer/packages/interface/src/event/IEventer.ts:55](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L55)
 
 ___
 
@@ -319,7 +351,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:52](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L52)
+[leafer/packages/interface/src/event/IEventer.ts:56](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L56)
 
 ___
 
@@ -337,4 +369,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:54](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L54)
+[leafer/packages/interface/src/event/IEventer.ts:58](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L58)

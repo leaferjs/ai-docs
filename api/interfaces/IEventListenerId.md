@@ -13,11 +13,11 @@
 
 ### type
 
-• **type**: `string` \| `string`[]
+• **type**: `string` \| `string`[] \| [`IEventParams`](../modules.md#ieventparams)[]
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:30](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L30)
+[leafer/packages/interface/src/event/IEventer.ts:32](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L32)
 
 ___
 
@@ -27,17 +27,17 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:31](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L31)
+[leafer/packages/interface/src/event/IEventer.ts:33](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L33)
 
 ___
 
 ### listener
 
-• **listener**: [`IFunction`](IFunction.md)
+• `Optional` **listener**: [`IFunction`](IFunction.md)
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:32](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L32)
+[leafer/packages/interface/src/event/IEventer.ts:34](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L34)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEventer.ts:33](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEventer.ts#L33)
+[leafer/packages/interface/src/event/IEventer.ts:35](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEventer.ts#L35)

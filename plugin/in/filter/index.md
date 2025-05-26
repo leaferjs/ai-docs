@@ -31,11 +31,11 @@ bun add @leafer-in/filter
 ::: code-group
 
 ```html [filter.min]
-<script src="https://unpkg.com/@leafer-in/filter@1.6.2/dist/filter.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/filter@1.6.3/dist/filter.min.js"></script>
 ```
 
 ```html [filter]
-<script src="https://unpkg.com/@leafer-in/filter@1.6.2/dist/filter.js"></script>
+<script src="https://unpkg.com/@leafer-in/filter@1.6.3/dist/filter.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
@@ -54,6 +54,7 @@ Filter.register('blur', {
     apply(filter, _ui, worldBounds, currentCanvas, _orginCanvas, _shape) { // 应用自定义滤镜
         currentCanvas.filter = `blur(${filter.blur}px)`
         currentCanvas.resetTransform()
+        // currentCanvas.clipWorld(worldBounds) // 某些svg滤镜需要裁剪区域再应用，否则会污染画布
         currentCanvas.copyWorld(currentCanvas, worldBounds, worldBounds, "copy")
         currentCanvas.filter = 'none'
     },

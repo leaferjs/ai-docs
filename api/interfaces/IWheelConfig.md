@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:127](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L127)
+[leafer/packages/interface/src/interaction/IInteraction.ts:127](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L127)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:128](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L128)
+[leafer/packages/interface/src/interaction/IInteraction.ts:128](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L128)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:129](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L129)
+[leafer/packages/interface/src/interaction/IInteraction.ts:129](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L129)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:130](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L130)
+[leafer/packages/interface/src/interaction/IInteraction.ts:130](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L130)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:131](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L131)
+[leafer/packages/interface/src/interaction/IInteraction.ts:131](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L131)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:132](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L132)
+[leafer/packages/interface/src/interaction/IInteraction.ts:132](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L132)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:133](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L133)
+[leafer/packages/interface/src/interaction/IInteraction.ts:133](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L133)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:134](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L134)
+[leafer/packages/interface/src/interaction/IInteraction.ts:134](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L134)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:135](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L135)
+[leafer/packages/interface/src/interaction/IInteraction.ts:135](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L135)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:136](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L136)
+[leafer/packages/interface/src/interaction/IInteraction.ts:136](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L136)
 
 ___
 
@@ -124,4 +124,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/interaction/IInteraction.ts:137](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/interaction/IInteraction.ts#L137)
+[leafer/packages/interface/src/interaction/IInteraction.ts:137](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/interaction/IInteraction.ts#L137)

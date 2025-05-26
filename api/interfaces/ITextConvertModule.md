@@ -25,4 +25,4 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/ITextConvert.ts:4](https://github.com/leaferjs/leafer-ui/blob/311af1d/packages/interface/src/module/ITextConvert.ts#L4)
+[ui/packages/interface/src/module/ITextConvert.ts:4](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/ITextConvert.ts#L4)

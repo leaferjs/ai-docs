@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:59](https://github.com/leaferjs/leafer/blob/fd13609/packages/interface/src/event/IEvent.ts#L59)
+[leafer/packages/interface/src/event/IEvent.ts:63](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IEvent.ts#L63)
