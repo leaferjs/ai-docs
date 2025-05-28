@@ -9,7 +9,9 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 [指南文档](/guide/index.md) 覆盖了 API 的主要功能，注释详细且完全开放。
 :::
 
-## Classes
+## Table of contents
+
+### Classes
 
 - [Animate](classes/Animate.md)
 - [AnimateEvent](classes/AnimateEvent.md)
@@ -49,6 +51,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [LeafLayout](classes/LeafLayout.md)
 - [Branch](classes/Branch.md)
 - [Leaf](classes/Leaf.md)
+- [BoundsEvent](classes/BoundsEvent.md)
 - [ChildEvent](classes/ChildEvent.md)
 - [Event](classes/Event.md)
 - [Eventer](classes/Eventer.md)
@@ -120,7 +123,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [Dragger](classes/Dragger.md)
 - [InteractionBase](classes/InteractionBase.md)
 
-## Interfaces
+### Interfaces
 
 - [IEditBox](interfaces/IEditBox.md)
 - [IEditSelect](interfaces/IEditSelect.md)
@@ -221,6 +224,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IRenderEvent](interfaces/IRenderEvent.md)
 - [IAnimateEvent](interfaces/IAnimateEvent.md)
 - [IChildEvent](interfaces/IChildEvent.md)
+- [IBoundsEvent](interfaces/IBoundsEvent.md)
 - [IResizeEvent](interfaces/IResizeEvent.md)
 - [IResizeEventListener](interfaces/IResizeEventListener.md)
 - [IUpdateEvent](interfaces/IUpdateEvent.md)
@@ -232,9 +236,11 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IEventListenerOptions](interfaces/IEventListenerOptions.md)
 - [IEventListenerItem](interfaces/IEventListenerItem.md)
 - [IEventListenerMap](interfaces/IEventListenerMap.md)
-- [IEventMap](interfaces/IEventMap.md)
+- [IEventParamsMap](interfaces/IEventParamsMap.md)
 - [IEventListenerId](interfaces/IEventListenerId.md)
 - [IEventer](interfaces/IEventer.md)
+- [IProgressData](interfaces/IProgressData.md)
+- [IProgressFunction](interfaces/IProgressFunction.md)
 - [IUIEvent](interfaces/IUIEvent.md)
 - [IPointerEvent](interfaces/IPointerEvent.md)
 - [IDragEvent](interfaces/IDragEvent.md)
@@ -256,6 +262,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [INumberFunction](interfaces/INumberFunction.md)
 - [IStringFunction](interfaces/IStringFunction.md)
 - [IObjectFunction](interfaces/IObjectFunction.md)
+- [IValueFunction](interfaces/IValueFunction.md)
 - [IPointDataFunction](interfaces/IPointDataFunction.md)
 - [IAttrDecorator](interfaces/IAttrDecorator.md)
 - [IImageManager](interfaces/IImageManager.md)
@@ -294,6 +301,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IPoint](interfaces/IPoint.md)
 - [IRadiusPointData](interfaces/IRadiusPointData.md)
 - [ISizeData](interfaces/ISizeData.md)
+- [IOptionSizeData](interfaces/IOptionSizeData.md)
 - [ISize](interfaces/ISize.md)
 - [IScreenSizeData](interfaces/IScreenSizeData.md)
 - [IBoundsData](interfaces/IBoundsData.md)
@@ -314,6 +322,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IMatrixWithBoundsData](interfaces/IMatrixWithBoundsData.md)
 - [IMatrixWithScaleData](interfaces/IMatrixWithScaleData.md)
 - [IMatrixWithOptionScaleData](interfaces/IMatrixWithOptionScaleData.md)
+- [IMatrixWithOptionHalfData](interfaces/IMatrixWithOptionHalfData.md)
 - [IMatrixWithBoundsScaleData](interfaces/IMatrixWithBoundsScaleData.md)
 - [IMatrixWithLayoutData](interfaces/IMatrixWithLayoutData.md)
 - [MoveToCommandObject](interfaces/MoveToCommandObject.md)
@@ -405,6 +414,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IPenData](interfaces/IPenData.md)
 - [IPenInputData](interfaces/IPenInputData.md)
 - [IText](interfaces/IText.md)
+- [IBackgroundBoxStyle](interfaces/IBackgroundBoxStyle.md)
 - [ITextData](interfaces/ITextData.md)
 - [ITextInputData](interfaces/ITextInputData.md)
 - [ITextRowData](interfaces/ITextRowData.md)
@@ -440,13 +450,24 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IUIJSONData](interfaces/IUIJSONData.md)
 - [IApp](interfaces/IApp.md)
 - [IAppConfig](interfaces/IAppConfig.md)
+- [IAppForEachFunction](interfaces/IAppForEachFunction.md)
 - [ILeafer](interfaces/ILeafer.md)
 - [IEditorBase](interfaces/IEditorBase.md)
 - [IEditorConfig](interfaces/IEditorConfig.md)
+- [IEditorSelectData](interfaces/IEditorSelectData.md)
+- [IEditorMoveData](interfaces/IEditorMoveData.md)
+- [IEditorScaleData](interfaces/IEditorScaleData.md)
+- [IEditorRotationData](interfaces/IEditorRotationData.md)
+- [IEditorSkewData](interfaces/IEditorSkewData.md)
+- [IEditorBeforeSelect](interfaces/IEditorBeforeSelect.md)
+- [IEditorBeforeMove](interfaces/IEditorBeforeMove.md)
+- [IEditorBeforeScale](interfaces/IEditorBeforeScale.md)
+- [IEditorBeforeRotate](interfaces/IEditorBeforeRotate.md)
+- [IEditorBeforeSkew](interfaces/IEditorBeforeSkew.md)
 - [IEditPointInputData](interfaces/IEditPointInputData.md)
 - [IEditPoint](interfaces/IEditPoint.md)
 - [IEditBoxBase](interfaces/IEditBoxBase.md)
-- [IEditorDragStartData](/api/interfaces/IEditorDragStartData.md)
+- [IEditorDragStartData](interfaces/IEditorDragStartData.md)
 - [IEditorConfigFunction](interfaces/IEditorConfigFunction.md)
 - [IEditToolFunction](interfaces/IEditToolFunction.md)
 - [IColorConvertModule](interfaces/IColorConvertModule.md)
@@ -479,13 +500,14 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IPathDataArrowMap](interfaces/IPathDataArrowMap.md)
 - [IPathDataArrow](interfaces/IPathDataArrow.md)
 - [IPathDataArrowOffset](interfaces/IPathDataArrowOffset.md)
+- [ITextDecorationData](interfaces/ITextDecorationData.md)
 - [IVectorPath](interfaces/IVectorPath.md)
 - [IShadowEffect](interfaces/IShadowEffect.md)
 - [IBlurEffect](interfaces/IBlurEffect.md)
 - [IGrayscaleEffect](interfaces/IGrayscaleEffect.md)
 - [IEffect](interfaces/IEffect.md)
 
-## Type Aliases
+### Type Aliases
 
 - [IScrollBarTheme](modules.md#iscrollbartheme)
 - [ITransition](modules.md#itransition)
@@ -542,6 +564,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [ILeafRenderModule](modules.md#ileafrendermodule)
 - [IEventListener](modules.md#ieventlistener)
 - [IEventOption](modules.md#ieventoption)
+- [IEventParams](modules.md#ieventparams)
 - [InnerId](modules.md#innerid)
 - [PointerType](modules.md#pointertype)
 - [IExportImageType](modules.md#iexportimagetype)
@@ -613,11 +636,12 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IFontWeightNumer](modules.md#ifontweightnumer)
 - [IFontWeightString](modules.md#ifontweightstring)
 - [ITextDecoration](modules.md#itextdecoration)
+- [ITextDecorationType](modules.md#itextdecorationtype)
 - [ITextWrap](modules.md#itextwrap)
 - [IWritingMode](modules.md#iwritingmode)
 - [IOverflow](modules.md#ioverflow)
 
-## Variables
+### Variables
 
 - [AnimateEasing](modules.md#animateeasing)
 - [PathArrowModule](modules.md#patharrowmodule)
@@ -706,7 +730,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [Transition](modules.md#transition)
 - [InteractionHelper](modules.md#interactionhelper)
 
-## Functions
+### Functions
 
 - [arrowType](modules.md#arrowtype)
 - [registerEditTool](modules.md#registeredittool)
@@ -758,9 +782,20 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [rewriteAble](modules.md#rewriteable)
 - [useModule](modules.md#usemodule)
 - [isNull](modules.md#isnull)
+- [isEmptyData](modules.md#isemptydata)
 - [getPointData](modules.md#getpointdata)
 - [getBoundsData](modules.md#getboundsdata)
-- [useCanvas](modules.md#usecanvas)
 - [effectType](modules.md#effecttype)
 - [resizeType](modules.md#resizetype)
 - [zoomLayerType](modules.md#zoomlayertype)
+- [useCanvas](modules.md#usecanvas)
+
+### References
+
+- [getMatrixData](modules.md#getmatrixdata)
+
+### Enumerations
+
+- [Answer](enums/Answer.md)
+- [Direction4](enums/Direction4.md)
+- [Direction9](enums/Direction9.md)

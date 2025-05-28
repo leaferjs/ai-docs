@@ -2,13 +2,31 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 05 / 27
+
+> v1.6.6
+
+#### 🪲 修复
+
+\- leafer-editor 包编辑文本有重影的问题
+
+\- 使用箭头功能报错的问题
+
+#### 🌿 优化
+
+优化 [`leafer`](/guide/install/leafer/start.md)、 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) 等场景包的锁定版本机制
+
+#### 🌷 感谢反馈
+
+[@FZliweiliang](https://github.com/FZliweiliang) @Rainbow
+
 ## 2025 / 05 / 26
 
 > v1.6.3
 
 #### 🌱 新增
 
-\- 🌸 增加 [BoundsEvent](/reference/event/basic/Bounds.md) 事件, 提供丰富的元素 resize、包围盒变化监测事件
+\- 🌸 增加 [BoundsEvent](/reference/event/basic/Bounds.md) 事件, 提供丰富的元素 resize、包围盒变化监测，未监听时不会消耗性能
 
 \- 🌸 事件监听方法 [on()](/reference/UI/on.md#关键方法) 、 [on\_()](/reference/UI/on.md#关键方法) 、 [once()](/reference/UI/on.md#关键方法) 支持多维数组参数，可一次监听多个不同参数的事件
 
