@@ -10,6 +10,10 @@
 - [matrix](IRenderOptions.md#matrix)
 - [inCamera](IRenderOptions.md#incamera)
 - [dimOpacity](IRenderOptions.md#dimopacity)
+- [exporting](IRenderOptions.md#exporting)
+- [shape](IRenderOptions.md#shape)
+- [ignoreFill](IRenderOptions.md#ignorefill)
+- [ignoreStroke](IRenderOptions.md#ignorestroke)
 
 ## Properties
 
@@ -19,7 +23,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:8](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/renderer/IRenderer.ts#L8)
+[leafer/packages/interface/src/renderer/IRenderer.ts:8](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L8)
 
 ___
 
@@ -29,7 +33,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:9](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/renderer/IRenderer.ts#L9)
+[leafer/packages/interface/src/renderer/IRenderer.ts:9](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L9)
 
 ___
 
@@ -39,7 +43,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:10](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/renderer/IRenderer.ts#L10)
+[leafer/packages/interface/src/renderer/IRenderer.ts:10](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L10)
 
 ___
 
@@ -49,7 +53,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:11](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/renderer/IRenderer.ts#L11)
+[leafer/packages/interface/src/renderer/IRenderer.ts:11](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L11)
 
 ___
 
@@ -59,7 +63,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:12](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/renderer/IRenderer.ts#L12)
+[leafer/packages/interface/src/renderer/IRenderer.ts:12](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L12)
 
 ___
 
@@ -69,4 +73,44 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:13](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/renderer/IRenderer.ts#L13)
+[leafer/packages/interface/src/renderer/IRenderer.ts:13](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L13)
+
+___
+
+### exporting
+
+• `Optional` **exporting**: `boolean`
+
+#### Defined in
+
+[leafer/packages/interface/src/renderer/IRenderer.ts:14](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L14)
+
+___
+
+### shape
+
+• `Optional` **shape**: `boolean`
+
+#### Defined in
+
+[leafer/packages/interface/src/renderer/IRenderer.ts:17](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L17)
+
+___
+
+### ignoreFill
+
+• `Optional` **ignoreFill**: `boolean`
+
+#### Defined in
+
+[leafer/packages/interface/src/renderer/IRenderer.ts:18](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L18)
+
+___
+
+### ignoreStroke
+
+• `Optional` **ignoreStroke**: `boolean`
+
+#### Defined in
+
+[leafer/packages/interface/src/renderer/IRenderer.ts:19](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L19)

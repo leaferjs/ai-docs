@@ -21,6 +21,7 @@
 ### Properties
 
 - [target](Animate.md#target)
+- [parent](Animate.md#parent)
 - [keyframes](Animate.md#keyframes)
 - [config](Animate.md#config)
 - [style](Animate.md#style)
@@ -75,6 +76,7 @@
 ### Methods
 
 - [init](Animate.md#init)
+- [emitType](Animate.md#emittype)
 - [play](Animate.md#play)
 - [pause](Animate.md#pause)
 - [stop](Animate.md#stop)
@@ -132,7 +134,7 @@
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:107](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L107)
+[in/packages/animate/src/Animate.ts:108](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L108)
 
 ## Properties
 
@@ -146,7 +148,21 @@
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:14](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L14)
+[in/packages/animate/src/Animate.ts:14](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L14)
+
+___
+
+### parent
+
+• `Optional` **parent**: [`IAnimateList`](../interfaces/IAnimateList.md)
+
+#### Implementation of
+
+[IAnimate](../interfaces/IAnimate.md).[parent](../interfaces/IAnimate.md#parent)
+
+#### Defined in
+
+[in/packages/animate/src/Animate.ts:15](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L15)
 
 ___
 
@@ -160,7 +176,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:16](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L16)
+[in/packages/animate/src/Animate.ts:17](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L17)
 
 ___
 
@@ -174,7 +190,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:17](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L17)
+[in/packages/animate/src/Animate.ts:18](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L18)
 
 ___
 
@@ -188,7 +204,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:19](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L19)
+[in/packages/animate/src/Animate.ts:20](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L20)
 
 ___
 
@@ -202,7 +218,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:20](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L20)
+[in/packages/animate/src/Animate.ts:21](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L21)
 
 ___
 
@@ -216,7 +232,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:21](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L21)
+[in/packages/animate/src/Animate.ts:22](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L22)
 
 ___
 
@@ -230,7 +246,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:25](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L25)
+[in/packages/animate/src/Animate.ts:26](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L26)
 
 ___
 
@@ -244,7 +260,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:27](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L27)
+[in/packages/animate/src/Animate.ts:28](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L28)
 
 ___
 
@@ -258,7 +274,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:29](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L29)
+[in/packages/animate/src/Animate.ts:30](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L30)
 
 ___
 
@@ -272,7 +288,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:30](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L30)
+[in/packages/animate/src/Animate.ts:31](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L31)
 
 ___
 
@@ -286,7 +302,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:34](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L34)
+[in/packages/animate/src/Animate.ts:35](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L35)
 
 ___
 
@@ -300,7 +316,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:38](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L38)
+[in/packages/animate/src/Animate.ts:39](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L39)
 
 ___
 
@@ -314,7 +330,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:41](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L41)
+[in/packages/animate/src/Animate.ts:42](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L42)
 
 ___
 
@@ -328,7 +344,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:44](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L44)
+[in/packages/animate/src/Animate.ts:45](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L45)
 
 ___
 
@@ -342,7 +358,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:48](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L48)
+[in/packages/animate/src/Animate.ts:49](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L49)
 
 ___
 
@@ -356,7 +372,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:51](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L51)
+[in/packages/animate/src/Animate.ts:52](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L52)
 
 ___
 
@@ -370,7 +386,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:54](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L54)
+[in/packages/animate/src/Animate.ts:55](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L55)
 
 ___
 
@@ -384,7 +400,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:57](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L57)
+[in/packages/animate/src/Animate.ts:58](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L58)
 
 ___
 
@@ -398,7 +414,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:61](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L61)
+[in/packages/animate/src/Animate.ts:62](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L62)
 
 ___
 
@@ -412,7 +428,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:64](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L64)
+[in/packages/animate/src/Animate.ts:65](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L65)
 
 ___
 
@@ -426,7 +442,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:67](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L67)
+[in/packages/animate/src/Animate.ts:68](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L68)
 
 ___
 
@@ -440,7 +456,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:70](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L70)
+[in/packages/animate/src/Animate.ts:71](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L71)
 
 ___
 
@@ -450,7 +466,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:72](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L72)
+[in/packages/animate/src/Animate.ts:73](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L73)
 
 ___
 
@@ -460,7 +476,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:74](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L74)
+[in/packages/animate/src/Animate.ts:75](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L75)
 
 ___
 
@@ -474,7 +490,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:76](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L76)
+[in/packages/animate/src/Animate.ts:77](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L77)
 
 ___
 
@@ -484,7 +500,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:78](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L78)
+[in/packages/animate/src/Animate.ts:79](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L79)
 
 ___
 
@@ -494,7 +510,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:81](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L81)
+[in/packages/animate/src/Animate.ts:82](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L82)
 
 ___
 
@@ -504,7 +520,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:82](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L82)
+[in/packages/animate/src/Animate.ts:83](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L83)
 
 ___
 
@@ -514,7 +530,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:84](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L84)
+[in/packages/animate/src/Animate.ts:85](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L85)
 
 ___
 
@@ -524,7 +540,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:86](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L86)
+[in/packages/animate/src/Animate.ts:87](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L87)
 
 ___
 
@@ -534,7 +550,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:87](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L87)
+[in/packages/animate/src/Animate.ts:88](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L88)
 
 ___
 
@@ -544,7 +560,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:90](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L90)
+[in/packages/animate/src/Animate.ts:91](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L91)
 
 ___
 
@@ -554,7 +570,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:91](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L91)
+[in/packages/animate/src/Animate.ts:92](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L92)
 
 ___
 
@@ -564,7 +580,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:92](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L92)
+[in/packages/animate/src/Animate.ts:93](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L93)
 
 ___
 
@@ -582,7 +598,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:12](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L12)
+[leafer/packages/event/src/Eventer.ts:12](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L12)
 
 ___
 
@@ -600,7 +616,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:14](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L14)
+[leafer/packages/event/src/Eventer.ts:14](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L14)
 
 ___
 
@@ -618,7 +634,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:16](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L16)
+[leafer/packages/event/src/Eventer.ts:16](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L16)
 
 ___
 
@@ -636,7 +652,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:18](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L18)
+[leafer/packages/event/src/Eventer.ts:18](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L18)
 
 ___
 
@@ -654,7 +670,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:19](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L19)
+[leafer/packages/event/src/Eventer.ts:19](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L19)
 
 ___
 
@@ -672,7 +688,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:21](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L21)
+[leafer/packages/event/src/Eventer.ts:21](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L21)
 
 ## Accessors
 
@@ -690,7 +706,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:22](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L22)
+[in/packages/animate/src/Animate.ts:23](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L23)
 
 ___
 
@@ -708,7 +724,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:24](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L24)
+[in/packages/animate/src/Animate.ts:25](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L25)
 
 ___
 
@@ -726,7 +742,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:26](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L26)
+[in/packages/animate/src/Animate.ts:27](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L27)
 
 ___
 
@@ -740,7 +756,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:79](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L79)
+[in/packages/animate/src/Animate.ts:80](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L80)
 
 ___
 
@@ -754,7 +770,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:80](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L80)
+[in/packages/animate/src/Animate.ts:81](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L81)
 
 ___
 
@@ -768,7 +784,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:89](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L89)
+[in/packages/animate/src/Animate.ts:90](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L90)
 
 ___
 
@@ -786,7 +802,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:94](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L94)
+[in/packages/animate/src/Animate.ts:95](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L95)
 
 ___
 
@@ -814,7 +830,7 @@ Eventer.event
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:23](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L23)
+[leafer/packages/event/src/Eventer.ts:23](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L23)
 
 ## Methods
 
@@ -841,7 +857,27 @@ Eventer.event
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:116](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L116)
+[in/packages/animate/src/Animate.ts:117](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L117)
+
+___
+
+### emitType
+
+▸ **emitType**(`type`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `type` | `string` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[in/packages/animate/src/Animate.ts:141](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L141)
 
 ___
 
@@ -859,7 +895,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:140](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L140)
+[in/packages/animate/src/Animate.ts:146](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L146)
 
 ___
 
@@ -877,7 +913,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:149](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L149)
+[in/packages/animate/src/Animate.ts:155](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L155)
 
 ___
 
@@ -895,7 +931,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:157](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L157)
+[in/packages/animate/src/Animate.ts:163](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L163)
 
 ___
 
@@ -919,7 +955,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:164](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L164)
+[in/packages/animate/src/Animate.ts:170](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L170)
 
 ___
 
@@ -944,7 +980,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:178](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L178)
+[in/packages/animate/src/Animate.ts:184](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L184)
 
 ___
 
@@ -958,7 +994,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:184](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L184)
+[in/packages/animate/src/Animate.ts:190](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L190)
 
 ___
 
@@ -978,7 +1014,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:248](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L248)
+[in/packages/animate/src/Animate.ts:254](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L254)
 
 ___
 
@@ -1000,7 +1036,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:253](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L253)
+[in/packages/animate/src/Animate.ts:259](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L259)
 
 ___
 
@@ -1020,7 +1056,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:262](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L262)
+[in/packages/animate/src/Animate.ts:268](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L268)
 
 ___
 
@@ -1034,7 +1070,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:275](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L275)
+[in/packages/animate/src/Animate.ts:281](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L281)
 
 ___
 
@@ -1055,7 +1091,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:280](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L280)
+[in/packages/animate/src/Animate.ts:286](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L286)
 
 ___
 
@@ -1075,7 +1111,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:341](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L341)
+[in/packages/animate/src/Animate.ts:347](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L347)
 
 ___
 
@@ -1095,7 +1131,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:359](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L359)
+[in/packages/animate/src/Animate.ts:365](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L365)
 
 ___
 
@@ -1109,7 +1145,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:365](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L365)
+[in/packages/animate/src/Animate.ts:371](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L371)
 
 ___
 
@@ -1123,7 +1159,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:369](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L369)
+[in/packages/animate/src/Animate.ts:375](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L375)
 
 ___
 
@@ -1137,7 +1173,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:383](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L383)
+[in/packages/animate/src/Animate.ts:389](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L389)
 
 ___
 
@@ -1151,7 +1187,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:388](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L388)
+[in/packages/animate/src/Animate.ts:394](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L394)
 
 ___
 
@@ -1165,7 +1201,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:394](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L394)
+[in/packages/animate/src/Animate.ts:400](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L400)
 
 ___
 
@@ -1179,7 +1215,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:401](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L401)
+[in/packages/animate/src/Animate.ts:407](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L407)
 
 ___
 
@@ -1199,7 +1235,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:408](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L408)
+[in/packages/animate/src/Animate.ts:414](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L414)
 
 ___
 
@@ -1219,7 +1255,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:432](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L432)
+[in/packages/animate/src/Animate.ts:438](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L438)
 
 ___
 
@@ -1233,7 +1269,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:441](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L441)
+[in/packages/animate/src/Animate.ts:447](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L447)
 
 ___
 
@@ -1255,7 +1291,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:445](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L445)
+[in/packages/animate/src/Animate.ts:451](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L451)
 
 ___
 
@@ -1277,7 +1313,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:449](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L449)
+[in/packages/animate/src/Animate.ts:455](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L455)
 
 ___
 
@@ -1291,7 +1327,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:453](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L453)
+[in/packages/animate/src/Animate.ts:459](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L459)
 
 ___
 
@@ -1311,7 +1347,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:465](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L465)
+[in/packages/animate/src/Animate.ts:471](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L471)
 
 ___
 
@@ -1339,7 +1375,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/Animate.ts:473](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/animate/src/Animate.ts#L473)
+[in/packages/animate/src/Animate.ts:478](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/animate/src/Animate.ts#L478)
 
 ___
 
@@ -1369,7 +1405,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:26](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L26)
+[leafer/packages/event/src/Eventer.ts:26](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L26)
 
 ___
 
@@ -1399,7 +1435,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:66](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L66)
+[leafer/packages/event/src/Eventer.ts:66](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L66)
 
 ___
 
@@ -1430,7 +1466,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:110](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L110)
+[leafer/packages/event/src/Eventer.ts:110](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L110)
 
 ___
 
@@ -1458,7 +1494,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:116](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L116)
+[leafer/packages/event/src/Eventer.ts:116](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L116)
 
 ___
 
@@ -1489,7 +1525,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:126](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L126)
+[leafer/packages/event/src/Eventer.ts:126](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L126)
 
 ___
 
@@ -1519,7 +1555,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:133](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L133)
+[leafer/packages/event/src/Eventer.ts:133](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L133)
 
 ___
 
@@ -1548,7 +1584,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:155](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L155)
+[leafer/packages/event/src/Eventer.ts:155](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L155)
 
 ___
 
@@ -1577,4 +1613,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Eventer.ts:160](https://github.com/leaferjs/leafer/blob/985f85e/packages/event/src/Eventer.ts#L160)
+[leafer/packages/event/src/Eventer.ts:160](https://github.com/leaferjs/leafer/blob/4821e21/packages/event/src/Eventer.ts#L160)

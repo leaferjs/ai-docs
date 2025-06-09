@@ -16,6 +16,7 @@
 - [\_\_drawFast](IBranchRender.md#__drawfast)
 - [\_\_clip](IBranchRender.md#__clip)
 - [\_\_renderShape](IBranchRender.md#__rendershape)
+- [\_\_drawShape](IBranchRender.md#__drawshape)
 - [\_\_updateWorldOpacity](IBranchRender.md#__updateworldopacity)
 - [\_\_updateChange](IBranchRender.md#__updatechange)
 
@@ -38,7 +39,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/IBranchRender.ts:9](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/IBranchRender.ts#L9)
+[leafer/packages/interface/src/display/module/IBranchRender.ts:9](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/IBranchRender.ts#L9)
 
 ___
 
@@ -63,7 +64,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:8](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/ILeafRender.ts#L8)
+[leafer/packages/interface/src/display/module/ILeafRender.ts:8](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/ILeafRender.ts#L8)
 
 ___
 
@@ -89,7 +90,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:9](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/ILeafRender.ts#L9)
+[leafer/packages/interface/src/display/module/ILeafRender.ts:9](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/ILeafRender.ts#L9)
 
 ___
 
@@ -114,7 +115,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:10](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/ILeafRender.ts#L10)
+[leafer/packages/interface/src/display/module/ILeafRender.ts:10](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/ILeafRender.ts#L10)
 
 ___
 
@@ -139,13 +140,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:12](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/ILeafRender.ts#L12)
+[leafer/packages/interface/src/display/module/ILeafRender.ts:12](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/ILeafRender.ts#L12)
 
 ___
 
 ### \_\_renderShape
 
-▸ `Optional` **__renderShape**(`canvas`, `options`, `ignoreFill?`, `ignoreStroke?`): `void`
+▸ `Optional` **__renderShape**(`canvas`, `options`): `void`
 
 #### Parameters
 
@@ -153,8 +154,6 @@ ___
 | :------ | :------ |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
 | `options` | [`IRenderOptions`](IRenderOptions.md) |
-| `ignoreFill?` | `boolean` |
-| `ignoreStroke?` | `boolean` |
 
 #### Returns
 
@@ -166,7 +165,32 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:13](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/ILeafRender.ts#L13)
+[leafer/packages/interface/src/display/module/ILeafRender.ts:13](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/ILeafRender.ts#L13)
+
+___
+
+### \_\_drawShape
+
+▸ `Optional` **__drawShape**(`canvas`, `options`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `options` | [`IRenderOptions`](IRenderOptions.md) |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[ILeafRender](ILeafRender.md).[__drawShape](ILeafRender.md#__drawshape)
+
+#### Defined in
+
+[leafer/packages/interface/src/display/module/ILeafRender.ts:14](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/ILeafRender.ts#L14)
 
 ___
 
@@ -184,7 +208,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:15](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/ILeafRender.ts#L15)
+[leafer/packages/interface/src/display/module/ILeafRender.ts:16](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/ILeafRender.ts#L16)
 
 ___
 
@@ -202,4 +226,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:16](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/display/module/ILeafRender.ts#L16)
+[leafer/packages/interface/src/display/module/ILeafRender.ts:17](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/display/module/ILeafRender.ts#L17)

@@ -23,4 +23,4 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IFilter.ts:24](https://github.com/leaferjs/leafer-ui/blob/5313537/packages/interface/src/module/IFilter.ts#L24)
+[ui/packages/interface/src/module/IFilter.ts:24](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/module/IFilter.ts#L24)

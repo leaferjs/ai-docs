@@ -16,7 +16,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IProgress.ts:2](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IProgress.ts#L2)
+[leafer/packages/interface/src/event/IProgress.ts:2](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/event/IProgress.ts#L2)
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IProgress.ts:3](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IProgress.ts#L3)
+[leafer/packages/interface/src/event/IProgress.ts:3](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/event/IProgress.ts#L3)
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IProgress.ts:4](https://github.com/leaferjs/leafer/blob/985f85e/packages/interface/src/event/IProgress.ts#L4)
+[leafer/packages/interface/src/event/IProgress.ts:4](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/event/IProgress.ts#L4)

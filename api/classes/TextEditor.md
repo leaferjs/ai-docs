@@ -27,6 +27,7 @@
 
 ### Accessors
 
+- [mode](TextEditor.md#mode)
 - [editBox](TextEditor.md#editbox)
 - [tag](TextEditor.md#tag)
 
@@ -44,6 +45,7 @@
 - [onInput](TextEditor.md#oninput)
 - [onFocus](TextEditor.md#onfocus)
 - [onKeydown](TextEditor.md#onkeydown)
+- [onPaste](TextEditor.md#onpaste)
 - [onUpdate](TextEditor.md#onupdate)
 - [onUnload](TextEditor.md#onunload)
 
@@ -65,7 +67,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:28](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L28)
+[in/packages/editor/src/tool/InnerEditor.ts:30](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L30)
 
 ## Properties
 
@@ -79,7 +81,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L20)
+[in/packages/editor/src/tool/InnerEditor.ts:22](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L22)
 
 ___
 
@@ -93,7 +95,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L23)
+[in/packages/editor/src/tool/InnerEditor.ts:25](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L25)
 
 ___
 
@@ -107,7 +109,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:11](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L11)
+[in/packages/text-editor/src/TextEditor.ts:11](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L11)
 
 ___
 
@@ -117,7 +119,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:13](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L13)
+[in/packages/text-editor/src/TextEditor.ts:13](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L13)
 
 ___
 
@@ -127,7 +129,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:14](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L14)
+[in/packages/text-editor/src/TextEditor.ts:14](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L14)
 
 ___
 
@@ -147,7 +149,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L16)
+[in/packages/text-editor/src/TextEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L16)
 
 ___
 
@@ -161,7 +163,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L20)
+[in/packages/text-editor/src/TextEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L20)
 
 ___
 
@@ -171,7 +173,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:22](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L22)
+[in/packages/text-editor/src/TextEditor.ts:22](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L22)
 
 ___
 
@@ -181,7 +183,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L23)
+[in/packages/text-editor/src/TextEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L23)
 
 ___
 
@@ -191,9 +193,27 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:24](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L24)
+[in/packages/text-editor/src/TextEditor.ts:24](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L24)
 
 ## Accessors
+
+### mode
+
+• `get` **mode**(): [`IInnerEditorMode`](../modules.md#iinnereditormode)
+
+#### Returns
+
+[`IInnerEditorMode`](../modules.md#iinnereditormode)
+
+#### Inherited from
+
+InnerEditor.mode
+
+#### Defined in
+
+[in/packages/editor/src/tool/InnerEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L16)
+
+___
 
 ### editBox
 
@@ -209,7 +229,7 @@ InnerEditor.editBox
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:21](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L21)
+[in/packages/editor/src/tool/InnerEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L23)
 
 ___
 
@@ -227,7 +247,7 @@ InnerEditor.tag
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:10](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L10)
+[in/packages/text-editor/src/TextEditor.ts:10](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L10)
 
 ## Methods
 
@@ -245,7 +265,7 @@ InnerEditor.tag
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:9](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L9)
+[in/packages/editor/src/tool/InnerEditor.ts:9](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L9)
 
 ___
 
@@ -263,7 +283,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:34](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L34)
+[in/packages/editor/src/tool/InnerEditor.ts:36](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L36)
 
 ___
 
@@ -281,7 +301,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:35](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L35)
+[in/packages/editor/src/tool/InnerEditor.ts:37](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L37)
 
 ___
 
@@ -299,7 +319,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:44](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L44)
+[in/packages/editor/src/tool/InnerEditor.ts:46](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L46)
 
 ___
 
@@ -317,7 +337,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:53](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L53)
+[in/packages/editor/src/tool/InnerEditor.ts:55](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L55)
 
 ___
 
@@ -335,7 +355,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:56](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L56)
+[in/packages/editor/src/tool/InnerEditor.ts:58](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L58)
 
 ___
 
@@ -353,7 +373,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:64](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L64)
+[in/packages/editor/src/tool/InnerEditor.ts:66](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L66)
 
 ___
 
@@ -371,7 +391,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:65](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/editor/src/tool/InnerEditor.ts#L65)
+[in/packages/editor/src/tool/InnerEditor.ts:67](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L67)
 
 ___
 
@@ -389,7 +409,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:26](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L26)
+[in/packages/text-editor/src/TextEditor.ts:26](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L26)
 
 ___
 
@@ -403,7 +423,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:91](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L91)
+[in/packages/text-editor/src/TextEditor.ts:93](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L93)
 
 ___
 
@@ -417,7 +437,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:96](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L96)
+[in/packages/text-editor/src/TextEditor.ts:98](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L98)
 
 ___
 
@@ -437,7 +457,27 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:100](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L100)
+[in/packages/text-editor/src/TextEditor.ts:102](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L102)
+
+___
+
+### onPaste
+
+▸ `Protected` **onPaste**(`event`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `event` | `ClipboardEvent` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[in/packages/text-editor/src/TextEditor.ts:123](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L123)
 
 ___
 
@@ -455,7 +495,7 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:119](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L119)
+[in/packages/text-editor/src/TextEditor.ts:158](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L158)
 
 ___
 
@@ -473,4 +513,4 @@ ___
 
 #### Defined in
 
-[in/packages/text-editor/src/TextEditor.ts:172](https://github.com/leaferjs/leafer-in/blob/2d7cc42/packages/text-editor/src/TextEditor.ts#L172)
+[in/packages/text-editor/src/TextEditor.ts:213](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/text-editor/src/TextEditor.ts#L213)

@@ -2,23 +2,69 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
-## 2025 / 05 / 27
+## 2025 / 06 / 09
 
-> v1.6.6
+> v1.7.0
+
+#### 🍇 社区
+
+\- 🌸 官方付费版图片裁剪插件 clipper 开发完成（用户预订），即将发布 🎉🎉🎉
+
+\- 🌸 [简易版图片裁剪编辑器](https://github.com/Xdy1579883916/leafer-x-clip-resize-inner-editor) @Rainbow 🎉🎉🎉
+
+#### 🌱 新增
+
+\- 🌸 视图控制 [zoom()](/plugin/in/view/index.md#关键方法) 方法增加 scroll 相关选项，可以限制 scroll 方向
+
+\- 🌸 增加 [config.pointer.type](/reference/config/app/pointer.md#pointertype-mouse-pointer-touch) 设置，可以指定原生事件类型
+
+\- 编辑器配置增加 [preventEditInner](/plugin/in/editor/config/select.md#preventeditinner-boolean) 可阻止双击时打开元素内部编辑器
 
 #### 🪲 修复
 
-\- leafer-editor 包编辑文本有重影的问题
+\- 🌸 编辑 HTML 插件文本时重影的问题
+
+\- 修复 Rect、Box 元素的 path 重置问题
+
+\- Polygon 元素同时使用 cornerRadius 和虚线的问题
+
+\- 编辑器 updateEditTool() 更新不实时的问题
+
+\- 修复变形的长方形元素旋转时会抖动的问题
+
+#### 🌿 优化
+
+\- 🌸 优化图形编辑器架构，方便支撑图片裁剪等内部编辑器的开发
+
+\- 🌸 文字编辑器粘贴富文本时自动去除样式，转成普通文本
+
+\- 拖拽编辑器元素过程中，支持修改移动光标样式
+
+#### 🌷 感谢反馈
+
+[@18398773590](https://github.com/18398773590) [@FZliweiliang](https://github.com/FZliweiliang) [@27111](https://github.com/27111) [@HangChengJian](https://github.com/HangChengJian) @毛豆花生 @xiaou @李维亮 @人美声甜
+
+## 2025 / 05 / 28
+
+> v1.6.7
+
+#### 🪲 修复
+
+\- 🌸 实时导出缩略图，导致编辑文本有重影的问题
+
+\- 自动宽度的文本会偶发自动换行的问题
+
+\- 浏览器页面滚动后编辑文本有偏移的问题
 
 \- 使用箭头功能报错的问题
 
 #### 🌿 优化
 
-优化 [`leafer`](/guide/install/leafer/start.md)、 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) 等场景包的锁定版本机制
+优化 [leafer](/guide/install/leafer/start.md)、 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) 等集成包的版本锁定机制
 
 #### 🌷 感谢反馈
 
-[@FZliweiliang](https://github.com/FZliweiliang) @Rainbow
+[@FZliweiliang](https://github.com/FZliweiliang) [@minbaby](https://github.com/minbaby) @Rainbow @Run away
 
 ## 2025 / 05 / 26
 
