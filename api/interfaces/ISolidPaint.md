@@ -6,6 +6,8 @@
 
   ↳ **`ISolidPaint`**
 
+  ↳↳ [`IStrokeSolidPaint`](IStrokeSolidPaint.md)
+
 ## Table of contents
 
 ### Properties
@@ -13,6 +15,8 @@
 - [blendMode](ISolidPaint.md#blendmode)
 - [visible](ISolidPaint.md#visible)
 - [opacity](ISolidPaint.md#opacity)
+- [style](ISolidPaint.md#style)
+- [editing](ISolidPaint.md#editing)
 - [type](ISolidPaint.md#type)
 - [color](ISolidPaint.md#color)
 
@@ -28,7 +32,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:14](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L14)
+[ui/packages/interface/src/type/IType.ts:17](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L17)
 
 ___
 
@@ -42,7 +46,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:15](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L15)
+[ui/packages/interface/src/type/IType.ts:18](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L18)
 
 ___
 
@@ -56,7 +60,35 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:16](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L16)
+[ui/packages/interface/src/type/IType.ts:19](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L19)
+
+___
+
+### style
+
+• `Optional` **style**: [`IStrokeStyle`](IStrokeStyle.md)
+
+#### Inherited from
+
+[IPaintBase](IPaintBase.md).[style](IPaintBase.md#style)
+
+#### Defined in
+
+[ui/packages/interface/src/type/IType.ts:21](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L21)
+
+___
+
+### editing
+
+• `Optional` **editing**: `boolean`
+
+#### Inherited from
+
+[IPaintBase](IPaintBase.md).[editing](IPaintBase.md#editing)
+
+#### Defined in
+
+[ui/packages/interface/src/type/IType.ts:22](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L22)
 
 ___
 
@@ -70,7 +102,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:31](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L31)
+[ui/packages/interface/src/type/IType.ts:37](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L37)
 
 ___
 
@@ -80,4 +112,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:32](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L32)
+[ui/packages/interface/src/type/IType.ts:38](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L38)

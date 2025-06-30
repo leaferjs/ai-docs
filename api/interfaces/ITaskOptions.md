@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/task/ITaskProcessor.ts:40](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/task/ITaskProcessor.ts#L40)
+[leafer/packages/interface/src/task/ITaskProcessor.ts:40](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/task/ITaskProcessor.ts#L40)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/task/ITaskProcessor.ts:41](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/task/ITaskProcessor.ts#L41)
+[leafer/packages/interface/src/task/ITaskProcessor.ts:41](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/task/ITaskProcessor.ts#L41)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/task/ITaskProcessor.ts:42](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/task/ITaskProcessor.ts#L42)
+[leafer/packages/interface/src/task/ITaskProcessor.ts:42](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/task/ITaskProcessor.ts#L42)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/task/ITaskProcessor.ts:43](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/task/ITaskProcessor.ts#L43)
+[leafer/packages/interface/src/task/ITaskProcessor.ts:43](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/task/ITaskProcessor.ts#L43)

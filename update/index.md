@@ -2,13 +2,78 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 06 / 30
+
+> v1.8.0
+
+更新日志正在努力完善中...
+
+
+#### 🍇 社区
+
+多个高级插件将发布 🎉🎉🎉
+
+<!-- \- 🌸 图片裁剪高级插件 clipper 即将发布 🎉🎉🎉 -->
+
+#### 🌱 新增
+
+\- 🌸 stroke 描边对象增加 style 属性, 可支持多个描边宽度、样式（暂不支持多种对齐方式）
+
+\- 🌸 平铺图片增加 scaleFixed 属性，支持固定尺寸，不随画布缩放
+
+\- 🌸 编辑器配置增加 spread 属性，可扩大编辑框与实际元素之间的间隙 [#490](https://github.com/leaferjs/leafer-ui/issues/490)
+
+\- 自定义元素、工具增加属性装饰器 createAttr()，可将属性转成 getter/setter，防止取不到值
+
+\- Group 增加 childlessJSON 属性，自定义元素时可配置不导出子级 JSON
+
+\- 元素增加 renderSpread 属性，可强制扩大渲染边界，防止文本等渲染边界测量不正确导致花屏
+
+\- 🌸 元素增加 isAutoWidth、isAutoHeight 属性，用于判断是否为自动宽高
+
+\- 编辑器增加 gesturing、resizing、rotating、skewing 状态
+
+\- 编辑器配置增加 rotateAround 属性，可单独设置旋转中心点
+
+\- 🌸 图片裁剪模式下增加 clipSize 属性，自动拉伸裁剪范围以适应元素宽高
+
+\- 编辑器 openInnerEditor(target, name, select) 支持直接打开指定名称的内部编辑器
+
+\- 导出图片增加错误捕获，返回对象中包含 error 字段
+
+\- 🌸 Box、Frame 增加 scroll 插件接口，即将支持滚动条功能
+
+#### 🪲 修复
+
+\- 🌸 Frame 设置了 shadow 后，溢出表现异常 [#482](https://github.com/leaferjs/leafer-ui/issues/482)
+
+\- 🌸 fastShadow 阴影模式下，导出图片后阴影会丢失的问题 [#511](https://github.com/leaferjs/leafer-ui/issues/511)
+
+\- 🌸 元素设置 origin、around 属性后可能会导致图片不显示的问题 [#509](https://github.com/leaferjs/leafer-ui/issues/509)
+
+\- clippling 遮罩会再次减淡自身的问题
+
+\- animationOut 数组动画没有触发结束事件的问题 [#481](https://github.com/leaferjs/leafer-ui/issues/481)
+
+\- 一开始就选中 Line 时，获取的编辑工具类型不正确 [#488](https://github.com/leaferjs/leafer-ui/issues/488)
+
+\- 某些情况下阴影未包含描边的问题 [#502](https://github.com/leaferjs/leafer-ui/issues/502)
+
+\- 导出空白图片后，trim 内容会报错 [#501](https://github.com/leaferjs/leafer-ui/issues/501)
+
+#### 🌿 优化
+
+\- 🌸 编辑器中间的控制点，按 0，90，180，270 度 around 自身中心点旋转，简化样式设置
+
+#### 🌷 感谢反馈
+
+[@mozbia](https://github.com/mozbia) [@Xdy1579883916](https://github.com/Xdy1579883916) [@szw321127](https://github.com/szw321127) [@boycy815](https://github.com/boycy815) [@pengjiaxusz](https://github.com/leaferjs/leafer-ui/issues/509) [@bedphp](https://github.com/bedphp) @CML @hhzzcc @毛豆花生 @do @goosen @张老爷 @那时晴天
+
 ## 2025 / 06 / 09
 
 > v1.7.0
 
 #### 🍇 社区
-
-\- 🌸 官方付费版图片裁剪插件 clipper 开发完成（用户预订），即将发布 🎉🎉🎉
 
 \- 🌸 [简易版图片裁剪编辑器](https://github.com/Xdy1579883916/leafer-x-clip-resize-inner-editor) @Rainbow 🎉🎉🎉
 

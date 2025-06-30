@@ -69,7 +69,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:30](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L30)
+[in/packages/editor/src/tool/InnerEditor.ts:30](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L30)
 
 ## Properties
 
@@ -87,7 +87,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:18](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L18)
+[in/packages/editor/src/tool/InnerEditor.ts:18](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L18)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L20)
+[in/packages/editor/src/tool/InnerEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L20)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:22](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L22)
+[in/packages/editor/src/tool/InnerEditor.ts:22](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L22)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:25](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L25)
+[in/packages/editor/src/tool/InnerEditor.ts:25](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L25)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:27](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L27)
+[in/packages/editor/src/tool/InnerEditor.ts:27](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L27)
 
 ## Accessors
 
@@ -181,7 +181,7 @@ InnerEditor.tag
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:15](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L15)
+[in/packages/editor/src/tool/EditTool.ts:15](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L15)
 
 ___
 
@@ -203,7 +203,7 @@ InnerEditor.mode
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L16)
+[in/packages/editor/src/tool/InnerEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L16)
 
 ___
 
@@ -225,7 +225,7 @@ InnerEditor.editBox
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L23)
+[in/packages/editor/src/tool/InnerEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L23)
 
 ## Methods
 
@@ -239,7 +239,7 @@ InnerEditor.editBox
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:10](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L10)
+[in/packages/editor/src/tool/EditTool.ts:10](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L10)
 
 ___
 
@@ -263,7 +263,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:20](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L20)
+[in/packages/editor/src/tool/EditTool.ts:20](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L20)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:28](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L28)
+[in/packages/editor/src/tool/EditTool.ts:28](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L28)
 
 ___
 
@@ -311,7 +311,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:40](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L40)
+[in/packages/editor/src/tool/EditTool.ts:40](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L40)
 
 ___
 
@@ -335,7 +335,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:52](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L52)
+[in/packages/editor/src/tool/EditTool.ts:52](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L52)
 
 ___
 
@@ -357,7 +357,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:66](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L66)
+[in/packages/editor/src/tool/EditTool.ts:66](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L66)
 
 ___
 
@@ -379,7 +379,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:71](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L71)
+[in/packages/editor/src/tool/EditTool.ts:71](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L71)
 
 ___
 
@@ -401,7 +401,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/EditTool.ts:76](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/EditTool.ts#L76)
+[in/packages/editor/src/tool/EditTool.ts:76](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/EditTool.ts#L76)
 
 ___
 
@@ -419,7 +419,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:9](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L9)
+[in/packages/editor/src/tool/InnerEditor.ts:9](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L9)
 
 ___
 
@@ -441,7 +441,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:36](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L36)
+[in/packages/editor/src/tool/InnerEditor.ts:36](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L36)
 
 ___
 
@@ -463,7 +463,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:37](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L37)
+[in/packages/editor/src/tool/InnerEditor.ts:37](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L37)
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:45](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L45)
+[in/packages/editor/src/tool/InnerEditor.ts:45](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L45)
 
 ___
 
@@ -507,7 +507,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:54](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L54)
+[in/packages/editor/src/tool/InnerEditor.ts:54](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L54)
 
 ___
 
@@ -525,7 +525,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:57](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L57)
+[in/packages/editor/src/tool/InnerEditor.ts:57](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L57)
 
 ___
 
@@ -547,7 +547,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:66](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L66)
+[in/packages/editor/src/tool/InnerEditor.ts:66](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L66)
 
 ___
 
@@ -569,4 +569,4 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/InnerEditor.ts:67](https://github.com/leaferjs/leafer-in/blob/f18a102/packages/editor/src/tool/InnerEditor.ts#L67)
+[in/packages/editor/src/tool/InnerEditor.ts:67](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/InnerEditor.ts#L67)

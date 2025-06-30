@@ -2,15 +2,19 @@
 
 ## Hierarchy
 
-- **`IStrokeInputData`**
+- [`IStrokeStyle`](IStrokeStyle.md)
 
-  ↳ [`IUIBaseInputData`](IUIBaseInputData.md)
+  ↳ **`IStrokeInputData`**
+
+  ↳↳ [`IUIBaseInputData`](IUIBaseInputData.md)
 
 ## Table of contents
 
 ### Properties
 
 - [stroke](IStrokeInputData.md#stroke)
+- [startArrow](IStrokeInputData.md#startarrow)
+- [endArrow](IStrokeInputData.md#endarrow)
 - [strokeAlign](IStrokeInputData.md#strokealign)
 - [strokeWidth](IStrokeInputData.md#strokewidth)
 - [strokeWidthFixed](IStrokeInputData.md#strokewidthfixed)
@@ -19,8 +23,6 @@
 - [dashPattern](IStrokeInputData.md#dashpattern)
 - [dashOffset](IStrokeInputData.md#dashoffset)
 - [miterLimit](IStrokeInputData.md#miterlimit)
-- [startArrow](IStrokeInputData.md#startarrow)
-- [endArrow](IStrokeInputData.md#endarrow)
 
 ## Properties
 
@@ -30,87 +32,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/ICommonAttr.ts:55](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L55)
-
-___
-
-### strokeAlign
-
-• `Optional` **strokeAlign**: [`IStrokeAlign`](../modules.md#istrokealign)
-
-#### Defined in
-
-[ui/packages/interface/src/ICommonAttr.ts:57](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L57)
-
-___
-
-### strokeWidth
-
-• `Optional` **strokeWidth**: `string` \| [`IFourNumber`](../modules.md#ifournumber)
-
-#### Defined in
-
-[ui/packages/interface/src/ICommonAttr.ts:58](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L58)
-
-___
-
-### strokeWidthFixed
-
-• `Optional` **strokeWidthFixed**: `boolean`
-
-#### Defined in
-
-[ui/packages/interface/src/ICommonAttr.ts:59](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L59)
-
-___
-
-### strokeCap
-
-• `Optional` **strokeCap**: [`IStrokeCap`](../modules.md#istrokecap)
-
-#### Defined in
-
-[ui/packages/interface/src/ICommonAttr.ts:60](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L60)
-
-___
-
-### strokeJoin
-
-• `Optional` **strokeJoin**: [`IStrokeJoin`](../modules.md#istrokejoin)
-
-#### Defined in
-
-[ui/packages/interface/src/ICommonAttr.ts:61](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L61)
-
-___
-
-### dashPattern
-
-• `Optional` **dashPattern**: `string` \| `number`[]
-
-#### Defined in
-
-[ui/packages/interface/src/ICommonAttr.ts:62](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L62)
-
-___
-
-### dashOffset
-
-• `Optional` **dashOffset**: `number`
-
-#### Defined in
-
-[ui/packages/interface/src/ICommonAttr.ts:63](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L63)
-
-___
-
-### miterLimit
-
-• `Optional` **miterLimit**: `number`
-
-#### Defined in
-
-[ui/packages/interface/src/ICommonAttr.ts:64](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L64)
+[ui/packages/interface/src/ICommonAttr.ts:47](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L47)
 
 ___
 
@@ -120,7 +42,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/ICommonAttr.ts:66](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L66)
+[ui/packages/interface/src/ICommonAttr.ts:49](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L49)
 
 ___
 
@@ -130,4 +52,116 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/ICommonAttr.ts:67](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/ICommonAttr.ts#L67)
+[ui/packages/interface/src/ICommonAttr.ts:50](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L50)
+
+___
+
+### strokeAlign
+
+• `Optional` **strokeAlign**: [`IStrokeAlign`](../modules.md#istrokealign)
+
+#### Inherited from
+
+[IStrokeStyle](IStrokeStyle.md).[strokeAlign](IStrokeStyle.md#strokealign)
+
+#### Defined in
+
+[ui/packages/interface/src/ICommonAttr.ts:54](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L54)
+
+___
+
+### strokeWidth
+
+• `Optional` **strokeWidth**: `string` \| [`IFourNumber`](../modules.md#ifournumber)
+
+#### Inherited from
+
+[IStrokeStyle](IStrokeStyle.md).[strokeWidth](IStrokeStyle.md#strokewidth)
+
+#### Defined in
+
+[ui/packages/interface/src/ICommonAttr.ts:55](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L55)
+
+___
+
+### strokeWidthFixed
+
+• `Optional` **strokeWidthFixed**: `boolean`
+
+#### Inherited from
+
+[IStrokeStyle](IStrokeStyle.md).[strokeWidthFixed](IStrokeStyle.md#strokewidthfixed)
+
+#### Defined in
+
+[ui/packages/interface/src/ICommonAttr.ts:56](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L56)
+
+___
+
+### strokeCap
+
+• `Optional` **strokeCap**: [`IStrokeCap`](../modules.md#istrokecap)
+
+#### Inherited from
+
+[IStrokeStyle](IStrokeStyle.md).[strokeCap](IStrokeStyle.md#strokecap)
+
+#### Defined in
+
+[ui/packages/interface/src/ICommonAttr.ts:57](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L57)
+
+___
+
+### strokeJoin
+
+• `Optional` **strokeJoin**: [`IStrokeJoin`](../modules.md#istrokejoin)
+
+#### Inherited from
+
+[IStrokeStyle](IStrokeStyle.md).[strokeJoin](IStrokeStyle.md#strokejoin)
+
+#### Defined in
+
+[ui/packages/interface/src/ICommonAttr.ts:58](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L58)
+
+___
+
+### dashPattern
+
+• `Optional` **dashPattern**: `string` \| `number`[]
+
+#### Inherited from
+
+[IStrokeStyle](IStrokeStyle.md).[dashPattern](IStrokeStyle.md#dashpattern)
+
+#### Defined in
+
+[ui/packages/interface/src/ICommonAttr.ts:59](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L59)
+
+___
+
+### dashOffset
+
+• `Optional` **dashOffset**: `number`
+
+#### Inherited from
+
+[IStrokeStyle](IStrokeStyle.md).[dashOffset](IStrokeStyle.md#dashoffset)
+
+#### Defined in
+
+[ui/packages/interface/src/ICommonAttr.ts:60](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L60)
+
+___
+
+### miterLimit
+
+• `Optional` **miterLimit**: `number`
+
+#### Inherited from
+
+[IStrokeStyle](IStrokeStyle.md).[miterLimit](IStrokeStyle.md#miterlimit)
+
+#### Defined in
+
+[ui/packages/interface/src/ICommonAttr.ts:61](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICommonAttr.ts#L61)

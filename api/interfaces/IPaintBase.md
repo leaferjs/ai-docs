@@ -18,6 +18,8 @@
 - [blendMode](IPaintBase.md#blendmode)
 - [visible](IPaintBase.md#visible)
 - [opacity](IPaintBase.md#opacity)
+- [style](IPaintBase.md#style)
+- [editing](IPaintBase.md#editing)
 
 ## Properties
 
@@ -27,7 +29,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:13](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L13)
+[ui/packages/interface/src/type/IType.ts:16](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L16)
 
 ___
 
@@ -37,7 +39,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:14](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L14)
+[ui/packages/interface/src/type/IType.ts:17](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L17)
 
 ___
 
@@ -47,7 +49,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:15](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L15)
+[ui/packages/interface/src/type/IType.ts:18](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L18)
 
 ___
 
@@ -57,4 +59,24 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:16](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L16)
+[ui/packages/interface/src/type/IType.ts:19](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L19)
+
+___
+
+### style
+
+• `Optional` **style**: [`IStrokeStyle`](IStrokeStyle.md)
+
+#### Defined in
+
+[ui/packages/interface/src/type/IType.ts:21](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L21)
+
+___
+
+### editing
+
+• `Optional` **editing**: `boolean`
+
+#### Defined in
+
+[ui/packages/interface/src/type/IType.ts:22](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L22)

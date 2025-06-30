@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:9](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L9)
+[leafer/packages/interface/src/file/IResource.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L9)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:10](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L10)
+[leafer/packages/interface/src/file/IResource.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L10)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:11](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L11)
+[leafer/packages/interface/src/file/IResource.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L11)
 
 ## Methods
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:13](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L13)
+[leafer/packages/interface/src/file/IResource.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L13)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:14](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L14)
+[leafer/packages/interface/src/file/IResource.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L14)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:15](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L15)
+[leafer/packages/interface/src/file/IResource.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L15)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:17](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L17)
+[leafer/packages/interface/src/file/IResource.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L17)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:18](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L18)
+[leafer/packages/interface/src/file/IResource.ts:18](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L18)
 
 ___
 
@@ -163,4 +163,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/file/IResource.ts:20](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/file/IResource.ts#L20)
+[leafer/packages/interface/src/file/IResource.ts:20](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/file/IResource.ts#L20)

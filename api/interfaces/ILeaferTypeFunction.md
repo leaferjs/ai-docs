@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:121](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/app/ILeafer.ts#L121)
+[leafer/packages/interface/src/app/ILeafer.ts:121](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L121)

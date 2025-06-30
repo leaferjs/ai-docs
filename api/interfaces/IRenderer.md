@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:29](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L29)
+[leafer/packages/interface/src/renderer/IRenderer.ts:29](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L29)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:30](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L30)
+[leafer/packages/interface/src/renderer/IRenderer.ts:30](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L30)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:31](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L31)
+[leafer/packages/interface/src/renderer/IRenderer.ts:31](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L31)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:33](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L33)
+[leafer/packages/interface/src/renderer/IRenderer.ts:33](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L33)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:34](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L34)
+[leafer/packages/interface/src/renderer/IRenderer.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L34)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:35](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L35)
+[leafer/packages/interface/src/renderer/IRenderer.ts:35](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L35)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:37](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L37)
+[leafer/packages/interface/src/renderer/IRenderer.ts:37](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L37)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:38](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L38)
+[leafer/packages/interface/src/renderer/IRenderer.ts:38](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L38)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:40](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L40)
+[leafer/packages/interface/src/renderer/IRenderer.ts:40](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L40)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:41](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L41)
+[leafer/packages/interface/src/renderer/IRenderer.ts:41](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L41)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:42](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L42)
+[leafer/packages/interface/src/renderer/IRenderer.ts:42](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L42)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:44](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L44)
+[leafer/packages/interface/src/renderer/IRenderer.ts:44](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L44)
 
 ## Methods
 
@@ -180,7 +180,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:2](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/control/IControl.ts#L2)
+[leafer/packages/interface/src/control/IControl.ts:2](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/control/IControl.ts#L2)
 
 ___
 
@@ -198,7 +198,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:3](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/control/IControl.ts#L3)
+[leafer/packages/interface/src/control/IControl.ts:3](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/control/IControl.ts#L3)
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:4](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/control/IControl.ts#L4)
+[leafer/packages/interface/src/control/IControl.ts:4](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/control/IControl.ts#L4)
 
 ___
 
@@ -236,7 +236,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:46](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L46)
+[leafer/packages/interface/src/renderer/IRenderer.ts:46](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L46)
 
 ___
 
@@ -250,7 +250,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:48](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L48)
+[leafer/packages/interface/src/renderer/IRenderer.ts:48](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L48)
 
 ___
 
@@ -264,7 +264,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:50](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L50)
+[leafer/packages/interface/src/renderer/IRenderer.ts:50](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L50)
 
 ___
 
@@ -284,7 +284,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:51](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L51)
+[leafer/packages/interface/src/renderer/IRenderer.ts:51](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L51)
 
 ___
 
@@ -298,7 +298,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:52](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L52)
+[leafer/packages/interface/src/renderer/IRenderer.ts:52](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L52)
 
 ___
 
@@ -318,7 +318,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:53](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L53)
+[leafer/packages/interface/src/renderer/IRenderer.ts:53](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L53)
 
 ___
 
@@ -332,7 +332,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:54](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L54)
+[leafer/packages/interface/src/renderer/IRenderer.ts:54](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L54)
 
 ___
 
@@ -352,7 +352,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:55](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L55)
+[leafer/packages/interface/src/renderer/IRenderer.ts:55](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L55)
 
 ___
 
@@ -366,7 +366,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:56](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L56)
+[leafer/packages/interface/src/renderer/IRenderer.ts:56](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L56)
 
 ___
 
@@ -386,7 +386,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:58](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L58)
+[leafer/packages/interface/src/renderer/IRenderer.ts:58](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L58)
 
 ___
 
@@ -400,4 +400,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/renderer/IRenderer.ts:59](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/renderer/IRenderer.ts#L59)
+[leafer/packages/interface/src/renderer/IRenderer.ts:59](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/renderer/IRenderer.ts#L59)

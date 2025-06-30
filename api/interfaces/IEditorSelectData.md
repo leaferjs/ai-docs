@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[ui/packages/interface/src/editor/IEditor.ts:149](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/editor/IEditor.ts#L149)
+[ui/packages/interface/src/editor/IEditor.ts:159](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/editor/IEditor.ts#L159)

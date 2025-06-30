@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:89](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L89)
+[ui/packages/interface/src/type/IType.ts:103](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L103)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:90](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L90)
+[ui/packages/interface/src/type/IType.ts:104](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L104)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:91](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L91)
+[ui/packages/interface/src/type/IType.ts:105](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L105)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:92](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L92)
+[ui/packages/interface/src/type/IType.ts:106](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L106)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:93](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L93)
+[ui/packages/interface/src/type/IType.ts:107](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L107)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:94](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L94)
+[ui/packages/interface/src/type/IType.ts:108](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L108)
 
 ___
 
@@ -80,4 +80,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/type/IType.ts:95](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/type/IType.ts#L95)
+[ui/packages/interface/src/type/IType.ts:109](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/type/IType.ts#L109)

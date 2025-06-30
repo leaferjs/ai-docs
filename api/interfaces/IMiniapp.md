@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:81](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/platform/IPlatform.ts#L81)
+[leafer/packages/interface/src/platform/IPlatform.ts:81](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L81)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:82](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/platform/IPlatform.ts#L82)
+[leafer/packages/interface/src/platform/IPlatform.ts:82](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L82)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:83](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/platform/IPlatform.ts#L83)
+[leafer/packages/interface/src/platform/IPlatform.ts:83](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L83)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:84](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/platform/IPlatform.ts#L84)
+[leafer/packages/interface/src/platform/IPlatform.ts:84](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L84)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:85](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/platform/IPlatform.ts#L85)
+[leafer/packages/interface/src/platform/IPlatform.ts:85](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L85)
 
 ___
 
@@ -129,4 +129,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:86](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/platform/IPlatform.ts#L86)
+[leafer/packages/interface/src/platform/IPlatform.ts:86](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L86)

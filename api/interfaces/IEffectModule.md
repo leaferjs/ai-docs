@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[ui/packages/interface/src/module/IEffect.ts:8](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/module/IEffect.ts#L8)
+[ui/packages/interface/src/module/IEffect.ts:8](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/module/IEffect.ts#L8)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IEffect.ts:9](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/module/IEffect.ts#L9)
+[ui/packages/interface/src/module/IEffect.ts:9](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/module/IEffect.ts#L9)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IEffect.ts:10](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/module/IEffect.ts#L10)
+[ui/packages/interface/src/module/IEffect.ts:10](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/module/IEffect.ts#L10)
 
 ___
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/module/IEffect.ts:11](https://github.com/leaferjs/leafer-ui/blob/66bfac2/packages/interface/src/module/IEffect.ts#L11)
+[ui/packages/interface/src/module/IEffect.ts:11](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/module/IEffect.ts#L11)

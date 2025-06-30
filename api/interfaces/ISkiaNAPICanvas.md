@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:25](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L25)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:25](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L25)
 
 ▸ **encodeSync**(`format`): `any`
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:26](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L26)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:26](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L26)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:28](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L28)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:28](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L28)
 
 ▸ **encode**(`format`): `Promise`<`any`\>
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:29](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L29)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:29](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L29)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:31](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L31)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:31](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L31)
 
 ▸ **toBuffer**(`mime`, `quality?`): `any`
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:32](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L32)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:32](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L32)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:34](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L34)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L34)
 
 ▸ **toDataURL**(`mime`, `quality?`): `string`
 
@@ -156,7 +156,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:35](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L35)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:35](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L35)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:37](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L37)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:37](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L37)
 
 ▸ **toDataURLAsync**(`mime`, `quality?`): `Promise`<`string`\>
 
@@ -193,4 +193,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:38](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/canvas/ISkiaCanvas.ts#L38)
+[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:38](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L38)

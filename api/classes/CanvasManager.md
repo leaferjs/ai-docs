@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:6](https://github.com/leaferjs/leafer/blob/4821e21/packages/canvas/canvas/src/CanvasManager.ts#L6)
+[leafer/packages/canvas/canvas/src/CanvasManager.ts:6](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L6)
 
 ## Methods
 
@@ -67,7 +67,7 @@
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:8](https://github.com/leaferjs/leafer/blob/4821e21/packages/canvas/canvas/src/CanvasManager.ts#L8)
+[leafer/packages/canvas/canvas/src/CanvasManager.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L8)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:13](https://github.com/leaferjs/leafer/blob/4821e21/packages/canvas/canvas/src/CanvasManager.ts#L13)
+[leafer/packages/canvas/canvas/src/CanvasManager.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L13)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:30](https://github.com/leaferjs/leafer/blob/4821e21/packages/canvas/canvas/src/CanvasManager.ts#L30)
+[leafer/packages/canvas/canvas/src/CanvasManager.ts:30](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L30)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:34](https://github.com/leaferjs/leafer/blob/4821e21/packages/canvas/canvas/src/CanvasManager.ts#L34)
+[leafer/packages/canvas/canvas/src/CanvasManager.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L34)
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:44](https://github.com/leaferjs/leafer/blob/4821e21/packages/canvas/canvas/src/CanvasManager.ts#L44)
+[leafer/packages/canvas/canvas/src/CanvasManager.ts:44](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L44)
 
 ___
 
@@ -169,4 +169,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:49](https://github.com/leaferjs/leafer/blob/4821e21/packages/canvas/canvas/src/CanvasManager.ts#L49)
+[leafer/packages/canvas/canvas/src/CanvasManager.ts:49](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L49)

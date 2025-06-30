@@ -34,6 +34,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [EditTool](classes/EditTool.md)
 - [InnerEditor](classes/InnerEditor.md)
 - [LineEditTool](classes/LineEditTool.md)
+- [TransformTool](classes/TransformTool.md)
 - [Finder](classes/Finder.md)
 - [Flow](classes/Flow.md)
 - [HTMLText](classes/HTMLText.md)
@@ -159,6 +160,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IAppBase](interfaces/IAppBase.md)
 - [ILeaferConfig](interfaces/ILeaferConfig.md)
 - [ILeaferAttrData](interfaces/ILeaferAttrData.md)
+- [IZoomOptions](interfaces/IZoomOptions.md)
 - [ILeaferBase](interfaces/ILeaferBase.md)
 - [ILeaferTypeCreator](interfaces/ILeaferTypeCreator.md)
 - [ILeaferTypeFunction](interfaces/ILeaferTypeFunction.md)
@@ -176,6 +178,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [ICanvasAttr](interfaces/ICanvasAttr.md)
 - [ILeaferCanvas](interfaces/ILeaferCanvas.md)
 - [IHitCanvas](interfaces/IHitCanvas.md)
+- [IWindingRuleData](interfaces/IWindingRuleData.md)
 - [IBlobFunction](interfaces/IBlobFunction.md)
 - [ISkiaCanvas](interfaces/ISkiaCanvas.md)
 - [ISkiaCanvasExportConfig](interfaces/ISkiaCanvasExportConfig.md)
@@ -453,6 +456,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 - [IAppForEachFunction](interfaces/IAppForEachFunction.md)
 - [ILeafer](interfaces/ILeafer.md)
 - [IEditorBase](interfaces/IEditorBase.md)
+- [ITransformTool](interfaces/ITransformTool.md)
 - [IEditorConfig](interfaces/IEditorConfig.md)
 - [IEditorSelectData](interfaces/IEditorSelectData.md)
 - [IEditorMoveData](interfaces/IEditorMoveData.md)
@@ -509,6 +513,7 @@ API 文档存在部分未开放的属性、方法，请谨慎调用。
 
 ### Type Aliases
 
+- [IInnerEditorMode](modules.md#iinnereditormode)
 - [IScrollBarTheme](modules.md#iscrollbartheme)
 - [ITransition](modules.md#itransition)
 - [IAnimateEasing](modules.md#ianimateeasing)

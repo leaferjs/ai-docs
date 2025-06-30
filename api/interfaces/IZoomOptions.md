@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:101](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/app/ILeafer.ts#L101)
+[leafer/packages/interface/src/app/ILeafer.ts:101](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L101)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:102](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/app/ILeafer.ts#L102)
+[leafer/packages/interface/src/app/ILeafer.ts:102](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L102)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:103](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/app/ILeafer.ts#L103)
+[leafer/packages/interface/src/app/ILeafer.ts:103](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L103)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:104](https://github.com/leaferjs/leafer/blob/4821e21/packages/interface/src/app/ILeafer.ts#L104)
+[leafer/packages/interface/src/app/ILeafer.ts:104](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L104)
