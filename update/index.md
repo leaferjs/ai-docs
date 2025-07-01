@@ -6,38 +6,33 @@
 
 > v1.8.0
 
-更新日志正在努力完善中...
-
-
 #### 🍇 社区
 
-多个高级插件将发布 🎉🎉🎉
-
-<!-- \- 🌸 图片裁剪高级插件 clipper 即将发布 🎉🎉🎉 -->
+多款高级插件即将上线 🎉🎉🎉
 
 #### 🌱 新增
 
-\- 🌸 stroke 描边对象增加 style 属性, 可支持多个描边宽度、样式（暂不支持多种对齐方式）
+\- 🌸 stroke 多个描边时，可增加子描边 [style](/reference/UI/stroke.md#子描边属性) 属性, 形成蚂蚁线、模拟内中外三层描边等效果
 
-\- 🌸 平铺图片增加 scaleFixed 属性，支持固定尺寸，不随画布缩放
+\- 🌸 平铺图片增加 [scaleFixed](/reference/UI/paint/image.md#scalefixed-boolean) 属性，支持固定全局缩放比例，不跟随画布缩放。
 
-\- 🌸 编辑器配置增加 spread 属性，可扩大编辑框与实际元素之间的间隙 [#490](https://github.com/leaferjs/leafer-ui/issues/490)
+\- 🌸 编辑器配置增加 [spread](/plugin/in/editor/config/style.md#spread-number) 属性，可扩大编辑框与实际元素之间的间隙 [#490](https://github.com/leaferjs/leafer-ui/issues/490)
 
-\- 自定义元素、工具增加属性装饰器 createAttr()，可将属性转成 getter/setter，防止取不到值
+\- 自定义元素、工具增加属性装饰器 [createAttr()](/reference/display/custom/base/attr.md#普通属性)，可将属性转成 getter/setter，防止取不到值
 
-\- Group 增加 childlessJSON 属性，自定义元素时可配置不导出子级 JSON
+\- Group 增加 [childlessJSON](/reference/display/Group.md#childlessjson-boolean) 属性，自定义元素时可配置不导出子级 JSON
 
-\- 元素增加 renderSpread 属性，可强制扩大渲染边界，防止文本等渲染边界测量不正确导致花屏
+\- 元素增加 [renderSpread](/reference/UI/bounds.md#renderspread-number) 属性，可强制扩大渲染边界，防止文本等渲染边界测量不正确导致花屏
 
-\- 🌸 元素增加 isAutoWidth、isAutoHeight 属性，用于判断是否为自动宽高
+\- 🌸 元素增加 [isAutoWidth](/reference/UI/size.md#isautowidth-boolean)、[isAutoHeight](/reference/UI/size.md#isautowidth-boolean) 属性，用于判断是否为自动宽高
 
-\- 编辑器增加 gesturing、resizing、rotating、skewing 状态
+\- 编辑器增加 [gesturing](/plugin/in/editor/Editor/state.md#gesturing-boolean) 、[moving](/plugin/in/editor/Editor/state.md#gesturing-boolean)、[resizing](/plugin/in/editor/Editor/state.md#gesturing-boolean)、[rotating](/plugin/in/editor/Editor/state.md#gesturing-boolean)、[skewing](/plugin/in/editor/Editor/state.md#gesturing-boolean) 状态
 
-\- 编辑器配置增加 rotateAround 属性，可单独设置旋转中心点
+\- 编辑器配置增加 [rotateAround](/plugin/in/editor/config/control.md#rotatearound-around) 属性，可单独设置旋转中心点
 
-\- 🌸 图片裁剪模式下增加 clipSize 属性，自动拉伸裁剪范围以适应元素宽高
+\- 🌸 图片裁剪模式下增加 [clipSize](/reference/UI/paint/image.md#clipsize-isizedata) 属性，自动拉伸裁剪框以适应元素宽高
 
-\- 编辑器 openInnerEditor(target, name, select) 支持直接打开指定名称的内部编辑器
+\- 编辑器 [openInnerEditor()](/plugin/in/editor/Editor/innerEditor.md) 支持直接打开指定名称的内部编辑器
 
 \- 导出图片增加错误捕获，返回对象中包含 error 字段
 

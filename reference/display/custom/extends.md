@@ -138,6 +138,8 @@ setTimeout(() => {
 
 ### 继承 Group
 
+自定义元素的情况下，可能不需要导出子级 JSON, 可设置 [childlessJSON](/reference/display/Group.md#childlessjson-boolean) 属性为 `true`。
+
 ```ts
 // #自定义元素 [继承 Group]
 import { registerUI, dataProcessor, Group, GroupData, dataType } from '@leafer-ui/core' // 引入跨平台核心包

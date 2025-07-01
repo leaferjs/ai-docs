@@ -82,6 +82,8 @@ interface ICanvasRenderingContext2DSettings {
 interface IExportResult {
   data: ILeaferCanvas | IBlob | string | boolean // data为无时表示导出失败
 
+  error?: any // 导出失败时的内部报错信息
+
   width?: number // 图片宽度(实际像素)
   height?: number // 图片高度(实际像素)
 
