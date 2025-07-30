@@ -24,7 +24,7 @@
 
 ### \_\_renderBranch
 
-▸ `Optional` **__renderBranch**(`canvas`, `options`): `void`
+▸ **__renderBranch**(`canvas`, `options`): `void`
 
 #### Parameters
 
@@ -39,13 +39,13 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/IBranchRender.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/IBranchRender.ts#L9)
+[src/leafer/packages/interface/src/display/module/IBranchRender.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/IBranchRender.ts#L9)
 
 ___
 
 ### \_\_render
 
-▸ `Optional` **__render**(`canvas`, `options`): `void`
+▸ **__render**(`canvas`, `options`): `void`
 
 #### Parameters
 
@@ -64,13 +64,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafRender.ts#L8)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L8)
 
 ___
 
 ### \_\_draw
 
-▸ `Optional` **__draw**(`canvas`, `options`, `originCanvas?`): `void`
+▸ **__draw**(`canvas`, `options`, `originCanvas?`): `void`
 
 #### Parameters
 
@@ -90,13 +90,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafRender.ts#L9)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L9)
 
 ___
 
 ### \_\_drawFast
 
-▸ `Optional` **__drawFast**(`canvas`, `options`): `void`
+▸ **__drawFast**(`canvas`, `options`): `void`
 
 #### Parameters
 
@@ -115,13 +115,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafRender.ts#L10)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L10)
 
 ___
 
 ### \_\_clip
 
-▸ `Optional` **__clip**(`_canvas`, `_options`): `void`
+▸ **__clip**(`_canvas`, `_options`): `void`
 
 #### Parameters
 
@@ -140,13 +140,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafRender.ts#L12)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L12)
 
 ___
 
 ### \_\_renderShape
 
-▸ `Optional` **__renderShape**(`canvas`, `options`): `void`
+▸ **__renderShape**(`canvas`, `options`): `void`
 
 #### Parameters
 
@@ -165,13 +165,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafRender.ts#L13)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L13)
 
 ___
 
 ### \_\_drawShape
 
-▸ `Optional` **__drawShape**(`canvas`, `options`): `void`
+▸ **__drawShape**(`canvas`, `options`): `void`
 
 #### Parameters
 
@@ -190,13 +190,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafRender.ts#L14)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L14)
 
 ___
 
 ### \_\_updateWorldOpacity
 
-▸ `Optional` **__updateWorldOpacity**(): `void`
+▸ **__updateWorldOpacity**(): `void`
 
 #### Returns
 
@@ -208,13 +208,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:16](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafRender.ts#L16)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L16)
 
 ___
 
 ### \_\_updateChange
 
-▸ `Optional` **__updateChange**(): `void`
+▸ **__updateChange**(): `void`
 
 #### Returns
 
@@ -226,4 +226,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafRender.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafRender.ts#L17)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L17)

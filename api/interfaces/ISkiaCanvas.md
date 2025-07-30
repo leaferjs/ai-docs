@@ -15,7 +15,7 @@
 
 ### toBuffer
 
-▸ **toBuffer**(`format`, `config`): `Promise`<`any`\>
+▸ **toBuffer**(`format`, `config`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -26,11 +26,11 @@
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:7](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L7)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L7)
 
 ___
 
@@ -51,13 +51,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L8)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L8)
 
 ___
 
 ### toDataURL
 
-▸ **toDataURL**(`format`, `config`): `Promise`<`string`\>
+▸ **toDataURL**(`format`, `config`): `Promise`\<`string`\>
 
 #### Parameters
 
@@ -68,11 +68,11 @@ ___
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<`string`\>
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L9)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L9)
 
 ___
 
@@ -93,13 +93,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L10)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L10)
 
 ___
 
 ### saveAs
 
-▸ **saveAs**(`filename`, `config`): `Promise`<`void`\>
+▸ **saveAs**(`filename`, `config`): `Promise`\<`void`\>
 
 #### Parameters
 
@@ -110,11 +110,11 @@ ___
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L11)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L11)
 
 ___
 
@@ -135,4 +135,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L12)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L12)

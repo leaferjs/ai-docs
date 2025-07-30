@@ -40,7 +40,11 @@
 
 ### constructor
 
-• **new TransformTool**()
+• **new TransformTool**(): [`TransformTool`](TransformTool.md)
+
+#### Returns
+
+[`TransformTool`](TransformTool.md)
 
 ## Properties
 
@@ -54,7 +58,7 @@
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:17](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L17)
+[src/in/packages/editor/src/tool/TransformTool.ts:17](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L17)
 
 ___
 
@@ -68,7 +72,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:19](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L19)
+[src/in/packages/editor/src/tool/TransformTool.ts:19](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L19)
 
 ## Methods
 
@@ -92,7 +96,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:24](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L24)
+[src/in/packages/editor/src/tool/TransformTool.ts:24](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L24)
 
 ___
 
@@ -116,7 +120,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:47](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L47)
+[src/in/packages/editor/src/tool/TransformTool.ts:57](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L57)
 
 ___
 
@@ -140,7 +144,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:73](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L73)
+[src/in/packages/editor/src/tool/TransformTool.ts:83](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L83)
 
 ___
 
@@ -164,7 +168,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:100](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L100)
+[src/in/packages/editor/src/tool/TransformTool.ts:110](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L110)
 
 ___
 
@@ -189,7 +193,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:114](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L114)
+[src/in/packages/editor/src/tool/TransformTool.ts:124](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L124)
 
 ___
 
@@ -209,7 +213,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:136](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L136)
+[src/in/packages/editor/src/tool/TransformTool.ts:146](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L146)
 
 ___
 
@@ -236,7 +240,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:155](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L155)
+[src/in/packages/editor/src/tool/TransformTool.ts:165](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L165)
 
 ___
 
@@ -256,7 +260,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:177](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L177)
+[src/in/packages/editor/src/tool/TransformTool.ts:187](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L187)
 
 ___
 
@@ -281,7 +285,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:192](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L192)
+[src/in/packages/editor/src/tool/TransformTool.ts:202](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L202)
 
 ___
 
@@ -308,13 +312,13 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:214](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L214)
+[src/in/packages/editor/src/tool/TransformTool.ts:224](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L224)
 
 ___
 
 ### doMove
 
-▸ `Protected` **doMove**(`event`): `void`
+▸ **doMove**(`event`): `void`
 
 #### Parameters
 
@@ -328,13 +332,13 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:239](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L239)
+[src/in/packages/editor/src/tool/TransformTool.ts:249](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L249)
 
 ___
 
 ### doScale
 
-▸ `Protected` **doScale**(`event`): `void`
+▸ **doScale**(`event`): `void`
 
 #### Parameters
 
@@ -348,13 +352,13 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:243](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L243)
+[src/in/packages/editor/src/tool/TransformTool.ts:253](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L253)
 
 ___
 
 ### doRotate
 
-▸ `Protected` **doRotate**(`event`): `void`
+▸ **doRotate**(`event`): `void`
 
 #### Parameters
 
@@ -368,13 +372,13 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:247](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L247)
+[src/in/packages/editor/src/tool/TransformTool.ts:257](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L257)
 
 ___
 
 ### doSkew
 
-▸ `Protected` **doSkew**(`event`): `void`
+▸ **doSkew**(`event`): `void`
 
 #### Parameters
 
@@ -388,7 +392,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:251](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L251)
+[src/in/packages/editor/src/tool/TransformTool.ts:261](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L261)
 
 ___
 
@@ -408,13 +412,13 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:257](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L257)
+[src/in/packages/editor/src/tool/TransformTool.ts:267](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L267)
 
 ___
 
 ### getWorldOrigin
 
-▸ `Protected` **getWorldOrigin**(`origin`): [`IPointData`](../interfaces/IPointData.md)
+▸ **getWorldOrigin**(`origin`): [`IPointData`](../interfaces/IPointData.md)
 
 #### Parameters
 
@@ -428,13 +432,13 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:262](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L262)
+[src/in/packages/editor/src/tool/TransformTool.ts:272](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L272)
 
 ___
 
 ### getChangedTransform
 
-▸ `Protected` **getChangedTransform**(`func`): [`IMatrix`](../interfaces/IMatrix.md)
+▸ **getChangedTransform**(`func`): [`IMatrix`](../interfaces/IMatrix.md)
 
 #### Parameters
 
@@ -448,7 +452,7 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:267](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L267)
+[src/in/packages/editor/src/tool/TransformTool.ts:277](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L277)
 
 ___
 
@@ -469,4 +473,4 @@ ___
 
 #### Defined in
 
-[in/packages/editor/src/tool/TransformTool.ts:278](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/editor/src/tool/TransformTool.ts#L278)
+[src/in/packages/editor/src/tool/TransformTool.ts:288](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/TransformTool.ts#L288)

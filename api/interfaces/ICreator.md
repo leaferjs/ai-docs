@@ -20,7 +20,7 @@
 
 ### image
 
-▸ `Optional` **image**(`options?`): [`ILeaferImage`](ILeaferImage.md)
+▸ **image**(`options?`): [`ILeaferImage`](ILeaferImage.md)
 
 #### Parameters
 
@@ -34,13 +34,13 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:129](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L129)
+[src/leafer/packages/interface/src/app/ILeafer.ts:129](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L129)
 
 ___
 
 ### canvas
 
-▸ `Optional` **canvas**(`options?`, `manager?`): [`ILeaferCanvas`](ILeaferCanvas.md)
+▸ **canvas**(`options?`, `manager?`): [`ILeaferCanvas`](ILeaferCanvas.md)
 
 #### Parameters
 
@@ -55,13 +55,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:130](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L130)
+[src/leafer/packages/interface/src/app/ILeafer.ts:130](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L130)
 
 ___
 
 ### hitCanvas
 
-▸ `Optional` **hitCanvas**(`options?`, `manager?`): [`IHitCanvas`](IHitCanvas.md)
+▸ **hitCanvas**(`options?`, `manager?`): [`IHitCanvas`](IHitCanvas.md)
 
 #### Parameters
 
@@ -76,13 +76,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:131](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L131)
+[src/leafer/packages/interface/src/app/ILeafer.ts:131](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L131)
 
 ___
 
 ### hitCanvasManager
 
-▸ `Optional` **hitCanvasManager**(): [`IHitCanvasManager`](IHitCanvasManager.md)
+▸ **hitCanvasManager**(): [`IHitCanvasManager`](IHitCanvasManager.md)
 
 #### Returns
 
@@ -90,13 +90,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:132](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L132)
+[src/leafer/packages/interface/src/app/ILeafer.ts:132](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L132)
 
 ___
 
 ### watcher
 
-▸ `Optional` **watcher**(`target`, `options?`): [`IWatcher`](IWatcher.md)
+▸ **watcher**(`target`, `options?`): [`IWatcher`](IWatcher.md)
 
 #### Parameters
 
@@ -111,13 +111,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:134](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L134)
+[src/leafer/packages/interface/src/app/ILeafer.ts:134](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L134)
 
 ___
 
 ### layouter
 
-▸ `Optional` **layouter**(`target`, `options?`): [`ILayouter`](ILayouter.md)
+▸ **layouter**(`target`, `options?`): [`ILayouter`](ILayouter.md)
 
 #### Parameters
 
@@ -132,13 +132,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:135](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L135)
+[src/leafer/packages/interface/src/app/ILeafer.ts:135](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L135)
 
 ___
 
 ### renderer
 
-▸ `Optional` **renderer**(`target`, `canvas`, `options?`): [`IRenderer`](IRenderer.md)
+▸ **renderer**(`target`, `canvas`, `options?`): [`IRenderer`](IRenderer.md)
 
 #### Parameters
 
@@ -154,13 +154,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:136](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L136)
+[src/leafer/packages/interface/src/app/ILeafer.ts:136](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L136)
 
 ___
 
 ### selector
 
-▸ `Optional` **selector**(`target?`, `options?`): [`ISelector`](ISelector.md)
+▸ **selector**(`target?`, `options?`): [`ISelector`](ISelector.md)
 
 #### Parameters
 
@@ -175,13 +175,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:137](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L137)
+[src/leafer/packages/interface/src/app/ILeafer.ts:137](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L137)
 
 ___
 
 ### finder
 
-▸ `Optional` **finder**(`target?`): [`IFinder`](IFinder.md)
+▸ **finder**(`target?`): [`IFinder`](IFinder.md)
 
 #### Parameters
 
@@ -195,13 +195,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:138](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L138)
+[src/leafer/packages/interface/src/app/ILeafer.ts:138](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L138)
 
 ___
 
 ### interaction
 
-▸ `Optional` **interaction**(`target`, `canvas`, `selector`, `options?`): [`IInteraction`](IInteraction.md)
+▸ **interaction**(`target`, `canvas`, `selector`, `options?`): [`IInteraction`](IInteraction.md)
 
 #### Parameters
 
@@ -218,13 +218,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:140](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L140)
+[src/leafer/packages/interface/src/app/ILeafer.ts:140](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L140)
 
 ___
 
 ### editor
 
-▸ `Optional` **editor**(`options?`, `app?`): [`ILeaf`](ILeaf.md)
+▸ **editor**(`options?`, `app?`): [`ILeaf`](ILeaf.md)
 
 #### Parameters
 
@@ -239,4 +239,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/app/ILeafer.ts:142](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/app/ILeafer.ts#L142)
+[src/leafer/packages/interface/src/app/ILeafer.ts:142](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L142)

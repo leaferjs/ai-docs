@@ -21,6 +21,7 @@
 ### Methods
 
 - [getByPoint](Selector.md#getbypoint)
+- [hitPoint](Selector.md#hitpoint)
 - [getBy](Selector.md#getby)
 - [destroy](Selector.md#destroy)
 
@@ -28,7 +29,7 @@
 
 ### constructor
 
-• **new Selector**(`target`, `userConfig?`)
+• **new Selector**(`target`, `userConfig?`): [`Selector`](Selector.md)
 
 #### Parameters
 
@@ -37,9 +38,13 @@
 | `target` | [`ILeaf`](../interfaces/ILeaf.md) |
 | `userConfig?` | [`ISelectorConfig`](../interfaces/ISelectorConfig.md) |
 
+#### Returns
+
+[`Selector`](Selector.md)
+
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L17)
+[src/leafer/packages/partner/selector/src/Selector.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L17)
 
 ## Properties
 
@@ -53,7 +58,7 @@
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L9)
+[src/leafer/packages/partner/selector/src/Selector.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L9)
 
 ___
 
@@ -67,7 +72,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L10)
+[src/leafer/packages/partner/selector/src/Selector.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L10)
 
 ___
 
@@ -81,7 +86,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L12)
+[src/leafer/packages/partner/selector/src/Selector.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L12)
 
 ___
 
@@ -95,7 +100,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L14)
+[src/leafer/packages/partner/selector/src/Selector.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L14)
 
 ___
 
@@ -109,7 +114,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L15)
+[src/leafer/packages/partner/selector/src/Selector.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L15)
 
 ## Methods
 
@@ -135,7 +140,33 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:23](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L23)
+[src/leafer/packages/partner/selector/src/Selector.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L23)
+
+___
+
+### hitPoint
+
+▸ **hitPoint**(`hitPoint`, `hitRadius`, `options?`): `boolean`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `hitPoint` | [`IPointData`](../interfaces/IPointData.md) |
+| `hitRadius` | `number` |
+| `options?` | [`IPickOptions`](../interfaces/IPickOptions.md) |
+
+#### Returns
+
+`boolean`
+
+#### Implementation of
+
+[ISelector](../interfaces/ISelector.md).[hitPoint](../interfaces/ISelector.md#hitpoint)
+
+#### Defined in
+
+[src/leafer/packages/partner/selector/src/Selector.ts:29](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L29)
 
 ___
 
@@ -162,7 +193,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:30](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L30)
+[src/leafer/packages/partner/selector/src/Selector.ts:34](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L34)
 
 ___
 
@@ -180,4 +211,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Selector.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Selector.ts#L34)
+[src/leafer/packages/partner/selector/src/Selector.ts:38](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Selector.ts#L38)

@@ -33,7 +33,7 @@
 
 ### constructor
 
-• **new Transformer**(`interaction`)
+• **new Transformer**(`interaction`): [`Transformer`](Transformer.md)
 
 #### Parameters
 
@@ -41,9 +41,13 @@
 | :------ | :------ |
 | `interaction` | [`InteractionBase`](InteractionBase.md) |
 
+#### Returns
+
+[`Transformer`](Transformer.md)
+
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:16](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L16)
+[src/in/packages/viewport/src/interaction/Transformer.ts:16](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L16)
 
 ## Properties
 
@@ -53,7 +57,7 @@
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:10](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L10)
+[src/in/packages/viewport/src/interaction/Transformer.ts:10](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L10)
 
 ___
 
@@ -63,7 +67,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:11](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L11)
+[src/in/packages/viewport/src/interaction/Transformer.ts:11](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L11)
 
 ___
 
@@ -73,7 +77,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:12](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L12)
+[src/in/packages/viewport/src/interaction/Transformer.ts:12](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L12)
 
 ___
 
@@ -83,7 +87,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:13](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L13)
+[src/in/packages/viewport/src/interaction/Transformer.ts:13](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L13)
 
 ___
 
@@ -93,7 +97,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:14](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L14)
+[src/in/packages/viewport/src/interaction/Transformer.ts:14](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L14)
 
 ## Accessors
 
@@ -107,7 +111,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:8](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L8)
+[src/in/packages/viewport/src/interaction/Transformer.ts:8](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L8)
 
 ## Methods
 
@@ -127,7 +131,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:20](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L20)
+[src/in/packages/viewport/src/interaction/Transformer.ts:20](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L20)
 
 ___
 
@@ -147,7 +151,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:37](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L37)
+[src/in/packages/viewport/src/interaction/Transformer.ts:37](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L37)
 
 ___
 
@@ -167,7 +171,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:53](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L53)
+[src/in/packages/viewport/src/interaction/Transformer.ts:53](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L53)
 
 ___
 
@@ -187,13 +191,13 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:69](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L69)
+[src/in/packages/viewport/src/interaction/Transformer.ts:69](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L69)
 
 ___
 
 ### transformEndWait
 
-▸ `Protected` **transformEndWait**(): `void`
+▸ **transformEndWait**(): `void`
 
 #### Returns
 
@@ -201,7 +205,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:76](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L76)
+[src/in/packages/viewport/src/interaction/Transformer.ts:76](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L76)
 
 ___
 
@@ -215,7 +219,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:83](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L83)
+[src/in/packages/viewport/src/interaction/Transformer.ts:83](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L83)
 
 ___
 
@@ -229,7 +233,7 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:91](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L91)
+[src/in/packages/viewport/src/interaction/Transformer.ts:91](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L91)
 
 ___
 
@@ -243,4 +247,4 @@ ___
 
 #### Defined in
 
-[in/packages/viewport/src/interaction/Transformer.ts:95](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/viewport/src/interaction/Transformer.ts#L95)
+[src/in/packages/viewport/src/interaction/Transformer.ts:95](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/Transformer.ts#L95)

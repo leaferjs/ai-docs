@@ -56,6 +56,7 @@
 - [stopDefault](ISwipeEvent.md#stopdefault)
 - [stopNow](ISwipeEvent.md#stopnow)
 - [stop](ISwipeEvent.md#stop)
+- [isHoldKeys](ISwipeEvent.md#isholdkeys)
 - [getBoxPoint](ISwipeEvent.md#getboxpoint)
 - [getInnerPoint](ISwipeEvent.md#getinnerpoint)
 - [getLocalPoint](ISwipeEvent.md#getlocalpoint)
@@ -83,7 +84,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L9)
+[src/leafer/packages/interface/src/event/IEvent.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L9)
 
 ___
 
@@ -97,7 +98,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L11)
+[src/leafer/packages/interface/src/event/IEvent.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L11)
 
 ___
 
@@ -111,7 +112,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L12)
+[src/leafer/packages/interface/src/event/IEvent.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L12)
 
 ___
 
@@ -125,7 +126,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L13)
+[src/leafer/packages/interface/src/event/IEvent.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L13)
 
 ___
 
@@ -139,7 +140,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L15)
+[src/leafer/packages/interface/src/event/IEvent.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L15)
 
 ___
 
@@ -153,7 +154,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:16](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L16)
+[src/leafer/packages/interface/src/event/IEvent.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L16)
 
 ___
 
@@ -167,7 +168,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:18](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L18)
+[src/leafer/packages/interface/src/event/IEvent.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L18)
 
 ___
 
@@ -181,7 +182,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:19](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L19)
+[src/leafer/packages/interface/src/event/IEvent.ts:19](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L19)
 
 ___
 
@@ -195,7 +196,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:20](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L20)
+[src/leafer/packages/interface/src/event/IEvent.ts:20](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L20)
 
 ___
 
@@ -209,7 +210,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L9)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L9)
 
 ___
 
@@ -223,7 +224,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L10)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L10)
 
 ___
 
@@ -237,7 +238,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L12)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L12)
 
 ___
 
@@ -251,7 +252,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L13)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L13)
 
 ___
 
@@ -265,7 +266,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L14)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L14)
 
 ___
 
@@ -279,7 +280,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L15)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L15)
 
 ___
 
@@ -293,7 +294,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:16](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L16)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L16)
 
 ___
 
@@ -307,7 +308,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:18](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L18)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L18)
 
 ___
 
@@ -321,7 +322,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:19](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L19)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:19](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L19)
 
 ___
 
@@ -335,7 +336,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:20](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L20)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:20](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L20)
 
 ___
 
@@ -349,7 +350,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:21](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L21)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:21](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L21)
 
 ___
 
@@ -363,7 +364,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:23](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L23)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L23)
 
 ___
 
@@ -377,7 +378,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:24](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L24)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:24](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L24)
 
 ___
 
@@ -391,7 +392,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:39](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L39)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:41](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L41)
 
 ___
 
@@ -405,7 +406,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:40](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L40)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:42](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L42)
 
 ___
 
@@ -419,7 +420,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:41](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L41)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:43](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L43)
 
 ___
 
@@ -433,7 +434,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:42](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L42)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:44](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L44)
 
 ___
 
@@ -447,7 +448,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:43](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L43)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:45](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L45)
 
 ___
 
@@ -461,7 +462,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:44](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L44)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:46](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L46)
 
 ___
 
@@ -475,7 +476,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:45](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L45)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:47](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L47)
 
 ___
 
@@ -489,7 +490,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:46](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L46)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:48](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L48)
 
 ___
 
@@ -503,7 +504,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:47](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L47)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:49](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L49)
 
 ___
 
@@ -517,7 +518,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:48](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L48)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:50](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L50)
 
 ___
 
@@ -531,7 +532,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:53](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L53)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:55](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L55)
 
 ___
 
@@ -545,7 +546,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:54](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L54)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:56](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L56)
 
 ___
 
@@ -559,7 +560,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:55](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L55)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:57](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L57)
 
 ___
 
@@ -573,13 +574,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:56](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L56)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:58](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L58)
 
 ## Methods
 
 ### stopDefault
 
-▸ `Optional` **stopDefault**(): `void`
+▸ **stopDefault**(): `void`
 
 #### Returns
 
@@ -591,13 +592,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:21](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L21)
+[src/leafer/packages/interface/src/event/IEvent.ts:21](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L21)
 
 ___
 
 ### stopNow
 
-▸ `Optional` **stopNow**(): `void`
+▸ **stopNow**(): `void`
 
 #### Returns
 
@@ -609,13 +610,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:22](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L22)
+[src/leafer/packages/interface/src/event/IEvent.ts:22](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L22)
 
 ___
 
 ### stop
 
-▸ `Optional` **stop**(): `void`
+▸ **stop**(): `void`
 
 #### Returns
 
@@ -627,13 +628,37 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IEvent.ts:23](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IEvent.ts#L23)
+[src/leafer/packages/interface/src/event/IEvent.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEvent.ts#L23)
+
+___
+
+### isHoldKeys
+
+▸ **isHoldKeys**(`shortcutKeys?`): `boolean`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `shortcutKeys?` | [`IShortcutKeysCheck`](IShortcutKeysCheck.md) \| [`IShortcutKeys`](../modules.md#ishortcutkeys) |
+
+#### Returns
+
+`boolean`
+
+#### Inherited from
+
+[IDragEvent](IDragEvent.md).[isHoldKeys](IDragEvent.md#isholdkeys)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/event/IUIEvent.ts:26](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L26)
 
 ___
 
 ### getBoxPoint
 
-▸ `Optional` **getBoxPoint**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getBoxPoint**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -651,13 +676,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:26](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L26)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:28](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L28)
 
 ___
 
 ### getInnerPoint
 
-▸ `Optional` **getInnerPoint**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getInnerPoint**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -675,13 +700,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:27](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L27)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:29](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L29)
 
 ___
 
 ### getLocalPoint
 
-▸ `Optional` **getLocalPoint**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getLocalPoint**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -699,13 +724,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:28](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L28)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:30](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L30)
 
 ___
 
 ### getPagePoint
 
-▸ `Optional` **getPagePoint**(): [`IPointData`](IPointData.md)
+▸ **getPagePoint**(): [`IPointData`](IPointData.md)
 
 #### Returns
 
@@ -717,13 +742,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:29](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L29)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:31](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L31)
 
 ___
 
 ### getInner
 
-▸ `Optional` **getInner**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getInner**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -741,13 +766,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:32](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L32)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:34](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L34)
 
 ___
 
 ### getLocal
 
-▸ `Optional` **getLocal**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getLocal**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -765,13 +790,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:33](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L33)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:35](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L35)
 
 ___
 
 ### getPage
 
-▸ `Optional` **getPage**(): [`IPointData`](IPointData.md)
+▸ **getPage**(): [`IPointData`](IPointData.md)
 
 #### Returns
 
@@ -783,13 +808,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L34)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:36](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L36)
 
 ___
 
 ### getPageMove
 
-▸ `Optional` **getPageMove**(`total?`): [`IPointData`](IPointData.md)
+▸ **getPageMove**(`total?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -807,13 +832,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:58](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L58)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:60](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L60)
 
 ___
 
 ### getInnerMove
 
-▸ `Optional` **getInnerMove**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getInnerMove**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -831,13 +856,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:59](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L59)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:61](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L61)
 
 ___
 
 ### getLocalMove
 
-▸ `Optional` **getLocalMove**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getLocalMove**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -855,13 +880,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:60](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L60)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:62](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L62)
 
 ___
 
 ### getPageTotal
 
-▸ `Optional` **getPageTotal**(): [`IPointData`](IPointData.md)
+▸ **getPageTotal**(): [`IPointData`](IPointData.md)
 
 #### Returns
 
@@ -873,13 +898,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:62](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L62)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:64](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L64)
 
 ___
 
 ### getInnerTotal
 
-▸ `Optional` **getInnerTotal**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getInnerTotal**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -897,13 +922,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:63](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L63)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:65](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L65)
 
 ___
 
 ### getLocalTotal
 
-▸ `Optional` **getLocalTotal**(`relative?`): [`IPointData`](IPointData.md)
+▸ **getLocalTotal**(`relative?`): [`IPointData`](IPointData.md)
 
 #### Parameters
 
@@ -921,13 +946,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:64](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L64)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:66](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L66)
 
 ___
 
 ### getPageBounds
 
-▸ `Optional` **getPageBounds**(): [`IBoundsData`](IBoundsData.md)
+▸ **getPageBounds**(): [`IBoundsData`](IBoundsData.md)
 
 #### Returns
 
@@ -939,4 +964,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/event/IUIEvent.ts:66](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/event/IUIEvent.ts#L66)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:68](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L68)

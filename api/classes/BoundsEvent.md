@@ -45,7 +45,7 @@
 
 ### constructor
 
-• **new BoundsEvent**(`type`, `target?`)
+• **new BoundsEvent**(`type`, `target?`): [`BoundsEvent`](BoundsEvent.md)
 
 #### Parameters
 
@@ -54,13 +54,17 @@
 | `type` | `string` |
 | `target?` | [`IEventTarget`](../interfaces/IEventTarget.md) |
 
+#### Returns
+
+[`BoundsEvent`](BoundsEvent.md)
+
 #### Inherited from
 
 [Event](Event.md).[constructor](Event.md#constructor)
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:20](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L20)
+[src/leafer/packages/event/src/Event.ts:20](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L20)
 
 ## Properties
 
@@ -70,7 +74,7 @@
 
 #### Defined in
 
-[leafer/packages/event/src/BoundsEvent.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/BoundsEvent.ts#L8)
+[src/leafer/packages/event/src/BoundsEvent.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/BoundsEvent.ts#L8)
 
 ___
 
@@ -80,7 +84,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/BoundsEvent.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/BoundsEvent.ts#L10)
+[src/leafer/packages/event/src/BoundsEvent.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/BoundsEvent.ts#L10)
 
 ___
 
@@ -90,7 +94,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/BoundsEvent.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/BoundsEvent.ts#L12)
+[src/leafer/packages/event/src/BoundsEvent.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/BoundsEvent.ts#L12)
 
 ___
 
@@ -100,7 +104,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/BoundsEvent.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/BoundsEvent.ts#L14)
+[src/leafer/packages/event/src/BoundsEvent.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/BoundsEvent.ts#L14)
 
 ___
 
@@ -118,7 +122,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:7](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L7)
+[src/leafer/packages/event/src/Event.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L7)
 
 ___
 
@@ -136,7 +140,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L9)
+[src/leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L9)
 
 ___
 
@@ -154,7 +158,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L10)
+[src/leafer/packages/event/src/Event.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L10)
 
 ___
 
@@ -172,7 +176,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L11)
+[src/leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L11)
 
 ___
 
@@ -190,7 +194,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L13)
+[src/leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L13)
 
 ___
 
@@ -208,7 +212,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L14)
+[src/leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L14)
 
 ___
 
@@ -226,7 +230,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L16)
+[src/leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L16)
 
 ___
 
@@ -244,7 +248,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L17)
+[src/leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L17)
 
 ___
 
@@ -262,13 +266,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L18)
+[src/leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L18)
 
 ## Methods
 
 ### checkHas
 
-▸ `Static` **checkHas**(`leaf`, `type`, `mode`): `void`
+▸ **checkHas**(`leaf`, `type`, `mode`): `void`
 
 #### Parameters
 
@@ -284,13 +288,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/BoundsEvent.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/BoundsEvent.ts#L17)
+[src/leafer/packages/event/src/BoundsEvent.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/BoundsEvent.ts#L17)
 
 ___
 
 ### emitLocal
 
-▸ `Static` **emitLocal**(`leaf`): `void`
+▸ **emitLocal**(`leaf`): `void`
 
 #### Parameters
 
@@ -304,13 +308,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/BoundsEvent.ts:26](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/BoundsEvent.ts#L26)
+[src/leafer/packages/event/src/BoundsEvent.ts:26](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/BoundsEvent.ts#L26)
 
 ___
 
 ### emitWorld
 
-▸ `Static` **emitWorld**(`leaf`): `void`
+▸ **emitWorld**(`leaf`): `void`
 
 #### Parameters
 
@@ -324,7 +328,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/BoundsEvent.ts:37](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/BoundsEvent.ts#L37)
+[src/leafer/packages/event/src/BoundsEvent.ts:37](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/BoundsEvent.ts#L37)
 
 ___
 
@@ -346,7 +350,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L25)
+[src/leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L25)
 
 ___
 
@@ -368,7 +372,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L30)
+[src/leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L30)
 
 ___
 
@@ -390,4 +394,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L36)
+[src/leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L36)

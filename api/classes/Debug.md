@@ -37,143 +37,7 @@
 
 ### constructor
 
-• **new Debug**(`name`)
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `name` | `string` |
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:22](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L22)
-
-## Properties
-
-### enable
-
-▪ `Static` **enable**: `boolean`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L8)
-
-___
-
-### filterList
-
-▪ `Static` **filterList**: `string`[] = `[]`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L10)
-
-___
-
-### excludeList
-
-▪ `Static` **excludeList**: `string`[] = `[]`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L11)
-
-___
-
-### showWarn
-
-▪ `Static` **showWarn**: `boolean` = `true`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L14)
-
-___
-
-### showRepaint
-
-▪ `Static` **showRepaint**: `string` \| `boolean`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L15)
-
-___
-
-### showBounds
-
-▪ `Static` **showBounds**: `string` \| `boolean`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:16](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L16)
-
-___
-
-### name
-
-• **name**: `string`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:18](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L18)
-
-___
-
-### repeatMap
-
-• **repeatMap**: [`IBooleanMap`](../interfaces/IBooleanMap.md) = `{}`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:20](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L20)
-
-## Accessors
-
-### filter
-
-• `Static` `set` **filter**(`name`): `void`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `name` | `string` \| `string`[] |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:30](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L30)
-
-___
-
-### exclude
-
-• `Static` `set` **exclude**(`name`): `void`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `name` | `string` \| `string`[] |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[leafer/packages/debug/src/Debug.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L34)
-
-## Methods
-
-### get
-
-▸ `Static` **get**(`name`): [`Debug`](Debug.md)
+• **new Debug**(`name`): [`Debug`](Debug.md)
 
 #### Parameters
 
@@ -187,13 +51,153 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:26](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L26)
+[src/leafer/packages/debug/src/Debug.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L23)
+
+## Properties
+
+### enable
+
+▪ `Static` **enable**: `boolean`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L9)
+
+___
+
+### filterList
+
+▪ `Static` **filterList**: `string`[] = `[]`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L11)
+
+___
+
+### excludeList
+
+▪ `Static` **excludeList**: `string`[] = `[]`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L12)
+
+___
+
+### showWarn
+
+▪ `Static` **showWarn**: `boolean` = `true`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L15)
+
+___
+
+### showRepaint
+
+▪ `Static` **showRepaint**: `string` \| `boolean`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L16)
+
+___
+
+### showBounds
+
+▪ `Static` **showBounds**: `string` \| `boolean`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L17)
+
+___
+
+### name
+
+• **name**: `string`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:19](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L19)
+
+___
+
+### repeatMap
+
+• **repeatMap**: [`IBooleanMap`](../interfaces/IBooleanMap.md) = `{}`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:21](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L21)
+
+## Accessors
+
+### filter
+
+• `set` **filter**(`name`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `name` | `string` \| `string`[] |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:31](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L31)
+
+___
+
+### exclude
+
+• `set` **exclude**(`name`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `name` | `string` \| `string`[] |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:35](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L35)
+
+## Methods
+
+### get
+
+▸ **get**(`name`): [`Debug`](Debug.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `name` | `string` |
+
+#### Returns
+
+[`Debug`](Debug.md)
+
+#### Defined in
+
+[src/leafer/packages/debug/src/Debug.ts:27](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L27)
 
 ___
 
 ### drawRepaint
 
-▸ `Static` **drawRepaint**(`canvas`, `bounds`): `void`
+▸ **drawRepaint**(`canvas`, `bounds`): `void`
 
 #### Parameters
 
@@ -208,13 +212,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:38](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L38)
+[src/leafer/packages/debug/src/Debug.ts:39](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L39)
 
 ___
 
 ### drawBounds
 
-▸ `Static` **drawBounds**(`leaf`, `canvas`, `_options`): `void`
+▸ **drawBounds**(`leaf`, `canvas`, `_options`): `void`
 
 #### Parameters
 
@@ -230,7 +234,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:44](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L44)
+[src/leafer/packages/debug/src/Debug.ts:45](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L45)
 
 ___
 
@@ -250,7 +254,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:54](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L54)
+[src/leafer/packages/debug/src/Debug.ts:55](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L55)
 
 ___
 
@@ -270,7 +274,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:62](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L62)
+[src/leafer/packages/debug/src/Debug.ts:63](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L63)
 
 ___
 
@@ -290,7 +294,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:66](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L66)
+[src/leafer/packages/debug/src/Debug.ts:67](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L67)
 
 ___
 
@@ -311,7 +315,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:70](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L70)
+[src/leafer/packages/debug/src/Debug.ts:71](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L71)
 
 ___
 
@@ -331,4 +335,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/debug/src/Debug.ts:77](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/debug/src/Debug.ts#L77)
+[src/leafer/packages/debug/src/Debug.ts:78](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Debug.ts#L78)

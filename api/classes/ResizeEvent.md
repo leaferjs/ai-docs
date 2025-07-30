@@ -51,7 +51,7 @@
 
 ### constructor
 
-• **new ResizeEvent**(`size`, `oldSize?`)
+• **new ResizeEvent**(`size`, `oldSize?`): [`ResizeEvent`](ResizeEvent.md)
 
 #### Parameters
 
@@ -60,13 +60,17 @@
 | `size` | `string` \| [`IScreenSizeData`](../interfaces/IScreenSizeData.md) |
 | `oldSize?` | [`IScreenSizeData`](../interfaces/IScreenSizeData.md) |
 
+#### Returns
+
+[`ResizeEvent`](ResizeEvent.md)
+
 #### Overrides
 
 [Event](Event.md).[constructor](Event.md#constructor)
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:33](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L33)
+[src/leafer/packages/event/src/ResizeEvent.ts:34](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L34)
 
 ## Properties
 
@@ -84,7 +88,7 @@
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:7](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L7)
+[src/leafer/packages/event/src/Event.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L7)
 
 ___
 
@@ -102,7 +106,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L9)
+[src/leafer/packages/event/src/Event.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L9)
 
 ___
 
@@ -120,7 +124,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L10)
+[src/leafer/packages/event/src/Event.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L10)
 
 ___
 
@@ -138,7 +142,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L11)
+[src/leafer/packages/event/src/Event.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L11)
 
 ___
 
@@ -156,7 +160,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L13)
+[src/leafer/packages/event/src/Event.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L13)
 
 ___
 
@@ -174,7 +178,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L14)
+[src/leafer/packages/event/src/Event.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L14)
 
 ___
 
@@ -192,7 +196,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L16)
+[src/leafer/packages/event/src/Event.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L16)
 
 ___
 
@@ -210,7 +214,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L17)
+[src/leafer/packages/event/src/Event.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L17)
 
 ___
 
@@ -228,7 +232,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L18)
+[src/leafer/packages/event/src/Event.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L18)
 
 ___
 
@@ -238,7 +242,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L8)
+[src/leafer/packages/event/src/ResizeEvent.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L9)
 
 ___
 
@@ -248,7 +252,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L10)
+[src/leafer/packages/event/src/ResizeEvent.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L11)
 
 ___
 
@@ -262,7 +266,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L12)
+[src/leafer/packages/event/src/ResizeEvent.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L13)
 
 ___
 
@@ -276,7 +280,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L13)
+[src/leafer/packages/event/src/ResizeEvent.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L14)
 
 ___
 
@@ -290,7 +294,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L14)
+[src/leafer/packages/event/src/ResizeEvent.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L15)
 
 ___
 
@@ -304,7 +308,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:31](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L31)
+[src/leafer/packages/event/src/ResizeEvent.ts:32](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L32)
 
 ## Accessors
 
@@ -322,7 +326,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:16](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L16)
+[src/leafer/packages/event/src/ResizeEvent.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L17)
 
 ___
 
@@ -340,7 +344,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:22](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L22)
+[src/leafer/packages/event/src/ResizeEvent.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L23)
 
 ___
 
@@ -358,7 +362,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:26](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L26)
+[src/leafer/packages/event/src/ResizeEvent.ts:27](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L27)
 
 ## Methods
 
@@ -380,7 +384,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L25)
+[src/leafer/packages/event/src/Event.ts:25](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L25)
 
 ___
 
@@ -402,7 +406,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L30)
+[src/leafer/packages/event/src/Event.ts:30](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L30)
 
 ___
 
@@ -424,13 +428,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/Event.ts#L36)
+[src/leafer/packages/event/src/Event.ts:36](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/Event.ts#L36)
 
 ___
 
 ### isResizing
 
-▸ `Static` **isResizing**(`leaf`): `boolean`
+▸ **isResizing**(`leaf`): `boolean`
 
 #### Parameters
 
@@ -444,4 +448,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/event/src/ResizeEvent.ts:43](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/event/src/ResizeEvent.ts#L43)
+[src/leafer/packages/event/src/ResizeEvent.ts:44](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/ResizeEvent.ts#L44)

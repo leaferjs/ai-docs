@@ -20,7 +20,11 @@
 
 ### constructor
 
-• **new AnimateEvent**()
+• **new AnimateEvent**(): [`AnimateEvent`](AnimateEvent.md)
+
+#### Returns
+
+[`AnimateEvent`](AnimateEvent.md)
 
 ## Properties
 
@@ -30,7 +34,7 @@
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:2](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/animate/src/AnimateEvent.ts#L2)
+[src/in/packages/animate/src/AnimateEvent.ts:2](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/animate/src/AnimateEvent.ts#L2)
 
 ___
 
@@ -40,7 +44,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:4](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/animate/src/AnimateEvent.ts#L4)
+[src/in/packages/animate/src/AnimateEvent.ts:4](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/animate/src/AnimateEvent.ts#L4)
 
 ___
 
@@ -50,7 +54,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:5](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/animate/src/AnimateEvent.ts#L5)
+[src/in/packages/animate/src/AnimateEvent.ts:5](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/animate/src/AnimateEvent.ts#L5)
 
 ___
 
@@ -60,7 +64,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:6](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/animate/src/AnimateEvent.ts#L6)
+[src/in/packages/animate/src/AnimateEvent.ts:6](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/animate/src/AnimateEvent.ts#L6)
 
 ___
 
@@ -70,7 +74,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:7](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/animate/src/AnimateEvent.ts#L7)
+[src/in/packages/animate/src/AnimateEvent.ts:7](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/animate/src/AnimateEvent.ts#L7)
 
 ___
 
@@ -80,7 +84,7 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:9](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/animate/src/AnimateEvent.ts#L9)
+[src/in/packages/animate/src/AnimateEvent.ts:9](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/animate/src/AnimateEvent.ts#L9)
 
 ___
 
@@ -90,4 +94,4 @@ ___
 
 #### Defined in
 
-[in/packages/animate/src/AnimateEvent.ts:10](https://github.com/leaferjs/leafer-in/blob/8a9bfb8/packages/animate/src/AnimateEvent.ts#L10)
+[src/in/packages/animate/src/AnimateEvent.ts:10](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/animate/src/AnimateEvent.ts#L10)

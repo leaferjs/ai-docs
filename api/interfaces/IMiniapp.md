@@ -29,13 +29,13 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:81](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L81)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:82](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L82)
 
 ___
 
 ### getBounds
 
-▸ **getBounds**(`select`): `Promise`<[`IBoundsData`](IBoundsData.md)\>
+▸ **getBounds**(`select`): `Promise`\<[`IBoundsData`](IBoundsData.md)\>
 
 #### Parameters
 
@@ -45,17 +45,17 @@ ___
 
 #### Returns
 
-`Promise`<[`IBoundsData`](IBoundsData.md)\>
+`Promise`\<[`IBoundsData`](IBoundsData.md)\>
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:82](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L82)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:83](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L83)
 
 ___
 
 ### getSizeView
 
-▸ **getSizeView**(`select`): `Promise`<[`IMiniappSizeView`](IMiniappSizeView.md)\>
+▸ **getSizeView**(`select`): `Promise`\<[`IMiniappSizeView`](IMiniappSizeView.md)\>
 
 #### Parameters
 
@@ -65,11 +65,11 @@ ___
 
 #### Returns
 
-`Promise`<[`IMiniappSizeView`](IMiniappSizeView.md)\>
+`Promise`\<[`IMiniappSizeView`](IMiniappSizeView.md)\>
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:83](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L83)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:84](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L84)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:84](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L84)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:85](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L85)
 
 ___
 
@@ -109,13 +109,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:85](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L85)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:86](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L86)
 
 ___
 
 ### saveToAlbum
 
-▸ **saveToAlbum**(`path`): `Promise`<`any`\>
+▸ **saveToAlbum**(`path`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -125,8 +125,8 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:86](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L86)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:87](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L87)

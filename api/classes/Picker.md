@@ -1,5 +1,9 @@
 # Class: Picker
 
+## Implements
+
+- [`IPicker`](../interfaces/IPicker.md)
+
 ## Table of contents
 
 ### Constructors
@@ -17,6 +21,7 @@
 ### Methods
 
 - [getByPoint](Picker.md#getbypoint)
+- [hitPoint](Picker.md#hitpoint)
 - [getBestMatchLeaf](Picker.md#getbestmatchleaf)
 - [getPath](Picker.md#getpath)
 - [getHitablePath](Picker.md#gethitablepath)
@@ -31,7 +36,7 @@
 
 ### constructor
 
-• **new Picker**(`target`, `selector`)
+• **new Picker**(`target`, `selector`): [`Picker`](Picker.md)
 
 #### Parameters
 
@@ -40,9 +45,13 @@
 | `target` | [`ILeaf`](../interfaces/ILeaf.md) |
 | `selector` | [`ISelector`](../interfaces/ISelector.md) |
 
+#### Returns
+
+[`Picker`](Picker.md)
+
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L17)
+[src/leafer/packages/partner/selector/src/Picker.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L17)
 
 ## Properties
 
@@ -52,7 +61,7 @@
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L9)
+[src/leafer/packages/partner/selector/src/Picker.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L9)
 
 ___
 
@@ -62,7 +71,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L10)
+[src/leafer/packages/partner/selector/src/Picker.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L10)
 
 ___
 
@@ -72,7 +81,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L12)
+[src/leafer/packages/partner/selector/src/Picker.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L12)
 
 ___
 
@@ -82,7 +91,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L13)
+[src/leafer/packages/partner/selector/src/Picker.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L13)
 
 ___
 
@@ -92,7 +101,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L15)
+[src/leafer/packages/partner/selector/src/Picker.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L15)
 
 ## Methods
 
@@ -112,9 +121,39 @@ ___
 
 [`IPickResult`](../interfaces/IPickResult.md)
 
+#### Implementation of
+
+[IPicker](../interfaces/IPicker.md).[getByPoint](../interfaces/IPicker.md#getbypoint)
+
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:22](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L22)
+[src/leafer/packages/partner/selector/src/Picker.ts:22](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L22)
+
+___
+
+### hitPoint
+
+▸ **hitPoint**(`hitPoint`, `hitRadius`, `options?`): `boolean`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `hitPoint` | [`IPointData`](../interfaces/IPointData.md) |
+| `hitRadius` | `number` |
+| `options?` | [`IPickOptions`](../interfaces/IPickOptions.md) |
+
+#### Returns
+
+`boolean`
+
+#### Implementation of
+
+[IPicker](../interfaces/IPicker.md).[hitPoint](../interfaces/IPicker.md#hitpoint)
+
+#### Defined in
+
+[src/leafer/packages/partner/selector/src/Picker.ts:46](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L46)
 
 ___
 
@@ -136,7 +175,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:46](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L46)
+[src/leafer/packages/partner/selector/src/Picker.ts:50](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L50)
 
 ___
 
@@ -156,7 +195,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:71](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L71)
+[src/leafer/packages/partner/selector/src/Picker.ts:82](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L82)
 
 ___
 
@@ -176,7 +215,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:81](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L81)
+[src/leafer/packages/partner/selector/src/Picker.ts:92](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L92)
 
 ___
 
@@ -196,13 +235,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:93](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L93)
+[src/leafer/packages/partner/selector/src/Picker.ts:104](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L104)
 
 ___
 
 ### hitBranch
 
-▸ `Protected` **hitBranch**(`branch`): `void`
+▸ **hitBranch**(`branch`): `void`
 
 #### Parameters
 
@@ -216,13 +255,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:114](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L114)
+[src/leafer/packages/partner/selector/src/Picker.ts:125](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L125)
 
 ___
 
 ### eachFind
 
-▸ `Protected` **eachFind**(`children`, `hitMask`): `void`
+▸ **eachFind**(`children`, `hitMask`): `void`
 
 #### Parameters
 
@@ -237,13 +276,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:118](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L118)
+[src/leafer/packages/partner/selector/src/Picker.ts:129](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L129)
 
 ___
 
 ### hitChild
 
-▸ `Protected` **hitChild**(`child`, `point`, `proxy?`): `void`
+▸ **hitChild**(`child`, `point`, `proxy?`): `void`
 
 #### Parameters
 
@@ -259,13 +298,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:137](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L137)
+[src/leafer/packages/partner/selector/src/Picker.ts:148](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L148)
 
 ___
 
 ### clear
 
-▸ `Protected` **clear**(): `void`
+▸ **clear**(): `void`
 
 #### Returns
 
@@ -273,7 +312,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:146](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L146)
+[src/leafer/packages/partner/selector/src/Picker.ts:171](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L171)
 
 ___
 
@@ -285,6 +324,10 @@ ___
 
 `void`
 
+#### Implementation of
+
+[IPicker](../interfaces/IPicker.md).[destroy](../interfaces/IPicker.md#destroy)
+
 #### Defined in
 
-[leafer/packages/partner/selector/src/Picker.ts:152](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/partner/selector/src/Picker.ts#L152)
+[src/leafer/packages/partner/selector/src/Picker.ts:177](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/partner/selector/src/Picker.ts#L177)

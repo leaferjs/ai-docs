@@ -42,7 +42,11 @@
 
 ### constructor
 
-• **new HitCanvasManager**()
+• **new HitCanvasManager**(): [`HitCanvasManager`](HitCanvasManager.md)
+
+#### Returns
+
+[`HitCanvasManager`](HitCanvasManager.md)
 
 #### Inherited from
 
@@ -60,7 +64,7 @@
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:6](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L6)
+[src/leafer/packages/canvas/canvas/src/CanvasManager.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/canvas/canvas/src/CanvasManager.ts#L6)
 
 ___
 
@@ -74,7 +78,7 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:7](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L7)
+[src/ui/packages/hit/src/HitCanvasManager.ts:7](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L7)
 
 ___
 
@@ -84,7 +88,7 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:9](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L9)
+[src/ui/packages/hit/src/HitCanvasManager.ts:9](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L9)
 
 ___
 
@@ -94,7 +98,7 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:10](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L10)
+[src/ui/packages/hit/src/HitCanvasManager.ts:10](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L10)
 
 ## Methods
 
@@ -122,7 +126,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L8)
+[src/leafer/packages/canvas/canvas/src/CanvasManager.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/canvas/canvas/src/CanvasManager.ts#L8)
 
 ___
 
@@ -150,7 +154,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L13)
+[src/leafer/packages/canvas/canvas/src/CanvasManager.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/canvas/canvas/src/CanvasManager.ts#L13)
 
 ___
 
@@ -178,7 +182,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:30](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L30)
+[src/leafer/packages/canvas/canvas/src/CanvasManager.ts:30](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/canvas/canvas/src/CanvasManager.ts#L30)
 
 ___
 
@@ -200,7 +204,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L34)
+[src/leafer/packages/canvas/canvas/src/CanvasManager.ts:34](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/canvas/canvas/src/CanvasManager.ts#L34)
 
 ___
 
@@ -222,7 +226,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/canvas/canvas/src/CanvasManager.ts:49](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/canvas/canvas/src/CanvasManager.ts#L49)
+[src/leafer/packages/canvas/canvas/src/CanvasManager.ts:49](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/canvas/canvas/src/CanvasManager.ts#L49)
 
 ___
 
@@ -247,7 +251,7 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:12](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L12)
+[src/ui/packages/hit/src/HitCanvasManager.ts:12](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L12)
 
 ___
 
@@ -271,7 +275,7 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:18](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L18)
+[src/ui/packages/hit/src/HitCanvasManager.ts:18](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L18)
 
 ___
 
@@ -285,7 +289,7 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:24](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L24)
+[src/ui/packages/hit/src/HitCanvasManager.ts:24](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L24)
 
 ___
 
@@ -299,13 +303,13 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:28](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L28)
+[src/ui/packages/hit/src/HitCanvasManager.ts:28](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L28)
 
 ___
 
 ### \_\_clearLeafList
 
-▸ `Protected` **__clearLeafList**(`leafList`): `void`
+▸ **__clearLeafList**(`leafList`): `void`
 
 #### Parameters
 
@@ -319,13 +323,13 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:32](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L32)
+[src/ui/packages/hit/src/HitCanvasManager.ts:32](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L32)
 
 ___
 
 ### \_\_autoClear
 
-▸ `Protected` **__autoClear**(): `void`
+▸ **__autoClear**(): `void`
 
 #### Returns
 
@@ -333,7 +337,7 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:44](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L44)
+[src/ui/packages/hit/src/HitCanvasManager.ts:44](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L44)
 
 ___
 
@@ -355,4 +359,4 @@ ___
 
 #### Defined in
 
-[ui/packages/hit/src/HitCanvasManager.ts:48](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/hit/src/HitCanvasManager.ts#L48)
+[src/ui/packages/hit/src/HitCanvasManager.ts:48](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/hit/src/HitCanvasManager.ts#L48)

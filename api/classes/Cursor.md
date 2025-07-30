@@ -19,7 +19,11 @@
 
 ### constructor
 
-• **new Cursor**()
+• **new Cursor**(): [`Cursor`](Cursor.md)
+
+#### Returns
+
+[`Cursor`](Cursor.md)
 
 ## Properties
 
@@ -29,13 +33,13 @@
 
 #### Defined in
 
-[ui/packages/interaction/interaction/src/Cursor.ts:6](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interaction/interaction/src/Cursor.ts#L6)
+[src/ui/packages/interaction/interaction/src/Cursor.ts:6](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interaction/interaction/src/Cursor.ts#L6)
 
 ## Methods
 
 ### set
 
-▸ `Static` **set**(`name`, `value`): `void`
+▸ **set**(`name`, `value`): `void`
 
 #### Parameters
 
@@ -50,13 +54,13 @@
 
 #### Defined in
 
-[ui/packages/interaction/interaction/src/Cursor.ts:8](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interaction/interaction/src/Cursor.ts#L8)
+[src/ui/packages/interaction/interaction/src/Cursor.ts:8](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interaction/interaction/src/Cursor.ts#L8)
 
 ___
 
 ### get
 
-▸ `Static` **get**(`name`): [`ICursorType`](../modules.md#icursortype) \| [`ICursorType`](../modules.md#icursortype)[]
+▸ **get**(`name`): [`ICursorType`](../modules.md#icursortype) \| [`ICursorType`](../modules.md#icursortype)[]
 
 #### Parameters
 
@@ -70,4 +74,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interaction/interaction/src/Cursor.ts:12](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interaction/interaction/src/Cursor.ts#L12)
+[src/ui/packages/interaction/interaction/src/Cursor.ts:12](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interaction/interaction/src/Cursor.ts#L12)

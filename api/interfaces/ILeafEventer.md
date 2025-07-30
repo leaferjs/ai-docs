@@ -24,7 +24,7 @@
 
 ### on
 
-▸ `Optional` **on**(`type`, `listener?`, `options?`): `void`
+▸ **on**(`type`, `listener?`, `options?`): `void`
 
 #### Parameters
 
@@ -40,13 +40,13 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L10)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L10)
 
 ___
 
 ### off
 
-▸ `Optional` **off**(`type?`, `listener?`, `options?`): `void`
+▸ **off**(`type?`, `listener?`, `options?`): `void`
 
 #### Parameters
 
@@ -62,13 +62,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L11)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L11)
 
 ___
 
 ### on\_
 
-▸ `Optional` **on_**(`type`, `listener`, `bind?`, `options?`): [`IEventListenerId`](IEventListenerId.md)
+▸ **on_**(`type`, `listener`, `bind?`, `options?`): [`IEventListenerId`](IEventListenerId.md)
 
 #### Parameters
 
@@ -85,13 +85,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L12)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L12)
 
 ___
 
 ### off\_
 
-▸ `Optional` **off_**(`id`): `void`
+▸ **off_**(`id`): `void`
 
 #### Parameters
 
@@ -105,13 +105,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L13)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L13)
 
 ___
 
 ### once
 
-▸ `Optional` **once**(`type`, `listener`, `capture?`): `void`
+▸ **once**(`type`, `listener`, `capture?`): `void`
 
 #### Parameters
 
@@ -127,13 +127,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L14)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L14)
 
 ___
 
 ### emit
 
-▸ `Optional` **emit**(`type`, `event?`, `capture?`): `void`
+▸ **emit**(`type`, `event?`, `capture?`): `void`
 
 #### Parameters
 
@@ -149,13 +149,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L15)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L15)
 
 ___
 
 ### emitEvent
 
-▸ `Optional` **emitEvent**(`event?`, `capture?`): `void`
+▸ **emitEvent**(`event?`, `capture?`): `void`
 
 #### Parameters
 
@@ -170,13 +170,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:16](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L16)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L16)
 
 ___
 
 ### hasEvent
 
-▸ `Optional` **hasEvent**(`type`, `capture?`): `boolean`
+▸ **hasEvent**(`type`, `capture?`): `boolean`
 
 #### Parameters
 
@@ -191,13 +191,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L17)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L17)
 
 ___
 
 ### destroyEventer
 
-▸ `Optional` **destroyEventer**(): `void`
+▸ **destroyEventer**(): `void`
 
 #### Returns
 
@@ -205,4 +205,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafEventer.ts:18](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafEventer.ts#L18)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L18)

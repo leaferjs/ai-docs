@@ -30,6 +30,7 @@
 
 - [toURL](IPlatform.md#tourl)
 - [requestRender](IPlatform.md#requestrender)
+- [getSelector](IPlatform.md#getselector)
 - [layout](IPlatform.md#layout)
 
 ## Properties
@@ -40,7 +41,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L13)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L13)
 
 ___
 
@@ -50,7 +51,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L14)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L14)
 
 ___
 
@@ -60,7 +61,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:18](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L18)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L18)
 
 ___
 
@@ -70,7 +71,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:19](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L19)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:19](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L19)
 
 ___
 
@@ -80,7 +81,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:20](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L20)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:20](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L20)
 
 ___
 
@@ -90,7 +91,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:22](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L22)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:22](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L22)
 
 ___
 
@@ -100,7 +101,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:23](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L23)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L23)
 
 ___
 
@@ -110,7 +111,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:25](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L25)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:25](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L25)
 
 ___
 
@@ -120,7 +121,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:27](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L27)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:27](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L27)
 
 ___
 
@@ -130,7 +131,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:28](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L28)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:28](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L28)
 
 ___
 
@@ -140,7 +141,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:29](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L29)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:29](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L29)
 
 ___
 
@@ -150,7 +151,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:30](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L30)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:30](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L30)
 
 ___
 
@@ -160,7 +161,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:31](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L31)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:31](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L31)
 
 ___
 
@@ -170,7 +171,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:33](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L33)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:33](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L33)
 
 ___
 
@@ -183,12 +184,12 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `createCanvas` | (`width`: `number`, `height`: `number`, `format?`: ``"svg"`` \| ``"pdf"``) => `any` |
-| `canvasToDataURL` | (`canvas`: `any`, `type?`: [`IExportImageType`](../modules.md#iexportimagetype), `quality?`: `number`) => `string` \| `Promise`<`string`\> |
-| `canvasToBolb` | (`canvas`: `any`, `type?`: [`IExportFileType`](../modules.md#iexportfiletype), `quality?`: `number`) => `Promise`<`any`\> |
-| `canvasSaveAs` | (`canvas`: `any`, `filename`: `string`, `quality?`: `number`) => `Promise`<`void`\> |
-| `download` | (`url`: `string`, `filename`: `string`) => `Promise`<`void`\> |
-| `loadImage` | (`url`: `string`, `progressFn?`: [`IProgressFunction`](IProgressFunction.md)) => `Promise`<`any`\> |
-| `loadImageWithProgress?` | (`url`: `string`, `progressFn?`: [`IProgressFunction`](IProgressFunction.md)) => `Promise`<`any`\> |
+| `canvasToDataURL` | (`canvas`: `any`, `type?`: [`IExportImageType`](../modules.md#iexportimagetype), `quality?`: `number`) => `string` \| `Promise`\<`string`\> |
+| `canvasToBolb` | (`canvas`: `any`, `type?`: [`IExportFileType`](../modules.md#iexportfiletype), `quality?`: `number`) => `Promise`\<`any`\> |
+| `canvasSaveAs` | (`canvas`: `any`, `filename`: `string`, `quality?`: `number`) => `Promise`\<`void`\> |
+| `download` | (`url`: `string`, `filename`: `string`) => `Promise`\<`void`\> |
+| `loadImage` | (`url`: `string`, `progressFn?`: [`IProgressFunction`](IProgressFunction.md)) => `Promise`\<`any`\> |
+| `loadImageWithProgress?` | (`url`: `string`, `progressFn?`: [`IProgressFunction`](IProgressFunction.md)) => `Promise`\<`any`\> |
 | `noRepeat?` | `string` |
 | `Image?` | `any` |
 | `PointerEvent?` | `any` |
@@ -196,7 +197,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:36](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L36)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:37](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L37)
 
 ___
 
@@ -206,7 +207,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:50](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L50)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:51](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L51)
 
 ___
 
@@ -216,7 +217,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:51](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L51)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:52](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L52)
 
 ___
 
@@ -226,7 +227,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:52](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L52)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:53](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L53)
 
 ___
 
@@ -244,7 +245,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:54](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L54)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:55](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L55)
 
 ___
 
@@ -254,7 +255,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:60](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L60)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:61](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L61)
 
 ___
 
@@ -276,7 +277,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:62](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L62)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:63](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L63)
 
 ## Methods
 
@@ -297,13 +298,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L15)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L15)
 
 ___
 
 ### requestRender
 
-▸ `Optional` **requestRender**(`render`): `void`
+▸ **requestRender**(`render`): `void`
 
 #### Parameters
 
@@ -317,13 +318,33 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L17)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L17)
+
+___
+
+### getSelector
+
+▸ **getSelector**(`leaf`): [`ISelector`](ISelector.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `leaf` | [`ILeaf`](ILeaf.md) |
+
+#### Returns
+
+[`ISelector`](ISelector.md)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/platform/IPlatform.ts:34](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L34)
 
 ___
 
 ### layout
 
-▸ `Optional` **layout**(`target`): `void`
+▸ **layout**(`target`): `void`
 
 #### Parameters
 
@@ -337,4 +358,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/platform/IPlatform.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/platform/IPlatform.ts#L34)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:35](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/platform/IPlatform.ts#L35)

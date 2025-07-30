@@ -20,7 +20,7 @@
 
 ### \_\_setAttr
 
-▸ `Optional` **__setAttr**(`name`, `newValue`): `boolean`
+▸ **__setAttr**(`name`, `newValue`): `boolean`
 
 #### Parameters
 
@@ -35,13 +35,13 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafDataProxy.ts:7](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafDataProxy.ts#L7)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafDataProxy.ts#L7)
 
 ___
 
 ### \_\_getAttr
 
-▸ `Optional` **__getAttr**(`name`): [`IValue`](../modules.md#ivalue)
+▸ **__getAttr**(`name`): [`IValue`](../modules.md#ivalue)
 
 #### Parameters
 
@@ -55,13 +55,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafDataProxy.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafDataProxy.ts#L8)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafDataProxy.ts#L8)
 
 ___
 
 ### \_\_realSetAttr
 
-▸ `Optional` **__realSetAttr**(`name`, `newValue`): `void`
+▸ **__realSetAttr**(`name`, `newValue`): `void`
 
 #### Parameters
 
@@ -76,13 +76,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafDataProxy.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafDataProxy.ts#L9)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafDataProxy.ts#L9)
 
 ___
 
 ### setProxyAttr
 
-▸ `Optional` **setProxyAttr**(`name`, `newValue`): `void`
+▸ **setProxyAttr**(`name`, `newValue`): `void`
 
 #### Parameters
 
@@ -97,13 +97,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafDataProxy.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafDataProxy.ts#L10)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafDataProxy.ts#L10)
 
 ___
 
 ### getProxyAttr
 
-▸ `Optional` **getProxyAttr**(`name`): [`IValue`](../modules.md#ivalue)
+▸ **getProxyAttr**(`name`): [`IValue`](../modules.md#ivalue)
 
 #### Parameters
 
@@ -117,4 +117,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafDataProxy.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafDataProxy.ts#L11)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafDataProxy.ts#L11)

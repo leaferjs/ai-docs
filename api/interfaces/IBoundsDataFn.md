@@ -4,13 +4,14 @@
 
 ### IBoundsDataFn
 
-▸ **IBoundsDataFn**(`target`): [`IBoundsData`](IBoundsData.md)
+▸ **IBoundsDataFn**(`target`, `index?`): [`IBoundsData`](IBoundsData.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `target` | `any` |
+| `index?` | `number` |
 
 #### Returns
 
@@ -18,4 +19,4 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/math/IMath.ts:88](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/math/IMath.ts#L88)
+[src/leafer/packages/interface/src/math/IMath.ts:88](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/math/IMath.ts#L88)

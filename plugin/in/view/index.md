@@ -31,11 +31,11 @@ bun add @leafer-in/view
 ::: code-group
 
 ```html [view.min]
-<script src="https://unpkg.com/@leafer-in/view@1.8.0/dist/view.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@1.9.0/dist/view.min.js"></script>
 ```
 
 ```html [view]
-<script src="https://unpkg.com/@leafer-in/view@1.8.0/dist/view.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@1.9.0/dist/view.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
@@ -78,9 +78,9 @@ type IZoomType =
 leafer.zoom('fit')
 
 // 动画过渡
-leafer.zoom('fit', null, null, true)
+leafer.zoom('fit', 0, null, true)
 
-leafer.zoom('fit', null, null, 2) // 过渡 2 秒
+leafer.zoom('fit', 0, null, 2) // 过渡 2 秒
 ```
 
 ## 示例

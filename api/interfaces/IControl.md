@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:2](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/control/IControl.ts#L2)
+[src/leafer/packages/interface/src/control/IControl.ts:2](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/control/IControl.ts#L2)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:3](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/control/IControl.ts#L3)
+[src/leafer/packages/interface/src/control/IControl.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/control/IControl.ts#L3)
 
 ___
 
@@ -64,4 +64,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/control/IControl.ts:4](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/control/IControl.ts#L4)
+[src/leafer/packages/interface/src/control/IControl.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/control/IControl.ts#L4)

@@ -58,6 +58,48 @@ LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 `leafer.end`
 
+### 视图事件
+
+### LeaferEvent.TRANSFORM
+
+Leafer 实例的 x、y、scaleX、scaleY、rotation、skew [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+
+app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
+
+`leafer.transform`
+
+### LeaferEvent.MOVE
+
+Leafer 实例的 x、y [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+
+app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
+
+`leafer.move`
+
+### LeaferEvent.SCALE
+
+Leafer 实例的 scale、scaleX、scaleY [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+
+app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
+
+`leafer.scale`
+
+### LeaferEvent.ROTATE
+
+Leafer 实例的 rotation [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+
+app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
+
+`leafer.rotate`
+
+### LeaferEvent.SKEW
+
+Leafer 实例的 skew [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+
+app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
+
+`leafer.skew`
+
 <!-- ## 继承事件
 
 ### [Event](./Event.md) -->
@@ -67,6 +109,8 @@ LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 ### [LeaferEvent](/api/classes/LeaferEvent.md) -->
 
 ## 示例
+
+### 监听 Leafer 事件
 
 ```ts
 // #监听 Leafer 事件
@@ -80,6 +124,26 @@ leafer.add(rect)
 
 leafer.on(LeaferEvent.READY, function () { // [!code hl:3]
     // ready
+})  
+
+```
+
+### 监听 Leafer 缩放变化事件
+
+```ts
+// #监听 Leafer 事件 - 缩放变化事件
+import { Leafer, Rect, LeaferEvent } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件 // [!code hl]
+
+const leafer = new Leafer({ view: window, type: 'viewport' })
+
+const rect = new Rect({ x: 100, y: 100, fill: '#32cd79', draggable: true })
+
+leafer.add(rect)
+
+leafer.on(LeaferEvent.SCALE, function () { // [!code hl:4]
+    // 缩放视图、或修改scale后，这里可以实时收到缩放比例变化
+    console.log('leafer.scale', leafer.scaleX)
 })  
 
 ```

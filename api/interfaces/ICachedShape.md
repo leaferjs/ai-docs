@@ -12,6 +12,7 @@
 
 - [canvas](ICachedShape.md#canvas)
 - [matrix](ICachedShape.md#matrix)
+- [fitMatrix](ICachedShape.md#fitmatrix)
 - [bounds](ICachedShape.md#bounds)
 - [worldCanvas](ICachedShape.md#worldcanvas)
 - [shapeBounds](ICachedShape.md#shapebounds)
@@ -30,7 +31,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/display/ILeaf.ts:27](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/ILeaf.ts#L27)
+[src/leafer/packages/interface/src/display/ILeaf.ts:27](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L27)
 
 ___
 
@@ -44,7 +45,21 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/ILeaf.ts:28](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/ILeaf.ts#L28)
+[src/leafer/packages/interface/src/display/ILeaf.ts:28](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L28)
+
+___
+
+### fitMatrix
+
+• `Optional` **fitMatrix**: [`IMatrix`](IMatrix.md)
+
+#### Inherited from
+
+[ICachedLeaf](ICachedLeaf.md).[fitMatrix](ICachedLeaf.md#fitmatrix)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/display/ILeaf.ts:29](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L29)
 
 ___
 
@@ -58,7 +73,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/ILeaf.ts:29](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/ILeaf.ts#L29)
+[src/leafer/packages/interface/src/display/ILeaf.ts:30](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L30)
 
 ___
 
@@ -68,7 +83,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/ICachedShape.ts:4](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICachedShape.ts#L4)
+[src/ui/packages/interface/src/ICachedShape.ts:4](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/ICachedShape.ts#L4)
 
 ___
 
@@ -78,7 +93,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/ICachedShape.ts:5](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICachedShape.ts#L5)
+[src/ui/packages/interface/src/ICachedShape.ts:5](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/ICachedShape.ts#L5)
 
 ___
 
@@ -88,7 +103,7 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/ICachedShape.ts:6](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICachedShape.ts#L6)
+[src/ui/packages/interface/src/ICachedShape.ts:6](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/ICachedShape.ts#L6)
 
 ___
 
@@ -98,4 +113,4 @@ ___
 
 #### Defined in
 
-[ui/packages/interface/src/ICachedShape.ts:7](https://github.com/leaferjs/leafer-ui/blob/d5b15f5/packages/interface/src/ICachedShape.ts#L7)
+[src/ui/packages/interface/src/ICachedShape.ts:7](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/ICachedShape.ts#L7)

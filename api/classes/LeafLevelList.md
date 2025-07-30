@@ -36,7 +36,7 @@
 
 ### constructor
 
-• **new LeafLevelList**(`item?`)
+• **new LeafLevelList**(`item?`): [`LeafLevelList`](LeafLevelList.md)
 
 #### Parameters
 
@@ -44,9 +44,13 @@
 | :------ | :------ |
 | `item?` | [`ILeaf`](../interfaces/ILeaf.md) \| [`ILeaf`](../interfaces/ILeaf.md)[] |
 
+#### Returns
+
+[`LeafLevelList`](LeafLevelList.md)
+
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L12)
+[src/leafer/packages/list/src/LeafLevelList.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L13)
 
 ## Properties
 
@@ -60,7 +64,7 @@
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:5](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L5)
+[src/leafer/packages/list/src/LeafLevelList.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L6)
 
 ___
 
@@ -74,7 +78,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:6](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L6)
+[src/leafer/packages/list/src/LeafLevelList.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L7)
 
 ___
 
@@ -88,7 +92,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:7](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L7)
+[src/leafer/packages/list/src/LeafLevelList.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L8)
 
 ___
 
@@ -98,7 +102,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L10)
+[src/leafer/packages/list/src/LeafLevelList.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L11)
 
 ## Accessors
 
@@ -116,7 +120,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L9)
+[src/leafer/packages/list/src/LeafLevelList.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L10)
 
 ## Methods
 
@@ -140,7 +144,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:17](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L17)
+[src/leafer/packages/list/src/LeafLevelList.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L18)
 
 ___
 
@@ -164,7 +168,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:21](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L21)
+[src/leafer/packages/list/src/LeafLevelList.ts:22](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L22)
 
 ___
 
@@ -188,7 +192,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:25](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L25)
+[src/leafer/packages/list/src/LeafLevelList.ts:26](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L26)
 
 ___
 
@@ -212,7 +216,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L34)
+[src/leafer/packages/list/src/LeafLevelList.ts:35](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L35)
 
 ___
 
@@ -236,7 +240,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:38](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L38)
+[src/leafer/packages/list/src/LeafLevelList.ts:39](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L39)
 
 ___
 
@@ -260,7 +264,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:52](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L52)
+[src/leafer/packages/list/src/LeafLevelList.ts:53](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L53)
 
 ___
 
@@ -278,7 +282,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:62](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L62)
+[src/leafer/packages/list/src/LeafLevelList.ts:63](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L63)
 
 ___
 
@@ -296,4 +300,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/list/src/LeafLevelList.ts:69](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/list/src/LeafLevelList.ts#L69)
+[src/leafer/packages/list/src/LeafLevelList.ts:70](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/list/src/LeafLevelList.ts#L70)

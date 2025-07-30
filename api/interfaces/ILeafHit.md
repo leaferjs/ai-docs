@@ -22,7 +22,7 @@
 
 ### \_\_hitWorld
 
-▸ `Optional` **__hitWorld**(`point`): `boolean`
+▸ **__hitWorld**(`point`): `boolean`
 
 #### Parameters
 
@@ -36,13 +36,13 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafHit.ts:8](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafHit.ts#L8)
+[src/leafer/packages/interface/src/display/module/ILeafHit.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafHit.ts#L8)
 
 ___
 
 ### \_\_hit
 
-▸ `Optional` **__hit**(`inner`): `boolean`
+▸ **__hit**(`inner`): `boolean`
 
 #### Parameters
 
@@ -56,13 +56,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafHit.ts:9](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafHit.ts#L9)
+[src/leafer/packages/interface/src/display/module/ILeafHit.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafHit.ts#L9)
 
 ___
 
 ### \_\_hitFill
 
-▸ `Optional` **__hitFill**(`inner`): `boolean`
+▸ **__hitFill**(`inner`): `boolean`
 
 #### Parameters
 
@@ -76,13 +76,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafHit.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafHit.ts#L10)
+[src/leafer/packages/interface/src/display/module/ILeafHit.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafHit.ts#L10)
 
 ___
 
 ### \_\_hitStroke
 
-▸ `Optional` **__hitStroke**(`inner`, `strokeWidth`): `boolean`
+▸ **__hitStroke**(`inner`, `strokeWidth`): `boolean`
 
 #### Parameters
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafHit.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafHit.ts#L11)
+[src/leafer/packages/interface/src/display/module/ILeafHit.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafHit.ts#L11)
 
 ___
 
@@ -117,13 +117,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafHit.ts:12](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafHit.ts#L12)
+[src/leafer/packages/interface/src/display/module/ILeafHit.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafHit.ts#L12)
 
 ___
 
 ### \_\_drawHitPath
 
-▸ `Optional` **__drawHitPath**(`canvas`): `void`
+▸ **__drawHitPath**(`canvas`): `void`
 
 #### Parameters
 
@@ -137,13 +137,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafHit.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafHit.ts#L13)
+[src/leafer/packages/interface/src/display/module/ILeafHit.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafHit.ts#L13)
 
 ___
 
 ### \_\_updateHitCanvas
 
-▸ `Optional` **__updateHitCanvas**(): `void`
+▸ **__updateHitCanvas**(): `void`
 
 #### Returns
 
@@ -151,4 +151,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafHit.ts:14](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafHit.ts#L14)
+[src/leafer/packages/interface/src/display/module/ILeafHit.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafHit.ts#L14)

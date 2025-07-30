@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:25](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L25)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:25](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L25)
 
 ▸ **encodeSync**(`format`): `any`
 
@@ -45,13 +45,13 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:26](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L26)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:26](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L26)
 
 ___
 
 ### encode
 
-▸ **encode**(`format`, `quality?`): `Promise`<`any`\>
+▸ **encode**(`format`, `quality?`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -62,13 +62,13 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:28](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L28)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:28](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L28)
 
-▸ **encode**(`format`): `Promise`<`any`\>
+▸ **encode**(`format`): `Promise`\<`any`\>
 
 #### Parameters
 
@@ -78,11 +78,11 @@ ___
 
 #### Returns
 
-`Promise`<`any`\>
+`Promise`\<`any`\>
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:29](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L29)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:29](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L29)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:31](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L31)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:31](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L31)
 
 ▸ **toBuffer**(`mime`, `quality?`): `any`
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:32](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L32)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:32](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L32)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:34](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L34)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:34](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L34)
 
 ▸ **toDataURL**(`mime`, `quality?`): `string`
 
@@ -156,13 +156,13 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:35](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L35)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:35](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L35)
 
 ___
 
 ### toDataURLAsync
 
-▸ **toDataURLAsync**(`mime?`): `Promise`<`string`\>
+▸ **toDataURLAsync**(`mime?`): `Promise`\<`string`\>
 
 #### Parameters
 
@@ -172,13 +172,13 @@ ___
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<`string`\>
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:37](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L37)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:37](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L37)
 
-▸ **toDataURLAsync**(`mime`, `quality?`): `Promise`<`string`\>
+▸ **toDataURLAsync**(`mime`, `quality?`): `Promise`\<`string`\>
 
 #### Parameters
 
@@ -189,8 +189,8 @@ ___
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<`string`\>
 
 #### Defined in
 
-[leafer/packages/interface/src/canvas/ISkiaCanvas.ts:38](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/canvas/ISkiaCanvas.ts#L38)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:38](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L38)

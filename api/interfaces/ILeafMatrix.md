@@ -17,7 +17,7 @@
 
 ### \_\_updateWorldMatrix
 
-▸ `Optional` **__updateWorldMatrix**(): `void`
+▸ **__updateWorldMatrix**(): `void`
 
 #### Returns
 
@@ -25,13 +25,13 @@
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafMatrix.ts:6](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafMatrix.ts#L6)
+[src/leafer/packages/interface/src/display/module/ILeafMatrix.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafMatrix.ts#L6)
 
 ___
 
 ### \_\_updateLocalMatrix
 
-▸ `Optional` **__updateLocalMatrix**(): `void`
+▸ **__updateLocalMatrix**(): `void`
 
 #### Returns
 
@@ -39,4 +39,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/interface/src/display/module/ILeafMatrix.ts:7](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/interface/src/display/module/ILeafMatrix.ts#L7)
+[src/leafer/packages/interface/src/display/module/ILeafMatrix.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafMatrix.ts#L7)

@@ -42,7 +42,7 @@
 
 ### constructor
 
-• **new PathCreator**(`path?`)
+• **new PathCreator**(`path?`): [`PathCreator`](PathCreator.md)
 
 #### Parameters
 
@@ -50,9 +50,13 @@
 | :------ | :------ |
 | `path?` | `string` \| [`IPathCommandData`](../modules.md#ipathcommanddata) |
 
+#### Returns
+
+[`PathCreator`](PathCreator.md)
+
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:15](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L15)
+[src/leafer/packages/path/src/PathCreator.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L17)
 
 ## Properties
 
@@ -66,7 +70,7 @@
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:13](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L13)
+[src/leafer/packages/path/src/PathCreator.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L15)
 
 ## Accessors
 
@@ -84,7 +88,7 @@
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:11](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L11)
+[src/leafer/packages/path/src/PathCreator.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L13)
 
 • `set` **path**(`value`): `void`
 
@@ -104,7 +108,7 @@
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:10](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L10)
+[src/leafer/packages/path/src/PathCreator.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L12)
 
 ## Methods
 
@@ -124,7 +128,7 @@
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:19](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L19)
+[src/leafer/packages/path/src/PathCreator.ts:21](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L21)
 
 ___
 
@@ -142,7 +146,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:28](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L28)
+[src/leafer/packages/path/src/PathCreator.ts:30](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L30)
 
 ___
 
@@ -167,7 +171,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:36](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L36)
+[src/leafer/packages/path/src/PathCreator.ts:38](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L38)
 
 ___
 
@@ -192,7 +196,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:42](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L42)
+[src/leafer/packages/path/src/PathCreator.ts:44](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L44)
 
 ___
 
@@ -221,7 +225,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:48](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L48)
+[src/leafer/packages/path/src/PathCreator.ts:50](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L50)
 
 ___
 
@@ -248,7 +252,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:54](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L54)
+[src/leafer/packages/path/src/PathCreator.ts:56](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L56)
 
 ___
 
@@ -266,7 +270,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:60](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L60)
+[src/leafer/packages/path/src/PathCreator.ts:62](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L62)
 
 ___
 
@@ -293,7 +297,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:68](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L68)
+[src/leafer/packages/path/src/PathCreator.ts:70](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L70)
 
 ___
 
@@ -321,7 +325,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:74](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L74)
+[src/leafer/packages/path/src/PathCreator.ts:76](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L76)
 
 ___
 
@@ -352,7 +356,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:80](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L80)
+[src/leafer/packages/path/src/PathCreator.ts:82](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L82)
 
 ___
 
@@ -381,7 +385,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:86](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L86)
+[src/leafer/packages/path/src/PathCreator.ts:88](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L88)
 
 ___
 
@@ -409,7 +413,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:92](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L92)
+[src/leafer/packages/path/src/PathCreator.ts:94](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L94)
 
 ___
 
@@ -440,7 +444,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:100](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L100)
+[src/leafer/packages/path/src/PathCreator.ts:102](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L102)
 
 ___
 
@@ -469,7 +473,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:106](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L106)
+[src/leafer/packages/path/src/PathCreator.ts:108](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L108)
 
 ___
 
@@ -495,7 +499,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:112](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L112)
+[src/leafer/packages/path/src/PathCreator.ts:114](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L114)
 
 ___
 
@@ -513,7 +517,7 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:118](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L118)
+[src/leafer/packages/path/src/PathCreator.ts:120](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L120)
 
 ___
 
@@ -527,4 +531,4 @@ ___
 
 #### Defined in
 
-[leafer/packages/path/src/PathCreator.ts:122](https://github.com/leaferjs/leafer/blob/c7e50b8/packages/path/src/PathCreator.ts#L122)
+[src/leafer/packages/path/src/PathCreator.ts:124](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCreator.ts#L124)
