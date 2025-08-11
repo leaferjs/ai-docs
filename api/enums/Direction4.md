@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[src/leafer/packages/math/src/Direction.ts:2](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/Direction.ts#L2)
+[src/leafer/packages/math/src/Direction.ts:2](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/Direction.ts#L2)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Direction.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/Direction.ts#L3)
+[src/leafer/packages/math/src/Direction.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/Direction.ts#L3)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Direction.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/Direction.ts#L4)
+[src/leafer/packages/math/src/Direction.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/Direction.ts#L4)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Direction.ts:5](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/Direction.ts#L5)
+[src/leafer/packages/math/src/Direction.ts:5](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/Direction.ts#L5)

@@ -380,6 +380,8 @@
 - [IEffectAttrData](interfaces/IEffectAttrData.md)
 - [IEffectInputData](interfaces/IEffectInputData.md)
 - [IEffectComputedData](interfaces/IEffectComputedData.md)
+- [IScrollConfig](interfaces/IScrollConfig.md)
+- [IScroller](interfaces/IScroller.md)
 - [ILine](interfaces/ILine.md)
 - [ILineData](interfaces/ILineData.md)
 - [ILineInputData](interfaces/ILineInputData.md)
@@ -559,6 +561,7 @@
 - [IEraserType](modules.md#ierasertype)
 - [IBlendMode](modules.md#iblendmode)
 - [IEditSize](modules.md#ieditsize)
+- [IDragBoundsType](modules.md#idragboundstype)
 - [IDirection](modules.md#idirection)
 - [IDirection4](modules.md#idirection4)
 - [IAlign](modules.md#ialign)
@@ -611,6 +614,7 @@
 - [IAnimateType](modules.md#ianimatetype)
 - [IKeyframe](modules.md#ikeyframe)
 - [IKeyframeId](modules.md#ikeyframeid)
+- [IScrollTheme](modules.md#iscrolltheme)
 - [IRobotActionName](modules.md#irobotactionname)
 - [IStateName](modules.md#istatename)
 - [IUITag](modules.md#iuitag)
@@ -657,6 +661,7 @@
 - [ITextWrap](modules.md#itextwrap)
 - [IWritingMode](modules.md#iwritingmode)
 - [IOverflow](modules.md#ioverflow)
+- [ITextOverflow](modules.md#itextoverflow)
 
 ### Variables
 
@@ -690,6 +695,7 @@
 - [LeafHelper](modules.md#leafhelper)
 - [WaitHelper](modules.md#waithelper)
 - [leaferTransformAttrMap](modules.md#leafertransformattrmap)
+- [extraPropertyEventMap](modules.md#extrapropertyeventmap)
 - [FileHelper](modules.md#filehelper)
 - [Resource](modules.md#resource)
 - [ImageManager](modules.md#imagemanager)
@@ -726,6 +732,7 @@
 - [Creator](modules.md#creator)
 - [EventCreator](modules.md#eventcreator)
 - [UICreator](modules.md#uicreator)
+- [DragBoundsHelper](modules.md#dragboundshelper)
 - [UIBounds](modules.md#uibounds)
 - [RectRender](modules.md#rectrender)
 - [UIRender](modules.md#uirender)
@@ -771,6 +778,7 @@
 - [defineLeafAttr](modules.md#defineleafattr)
 - [dataType](modules.md#datatype)
 - [positionType](modules.md#positiontype)
+- [scrollType](modules.md#scrolltype)
 - [autoLayoutType](modules.md#autolayouttype)
 - [scaleType](modules.md#scaletype)
 - [rotationType](modules.md#rotationtype)
@@ -832,7 +840,7 @@ Renames and re-exports [__type](modules.md#__type)
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:62](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/interface/src/editor/IEditor.ts#L62)
+[src/in/packages/interface/src/editor/IEditor.ts:62](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/interface/src/editor/IEditor.ts#L62)
 
 ___
 
@@ -842,7 +850,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/interface/src/scroll/IScrollBar.ts:9](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/interface/src/scroll/IScrollBar.ts#L9)
+[src/in/packages/interface/src/scroll/IScrollBar.ts:9](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/interface/src/scroll/IScrollBar.ts#L9)
 
 ___
 
@@ -852,7 +860,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/animate/ITransition.ts#L3)
+[src/leafer/packages/interface/src/animate/ITransition.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/animate/ITransition.ts#L3)
 
 ___
 
@@ -862,7 +870,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:37](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/animate/ITransition.ts#L37)
+[src/leafer/packages/interface/src/animate/ITransition.ts:37](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/animate/ITransition.ts#L37)
 
 ___
 
@@ -872,7 +880,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:54](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/animate/ITransition.ts#L54)
+[src/leafer/packages/interface/src/animate/ITransition.ts:54](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/animate/ITransition.ts#L54)
 
 ___
 
@@ -882,7 +890,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:70](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/animate/ITransition.ts#L70)
+[src/leafer/packages/interface/src/animate/ITransition.ts:70](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/animate/ITransition.ts#L70)
 
 ___
 
@@ -892,7 +900,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:21](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L21)
+[src/leafer/packages/interface/src/app/ILeafer.ts:21](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/app/ILeafer.ts#L21)
 
 ___
 
@@ -902,7 +910,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:98](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/app/ILeafer.ts#L98)
+[src/leafer/packages/interface/src/app/ILeafer.ts:98](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/app/ILeafer.ts#L98)
 
 ___
 
@@ -912,7 +920,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ICanvas.ts#L3)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L3)
 
 ___
 
@@ -922,7 +930,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:114](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ICanvas.ts#L114)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:114](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L114)
 
 ___
 
@@ -932,7 +940,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:135](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ICanvas.ts#L135)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:135](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L135)
 
 ___
 
@@ -942,7 +950,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:24](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ILeaferCanvas.ts#L24)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:24](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ILeaferCanvas.ts#L24)
 
 ___
 
@@ -952,7 +960,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:148](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ILeaferCanvas.ts#L148)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:148](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ILeaferCanvas.ts#L148)
 
 ___
 
@@ -962,7 +970,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:229](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ILeaferCanvas.ts#L229)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:229](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ILeaferCanvas.ts#L229)
 
 ___
 
@@ -972,7 +980,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/canvas/ISkiaCanvas.ts#L3)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ISkiaCanvas.ts#L3)
 
 ___
 
@@ -982,7 +990,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IData.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/data/IData.ts#L4)
+[src/leafer/packages/interface/src/data/IData.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/data/IData.ts#L4)
 
 ___
 
@@ -992,7 +1000,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IData.ts:5](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/data/IData.ts#L5)
+[src/leafer/packages/interface/src/data/IData.ts:5](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/data/IData.ts#L5)
 
 ___
 
@@ -1002,7 +1010,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IData.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/data/IData.ts#L6)
+[src/leafer/packages/interface/src/data/IData.ts:6](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/data/IData.ts#L6)
 
 ___
 
@@ -1012,7 +1020,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IData.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/data/IData.ts#L7)
+[src/leafer/packages/interface/src/data/IData.ts:7](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/data/IData.ts#L7)
 
 ___
 
@@ -1022,7 +1030,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IData.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/data/IData.ts#L8)
+[src/leafer/packages/interface/src/data/IData.ts:8](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/data/IData.ts#L8)
 
 ___
 
@@ -1032,7 +1040,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IData.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/data/IData.ts#L10)
+[src/leafer/packages/interface/src/data/IData.ts:10](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/data/IData.ts#L10)
 
 ___
 
@@ -1042,7 +1050,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IData.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/data/IData.ts#L12)
+[src/leafer/packages/interface/src/data/IData.ts:12](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/data/IData.ts#L12)
 
 ___
 
@@ -1067,7 +1075,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/data/IList.ts#L12)
+[src/leafer/packages/interface/src/data/IList.ts:12](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/data/IList.ts#L12)
 
 ___
 
@@ -1077,7 +1085,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:34](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L34)
+[src/leafer/packages/interface/src/display/ILeaf.ts:34](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L34)
 
 ___
 
@@ -1087,7 +1095,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:36](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L36)
+[src/leafer/packages/interface/src/display/ILeaf.ts:36](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L36)
 
 ___
 
@@ -1097,7 +1105,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:38](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L38)
+[src/leafer/packages/interface/src/display/ILeaf.ts:38](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L38)
 
 ___
 
@@ -1107,7 +1115,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:40](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L40)
+[src/leafer/packages/interface/src/display/ILeaf.ts:40](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L40)
 
 ___
 
@@ -1117,7 +1125,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:42](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L42)
+[src/leafer/packages/interface/src/display/ILeaf.ts:42](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L42)
 
 ___
 
@@ -1127,7 +1135,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:44](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L44)
+[src/leafer/packages/interface/src/display/ILeaf.ts:44](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L44)
 
 ___
 
@@ -1137,7 +1145,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:48](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L48)
+[src/leafer/packages/interface/src/display/ILeaf.ts:48](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L48)
 
 ___
 
@@ -1147,7 +1155,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:52](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L52)
+[src/leafer/packages/interface/src/display/ILeaf.ts:52](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L52)
 
 ___
 
@@ -1157,7 +1165,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:54](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L54)
+[src/leafer/packages/interface/src/display/ILeaf.ts:54](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L54)
 
 ___
 
@@ -1167,7 +1175,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:75](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L75)
+[src/leafer/packages/interface/src/display/ILeaf.ts:75](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L75)
 
 ___
 
@@ -1177,7 +1185,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:77](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L77)
+[src/leafer/packages/interface/src/display/ILeaf.ts:77](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L77)
 
 ___
 
@@ -1187,7 +1195,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:79](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L79)
+[src/leafer/packages/interface/src/display/ILeaf.ts:79](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L79)
 
 ___
 
@@ -1197,7 +1205,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:85](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L85)
+[src/leafer/packages/interface/src/display/ILeaf.ts:85](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L85)
 
 ___
 
@@ -1207,7 +1215,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:92](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L92)
+[src/leafer/packages/interface/src/display/ILeaf.ts:92](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L92)
 
 ___
 
@@ -1217,7 +1225,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:96](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L96)
+[src/leafer/packages/interface/src/display/ILeaf.ts:96](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L96)
 
 ___
 
@@ -1227,7 +1235,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:125](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L125)
+[src/leafer/packages/interface/src/display/ILeaf.ts:125](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L125)
+
+___
+
+### IDragBoundsType
+
+Ƭ **IDragBoundsType**: ``"auto"`` \| ``"outer"`` \| ``"inner"``
+
+#### Defined in
+
+[src/leafer/packages/interface/src/display/ILeaf.ts:127](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L127)
 
 ___
 
@@ -1237,7 +1255,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:133](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L133)
+[src/leafer/packages/interface/src/display/ILeaf.ts:136](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L136)
 
 ___
 
@@ -1247,7 +1265,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:144](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L144)
+[src/leafer/packages/interface/src/display/ILeaf.ts:147](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L147)
 
 ___
 
@@ -1257,7 +1275,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:150](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L150)
+[src/leafer/packages/interface/src/display/ILeaf.ts:153](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L153)
 
 ___
 
@@ -1267,7 +1285,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:152](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L152)
+[src/leafer/packages/interface/src/display/ILeaf.ts:155](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L155)
 
 ___
 
@@ -1277,7 +1295,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:157](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L157)
+[src/leafer/packages/interface/src/display/ILeaf.ts:160](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L160)
 
 ___
 
@@ -1287,7 +1305,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:162](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L162)
+[src/leafer/packages/interface/src/display/ILeaf.ts:165](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L165)
 
 ___
 
@@ -1297,7 +1315,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:166](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L166)
+[src/leafer/packages/interface/src/display/ILeaf.ts:169](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L169)
 
 ___
 
@@ -1307,7 +1325,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:206](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L206)
+[src/leafer/packages/interface/src/display/ILeaf.ts:209](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L209)
 
 ___
 
@@ -1317,7 +1335,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:711](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/ILeaf.ts#L711)
+[src/leafer/packages/interface/src/display/ILeaf.ts:720](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/ILeaf.ts#L720)
 
 ___
 
@@ -1327,7 +1345,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/IBranchRender.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/IBranchRender.ts#L6)
+[src/leafer/packages/interface/src/display/module/IBranchRender.ts:6](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/module/IBranchRender.ts#L6)
 
 ___
 
@@ -1337,7 +1355,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafBounds.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafBounds.ts#L3)
+[src/leafer/packages/interface/src/display/module/ILeafBounds.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/module/ILeafBounds.ts#L3)
 
 ___
 
@@ -1347,7 +1365,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafDataProxy.ts#L4)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/module/ILeafDataProxy.ts#L4)
 
 ___
 
@@ -1357,7 +1375,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafEventer.ts#L7)
+[src/leafer/packages/interface/src/display/module/ILeafEventer.ts:7](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/module/ILeafEventer.ts#L7)
 
 ___
 
@@ -1367,7 +1385,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafHit.ts:5](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafHit.ts#L5)
+[src/leafer/packages/interface/src/display/module/ILeafHit.ts:5](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/module/ILeafHit.ts#L5)
 
 ___
 
@@ -1377,7 +1395,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafMatrix.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafMatrix.ts#L3)
+[src/leafer/packages/interface/src/display/module/ILeafMatrix.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/module/ILeafMatrix.ts#L3)
 
 ___
 
@@ -1387,7 +1405,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafRender.ts:5](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/display/module/ILeafRender.ts#L5)
+[src/leafer/packages/interface/src/display/module/ILeafRender.ts:5](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/display/module/ILeafRender.ts#L5)
 
 ___
 
@@ -1397,7 +1415,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEventer.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEventer.ts#L8)
+[src/leafer/packages/interface/src/event/IEventer.ts:8](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/event/IEventer.ts#L8)
 
 ___
 
@@ -1407,7 +1425,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEventer.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEventer.ts#L15)
+[src/leafer/packages/interface/src/event/IEventer.ts:15](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/event/IEventer.ts#L15)
 
 ___
 
@@ -1417,7 +1435,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEventer.ts:29](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEventer.ts#L29)
+[src/leafer/packages/interface/src/event/IEventer.ts:29](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/event/IEventer.ts#L29)
 
 ___
 
@@ -1427,7 +1445,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEventer.ts:38](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IEventer.ts#L38)
+[src/leafer/packages/interface/src/event/IEventer.ts:38](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/event/IEventer.ts#L38)
 
 ___
 
@@ -1437,7 +1455,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IUIEvent.ts:52](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L52)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:52](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/event/IUIEvent.ts#L52)
 
 ___
 
@@ -1447,7 +1465,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IUIEvent.ts:102](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L102)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:102](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/event/IUIEvent.ts#L102)
 
 ___
 
@@ -1457,17 +1475,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IUIEvent.ts:108](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L108)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:108](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/event/IUIEvent.ts#L108)
 
 ___
 
 ### IKeyCodes
 
-Ƭ **IKeyCodes**: ``"KeyA"`` \| ``"KeyB"`` \| ``"KeyC"`` \| ``"KeyD"`` \| ``"KeyE"`` \| ``"KeyF"`` \| ``"KeyG"`` \| ``"KeyH"`` \| ``"KeyI"`` \| ``"KeyJ"`` \| ``"KeyK"`` \| ``"KeyL"`` \| ``"KeyM"`` \| ``"KeyN"`` \| ``"KeyO"`` \| ``"KeyP"`` \| ``"KeyQ"`` \| ``"KeyR"`` \| ``"KeyS"`` \| ``"KeyT"`` \| ``"KeyU"`` \| ``"KeyV"`` \| ``"KeyW"`` \| ``"KeyX"`` \| ``"KeyY"`` \| ``"KeyZ"`` \| ``"Digit0"`` \| ``"Digit1"`` \| ``"Digit2"`` \| ``"Digit3"`` \| ``"Digit4"`` \| ``"Digit5"`` \| ``"Digit6"`` \| ``"Digit7"`` \| ``"Digit8"`` \| ``"Digit9"`` \| ``"F1"`` \| ``"F2"`` \| ``"F3"`` \| ``"F4"`` \| ``"F5"`` \| ``"F6"`` \| ``"F7"`` \| ``"F8"`` \| ``"F9"`` \| ``"F10"`` \| ``"F11"`` \| ``"F12"`` \| ``"F13"`` \| ``"F14"`` \| ``"F15"`` \| ``"F16"`` \| ``"F17"`` \| ``"F18"`` \| ``"F19"`` \| ``"F20"`` \| ``"F21"`` \| ``"F22"`` \| ``"F23"`` \| ``"F24"`` \| ``"Escape"`` \| ``"Tab"`` \| ``"CapsLock"`` \| ``"ShiftLeft"`` \| ``"ShiftRight"`` \| ``"ControlLeft"`` \| ``"ControlRight"`` \| ``"AltLeft"`` \| ``"AltRight"`` \| ``"MetaLeft"`` \| ``"MetaRight"`` \| ``"Enter"`` \| ``"Space"`` \| ``"Backspace"`` \| ``"Insert"`` \| ``"Delete"`` \| ``"Home"`` \| ``"End"`` \| ``"PageUp"`` \| ``"PageDown"`` \| ``"ArrowUp"`` \| ``"ArrowDown"`` \| ``"ArrowLeft"`` \| ``"ArrowRight"`` \| ``"PrintScreen"`` \| ``"Pause"`` \| ``"ScrollLock"`` \| ``"NumLock"`` \| ``"ContextMenu"`` \| ``"Minus"`` \| ``"Equal"`` \| ``"BracketLeft"`` \| ``"BracketRight"`` \| ``"Backslash"`` \| ``"IntlBackslash"`` \| ``"Semicolon"`` \| ``"Quote"`` \| ``"Comma"`` \| ``"Period"`` \| ``"Slash"`` \| ``"Backquote"`` \| ``"Numpad0"`` \| ``"Numpad1"`` \| ``"Numpad2"`` \| ``"Numpad3"`` \| ``"Numpad4"`` \| ``"Numpad5"`` \| ``"Numpad6"`` \| ``"Numpad7"`` \| ``"Numpad8"`` \| ``"Numpad9"`` \| ``"NumpadMultiply"`` \| ``"NumpadAdd"`` \| ``"NumpadSubtract"`` \| ``"NumpadDecimal"`` \| ``"NumpadDivide"`` \| ``"NumpadEnter"`` \| ``"NumpadComma"`` \| ``"NumpadParenLeft"`` \| ``"NumpadParenRight"`` \| ``"NumpadEqual"`` \| ``"BrowserBack"`` \| ``"BrowserForward"`` \| ``"BrowserRefresh"`` \| ``"BrowserStop"`` \| ``"BrowserSearch"`` \| ``"BrowserFavorites"`` \| ``"BrowserHome"`` \| ``"LaunchMail"`` \| ``"LaunchMediaPlayer"`` \| ``"LaunchCalculator"`` \| ``"MediaPlayPause"`` \| ``"MediaStop"`` \| ``"MediaTrackNext"`` \| ``"MediaTrackPrevious"`` \| ``"MediaVolumeMute"`` \| ``"MediaVolumeUp"`` \| ``"MediaVolumeDown"`` \| ``"AudioVolumeMute"`` \| ``"AudioVolumeUp"`` \| ``"AudioVolumeDown"`` \| ``"Select"`` \| ``"LaunchApp1"`` \| ``"LaunchApp2"`` \| ``"Help"`` \| ``"Sleep"`` \| ``"WakeUp"`` \| ``"Lang1"`` \| ``"Lang2"`` \| ``"Power"`` \| ``"Fn"`` \| ``"Eject"`` \| ``"Convert"`` \| ``"NonConvert"`` \| ``"KanaMode"`` \| ``"Unidentified"``
+Ƭ **IKeyCodes**: ``"KeyA"`` \| ``"KeyB"`` \| ``"KeyC"`` \| ``"KeyD"`` \| ``"KeyE"`` \| ``"KeyF"`` \| ``"KeyG"`` \| ``"KeyH"`` \| ``"KeyI"`` \| ``"KeyJ"`` \| ``"KeyK"`` \| ``"KeyL"`` \| ``"KeyM"`` \| ``"KeyN"`` \| ``"KeyO"`` \| ``"KeyP"`` \| ``"KeyQ"`` \| ``"KeyR"`` \| ``"KeyS"`` \| ``"KeyT"`` \| ``"KeyU"`` \| ``"KeyV"`` \| ``"KeyW"`` \| ``"KeyX"`` \| ``"KeyY"`` \| ``"KeyZ"`` \| ``"Digit0"`` \| ``"Digit1"`` \| ``"Digit2"`` \| ``"Digit3"`` \| ``"Digit4"`` \| ``"Digit5"`` \| ``"Digit6"`` \| ``"Digit7"`` \| ``"Digit8"`` \| ``"Digit9"`` \| ``"F1"`` \| ``"F2"`` \| ``"F3"`` \| ``"F4"`` \| ``"F5"`` \| ``"F6"`` \| ``"F7"`` \| ``"F8"`` \| ``"F9"`` \| ``"F10"`` \| ``"F11"`` \| ``"F12"`` \| ``"F13"`` \| ``"F14"`` \| ``"F15"`` \| ``"F16"`` \| ``"F17"`` \| ``"F18"`` \| ``"F19"`` \| ``"F20"`` \| ``"F21"`` \| ``"F22"`` \| ``"F23"`` \| ``"F24"`` \| ``"Escape"`` \| ``"Tab"`` \| ``"CapsLock"`` \| ``"ShiftLeft"`` \| ``"ShiftRight"`` \| ``"ControlLeft"`` \| ``"ControlRight"`` \| ``"AltLeft"`` \| ``"AltRight"`` \| ``"MetaLeft"`` \| ``"MetaRight"`` \| ``"Enter"`` \| ``"Space"`` \| ``"Backspace"`` \| ``"Insert"`` \| ``"Delete"`` \| ``"Home"`` \| ``"End"`` \| ``"PageUp"`` \| ``"PageDown"`` \| ``"ArrowUp"`` \| ``"ArrowDown"`` \| ``"ArrowLeft"`` \| ``"ArrowRight"`` \| ``"PrintScreen"`` \| ``"Pause"`` \| ``"ScrollLock"`` \| ``"NumLock"`` \| ``"ContextMenu"`` \| ``"Minus"`` \| ``"Equal"`` \| ``"BracketLeft"`` \| ``"BracketRight"`` \| ``"Backslash"`` \| ``"IntlBackslash"`` \| ``"Semicolon"`` \| ``"Quote"`` \| ``"Comma"`` \| ``"Period"`` \| ``"Slash"`` \| ``"Backquote"`` \| ``"Numpad0"`` \| ``"Numpad1"`` \| ``"Numpad2"`` \| ``"Numpad3"`` \| ``"Numpad4"`` \| ``"Numpad5"`` \| ``"Numpad6"`` \| ``"Numpad7"`` \| ``"Numpad8"`` \| ``"Numpad9"`` \| ``"NumpadMultiply"`` \| ``"NumpadAdd"`` \| ``"NumpadSubtract"`` \| ``"NumpadDecimal"`` \| ``"NumpadDivide"`` \| ``"NumpadEnter"`` \| ``"NumpadComma"`` \| ``"NumpadParenLeft"`` \| ``"NumpadParenRight"`` \| ``"NumpadEqual"`` \| ``"BrowserBack"`` \| ``"BrowserForward"`` \| ``"BrowserRefresh"`` \| ``"BrowserStop"`` \| ``"BrowserSearch"`` \| ``"BrowserFavorites"`` \| ``"BrowserHome"`` \| ``"LaunchMail"`` \| ``"LaunchMediaPlayer"`` \| ``"LaunchCalculator"`` \| ``"MediaPlayPause"`` \| ``"MediaStop"`` \| ``"MediaTrackNext"`` \| ``"MediaTrackPrevious"`` \| ``"MediaVolumeMute"`` \| ``"MediaVolumeUp"`` \| ``"MediaVolumeDown"`` \| ``"AudioVolumeMute"`` \| ``"AudioVolumeUp"`` \| ``"AudioVolumeDown"`` \| ``"Select"`` \| ``"LaunchApp1"`` \| ``"LaunchApp2"`` \| ``"Help"`` \| ``"Sleep"`` \| ``"WakeUp"`` \| ``"Lang1"`` \| ``"Lang2"`` \| ``"Power"`` \| ``"Fn"`` \| ``"Eject"`` \| ``"Convert"`` \| ``"NonConvert"`` \| ``"KanaMode"`` \| ``"Unidentified"`` \| `string` & {}
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IUIEvent.ts:193](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/event/IUIEvent.ts#L193)
+[src/leafer/packages/interface/src/event/IUIEvent.ts:193](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/event/IUIEvent.ts#L193)
 
 ___
 
@@ -1477,7 +1495,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IFileType.ts:1](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/file/IFileType.ts#L1)
+[src/leafer/packages/interface/src/file/IFileType.ts:1](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/file/IFileType.ts#L1)
 
 ___
 
@@ -1487,7 +1505,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IFileType.ts:2](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/file/IFileType.ts#L2)
+[src/leafer/packages/interface/src/file/IFileType.ts:2](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/file/IFileType.ts#L2)
 
 ___
 
@@ -1497,7 +1515,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/layout/ILeafLayout.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/layout/ILeafLayout.ts#L4)
+[src/leafer/packages/interface/src/layout/ILeafLayout.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/layout/ILeafLayout.ts#L4)
 
 ___
 
@@ -1507,7 +1525,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/layout/ILeafLayout.ts:5](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/layout/ILeafLayout.ts#L5)
+[src/leafer/packages/interface/src/layout/ILeafLayout.ts:5](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/layout/ILeafLayout.ts#L5)
 
 ___
 
@@ -1517,7 +1535,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/math/IMath.ts:188](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/math/IMath.ts#L188)
+[src/leafer/packages/interface/src/math/IMath.ts:188](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/math/IMath.ts#L188)
 
 ___
 
@@ -1527,7 +1545,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L15)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:15](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L15)
 
 ___
 
@@ -1537,7 +1555,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L16)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:16](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L16)
 
 ___
 
@@ -1547,7 +1565,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L17)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:17](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L17)
 
 ___
 
@@ -1557,7 +1575,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L18)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:18](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L18)
 
 ___
 
@@ -1567,7 +1585,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:20](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L20)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:20](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L20)
 
 ___
 
@@ -1577,7 +1595,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:21](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L21)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:21](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L21)
 
 ___
 
@@ -1587,7 +1605,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L23)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:23](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L23)
 
 ___
 
@@ -1597,7 +1615,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:24](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L24)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:24](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L24)
 
 ___
 
@@ -1607,7 +1625,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:26](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L26)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:26](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L26)
 
 ___
 
@@ -1617,7 +1635,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:28](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L28)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:28](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L28)
 
 ___
 
@@ -1627,7 +1645,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:41](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L41)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:41](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L41)
 
 ___
 
@@ -1637,7 +1655,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:42](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L42)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:42](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L42)
 
 ___
 
@@ -1647,7 +1665,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:43](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L43)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:43](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L43)
 
 ___
 
@@ -1657,7 +1675,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:44](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L44)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:44](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L44)
 
 ___
 
@@ -1667,7 +1685,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:45](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L45)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:45](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L45)
 
 ___
 
@@ -1677,7 +1695,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:48](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L48)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:48](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L48)
 
 ___
 
@@ -1687,7 +1705,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:50](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L50)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:50](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L50)
 
 ___
 
@@ -1697,7 +1715,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:87](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/path/IPathCommand.ts#L87)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:87](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/path/IPathCommand.ts#L87)
 
 ___
 
@@ -1707,7 +1725,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/selector/ISelector.ts:32](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/interface/src/selector/ISelector.ts#L32)
+[src/leafer/packages/interface/src/selector/ISelector.ts:32](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/selector/ISelector.ts#L32)
 
 ___
 
@@ -1717,7 +1735,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IAnimation.ts:6](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/IAnimation.ts#L6)
+[src/ui/packages/interface/src/IAnimation.ts:6](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IAnimation.ts#L6)
 
 ___
 
@@ -1727,7 +1745,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IAnimation.ts:8](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/IAnimation.ts#L8)
+[src/ui/packages/interface/src/IAnimation.ts:8](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IAnimation.ts#L8)
 
 ___
 
@@ -1737,7 +1755,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IAnimation.ts:19](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/IAnimation.ts#L19)
+[src/ui/packages/interface/src/IAnimation.ts:19](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IAnimation.ts#L19)
 
 ___
 
@@ -1747,7 +1765,17 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IAnimation.ts:21](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/IAnimation.ts#L21)
+[src/ui/packages/interface/src/IAnimation.ts:21](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IAnimation.ts#L21)
+
+___
+
+### IScrollTheme
+
+Ƭ **IScrollTheme**: ``"light"`` \| ``"dark"`` \| `string` & {}
+
+#### Defined in
+
+[src/ui/packages/interface/src/IScroller.ts:18](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L18)
 
 ___
 
@@ -1757,7 +1785,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:118](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/IUI.ts#L118)
+[src/ui/packages/interface/src/IUI.ts:119](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IUI.ts#L119)
 
 ___
 
@@ -1767,7 +1795,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:444](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/IUI.ts#L444)
+[src/ui/packages/interface/src/IUI.ts:448](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IUI.ts#L448)
 
 ___
 
@@ -1777,7 +1805,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:528](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/IUI.ts#L528)
+[src/ui/packages/interface/src/IUI.ts:532](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IUI.ts#L532)
 
 ___
 
@@ -1787,7 +1815,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/editor/IEditor.ts:219](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/editor/IEditor.ts#L219)
+[src/ui/packages/interface/src/editor/IEditor.ts:221](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/editor/IEditor.ts#L221)
 
 ___
 
@@ -1797,7 +1825,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IUIBounds.ts:5](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/module/IUIBounds.ts#L5)
+[src/ui/packages/interface/src/module/IUIBounds.ts:5](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/module/IUIBounds.ts#L5)
 
 ___
 
@@ -1807,7 +1835,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IUIHit.ts:5](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/module/IUIHit.ts#L5)
+[src/ui/packages/interface/src/module/IUIHit.ts:5](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/module/IUIHit.ts#L5)
 
 ___
 
@@ -1817,7 +1845,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IUIRender.ts:5](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/module/IUIRender.ts#L5)
+[src/ui/packages/interface/src/module/IUIRender.ts:5](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/module/IUIRender.ts#L5)
 
 ___
 
@@ -1827,7 +1855,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IUIRender.ts:12](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/module/IUIRender.ts#L12)
+[src/ui/packages/interface/src/module/IUIRender.ts:12](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/module/IUIRender.ts#L12)
 
 ___
 
@@ -1837,7 +1865,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IUIRender.ts:18](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/module/IUIRender.ts#L18)
+[src/ui/packages/interface/src/module/IUIRender.ts:18](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/module/IUIRender.ts#L18)
 
 ___
 
@@ -1847,7 +1875,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IUIRender.ts:24](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/module/IUIRender.ts#L24)
+[src/ui/packages/interface/src/module/IUIRender.ts:24](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/module/IUIRender.ts#L24)
 
 ___
 
@@ -1857,7 +1885,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IUIRender.ts:30](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/module/IUIRender.ts#L30)
+[src/ui/packages/interface/src/module/IUIRender.ts:30](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/module/IUIRender.ts#L30)
 
 ___
 
@@ -1867,7 +1895,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IUIRender.ts:36](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/module/IUIRender.ts#L36)
+[src/ui/packages/interface/src/module/IUIRender.ts:36](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/module/IUIRender.ts#L36)
 
 ___
 
@@ -1877,7 +1905,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:8](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IComputedType.ts#L8)
+[src/ui/packages/interface/src/type/IComputedType.ts:8](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IComputedType.ts#L8)
 
 ___
 
@@ -1887,7 +1915,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:41](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IComputedType.ts#L41)
+[src/ui/packages/interface/src/type/IComputedType.ts:41](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IComputedType.ts#L41)
 
 ___
 
@@ -1897,7 +1925,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IStringType.ts:1](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IStringType.ts#L1)
+[src/ui/packages/interface/src/type/IStringType.ts:1](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IStringType.ts#L1)
 
 ___
 
@@ -1907,7 +1935,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IStringType.ts:2](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IStringType.ts#L2)
+[src/ui/packages/interface/src/type/IStringType.ts:2](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IStringType.ts#L2)
 
 ___
 
@@ -1917,7 +1945,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IStringType.ts:4](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IStringType.ts#L4)
+[src/ui/packages/interface/src/type/IStringType.ts:4](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IStringType.ts#L4)
 
 ___
 
@@ -1927,7 +1955,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IStringType.ts:5](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IStringType.ts#L5)
+[src/ui/packages/interface/src/type/IStringType.ts:5](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IStringType.ts#L5)
 
 ___
 
@@ -1937,7 +1965,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IStringType.ts:6](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IStringType.ts#L6)
+[src/ui/packages/interface/src/type/IStringType.ts:6](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IStringType.ts#L6)
 
 ___
 
@@ -1947,7 +1975,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IStringType.ts:8](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IStringType.ts#L8)
+[src/ui/packages/interface/src/type/IStringType.ts:8](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IStringType.ts#L8)
 
 ___
 
@@ -1957,7 +1985,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IStringType.ts:13](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IStringType.ts#L13)
+[src/ui/packages/interface/src/type/IStringType.ts:13](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IStringType.ts#L13)
 
 ___
 
@@ -1967,7 +1995,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:5](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L5)
+[src/ui/packages/interface/src/type/IType.ts:5](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L5)
 
 ___
 
@@ -1977,7 +2005,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:7](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L7)
+[src/ui/packages/interface/src/type/IType.ts:7](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L7)
 
 ___
 
@@ -1987,7 +2015,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:9](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L9)
+[src/ui/packages/interface/src/type/IType.ts:9](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L9)
 
 ___
 
@@ -1997,7 +2025,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:11](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L11)
+[src/ui/packages/interface/src/type/IType.ts:11](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L11)
 
 ___
 
@@ -2007,7 +2035,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:13](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L13)
+[src/ui/packages/interface/src/type/IType.ts:13](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L13)
 
 ___
 
@@ -2017,7 +2045,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:25](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L25)
+[src/ui/packages/interface/src/type/IType.ts:25](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L25)
 
 ___
 
@@ -2027,7 +2055,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:30](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L30)
+[src/ui/packages/interface/src/type/IType.ts:30](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L30)
 
 ___
 
@@ -2037,7 +2065,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:43](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L43)
+[src/ui/packages/interface/src/type/IType.ts:43](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L43)
 
 ___
 
@@ -2047,7 +2075,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:114](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L114)
+[src/ui/packages/interface/src/type/IType.ts:114](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L114)
 
 ___
 
@@ -2057,7 +2085,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:115](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L115)
+[src/ui/packages/interface/src/type/IType.ts:115](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L115)
 
 ___
 
@@ -2067,7 +2095,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:118](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L118)
+[src/ui/packages/interface/src/type/IType.ts:118](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L118)
 
 ___
 
@@ -2077,7 +2105,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:119](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L119)
+[src/ui/packages/interface/src/type/IType.ts:119](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L119)
 
 ___
 
@@ -2087,7 +2115,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:120](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L120)
+[src/ui/packages/interface/src/type/IType.ts:120](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L120)
 
 ___
 
@@ -2097,7 +2125,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:123](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L123)
+[src/ui/packages/interface/src/type/IType.ts:123](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L123)
 
 ___
 
@@ -2107,7 +2135,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:143](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L143)
+[src/ui/packages/interface/src/type/IType.ts:143](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L143)
 
 ___
 
@@ -2117,7 +2145,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:144](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L144)
+[src/ui/packages/interface/src/type/IType.ts:144](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L144)
 
 ___
 
@@ -2127,7 +2155,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:145](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L145)
+[src/ui/packages/interface/src/type/IType.ts:145](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L145)
 
 ___
 
@@ -2137,7 +2165,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:146](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L146)
+[src/ui/packages/interface/src/type/IType.ts:146](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L146)
 
 ___
 
@@ -2147,7 +2175,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:147](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L147)
+[src/ui/packages/interface/src/type/IType.ts:147](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L147)
 
 ___
 
@@ -2157,7 +2185,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:148](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L148)
+[src/ui/packages/interface/src/type/IType.ts:148](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L148)
 
 ___
 
@@ -2167,7 +2195,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:159](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L159)
+[src/ui/packages/interface/src/type/IType.ts:159](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L159)
 
 ___
 
@@ -2177,7 +2205,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:160](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L160)
+[src/ui/packages/interface/src/type/IType.ts:160](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L160)
 
 ___
 
@@ -2187,7 +2215,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:166](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L166)
+[src/ui/packages/interface/src/type/IType.ts:166](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L166)
 
 ___
 
@@ -2197,17 +2225,27 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:167](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L167)
+[src/ui/packages/interface/src/type/IType.ts:167](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L167)
 
 ___
 
 ### IOverflow
 
-Ƭ **IOverflow**: ``"show"`` \| ``"hide"`` \| ``"scroll"``
+Ƭ **IOverflow**: ``"show"`` \| ``"hide"`` \| ``"scroll"`` \| ``"scroll-x"`` \| ``"scroll-y"``
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:202](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interface/src/type/IType.ts#L202)
+[src/ui/packages/interface/src/type/IType.ts:202](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L202)
+
+___
+
+### ITextOverflow
+
+Ƭ **ITextOverflow**: ``"show"`` \| ``"hide"`` \| ``"ellipsis"`` \| `string` & {}
+
+#### Defined in
+
+[src/ui/packages/interface/src/type/IType.ts:204](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/type/IType.ts#L204)
 
 ## Variables
 
@@ -2225,7 +2263,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/animate/src/AnimateEasing.ts:68](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/animate/src/AnimateEasing.ts#L68)
+[src/in/packages/animate/src/AnimateEasing.ts:68](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/animate/src/AnimateEasing.ts#L68)
 
 ___
 
@@ -2235,7 +2273,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/arrow/src/PathArrowModule.ts:14](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/arrow/src/PathArrowModule.ts#L14)
+[src/in/packages/arrow/src/PathArrowModule.ts:14](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/arrow/src/PathArrowModule.ts#L14)
 
 ___
 
@@ -2252,7 +2290,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/arrow/src/PathMatrixHelper.ts:9](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/arrow/src/PathMatrixHelper.ts#L9)
+[src/in/packages/arrow/src/PathMatrixHelper.ts:9](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/arrow/src/PathMatrixHelper.ts#L9)
 
 ___
 
@@ -2273,7 +2311,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/helper/EditDataHelper.ts:11](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/helper/EditDataHelper.ts#L11)
+[src/in/packages/editor/src/helper/EditDataHelper.ts:11](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/editor/src/helper/EditDataHelper.ts#L11)
 
 ___
 
@@ -2290,7 +2328,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/helper/EditSelectHelper.ts:4](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/helper/EditSelectHelper.ts#L4)
+[src/in/packages/editor/src/helper/EditSelectHelper.ts:4](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/editor/src/helper/EditSelectHelper.ts#L4)
 
 ___
 
@@ -2309,7 +2347,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/helper/EditorHelper.ts:8](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/helper/EditorHelper.ts#L8)
+[src/in/packages/editor/src/helper/EditorHelper.ts:8](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/editor/src/helper/EditorHelper.ts#L8)
 
 ___
 
@@ -2327,7 +2365,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/EditToolCreator.ts:17](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/EditToolCreator.ts#L17)
+[src/in/packages/editor/src/tool/EditToolCreator.ts:17](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/editor/src/tool/EditToolCreator.ts#L17)
 
 ___
 
@@ -2346,7 +2384,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/motion-path/src/HighBezierHelper.ts:12](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/motion-path/src/HighBezierHelper.ts#L12)
+[src/in/packages/motion-path/src/HighBezierHelper.ts:12](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/motion-path/src/HighBezierHelper.ts#L12)
 
 ___
 
@@ -2366,7 +2404,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/motion-path/src/HighCurveHelper.ts:10](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/motion-path/src/HighCurveHelper.ts#L10)
+[src/in/packages/motion-path/src/HighCurveHelper.ts:10](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/motion-path/src/HighCurveHelper.ts#L10)
 
 ___
 
@@ -2383,7 +2421,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/resize/src/PathScaler.ts:8](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/resize/src/PathScaler.ts#L8)
+[src/in/packages/resize/src/PathScaler.ts:8](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/resize/src/PathScaler.ts#L8)
 
 ___
 
@@ -2401,7 +2439,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/LeaferTypeCreator.ts:13](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/LeaferTypeCreator.ts#L13)
+[src/in/packages/viewport/src/LeaferTypeCreator.ts:13](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/viewport/src/LeaferTypeCreator.ts#L13)
 
 ___
 
@@ -2417,7 +2455,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/MultiTouchHelper.ts:6](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/MultiTouchHelper.ts#L6)
+[src/in/packages/viewport/src/interaction/MultiTouchHelper.ts:6](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/viewport/src/interaction/MultiTouchHelper.ts#L6)
 
 ___
 
@@ -2434,7 +2472,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/WheelEventHelper.ts:6](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/interaction/WheelEventHelper.ts#L6)
+[src/in/packages/viewport/src/interaction/WheelEventHelper.ts:6](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/viewport/src/interaction/WheelEventHelper.ts#L6)
 
 ___
 
@@ -2444,17 +2482,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/canvas/canvas/src/LeaferCanvasBase.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/canvas/canvas/src/LeaferCanvasBase.ts#L12)
+[src/leafer/packages/canvas/canvas/src/LeaferCanvasBase.ts:12](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/canvas/canvas/src/LeaferCanvasBase.ts#L12)
 
 ___
 
 ### version
 
-• `Const` **version**: ``"1.9.0"``
+• `Const` **version**: ``"1.9.2"``
 
 #### Defined in
 
-[src/leafer/packages/core/src/index.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/core/src/index.ts#L23)
+[src/leafer/packages/core/src/index.ts:23](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/core/src/index.ts#L23)
 
 ___
 
@@ -2473,7 +2511,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/debug/src/Plugin.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Plugin.ts#L6)
+[src/leafer/packages/debug/src/Plugin.ts:6](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/debug/src/Plugin.ts#L6)
 
 ___
 
@@ -2496,7 +2534,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/debug/src/Run.ts:17](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/debug/src/Run.ts#L17)
+[src/leafer/packages/debug/src/Run.ts:17](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/debug/src/Run.ts#L17)
 
 ___
 
@@ -2517,7 +2555,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/DataHelper.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/DataHelper.ts#L4)
+[src/leafer/packages/display-module/data/src/DataHelper.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/DataHelper.ts#L4)
 
 ___
 
@@ -2527,7 +2565,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L10)
+[src/leafer/packages/display-module/data/src/data.ts:10](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L10)
 
 ___
 
@@ -2537,7 +2575,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/display-module/src/BranchRender.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/display-module/src/BranchRender.ts#L7)
+[src/leafer/packages/display-module/display-module/src/BranchRender.ts:7](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/display-module/src/BranchRender.ts#L7)
 
 ___
 
@@ -2547,7 +2585,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/display-module/src/LeafBounds.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/display-module/src/LeafBounds.ts#L13)
+[src/leafer/packages/display-module/display-module/src/LeafBounds.ts:13](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/display-module/src/LeafBounds.ts#L13)
 
 ___
 
@@ -2557,7 +2595,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/display-module/src/LeafDataProxy.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/display-module/src/LeafDataProxy.ts#L9)
+[src/leafer/packages/display-module/display-module/src/LeafDataProxy.ts:9](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/display-module/src/LeafDataProxy.ts#L9)
 
 ___
 
@@ -2567,7 +2605,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/display-module/src/LeafEventer.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/display-module/src/LeafEventer.ts#L6)
+[src/leafer/packages/display-module/display-module/src/LeafEventer.ts:6](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/display-module/src/LeafEventer.ts#L6)
 
 ___
 
@@ -2577,7 +2615,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/display-module/src/LeafMatrix.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/display-module/src/LeafMatrix.ts#L8)
+[src/leafer/packages/display-module/display-module/src/LeafMatrix.ts:8](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/display-module/src/LeafMatrix.ts#L8)
 
 ___
 
@@ -2587,7 +2625,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/display-module/src/LeafRender.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/display-module/src/LeafRender.ts#L6)
+[src/leafer/packages/display-module/display-module/src/LeafRender.ts:6](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/display-module/src/LeafRender.ts#L6)
 
 ___
 
@@ -2608,7 +2646,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/helper/src/BranchHelper.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/helper/src/BranchHelper.ts#L7)
+[src/leafer/packages/display-module/helper/src/BranchHelper.ts:7](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/helper/src/BranchHelper.ts#L7)
 
 ___
 
@@ -2631,7 +2669,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/helper/src/LeafBoundsHelper.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/helper/src/LeafBoundsHelper.ts#L4)
+[src/leafer/packages/display-module/helper/src/LeafBoundsHelper.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/helper/src/LeafBoundsHelper.ts#L4)
 
 ___
 
@@ -2668,12 +2706,14 @@ ___
 | `getInnerOrigin` | (`t`: [`ILeaf`](interfaces/ILeaf.md), `origin`: [`IPointData`](interfaces/IPointData.md) \| [`IDirection`](modules.md#idirection)) => [`IPointData`](interfaces/IPointData.md) |
 | `getRelativeWorld` | (`t`: [`ILeaf`](interfaces/ILeaf.md), `relative`: [`ILeaf`](interfaces/ILeaf.md), `temp?`: `boolean`) => [`IMatrixData`](interfaces/IMatrixData.md) |
 | `drop` | (`t`: [`ILeaf`](interfaces/ILeaf.md), `parent`: [`ILeaf`](interfaces/ILeaf.md), `index?`: `number`, `resize?`: `boolean`) => `void` |
+| `hasHighPosition` | (`t`: [`ILeaf`](interfaces/ILeaf.md)) => `boolean` |
+| `hasOffset` | (`t`: [`ILeaf`](interfaces/ILeaf.md)) => `boolean` |
 | `hasParent` | (`p`: [`ILeaf`](interfaces/ILeaf.md), `parent`: [`ILeaf`](interfaces/ILeaf.md)) => `boolean` \| `void` |
 | `animateMove` | (`t`: [`ILeaf`](interfaces/ILeaf.md), `move`: [`IPointData`](interfaces/IPointData.md), `speed`: `number`) => `void` |
 
 #### Defined in
 
-[src/leafer/packages/display-module/helper/src/LeafHelper.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/helper/src/LeafHelper.ts#L10)
+[src/leafer/packages/display-module/helper/src/LeafHelper.ts:10](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/helper/src/LeafHelper.ts#L10)
 
 ___
 
@@ -2689,7 +2729,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/helper/src/WaitHelper.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/helper/src/WaitHelper.ts#L3)
+[src/leafer/packages/display-module/helper/src/WaitHelper.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/helper/src/WaitHelper.ts#L3)
 
 ___
 
@@ -2699,7 +2739,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/event/src/LeaferEvent.ts:34](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/event/src/LeaferEvent.ts#L34)
+[src/leafer/packages/event/src/LeaferEvent.ts:34](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/event/src/LeaferEvent.ts#L34)
+
+___
+
+### extraPropertyEventMap
+
+• `Const` **extraPropertyEventMap**: [`IStringMap`](interfaces/IStringMap.md)
+
+#### Defined in
+
+[src/leafer/packages/event/src/PropertyEvent.ts:29](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/event/src/PropertyEvent.ts#L29)
 
 ___
 
@@ -2720,7 +2770,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/file/src/FileHelper.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/file/src/FileHelper.ts#L3)
+[src/leafer/packages/file/src/FileHelper.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/file/src/FileHelper.ts#L3)
 
 ___
 
@@ -2730,7 +2780,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/file/src/Resource.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/file/src/Resource.ts#L11)
+[src/leafer/packages/file/src/Resource.ts:11](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/file/src/Resource.ts#L11)
 
 ___
 
@@ -2740,7 +2790,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/ImageManager.ts:7](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/image/image/src/ImageManager.ts#L7)
+[src/leafer/packages/image/image/src/ImageManager.ts:7](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/image/image/src/ImageManager.ts#L7)
 
 ___
 
@@ -2756,7 +2806,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/AlignHelper.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/AlignHelper.ts#L6)
+[src/leafer/packages/math/src/AlignHelper.ts:6](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/AlignHelper.ts#L6)
 
 ___
 
@@ -2776,7 +2826,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/AroundHelper.ts:20](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/AroundHelper.ts#L20)
+[src/leafer/packages/math/src/AroundHelper.ts:20](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/AroundHelper.ts#L20)
 
 ___
 
@@ -2786,7 +2836,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Bounds.ts:185](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/Bounds.ts#L185)
+[src/leafer/packages/math/src/Bounds.ts:185](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/Bounds.ts#L185)
 
 ___
 
@@ -2807,6 +2857,7 @@ ___
 | `maxX` | (`t`: [`IBoundsData`](interfaces/IBoundsData.md)) => `number` |
 | `maxY` | (`t`: [`IBoundsData`](interfaces/IBoundsData.md)) => `number` |
 | `move` | (`t`: [`IBoundsData`](interfaces/IBoundsData.md), `x`: `number`, `y`: `number`) => `void` |
+| `scroll` | (`t`: [`IBoundsData`](interfaces/IBoundsData.md), `data`: [`IScrollPointData`](interfaces/IScrollPointData.md)) => `void` |
 | `getByMove` | (`t`: [`IBoundsData`](interfaces/IBoundsData.md), `x`: `number`, `y`: `number`) => [`IBoundsData`](interfaces/IBoundsData.md) |
 | `toOffsetOutBounds` | (`t`: [`IBoundsData`](interfaces/IBoundsData.md), `to?`: [`IOffsetBoundsData`](interfaces/IOffsetBoundsData.md), `parent?`: [`IBoundsData`](interfaces/IBoundsData.md)) => `void` |
 | `scale` | (`t`: [`IBoundsData`](interfaces/IBoundsData.md), `scaleX`: `number`, `scaleY`: `number`, `onlySize?`: `boolean`) => `void` |
@@ -2845,7 +2896,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/BoundsHelper.ts:22](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/BoundsHelper.ts#L22)
+[src/leafer/packages/math/src/BoundsHelper.ts:22](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/BoundsHelper.ts#L22)
 
 ___
 
@@ -2867,7 +2918,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/IncrementId.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/IncrementId.ts#L4)
+[src/leafer/packages/math/src/IncrementId.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/IncrementId.ts#L4)
 
 ___
 
@@ -2891,7 +2942,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/MathHelper.ts:6](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/MathHelper.ts#L6)
+[src/leafer/packages/math/src/MathHelper.ts:6](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/MathHelper.ts#L6)
 
 ___
 
@@ -2901,7 +2952,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/MathHelper.ts:96](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/MathHelper.ts#L96)
+[src/leafer/packages/math/src/MathHelper.ts:96](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/MathHelper.ts#L96)
 
 ___
 
@@ -2911,7 +2962,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/MathHelper.ts:97](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/MathHelper.ts#L97)
+[src/leafer/packages/math/src/MathHelper.ts:97](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/MathHelper.ts#L97)
 
 ___
 
@@ -2921,7 +2972,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/MathHelper.ts:98](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/MathHelper.ts#L98)
+[src/leafer/packages/math/src/MathHelper.ts:98](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/MathHelper.ts#L98)
 
 ___
 
@@ -2931,7 +2982,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:170](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/Matrix.ts#L170)
+[src/leafer/packages/math/src/Matrix.ts:170](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/Matrix.ts#L170)
 
 ___
 
@@ -2962,7 +3013,7 @@ ___
 | `skewOfOuter` | (`t`: [`IMatrixData`](interfaces/IMatrixData.md), `origin`: [`IPointData`](interfaces/IPointData.md), `skewX`: `number`, `skewY?`: `number`) => `void` |
 | `skewOfInner` | (`t`: [`IMatrixData`](interfaces/IMatrixData.md), `origin`: [`IPointData`](interfaces/IPointData.md), `skewX`: `number`, `skewY`: `number`) => `void` |
 | `multiply` | (`t`: [`IMatrixData`](interfaces/IMatrixData.md), `child`: [`IMatrixData`](interfaces/IMatrixData.md)) => `void` |
-| `multiplyParent` | (`t`: [`IMatrixWithOptionScaleData`](interfaces/IMatrixWithOptionScaleData.md), `parent`: [`IMatrixWithOptionScaleData`](interfaces/IMatrixWithOptionScaleData.md), `to?`: [`IMatrixWithOptionScaleData`](interfaces/IMatrixWithOptionScaleData.md), `abcdChanged?`: `number` \| `boolean`, `childScaleData?`: [`IScaleData`](interfaces/IScaleData.md), `scrollData?`: [`IScrollPointData`](interfaces/IScrollPointData.md)) => `void` |
+| `multiplyParent` | (`t`: [`IMatrixWithOptionScaleData`](interfaces/IMatrixWithOptionScaleData.md), `parent`: [`IMatrixWithOptionScaleData`](interfaces/IMatrixWithOptionScaleData.md), `to?`: [`IMatrixWithOptionScaleData`](interfaces/IMatrixWithOptionScaleData.md), `abcdChanged?`: `number` \| `boolean`, `childScaleData?`: [`IScaleData`](interfaces/IScaleData.md)) => `void` |
 | `divide` | (`t`: [`IMatrixData`](interfaces/IMatrixData.md), `child`: [`IMatrixData`](interfaces/IMatrixData.md)) => `void` |
 | `divideParent` | (`t`: [`IMatrixData`](interfaces/IMatrixData.md), `parent`: [`IMatrixData`](interfaces/IMatrixData.md)) => `void` |
 | `tempInvert` | (`t`: [`IMatrixData`](interfaces/IMatrixData.md)) => [`IMatrixData`](interfaces/IMatrixData.md) |
@@ -2976,7 +3027,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/MatrixHelper.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/MatrixHelper.ts#L15)
+[src/leafer/packages/math/src/MatrixHelper.ts:15](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/MatrixHelper.ts#L15)
 
 ___
 
@@ -2986,7 +3037,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Point.ts:100](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/Point.ts#L100)
+[src/leafer/packages/math/src/Point.ts:100](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/Point.ts#L100)
 
 ___
 
@@ -3032,7 +3083,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/PointHelper.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/PointHelper.ts#L12)
+[src/leafer/packages/math/src/PointHelper.ts:12](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/PointHelper.ts#L12)
 
 ___
 
@@ -3042,7 +3093,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/StringNumber.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/StringNumber.ts#L4)
+[src/leafer/packages/math/src/StringNumber.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/StringNumber.ts#L4)
 
 ___
 
@@ -3064,7 +3115,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/TwoPointBoundsHelper.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/TwoPointBoundsHelper.ts#L3)
+[src/leafer/packages/math/src/TwoPointBoundsHelper.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/TwoPointBoundsHelper.ts#L3)
 
 ___
 
@@ -3091,7 +3142,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/BezierHelper.ts:15](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/BezierHelper.ts#L15)
+[src/leafer/packages/path/src/BezierHelper.ts:15](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/BezierHelper.ts#L15)
 
 ___
 
@@ -3107,7 +3158,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/EllipseHelper.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/EllipseHelper.ts#L12)
+[src/leafer/packages/path/src/EllipseHelper.ts:12](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/EllipseHelper.ts#L12)
 
 ___
 
@@ -3124,7 +3175,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathBounds.ts:19](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathBounds.ts#L19)
+[src/leafer/packages/path/src/PathBounds.ts:19](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathBounds.ts#L19)
 
 ___
 
@@ -3153,7 +3204,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathCommandDataHelper.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCommandDataHelper.ts#L14)
+[src/leafer/packages/path/src/PathCommandDataHelper.ts:14](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathCommandDataHelper.ts#L14)
 
 ___
 
@@ -3163,7 +3214,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathCommandMap.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCommandMap.ts#L16)
+[src/leafer/packages/path/src/PathCommandMap.ts:16](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathCommandMap.ts#L16)
 
 ___
 
@@ -3173,7 +3224,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathCommandMap.ts:83](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCommandMap.ts#L83)
+[src/leafer/packages/path/src/PathCommandMap.ts:83](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathCommandMap.ts#L83)
 
 ___
 
@@ -3183,7 +3234,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathCommandMap.ts:116](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCommandMap.ts#L116)
+[src/leafer/packages/path/src/PathCommandMap.ts:116](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathCommandMap.ts#L116)
 
 ___
 
@@ -3193,7 +3244,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathCommandMap.ts:122](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCommandMap.ts#L122)
+[src/leafer/packages/path/src/PathCommandMap.ts:122](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathCommandMap.ts#L122)
 
 ___
 
@@ -3215,7 +3266,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathConvert.ts:25](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathConvert.ts#L25)
+[src/leafer/packages/path/src/PathConvert.ts:25](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathConvert.ts#L25)
 
 ___
 
@@ -3231,7 +3282,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathCorner.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathCorner.ts#L12)
+[src/leafer/packages/path/src/PathCorner.ts:12](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathCorner.ts#L12)
 
 ___
 
@@ -3247,7 +3298,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathDrawer.ts:11](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathDrawer.ts#L11)
+[src/leafer/packages/path/src/PathDrawer.ts:11](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathDrawer.ts#L11)
 
 ___
 
@@ -3265,7 +3316,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/PathHelper.ts:3](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/PathHelper.ts#L3)
+[src/leafer/packages/path/src/PathHelper.ts:3](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/PathHelper.ts#L3)
 
 ___
 
@@ -3281,7 +3332,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/RectHelper.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/RectHelper.ts#L4)
+[src/leafer/packages/path/src/RectHelper.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/RectHelper.ts#L4)
 
 ___
 
@@ -3291,7 +3342,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/path/src/index.ts:23](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/path/src/index.ts#L23)
+[src/leafer/packages/path/src/index.ts:23](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/path/src/index.ts#L23)
 
 ___
 
@@ -3301,7 +3352,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/platform/platform/src/Platform.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/platform/platform/src/Platform.ts#L4)
+[src/leafer/packages/platform/platform/src/Platform.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/platform/platform/src/Platform.ts#L4)
 
 ___
 
@@ -3311,7 +3362,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/platform/platform/src/creator/Creator.ts:5](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/platform/platform/src/creator/Creator.ts#L5)
+[src/leafer/packages/platform/platform/src/creator/Creator.ts:5](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/platform/platform/src/creator/Creator.ts#L5)
 
 ___
 
@@ -3331,7 +3382,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/platform/platform/src/creator/EventCreator.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/platform/platform/src/creator/EventCreator.ts#L8)
+[src/leafer/packages/platform/platform/src/creator/EventCreator.ts:8](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/platform/platform/src/creator/EventCreator.ts#L8)
 
 ___
 
@@ -3349,7 +3400,25 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/platform/platform/src/creator/UICreator.ts:8](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/platform/platform/src/creator/UICreator.ts#L8)
+[src/leafer/packages/platform/platform/src/creator/UICreator.ts:8](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/platform/platform/src/creator/UICreator.ts#L8)
+
+___
+
+### DragBoundsHelper
+
+• `Const` **DragBoundsHelper**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `getValidMove` | (`content`: [`IBoundsData`](interfaces/IBoundsData.md), `dragBounds`: [`IBoundsData`](interfaces/IBoundsData.md), `dragBoundsType`: [`IDragBoundsType`](modules.md#idragboundstype), `move`: [`IPointData`](interfaces/IPointData.md), `change?`: `boolean`) => [`IPointData`](interfaces/IPointData.md) |
+| `axisMove` | (`leaf`: [`ILeaf`](interfaces/ILeaf.md), `move`: [`IPointData`](interfaces/IPointData.md)) => `void` |
+| `limitMove` | (`leaf`: [`ILeaf`](interfaces/ILeaf.md), `move`: [`IPointData`](interfaces/IPointData.md)) => `void` |
+
+#### Defined in
+
+[src/ui/packages/display-module/bounds/src/DragBoundsHelper.ts:5](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/display-module/bounds/src/DragBoundsHelper.ts#L5)
 
 ___
 
@@ -3359,7 +3428,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/display-module/bounds/src/UIBounds.ts:6](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/display-module/bounds/src/UIBounds.ts#L6)
+[src/ui/packages/display-module/bounds/src/UIBounds.ts:6](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/display-module/bounds/src/UIBounds.ts#L6)
 
 ___
 
@@ -3369,7 +3438,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/display-module/render/src/RectRender.ts:6](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/display-module/render/src/RectRender.ts#L6)
+[src/ui/packages/display-module/render/src/RectRender.ts:6](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/display-module/render/src/RectRender.ts#L6)
 
 ___
 
@@ -3379,7 +3448,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/display-module/render/src/UIRender.ts:9](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/display-module/render/src/UIRender.ts#L9)
+[src/ui/packages/display-module/render/src/UIRender.ts:9](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/display-module/render/src/UIRender.ts#L9)
 
 ___
 
@@ -3389,7 +3458,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/display/src/Image.ts:31](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/display/src/Image.ts#L31)
+[src/ui/packages/display/src/Image.ts:31](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/display/src/Image.ts#L31)
 
 ___
 
@@ -3399,7 +3468,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/event/src/DragEvent.ts:118](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/event/src/DragEvent.ts#L118)
+[src/ui/packages/event/src/DragEvent.ts:96](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/event/src/DragEvent.ts#L96)
 
 ___
 
@@ -3419,7 +3488,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/event/src/Keyboard.ts:6](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/event/src/Keyboard.ts#L6)
+[src/ui/packages/event/src/Keyboard.ts:6](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/event/src/Keyboard.ts#L6)
 
 ___
 
@@ -3441,7 +3510,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/event/src/PointerButton.ts:4](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/event/src/PointerButton.ts#L4)
+[src/ui/packages/event/src/PointerButton.ts:4](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/event/src/PointerButton.ts#L4)
 
 ___
 
@@ -3451,7 +3520,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/event/src/PointerEvent.ts:50](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/event/src/PointerEvent.ts#L50)
+[src/ui/packages/event/src/PointerEvent.ts:50](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/event/src/PointerEvent.ts#L50)
 
 ___
 
@@ -3461,7 +3530,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:7](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L7)
+[src/ui/packages/external/src/index.ts:7](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L7)
 
 ___
 
@@ -3471,7 +3540,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:9](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L9)
+[src/ui/packages/external/src/index.ts:9](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L9)
 
 ___
 
@@ -3487,7 +3556,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:13](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L13)
+[src/ui/packages/external/src/index.ts:13](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L13)
 
 ___
 
@@ -3497,7 +3566,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:20](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L20)
+[src/ui/packages/external/src/index.ts:20](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L20)
 
 ___
 
@@ -3507,7 +3576,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:23](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L23)
+[src/ui/packages/external/src/index.ts:23](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L23)
 
 ___
 
@@ -3517,7 +3586,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:25](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L25)
+[src/ui/packages/external/src/index.ts:25](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L25)
 
 ___
 
@@ -3527,7 +3596,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:27](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L27)
+[src/ui/packages/external/src/index.ts:27](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L27)
 
 ___
 
@@ -3537,7 +3606,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:29](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L29)
+[src/ui/packages/external/src/index.ts:29](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L29)
 
 ___
 
@@ -3547,7 +3616,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:31](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L31)
+[src/ui/packages/external/src/index.ts:31](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L31)
 
 ___
 
@@ -3557,7 +3626,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:35](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L35)
+[src/ui/packages/external/src/index.ts:35](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L35)
 
 ___
 
@@ -3567,7 +3636,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:37](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L37)
+[src/ui/packages/external/src/index.ts:37](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L37)
 
 ___
 
@@ -3577,7 +3646,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/external/src/index.ts:42](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/external/src/index.ts#L42)
+[src/ui/packages/external/src/index.ts:42](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/external/src/index.ts#L42)
 
 ___
 
@@ -3601,7 +3670,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/InteractionHelper.ts:7](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/interaction/interaction/src/InteractionHelper.ts#L7)
+[src/ui/packages/interaction/interaction/src/InteractionHelper.ts:7](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interaction/interaction/src/InteractionHelper.ts#L7)
 
 ## Functions
 
@@ -3634,7 +3703,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/arrow/src/decorator.ts:4](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/arrow/src/decorator.ts#L4)
+[src/in/packages/arrow/src/decorator.ts:4](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/arrow/src/decorator.ts#L4)
 
 ___
 
@@ -3660,7 +3729,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/EditToolCreator.ts:9](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/EditToolCreator.ts#L9)
+[src/in/packages/editor/src/tool/EditToolCreator.ts:9](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/editor/src/tool/EditToolCreator.ts#L9)
 
 ___
 
@@ -3686,7 +3755,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/EditToolCreator.ts:15](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/editor/src/tool/EditToolCreator.ts#L15)
+[src/in/packages/editor/src/tool/EditToolCreator.ts:15](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/editor/src/tool/EditToolCreator.ts#L15)
 
 ___
 
@@ -3719,7 +3788,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/motion-path/src/decorator.ts:4](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/motion-path/src/decorator.ts#L4)
+[src/in/packages/motion-path/src/decorator.ts:4](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/motion-path/src/decorator.ts#L4)
 
 ___
 
@@ -3741,7 +3810,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/resize/src/scaler.ts:10](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/resize/src/scaler.ts#L10)
+[src/in/packages/resize/src/scaler.ts:10](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/resize/src/scaler.ts#L10)
 
 ___
 
@@ -3764,7 +3833,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/resize/src/scaler.ts:20](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/resize/src/scaler.ts#L20)
+[src/in/packages/resize/src/scaler.ts:20](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/resize/src/scaler.ts#L20)
 
 ___
 
@@ -3786,7 +3855,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/resize/src/scaler.ts:58](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/resize/src/scaler.ts#L58)
+[src/in/packages/resize/src/scaler.ts:58](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/resize/src/scaler.ts#L58)
 
 ___
 
@@ -3808,7 +3877,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/resize/src/scaler.ts:63](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/resize/src/scaler.ts#L63)
+[src/in/packages/resize/src/scaler.ts:63](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/resize/src/scaler.ts#L63)
 
 ___
 
@@ -3830,7 +3899,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/resize/src/scaler.ts:70](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/resize/src/scaler.ts#L70)
+[src/in/packages/resize/src/scaler.ts:70](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/resize/src/scaler.ts#L70)
 
 ___
 
@@ -3864,7 +3933,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/state/src/decorator.ts:4](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/state/src/decorator.ts#L4)
+[src/in/packages/state/src/decorator.ts:4](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/state/src/decorator.ts#L4)
 
 ___
 
@@ -3897,7 +3966,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/state/src/decorator.ts:14](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/state/src/decorator.ts#L14)
+[src/in/packages/state/src/decorator.ts:14](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/state/src/decorator.ts#L14)
 
 ___
 
@@ -3919,7 +3988,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/type/viewport.ts:6](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/type/viewport.ts#L6)
+[src/in/packages/viewport/src/type/viewport.ts:6](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/viewport/src/type/viewport.ts#L6)
 
 ___
 
@@ -3940,7 +4009,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/type/viewport.ts:22](https://github.com/leaferjs/leafer-in/blob/8da60ed3215e51d220002bda65a7ad66a16c0490/packages/viewport/src/type/viewport.ts#L22)
+[src/in/packages/viewport/src/type/viewport.ts:25](https://github.com/leaferjs/leafer-in/blob/7c98c72b66f072cdb2c03c00af3f54939d5b6887/packages/viewport/src/type/viewport.ts#L25)
 
 ___
 
@@ -3960,7 +4029,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/canvas/canvas/src/patch/index.ts:5](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/canvas/canvas/src/patch/index.ts#L5)
+[src/leafer/packages/canvas/canvas/src/patch/index.ts:5](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/canvas/canvas/src/patch/index.ts#L5)
 
 ___
 
@@ -3986,7 +4055,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/class.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/class.ts#L4)
+[src/leafer/packages/decorator/src/class.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/class.ts#L4)
 
 ___
 
@@ -4012,7 +4081,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/class.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/class.ts#L10)
+[src/leafer/packages/decorator/src/class.ts:10](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/class.ts#L10)
 
 ___
 
@@ -4046,7 +4115,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:10](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L10)
+[src/leafer/packages/decorator/src/data.ts:10](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L10)
 
 ___
 
@@ -4066,7 +4135,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:14](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L14)
+[src/leafer/packages/decorator/src/data.ts:14](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L14)
 
 ___
 
@@ -4089,7 +4158,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:19](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L19)
+[src/leafer/packages/decorator/src/data.ts:19](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L19)
 
 ___
 
@@ -4122,7 +4191,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:29](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L29)
+[src/leafer/packages/decorator/src/data.ts:29](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L29)
 
 ___
 
@@ -4156,7 +4225,41 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:33](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L33)
+[src/leafer/packages/decorator/src/data.ts:33](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L33)
+
+___
+
+### scrollType
+
+▸ **scrollType**(`defaultValue?`, `checkFiniteNumber?`): (`target`: [`ILeaf`](interfaces/ILeaf.md), `key`: `string`) => `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `defaultValue?` | [`IValue`](modules.md#ivalue) |
+| `checkFiniteNumber?` | `boolean` |
+
+#### Returns
+
+`fn`
+
+▸ (`target`, `key`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `target` | [`ILeaf`](interfaces/ILeaf.md) |
+| `key` | `string` |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[src/leafer/packages/decorator/src/data.ts:41](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L41)
 
 ___
 
@@ -4189,7 +4292,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:41](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L41)
+[src/leafer/packages/decorator/src/data.ts:52](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L52)
 
 ___
 
@@ -4223,7 +4326,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:53](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L53)
+[src/leafer/packages/decorator/src/data.ts:64](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L64)
 
 ___
 
@@ -4257,7 +4360,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:62](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L62)
+[src/leafer/packages/decorator/src/data.ts:73](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L73)
 
 ___
 
@@ -4291,7 +4394,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:71](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L71)
+[src/leafer/packages/decorator/src/data.ts:82](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L82)
 
 ___
 
@@ -4324,7 +4427,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:79](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L79)
+[src/leafer/packages/decorator/src/data.ts:90](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L90)
 
 ___
 
@@ -4344,7 +4447,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:87](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L87)
+[src/leafer/packages/decorator/src/data.ts:98](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L98)
 
 ___
 
@@ -4377,7 +4480,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:92](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L92)
+[src/leafer/packages/decorator/src/data.ts:103](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L103)
 
 ___
 
@@ -4411,7 +4514,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:104](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L104)
+[src/leafer/packages/decorator/src/data.ts:115](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L115)
 
 ___
 
@@ -4445,7 +4548,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:107](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L107)
+[src/leafer/packages/decorator/src/data.ts:118](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L118)
 
 ___
 
@@ -4465,7 +4568,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:118](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L118)
+[src/leafer/packages/decorator/src/data.ts:129](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L129)
 
 ___
 
@@ -4499,7 +4602,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:123](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L123)
+[src/leafer/packages/decorator/src/data.ts:134](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L134)
 
 ___
 
@@ -4532,7 +4635,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:125](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L125)
+[src/leafer/packages/decorator/src/data.ts:136](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L136)
 
 ___
 
@@ -4565,7 +4668,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:134](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L134)
+[src/leafer/packages/decorator/src/data.ts:145](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L145)
 
 ___
 
@@ -4598,7 +4701,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:142](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L142)
+[src/leafer/packages/decorator/src/data.ts:153](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L153)
 
 ___
 
@@ -4631,7 +4734,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:151](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L151)
+[src/leafer/packages/decorator/src/data.ts:162](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L162)
 
 ___
 
@@ -4664,7 +4767,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:182](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L182)
+[src/leafer/packages/decorator/src/data.ts:193](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L193)
 
 ___
 
@@ -4697,7 +4800,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:193](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L193)
+[src/leafer/packages/decorator/src/data.ts:204](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L204)
 
 ___
 
@@ -4730,7 +4833,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:204](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L204)
+[src/leafer/packages/decorator/src/data.ts:215](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L215)
 
 ___
 
@@ -4763,7 +4866,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:212](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L212)
+[src/leafer/packages/decorator/src/data.ts:223](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L223)
 
 ___
 
@@ -4796,7 +4899,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:224](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L224)
+[src/leafer/packages/decorator/src/data.ts:235](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L235)
 
 ___
 
@@ -4829,7 +4932,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:236](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L236)
+[src/leafer/packages/decorator/src/data.ts:247](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L247)
 
 ___
 
@@ -4862,7 +4965,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:244](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L244)
+[src/leafer/packages/decorator/src/data.ts:255](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L255)
 
 ___
 
@@ -4884,7 +4987,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/data.ts:261](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/data.ts#L261)
+[src/leafer/packages/decorator/src/data.ts:272](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/data.ts#L272)
 
 ___
 
@@ -4913,7 +5016,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/object.ts:4](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/object.ts#L4)
+[src/leafer/packages/decorator/src/object.ts:4](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/object.ts#L4)
 
 ___
 
@@ -4934,7 +5037,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/object.ts:9](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/object.ts#L9)
+[src/leafer/packages/decorator/src/object.ts:9](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/object.ts#L9)
 
 ___
 
@@ -4960,7 +5063,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/object.ts:13](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/object.ts#L13)
+[src/leafer/packages/decorator/src/object.ts:13](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/object.ts#L13)
 
 ___
 
@@ -4993,7 +5096,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/rewrite.ts:18](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/rewrite.ts#L18)
+[src/leafer/packages/decorator/src/rewrite.ts:18](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/rewrite.ts#L18)
 
 ___
 
@@ -5019,7 +5122,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/rewrite.ts:24](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/rewrite.ts#L24)
+[src/leafer/packages/decorator/src/rewrite.ts:24](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/rewrite.ts#L24)
 
 ___
 
@@ -5052,7 +5155,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/decorator/src/rewrite.ts:45](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/decorator/src/rewrite.ts#L45)
+[src/leafer/packages/decorator/src/rewrite.ts:45](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/decorator/src/rewrite.ts#L45)
 
 ___
 
@@ -5072,7 +5175,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:12](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L12)
+[src/leafer/packages/display-module/data/src/data.ts:12](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L12)
 
 ___
 
@@ -5092,7 +5195,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:16](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L16)
+[src/leafer/packages/display-module/data/src/data.ts:16](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L16)
 
 ___
 
@@ -5118,7 +5221,7 @@ value is T
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:20](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L20)
+[src/leafer/packages/display-module/data/src/data.ts:20](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L20)
 
 ___
 
@@ -5142,7 +5245,7 @@ number. Only finite values of the type number, result in true.
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:24](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L24)
+[src/leafer/packages/display-module/data/src/data.ts:24](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L24)
 
 ___
 
@@ -5168,7 +5271,7 @@ value is T
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:26](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L26)
+[src/leafer/packages/display-module/data/src/data.ts:26](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L26)
 
 ___
 
@@ -5188,7 +5291,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:32](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L32)
+[src/leafer/packages/display-module/data/src/data.ts:32](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L32)
 
 ___
 
@@ -5208,7 +5311,7 @@ arg is any[]
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:36](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L36)
+[src/leafer/packages/display-module/data/src/data.ts:36](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L36)
 
 ___
 
@@ -5234,7 +5337,7 @@ value is T
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:38](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L38)
+[src/leafer/packages/display-module/data/src/data.ts:38](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L38)
 
 ___
 
@@ -5260,7 +5363,7 @@ value is T
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:42](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L42)
+[src/leafer/packages/display-module/data/src/data.ts:42](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L42)
 
 ___
 
@@ -5280,7 +5383,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/data.ts:46](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/display-module/data/src/data.ts#L46)
+[src/leafer/packages/display-module/data/src/data.ts:46](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/display-module/data/src/data.ts#L46)
 
 ___
 
@@ -5294,7 +5397,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/MathHelper.ts:100](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/MathHelper.ts#L100)
+[src/leafer/packages/math/src/MathHelper.ts:100](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/MathHelper.ts#L100)
 
 ___
 
@@ -5308,7 +5411,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/MathHelper.ts:101](https://github.com/leaferjs/leafer/blob/d3ec2c9bd49557a0d74aae684f8e3d3d557af194/packages/math/src/MathHelper.ts#L101)
+[src/leafer/packages/math/src/MathHelper.ts:101](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/math/src/MathHelper.ts#L101)
 
 ___
 
@@ -5341,7 +5444,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/decorator/src/data.ts:7](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/decorator/src/data.ts#L7)
+[src/ui/packages/decorator/src/data.ts:7](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/decorator/src/data.ts#L7)
 
 ___
 
@@ -5374,7 +5477,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/decorator/src/data.ts:17](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/decorator/src/data.ts#L17)
+[src/ui/packages/decorator/src/data.ts:17](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/decorator/src/data.ts#L17)
 
 ___
 
@@ -5401,7 +5504,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/decorator/src/data.ts:27](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/decorator/src/data.ts#L27)
+[src/ui/packages/decorator/src/data.ts:27](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/decorator/src/data.ts#L27)
 
 ___
 
@@ -5434,7 +5537,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/decorator/src/data.ts:41](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/decorator/src/data.ts#L41)
+[src/ui/packages/decorator/src/data.ts:41](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/decorator/src/data.ts#L41)
 
 ___
 
@@ -5455,4 +5558,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/platform/web/src/core.ts:21](https://github.com/leaferjs/leafer-ui/blob/a20ecb9bdfba27311c7c73d6d251875f5dedca2b/packages/platform/web/src/core.ts#L21)
+[src/ui/packages/platform/web/src/core.ts:21](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/platform/web/src/core.ts#L21)
