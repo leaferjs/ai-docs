@@ -22,7 +22,7 @@ Returns the measurement described below.
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:167](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L167)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:167](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/canvas/ICanvas.ts#L167)
 
 ___
 
@@ -34,7 +34,7 @@ Returns the measurement described below.
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:169](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L169)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:169](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/canvas/ICanvas.ts#L169)
 
 ___
 
@@ -46,7 +46,7 @@ Returns the measurement described below.
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:171](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L171)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:171](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/canvas/ICanvas.ts#L171)
 
 ___
 
@@ -58,7 +58,7 @@ Returns the measurement described below.
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:173](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L173)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:173](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/canvas/ICanvas.ts#L173)
 
 ___
 
@@ -70,7 +70,7 @@ Returns the measurement described below.
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:175](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L175)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:175](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/canvas/ICanvas.ts#L175)
 
 ___
 
@@ -82,7 +82,7 @@ Returns the measurement described below.
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:177](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L177)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:177](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/canvas/ICanvas.ts#L177)
 
 ___
 
@@ -94,4 +94,4 @@ Returns the measurement described below.
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ICanvas.ts:179](https://github.com/leaferjs/leafer/blob/ce388543b1c91bc943ac7537f94ff47adf234c5d/packages/interface/src/canvas/ICanvas.ts#L179)
+[src/leafer/packages/interface/src/canvas/ICanvas.ts:179](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/canvas/ICanvas.ts#L179)

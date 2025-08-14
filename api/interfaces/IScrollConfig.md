@@ -7,11 +7,13 @@
 - [theme](IScrollConfig.md#theme)
 - [style](IScrollConfig.md#style)
 - [size](IScrollConfig.md#size)
+- [cornerRadius](IScrollConfig.md#cornerradius)
 - [endsMargin](IScrollConfig.md#endsmargin)
 - [sideMargin](IScrollConfig.md#sidemargin)
 - [minSize](IScrollConfig.md#minsize)
 - [scaleFixed](IScrollConfig.md#scalefixed)
 - [scrollType](IScrollConfig.md#scrolltype)
+- [stopDefault](IScrollConfig.md#stopdefault)
 - [hideOnActionEnd](IScrollConfig.md#hideonactionend)
 
 ## Properties
@@ -22,7 +24,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:7](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L7)
+[src/ui/packages/interface/src/IScroller.ts:7](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L7)
 
 ___
 
@@ -32,7 +34,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:8](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L8)
+[src/ui/packages/interface/src/IScroller.ts:8](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L8)
 
 ___
 
@@ -42,7 +44,17 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:9](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L9)
+[src/ui/packages/interface/src/IScroller.ts:9](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L9)
+
+___
+
+### cornerRadius
+
+• `Optional` **cornerRadius**: `number`
+
+#### Defined in
+
+[src/ui/packages/interface/src/IScroller.ts:10](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L10)
 
 ___
 
@@ -52,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:10](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L10)
+[src/ui/packages/interface/src/IScroller.ts:11](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L11)
 
 ___
 
@@ -62,7 +74,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:11](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L11)
+[src/ui/packages/interface/src/IScroller.ts:12](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L12)
 
 ___
 
@@ -72,7 +84,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:12](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L12)
+[src/ui/packages/interface/src/IScroller.ts:13](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L13)
 
 ___
 
@@ -82,7 +94,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:13](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L13)
+[src/ui/packages/interface/src/IScroller.ts:14](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L14)
 
 ___
 
@@ -92,7 +104,17 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:14](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L14)
+[src/ui/packages/interface/src/IScroller.ts:15](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L15)
+
+___
+
+### stopDefault
+
+• `Optional` **stopDefault**: `boolean`
+
+#### Defined in
+
+[src/ui/packages/interface/src/IScroller.ts:16](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L16)
 
 ___
 
@@ -102,4 +124,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/IScroller.ts:15](https://github.com/leaferjs/leafer-ui/blob/4d73938da11e4e94a0fd5c4fb30002be37f139ac/packages/interface/src/IScroller.ts#L15)
+[src/ui/packages/interface/src/IScroller.ts:17](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/IScroller.ts#L17)
