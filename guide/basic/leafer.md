@@ -82,6 +82,8 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 
 当画布的父节点尺寸改变后会自动 resize， [了解详情](/reference/config/app/canvas.md#自适应布局)。
 
+以实际 canvas 标签的父级 div 或其他标签，作为自动布局的容器。
+
 ::: code-group
 ```ts
 // #创建自适应布局的 Leafer [full]

@@ -41,14 +41,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@1.9.4/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.9.5/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@1.9.4/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.9.5/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
@@ -64,13 +64,13 @@ bun add @leafer-in/arrow
 
 起始箭头， 默认无。
 
-[Line](/reference/display/Leaf.md) / [Path](/reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
+[支持自定义箭头样式](#注册自定义箭头样式)，[Line](/reference/display/Leaf.md) / [Path](/reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
 
 ### endArrow: `IArrowType`
 
 结束箭头， 默认为 angle。
 
-[Line](/reference/display/Leaf.md) / [Path](/reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
+[支持自定义箭头样式](#注册自定义箭头样式)，[Line](/reference/display/Leaf.md) / [Path](/reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
 
 ```ts
 type IArrowType =
@@ -87,19 +87,7 @@ type IArrowType =
   | 'diamond' // 菱形箭头
   | 'diamond-line' // 菱形箭头（线性）
   | 'mark' // 标注箭头
-  | IPathDataArrow // 按照线宽为 1 自定义，箭头末端为（0，0），内部会自动处理缩放、旋转角度。
-
-interface IPathDataArrow {
-  connect?: IPathDataArrowOffset // 箭头与线条的连接点位置
-  offset?: IPathDataArrowOffset // 箭头偏移距离，与末端对齐
-  path: IPathCommandData // 只支持 M、L、C、Q、O 绘图命令
-}
-
-interface IPathDataArrowOffset {
-  x?: number // 偏移距离（x轴）
-  bevelJoin?: number // strokeJoin 为 bevel 时增加的偏移距离（x轴）
-  roundJoin?: number // strokeJoin 为 round 时增加的偏移距离（x轴）
-}
+  | string // 自定义箭头
 ```
 
 ## points 模式
@@ -125,6 +113,28 @@ interface IPathDataArrowOffset {
 ### cornerRadius: `number`
 
 圆角大小，使折线拐角处变的圆滑。
+
+## 静态方法
+
+### registerArrow ( name: `string`, data: [`IPathDataArrow`](/api/interfaces/IPathDataArrow.md) )
+
+注册自定义箭头样式，[查看示例](#注册自定义箭头样式)。
+
+按照线宽为 1 自定义，箭头末端为（0，0），内部会自动处理缩放、旋转角度。
+
+```ts
+interface IPathDataArrow {
+  connect?: IPathDataArrowOffset // 箭头与线条的连接点位置
+  offset?: IPathDataArrowOffset // 箭头偏移距离，与末端对齐
+  path: IPathCommandData // 只支持 M、L、C、Q、O 绘图命令
+}
+
+interface IPathDataArrowOffset {
+  x?: number // 偏移距离（x轴）
+  bevelJoin?: number // strokeJoin 为 bevel 时增加的偏移距离（x轴）
+  roundJoin?: number // strokeJoin 为 round 时增加的偏移距离（x轴）
+}
+```
 
 <!-- ## 继承元素
 
@@ -517,6 +527,42 @@ const arrow = new Arrow({
         duration: 0.5,
         loop: true,
     }
+})
+
+leafer.add(arrow)
+```
+
+### 注册自定义箭头样式
+
+path() 方法创建的 PathCreator 实例，可以像 Canvas 2D API 一样快速 [绘制路径](/reference/path/PathCreator.md)。
+
+```ts
+// #箭头样式 [自定义箭头样式]
+import { Leafer, path } from 'leafer-ui'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
+
+
+// 注册箭头样式名称 // [!code hl:12] 
+Arrow.registerArrow('custom-arrow', {
+    // 按照线宽为 1 自定义，箭头末端为（0，0），内部会自动处理缩放、旋转角度
+    connect: { x: -0.5 }, // 箭头与线条的连接点位置
+    offset: {
+        x: -0.71, // 偏移距离（x轴）
+        bevelJoin: 0.36, // strokeJoin 为 bevel 时增加的偏移距离（x轴）
+        roundJoin: 0.22 // strokeJoin 为 round 时增加的偏移距离（x轴）
+    },
+    // 路径数据，用线条绘制、拼凑出箭头形状（没有fill)，只用关心箭头从左往右的水平样式，仅支持 M、L、C、Q、O 绘图命令
+    path: path().moveTo(-5, -5).lineTo(0, 0).lineTo(-5, 3).path // = [1, -5, -3, 2, 0, 0, 2, -5, 3] 
+})
+
+
+const leafer = new Leafer({ view: window })
+
+const arrow = new Arrow({
+    y: 50,
+    strokeWidth: 5,
+    stroke: '#32cd79',
+    endArrow: 'custom-arrow' // 使用自定义箭头 // [!code hl]
 })
 
 leafer.add(arrow)

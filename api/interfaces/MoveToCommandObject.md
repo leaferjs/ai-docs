@@ -16,7 +16,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:55](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/path/IPathCommand.ts#L55)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:55](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/path/IPathCommand.ts#L55)
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:56](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/path/IPathCommand.ts#L56)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:56](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/path/IPathCommand.ts#L56)
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:57](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/path/IPathCommand.ts#L57)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:57](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/path/IPathCommand.ts#L57)

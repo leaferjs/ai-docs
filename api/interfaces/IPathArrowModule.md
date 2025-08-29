@@ -9,6 +9,8 @@
 ### Methods
 
 - [addArrows](IPathArrowModule.md#addarrows)
+- [register](IPathArrowModule.md#register)
+- [get](IPathArrowModule.md#get)
 
 ## Properties
 
@@ -18,20 +20,19 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPathArrow.ts:6](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/module/IPathArrow.ts#L6)
+[src/ui/packages/interface/src/module/IPathArrow.ts:6](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/IPathArrow.ts#L6)
 
 ## Methods
 
 ### addArrows
 
-▸ **addArrows**(`ui`, `changeRenderPath?`): `void`
+▸ **addArrows**(`ui`): `void`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `ui` | [`IUI`](IUI.md) |
-| `changeRenderPath?` | `boolean` |
 
 #### Returns
 
@@ -39,4 +40,45 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPathArrow.ts:7](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/interface/src/module/IPathArrow.ts#L7)
+[src/ui/packages/interface/src/module/IPathArrow.ts:7](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/IPathArrow.ts#L7)
+
+___
+
+### register
+
+▸ **register**(`name`, `data`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `name` | `string` |
+| `data` | [`IPathDataArrow`](IPathDataArrow.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPathArrow.ts:8](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/IPathArrow.ts#L8)
+
+___
+
+### get
+
+▸ **get**(`name`): [`IPathDataArrow`](IPathDataArrow.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `name` | `string` |
+
+#### Returns
+
+[`IPathDataArrow`](IPathDataArrow.md)
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPathArrow.ts:9](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/IPathArrow.ts#L9)

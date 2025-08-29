@@ -2,7 +2,7 @@
 
 ## Hierarchy
 
-- [`UIData`](UIData.md)
+- [`LineData`](LineData.md)
 
   ↳ **`PolygonData`**
 
@@ -49,6 +49,7 @@
 - [\_\_useNaturalRatio](PolygonData.md#__usenaturalratio)
 - [\_\_isLinePath](PolygonData.md#__islinepath)
 - [\_\_blendMode](PolygonData.md#__blendmode)
+- [\_\_usePathBox](PolygonData.md#__usepathbox)
 - [scale](PolygonData.md#scale)
 - [\_\_strokeWidth](PolygonData.md#__strokewidth)
 - [\_\_maxStrokeWidth](PolygonData.md#__maxstrokewidth)
@@ -105,11 +106,11 @@
 
 #### Inherited from
 
-[UIData](UIData.md).[constructor](UIData.md#constructor)
+[LineData](LineData.md).[constructor](LineData.md#constructor)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:32](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L32)
+[src/leafer/packages/display-module/data/src/LeafData.ts:36](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L36)
 
 ## Properties
 
@@ -123,11 +124,11 @@
 
 #### Inherited from
 
-[UIData](UIData.md).[__input](UIData.md#__input)
+[LineData](LineData.md).[__input](LineData.md#__input)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:8](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L8)
+[src/leafer/packages/display-module/data/src/LeafData.ts:8](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L8)
 
 ___
 
@@ -141,11 +142,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__middle](UIData.md#__middle)
+[LineData](LineData.md).[__middle](LineData.md#__middle)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:9](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L9)
+[src/leafer/packages/display-module/data/src/LeafData.ts:9](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L9)
 
 ___
 
@@ -159,11 +160,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__single](UIData.md#__single)
+[LineData](LineData.md).[__single](LineData.md#__single)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:11](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L11)
+[src/leafer/packages/display-module/data/src/LeafData.ts:11](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L11)
 
 ___
 
@@ -177,11 +178,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__naturalWidth](UIData.md#__naturalwidth)
+[LineData](LineData.md).[__naturalWidth](LineData.md#__naturalwidth)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:13](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L13)
+[src/leafer/packages/display-module/data/src/LeafData.ts:13](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L13)
 
 ___
 
@@ -195,11 +196,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__naturalHeight](UIData.md#__naturalheight)
+[LineData](LineData.md).[__naturalHeight](LineData.md#__naturalheight)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:14](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L14)
+[src/leafer/packages/display-module/data/src/LeafData.ts:14](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L14)
 
 ___
 
@@ -213,11 +214,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__pathForRender](UIData.md#__pathforrender)
+[LineData](LineData.md).[__pathForRender](LineData.md#__pathforrender)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:16](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L16)
+[src/leafer/packages/display-module/data/src/LeafData.ts:16](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L16)
 
 ___
 
@@ -231,11 +232,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__useStroke](UIData.md#__usestroke)
+[LineData](LineData.md).[__useStroke](LineData.md#__usestroke)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:18](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L18)
+[src/leafer/packages/display-module/data/src/LeafData.ts:18](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L18)
 
 ___
 
@@ -249,11 +250,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__leaf](UIData.md#__leaf)
+[LineData](LineData.md).[__leaf](LineData.md#__leaf)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:14](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L14)
+[src/ui/packages/display-module/data/src/UIData.ts:14](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L14)
 
 ___
 
@@ -267,11 +268,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__blendLayer](UIData.md#__blendlayer)
+[LineData](LineData.md).[__blendLayer](LineData.md#__blendlayer)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:18](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L18)
+[src/ui/packages/display-module/data/src/UIData.ts:18](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L18)
 
 ___
 
@@ -285,11 +286,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__isFills](UIData.md#__isfills)
+[LineData](LineData.md).[__isFills](LineData.md#__isfills)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:20](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L20)
+[src/ui/packages/display-module/data/src/UIData.ts:20](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L20)
 
 ___
 
@@ -303,11 +304,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__isStrokes](UIData.md#__isstrokes)
+[LineData](LineData.md).[__isStrokes](LineData.md#__isstrokes)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:21](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L21)
+[src/ui/packages/display-module/data/src/UIData.ts:21](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L21)
 
 ___
 
@@ -321,11 +322,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__hasMultiStrokeStyle](UIData.md#__hasmultistrokestyle)
+[LineData](LineData.md).[__hasMultiStrokeStyle](LineData.md#__hasmultistrokestyle)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:27](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L27)
+[src/ui/packages/display-module/data/src/UIData.ts:27](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L27)
 
 ___
 
@@ -339,11 +340,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__isAlphaPixelFill](UIData.md#__isalphapixelfill)
+[LineData](LineData.md).[__isAlphaPixelFill](LineData.md#__isalphapixelfill)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:31](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L31)
+[src/ui/packages/display-module/data/src/UIData.ts:31](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L31)
 
 ___
 
@@ -357,11 +358,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__isAlphaPixelStroke](UIData.md#__isalphapixelstroke)
+[LineData](LineData.md).[__isAlphaPixelStroke](LineData.md#__isalphapixelstroke)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:32](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L32)
+[src/ui/packages/display-module/data/src/UIData.ts:32](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L32)
 
 ___
 
@@ -375,11 +376,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__isTransparentFill](UIData.md#__istransparentfill)
+[LineData](LineData.md).[__isTransparentFill](LineData.md#__istransparentfill)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:34](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L34)
+[src/ui/packages/display-module/data/src/UIData.ts:34](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L34)
 
 ___
 
@@ -393,11 +394,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__isTransparentStroke](UIData.md#__istransparentstroke)
+[LineData](LineData.md).[__isTransparentStroke](LineData.md#__istransparentstroke)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:35](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L35)
+[src/ui/packages/display-module/data/src/UIData.ts:35](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L35)
 
 ___
 
@@ -411,11 +412,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__needComputePaint](UIData.md#__needcomputepaint)
+[LineData](LineData.md).[__needComputePaint](LineData.md#__needcomputepaint)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:40](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L40)
+[src/ui/packages/display-module/data/src/UIData.ts:40](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L40)
 
 ___
 
@@ -425,11 +426,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[_visible](UIData.md#_visible)
+[LineData](LineData.md).[_visible](LineData.md#_visible)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:42](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L42)
+[src/ui/packages/display-module/data/src/UIData.ts:42](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L42)
 
 ___
 
@@ -439,11 +440,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[_width](UIData.md#_width)
+[LineData](LineData.md).[_width](LineData.md#_width)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:44](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L44)
+[src/ui/packages/display-module/data/src/UIData.ts:44](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L44)
 
 ___
 
@@ -453,11 +454,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[_height](UIData.md#_height)
+[LineData](LineData.md).[_height](LineData.md#_height)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:45](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L45)
+[src/ui/packages/display-module/data/src/UIData.ts:45](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L45)
 
 ___
 
@@ -467,11 +468,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[_fill](UIData.md#_fill)
+[LineData](LineData.md).[_fill](LineData.md#_fill)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:47](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L47)
+[src/ui/packages/display-module/data/src/UIData.ts:47](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L47)
 
 ___
 
@@ -481,11 +482,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[_stroke](UIData.md#_stroke)
+[LineData](LineData.md).[_stroke](LineData.md#_stroke)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:48](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L48)
+[src/ui/packages/display-module/data/src/UIData.ts:48](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L48)
 
 ___
 
@@ -495,11 +496,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[_path](UIData.md#_path)
+[LineData](LineData.md).[_path](LineData.md#_path)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:50](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L50)
+[src/ui/packages/display-module/data/src/UIData.ts:50](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L50)
 
 ___
 
@@ -509,11 +510,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[_shadow](UIData.md#_shadow)
+[LineData](LineData.md).[_shadow](LineData.md#_shadow)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:52](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L52)
+[src/ui/packages/display-module/data/src/UIData.ts:52](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L52)
 
 ___
 
@@ -523,11 +524,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[_innerShadow](UIData.md#_innershadow)
+[LineData](LineData.md).[_innerShadow](LineData.md#_innershadow)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:53](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L53)
+[src/ui/packages/display-module/data/src/UIData.ts:53](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L53)
 
 ## Accessors
 
@@ -545,11 +546,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_useNaturalRatio
+LineData.\_\_useNaturalRatio
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:19](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L19)
+[src/leafer/packages/display-module/data/src/LeafData.ts:19](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L19)
 
 ___
 
@@ -567,11 +568,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_isLinePath
+LineData.\_\_isLinePath
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:21](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L21)
+[src/leafer/packages/display-module/data/src/LeafData.ts:21](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L21)
 
 ___
 
@@ -589,11 +590,33 @@ ___
 
 #### Inherited from
 
-UIData.\_\_blendMode
+LineData.\_\_blendMode
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:26](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L26)
+[src/leafer/packages/display-module/data/src/LeafData.ts:30](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L30)
+
+___
+
+### \_\_usePathBox
+
+• `get` **__usePathBox**(): `boolean`
+
+#### Returns
+
+`boolean`
+
+#### Implementation of
+
+[IPolygonData](../interfaces/IPolygonData.md).[__usePathBox](../interfaces/IPolygonData.md#__usepathbox)
+
+#### Inherited from
+
+LineData.\_\_usePathBox
+
+#### Defined in
+
+[src/ui/packages/display-module/data/src/LineData.ts:8](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/LineData.ts#L8)
 
 ___
 
@@ -611,11 +634,11 @@ ___
 
 #### Inherited from
 
-UIData.scale
+LineData.scale
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:16](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L16)
+[src/ui/packages/display-module/data/src/UIData.ts:16](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L16)
 
 ___
 
@@ -633,11 +656,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_strokeWidth
+LineData.\_\_strokeWidth
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:23](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L23)
+[src/ui/packages/display-module/data/src/UIData.ts:23](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L23)
 
 ___
 
@@ -655,11 +678,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_maxStrokeWidth
+LineData.\_\_maxStrokeWidth
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:25](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L25)
+[src/ui/packages/display-module/data/src/UIData.ts:25](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L25)
 
 ___
 
@@ -677,11 +700,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_hasMultiPaint
+LineData.\_\_hasMultiPaint
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:29](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L29)
+[src/ui/packages/display-module/data/src/UIData.ts:29](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L29)
 
 ___
 
@@ -699,11 +722,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_clipAfterFill
+LineData.\_\_clipAfterFill
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:37](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L37)
+[src/ui/packages/display-module/data/src/UIData.ts:37](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L37)
 
 ___
 
@@ -721,11 +744,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_hasSurface
+LineData.\_\_hasSurface
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:38](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L38)
+[src/ui/packages/display-module/data/src/UIData.ts:38](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L38)
 
 ___
 
@@ -743,11 +766,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_autoWidth
+LineData.\_\_autoWidth
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:55](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L55)
+[src/ui/packages/display-module/data/src/UIData.ts:55](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L55)
 
 ___
 
@@ -765,11 +788,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_autoHeight
+LineData.\_\_autoHeight
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:56](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L56)
+[src/ui/packages/display-module/data/src/UIData.ts:56](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L56)
 
 ___
 
@@ -787,11 +810,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_autoSide
+LineData.\_\_autoSide
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:57](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L57)
+[src/ui/packages/display-module/data/src/UIData.ts:57](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L57)
 
 ___
 
@@ -809,11 +832,11 @@ ___
 
 #### Inherited from
 
-UIData.\_\_autoSize
+LineData.\_\_autoSize
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:58](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L58)
+[src/ui/packages/display-module/data/src/UIData.ts:58](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L58)
 
 ## Methods
 
@@ -837,11 +860,11 @@ UIData.\_\_autoSize
 
 #### Inherited from
 
-[UIData](UIData.md).[__get](UIData.md#__get)
+[LineData](LineData.md).[__get](LineData.md#__get)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:36](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L36)
+[src/leafer/packages/display-module/data/src/LeafData.ts:40](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L40)
 
 ___
 
@@ -859,11 +882,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__getData](UIData.md#__getdata)
+[LineData](LineData.md).[__getData](LineData.md#__getdata)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:44](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L44)
+[src/leafer/packages/display-module/data/src/LeafData.ts:48](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L48)
 
 ___
 
@@ -888,11 +911,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__setInput](UIData.md#__setinput)
+[LineData](LineData.md).[__setInput](LineData.md#__setinput)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:56](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L56)
+[src/leafer/packages/display-module/data/src/LeafData.ts:60](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L60)
 
 ___
 
@@ -916,11 +939,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__getInput](UIData.md#__getinput)
+[LineData](LineData.md).[__getInput](LineData.md#__getinput)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:61](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L61)
+[src/leafer/packages/display-module/data/src/LeafData.ts:65](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L65)
 
 ___
 
@@ -944,11 +967,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__removeInput](UIData.md#__removeinput)
+[LineData](LineData.md).[__removeInput](LineData.md#__removeinput)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:72](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L72)
+[src/leafer/packages/display-module/data/src/LeafData.ts:76](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L76)
 
 ___
 
@@ -973,11 +996,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__getInputData](UIData.md#__getinputdata)
+[LineData](LineData.md).[__getInputData](LineData.md#__getinputdata)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:76](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L76)
+[src/leafer/packages/display-module/data/src/LeafData.ts:80](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L80)
 
 ___
 
@@ -1002,11 +1025,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__setMiddle](UIData.md#__setmiddle)
+[LineData](LineData.md).[__setMiddle](LineData.md#__setmiddle)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:116](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L116)
+[src/leafer/packages/display-module/data/src/LeafData.ts:120](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L120)
 
 ___
 
@@ -1030,11 +1053,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__getMiddle](UIData.md#__getmiddle)
+[LineData](LineData.md).[__getMiddle](LineData.md#__getmiddle)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:121](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L121)
+[src/leafer/packages/display-module/data/src/LeafData.ts:125](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L125)
 
 ___
 
@@ -1052,11 +1075,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__checkSingle](UIData.md#__checksingle)
+[LineData](LineData.md).[__checkSingle](LineData.md#__checksingle)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:125](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L125)
+[src/leafer/packages/display-module/data/src/LeafData.ts:129](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L129)
 
 ___
 
@@ -1074,11 +1097,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__removeNaturalSize](UIData.md#__removenaturalsize)
+[LineData](LineData.md).[__removeNaturalSize](LineData.md#__removenaturalsize)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:139](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L139)
+[src/leafer/packages/display-module/data/src/LeafData.ts:143](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L143)
 
 ___
 
@@ -1096,11 +1119,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[destroy](UIData.md#destroy)
+[LineData](LineData.md).[destroy](LineData.md#destroy)
 
 #### Defined in
 
-[src/leafer/packages/display-module/data/src/LeafData.ts:143](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/display-module/data/src/LeafData.ts#L143)
+[src/leafer/packages/display-module/data/src/LeafData.ts:147](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/display-module/data/src/LeafData.ts#L147)
 
 ___
 
@@ -1120,11 +1143,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setVisible](UIData.md#setvisible)
+[LineData](LineData.md).[setVisible](LineData.md#setvisible)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:61](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L61)
+[src/ui/packages/display-module/data/src/UIData.ts:61](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L61)
 
 ___
 
@@ -1144,11 +1167,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setWidth](UIData.md#setwidth)
+[LineData](LineData.md).[setWidth](LineData.md#setwidth)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:68](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L68)
+[src/ui/packages/display-module/data/src/UIData.ts:68](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L68)
 
 ___
 
@@ -1168,11 +1191,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setHeight](UIData.md#setheight)
+[LineData](LineData.md).[setHeight](LineData.md#setheight)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:76](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L76)
+[src/ui/packages/display-module/data/src/UIData.ts:76](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L76)
 
 ___
 
@@ -1192,11 +1215,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setFill](UIData.md#setfill)
+[LineData](LineData.md).[setFill](LineData.md#setfill)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:85](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L85)
+[src/ui/packages/display-module/data/src/UIData.ts:85](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L85)
 
 ___
 
@@ -1216,11 +1239,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setStroke](UIData.md#setstroke)
+[LineData](LineData.md).[setStroke](LineData.md#setstroke)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:96](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L96)
+[src/ui/packages/display-module/data/src/UIData.ts:96](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L96)
 
 ___
 
@@ -1240,11 +1263,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setPath](UIData.md#setpath)
+[LineData](LineData.md).[setPath](LineData.md#setpath)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:107](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L107)
+[src/ui/packages/display-module/data/src/UIData.ts:107](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L107)
 
 ___
 
@@ -1264,11 +1287,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setShadow](UIData.md#setshadow)
+[LineData](LineData.md).[setShadow](LineData.md#setshadow)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:119](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L119)
+[src/ui/packages/display-module/data/src/UIData.ts:119](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L119)
 
 ___
 
@@ -1288,11 +1311,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setInnerShadow](UIData.md#setinnershadow)
+[LineData](LineData.md).[setInnerShadow](LineData.md#setinnershadow)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:123](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L123)
+[src/ui/packages/display-module/data/src/UIData.ts:123](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L123)
 
 ___
 
@@ -1312,11 +1335,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[setFilter](UIData.md#setfilter)
+[LineData](LineData.md).[setFilter](LineData.md#setfilter)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:127](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L127)
+[src/ui/packages/display-module/data/src/UIData.ts:127](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L127)
 
 ___
 
@@ -1334,11 +1357,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__computePaint](UIData.md#__computepaint)
+[LineData](LineData.md).[__computePaint](LineData.md#__computepaint)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:134](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L134)
+[src/ui/packages/display-module/data/src/UIData.ts:134](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L134)
 
 ___
 
@@ -1362,11 +1385,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__getRealStrokeWidth](UIData.md#__getrealstrokewidth)
+[LineData](LineData.md).[__getRealStrokeWidth](LineData.md#__getrealstrokewidth)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:142](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L142)
+[src/ui/packages/display-module/data/src/UIData.ts:142](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L142)
 
 ___
 
@@ -1391,11 +1414,11 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__setPaint](UIData.md#__setpaint)
+[LineData](LineData.md).[__setPaint](LineData.md#__setpaint)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:155](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L155)
+[src/ui/packages/display-module/data/src/UIData.ts:155](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L155)
 
 ___
 
@@ -1420,8 +1443,8 @@ ___
 
 #### Inherited from
 
-[UIData](UIData.md).[__removePaint](UIData.md#__removepaint)
+[LineData](LineData.md).[__removePaint](LineData.md#__removepaint)
 
 #### Defined in
 
-[src/ui/packages/display-module/data/src/UIData.ts:167](https://github.com/leaferjs/leafer-ui/blob/bf25826307b66b28129b03872bb2832c8787db48/packages/display-module/data/src/UIData.ts#L167)
+[src/ui/packages/display-module/data/src/UIData.ts:167](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/display-module/data/src/UIData.ts#L167)

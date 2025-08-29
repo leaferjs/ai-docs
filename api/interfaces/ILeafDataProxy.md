@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:7](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/display/module/ILeafDataProxy.ts#L7)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:7](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/display/module/ILeafDataProxy.ts#L7)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:8](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/display/module/ILeafDataProxy.ts#L8)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:8](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/display/module/ILeafDataProxy.ts#L8)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:9](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/display/module/ILeafDataProxy.ts#L9)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:9](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/display/module/ILeafDataProxy.ts#L9)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:10](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/display/module/ILeafDataProxy.ts#L10)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:10](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/display/module/ILeafDataProxy.ts#L10)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:11](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/display/module/ILeafDataProxy.ts#L11)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:11](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/display/module/ILeafDataProxy.ts#L11)
 
 ___
 
@@ -141,4 +141,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:12](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/display/module/ILeafDataProxy.ts#L12)
+[src/leafer/packages/interface/src/display/module/ILeafDataProxy.ts:12](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/display/module/ILeafDataProxy.ts#L12)

@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:222](https://github.com/leaferjs/leafer/blob/56c6de6d1ac5072088c765b725fa724d56b9e5ef/packages/interface/src/canvas/ILeaferCanvas.ts#L222)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:224](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L224)
