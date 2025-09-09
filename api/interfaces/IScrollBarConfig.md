@@ -16,7 +16,7 @@
 
 #### Defined in
 
-[src/in/packages/interface/src/scroll/IScrollBar.ts:4](https://github.com/leaferjs/leafer-in/blob/3826eee814363b0fdcec982cd36acf4211841a67/packages/interface/src/scroll/IScrollBar.ts#L4)
+[src/in/packages/interface/src/scroll/IScrollBar.ts:4](https://github.com/leaferjs/leafer-in/blob/c070c8d4b81a35b549f8bfc444add60581a19a22/packages/interface/src/scroll/IScrollBar.ts#L4)
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/interface/src/scroll/IScrollBar.ts:5](https://github.com/leaferjs/leafer-in/blob/3826eee814363b0fdcec982cd36acf4211841a67/packages/interface/src/scroll/IScrollBar.ts#L5)
+[src/in/packages/interface/src/scroll/IScrollBar.ts:5](https://github.com/leaferjs/leafer-in/blob/c070c8d4b81a35b549f8bfc444add60581a19a22/packages/interface/src/scroll/IScrollBar.ts#L5)
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 #### Defined in
 
-[src/in/packages/interface/src/scroll/IScrollBar.ts:6](https://github.com/leaferjs/leafer-in/blob/3826eee814363b0fdcec982cd36acf4211841a67/packages/interface/src/scroll/IScrollBar.ts#L6)
+[src/in/packages/interface/src/scroll/IScrollBar.ts:6](https://github.com/leaferjs/leafer-in/blob/c070c8d4b81a35b549f8bfc444add60581a19a22/packages/interface/src/scroll/IScrollBar.ts#L6)

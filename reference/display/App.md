@@ -31,9 +31,24 @@ App &nbsp;>&nbsp; [Leafer](./Leafer.md) &nbsp;>&nbsp; [Group](./Group.md) &nbsp;
 
 是否为 App 实例， 默认为 true 。
 
-### children: `Leafer`[]
+### children: [`Leafer`](./Leafer.md)[]
 
 子 Leafer 引擎列表。
+
+### mode: [`ILeaferMode`](/api/modules.md#ileafermode)
+
+设置应用的交互模式，默认为 normal，[查看示例](#绘制模式)。
+
+设为 'draw' 将进入绘制模式/绘画模式，此时会停用[图形编辑器](/plugin/in/editor/index.md)，图形元素不再响应交互事件。
+
+设为 'preview' 将进入预览模式，此时会停用[图形编辑器](/plugin/in/editor/index.md)，图形元素仍可响应交互事件。
+
+```ts
+type ILeaferMode =
+  | 'normal' // 正常模式
+  | 'draw' // 绘制模式
+  | 'preview' // 预览模式
+```
 
 ## 统一结构
 
@@ -174,6 +189,107 @@ app.tree.add(Frame.one({ // 页面内容
 app.sky.add(app.editor = new Editor()) // 添加图形编辑器，用于选中元素进行编辑操作 // [!code hl]
 ```
 
+:::
+
+### 绘制模式
+
+::: code-group
+```ts
+// #图形编辑器 [创建图形 - 进入绘制模式]
+import { App, DragEvent, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+
+const app = new App({ view: window, editor: {}, fill: '#333' })
+
+app.tree.add({ tag: 'Text', x: 100, y: 100, text: '2秒后进入绘制模式，按下鼠标拖动可创建矩形，10 秒后再回到正常模式', fill: '#999', fontSize: 16 })
+
+
+app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 300))
+app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', rotation: 10, cornerRadius: [0, 20, 20, 0] }, 300, 300))
+
+app.editor.select(app.tree.children[2])
+
+setTimeout(() => {
+
+    // 2秒后进入绘制模式 // [!code hl]
+    app.mode = 'draw'
+
+    // 创建矩形（拖拽）
+    let rect: Rect
+
+    const events = [
+        app.on_(DragEvent.START, () => {
+            rect = new Rect({ editable: true, fill: '#32cd79' })
+            app.tree.add(rect)
+        }),
+
+        app.on_(DragEvent.DRAG, (e: DragEvent) => {
+            if (rect) rect.set(e.getPageBounds()) // 获取事件在 page 坐标系中绘制形成的包围盒  // [!code hl]
+        })]
+
+
+    setTimeout(() => {
+
+        app.off_(events)
+
+        // 10 秒后回到正常模式 // [!code hl]
+        app.mode = 'normal'
+
+    }, 10000)
+
+}, 2000)
+
+```
+```js
+// #图形编辑器 [创建图形 - 进入绘制模式]
+import { App, DragEvent, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 // [!code hl] 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+
+const app = new App({ view: window, editor: {}, fill: '#333' })
+
+app.tree.add({ tag: 'Text', x: 100, y: 100, text: '2秒后进入绘制模式，按下鼠标拖动可创建矩形，10 秒后再回到正常模式', fill: '#999', fontSize: 16 })
+
+
+app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 300))
+app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', rotation: 10, cornerRadius: [0, 20, 20, 0] }, 300, 300))
+
+app.editor.select(app.tree.children[2])
+
+setTimeout(() => {
+
+    // 2秒后进入绘制模式 // [!code hl]
+    app.mode = 'draw'
+
+    // 创建矩形（拖拽）
+    let rect
+
+    const events = [
+        app.on_(DragEvent.START, () => {
+            rect = new Rect({ editable: true, fill: '#32cd79' })
+            app.tree.add(rect)
+        }),
+
+        app.on_(DragEvent.DRAG, (e) => {
+            if (rect) rect.set(e.getPageBounds()) // 获取事件在 page 坐标系中绘制形成的包围盒  // [!code hl]
+        })]
+
+
+    setTimeout(() => {
+
+        app.off_(events)
+
+        // 10 秒后回到正常模式 // [!code hl]
+        app.mode = 'normal'
+
+    }, 10000)
+
+}, 2000)
+
+```
 :::
 
 <!-- ## 继承元素

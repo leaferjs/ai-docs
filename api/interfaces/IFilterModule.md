@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IFilter.ts:8](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/IFilter.ts#L8)
+[src/ui/packages/interface/src/module/IFilter.ts:8](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/IFilter.ts#L8)
 
 ## Methods
 
@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IFilter.ts:9](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/IFilter.ts#L9)
+[src/ui/packages/interface/src/module/IFilter.ts:9](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/IFilter.ts#L9)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IFilter.ts:10](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/IFilter.ts#L10)
+[src/ui/packages/interface/src/module/IFilter.ts:10](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/IFilter.ts#L10)
 
 ___
 
@@ -86,4 +86,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IFilter.ts:11](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/IFilter.ts#L11)
+[src/ui/packages/interface/src/module/IFilter.ts:11](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/IFilter.ts#L11)

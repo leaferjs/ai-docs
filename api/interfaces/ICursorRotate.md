@@ -15,7 +15,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/ICursor.ts:10](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/ICursor.ts#L10)
+[src/leafer/packages/interface/src/interaction/ICursor.ts:10](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/ICursor.ts#L10)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/ICursor.ts:11](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/ICursor.ts#L11)
+[src/leafer/packages/interface/src/interaction/ICursor.ts:11](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/ICursor.ts#L11)

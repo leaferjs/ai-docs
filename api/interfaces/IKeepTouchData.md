@@ -15,7 +15,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:93](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/event/IEvent.ts#L93)
+[src/leafer/packages/interface/src/event/IEvent.ts:93](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/event/IEvent.ts#L93)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:94](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/event/IEvent.ts#L94)
+[src/leafer/packages/interface/src/event/IEvent.ts:94](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/event/IEvent.ts#L94)

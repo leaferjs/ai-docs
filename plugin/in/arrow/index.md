@@ -41,14 +41,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@1.9.5/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.9.6/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@1.9.5/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.9.6/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
@@ -542,7 +542,7 @@ import { Leafer, path } from 'leafer-ui'
 import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
 
 
-// 注册箭头样式名称 // [!code hl:12] 
+// 注册自定义箭头样式 // [!code hl:12] 
 Arrow.registerArrow('custom-arrow', {
     // 按照线宽为 1 自定义，箭头末端为（0，0），内部会自动处理缩放、旋转角度
     connect: { x: -0.5 }, // 箭头与线条的连接点位置

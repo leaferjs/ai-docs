@@ -75,7 +75,7 @@
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:19](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L19)
+[src/leafer/packages/math/src/Matrix.ts:19](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L19)
 
 ## Properties
 
@@ -89,7 +89,7 @@
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:9](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L9)
+[src/leafer/packages/math/src/Matrix.ts:9](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L9)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:10](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L10)
+[src/leafer/packages/math/src/Matrix.ts:10](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L10)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:11](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L11)
+[src/leafer/packages/math/src/Matrix.ts:11](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L11)
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:12](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L12)
+[src/leafer/packages/math/src/Matrix.ts:12](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L12)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:13](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L13)
+[src/leafer/packages/math/src/Matrix.ts:13](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L13)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:14](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L14)
+[src/leafer/packages/math/src/Matrix.ts:14](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L14)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:16](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L16)
+[src/leafer/packages/math/src/Matrix.ts:16](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L16)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:17](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L17)
+[src/leafer/packages/math/src/Matrix.ts:17](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L17)
 
 ## Methods
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:23](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L23)
+[src/leafer/packages/math/src/Matrix.ts:23](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L23)
 
 ___
 
@@ -240,7 +240,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:28](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L28)
+[src/leafer/packages/math/src/Matrix.ts:28](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L28)
 
 ___
 
@@ -258,7 +258,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:35](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L35)
+[src/leafer/packages/math/src/Matrix.ts:35](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L35)
 
 ___
 
@@ -276,7 +276,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:40](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L40)
+[src/leafer/packages/math/src/Matrix.ts:40](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L40)
 
 ___
 
@@ -301,7 +301,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:45](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L45)
+[src/leafer/packages/math/src/Matrix.ts:45](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L45)
 
 ___
 
@@ -326,7 +326,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:50](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L50)
+[src/leafer/packages/math/src/Matrix.ts:50](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L50)
 
 ___
 
@@ -351,7 +351,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:55](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L55)
+[src/leafer/packages/math/src/Matrix.ts:55](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L55)
 
 ___
 
@@ -376,7 +376,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:60](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L60)
+[src/leafer/packages/math/src/Matrix.ts:60](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L60)
 
 ___
 
@@ -402,7 +402,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:67](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L67)
+[src/leafer/packages/math/src/Matrix.ts:67](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L67)
 
 ___
 
@@ -428,7 +428,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:71](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L71)
+[src/leafer/packages/math/src/Matrix.ts:71](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L71)
 
 ___
 
@@ -452,7 +452,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:76](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L76)
+[src/leafer/packages/math/src/Matrix.ts:76](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L76)
 
 ___
 
@@ -477,7 +477,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:81](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L81)
+[src/leafer/packages/math/src/Matrix.ts:81](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L81)
 
 ___
 
@@ -502,7 +502,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:86](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L86)
+[src/leafer/packages/math/src/Matrix.ts:86](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L86)
 
 ___
 
@@ -527,7 +527,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:92](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L92)
+[src/leafer/packages/math/src/Matrix.ts:92](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L92)
 
 ___
 
@@ -553,7 +553,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:97](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L97)
+[src/leafer/packages/math/src/Matrix.ts:97](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L97)
 
 ___
 
@@ -579,7 +579,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:102](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L102)
+[src/leafer/packages/math/src/Matrix.ts:102](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L102)
 
 ___
 
@@ -603,7 +603,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:108](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L108)
+[src/leafer/packages/math/src/Matrix.ts:108](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L108)
 
 ___
 
@@ -627,7 +627,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:113](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L113)
+[src/leafer/packages/math/src/Matrix.ts:113](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L113)
 
 ___
 
@@ -651,7 +651,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:119](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L119)
+[src/leafer/packages/math/src/Matrix.ts:119](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L119)
 
 ___
 
@@ -675,7 +675,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:124](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L124)
+[src/leafer/packages/math/src/Matrix.ts:124](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L124)
 
 ___
 
@@ -693,7 +693,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:129](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L129)
+[src/leafer/packages/math/src/Matrix.ts:129](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L129)
 
 ___
 
@@ -711,7 +711,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:134](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L134)
+[src/leafer/packages/math/src/Matrix.ts:134](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L134)
 
 ___
 
@@ -737,7 +737,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:142](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L142)
+[src/leafer/packages/math/src/Matrix.ts:142](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L142)
 
 ___
 
@@ -763,7 +763,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:146](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L146)
+[src/leafer/packages/math/src/Matrix.ts:146](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L146)
 
 ___
 
@@ -789,7 +789,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:151](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L151)
+[src/leafer/packages/math/src/Matrix.ts:151](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L151)
 
 ___
 
@@ -815,7 +815,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:156](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L156)
+[src/leafer/packages/math/src/Matrix.ts:156](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L156)
 
 ___
 
@@ -840,7 +840,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:160](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L160)
+[src/leafer/packages/math/src/Matrix.ts:160](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L160)
 
 ___
 
@@ -858,4 +858,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/math/src/Matrix.ts:164](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/math/src/Matrix.ts#L164)
+[src/leafer/packages/math/src/Matrix.ts:164](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/math/src/Matrix.ts#L164)

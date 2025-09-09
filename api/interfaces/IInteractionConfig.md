@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:97](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L97)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:97](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L97)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:98](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L98)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:98](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L98)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:99](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L99)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:99](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L99)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:100](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L100)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:100](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L100)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:101](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L101)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:101](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L101)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:102](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L102)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:102](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L102)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:103](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L103)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:103](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L103)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:104](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L104)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:104](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L104)
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:105](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/interaction/IInteraction.ts#L105)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:105](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/interaction/IInteraction.ts#L105)

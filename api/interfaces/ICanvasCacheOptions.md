@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:27](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L27)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:27](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L27)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:28](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L28)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:28](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L28)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:30](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L30)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:30](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L30)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:31](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L31)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:31](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L31)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:32](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L32)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:32](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L32)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:33](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L33)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:33](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L33)
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:34](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L34)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:34](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L34)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:38](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L38)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:38](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L38)
 
 ___
 
@@ -136,4 +136,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:39](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/canvas/ILeaferCanvas.ts#L39)
+[src/leafer/packages/interface/src/canvas/ILeaferCanvas.ts:39](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/canvas/ILeaferCanvas.ts#L39)

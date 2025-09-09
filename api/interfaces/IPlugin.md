@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/plugin/IPlugin.ts:5](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/plugin/IPlugin.ts#L5)
+[src/leafer/packages/interface/src/plugin/IPlugin.ts:5](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/plugin/IPlugin.ts#L5)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/plugin/IPlugin.ts:6](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/plugin/IPlugin.ts#L6)
+[src/leafer/packages/interface/src/plugin/IPlugin.ts:6](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/plugin/IPlugin.ts#L6)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/plugin/IPlugin.ts:7](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/plugin/IPlugin.ts#L7)
+[src/leafer/packages/interface/src/plugin/IPlugin.ts:7](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/plugin/IPlugin.ts#L7)
 
 ## Methods
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/plugin/IPlugin.ts:8](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/plugin/IPlugin.ts#L8)
+[src/leafer/packages/interface/src/plugin/IPlugin.ts:8](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/plugin/IPlugin.ts#L8)
 
 ___
 
@@ -88,4 +88,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/plugin/IPlugin.ts:9](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/plugin/IPlugin.ts#L9)
+[src/leafer/packages/interface/src/plugin/IPlugin.ts:9](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/plugin/IPlugin.ts#L9)

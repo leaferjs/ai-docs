@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafMatrix.ts:6](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/display/module/ILeafMatrix.ts#L6)
+[src/leafer/packages/interface/src/display/module/ILeafMatrix.ts:6](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/display/module/ILeafMatrix.ts#L6)
 
 ___
 
@@ -39,4 +39,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/module/ILeafMatrix.ts:7](https://github.com/leaferjs/leafer/blob/ddf9650d989917c451947b101193d83f38b9fdcf/packages/interface/src/display/module/ILeafMatrix.ts#L7)
+[src/leafer/packages/interface/src/display/module/ILeafMatrix.ts:7](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/display/module/ILeafMatrix.ts#L7)

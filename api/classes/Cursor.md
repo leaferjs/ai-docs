@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Cursor.ts:6](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interaction/interaction/src/Cursor.ts#L6)
+[src/ui/packages/interaction/interaction/src/Cursor.ts:6](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interaction/interaction/src/Cursor.ts#L6)
 
 ## Methods
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Cursor.ts:8](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interaction/interaction/src/Cursor.ts#L8)
+[src/ui/packages/interaction/interaction/src/Cursor.ts:8](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interaction/interaction/src/Cursor.ts#L8)
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Cursor.ts:12](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interaction/interaction/src/Cursor.ts#L12)
+[src/ui/packages/interaction/interaction/src/Cursor.ts:12](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interaction/interaction/src/Cursor.ts#L12)

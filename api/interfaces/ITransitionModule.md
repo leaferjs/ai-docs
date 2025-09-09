@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/ITransition.ts:5](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/ITransition.ts#L5)
+[src/ui/packages/interface/src/module/ITransition.ts:5](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/ITransition.ts#L5)
 
 ## Methods
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/ITransition.ts:6](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/ITransition.ts#L6)
+[src/ui/packages/interface/src/module/ITransition.ts:6](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/ITransition.ts#L6)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/ITransition.ts:7](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/ITransition.ts#L7)
+[src/ui/packages/interface/src/module/ITransition.ts:7](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/ITransition.ts#L7)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/ITransition.ts:9](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/ITransition.ts#L9)
+[src/ui/packages/interface/src/module/ITransition.ts:9](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/ITransition.ts#L9)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/ITransition.ts:11](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/ITransition.ts#L11)
+[src/ui/packages/interface/src/module/ITransition.ts:11](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/ITransition.ts#L11)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/ITransition.ts:12](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/ITransition.ts#L12)
+[src/ui/packages/interface/src/module/ITransition.ts:12](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/ITransition.ts#L12)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/ITransition.ts:13](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/ITransition.ts#L13)
+[src/ui/packages/interface/src/module/ITransition.ts:13](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/ITransition.ts#L13)
 
 ___
 
@@ -182,4 +182,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/ITransition.ts:14](https://github.com/leaferjs/leafer-ui/blob/38558928fc1be6d4d216bb813fcdb043c6cbb533/packages/interface/src/module/ITransition.ts#L14)
+[src/ui/packages/interface/src/module/ITransition.ts:14](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/module/ITransition.ts#L14)
