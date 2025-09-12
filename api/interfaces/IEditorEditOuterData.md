@@ -15,7 +15,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/editor/IEditor.ts:175](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/editor/IEditor.ts#L175)
+[src/ui/packages/interface/src/editor/IEditor.ts:183](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/editor/IEditor.ts#L183)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/editor/IEditor.ts:176](https://github.com/leaferjs/leafer-ui/blob/60106e52e15189ef407f949c7d78e5668e97d1c6/packages/interface/src/editor/IEditor.ts#L176)
+[src/ui/packages/interface/src/editor/IEditor.ts:184](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/editor/IEditor.ts#L184)

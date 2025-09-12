@@ -74,6 +74,12 @@ point: [
 
 并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
+### resizeLine: [`IBoxInputData`](/reference/display/Box.md)
+
+设置编辑框四周的隐藏控制线样式，可通过设置 `height` 来控制线条的粗细，默认为 10px。
+
+并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
+
 ### rect: [`IBoxInputData`](/reference/display/Box.md)
 
 设置编辑框的样式（会继承基础样式）。
@@ -132,7 +138,23 @@ hover 样式，目前只能定义笔触和填充样式（会继承基础样式�
 
 设为 true 或色彩值时，选中元素会突出显示，其他区域变暗，适用于裁剪、截图等场景。
 
-另外元素设置 [dim](/reference/UI/dim.md) / [dimskip](/reference/UI/dim.md) 属性可实现类似的效果，效果更好，性能略差。
+### 突出显示
+
+### bright: `boolean`
+
+突出显示，并置顶渲染选中元素，默认为 false，[查看示例](#突出显示-置顶渲染元素)。
+
+源于元素 [bright](/reference/UI/bright.md) 属性。
+
+### dimOthers: `boolean` | `number`
+
+淡化其他元素，突出选中元素，通过叠加透明度来淡化元素，默认为 false，[查看示例](#突出显示并置顶渲染-淡化其他元素)。
+
+设为 true 时会自动设置 0.2 的透明度，也可设置一个透明度数值。
+
+源于元素 [dim](/reference/UI/dim.md) / [dimskip](/reference/UI/dim.md) 属性。
+
+另可通过设置编辑器 [dimTarget](/plugin/in/editor/index.md#dimtarget-group-group) 属性确定淡化内容的范围（支持数组）。
 
 ## 示例
 
@@ -374,4 +396,76 @@ const text = Text.one({
 app.tree.add(text)
 
 app.editor.select(text)
+```
+
+### 突出显示，置顶渲染元素
+
+```ts
+// #突出显示，置顶渲染元素 [App]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 
+import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {
+        bright: true, // 突出显示、置顶渲染选中元素 // [!code hl]
+    }
+})
+
+app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100))
+app.tree.add(Rect.one({ editable: true, fill: '#32cd79' }, 260, 150))
+app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 20, 0] }, 320, 100))
+
+setTimeout(() => { app.editor.select(app.tree.children[1]) }, 1000) // 模拟旋转元素
+```
+
+### 突出显示并置顶渲染，淡化其他元素
+
+```ts
+// #突出显示并置顶渲染，淡化其他元素 [App]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 
+import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {
+        bright: true, // 突出显示、置顶渲染选中元素 // [!code hl:2]
+        dimOthers: true, // 淡化其他元素
+        //dimOthers: 0.2 // 可指定淡化的透明度
+    }
+})
+
+app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100))
+app.tree.add(Rect.one({ editable: true, fill: '#32cd79' }, 260, 150))
+app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 20, 0] }, 320, 100))
+
+setTimeout(() => { app.editor.select(app.tree.children[1]) }, 1000) // 模拟旋转元素
+```
+
+### 突出主体，淡化其他元素
+
+```ts
+// #突出主体、淡化其他元素 [App]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 
+import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {
+        dimOthers: true, // 淡化其他元素，突出选中元素 // [!code hl]
+        //dimOthers: 0.2 // 可指定淡化的透明度
+    }
+})
+
+app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100))
+app.tree.add(Rect.one({ editable: true, fill: '#32cd79' }, 260, 150))
+app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 20, 0] }, 320, 100))
+
+setTimeout(() => { app.editor.select(app.tree.children[1]) }, 1000) // 模拟旋转元素
 ```

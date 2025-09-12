@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:23](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/renderer/IRenderer.ts#L23)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:27](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/renderer/IRenderer.ts#L27)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:24](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/renderer/IRenderer.ts#L24)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:28](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/renderer/IRenderer.ts#L28)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:25](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/renderer/IRenderer.ts#L25)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:29](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/renderer/IRenderer.ts#L29)

@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/platform/IPlatform.ts:82](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/platform/IPlatform.ts#L82)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:84](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/platform/IPlatform.ts#L84)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/platform/IPlatform.ts:83](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/platform/IPlatform.ts#L83)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:85](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/platform/IPlatform.ts#L85)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/platform/IPlatform.ts:84](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/platform/IPlatform.ts#L84)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:86](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/platform/IPlatform.ts#L86)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/platform/IPlatform.ts:85](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/platform/IPlatform.ts#L85)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:87](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/platform/IPlatform.ts#L87)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/platform/IPlatform.ts:86](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/platform/IPlatform.ts#L86)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:88](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/platform/IPlatform.ts#L88)
 
 ___
 
@@ -129,4 +129,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/platform/IPlatform.ts:87](https://github.com/leaferjs/leafer/blob/c0a3cd1f6ba179c1348a90558ab02097cb535d9a/packages/interface/src/platform/IPlatform.ts#L87)
+[src/leafer/packages/interface/src/platform/IPlatform.ts:89](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/platform/IPlatform.ts#L89)
