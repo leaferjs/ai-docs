@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.9.7/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.9.7/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.9.8/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.9.8/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.9.7/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.9.7/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.9.8/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.9.8/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -612,6 +612,30 @@ app.tree.add(Frame.one({ // 背景为透明方格的画板
     },
     children: [
         Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100),
+        Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 20, 0] }, 300, 100)
+    ]
+}, 100, 100, 500, 600))
+```
+
+### 移动端手势操作元素
+
+```ts
+// #图形编辑器 [手势操作元素]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件
+
+const app = new App({
+    view: window,
+    fill: '#333',
+    mobile: true, // 适配移动端
+    // multiTouch: {  singleGesture: true }, // 可配置锁定单一手势操作
+    editor: { moveable: 'gesture', resizeable: 'gesture', rotateable: 'gesture' }  //  编辑元素支持手势操作 // [!code hl]
+})
+
+app.tree.add(Frame.one({ // 页面内容
+    children: [
+        Rect.one({ editable: true, fill: '#FEB027', dragBounds: 'parent', cornerRadius: [20, 0, 0, 20] }, 100, 100),
         Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 20, 0] }, 300, 100)
     ]
 }, 100, 100, 500, 600))

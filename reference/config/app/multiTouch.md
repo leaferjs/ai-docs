@@ -16,6 +16,22 @@
 
 是否禁用多点触屏产生的缩放/平移/旋转事件， 默认为 false。
 
+### multiTouch.singleGesture: `boolean` | [`ISingleGestureConfig`](/api/interfaces/ISingleGestureConfig.md)
+
+是否识别并锁定单一手势操作（缩放/平移/旋转手势同时只会优先使用一个）， 默认为 false。
+
+设置对象时，可以进一步细化手势识别阈值。
+
+```ts
+interface ISingleGestureConfig {
+  move?: number // 识别移动的阈值，默认为 5
+  scale?: number // 识别缩放的阈值，默认为 0.03
+  rotation?: number // 识别旋转的阈值，默认为 2度
+  count?: number // 连续识别几次同样手势类型进行锁定，默认为 2次
+  time?: number // 最长手势类型识别时间，默认为 160ms
+}
+```
+
 ## 示例
 
 ### 禁用多点触屏功能
@@ -24,15 +40,16 @@
 ```ts
 // #应用与引擎配置 - 禁用多点触屏功能 [Leafer]
 import { Leafer, Rect } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件
 
 const leafer = new Leafer({
     view: window,
+    type: 'viewport',
     multiTouch: { disabled: true } // [!code hl]
 })
 
 leafer.add(Rect.one({ fill: '#32cd79' }, 100, 100))
 ```
-
 ```ts
 // #应用与引擎配置 - 禁用多点触屏功能 [App]
 import { App, Rect } from 'leafer-ui'
@@ -43,5 +60,50 @@ const app = new App({
 })
 
 app.tree.add(Rect.one({ fill: '#32cd79' }, 100, 100))
+```
+:::
+
+### 锁定单一手势操作
+
+::: code-group
+```ts
+// #应用与引擎配置 - 锁定单一手势操作 [Leafer]
+import { Leafer, Rect } from 'leafer-ui'
+import '@leafer-in/viewport' // 导入视口插件
+
+const leafer = new Leafer({
+    view: window,
+    type: 'viewport',
+    mobile: true, // 适配移动端
+    multiTouch: {
+        singleGesture: true // 识别并锁定单一手势操作 // [!code hl]
+    }
+})
+
+leafer.add(Rect.one({ fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100))
+leafer.add(Rect.one({ ill: '#FFE04B', cornerRadius: [0, 20, 20, 0] }, 300, 100))
+```
+```ts
+// #应用与引擎配置 - 锁定单一手势操作 [App]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件
+
+const app = new App({
+    view: window,
+    fill: '#333',
+    mobile: true, // 适配移动端
+    multiTouch: {
+        singleGesture: true // 识别并锁定单一手势操作 // [!code hl]
+    },
+    editor: { moveable: 'gesture', resizeable: 'gesture', rotateable: 'gesture' }  //  编辑元素支持手势操作 
+})
+
+app.tree.add(Frame.one({ // 页面内容
+    children: [
+        Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100),
+        Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 20, 0] }, 300, 100)
+    ]
+}, 100, 100, 500, 600))
 ```
 :::

@@ -1,6 +1,6 @@
 # bright
 
-突出显示元素，置顶渲染，可与[dim](./dim.md) 淡化元素属性结合使用，适用于产品拆解演示等场景。
+突出显示元素，置顶渲染，可与 [dim](/reference/UI/dim.md) 淡化元素属性结合使用，适用于产品拆解演示等场景。
 
 另外图形编辑器配置 [bright](/plugin/in/editor/config/style.md#bright-boolean)、 [dimOthers](/plugin/in/editor/config/style.md#bright-boolean)，可突出显示选中元素，淡化其他内容。
 
@@ -26,7 +26,7 @@
 ```ts
 // #突出显示，置顶渲染元素 [leafer]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/bright' // 导入突出显示元素插件  // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -46,7 +46,7 @@ setTimeout(() => {
 // #突出显示，置顶渲染元素 [App]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件 
-import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/bright' // 导入突出显示元素插件  // [!code hl]
 import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
@@ -70,7 +70,7 @@ setTimeout(() => { app.editor.select(app.tree.children[1]) }, 1000) // 模拟旋
 ```ts
 // #突出显示并置顶渲染，淡化其他元素 [leafer]
 import { Leafer, Rect } from 'leafer-ui'
-import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/bright' // 导入突出显示元素插件  // [!code hl]
 
 const leafer = new Leafer({ view: window })
 
@@ -93,7 +93,7 @@ setTimeout(() => {
 // #突出显示并置顶渲染，淡化其他元素 [App]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件 
-import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/bright' // 导入突出显示元素插件  // [!code hl]
 import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({

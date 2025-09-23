@@ -8,15 +8,18 @@
 
 ### Properties
 
-- [interaction](Transformer.md#interaction)
 - [moveData](Transformer.md#movedata)
 - [zoomData](Transformer.md#zoomdata)
 - [rotateData](Transformer.md#rotatedata)
+- [interaction](Transformer.md#interaction)
 - [transformTimer](Transformer.md#transformtimer)
 
 ### Accessors
 
 - [transforming](Transformer.md#transforming)
+- [moving](Transformer.md#moving)
+- [zooming](Transformer.md#zooming)
+- [rotating](Transformer.md#rotating)
 
 ### Methods
 
@@ -47,9 +50,39 @@
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:16](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L16)
+[src/in/packages/viewport/src/interaction/Transformer.ts:22](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L22)
 
 ## Properties
+
+### moveData
+
+• **moveData**: [`IMoveEvent`](../interfaces/IMoveEvent.md)
+
+#### Defined in
+
+[src/in/packages/viewport/src/interaction/Transformer.ts:15](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L15)
+
+___
+
+### zoomData
+
+• **zoomData**: [`IZoomEvent`](../interfaces/IZoomEvent.md)
+
+#### Defined in
+
+[src/in/packages/viewport/src/interaction/Transformer.ts:16](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L16)
+
+___
+
+### rotateData
+
+• **rotateData**: [`IRotateEvent`](../interfaces/IRotateEvent.md)
+
+#### Defined in
+
+[src/in/packages/viewport/src/interaction/Transformer.ts:17](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L17)
+
+___
 
 ### interaction
 
@@ -57,37 +90,7 @@
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:10](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L10)
-
-___
-
-### moveData
-
-• `Protected` **moveData**: [`IMoveEvent`](../interfaces/IMoveEvent.md)
-
-#### Defined in
-
-[src/in/packages/viewport/src/interaction/Transformer.ts:11](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L11)
-
-___
-
-### zoomData
-
-• `Protected` **zoomData**: [`IZoomEvent`](../interfaces/IZoomEvent.md)
-
-#### Defined in
-
-[src/in/packages/viewport/src/interaction/Transformer.ts:12](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L12)
-
-___
-
-### rotateData
-
-• `Protected` **rotateData**: [`IRotateEvent`](../interfaces/IRotateEvent.md)
-
-#### Defined in
-
-[src/in/packages/viewport/src/interaction/Transformer.ts:13](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L13)
+[src/in/packages/viewport/src/interaction/Transformer.ts:19](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L19)
 
 ___
 
@@ -97,7 +100,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:14](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L14)
+[src/in/packages/viewport/src/interaction/Transformer.ts:20](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L20)
 
 ## Accessors
 
@@ -111,7 +114,49 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:8](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L8)
+[src/in/packages/viewport/src/interaction/Transformer.ts:10](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L10)
+
+___
+
+### moving
+
+• `get` **moving**(): `boolean`
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[src/in/packages/viewport/src/interaction/Transformer.ts:11](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L11)
+
+___
+
+### zooming
+
+• `get` **zooming**(): `boolean`
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[src/in/packages/viewport/src/interaction/Transformer.ts:12](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L12)
+
+___
+
+### rotating
+
+• `get` **rotating**(): `boolean`
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[src/in/packages/viewport/src/interaction/Transformer.ts:13](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L13)
 
 ## Methods
 
@@ -131,7 +176,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:20](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L20)
+[src/in/packages/viewport/src/interaction/Transformer.ts:26](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L26)
 
 ___
 
@@ -151,7 +196,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:37](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L37)
+[src/in/packages/viewport/src/interaction/Transformer.ts:46](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L46)
 
 ___
 
@@ -171,7 +216,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:53](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L53)
+[src/in/packages/viewport/src/interaction/Transformer.ts:64](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L64)
 
 ___
 
@@ -191,7 +236,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:69](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L69)
+[src/in/packages/viewport/src/interaction/Transformer.ts:82](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L82)
 
 ___
 
@@ -205,7 +250,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:76](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L76)
+[src/in/packages/viewport/src/interaction/Transformer.ts:89](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L89)
 
 ___
 
@@ -219,7 +264,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:83](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L83)
+[src/in/packages/viewport/src/interaction/Transformer.ts:96](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L96)
 
 ___
 
@@ -233,7 +278,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:91](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L91)
+[src/in/packages/viewport/src/interaction/Transformer.ts:104](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L104)
 
 ___
 
@@ -247,4 +292,4 @@ ___
 
 #### Defined in
 
-[src/in/packages/viewport/src/interaction/Transformer.ts:95](https://github.com/leaferjs/leafer-in/blob/61e3541a1482c36f21ba863f3588c543f87d21aa/packages/viewport/src/interaction/Transformer.ts#L95)
+[src/in/packages/viewport/src/interaction/Transformer.ts:108](https://github.com/leaferjs/leafer-in/blob/9b153e8436ed0ed3634ce9190cd6216c0efe96d6/packages/viewport/src/interaction/Transformer.ts#L108)

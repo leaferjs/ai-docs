@@ -404,7 +404,7 @@ app.editor.select(text)
 // #突出显示，置顶渲染元素 [App]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件 
-import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/bright' // 导入突出显示元素插件  // [!code hl]
 import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
@@ -427,7 +427,7 @@ setTimeout(() => { app.editor.select(app.tree.children[1]) }, 1000) // 模拟旋
 // #突出显示并置顶渲染，淡化其他元素 [App]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件 
-import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/bright' // 导入突出显示元素插件  // [!code hl]
 import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({
@@ -452,7 +452,7 @@ setTimeout(() => { app.editor.select(app.tree.children[1]) }, 1000) // 模拟旋
 // #突出主体、淡化其他元素 [App]
 import { App, Rect } from 'leafer-ui'
 import '@leafer-in/editor' // 导入图形编辑器插件 
-import '@leafer-in/bright' // 导入突出显示元素插件
+import '@leafer-in/bright' // 导入突出显示元素插件  // [!code hl]
 import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({

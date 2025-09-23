@@ -5,6 +5,7 @@
 ### Properties
 
 - [disabled](IMultiTouchConfig.md#disabled)
+- [singleGesture](IMultiTouchConfig.md#singlegesture)
 
 ## Properties
 
@@ -14,4 +15,14 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/interaction/IInteraction.ts:170](https://github.com/leaferjs/leafer/blob/e3d29379fa30ec6414b4ee45872fc9fd9c3f2178/packages/interface/src/interaction/IInteraction.ts#L170)
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:170](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/interface/src/interaction/IInteraction.ts#L170)
+
+___
+
+### singleGesture
+
+• `Optional` **singleGesture**: `boolean` \| [`ISingleGestureConfig`](ISingleGestureConfig.md)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/interaction/IInteraction.ts:171](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/interface/src/interaction/IInteraction.ts#L171)

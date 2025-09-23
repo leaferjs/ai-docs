@@ -8,9 +8,10 @@
 - [innerShadow](IEffectModule.md#innershadow)
 - [blur](IEffectModule.md#blur)
 - [backgroundBlur](IEffectModule.md#backgroundblur)
-- [getShadowSpread](IEffectModule.md#getshadowspread)
+- [getShadowRenderSpread](IEffectModule.md#getshadowrenderspread)
+- [getShadowTransform](IEffectModule.md#getshadowtransform)
 - [isTransformShadow](IEffectModule.md#istransformshadow)
-- [renderTransformShadow](IEffectModule.md#rendertransformshadow)
+- [getInnerShadowSpread](IEffectModule.md#getinnershadowspread)
 
 ## Methods
 
@@ -32,7 +33,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IEffect.ts:9](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/module/IEffect.ts#L9)
+[src/ui/packages/interface/src/module/IEffect.ts:9](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/module/IEffect.ts#L9)
 
 ___
 
@@ -54,7 +55,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IEffect.ts:10](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/module/IEffect.ts#L10)
+[src/ui/packages/interface/src/module/IEffect.ts:10](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/module/IEffect.ts#L10)
 
 ___
 
@@ -76,7 +77,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IEffect.ts:11](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/module/IEffect.ts#L11)
+[src/ui/packages/interface/src/module/IEffect.ts:11](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/module/IEffect.ts#L11)
 
 ___
 
@@ -98,13 +99,13 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IEffect.ts:12](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/module/IEffect.ts#L12)
+[src/ui/packages/interface/src/module/IEffect.ts:12](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/module/IEffect.ts#L12)
 
 ___
 
-### getShadowSpread
+### getShadowRenderSpread
 
-▸ **getShadowSpread**(`ui`, `shadow`): `number`
+▸ **getShadowRenderSpread**(`ui`, `shadow`, `spreadSign?`): [`IFourNumber`](../modules.md#ifournumber)
 
 #### Parameters
 
@@ -112,14 +113,41 @@ ___
 | :------ | :------ |
 | `ui` | [`IUI`](IUI.md) |
 | `shadow` | [`ILeafShadowEffect`](ILeafShadowEffect.md)[] |
+| `spreadSign?` | ``-1`` \| ``1`` |
 
 #### Returns
 
-`number`
+[`IFourNumber`](../modules.md#ifournumber)
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IEffect.ts:15](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/module/IEffect.ts#L15)
+[src/ui/packages/interface/src/module/IEffect.ts:15](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/module/IEffect.ts#L15)
+
+___
+
+### getShadowTransform
+
+▸ **getShadowTransform**(`ui`, `canvas`, `shape`, `shadow`, `outBounds`, `otherScale`, `isInnerShaodw?`): [`IMatrixData`](IMatrixData.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ui` | [`IUI`](IUI.md) |
+| `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `shape` | [`ICachedShape`](ICachedShape.md) |
+| `shadow` | [`ILeafShadowEffect`](ILeafShadowEffect.md) |
+| `outBounds` | [`IBoundsData`](IBoundsData.md) |
+| `otherScale` | `number` |
+| `isInnerShaodw?` | `boolean` |
+
+#### Returns
+
+[`IMatrixData`](IMatrixData.md)
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IEffect.ts:16](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/module/IEffect.ts#L16)
 
 ___
 
@@ -139,28 +167,25 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IEffect.ts:16](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/module/IEffect.ts#L16)
+[src/ui/packages/interface/src/module/IEffect.ts:17](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/module/IEffect.ts#L17)
 
 ___
 
-### renderTransformShadow
+### getInnerShadowSpread
 
-▸ **renderTransformShadow**(`ui`, `current`, `fromCanvas`, `fromWorld`, `shadow`): `void`
+▸ **getInnerShadowSpread**(`ui`, `innerShadow`): [`IFourNumber`](../modules.md#ifournumber)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `ui` | [`IUI`](IUI.md) |
-| `current` | [`ILeaferCanvas`](ILeaferCanvas.md) |
-| `fromCanvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
-| `fromWorld` | [`IBoundsData`](IBoundsData.md) |
-| `shadow` | [`ILeafShadowEffect`](ILeafShadowEffect.md) |
+| `innerShadow` | [`ILeafShadowEffect`](ILeafShadowEffect.md)[] |
 
 #### Returns
 
-`void`
+[`IFourNumber`](../modules.md#ifournumber)
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IEffect.ts:17](https://github.com/leaferjs/leafer-ui/blob/16756ed01a69dbd7bc933bd482f1080c8875c2f1/packages/interface/src/module/IEffect.ts#L17)
+[src/ui/packages/interface/src/module/IEffect.ts:19](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/module/IEffect.ts#L19)
