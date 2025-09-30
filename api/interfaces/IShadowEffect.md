@@ -13,8 +13,8 @@
 - [visible](IShadowEffect.md#visible)
 - [box](IShadowEffect.md#box)
 - [scaleFixed](IShadowEffect.md#scalefixed)
-- [skewX](IShadowEffect.md#skewx)
-- [skewY](IShadowEffect.md#skewy)
+- [skew](IShadowEffect.md#skew)
+- [scale](IShadowEffect.md#scale)
 - [rotation](IShadowEffect.md#rotation)
 - [origin](IShadowEffect.md#origin)
 
@@ -22,31 +22,31 @@
 
 ### x
 
-• **x**: `number`
+• `Optional` **x**: `number`
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:184](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L184)
+[src/ui/packages/interface/src/type/IType.ts:184](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L184)
 
 ___
 
 ### y
 
-• **y**: `number`
+• `Optional` **y**: `number`
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:185](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L185)
+[src/ui/packages/interface/src/type/IType.ts:185](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L185)
 
 ___
 
 ### blur
 
-• **blur**: `number`
+• `Optional` **blur**: `number`
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:186](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L186)
+[src/ui/packages/interface/src/type/IType.ts:186](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L186)
 
 ___
 
@@ -56,17 +56,17 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:187](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L187)
+[src/ui/packages/interface/src/type/IType.ts:187](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L187)
 
 ___
 
 ### color
 
-• **color**: [`IColor`](../modules.md#icolor)
+• `Optional` **color**: [`IColor`](../modules.md#icolor)
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:188](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L188)
+[src/ui/packages/interface/src/type/IType.ts:188](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L188)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:189](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L189)
+[src/ui/packages/interface/src/type/IType.ts:189](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L189)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:190](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L190)
+[src/ui/packages/interface/src/type/IType.ts:190](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L190)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:191](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L191)
+[src/ui/packages/interface/src/type/IType.ts:191](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L191)
 
 ___
 
@@ -106,27 +106,27 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:192](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L192)
+[src/ui/packages/interface/src/type/IType.ts:192](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L192)
 
 ___
 
-### skewX
+### skew
 
-• `Optional` **skewX**: `number`
+• `Optional` **skew**: [`IPointData`](IPointData.md)
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:195](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L195)
+[src/ui/packages/interface/src/type/IType.ts:195](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L195)
 
 ___
 
-### skewY
+### scale
 
-• `Optional` **skewY**: `number`
+• `Optional` **scale**: [`IPointData`](IPointData.md)
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:196](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L196)
+[src/ui/packages/interface/src/type/IType.ts:196](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L196)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:197](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L197)
+[src/ui/packages/interface/src/type/IType.ts:197](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L197)
 
 ___
 
@@ -146,4 +146,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:198](https://github.com/leaferjs/leafer-ui/blob/4f34682d75d50ed9144f891fb4da145a8d369069/packages/interface/src/type/IType.ts#L198)
+[src/ui/packages/interface/src/type/IType.ts:198](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/type/IType.ts#L198)

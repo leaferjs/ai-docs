@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:35](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L35)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:35](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L35)
 
 ## Properties
 
@@ -77,7 +77,7 @@
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:7](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L7)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:7](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L7)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:9](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L9)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:9](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L9)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:11](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L11)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:11](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L11)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:12](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L12)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:12](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L12)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:13](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L13)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:13](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L13)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:15](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L15)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:15](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L15)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:16](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L16)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:16](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L16)
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:17](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L17)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:17](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L17)
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:20](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L20)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:20](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L20)
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:32](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L32)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:32](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L32)
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:33](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L33)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:33](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L33)
 
 ## Accessors
 
@@ -227,7 +227,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:18](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L18)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:18](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L18)
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:22](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L22)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:22](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L22)
 
 ## Methods
 
@@ -263,7 +263,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:41](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L41)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:41](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L41)
 
 ___
 
@@ -281,7 +281,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:46](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L46)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:46](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L46)
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:50](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L50)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:50](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L50)
 
 ___
 
@@ -317,7 +317,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:56](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L56)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:56](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L56)
 
 ___
 
@@ -337,7 +337,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:61](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L61)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:61](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L61)
 
 ___
 
@@ -357,7 +357,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:66](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L66)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:66](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L66)
 
 ___
 
@@ -377,7 +377,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:77](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L77)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:77](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L77)
 
 ___
 
@@ -397,7 +397,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:82](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L82)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:82](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L82)
 
 ___
 
@@ -411,7 +411,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:87](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L87)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:87](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L87)
 
 ___
 
@@ -425,7 +425,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:94](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L94)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:94](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L94)
 
 ___
 
@@ -439,7 +439,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:104](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L104)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:104](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L104)
 
 ___
 
@@ -457,4 +457,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/watcher/src/Watcher.ts:108](https://github.com/leaferjs/leafer/blob/95ff07e0d4def3c18ac6ce3fa51ec0d271dffaae/packages/partner/watcher/src/Watcher.ts#L108)
+[src/leafer/packages/partner/watcher/src/Watcher.ts:108](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/watcher/src/Watcher.ts#L108)
