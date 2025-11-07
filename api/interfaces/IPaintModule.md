@@ -13,6 +13,7 @@
 - [strokes](IPaintModule.md#strokes)
 - [strokeText](IPaintModule.md#stroketext)
 - [strokeArrow](IPaintModule.md#strokearrow)
+- [drawStrokesStyle](IPaintModule.md#drawstrokesstyle)
 - [drawTextStroke](IPaintModule.md#drawtextstroke)
 - [shape](IPaintModule.md#shape)
 
@@ -35,13 +36,13 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:10](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L10)
+[src/ui/packages/interface/src/module/IPaint.ts:10](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L10)
 
 ___
 
 ### fill
 
-▸ **fill**(`fill`, `ui`, `canvas`): `void`
+▸ **fill**(`fill`, `ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -50,6 +51,7 @@ ___
 | `fill` | `string` |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -57,13 +59,13 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:12](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L12)
+[src/ui/packages/interface/src/module/IPaint.ts:12](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L12)
 
 ___
 
 ### fills
 
-▸ **fills**(`fills`, `ui`, `canvas`): `void`
+▸ **fills**(`fills`, `ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -72,6 +74,7 @@ ___
 | `fills` | [`ILeafPaint`](ILeafPaint.md)[] |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -79,13 +82,13 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:13](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L13)
+[src/ui/packages/interface/src/module/IPaint.ts:13](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L13)
 
 ___
 
 ### fillPathOrText
 
-▸ **fillPathOrText**(`ui`, `canvas`): `void`
+▸ **fillPathOrText**(`ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -93,6 +96,7 @@ ___
 | :------ | :------ |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -100,13 +104,13 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:15](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L15)
+[src/ui/packages/interface/src/module/IPaint.ts:15](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L15)
 
 ___
 
 ### fillText
 
-▸ **fillText**(`ui`, `canvas`): `void`
+▸ **fillText**(`ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -114,6 +118,7 @@ ___
 | :------ | :------ |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -121,13 +126,13 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:16](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L16)
+[src/ui/packages/interface/src/module/IPaint.ts:16](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L16)
 
 ___
 
 ### stroke
 
-▸ **stroke**(`stroke`, `ui`, `canvas`): `void`
+▸ **stroke**(`stroke`, `ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -136,6 +141,7 @@ ___
 | `stroke` | `string` |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -143,13 +149,13 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:18](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L18)
+[src/ui/packages/interface/src/module/IPaint.ts:18](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L18)
 
 ___
 
 ### strokes
 
-▸ **strokes**(`strokes`, `ui`, `canvas`): `void`
+▸ **strokes**(`strokes`, `ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -158,6 +164,7 @@ ___
 | `strokes` | [`ILeafPaint`](ILeafPaint.md)[] |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -165,13 +172,13 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:19](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L19)
+[src/ui/packages/interface/src/module/IPaint.ts:19](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L19)
 
 ___
 
 ### strokeText
 
-▸ **strokeText**(`stroke`, `ui`, `canvas`): `void`
+▸ **strokeText**(`stroke`, `ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -180,6 +187,7 @@ ___
 | `stroke` | `string` \| [`ILeafPaint`](ILeafPaint.md)[] |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -187,13 +195,13 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:21](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L21)
+[src/ui/packages/interface/src/module/IPaint.ts:21](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L21)
 
 ___
 
 ### strokeArrow
 
-▸ **strokeArrow**(`stroke`, `ui`, `canvas`): `void`
+▸ **strokeArrow**(`stroke`, `ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -202,6 +210,7 @@ ___
 | `stroke` | `string` \| [`ILeafPaint`](ILeafPaint.md)[] |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -209,13 +218,38 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:22](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L22)
+[src/ui/packages/interface/src/module/IPaint.ts:22](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L22)
+
+___
+
+### drawStrokesStyle
+
+▸ **drawStrokesStyle**(`strokes`, `strokeWidthScale`, `isText`, `ui`, `canvas`, `renderOptions`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `strokes` | [`ILeafStrokePaint`](ILeafStrokePaint.md)[] |
+| `strokeWidthScale` | `number` |
+| `isText` | `boolean` |
+| `ui` | [`IUI`](IUI.md) |
+| `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:23](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L23)
 
 ___
 
 ### drawTextStroke
 
-▸ **drawTextStroke**(`ui`, `canvas`): `void`
+▸ **drawTextStroke**(`ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
@@ -223,6 +257,7 @@ ___
 | :------ | :------ |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -230,7 +265,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:23](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L23)
+[src/ui/packages/interface/src/module/IPaint.ts:24](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L24)
 
 ___
 
@@ -252,4 +287,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:25](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L25)
+[src/ui/packages/interface/src/module/IPaint.ts:26](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L26)

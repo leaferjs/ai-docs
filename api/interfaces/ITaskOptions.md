@@ -8,6 +8,7 @@
 - [time](ITaskOptions.md#time)
 - [parallel](ITaskOptions.md#parallel)
 - [delay](ITaskOptions.md#delay)
+- [canUse](ITaskOptions.md#canuse)
 
 ## Properties
 
@@ -17,7 +18,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:40](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/interface/src/task/ITaskProcessor.ts#L40)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:41](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/task/ITaskProcessor.ts#L41)
 
 ___
 
@@ -27,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:41](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/interface/src/task/ITaskProcessor.ts#L41)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:42](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/task/ITaskProcessor.ts#L42)
 
 ___
 
@@ -37,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:42](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/interface/src/task/ITaskProcessor.ts#L42)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:43](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/task/ITaskProcessor.ts#L43)
 
 ___
 
@@ -47,4 +48,14 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:43](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/interface/src/task/ITaskProcessor.ts#L43)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:44](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/task/ITaskProcessor.ts#L44)
+
+___
+
+### canUse
+
+• `Optional` **canUse**: [`IFunction`](IFunction.md)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:45](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/task/ITaskProcessor.ts#L45)

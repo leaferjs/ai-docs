@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/app/IApp.ts:20](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/app/IApp.ts#L20)
+[src/ui/packages/interface/src/app/IApp.ts:20](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/app/IApp.ts#L20)

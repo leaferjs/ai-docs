@@ -21,7 +21,6 @@
 - [ready](LeaferImage.md#ready)
 - [error](LeaferImage.md#error)
 - [loading](LeaferImage.md#loading)
-- [progress](LeaferImage.md#progress)
 - [use](LeaferImage.md#use)
 - [config](LeaferImage.md#config)
 - [waitComplete](LeaferImage.md#waitcomplete)
@@ -37,7 +36,6 @@
 - [load](LeaferImage.md#load)
 - [unload](LeaferImage.md#unload)
 - [setView](LeaferImage.md#setview)
-- [onProgress](LeaferImage.md#onprogress)
 - [onComplete](LeaferImage.md#oncomplete)
 - [getFull](LeaferImage.md#getfull)
 - [getCanvas](LeaferImage.md#getcanvas)
@@ -62,7 +60,7 @@
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:42](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L42)
+[src/leafer/packages/image/image/src/LeaferImage.ts:39](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L39)
 
 ## Properties
 
@@ -76,7 +74,7 @@
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:15](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L15)
+[src/leafer/packages/image/image/src/LeaferImage.ts:14](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L14)
 
 ___
 
@@ -90,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:18](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L18)
+[src/leafer/packages/image/image/src/LeaferImage.ts:17](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L17)
 
 ___
 
@@ -104,7 +102,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:20](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L20)
+[src/leafer/packages/image/image/src/LeaferImage.ts:19](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L19)
 
 ___
 
@@ -118,7 +116,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:21](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L21)
+[src/leafer/packages/image/image/src/LeaferImage.ts:20](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L20)
 
 ___
 
@@ -132,7 +130,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:23](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L23)
+[src/leafer/packages/image/image/src/LeaferImage.ts:22](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L22)
 
 ___
 
@@ -146,7 +144,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:24](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L24)
+[src/leafer/packages/image/image/src/LeaferImage.ts:23](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L23)
 
 ___
 
@@ -160,7 +158,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:28](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L28)
+[src/leafer/packages/image/image/src/LeaferImage.ts:27](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L27)
 
 ___
 
@@ -174,7 +172,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:29](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L29)
+[src/leafer/packages/image/image/src/LeaferImage.ts:28](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L28)
 
 ___
 
@@ -188,21 +186,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:30](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L30)
-
-___
-
-### progress
-
-• **progress**: [`IProgressData`](../interfaces/IProgressData.md)
-
-#### Implementation of
-
-[ILeaferImage](../interfaces/ILeaferImage.md).[progress](../interfaces/ILeaferImage.md#progress)
-
-#### Defined in
-
-[src/leafer/packages/image/image/src/LeaferImage.ts:32](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L32)
+[src/leafer/packages/image/image/src/LeaferImage.ts:29](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L29)
 
 ___
 
@@ -216,7 +200,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:34](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L34)
+[src/leafer/packages/image/image/src/LeaferImage.ts:31](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L31)
 
 ___
 
@@ -230,7 +214,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:36](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L36)
+[src/leafer/packages/image/image/src/LeaferImage.ts:33](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L33)
 
 ___
 
@@ -240,7 +224,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:38](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L38)
+[src/leafer/packages/image/image/src/LeaferImage.ts:35](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L35)
 
 ___
 
@@ -250,7 +234,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:40](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L40)
+[src/leafer/packages/image/image/src/LeaferImage.ts:37](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L37)
 
 ## Accessors
 
@@ -268,7 +252,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:16](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L16)
+[src/leafer/packages/image/image/src/LeaferImage.ts:15](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L15)
 
 ___
 
@@ -286,7 +270,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:26](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L26)
+[src/leafer/packages/image/image/src/LeaferImage.ts:25](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L25)
 
 ## Methods
 
@@ -311,7 +295,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:54](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L54)
+[src/leafer/packages/image/image/src/LeaferImage.ts:51](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L51)
 
 ___
 
@@ -336,7 +320,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:68](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L68)
+[src/leafer/packages/image/image/src/LeaferImage.ts:64](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L64)
 
 ___
 
@@ -356,27 +340,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:77](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L77)
-
-___
-
-### onProgress
-
-▸ **onProgress**(`progress`): `void`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `progress` | [`IProgressData`](../interfaces/IProgressData.md) |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[src/leafer/packages/image/image/src/LeaferImage.ts:85](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L85)
+[src/leafer/packages/image/image/src/LeaferImage.ts:73](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L73)
 
 ___
 
@@ -396,7 +360,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:89](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L89)
+[src/leafer/packages/image/image/src/LeaferImage.ts:81](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L81)
 
 ___
 
@@ -420,13 +384,13 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:105](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L105)
+[src/leafer/packages/image/image/src/LeaferImage.ts:97](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L97)
 
 ___
 
 ### getCanvas
 
-▸ **getCanvas**(`width`, `height`, `opacity?`, `_filters?`, `xGap?`, `yGap?`, `smooth?`): `any`
+▸ **getCanvas**(`width`, `height`, `opacity?`, `filters?`, `xGap?`, `yGap?`, `smooth?`): `any`
 
 #### Parameters
 
@@ -435,7 +399,7 @@ ___
 | `width` | `number` |
 | `height` | `number` |
 | `opacity?` | `number` |
-| `_filters?` | [`IObject`](../interfaces/IObject.md) |
+| `filters?` | [`IObject`](../interfaces/IObject.md) |
 | `xGap?` | `number` |
 | `yGap?` | `number` |
 | `smooth?` | `boolean` |
@@ -450,7 +414,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:109](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L109)
+[src/leafer/packages/image/image/src/LeaferImage.ts:101](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L101)
 
 ___
 
@@ -477,7 +441,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:130](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L130)
+[src/leafer/packages/image/image/src/LeaferImage.ts:118](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L118)
 
 ___
 
@@ -495,4 +459,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/image/image/src/LeaferImage.ts:142](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/image/image/src/LeaferImage.ts#L142)
+[src/leafer/packages/image/image/src/LeaferImage.ts:125](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/image/image/src/LeaferImage.ts#L125)

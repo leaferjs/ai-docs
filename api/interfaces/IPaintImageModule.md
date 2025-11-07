@@ -6,8 +6,12 @@
 
 - [image](IPaintImageModule.md#image)
 - [checkImage](IPaintImageModule.md#checkimage)
-- [createPattern](IPaintImageModule.md#createpattern)
+- [drawImage](IPaintImageModule.md#drawimage)
+- [getImageRenderScaleData](IPaintImageModule.md#getimagerenderscaledata)
 - [recycleImage](IPaintImageModule.md#recycleimage)
+- [createPatternTask](IPaintImageModule.md#createpatterntask)
+- [createPattern](IPaintImageModule.md#createpattern)
+- [getPatternFixScale](IPaintImageModule.md#getpatternfixscale)
 - [createData](IPaintImageModule.md#createdata)
 - [getPatternData](IPaintImageModule.md#getpatterndata)
 - [stretchMode](IPaintImageModule.md#stretchmode)
@@ -37,22 +41,23 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:30](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L30)
+[src/ui/packages/interface/src/module/IPaint.ts:31](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L31)
 
 ___
 
 ### checkImage
 
-▸ **checkImage**(`ui`, `canvas`, `paint`, `allowPaint?`): `boolean`
+▸ **checkImage**(`paint`, `allowDraw`, `ui`, `canvas`, `renderOptions`): `boolean`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
+| `paint` | [`ILeafPaint`](ILeafPaint.md) |
+| `allowDraw` | `boolean` |
 | `ui` | [`IUI`](IUI.md) |
 | `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
-| `paint` | [`ILeafPaint`](ILeafPaint.md) |
-| `allowPaint?` | `boolean` |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
@@ -60,29 +65,55 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:31](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L31)
+[src/ui/packages/interface/src/module/IPaint.ts:33](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L33)
 
 ___
 
-### createPattern
+### drawImage
 
-▸ **createPattern**(`ui`, `paint`, `pixelRatio`): `boolean`
+▸ **drawImage**(`paint`, `imageScaleX`, `imageScaleY`, `ui`, `canvas`, `renderOptions`): `void`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `ui` | [`IUI`](IUI.md) |
 | `paint` | [`ILeafPaint`](ILeafPaint.md) |
-| `pixelRatio` | `number` |
+| `imageScaleX` | `number` |
+| `imageScaleY` | `number` |
+| `ui` | [`IUI`](IUI.md) |
+| `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
 
 #### Returns
 
-`boolean`
+`void`
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:32](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L32)
+[src/ui/packages/interface/src/module/IPaint.ts:34](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L34)
+
+___
+
+### getImageRenderScaleData
+
+▸ **getImageRenderScaleData**(`paint`, `ui`, `canvas?`, `renderOptions?`): [`IScaleData`](IScaleData.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `paint` | [`ILeafPaint`](ILeafPaint.md) |
+| `ui` | [`IUI`](IUI.md) |
+| `canvas?` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions?` | [`IRenderOptions`](IRenderOptions.md) |
+
+#### Returns
+
+[`IScaleData`](IScaleData.md)
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:35](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L35)
 
 ___
 
@@ -103,7 +134,77 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:33](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L33)
+[src/ui/packages/interface/src/module/IPaint.ts:36](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L36)
+
+___
+
+### createPatternTask
+
+▸ **createPatternTask**(`paint`, `ui`, `canvas`, `renderOptions`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `paint` | [`ILeafPaint`](ILeafPaint.md) |
+| `ui` | [`IUI`](IUI.md) |
+| `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:38](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L38)
+
+___
+
+### createPattern
+
+▸ **createPattern**(`paint`, `ui`, `canvas`, `renderOptions`, `resolve?`, `task?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `paint` | [`ILeafPaint`](ILeafPaint.md) |
+| `ui` | [`IUI`](IUI.md) |
+| `canvas` | [`ILeaferCanvas`](ILeaferCanvas.md) |
+| `renderOptions` | [`IRenderOptions`](IRenderOptions.md) |
+| `resolve?` | [`IFunction`](IFunction.md) |
+| `task?` | [`ITaskItem`](ITaskItem.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:39](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L39)
+
+___
+
+### getPatternFixScale
+
+▸ **getPatternFixScale**(`paint`, `imageScaleX`, `imageScaleY`): `number`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `paint` | [`ILeafPaint`](ILeafPaint.md) |
+| `imageScaleX` | `number` |
+| `imageScaleY` | `number` |
+
+#### Returns
+
+`number`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:40](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L40)
 
 ___
 
@@ -126,7 +227,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:35](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L35)
+[src/ui/packages/interface/src/module/IPaint.ts:42](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L42)
 
 ___
 
@@ -148,7 +249,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:36](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L36)
+[src/ui/packages/interface/src/module/IPaint.ts:43](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L43)
 
 ___
 
@@ -171,7 +272,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:38](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L38)
+[src/ui/packages/interface/src/module/IPaint.ts:45](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L45)
 
 ___
 
@@ -197,7 +298,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:39](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L39)
+[src/ui/packages/interface/src/module/IPaint.ts:46](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L46)
 
 ___
 
@@ -226,7 +327,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:40](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L40)
+[src/ui/packages/interface/src/module/IPaint.ts:47](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L47)
 
 ___
 
@@ -257,4 +358,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:41](https://github.com/leaferjs/leafer-ui/blob/6982d3e91dfd04600b4cf106a9b22f4502e5d32b/packages/interface/src/module/IPaint.ts#L41)
+[src/ui/packages/interface/src/module/IPaint.ts:48](https://github.com/leaferjs/leafer-ui/blob/841f5222d8c7066c5e971f71c312b821c5f5ad63/packages/interface/src/module/IPaint.ts#L48)

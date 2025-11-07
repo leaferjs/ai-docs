@@ -18,6 +18,7 @@
 - [time](TaskItem.md#time)
 - [isComplete](TaskItem.md#iscomplete)
 - [isCancel](TaskItem.md#iscancel)
+- [canUse](TaskItem.md#canuse)
 - [task](TaskItem.md#task)
 
 ### Methods
@@ -44,7 +45,7 @@
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:23](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L23)
+[src/leafer/packages/task/src/TaskItem.ts:25](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L25)
 
 ## Properties
 
@@ -54,7 +55,7 @@
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:11](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L11)
+[src/leafer/packages/task/src/TaskItem.ts:11](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L11)
 
 ___
 
@@ -68,7 +69,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:13](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L13)
+[src/leafer/packages/task/src/TaskItem.ts:13](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L13)
 
 ___
 
@@ -82,7 +83,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:15](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L15)
+[src/leafer/packages/task/src/TaskItem.ts:15](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L15)
 
 ___
 
@@ -96,7 +97,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:16](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L16)
+[src/leafer/packages/task/src/TaskItem.ts:16](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L16)
 
 ___
 
@@ -110,7 +111,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:18](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L18)
+[src/leafer/packages/task/src/TaskItem.ts:18](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L18)
 
 ___
 
@@ -124,7 +125,21 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:19](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L19)
+[src/leafer/packages/task/src/TaskItem.ts:19](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L19)
+
+___
+
+### canUse
+
+• `Optional` **canUse**: [`IFunction`](../interfaces/IFunction.md)
+
+#### Implementation of
+
+[ITaskItem](../interfaces/ITaskItem.md).[canUse](../interfaces/ITaskItem.md#canuse)
+
+#### Defined in
+
+[src/leafer/packages/task/src/TaskItem.ts:21](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L21)
 
 ___
 
@@ -134,7 +149,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:21](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L21)
+[src/leafer/packages/task/src/TaskItem.ts:23](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L23)
 
 ## Methods
 
@@ -152,7 +167,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:28](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L28)
+[src/leafer/packages/task/src/TaskItem.ts:30](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L30)
 
 ___
 
@@ -170,7 +185,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:36](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L36)
+[src/leafer/packages/task/src/TaskItem.ts:40](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L40)
 
 ___
 
@@ -188,4 +203,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskItem.ts:42](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskItem.ts#L42)
+[src/leafer/packages/task/src/TaskItem.ts:45](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskItem.ts#L45)

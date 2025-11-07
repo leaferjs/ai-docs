@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:52](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L52)
+[src/leafer/packages/task/src/TaskProcessor.ts:52](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L52)
 
 ## Properties
 
@@ -84,7 +84,7 @@
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:9](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L9)
+[src/leafer/packages/task/src/TaskProcessor.ts:9](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L9)
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:11](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L11)
+[src/leafer/packages/task/src/TaskProcessor.ts:11](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L11)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:13](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L13)
+[src/leafer/packages/task/src/TaskProcessor.ts:13](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L13)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:14](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L14)
+[src/leafer/packages/task/src/TaskProcessor.ts:14](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L14)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:16](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L16)
+[src/leafer/packages/task/src/TaskProcessor.ts:16](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L16)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:17](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L17)
+[src/leafer/packages/task/src/TaskProcessor.ts:17](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L17)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:19](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L19)
+[src/leafer/packages/task/src/TaskProcessor.ts:19](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L19)
 
 ___
 
@@ -166,7 +166,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:23](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L23)
+[src/leafer/packages/task/src/TaskProcessor.ts:23](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L23)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:25](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L25)
+[src/leafer/packages/task/src/TaskProcessor.ts:25](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L25)
 
 ## Accessors
 
@@ -194,7 +194,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:21](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L21)
+[src/leafer/packages/task/src/TaskProcessor.ts:21](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L21)
 
 ___
 
@@ -212,7 +212,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:27](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L27)
+[src/leafer/packages/task/src/TaskProcessor.ts:27](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L27)
 
 ___
 
@@ -230,7 +230,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:31](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L31)
+[src/leafer/packages/task/src/TaskProcessor.ts:31](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L31)
 
 ___
 
@@ -248,13 +248,13 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:35](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L35)
+[src/leafer/packages/task/src/TaskProcessor.ts:35](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L35)
 
 ## Methods
 
 ### add
 
-▸ **add**(`taskCallback`, `options?`): [`ITaskItem`](../interfaces/ITaskItem.md)
+▸ **add**(`taskCallback`, `options?`, `canUse?`): [`ITaskItem`](../interfaces/ITaskItem.md)
 
 #### Parameters
 
@@ -262,6 +262,7 @@ ___
 | :------ | :------ |
 | `taskCallback` | [`IFunction`](../interfaces/IFunction.md) |
 | `options?` | `number` \| [`ITaskOptions`](../interfaces/ITaskOptions.md) |
+| `canUse?` | [`IFunction`](../interfaces/IFunction.md) |
 
 #### Returns
 
@@ -273,7 +274,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:59](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L59)
+[src/leafer/packages/task/src/TaskProcessor.ts:59](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L59)
 
 ___
 
@@ -294,7 +295,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:94](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L94)
+[src/leafer/packages/task/src/TaskProcessor.ts:96](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L96)
 
 ___
 
@@ -308,7 +309,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:101](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L101)
+[src/leafer/packages/task/src/TaskProcessor.ts:103](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L103)
 
 ___
 
@@ -326,7 +327,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:111](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L111)
+[src/leafer/packages/task/src/TaskProcessor.ts:113](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L113)
 
 ___
 
@@ -344,7 +345,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:119](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L119)
+[src/leafer/packages/task/src/TaskProcessor.ts:121](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L121)
 
 ___
 
@@ -362,7 +363,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:125](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L125)
+[src/leafer/packages/task/src/TaskProcessor.ts:127](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L127)
 
 ___
 
@@ -380,7 +381,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:129](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L129)
+[src/leafer/packages/task/src/TaskProcessor.ts:131](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L131)
 
 ___
 
@@ -398,7 +399,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:134](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L134)
+[src/leafer/packages/task/src/TaskProcessor.ts:136](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L136)
 
 ___
 
@@ -412,7 +413,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:143](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L143)
+[src/leafer/packages/task/src/TaskProcessor.ts:145](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L145)
 
 ___
 
@@ -426,7 +427,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:159](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L159)
+[src/leafer/packages/task/src/TaskProcessor.ts:161](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L161)
 
 ___
 
@@ -440,7 +441,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:177](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L177)
+[src/leafer/packages/task/src/TaskProcessor.ts:180](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L180)
 
 ___
 
@@ -460,7 +461,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:181](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L181)
+[src/leafer/packages/task/src/TaskProcessor.ts:184](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L184)
 
 ___
 
@@ -474,7 +475,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:192](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L192)
+[src/leafer/packages/task/src/TaskProcessor.ts:195](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L195)
 
 ___
 
@@ -488,7 +489,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:200](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L200)
+[src/leafer/packages/task/src/TaskProcessor.ts:203](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L203)
 
 ___
 
@@ -502,7 +503,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:220](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L220)
+[src/leafer/packages/task/src/TaskProcessor.ts:223](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L223)
 
 ___
 
@@ -516,7 +517,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:258](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L258)
+[src/leafer/packages/task/src/TaskProcessor.ts:261](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L261)
 
 ___
 
@@ -536,7 +537,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:263](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L263)
+[src/leafer/packages/task/src/TaskProcessor.ts:266](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L266)
 
 ___
 
@@ -556,7 +557,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:268](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L268)
+[src/leafer/packages/task/src/TaskProcessor.ts:271](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L271)
 
 ___
 
@@ -576,7 +577,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:279](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L279)
+[src/leafer/packages/task/src/TaskProcessor.ts:282](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L282)
 
 ___
 
@@ -594,4 +595,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/task/src/TaskProcessor.ts:284](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/task/src/TaskProcessor.ts#L284)
+[src/leafer/packages/task/src/TaskProcessor.ts:287](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/task/src/TaskProcessor.ts#L287)

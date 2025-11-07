@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:17](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L17)
+[src/leafer/packages/partner/selector/src/Selector.ts:17](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L17)
 
 ## Properties
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:9](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L9)
+[src/leafer/packages/partner/selector/src/Selector.ts:9](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L9)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:10](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L10)
+[src/leafer/packages/partner/selector/src/Selector.ts:10](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L10)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:12](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L12)
+[src/leafer/packages/partner/selector/src/Selector.ts:12](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L12)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:14](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L14)
+[src/leafer/packages/partner/selector/src/Selector.ts:14](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L14)
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:15](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L15)
+[src/leafer/packages/partner/selector/src/Selector.ts:15](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L15)
 
 ## Methods
 
@@ -140,7 +140,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:23](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L23)
+[src/leafer/packages/partner/selector/src/Selector.ts:23](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L23)
 
 ___
 
@@ -166,7 +166,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:29](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L29)
+[src/leafer/packages/partner/selector/src/Selector.ts:29](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L29)
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:34](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L34)
+[src/leafer/packages/partner/selector/src/Selector.ts:34](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L34)
 
 ___
 
@@ -211,4 +211,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Selector.ts:38](https://github.com/leaferjs/leafer/blob/9496e2973fd92c147ae5dbbf3c11ffcd5991c0f1/packages/partner/selector/src/Selector.ts#L38)
+[src/leafer/packages/partner/selector/src/Selector.ts:38](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/partner/selector/src/Selector.ts#L38)
