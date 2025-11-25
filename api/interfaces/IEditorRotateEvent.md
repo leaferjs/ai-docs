@@ -53,7 +53,7 @@ IEditorTransformEvent.target
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:68](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L68)
+[src/in/packages/interface/src/editor/IEditor.ts:68](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L68)
 
 ___
 
@@ -67,7 +67,7 @@ IEditorTransformEvent.editor
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:69](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L69)
+[src/in/packages/interface/src/editor/IEditor.ts:69](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L69)
 
 ___
 
@@ -81,7 +81,7 @@ IEditorTransformEvent.value
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:71](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L71)
+[src/in/packages/interface/src/editor/IEditor.ts:71](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L71)
 
 ___
 
@@ -95,7 +95,7 @@ IEditorTransformEvent.oldValue
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:72](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L72)
+[src/in/packages/interface/src/editor/IEditor.ts:72](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L72)
 
 ___
 
@@ -109,7 +109,7 @@ IEditorTransformEvent.list
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:73](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L73)
+[src/in/packages/interface/src/editor/IEditor.ts:73](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L73)
 
 ___
 
@@ -123,7 +123,7 @@ IEditorTransformEvent.oldList
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:74](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L74)
+[src/in/packages/interface/src/editor/IEditor.ts:74](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L74)
 
 ___
 
@@ -137,7 +137,7 @@ IEditorTransformEvent.worldOrigin
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:76](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L76)
+[src/in/packages/interface/src/editor/IEditor.ts:76](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L76)
 
 ___
 
@@ -151,7 +151,7 @@ IEditorTransformEvent.origin
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:77](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L77)
+[src/in/packages/interface/src/editor/IEditor.ts:77](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L77)
 
 ___
 
@@ -165,7 +165,7 @@ IEditorTransformEvent.transform
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:91](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L91)
+[src/in/packages/interface/src/editor/IEditor.ts:91](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L91)
 
 ___
 
@@ -179,7 +179,7 @@ IEditorTransformEvent.operateEvent
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:93](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L93)
+[src/in/packages/interface/src/editor/IEditor.ts:93](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L93)
 
 ___
 
@@ -193,7 +193,7 @@ IEditorTransformEvent.isStart
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:94](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L94)
+[src/in/packages/interface/src/editor/IEditor.ts:94](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L94)
 
 ___
 
@@ -207,7 +207,7 @@ IEditorTransformEvent.isEnd
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:95](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L95)
+[src/in/packages/interface/src/editor/IEditor.ts:95](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L95)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/interface/src/editor/IEditor.ts:117](https://github.com/leaferjs/leafer-in/blob/eadc68ccb5f000ecda22ae32aac00d225966d9e9/packages/interface/src/editor/IEditor.ts#L117)
+[src/in/packages/interface/src/editor/IEditor.ts:117](https://github.com/leaferjs/leafer-in/blob/33cd3ac46a05807e847b8fb01d7f925d6e217067/packages/interface/src/editor/IEditor.ts#L117)
 
 ___
 
@@ -231,7 +231,7 @@ IEditorTransformEvent.type
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:11](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L11)
+[src/leafer/packages/interface/src/event/IEvent.ts:11](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L11)
 
 ___
 
@@ -245,7 +245,7 @@ IEditorTransformEvent.current
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:13](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L13)
+[src/leafer/packages/interface/src/event/IEvent.ts:13](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L13)
 
 ___
 
@@ -259,7 +259,7 @@ IEditorTransformEvent.bubbles
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:15](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L15)
+[src/leafer/packages/interface/src/event/IEvent.ts:15](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L15)
 
 ___
 
@@ -273,7 +273,7 @@ IEditorTransformEvent.phase
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:16](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L16)
+[src/leafer/packages/interface/src/event/IEvent.ts:16](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L16)
 
 ___
 
@@ -287,7 +287,7 @@ IEditorTransformEvent.isStopDefault
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:18](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L18)
+[src/leafer/packages/interface/src/event/IEvent.ts:18](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L18)
 
 ___
 
@@ -301,7 +301,7 @@ IEditorTransformEvent.isStop
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:19](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L19)
+[src/leafer/packages/interface/src/event/IEvent.ts:19](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L19)
 
 ___
 
@@ -315,7 +315,7 @@ IEditorTransformEvent.isStopNow
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:20](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L20)
+[src/leafer/packages/interface/src/event/IEvent.ts:20](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L20)
 
 ## Methods
 
@@ -333,7 +333,7 @@ IEditorTransformEvent.stopDefault
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:21](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L21)
+[src/leafer/packages/interface/src/event/IEvent.ts:21](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L21)
 
 ___
 
@@ -351,7 +351,7 @@ IEditorTransformEvent.stopNow
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:22](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L22)
+[src/leafer/packages/interface/src/event/IEvent.ts:22](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L22)
 
 ___
 
@@ -369,4 +369,4 @@ IEditorTransformEvent.stop
 
 #### Defined in
 
-[src/leafer/packages/interface/src/event/IEvent.ts:23](https://github.com/leaferjs/leafer/blob/85fdb76749efb9e5fee7bb7bc97ec6696df6e224/packages/interface/src/event/IEvent.ts#L23)
+[src/leafer/packages/interface/src/event/IEvent.ts:23](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/event/IEvent.ts#L23)

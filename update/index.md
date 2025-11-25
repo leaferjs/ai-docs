@@ -2,13 +2,73 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 11 / 25
+
+> v1.11.0
+
+更新文档正在努力完善中...
+
+#### 🍇 社区
+
+\- 🌸 [WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) 🎉🎉🎉 [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
+
+\- 🌸 [钢笔工具专业插件](https://www.pxgrow.com/?#plugin) 即将发布，支持可视化路径创建与编辑～
+
+#### 🌱 新增
+
+\- 🌸 添加适合可视化编辑的路径节点命令接口 IPathCommandNode
+
+\- 🌸 PointerEvent.MOVE 事件增加 [dragging](/reference/event/ui/Pointer.md#dragging-boolean) 、[moving](/reference/event/ui/Pointer.md#dragging-boolean) 状态属性
+
+\- 文本编辑器 editDom 增加一个默认 className(.leafer-text-editor)
+
+\- 图形编辑器增加 getItem() 方法
+
+\- Point 类 getDistancePoint() 方法增加从 to 开始出发的计算参数
+
+\- Point 增加 isSame() 判断方法
+
+#### 🪲 修复
+
+\- 🌸 修复箭头反复切换有无，偶发不能更新渲染的问题
+
+\- 修复空文本情况设置 selectAll，双击进入编辑报错
+
+\- 优化 overflow 值异常时会报错的问题
+
+#### 🌷 感谢反馈
+
+[@Xdy1579883916](https://github.com/Xdy1579883916) [@johnnhan](https://github.com/johnnhan) @暖叶 @xiaou @洋葱
+
+## 2025 / 11 / 12
+
+> v1.10.1
+
+#### 🍇 社区
+
+\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/?#plugin) 开始公测 🎉🎉🎉，复杂画布流畅缩放～
+
+\- 🌸 [光速引擎 · Image Lighter 插件](https://www.pxgrow.com/?#plugin) 开始公测 🎉🎉🎉，超大图浏览编辑不卡～
+
+#### 🪲 修复
+
+\- 🌸 文本设置了填充对象，但是 visible 都为 false 时报错的问题
+
+\- 🌸 裁剪模式下，图片放大后绘制原图未进行裁剪的问题
+
+#### 🌿 优化
+
+\- 🌸 重构内部计算 paint，去除冗余属性，节省内存占用
+
+#### 🌷 感谢反馈
+
+[@Xdy1579883916](https://github.com/Xdy1579883916) [@bgyh2003](https://github.com/bgyh2003)
+
 ## 2025 / 11 / 07
 
 > v1.10.0
 
 #### 🍇 社区
-
-\- 🌸 [光速引擎系列插件](https://www.pxgrow.com/?#plugin) 将陆续发布~
 
 \- 🌸 [leafer-unified](https://www.npmjs.com/package/leafer-unified) 安装一个包，同时支持 leafer 的 web 和 node 版本 [@kooriookami](https://github.com/kooriookami)
 
@@ -24,11 +84,11 @@
 
 \- 🌸 修复编辑器 hideOnMove 配置在移动端双指移动、旋转、缩放不会隐藏的问题
 
-\- 🌸 修复 Box 里面的元素比自己大时，且 Box 有旋转，会导致拾取元素不正
+\- 🌸 修复 Box 里面的元素比自己大时，且 Box 有旋转，会导致拾取元素不准的问题
 
-\- 修复直线改用 EditTool 工具操作会报错的问题
+\- 修复直线改用 EditTool 工具后，操作会报错的问题
 
-\- 修改编辑器配置 rect 透明度设为 0 之后不会还原的问题
+\- 修改编辑器配置 rect 透明度为 0 后，不会还原的问题
 
 #### 🌿 优化
 
