@@ -65,7 +65,7 @@
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:33](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L33)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:33](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L33)
 
 ## Properties
 
@@ -79,7 +79,7 @@
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:14](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L14)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:14](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L14)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:15](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L15)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:15](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L15)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:16](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L16)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:16](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L16)
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:18](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L18)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:18](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L18)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:19](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L19)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:19](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L19)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:21](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L21)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:21](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L21)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:22](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L22)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:22](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L22)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:23](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L23)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:23](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L23)
 
 ___
 
@@ -191,13 +191,13 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:25](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L25)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:25](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L25)
 
 ___
 
 ### config
 
-• **config**: [`ILayouterConfig`](../interfaces/ILayouterConfig.md) = `{}`
+• **config**: [`ILayouterConfig`](../interfaces/ILayouterConfig.md)
 
 #### Implementation of
 
@@ -205,7 +205,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:27](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L27)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:27](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L27)
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:29](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L29)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:29](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L29)
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:30](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L30)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:30](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L30)
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:31](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L31)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:31](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L31)
 
 ## Methods
 
@@ -253,7 +253,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:39](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L39)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:39](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L39)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:44](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L44)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:44](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L44)
 
 ___
 
@@ -289,7 +289,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:48](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L48)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:48](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L48)
 
 ___
 
@@ -307,7 +307,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:54](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L54)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:54](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L54)
 
 ___
 
@@ -325,7 +325,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:70](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L70)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:70](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L70)
 
 ___
 
@@ -343,7 +343,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:78](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L78)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:78](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L78)
 
 ___
 
@@ -361,7 +361,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:103](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L103)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:103](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L103)
 
 ___
 
@@ -379,7 +379,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:133](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L133)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:133](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L133)
 
 ___
 
@@ -399,7 +399,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:153](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L153)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:153](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L153)
 
 ___
 
@@ -423,7 +423,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:162](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L162)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:162](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L162)
 
 ___
 
@@ -447,7 +447,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:170](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L170)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:170](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L170)
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:174](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L174)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:174](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L174)
 
 ___
 
@@ -495,7 +495,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:178](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L178)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:178](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L178)
 
 ___
 
@@ -515,7 +515,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:182](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L182)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:182](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L182)
 
 ___
 
@@ -529,7 +529,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:186](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L186)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:186](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L186)
 
 ___
 
@@ -543,7 +543,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:196](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L196)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:196](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L196)
 
 ___
 
@@ -561,4 +561,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/layouter/src/Layouter.ts:200](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/partner/layouter/src/Layouter.ts#L200)
+[src/leafer/packages/partner/layouter/src/Layouter.ts:200](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/layouter/src/Layouter.ts#L200)

@@ -8,6 +8,8 @@
 
 Web 版和 Worker 版可以在同一个项目中共存，按需搭配使用。
 
+继承了 [跨平台核心包](/guide/install/ui/core/index.md)。
+
 ## 安装
 
 ::: code-group
@@ -37,11 +39,11 @@ bun add @leafer-ui/worker
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-ui/worker@1.11.0/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.12.1/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-ui/worker@1.11.0/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.12.1/dist/worker.js')
 ```
 
 :::
@@ -70,7 +72,7 @@ worker.onmessage = (e) => { // 通过worker生成一张图片进行显示
 
 ```js
 // 你也可以使用npm包模式，编译成js文件供worker调用
-importScripts('https://unpkg.com/@leafer-ui/worker@1.10.0/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.12.0/dist/worker.min.js')
 
 const { Leafer, Rect } = LeaferUI
 

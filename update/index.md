@@ -2,31 +2,93 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
-## 2025 / 11 / 25
+## 2025 / 12 / 1
 
-> v1.11.0
+> v1.12.1
 
-更新文档正在努力完善中...
+#### 🪲 修复
+
+\- 🌸 Frame / Box 元素 fill 为空且 overflow 为 hide 时会触发偶尔选不中子元素的问题
+
+#### 🌷 感谢反馈
+
+[@mozbia](https://github.com/mozbia) [@lianyuan008](https://github.com/leaferjs/leafer-ui/issues/709) @Logan
+
+## 2025 / 12 / 11
+
+> v1.12.0
 
 #### 🍇 社区
 
-\- 🌸 [WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) 🎉🎉🎉 [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
+\- 🌸 [光速引擎 · Image Lighter 插件](https://www.pxgrow.com/plugin/view/?id=10006) v1.0.0-beta.2 发布 🎉🎉🎉，大图浏览编辑不卡～
 
-\- 🌸 [钢笔工具专业插件](https://www.pxgrow.com/?#plugin) 即将发布，支持可视化路径创建与编辑～
+\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/plugin/view/?id=10002) v1.0.1 发布，10 万级元素流畅缩放～
+
+\- 🌸 [Path Editor 专业插件 (钢笔工具)](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-beta.2 发布，已经完善~
+
+\- [Box 滚动条插件](https://www.pxgrow.com/plugin/view/?id=10003) 即将进入开源阶段 🎉🎉🎉
 
 #### 🌱 新增
 
-\- 🌸 添加适合可视化编辑的路径节点命令接口 IPathCommandNode
+\- 🌸 应用新增 [usePartLayout](/reference/config/app/base.md#usepartlayout-boolean) 配置，可自行控制是否开启局部布局进行优化
+
+\- 🌸 应用新增 [useCellRender](/reference/config/app/base.md#usecellrender-boolean) 配置接口，可用于优化大量重复内容覆盖渲染的场景
+
+\- 🌸 文本 [textEditing](/reference/display/Text.md#textediting-boolean) 编辑状态不进行 JSON 导出
+
+#### 🪲 修复
+
+\- 🌸 编辑路径元素 scaleX、scaleY 有差异时，显示路径 hover 描边有问题
+
+\- 图片 url 为空值时异常的问题
+
+#### 🌷 感谢反馈
+
+[@Xdy1579883916](https://github.com/Xdy1579883916) @dev_chen @小志 @张老爷 @李维亮 @岁月 @Jerson Suen @阿问 @Max
+
+## 2025 / 12 / 1
+
+> v1.11.2
+
+#### 🍇 社区
+
+\- 🌸 [Path Editor 专业插件 (钢笔工具)](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-beta 版已发布 🎉🎉🎉
+
+#### 🌱 新增
+
+\- 🌸 新增可视化路径节点的控制手柄名称、类型相关外部接口
+
+#### 🌷 感谢反馈
+
+@小志
+
+## 2025 / 11 / 27
+
+> v1.11.1
+
+#### 🍇 社区
+
+\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/?#plugin) v1.0.0 正式版发布 🎉🎉🎉
+
+\- 🌸 [WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) 🎉🎉🎉 [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
+
+\- 🌸 [leafer-x-effect-text](https://www.npmjs.com/package/leafer-x-effect-text) 功能强大的特效文字插件 [预览地址](https://leafer-x-effect-text.vercel.app/) @Rainbow
+
+\- 🌸 [Path Editor 专业插件](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-alpha.2 发布，支持可视化创建与编辑路径～
+
+#### 🌱 新增
+
+\- 🌸 添加适合可视化编辑的路径节点命令接口 [IPathCommandNode](/api/modules.md#ipathcommandnode)
 
 \- 🌸 PointerEvent.MOVE 事件增加 [dragging](/reference/event/ui/Pointer.md#dragging-boolean) 、[moving](/reference/event/ui/Pointer.md#dragging-boolean) 状态属性
 
-\- 文本编辑器 editDom 增加一个默认 className(.leafer-text-editor)
+\- 文本编辑器 [editDom](/plugin/in/text-editor/index.md#editdom-htmldivelement) 默认添加 css 类名：'leafer-text-editor'
 
-\- 图形编辑器增加 getItem() 方法
+\- 图形编辑器增加 getItem( index ) 方法
 
-\- Point 类 getDistancePoint() 方法增加从 to 开始出发的计算参数
+\- Point 类 [getDistancePoint()](/reference/math/Point.md#getdistancepoint-to-ipointdata-distancenumber-changeto-boolean-fromto-boolean-point) 方法增加 distance 从 to 的位置开始算起的可选参数
 
-\- Point 增加 isSame() 判断方法
+\- Point 增加 [isSame()](/reference/math/Point.md#issame-point-ipointdata-boolean) 判断方法
 
 #### 🪲 修复
 

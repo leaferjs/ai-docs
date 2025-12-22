@@ -13,7 +13,9 @@
 
 - [get](IImageManager.md#get)
 - [recycle](IImageManager.md#recycle)
+- [recyclePaint](IImageManager.md#recyclepaint)
 - [clearRecycled](IImageManager.md#clearrecycled)
+- [clearLevels](IImageManager.md#clearlevels)
 - [hasAlphaPixel](IImageManager.md#hasalphapixel)
 - [isFormat](IImageManager.md#isformat)
 - [destroy](IImageManager.md#destroy)
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:7](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L7)
+[src/leafer/packages/interface/src/image/IImageManager.ts:7](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L7)
 
 ___
 
@@ -36,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:8](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L8)
+[src/leafer/packages/interface/src/image/IImageManager.ts:8](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L8)
 
 ___
 
@@ -46,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:10](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L10)
+[src/leafer/packages/interface/src/image/IImageManager.ts:10](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L10)
 
 ___
 
@@ -56,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:11](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L11)
+[src/leafer/packages/interface/src/image/IImageManager.ts:11](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L11)
 
 ## Methods
 
@@ -76,7 +78,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:13](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L13)
+[src/leafer/packages/interface/src/image/IImageManager.ts:13](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L13)
 
 ___
 
@@ -96,13 +98,19 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:14](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L14)
+[src/leafer/packages/interface/src/image/IImageManager.ts:14](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L14)
 
 ___
 
-### clearRecycled
+### recyclePaint
 
-▸ **clearRecycled**(): `void`
+▸ **recyclePaint**(`paint`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `paint` | `any` |
 
 #### Returns
 
@@ -110,7 +118,41 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:15](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L15)
+[src/leafer/packages/interface/src/image/IImageManager.ts:16](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L16)
+
+___
+
+### clearRecycled
+
+▸ **clearRecycled**(`force?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `force?` | `boolean` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/IImageManager.ts:18](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L18)
+
+___
+
+### clearLevels
+
+▸ **clearLevels**(): `void`
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/IImageManager.ts:19](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L19)
 
 ___
 
@@ -130,7 +172,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:16](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L16)
+[src/leafer/packages/interface/src/image/IImageManager.ts:21](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L21)
 
 ___
 
@@ -151,7 +193,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:17](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L17)
+[src/leafer/packages/interface/src/image/IImageManager.ts:22](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L22)
 
 ___
 
@@ -165,4 +207,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:19](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/image/IImageManager.ts#L19)
+[src/leafer/packages/interface/src/image/IImageManager.ts:24](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/image/IImageManager.ts#L24)

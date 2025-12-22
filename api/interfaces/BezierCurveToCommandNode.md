@@ -14,6 +14,7 @@
 - [y](BezierCurveToCommandNode.md#y)
 - [a](BezierCurveToCommandNode.md#a)
 - [b](BezierCurveToCommandNode.md#b)
+- [ab](BezierCurveToCommandNode.md#ab)
 - [name](BezierCurveToCommandNode.md#name)
 
 ## Properties
@@ -28,7 +29,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:93](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/path/IPathCommand.ts#L93)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:96](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/path/IPathCommand.ts#L96)
 
 ___
 
@@ -42,20 +43,13 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:94](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/path/IPathCommand.ts#L94)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:97](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/path/IPathCommand.ts#L97)
 
 ___
 
 ### a
 
-• `Optional` **a**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `x` | `number` |
-| `y` | `number` |
+• `Optional` **a**: [`IPointData`](IPointData.md)
 
 #### Inherited from
 
@@ -63,20 +57,13 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:95](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/path/IPathCommand.ts#L95)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:98](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/path/IPathCommand.ts#L98)
 
 ___
 
 ### b
 
-• `Optional` **b**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `x` | `number` |
-| `y` | `number` |
+• `Optional` **b**: [`IPointData`](IPointData.md)
 
 #### Inherited from
 
@@ -84,7 +71,21 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:96](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/path/IPathCommand.ts#L96)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:99](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/path/IPathCommand.ts#L99)
+
+___
+
+### ab
+
+• `Optional` **ab**: [`PathNodeHandleType`](../enums/PathNodeHandleType.md)
+
+#### Inherited from
+
+[IPathCommandNodeBase](IPathCommandNodeBase.md).[ab](IPathCommandNodeBase.md#ab)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/path/IPathCommand.ts:100](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/path/IPathCommand.ts#L100)
 
 ___
 
@@ -92,6 +93,10 @@ ___
 
 • **name**: ``"C^"``
 
+#### Overrides
+
+[IPathCommandNodeBase](IPathCommandNodeBase.md).[name](IPathCommandNodeBase.md#name)
+
 #### Defined in
 
-[src/leafer/packages/interface/src/path/IPathCommand.ts:107](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/path/IPathCommand.ts#L107)
+[src/leafer/packages/interface/src/path/IPathCommand.ts:111](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/path/IPathCommand.ts#L111)

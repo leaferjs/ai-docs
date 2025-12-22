@@ -44,6 +44,42 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 ```
 :::
 
+## 关闭局部布局
+
+当场景中的大部分元素都为动态元素时，可以关闭局部布局，防止大量收集元素变化影响性能。
+
+如这种场景：https://benchmark.leaferjs.com/leafer/?scene=dynamic
+
+::: code-group
+```ts
+// #应用与引擎配置 - 关闭局部布局 [App]
+import { App, Rect, Debug } from 'leafer-ui'
+
+const app = new App({
+    view: window,
+    tree: { usePartLayout: false }  // [!code hl]
+})
+
+Debug.showRepaint = true
+
+app.tree.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
+```
+
+```ts
+// #应用与引擎配置 - 关闭局部布局 [Leafer]
+import { Leafer, Rect, Debug } from 'leafer-ui'
+
+const leafer = new Leafer({
+    view: window,
+    usePartLayout: false // [!code hl]
+})
+
+Debug.showRepaint = true
+
+leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
+```
+:::
+
 ## 下一步
 
 接下来将带你了解几个重要的 **生命周期**，就算完成入门的学习了。

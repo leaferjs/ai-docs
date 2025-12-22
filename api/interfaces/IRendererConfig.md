@@ -11,6 +11,7 @@
 ### Properties
 
 - [usePartRender](IRendererConfig.md#usepartrender)
+- [useCellRender](IRendererConfig.md#usecellrender)
 - [maxFPS](IRendererConfig.md#maxfps)
 - [fill](IRendererConfig.md#fill)
 
@@ -22,7 +23,17 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:27](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/renderer/IRenderer.ts#L27)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:30](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/renderer/IRenderer.ts#L30)
+
+___
+
+### useCellRender
+
+• `Optional` **useCellRender**: `boolean` \| [`IObject`](IObject.md)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:31](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/renderer/IRenderer.ts#L31)
 
 ___
 
@@ -32,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:28](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/renderer/IRenderer.ts#L28)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:32](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/renderer/IRenderer.ts#L32)
 
 ___
 
@@ -42,4 +53,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:29](https://github.com/leaferjs/leafer/blob/1a69db7cc776a2ee0cebd0a53a728be7d8ec5467/packages/interface/src/renderer/IRenderer.ts#L29)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:33](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/renderer/IRenderer.ts#L33)
