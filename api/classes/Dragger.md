@@ -13,6 +13,7 @@
 - [dragging](Dragger.md#dragging)
 - [dragData](Dragger.md#dragdata)
 - [downData](Dragger.md#downdata)
+- [dragDataList](Dragger.md#dragdatalist)
 - [draggableList](Dragger.md#draggablelist)
 - [realDraggableList](Dragger.md#realdraggablelist)
 - [dragOverPath](Dragger.md#dragoverpath)
@@ -42,6 +43,7 @@
 - [dragReset](Dragger.md#dragreset)
 - [checkDragEndAnimate](Dragger.md#checkdragendanimate)
 - [animate](Dragger.md#animate)
+- [stopAnimate](Dragger.md#stopanimate)
 - [checkDragOut](Dragger.md#checkdragout)
 - [autoMoveOnDragOut](Dragger.md#automoveondragout)
 - [autoMoveCancel](Dragger.md#automovecancel)
@@ -65,7 +67,7 @@
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:35](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L35)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:37](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L37)
 
 ## Properties
 
@@ -75,7 +77,7 @@
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:15](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L15)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:15](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L15)
 
 ___
 
@@ -85,7 +87,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:17](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L17)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:17](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L17)
 
 ___
 
@@ -95,7 +97,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:18](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L18)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:18](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L18)
 
 ___
 
@@ -105,7 +107,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:20](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L20)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:20](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L20)
 
 ___
 
@@ -115,7 +117,17 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:21](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L21)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:21](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L21)
+
+___
+
+### dragDataList
+
+• **dragDataList**: [`IDragEvent`](../interfaces/IDragEvent.md)[] = `[]`
+
+#### Defined in
+
+[src/ui/packages/interaction/interaction/src/Dragger.ts:23](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L23)
 
 ___
 
@@ -125,7 +137,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:23](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L23)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:25](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L25)
 
 ___
 
@@ -135,7 +147,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:24](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L24)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:26](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L26)
 
 ___
 
@@ -145,7 +157,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:25](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L25)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:27](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L27)
 
 ___
 
@@ -155,7 +167,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:26](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L26)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:28](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L28)
 
 ___
 
@@ -165,7 +177,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:28](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L28)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:30](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L30)
 
 ___
 
@@ -175,7 +187,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:29](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L29)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:31](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L31)
 
 ___
 
@@ -185,7 +197,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:31](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L31)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:33](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L33)
 
 ___
 
@@ -195,7 +207,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:32](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L32)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:34](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L34)
 
 ___
 
@@ -205,7 +217,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:33](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L33)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:35](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L35)
 
 ## Methods
 
@@ -225,7 +237,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:39](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L39)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:41](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L41)
 
 ___
 
@@ -246,7 +258,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:46](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L46)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:48](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L48)
 
 ___
 
@@ -267,7 +279,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:52](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L52)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:54](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L54)
 
 ___
 
@@ -288,7 +300,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:73](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L73)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:75](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L75)
 
 ___
 
@@ -308,7 +320,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:84](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L84)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:86](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L86)
 
 ___
 
@@ -328,7 +340,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:89](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L89)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:91](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L91)
 
 ___
 
@@ -348,7 +360,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:100](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L100)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:102](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L102)
 
 ___
 
@@ -368,7 +380,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:120](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L120)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:124](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L124)
 
 ___
 
@@ -388,7 +400,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:137](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L137)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:141](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L141)
 
 ___
 
@@ -408,20 +420,19 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:151](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L151)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:155](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L155)
 
 ___
 
 ### dragEnd
 
-▸ **dragEnd**(`data`, `speed?`): `void`
+▸ **dragEnd**(`data`): `void`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `data` | [`IPointerEvent`](../interfaces/IPointerEvent.md) |
-| `speed?` | `number` |
 
 #### Returns
 
@@ -429,7 +440,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:161](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L161)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:165](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L165)
 
 ___
 
@@ -449,7 +460,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:167](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L167)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:171](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L171)
 
 ___
 
@@ -472,7 +483,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:198](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L198)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:202](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L202)
 
 ___
 
@@ -494,7 +505,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:206](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L206)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:210](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L210)
 
 ___
 
@@ -508,7 +519,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:213](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L213)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:217](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L217)
 
 ___
 
@@ -529,7 +540,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:220](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L220)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:225](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L225)
 
 ___
 
@@ -550,7 +561,21 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:222](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L222)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:227](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L227)
+
+___
+
+### stopAnimate
+
+▸ **stopAnimate**(): `void`
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interaction/interaction/src/Dragger.ts:229](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L229)
 
 ___
 
@@ -570,7 +595,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:224](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L224)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:231](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L231)
 
 ___
 
@@ -590,7 +615,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:226](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L226)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:233](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L233)
 
 ___
 
@@ -604,7 +629,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:228](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L228)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:235](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L235)
 
 ___
 
@@ -618,4 +643,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interaction/interaction/src/Dragger.ts:232](https://github.com/leaferjs/leafer-ui/blob/359ab06c5cabeea51af5d887ce3cba2153ebc16c/packages/interaction/interaction/src/Dragger.ts#L232)
+[src/ui/packages/interaction/interaction/src/Dragger.ts:239](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interaction/interaction/src/Dragger.ts#L239)

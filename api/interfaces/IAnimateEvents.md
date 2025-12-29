@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:73](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/animate/ITransition.ts#L73)
+[src/leafer/packages/interface/src/animate/ITransition.ts:74](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/animate/ITransition.ts#L74)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:75](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/animate/ITransition.ts#L75)
+[src/leafer/packages/interface/src/animate/ITransition.ts:76](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/animate/ITransition.ts#L76)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:76](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/animate/ITransition.ts#L76)
+[src/leafer/packages/interface/src/animate/ITransition.ts:77](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/animate/ITransition.ts#L77)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:77](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/animate/ITransition.ts#L77)
+[src/leafer/packages/interface/src/animate/ITransition.ts:78](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/animate/ITransition.ts#L78)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:78](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/animate/ITransition.ts#L78)
+[src/leafer/packages/interface/src/animate/ITransition.ts:79](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/animate/ITransition.ts#L79)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:80](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/animate/ITransition.ts#L80)
+[src/leafer/packages/interface/src/animate/ITransition.ts:81](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/animate/ITransition.ts#L81)
 
 ___
 
@@ -80,4 +80,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/animate/ITransition.ts:81](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/animate/ITransition.ts#L81)
+[src/leafer/packages/interface/src/animate/ITransition.ts:82](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/animate/ITransition.ts#L82)

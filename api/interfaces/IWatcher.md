@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:15](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L15)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:15](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L15)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:17](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L17)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:17](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L17)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:19](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L19)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:19](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L19)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:20](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L20)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:20](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L20)
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:21](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L21)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:21](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L21)
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:23](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L23)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:23](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L23)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:24](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L24)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:24](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L24)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:25](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L25)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:25](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L25)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:26](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L26)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:26](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L26)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:28](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L28)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:28](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L28)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:30](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L30)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:30](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L30)
 
 ## Methods
 
@@ -160,7 +160,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/control/IControl.ts:2](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/control/IControl.ts#L2)
+[src/leafer/packages/interface/src/control/IControl.ts:2](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/control/IControl.ts#L2)
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/control/IControl.ts:3](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/control/IControl.ts#L3)
+[src/leafer/packages/interface/src/control/IControl.ts:3](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/control/IControl.ts#L3)
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/control/IControl.ts:4](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/control/IControl.ts#L4)
+[src/leafer/packages/interface/src/control/IControl.ts:4](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/control/IControl.ts#L4)
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:32](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L32)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:32](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L32)
 
 ___
 
@@ -224,4 +224,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/watcher/IWatcher.ts:34](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/watcher/IWatcher.ts#L34)
+[src/leafer/packages/interface/src/watcher/IWatcher.ts:34](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/watcher/IWatcher.ts#L34)

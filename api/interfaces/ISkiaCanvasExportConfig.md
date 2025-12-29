@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:16](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/canvas/ISkiaCanvas.ts#L16)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:16](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/canvas/ISkiaCanvas.ts#L16)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:17](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/canvas/ISkiaCanvas.ts#L17)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:17](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/canvas/ISkiaCanvas.ts#L17)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:18](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/canvas/ISkiaCanvas.ts#L18)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:18](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/canvas/ISkiaCanvas.ts#L18)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:19](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/canvas/ISkiaCanvas.ts#L19)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:19](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/canvas/ISkiaCanvas.ts#L19)
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:20](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/interface/src/canvas/ISkiaCanvas.ts#L20)
+[src/leafer/packages/interface/src/canvas/ISkiaCanvas.ts:20](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/canvas/ISkiaCanvas.ts#L20)

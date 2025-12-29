@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:17](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L17)
+[src/leafer/packages/partner/selector/src/Picker.ts:20](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L20)
 
 ## Properties
 
@@ -61,7 +61,7 @@
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:9](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L9)
+[src/leafer/packages/partner/selector/src/Picker.ts:12](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L12)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:10](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L10)
+[src/leafer/packages/partner/selector/src/Picker.ts:13](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L13)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:12](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L12)
+[src/leafer/packages/partner/selector/src/Picker.ts:15](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L15)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:13](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L13)
+[src/leafer/packages/partner/selector/src/Picker.ts:16](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L16)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:15](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L15)
+[src/leafer/packages/partner/selector/src/Picker.ts:18](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L18)
 
 ## Methods
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:22](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L22)
+[src/leafer/packages/partner/selector/src/Picker.ts:25](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L25)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:46](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L46)
+[src/leafer/packages/partner/selector/src/Picker.ts:49](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L49)
 
 ___
 
@@ -176,7 +176,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:50](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L50)
+[src/leafer/packages/partner/selector/src/Picker.ts:53](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L53)
 
 ___
 
@@ -196,7 +196,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:83](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L83)
+[src/leafer/packages/partner/selector/src/Picker.ts:86](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L86)
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:108](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L108)
+[src/leafer/packages/partner/selector/src/Picker.ts:111](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L111)
 
 ___
 
@@ -236,7 +236,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:120](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L120)
+[src/leafer/packages/partner/selector/src/Picker.ts:123](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L123)
 
 ___
 
@@ -256,7 +256,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:141](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L141)
+[src/leafer/packages/partner/selector/src/Picker.ts:144](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L144)
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:145](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L145)
+[src/leafer/packages/partner/selector/src/Picker.ts:148](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L148)
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:166](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L166)
+[src/leafer/packages/partner/selector/src/Picker.ts:169](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L169)
 
 ___
 
@@ -313,7 +313,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:189](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L189)
+[src/leafer/packages/partner/selector/src/Picker.ts:192](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L192)
 
 ___
 
@@ -331,4 +331,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/partner/selector/src/Picker.ts:195](https://github.com/leaferjs/leafer/blob/60fd3e8e777defd91781ff8b04a601ebce9300f4/packages/partner/selector/src/Picker.ts#L195)
+[src/leafer/packages/partner/selector/src/Picker.ts:198](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/partner/selector/src/Picker.ts#L198)
