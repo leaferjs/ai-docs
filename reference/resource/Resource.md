@@ -2,7 +2,17 @@
 
 资源库，外部资源管理（静态类）。
 
-用于管理及有序并行加载图片、视频、声音等素材。
+用于管理及有序加载图片、视频、声音等素材。
+
+## 关键属性
+
+### task: `TaskProcessor`
+
+全局并行的异步资源加载任务，会自动限制最大并行数，[查看示例](#添加一个自定义异步任务)。
+
+### queue: `TaskProcessor`
+
+全局按顺序执行的任务队列（目前主要用于图案生成），防止阻塞主线程渲染，[查看示例](#添加一个队列任务)。
 
 ## 关键方法
 
@@ -126,4 +136,21 @@ async function doSomething() {
 
 // 添加异步任务
 Resource.tasker.add(async () => await doSomething())
+```
+
+### 添加一个队列任务
+
+```ts
+// #添加一个自定义队列任务（防止阻塞主线程渲染）
+import { Resource } from 'leafer-ui'
+
+async function doSomething() {
+    // 执行队列任务
+}
+
+// 添加队列任务
+Resource.queue.add(async () => await doSomething())
+
+// 如果队列被卡住，可以调用 stop 强制结束队列，不影响后续添加任务的执行。
+Resource.queue.stop()
 ```
