@@ -6,6 +6,7 @@
 
 - [offset](IColorStop.md#offset)
 - [color](IColorStop.md#color)
+- [selected](IColorStop.md#selected)
 
 ## Properties
 
@@ -15,7 +16,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:67](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IType.ts#L67)
+[src/ui/packages/interface/src/type/IType.ts:67](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L67)
 
 ___
 
@@ -25,4 +26,14 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:68](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IType.ts#L68)
+[src/ui/packages/interface/src/type/IType.ts:68](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L68)
+
+___
+
+### selected
+
+• `Optional` **selected**: `boolean`
+
+#### Defined in
+
+[src/ui/packages/interface/src/type/IType.ts:69](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L69)

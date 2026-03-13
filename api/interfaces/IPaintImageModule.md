@@ -5,6 +5,8 @@
 ### Methods
 
 - [image](IPaintImageModule.md#image)
+- [film](IPaintImageModule.md#film)
+- [video](IPaintImageModule.md#video)
 - [checkImage](IPaintImageModule.md#checkimage)
 - [drawImage](IPaintImageModule.md#drawimage)
 - [getImageRenderScaleData](IPaintImageModule.md#getimagerenderscaledata)
@@ -14,6 +16,8 @@
 - [getPatternFixScale](IPaintImageModule.md#getpatternfixscale)
 - [createData](IPaintImageModule.md#createdata)
 - [getPatternData](IPaintImageModule.md#getpatterndata)
+- [applyFilter](IPaintImageModule.md#applyfilter)
+- [recycleFilter](IPaintImageModule.md#recyclefilter)
 - [stretchMode](IPaintImageModule.md#stretchmode)
 - [fillOrFitMode](IPaintImageModule.md#fillorfitmode)
 - [clipMode](IPaintImageModule.md#clipmode)
@@ -41,7 +45,47 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:31](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L31)
+[src/ui/packages/interface/src/module/IPaint.ts:31](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L31)
+
+___
+
+### film
+
+▸ **film**(`paint`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `paint` | [`ILeafPaint`](ILeafPaint.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:33](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L33)
+
+___
+
+### video
+
+▸ **video**(`paint`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `paint` | [`ILeafPaint`](ILeafPaint.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:34](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L34)
 
 ___
 
@@ -65,7 +109,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:33](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L33)
+[src/ui/packages/interface/src/module/IPaint.ts:36](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L36)
 
 ___
 
@@ -90,7 +134,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:34](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L34)
+[src/ui/packages/interface/src/module/IPaint.ts:37](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L37)
 
 ___
 
@@ -113,7 +157,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:35](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L35)
+[src/ui/packages/interface/src/module/IPaint.ts:38](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L38)
 
 ___
 
@@ -134,7 +178,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:36](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L36)
+[src/ui/packages/interface/src/module/IPaint.ts:39](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L39)
 
 ___
 
@@ -157,7 +201,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:38](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L38)
+[src/ui/packages/interface/src/module/IPaint.ts:41](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L41)
 
 ___
 
@@ -182,7 +226,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:39](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L39)
+[src/ui/packages/interface/src/module/IPaint.ts:42](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L42)
 
 ___
 
@@ -204,7 +248,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:40](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L40)
+[src/ui/packages/interface/src/module/IPaint.ts:43](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L43)
 
 ___
 
@@ -227,7 +271,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:42](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L42)
+[src/ui/packages/interface/src/module/IPaint.ts:45](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L45)
 
 ___
 
@@ -249,7 +293,51 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:43](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L43)
+[src/ui/packages/interface/src/module/IPaint.ts:46](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L46)
+
+___
+
+### applyFilter
+
+▸ **applyFilter**(`leafPaint`, `image`, `filter`, `ui`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `leafPaint` | [`ILeafPaint`](ILeafPaint.md) |
+| `image` | [`ILeaferImage`](ILeaferImage.md) |
+| `filter` | [`IImageFilters`](../modules.md#iimagefilters) |
+| `ui` | [`IUI`](IUI.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:49](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L49)
+
+___
+
+### recycleFilter
+
+▸ **recycleFilter**(`image`, `ui`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `image` | [`ILeaferImage`](ILeaferImage.md) |
+| `ui` | [`IUI`](IUI.md) |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPaint.ts:50](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L50)
 
 ___
 
@@ -272,7 +360,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:45](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L45)
+[src/ui/packages/interface/src/module/IPaint.ts:52](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L52)
 
 ___
 
@@ -298,7 +386,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:46](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L46)
+[src/ui/packages/interface/src/module/IPaint.ts:53](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L53)
 
 ___
 
@@ -327,7 +415,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:47](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L47)
+[src/ui/packages/interface/src/module/IPaint.ts:54](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L54)
 
 ___
 
@@ -358,4 +446,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPaint.ts:48](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPaint.ts#L48)
+[src/ui/packages/interface/src/module/IPaint.ts:55](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPaint.ts#L55)

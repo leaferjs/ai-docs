@@ -488,7 +488,7 @@ app.tree.add(Frame.one({ // 背景为透明方格的画板
         type: 'image',
         url: svg,
         mode: 'repeat',
-        scaleFixed: true // 固定平铺图比例，不随画布缩放  //[!code hl]
+        scaleFixed: 'zoom-in' // true // 固定平铺图比例，不随画布缩放  //[!code hl]
     },
     shadow: {
         x: 0,

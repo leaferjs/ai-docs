@@ -5,6 +5,8 @@
 ### Methods
 
 - [image](ICreator.md#image)
+- [film](ICreator.md#film)
+- [video](ICreator.md#video)
 - [canvas](ICreator.md#canvas)
 - [hitCanvas](ICreator.md#hitcanvas)
 - [hitCanvasManager](ICreator.md#hitcanvasmanager)
@@ -34,7 +36,47 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:134](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L134)
+[src/leafer/packages/interface/src/app/ILeafer.ts:146](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L146)
+
+___
+
+### film
+
+▸ **film**(`options?`): [`ILeaferFilm`](ILeaferFilm.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `options?` | [`ILeaferFilmConfig`](ILeaferFilmConfig.md) |
+
+#### Returns
+
+[`ILeaferFilm`](ILeaferFilm.md)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/app/ILeafer.ts:147](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L147)
+
+___
+
+### video
+
+▸ **video**(`options?`): [`ILeaferVideo`](ILeaferVideo.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `options?` | [`ILeaferVideoConfig`](ILeaferVideoConfig.md) |
+
+#### Returns
+
+[`ILeaferVideo`](ILeaferVideo.md)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/app/ILeafer.ts:148](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L148)
 
 ___
 
@@ -55,7 +97,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:135](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L135)
+[src/leafer/packages/interface/src/app/ILeafer.ts:149](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L149)
 
 ___
 
@@ -76,7 +118,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:136](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L136)
+[src/leafer/packages/interface/src/app/ILeafer.ts:150](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L150)
 
 ___
 
@@ -90,7 +132,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:137](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L137)
+[src/leafer/packages/interface/src/app/ILeafer.ts:151](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L151)
 
 ___
 
@@ -111,7 +153,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:139](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L139)
+[src/leafer/packages/interface/src/app/ILeafer.ts:153](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L153)
 
 ___
 
@@ -132,7 +174,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:140](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L140)
+[src/leafer/packages/interface/src/app/ILeafer.ts:154](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L154)
 
 ___
 
@@ -154,7 +196,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:141](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L141)
+[src/leafer/packages/interface/src/app/ILeafer.ts:155](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L155)
 
 ___
 
@@ -175,19 +217,20 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:142](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L142)
+[src/leafer/packages/interface/src/app/ILeafer.ts:156](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L156)
 
 ___
 
 ### finder
 
-▸ **finder**(`target?`): [`IFinder`](IFinder.md)
+▸ **finder**(`target?`, `options?`): [`IFinder`](IFinder.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `target?` | [`ILeaf`](ILeaf.md) |
+| `options?` | [`ISelectorConfig`](ISelectorConfig.md) |
 
 #### Returns
 
@@ -195,7 +238,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:143](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L143)
+[src/leafer/packages/interface/src/app/ILeafer.ts:157](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L157)
 
 ___
 
@@ -218,7 +261,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:145](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L145)
+[src/leafer/packages/interface/src/app/ILeafer.ts:159](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L159)
 
 ___
 
@@ -239,4 +282,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/app/ILeafer.ts:147](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/app/ILeafer.ts#L147)
+[src/leafer/packages/interface/src/app/ILeafer.ts:161](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/app/ILeafer.ts#L161)

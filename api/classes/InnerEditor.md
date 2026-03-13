@@ -22,7 +22,9 @@
 
 - [editTarget](InnerEditor.md#edittarget)
 - [config](InnerEditor.md#config)
+- [editConfig](InnerEditor.md#editconfig)
 - [editor](InnerEditor.md#editor)
+- [\_editBox](InnerEditor.md#_editbox)
 - [view](InnerEditor.md#view)
 - [eventIds](InnerEditor.md#eventids)
 
@@ -64,7 +66,7 @@
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:30](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L30)
+[src/in/packages/editor/src/tool/InnerEditor.ts:35](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L35)
 
 ## Properties
 
@@ -78,7 +80,7 @@
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:18](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L18)
+[src/in/packages/editor/src/tool/InnerEditor.ts:18](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L18)
 
 ___
 
@@ -92,7 +94,21 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L20)
+[src/in/packages/editor/src/tool/InnerEditor.ts:20](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L20)
+
+___
+
+### editConfig
+
+• `Optional` **editConfig**: [`IEditorConfig`](../interfaces/IEditorConfig.md)
+
+#### Implementation of
+
+[IInnerEditor](../interfaces/IInnerEditor.md).[editConfig](../interfaces/IInnerEditor.md#editconfig)
+
+#### Defined in
+
+[src/in/packages/editor/src/tool/InnerEditor.ts:22](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L22)
 
 ___
 
@@ -106,7 +122,17 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:22](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L22)
+[src/in/packages/editor/src/tool/InnerEditor.ts:24](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L24)
+
+___
+
+### \_editBox
+
+• `Protected` **\_editBox**: [`IEditBox`](../interfaces/IEditBox.md)
+
+#### Defined in
+
+[src/in/packages/editor/src/tool/InnerEditor.ts:26](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L26)
 
 ___
 
@@ -120,7 +146,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:25](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L25)
+[src/in/packages/editor/src/tool/InnerEditor.ts:30](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L30)
 
 ___
 
@@ -134,7 +160,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:27](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L27)
+[src/in/packages/editor/src/tool/InnerEditor.ts:32](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L32)
 
 ## Accessors
 
@@ -152,7 +178,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:14](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L14)
+[src/in/packages/editor/src/tool/InnerEditor.ts:14](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L14)
 
 ___
 
@@ -170,7 +196,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L16)
+[src/in/packages/editor/src/tool/InnerEditor.ts:16](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L16)
 
 ___
 
@@ -188,7 +214,27 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:23](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L23)
+[src/in/packages/editor/src/tool/InnerEditor.ts:27](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L27)
+
+• `set` **editBox**(`value`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `value` | [`IEditBox`](../interfaces/IEditBox.md) |
+
+#### Returns
+
+`void`
+
+#### Implementation of
+
+[IInnerEditor](../interfaces/IInnerEditor.md).[editBox](../interfaces/IInnerEditor.md#editbox)
+
+#### Defined in
+
+[src/in/packages/editor/src/tool/InnerEditor.ts:28](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L28)
 
 ## Methods
 
@@ -202,7 +248,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:9](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L9)
+[src/in/packages/editor/src/tool/InnerEditor.ts:9](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L9)
 
 ___
 
@@ -220,7 +266,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:36](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L36)
+[src/in/packages/editor/src/tool/InnerEditor.ts:41](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L41)
 
 ___
 
@@ -238,7 +284,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:37](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L37)
+[src/in/packages/editor/src/tool/InnerEditor.ts:42](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L42)
 
 ___
 
@@ -256,7 +302,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:45](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L45)
+[src/in/packages/editor/src/tool/InnerEditor.ts:50](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L50)
 
 ___
 
@@ -274,7 +320,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:46](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L46)
+[src/in/packages/editor/src/tool/InnerEditor.ts:51](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L51)
 
 ___
 
@@ -292,7 +338,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:54](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L54)
+[src/in/packages/editor/src/tool/InnerEditor.ts:59](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L59)
 
 ___
 
@@ -310,7 +356,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:55](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L55)
+[src/in/packages/editor/src/tool/InnerEditor.ts:60](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L60)
 
 ___
 
@@ -324,7 +370,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:57](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L57)
+[src/in/packages/editor/src/tool/InnerEditor.ts:62](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L62)
 
 ___
 
@@ -342,7 +388,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:58](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L58)
+[src/in/packages/editor/src/tool/InnerEditor.ts:63](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L63)
 
 ___
 
@@ -360,7 +406,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:66](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L66)
+[src/in/packages/editor/src/tool/InnerEditor.ts:71](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L71)
 
 ___
 
@@ -378,4 +424,4 @@ ___
 
 #### Defined in
 
-[src/in/packages/editor/src/tool/InnerEditor.ts:67](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/editor/src/tool/InnerEditor.ts#L67)
+[src/in/packages/editor/src/tool/InnerEditor.ts:72](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/editor/src/tool/InnerEditor.ts#L72)

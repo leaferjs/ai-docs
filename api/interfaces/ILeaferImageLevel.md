@@ -7,9 +7,11 @@
 - [level](ILeaferImageLevel.md#level)
 - [scale](ILeaferImageLevel.md#scale)
 - [view](ILeaferImageLevel.md#view)
-- [url](ILeaferImageLevel.md#url)
+- [task](ILeaferImageLevel.md#task)
+- [wait](ILeaferImageLevel.md#wait)
 - [slice](ILeaferImageLevel.md#slice)
 - [use](ILeaferImageLevel.md#use)
+- [destroyed](ILeaferImageLevel.md#destroyed)
 
 ## Properties
 
@@ -19,7 +21,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:52](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L52)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:74](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L74)
 
 ___
 
@@ -29,7 +31,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:53](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L53)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:75](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L75)
 
 ___
 
@@ -39,17 +41,27 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:54](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L54)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:76](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L76)
 
 ___
 
-### url
+### task
 
-• `Optional` **url**: `string`
+• `Optional` **task**: [`ITaskItem`](ITaskItem.md)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:55](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L55)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:77](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L77)
+
+___
+
+### wait
+
+• `Optional` **wait**: [`IFunction`](IFunction.md)[]
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:78](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L78)
 
 ___
 
@@ -59,7 +71,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:56](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L56)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:80](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L80)
 
 ___
 
@@ -69,4 +81,14 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:57](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L57)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:81](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L81)
+
+___
+
+### destroyed
+
+• `Optional` **destroyed**: `boolean`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:82](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L82)

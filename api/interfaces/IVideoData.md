@@ -4,7 +4,7 @@
 
 - `IVideoAttrData`
 
-- [`IRectData`](IRectData.md)
+- [`IImageData`](IImageData.md)
 
   ↳ **`IVideoData`**
 
@@ -16,6 +16,7 @@
 - [\_\_input](IVideoData.md#__input)
 - [\_\_middle](IVideoData.md#__middle)
 - [\_\_single](IVideoData.md#__single)
+- [\_\_willDestroy](IVideoData.md#__willdestroy)
 - [id](IVideoData.md#id)
 - [name](IVideoData.md#name)
 - [className](IVideoData.md#classname)
@@ -32,6 +33,7 @@
 - [mask](IVideoData.md#mask)
 - [eraser](IVideoData.md#eraser)
 - [filter](IVideoData.md#filter)
+- [complex](IVideoData.md#complex)
 - [x](IVideoData.md#x)
 - [y](IVideoData.md#y)
 - [width](IVideoData.md#width)
@@ -88,6 +90,7 @@
 - [data](IVideoData.md#data)
 - [\_\_childBranchNumber](IVideoData.md#__childbranchnumber)
 - [\_\_complex](IVideoData.md#__complex)
+- [\_\_complexData](IVideoData.md#__complexdata)
 - [\_\_naturalWidth](IVideoData.md#__naturalwidth)
 - [\_\_naturalHeight](IVideoData.md#__naturalheight)
 - [\_\_autoWidth](IVideoData.md#__autowidth)
@@ -105,7 +108,8 @@
 - [\_\_pathInputed](IVideoData.md#__pathinputed)
 - [\_\_pathForRender](IVideoData.md#__pathforrender)
 - [\_\_path2DForRender](IVideoData.md#__path2dforrender)
-- [\_\_pathForArrow](IVideoData.md#__pathforarrow)
+- [\_\_startArrowPath](IVideoData.md#__startarrowpath)
+- [\_\_endArrowPath](IVideoData.md#__endarrowpath)
 - [\_\_pathForMotion](IVideoData.md#__pathformotion)
 - [cornerRadius](IVideoData.md#cornerradius)
 - [cornerSmoothing](IVideoData.md#cornersmoothing)
@@ -118,7 +122,7 @@
 - [strokeAlign](IVideoData.md#strokealign)
 - [strokeWidth](IVideoData.md#strokewidth)
 - [strokeWidths](IVideoData.md#strokewidths)
-- [strokeWidthFixed](IVideoData.md#strokewidthfixed)
+- [strokeScaleFixed](IVideoData.md#strokescalefixed)
 - [strokeCap](IVideoData.md#strokecap)
 - [strokeJoin](IVideoData.md#strokejoin)
 - [dashPattern](IVideoData.md#dashpattern)
@@ -145,6 +149,9 @@
 - [blur](IVideoData.md#blur)
 - [backgroundBlur](IVideoData.md#backgroundblur)
 - [grayscale](IVideoData.md#grayscale)
+- [foreground](IVideoData.md#foreground)
+- [background](IVideoData.md#background)
+- [\_\_urlType](IVideoData.md#__urltype)
 - [url](IVideoData.md#url)
 - [animation](IVideoData.md#animation)
 - [animationOut](IVideoData.md#animationout)
@@ -168,6 +175,7 @@
 - [\_\_isStrokes](IVideoData.md#__isstrokes)
 - [\_\_strokeWidth](IVideoData.md#__strokewidth)
 - [\_\_maxStrokeWidth](IVideoData.md#__maxstrokewidth)
+- [\_\_strokeWidthCache](IVideoData.md#__strokewidthcache)
 - [\_\_hasMultiStrokeStyle](IVideoData.md#__hasmultistrokestyle)
 - [\_\_hasMultiPaint](IVideoData.md#__hasmultipaint)
 - [\_\_isAlphaPixelFill](IVideoData.md#__isalphapixelfill)
@@ -200,6 +208,7 @@
 - [destroy](IVideoData.md#destroy)
 - [\_\_checkSingle](IVideoData.md#__checksingle)
 - [\_\_removeNaturalSize](IVideoData.md#__removenaturalsize)
+- [\_\_setImageFill](IVideoData.md#__setimagefill)
 - [\_\_computePaint](IVideoData.md#__computepaint)
 - [\_\_getRealStrokeWidth](IVideoData.md#__getrealstrokewidth)
 - [\_\_setPaint](IVideoData.md#__setpaint)
@@ -213,11 +222,11 @@
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__leaf](IRectData.md#__leaf)
+[IImageData](IImageData.md).[__leaf](IImageData.md#__leaf)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:6](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L6)
+[src/leafer/packages/interface/src/data/ILeafData.ts:6](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L6)
 
 ___
 
@@ -227,11 +236,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__input](IRectData.md#__input)
+[IImageData](IImageData.md).[__input](IImageData.md#__input)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:7](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L7)
+[src/leafer/packages/interface/src/data/ILeafData.ts:7](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L7)
 
 ___
 
@@ -241,11 +250,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__middle](IRectData.md#__middle)
+[IImageData](IImageData.md).[__middle](IImageData.md#__middle)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:8](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L8)
+[src/leafer/packages/interface/src/data/ILeafData.ts:8](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L8)
 
 ___
 
@@ -255,11 +264,25 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__single](IRectData.md#__single)
+[IImageData](IImageData.md).[__single](IImageData.md#__single)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:30](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L30)
+[src/leafer/packages/interface/src/data/ILeafData.ts:30](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L30)
+
+___
+
+### \_\_willDestroy
+
+• `Optional` **\_\_willDestroy**: `boolean`
+
+#### Inherited from
+
+[IImageData](IImageData.md).[__willDestroy](IImageData.md#__willdestroy)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/data/ILeafData.ts:32](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L32)
 
 ___
 
@@ -269,11 +292,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[id](IRectData.md#id)
+[IImageData](IImageData.md).[id](IImageData.md#id)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:332](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L332)
+[src/leafer/packages/interface/src/display/ILeaf.ts:331](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L331)
 
 ___
 
@@ -283,11 +306,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[name](IRectData.md#name)
+[IImageData](IImageData.md).[name](IImageData.md#name)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:333](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L333)
+[src/leafer/packages/interface/src/display/ILeaf.ts:332](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L332)
 
 ___
 
@@ -297,11 +320,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[className](IRectData.md#classname)
+[IImageData](IImageData.md).[className](IImageData.md#classname)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:334](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L334)
+[src/leafer/packages/interface/src/display/ILeaf.ts:333](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L333)
 
 ___
 
@@ -311,11 +334,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[blendMode](IRectData.md#blendmode)
+[IImageData](IImageData.md).[blendMode](IImageData.md#blendmode)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:336](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L336)
+[src/leafer/packages/interface/src/display/ILeaf.ts:335](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L335)
 
 ___
 
@@ -325,11 +348,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[opacity](IRectData.md#opacity)
+[IImageData](IImageData.md).[opacity](IImageData.md#opacity)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:337](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L337)
+[src/leafer/packages/interface/src/display/ILeaf.ts:336](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L336)
 
 ___
 
@@ -339,11 +362,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[visible](IRectData.md#visible)
+[IImageData](IImageData.md).[visible](IImageData.md#visible)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:338](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L338)
+[src/leafer/packages/interface/src/display/ILeaf.ts:337](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L337)
 
 ___
 
@@ -353,11 +376,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[selected](IRectData.md#selected)
+[IImageData](IImageData.md).[selected](IImageData.md#selected)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:339](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L339)
+[src/leafer/packages/interface/src/display/ILeaf.ts:338](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L338)
 
 ___
 
@@ -367,11 +390,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[disabled](IRectData.md#disabled)
+[IImageData](IImageData.md).[disabled](IImageData.md#disabled)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:340](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L340)
+[src/leafer/packages/interface/src/display/ILeaf.ts:339](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L339)
 
 ___
 
@@ -381,11 +404,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[locked](IRectData.md#locked)
+[IImageData](IImageData.md).[locked](IImageData.md#locked)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:341](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L341)
+[src/leafer/packages/interface/src/display/ILeaf.ts:340](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L340)
 
 ___
 
@@ -395,11 +418,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[zIndex](IRectData.md#zindex)
+[IImageData](IImageData.md).[zIndex](IImageData.md#zindex)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:342](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L342)
+[src/leafer/packages/interface/src/display/ILeaf.ts:341](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L341)
 
 ___
 
@@ -409,11 +432,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[dim](IRectData.md#dim)
+[IImageData](IImageData.md).[dim](IImageData.md#dim)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:344](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L344)
+[src/leafer/packages/interface/src/display/ILeaf.ts:343](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L343)
 
 ___
 
@@ -423,11 +446,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[dimskip](IRectData.md#dimskip)
+[IImageData](IImageData.md).[dimskip](IImageData.md#dimskip)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:345](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L345)
+[src/leafer/packages/interface/src/display/ILeaf.ts:344](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L344)
 
 ___
 
@@ -437,11 +460,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[bright](IRectData.md#bright)
+[IImageData](IImageData.md).[bright](IImageData.md#bright)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:346](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L346)
+[src/leafer/packages/interface/src/display/ILeaf.ts:345](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L345)
 
 ___
 
@@ -451,11 +474,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[mask](IRectData.md#mask)
+[IImageData](IImageData.md).[mask](IImageData.md#mask)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:348](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L348)
+[src/leafer/packages/interface/src/display/ILeaf.ts:347](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L347)
 
 ___
 
@@ -465,11 +488,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[eraser](IRectData.md#eraser)
+[IImageData](IImageData.md).[eraser](IImageData.md#eraser)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:349](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L349)
+[src/leafer/packages/interface/src/display/ILeaf.ts:348](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L348)
 
 ___
 
@@ -479,11 +502,25 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[filter](IRectData.md#filter)
+[IImageData](IImageData.md).[filter](IImageData.md#filter)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:350](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L350)
+[src/leafer/packages/interface/src/display/ILeaf.ts:349](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L349)
+
+___
+
+### complex
+
+• `Optional` **complex**: `boolean`
+
+#### Inherited from
+
+[IImageData](IImageData.md).[complex](IImageData.md#complex)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/display/ILeaf.ts:350](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L350)
 
 ___
 
@@ -493,11 +530,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[x](IRectData.md#x)
+[IImageData](IImageData.md).[x](IImageData.md#x)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:353](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L353)
+[src/leafer/packages/interface/src/display/ILeaf.ts:353](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L353)
 
 ___
 
@@ -507,11 +544,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[y](IRectData.md#y)
+[IImageData](IImageData.md).[y](IImageData.md#y)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:354](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L354)
+[src/leafer/packages/interface/src/display/ILeaf.ts:354](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L354)
 
 ___
 
@@ -521,11 +558,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[width](IRectData.md#width)
+[IImageData](IImageData.md).[width](IImageData.md#width)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:355](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L355)
+[src/leafer/packages/interface/src/display/ILeaf.ts:355](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L355)
 
 ___
 
@@ -535,11 +572,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[height](IRectData.md#height)
+[IImageData](IImageData.md).[height](IImageData.md#height)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:356](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L356)
+[src/leafer/packages/interface/src/display/ILeaf.ts:356](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L356)
 
 ___
 
@@ -549,11 +586,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[scaleX](IRectData.md#scalex)
+[IImageData](IImageData.md).[scaleX](IImageData.md#scalex)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:357](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L357)
+[src/leafer/packages/interface/src/display/ILeaf.ts:357](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L357)
 
 ___
 
@@ -563,11 +600,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[scaleY](IRectData.md#scaley)
+[IImageData](IImageData.md).[scaleY](IImageData.md#scaley)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:358](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L358)
+[src/leafer/packages/interface/src/display/ILeaf.ts:358](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L358)
 
 ___
 
@@ -577,11 +614,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[scaleFixed](IRectData.md#scalefixed)
+[IImageData](IImageData.md).[scaleFixed](IImageData.md#scalefixed)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:359](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L359)
+[src/leafer/packages/interface/src/display/ILeaf.ts:359](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L359)
 
 ___
 
@@ -591,11 +628,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[rotation](IRectData.md#rotation)
+[IImageData](IImageData.md).[rotation](IImageData.md#rotation)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:360](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L360)
+[src/leafer/packages/interface/src/display/ILeaf.ts:360](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L360)
 
 ___
 
@@ -605,11 +642,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[skewX](IRectData.md#skewx)
+[IImageData](IImageData.md).[skewX](IImageData.md#skewx)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:361](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L361)
+[src/leafer/packages/interface/src/display/ILeaf.ts:361](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L361)
 
 ___
 
@@ -619,11 +656,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[skewY](IRectData.md#skewy)
+[IImageData](IImageData.md).[skewY](IImageData.md#skewy)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:362](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L362)
+[src/leafer/packages/interface/src/display/ILeaf.ts:362](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L362)
 
 ___
 
@@ -633,11 +670,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[offsetX](IRectData.md#offsetx)
+[IImageData](IImageData.md).[offsetX](IImageData.md#offsetx)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:364](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L364)
+[src/leafer/packages/interface/src/display/ILeaf.ts:364](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L364)
 
 ___
 
@@ -647,11 +684,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[offsetY](IRectData.md#offsety)
+[IImageData](IImageData.md).[offsetY](IImageData.md#offsety)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:365](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L365)
+[src/leafer/packages/interface/src/display/ILeaf.ts:365](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L365)
 
 ___
 
@@ -661,11 +698,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[scrollX](IRectData.md#scrollx)
+[IImageData](IImageData.md).[scrollX](IImageData.md#scrollx)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:366](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L366)
+[src/leafer/packages/interface/src/display/ILeaf.ts:366](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L366)
 
 ___
 
@@ -675,11 +712,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[scrollY](IRectData.md#scrolly)
+[IImageData](IImageData.md).[scrollY](IImageData.md#scrolly)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:367](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L367)
+[src/leafer/packages/interface/src/display/ILeaf.ts:367](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L367)
 
 ___
 
@@ -689,11 +726,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[origin](IRectData.md#origin)
+[IImageData](IImageData.md).[origin](IImageData.md#origin)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:369](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L369)
+[src/leafer/packages/interface/src/display/ILeaf.ts:369](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L369)
 
 ___
 
@@ -703,11 +740,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[around](IRectData.md#around)
+[IImageData](IImageData.md).[around](IImageData.md#around)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:370](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L370)
+[src/leafer/packages/interface/src/display/ILeaf.ts:370](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L370)
 
 ___
 
@@ -717,11 +754,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[lazy](IRectData.md#lazy)
+[IImageData](IImageData.md).[lazy](IImageData.md#lazy)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:372](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L372)
+[src/leafer/packages/interface/src/display/ILeaf.ts:372](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L372)
 
 ___
 
@@ -731,11 +768,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[pixelRatio](IRectData.md#pixelratio)
+[IImageData](IImageData.md).[pixelRatio](IImageData.md#pixelratio)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:373](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L373)
+[src/leafer/packages/interface/src/display/ILeaf.ts:373](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L373)
 
 ___
 
@@ -745,11 +782,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[renderSpread](IRectData.md#renderspread)
+[IImageData](IImageData.md).[renderSpread](IImageData.md#renderspread)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:375](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L375)
+[src/leafer/packages/interface/src/display/ILeaf.ts:375](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L375)
 
 ___
 
@@ -759,11 +796,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[path](IRectData.md#path)
+[IImageData](IImageData.md).[path](IImageData.md#path)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:377](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L377)
+[src/leafer/packages/interface/src/display/ILeaf.ts:377](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L377)
 
 ___
 
@@ -773,11 +810,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[windingRule](IRectData.md#windingrule)
+[IImageData](IImageData.md).[windingRule](IImageData.md#windingrule)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:378](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L378)
+[src/leafer/packages/interface/src/display/ILeaf.ts:378](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L378)
 
 ___
 
@@ -787,11 +824,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[closed](IRectData.md#closed)
+[IImageData](IImageData.md).[closed](IImageData.md#closed)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:379](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L379)
+[src/leafer/packages/interface/src/display/ILeaf.ts:379](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L379)
 
 ___
 
@@ -801,11 +838,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[flow](IRectData.md#flow)
+[IImageData](IImageData.md).[flow](IImageData.md#flow)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:382](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L382)
+[src/leafer/packages/interface/src/display/ILeaf.ts:382](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L382)
 
 ___
 
@@ -815,11 +852,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[padding](IRectData.md#padding)
+[IImageData](IImageData.md).[padding](IImageData.md#padding)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:383](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L383)
+[src/leafer/packages/interface/src/display/ILeaf.ts:383](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L383)
 
 ___
 
@@ -829,11 +866,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[gap](IRectData.md#gap)
+[IImageData](IImageData.md).[gap](IImageData.md#gap)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:384](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L384)
+[src/leafer/packages/interface/src/display/ILeaf.ts:384](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L384)
 
 ___
 
@@ -843,11 +880,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[flowAlign](IRectData.md#flowalign)
+[IImageData](IImageData.md).[flowAlign](IImageData.md#flowalign)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:385](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L385)
+[src/leafer/packages/interface/src/display/ILeaf.ts:385](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L385)
 
 ___
 
@@ -857,11 +894,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[flowWrap](IRectData.md#flowwrap)
+[IImageData](IImageData.md).[flowWrap](IImageData.md#flowwrap)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:386](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L386)
+[src/leafer/packages/interface/src/display/ILeaf.ts:386](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L386)
 
 ___
 
@@ -871,11 +908,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[itemBox](IRectData.md#itembox)
+[IImageData](IImageData.md).[itemBox](IImageData.md#itembox)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:387](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L387)
+[src/leafer/packages/interface/src/display/ILeaf.ts:387](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L387)
 
 ___
 
@@ -885,11 +922,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[inFlow](IRectData.md#inflow)
+[IImageData](IImageData.md).[inFlow](IImageData.md#inflow)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:389](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L389)
+[src/leafer/packages/interface/src/display/ILeaf.ts:389](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L389)
 
 ___
 
@@ -899,11 +936,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[autoWidth](IRectData.md#autowidth)
+[IImageData](IImageData.md).[autoWidth](IImageData.md#autowidth)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:390](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L390)
+[src/leafer/packages/interface/src/display/ILeaf.ts:390](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L390)
 
 ___
 
@@ -913,11 +950,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[autoHeight](IRectData.md#autoheight)
+[IImageData](IImageData.md).[autoHeight](IImageData.md#autoheight)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:391](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L391)
+[src/leafer/packages/interface/src/display/ILeaf.ts:391](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L391)
 
 ___
 
@@ -927,11 +964,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[lockRatio](IRectData.md#lockratio)
+[IImageData](IImageData.md).[lockRatio](IImageData.md#lockratio)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:392](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L392)
+[src/leafer/packages/interface/src/display/ILeaf.ts:392](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L392)
 
 ___
 
@@ -941,11 +978,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[autoBox](IRectData.md#autobox)
+[IImageData](IImageData.md).[autoBox](IImageData.md#autobox)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:393](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L393)
+[src/leafer/packages/interface/src/display/ILeaf.ts:393](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L393)
 
 ___
 
@@ -955,11 +992,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[widthRange](IRectData.md#widthrange)
+[IImageData](IImageData.md).[widthRange](IImageData.md#widthrange)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:395](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L395)
+[src/leafer/packages/interface/src/display/ILeaf.ts:395](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L395)
 
 ___
 
@@ -969,11 +1006,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[heightRange](IRectData.md#heightrange)
+[IImageData](IImageData.md).[heightRange](IImageData.md#heightrange)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:396](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L396)
+[src/leafer/packages/interface/src/display/ILeaf.ts:396](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L396)
 
 ___
 
@@ -983,11 +1020,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[draggable](IRectData.md#draggable)
+[IImageData](IImageData.md).[draggable](IImageData.md#draggable)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:399](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L399)
+[src/leafer/packages/interface/src/display/ILeaf.ts:399](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L399)
 
 ___
 
@@ -997,11 +1034,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[dragBounds](IRectData.md#dragbounds)
+[IImageData](IImageData.md).[dragBounds](IImageData.md#dragbounds)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:400](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L400)
+[src/leafer/packages/interface/src/display/ILeaf.ts:400](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L400)
 
 ___
 
@@ -1011,11 +1048,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[dragBoundsType](IRectData.md#dragboundstype)
+[IImageData](IImageData.md).[dragBoundsType](IImageData.md#dragboundstype)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:401](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L401)
+[src/leafer/packages/interface/src/display/ILeaf.ts:401](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L401)
 
 ___
 
@@ -1025,11 +1062,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[editable](IRectData.md#editable)
+[IImageData](IImageData.md).[editable](IImageData.md#editable)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:403](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L403)
+[src/leafer/packages/interface/src/display/ILeaf.ts:403](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L403)
 
 ___
 
@@ -1039,11 +1076,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[hittable](IRectData.md#hittable)
+[IImageData](IImageData.md).[hittable](IImageData.md#hittable)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:405](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L405)
+[src/leafer/packages/interface/src/display/ILeaf.ts:405](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L405)
 
 ___
 
@@ -1053,11 +1090,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[hitFill](IRectData.md#hitfill)
+[IImageData](IImageData.md).[hitFill](IImageData.md#hitfill)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:406](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L406)
+[src/leafer/packages/interface/src/display/ILeaf.ts:406](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L406)
 
 ___
 
@@ -1067,11 +1104,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[hitStroke](IRectData.md#hitstroke)
+[IImageData](IImageData.md).[hitStroke](IImageData.md#hitstroke)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:407](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L407)
+[src/leafer/packages/interface/src/display/ILeaf.ts:407](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L407)
 
 ___
 
@@ -1081,11 +1118,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[hitBox](IRectData.md#hitbox)
+[IImageData](IImageData.md).[hitBox](IImageData.md#hitbox)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:408](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L408)
+[src/leafer/packages/interface/src/display/ILeaf.ts:408](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L408)
 
 ___
 
@@ -1095,11 +1132,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[hitChildren](IRectData.md#hitchildren)
+[IImageData](IImageData.md).[hitChildren](IImageData.md#hitchildren)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:409](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L409)
+[src/leafer/packages/interface/src/display/ILeaf.ts:409](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L409)
 
 ___
 
@@ -1109,11 +1146,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[hitSelf](IRectData.md#hitself)
+[IImageData](IImageData.md).[hitSelf](IImageData.md#hitself)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:410](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L410)
+[src/leafer/packages/interface/src/display/ILeaf.ts:410](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L410)
 
 ___
 
@@ -1123,11 +1160,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[hitRadius](IRectData.md#hitradius)
+[IImageData](IImageData.md).[hitRadius](IImageData.md#hitradius)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:411](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L411)
+[src/leafer/packages/interface/src/display/ILeaf.ts:411](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L411)
 
 ___
 
@@ -1137,11 +1174,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[button](IRectData.md#button)
+[IImageData](IImageData.md).[button](IImageData.md#button)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:413](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L413)
+[src/leafer/packages/interface/src/display/ILeaf.ts:413](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L413)
 
 ___
 
@@ -1151,11 +1188,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[cursor](IRectData.md#cursor)
+[IImageData](IImageData.md).[cursor](IImageData.md#cursor)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:414](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L414)
+[src/leafer/packages/interface/src/display/ILeaf.ts:414](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L414)
 
 ___
 
@@ -1165,11 +1202,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[motionPath](IRectData.md#motionpath)
+[IImageData](IImageData.md).[motionPath](IImageData.md#motionpath)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:416](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L416)
+[src/leafer/packages/interface/src/display/ILeaf.ts:416](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L416)
 
 ___
 
@@ -1179,11 +1216,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[motionPrecision](IRectData.md#motionprecision)
+[IImageData](IImageData.md).[motionPrecision](IImageData.md#motionprecision)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:417](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L417)
+[src/leafer/packages/interface/src/display/ILeaf.ts:417](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L417)
 
 ___
 
@@ -1193,11 +1230,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[motion](IRectData.md#motion)
+[IImageData](IImageData.md).[motion](IImageData.md#motion)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:419](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L419)
+[src/leafer/packages/interface/src/display/ILeaf.ts:419](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L419)
 
 ___
 
@@ -1207,11 +1244,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[motionRotation](IRectData.md#motionrotation)
+[IImageData](IImageData.md).[motionRotation](IImageData.md#motionrotation)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:420](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L420)
+[src/leafer/packages/interface/src/display/ILeaf.ts:420](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L420)
 
 ___
 
@@ -1221,11 +1258,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[normalStyle](IRectData.md#normalstyle)
+[IImageData](IImageData.md).[normalStyle](IImageData.md#normalstyle)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:422](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L422)
+[src/leafer/packages/interface/src/display/ILeaf.ts:422](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L422)
 
 ___
 
@@ -1235,11 +1272,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[data](IRectData.md#data)
+[IImageData](IImageData.md).[data](IImageData.md#data)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:425](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L425)
+[src/leafer/packages/interface/src/display/ILeaf.ts:425](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L425)
 
 ___
 
@@ -1249,11 +1286,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__childBranchNumber](IRectData.md#__childbranchnumber)
+[IImageData](IImageData.md).[__childBranchNumber](IImageData.md#__childbranchnumber)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:428](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L428)
+[src/leafer/packages/interface/src/display/ILeaf.ts:428](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L428)
 
 ___
 
@@ -1263,11 +1300,25 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__complex](IRectData.md#__complex)
+[IImageData](IImageData.md).[__complex](IImageData.md#__complex)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:429](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L429)
+[src/leafer/packages/interface/src/display/ILeaf.ts:429](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L429)
+
+___
+
+### \_\_complexData
+
+• `Optional` **\_\_complexData**: [`ILeafComplexCachedData`](ILeafComplexCachedData.md)
+
+#### Inherited from
+
+[IImageData](IImageData.md).[__complexData](IImageData.md#__complexdata)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/display/ILeaf.ts:430](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L430)
 
 ___
 
@@ -1277,11 +1328,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__naturalWidth](IRectData.md#__naturalwidth)
+[IImageData](IImageData.md).[__naturalWidth](IImageData.md#__naturalwidth)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:431](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L431)
+[src/leafer/packages/interface/src/display/ILeaf.ts:432](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L432)
 
 ___
 
@@ -1291,11 +1342,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__naturalHeight](IRectData.md#__naturalheight)
+[IImageData](IImageData.md).[__naturalHeight](IImageData.md#__naturalheight)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:432](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L432)
+[src/leafer/packages/interface/src/display/ILeaf.ts:433](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L433)
 
 ___
 
@@ -1305,11 +1356,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__autoWidth](IRectData.md#__autowidth)
+[IImageData](IImageData.md).[__autoWidth](IImageData.md#__autowidth)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:434](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L434)
+[src/leafer/packages/interface/src/display/ILeaf.ts:435](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L435)
 
 ___
 
@@ -1319,11 +1370,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__autoHeight](IRectData.md#__autoheight)
+[IImageData](IImageData.md).[__autoHeight](IImageData.md#__autoheight)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:435](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L435)
+[src/leafer/packages/interface/src/display/ILeaf.ts:436](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L436)
 
 ___
 
@@ -1333,11 +1384,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__autoSide](IRectData.md#__autoside)
+[IImageData](IImageData.md).[__autoSide](IImageData.md#__autoside)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:436](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L436)
+[src/leafer/packages/interface/src/display/ILeaf.ts:437](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L437)
 
 ___
 
@@ -1347,11 +1398,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__autoSize](IRectData.md#__autosize)
+[IImageData](IImageData.md).[__autoSize](IImageData.md#__autosize)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:437](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L437)
+[src/leafer/packages/interface/src/display/ILeaf.ts:438](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L438)
 
 ___
 
@@ -1361,11 +1412,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__useNaturalRatio](IRectData.md#__usenaturalratio)
+[IImageData](IImageData.md).[__useNaturalRatio](IImageData.md#__usenaturalratio)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:439](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L439)
+[src/leafer/packages/interface/src/display/ILeaf.ts:440](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L440)
 
 ___
 
@@ -1375,11 +1426,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isLinePath](IRectData.md#__islinepath)
+[IImageData](IImageData.md).[__isLinePath](IImageData.md#__islinepath)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:440](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L440)
+[src/leafer/packages/interface/src/display/ILeaf.ts:441](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L441)
 
 ___
 
@@ -1389,11 +1440,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__blendMode](IRectData.md#__blendmode)
+[IImageData](IImageData.md).[__blendMode](IImageData.md#__blendmode)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:441](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L441)
+[src/leafer/packages/interface/src/display/ILeaf.ts:442](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L442)
 
 ___
 
@@ -1403,11 +1454,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__useStroke](IRectData.md#__usestroke)
+[IImageData](IImageData.md).[__useStroke](IImageData.md#__usestroke)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:443](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L443)
+[src/leafer/packages/interface/src/display/ILeaf.ts:444](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L444)
 
 ___
 
@@ -1417,11 +1468,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__useArrow](IRectData.md#__usearrow)
+[IImageData](IImageData.md).[__useArrow](IImageData.md#__usearrow)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:444](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L444)
+[src/leafer/packages/interface/src/display/ILeaf.ts:445](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L445)
 
 ___
 
@@ -1431,11 +1482,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__useEffect](IRectData.md#__useeffect)
+[IImageData](IImageData.md).[__useEffect](IImageData.md#__useeffect)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:445](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L445)
+[src/leafer/packages/interface/src/display/ILeaf.ts:446](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L446)
 
 ___
 
@@ -1445,11 +1496,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__usePathBox](IRectData.md#__usepathbox)
+[IImageData](IImageData.md).[__usePathBox](IImageData.md#__usepathbox)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:446](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L446)
+[src/leafer/packages/interface/src/display/ILeaf.ts:447](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L447)
 
 ___
 
@@ -1459,11 +1510,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__useDim](IRectData.md#__usedim)
+[IImageData](IImageData.md).[__useDim](IImageData.md#__usedim)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:447](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L447)
+[src/leafer/packages/interface/src/display/ILeaf.ts:448](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L448)
 
 ___
 
@@ -1473,11 +1524,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__pathInputed](IRectData.md#__pathinputed)
+[IImageData](IImageData.md).[__pathInputed](IImageData.md#__pathinputed)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:449](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L449)
+[src/leafer/packages/interface/src/display/ILeaf.ts:450](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L450)
 
 ___
 
@@ -1487,11 +1538,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__pathForRender](IRectData.md#__pathforrender)
+[IImageData](IImageData.md).[__pathForRender](IImageData.md#__pathforrender)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:450](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L450)
+[src/leafer/packages/interface/src/display/ILeaf.ts:451](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L451)
 
 ___
 
@@ -1501,25 +1552,39 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__path2DForRender](IRectData.md#__path2dforrender)
+[IImageData](IImageData.md).[__path2DForRender](IImageData.md#__path2dforrender)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:451](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L451)
+[src/leafer/packages/interface/src/display/ILeaf.ts:452](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L452)
 
 ___
 
-### \_\_pathForArrow
+### \_\_startArrowPath
 
-• `Optional` **\_\_pathForArrow**: [`IPathCommandData`](../modules.md#ipathcommanddata)
+• `Optional` **\_\_startArrowPath**: [`IArrowPathData`](IArrowPathData.md)
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__pathForArrow](IRectData.md#__pathforarrow)
+[IImageData](IImageData.md).[__startArrowPath](IImageData.md#__startarrowpath)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:452](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L452)
+[src/leafer/packages/interface/src/display/ILeaf.ts:454](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L454)
+
+___
+
+### \_\_endArrowPath
+
+• `Optional` **\_\_endArrowPath**: [`IArrowPathData`](IArrowPathData.md)
+
+#### Inherited from
+
+[IImageData](IImageData.md).[__endArrowPath](IImageData.md#__endarrowpath)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/display/ILeaf.ts:455](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L455)
 
 ___
 
@@ -1529,11 +1594,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__pathForMotion](IRectData.md#__pathformotion)
+[IImageData](IImageData.md).[__pathForMotion](IImageData.md#__pathformotion)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/display/ILeaf.ts:453](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/display/ILeaf.ts#L453)
+[src/leafer/packages/interface/src/display/ILeaf.ts:456](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/display/ILeaf.ts#L456)
 
 ___
 
@@ -1543,11 +1608,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[cornerRadius](IRectData.md#cornerradius)
+[IImageData](IImageData.md).[cornerRadius](IImageData.md#cornerradius)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:17](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L17)
+[src/ui/packages/interface/src/ICommonAttr.ts:17](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L17)
 
 ___
 
@@ -1557,11 +1622,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[cornerSmoothing](IRectData.md#cornersmoothing)
+[IImageData](IImageData.md).[cornerSmoothing](IImageData.md#cornersmoothing)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:18](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L18)
+[src/ui/packages/interface/src/ICommonAttr.ts:18](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L18)
 
 ___
 
@@ -1571,11 +1636,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[fill](IRectData.md#fill)
+[IImageData](IImageData.md).[fill](IImageData.md#fill)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:29](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L29)
+[src/ui/packages/interface/src/ICommonAttr.ts:29](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L29)
 
 ___
 
@@ -1585,11 +1650,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[borderWidth](IRectData.md#borderwidth)
+[IImageData](IImageData.md).[borderWidth](IImageData.md#borderwidth)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:34](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L34)
+[src/ui/packages/interface/src/ICommonAttr.ts:34](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L34)
 
 ___
 
@@ -1599,11 +1664,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[borderRadius](IRectData.md#borderradius)
+[IImageData](IImageData.md).[borderRadius](IImageData.md#borderradius)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:35](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L35)
+[src/ui/packages/interface/src/ICommonAttr.ts:35](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L35)
 
 ___
 
@@ -1613,11 +1678,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[stroke](IRectData.md#stroke)
+[IImageData](IImageData.md).[stroke](IImageData.md#stroke)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:65](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L65)
+[src/ui/packages/interface/src/ICommonAttr.ts:65](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L65)
 
 ___
 
@@ -1627,11 +1692,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[startArrow](IRectData.md#startarrow)
+[IImageData](IImageData.md).[startArrow](IImageData.md#startarrow)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:67](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L67)
+[src/ui/packages/interface/src/ICommonAttr.ts:67](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L67)
 
 ___
 
@@ -1641,11 +1706,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[endArrow](IRectData.md#endarrow)
+[IImageData](IImageData.md).[endArrow](IImageData.md#endarrow)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:68](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L68)
+[src/ui/packages/interface/src/ICommonAttr.ts:68](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L68)
 
 ___
 
@@ -1655,11 +1720,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[strokeAlign](IRectData.md#strokealign)
+[IImageData](IImageData.md).[strokeAlign](IImageData.md#strokealign)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:72](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L72)
+[src/ui/packages/interface/src/ICommonAttr.ts:72](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L72)
 
 ___
 
@@ -1669,11 +1734,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[strokeWidth](IRectData.md#strokewidth)
+[IImageData](IImageData.md).[strokeWidth](IImageData.md#strokewidth)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:73](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L73)
+[src/ui/packages/interface/src/ICommonAttr.ts:73](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L73)
 
 ___
 
@@ -1683,25 +1748,25 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[strokeWidths](IRectData.md#strokewidths)
+[IImageData](IImageData.md).[strokeWidths](IImageData.md#strokewidths)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:74](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L74)
+[src/ui/packages/interface/src/ICommonAttr.ts:74](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L74)
 
 ___
 
-### strokeWidthFixed
+### strokeScaleFixed
 
-• `Optional` **strokeWidthFixed**: [`IScaleFixed`](../modules.md#iscalefixed)
+• `Optional` **strokeScaleFixed**: [`IScaleFixed`](../modules.md#iscalefixed)
 
 #### Inherited from
 
-[IRectData](IRectData.md).[strokeWidthFixed](IRectData.md#strokewidthfixed)
+[IImageData](IImageData.md).[strokeScaleFixed](IImageData.md#strokescalefixed)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:75](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L75)
+[src/ui/packages/interface/src/ICommonAttr.ts:75](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L75)
 
 ___
 
@@ -1711,11 +1776,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[strokeCap](IRectData.md#strokecap)
+[IImageData](IImageData.md).[strokeCap](IImageData.md#strokecap)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:76](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L76)
+[src/ui/packages/interface/src/ICommonAttr.ts:76](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L76)
 
 ___
 
@@ -1725,11 +1790,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[strokeJoin](IRectData.md#strokejoin)
+[IImageData](IImageData.md).[strokeJoin](IImageData.md#strokejoin)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:77](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L77)
+[src/ui/packages/interface/src/ICommonAttr.ts:77](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L77)
 
 ___
 
@@ -1739,11 +1804,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[dashPattern](IRectData.md#dashpattern)
+[IImageData](IImageData.md).[dashPattern](IImageData.md#dashpattern)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:78](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L78)
+[src/ui/packages/interface/src/ICommonAttr.ts:78](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L78)
 
 ___
 
@@ -1753,11 +1818,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[dashOffset](IRectData.md#dashoffset)
+[IImageData](IImageData.md).[dashOffset](IImageData.md#dashoffset)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:79](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L79)
+[src/ui/packages/interface/src/ICommonAttr.ts:79](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L79)
 
 ___
 
@@ -1767,11 +1832,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[miterLimit](IRectData.md#miterlimit)
+[IImageData](IImageData.md).[miterLimit](IImageData.md#miterlimit)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:80](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L80)
+[src/ui/packages/interface/src/ICommonAttr.ts:80](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L80)
 
 ___
 
@@ -1781,11 +1846,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[fontFamily](IRectData.md#fontfamily)
+[IImageData](IImageData.md).[fontFamily](IImageData.md#fontfamily)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:127](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L127)
+[src/ui/packages/interface/src/ICommonAttr.ts:127](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L127)
 
 ___
 
@@ -1795,11 +1860,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[fontSize](IRectData.md#fontsize)
+[IImageData](IImageData.md).[fontSize](IImageData.md#fontsize)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:128](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L128)
+[src/ui/packages/interface/src/ICommonAttr.ts:128](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L128)
 
 ___
 
@@ -1809,11 +1874,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[fontWeight](IRectData.md#fontweight)
+[IImageData](IImageData.md).[fontWeight](IImageData.md#fontweight)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:129](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L129)
+[src/ui/packages/interface/src/ICommonAttr.ts:129](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L129)
 
 ___
 
@@ -1823,11 +1888,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[italic](IRectData.md#italic)
+[IImageData](IImageData.md).[italic](IImageData.md#italic)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:130](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L130)
+[src/ui/packages/interface/src/ICommonAttr.ts:130](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L130)
 
 ___
 
@@ -1837,11 +1902,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[textCase](IRectData.md#textcase)
+[IImageData](IImageData.md).[textCase](IImageData.md#textcase)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:131](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L131)
+[src/ui/packages/interface/src/ICommonAttr.ts:131](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L131)
 
 ___
 
@@ -1851,11 +1916,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[textDecoration](IRectData.md#textdecoration)
+[IImageData](IImageData.md).[textDecoration](IImageData.md#textdecoration)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:132](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L132)
+[src/ui/packages/interface/src/ICommonAttr.ts:132](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L132)
 
 ___
 
@@ -1865,11 +1930,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[letterSpacing](IRectData.md#letterspacing)
+[IImageData](IImageData.md).[letterSpacing](IImageData.md#letterspacing)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:133](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L133)
+[src/ui/packages/interface/src/ICommonAttr.ts:133](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L133)
 
 ___
 
@@ -1879,11 +1944,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[lineHeight](IRectData.md#lineheight)
+[IImageData](IImageData.md).[lineHeight](IImageData.md#lineheight)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:134](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L134)
+[src/ui/packages/interface/src/ICommonAttr.ts:134](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L134)
 
 ___
 
@@ -1893,11 +1958,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[paraIndent](IRectData.md#paraindent)
+[IImageData](IImageData.md).[paraIndent](IImageData.md#paraindent)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:136](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L136)
+[src/ui/packages/interface/src/ICommonAttr.ts:136](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L136)
 
 ___
 
@@ -1907,11 +1972,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[paraSpacing](IRectData.md#paraspacing)
+[IImageData](IImageData.md).[paraSpacing](IImageData.md#paraspacing)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:137](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L137)
+[src/ui/packages/interface/src/ICommonAttr.ts:137](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L137)
 
 ___
 
@@ -1921,11 +1986,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[writingMode](IRectData.md#writingmode)
+[IImageData](IImageData.md).[writingMode](IImageData.md#writingmode)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:139](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L139)
+[src/ui/packages/interface/src/ICommonAttr.ts:139](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L139)
 
 ___
 
@@ -1935,11 +2000,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[textAlign](IRectData.md#textalign)
+[IImageData](IImageData.md).[textAlign](IImageData.md#textalign)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:140](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L140)
+[src/ui/packages/interface/src/ICommonAttr.ts:140](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L140)
 
 ___
 
@@ -1949,11 +2014,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[verticalAlign](IRectData.md#verticalalign)
+[IImageData](IImageData.md).[verticalAlign](IImageData.md#verticalalign)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:141](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L141)
+[src/ui/packages/interface/src/ICommonAttr.ts:141](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L141)
 
 ___
 
@@ -1963,11 +2028,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[autoSizeAlign](IRectData.md#autosizealign)
+[IImageData](IImageData.md).[autoSizeAlign](IImageData.md#autosizealign)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:142](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L142)
+[src/ui/packages/interface/src/ICommonAttr.ts:142](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L142)
 
 ___
 
@@ -1977,11 +2042,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[textWrap](IRectData.md#textwrap)
+[IImageData](IImageData.md).[textWrap](IImageData.md#textwrap)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:144](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L144)
+[src/ui/packages/interface/src/ICommonAttr.ts:144](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L144)
 
 ___
 
@@ -1991,11 +2056,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[textOverflow](IRectData.md#textoverflow)
+[IImageData](IImageData.md).[textOverflow](IImageData.md#textoverflow)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:145](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L145)
+[src/ui/packages/interface/src/ICommonAttr.ts:145](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L145)
 
 ___
 
@@ -2005,11 +2070,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[shadow](IRectData.md#shadow)
+[IImageData](IImageData.md).[shadow](IImageData.md#shadow)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:164](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L164)
+[src/ui/packages/interface/src/ICommonAttr.ts:164](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L164)
 
 ___
 
@@ -2019,11 +2084,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[innerShadow](IRectData.md#innershadow)
+[IImageData](IImageData.md).[innerShadow](IImageData.md#innershadow)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:165](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L165)
+[src/ui/packages/interface/src/ICommonAttr.ts:165](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L165)
 
 ___
 
@@ -2033,11 +2098,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[blur](IRectData.md#blur)
+[IImageData](IImageData.md).[blur](IImageData.md#blur)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:166](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L166)
+[src/ui/packages/interface/src/ICommonAttr.ts:166](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L166)
 
 ___
 
@@ -2047,11 +2112,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[backgroundBlur](IRectData.md#backgroundblur)
+[IImageData](IImageData.md).[backgroundBlur](IImageData.md#backgroundblur)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:167](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L167)
+[src/ui/packages/interface/src/ICommonAttr.ts:167](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L167)
 
 ___
 
@@ -2061,11 +2126,53 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[grayscale](IRectData.md#grayscale)
+[IImageData](IImageData.md).[grayscale](IImageData.md#grayscale)
 
 #### Defined in
 
-[src/ui/packages/interface/src/ICommonAttr.ts:168](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/ICommonAttr.ts#L168)
+[src/ui/packages/interface/src/ICommonAttr.ts:168](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/ICommonAttr.ts#L168)
+
+___
+
+### foreground
+
+• `Optional` **foreground**: [`IFill`](../modules.md#ifill)
+
+#### Inherited from
+
+[IImageData](IImageData.md).[foreground](IImageData.md#foreground)
+
+#### Defined in
+
+[src/ui/packages/interface/src/IUI.ts:254](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L254)
+
+___
+
+### background
+
+• `Optional` **background**: [`IFill`](../modules.md#ifill)
+
+#### Inherited from
+
+[IImageData](IImageData.md).[background](IImageData.md#background)
+
+#### Defined in
+
+[src/ui/packages/interface/src/IUI.ts:255](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L255)
+
+___
+
+### \_\_urlType
+
+• `Readonly` **\_\_urlType**: [`IMultimediaType`](../modules.md#imultimediatype)
+
+#### Inherited from
+
+[IImageData](IImageData.md).[__urlType](IImageData.md#__urltype)
+
+#### Defined in
+
+[src/ui/packages/interface/src/IUI.ts:258](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L258)
 
 ___
 
@@ -2075,11 +2182,11 @@ ___
 
 #### Inherited from
 
-IVideoAttrData.url
+[IImageData](IImageData.md).[url](IImageData.md#url)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:70](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L70)
+[src/ui/packages/interface/src/IUI.ts:309](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L309)
 
 ___
 
@@ -2089,11 +2196,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[animation](IRectData.md#animation)
+[IImageData](IImageData.md).[animation](IImageData.md#animation)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:456](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L456)
+[src/ui/packages/interface/src/IUI.ts:511](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L511)
 
 ___
 
@@ -2103,11 +2210,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[animationOut](IRectData.md#animationout)
+[IImageData](IImageData.md).[animationOut](IImageData.md#animationout)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:457](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L457)
+[src/ui/packages/interface/src/IUI.ts:512](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L512)
 
 ___
 
@@ -2117,11 +2224,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[transition](IRectData.md#transition)
+[IImageData](IImageData.md).[transition](IImageData.md#transition)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:459](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L459)
+[src/ui/packages/interface/src/IUI.ts:514](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L514)
 
 ___
 
@@ -2131,11 +2238,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[transitionOut](IRectData.md#transitionout)
+[IImageData](IImageData.md).[transitionOut](IImageData.md#transitionout)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:460](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L460)
+[src/ui/packages/interface/src/IUI.ts:515](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L515)
 
 ___
 
@@ -2145,11 +2252,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[states](IRectData.md#states)
+[IImageData](IImageData.md).[states](IImageData.md#states)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:462](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L462)
+[src/ui/packages/interface/src/IUI.ts:517](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L517)
 
 ___
 
@@ -2159,11 +2266,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[state](IRectData.md#state)
+[IImageData](IImageData.md).[state](IImageData.md#state)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:463](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L463)
+[src/ui/packages/interface/src/IUI.ts:518](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L518)
 
 ___
 
@@ -2173,11 +2280,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[hoverStyle](IRectData.md#hoverstyle)
+[IImageData](IImageData.md).[hoverStyle](IImageData.md#hoverstyle)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:465](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L465)
+[src/ui/packages/interface/src/IUI.ts:520](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L520)
 
 ___
 
@@ -2187,11 +2294,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[pressStyle](IRectData.md#pressstyle)
+[IImageData](IImageData.md).[pressStyle](IImageData.md#pressstyle)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:466](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L466)
+[src/ui/packages/interface/src/IUI.ts:521](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L521)
 
 ___
 
@@ -2201,11 +2308,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[focusStyle](IRectData.md#focusstyle)
+[IImageData](IImageData.md).[focusStyle](IImageData.md#focusstyle)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:467](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L467)
+[src/ui/packages/interface/src/IUI.ts:522](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L522)
 
 ___
 
@@ -2215,11 +2322,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[selectedStyle](IRectData.md#selectedstyle)
+[IImageData](IImageData.md).[selectedStyle](IImageData.md#selectedstyle)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:468](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L468)
+[src/ui/packages/interface/src/IUI.ts:523](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L523)
 
 ___
 
@@ -2229,11 +2336,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[disabledStyle](IRectData.md#disabledstyle)
+[IImageData](IImageData.md).[disabledStyle](IImageData.md#disabledstyle)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:469](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L469)
+[src/ui/packages/interface/src/IUI.ts:524](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L524)
 
 ___
 
@@ -2243,11 +2350,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[placeholderStyle](IRectData.md#placeholderstyle)
+[IImageData](IImageData.md).[placeholderStyle](IImageData.md#placeholderstyle)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:470](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L470)
+[src/ui/packages/interface/src/IUI.ts:525](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L525)
 
 ___
 
@@ -2257,11 +2364,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[placeholderColor](IRectData.md#placeholdercolor)
+[IImageData](IImageData.md).[placeholderColor](IImageData.md#placeholdercolor)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:471](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L471)
+[src/ui/packages/interface/src/IUI.ts:526](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L526)
 
 ___
 
@@ -2271,11 +2378,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[placeholderDelay](IRectData.md#placeholderdelay)
+[IImageData](IImageData.md).[placeholderDelay](IImageData.md#placeholderdelay)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:472](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L472)
+[src/ui/packages/interface/src/IUI.ts:527](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L527)
 
 ___
 
@@ -2285,11 +2392,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[editConfig](IRectData.md#editconfig)
+[IImageData](IImageData.md).[editConfig](IImageData.md#editconfig)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:474](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L474)
+[src/ui/packages/interface/src/IUI.ts:529](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L529)
 
 ___
 
@@ -2299,11 +2406,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[editOuter](IRectData.md#editouter)
+[IImageData](IImageData.md).[editOuter](IImageData.md#editouter)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:475](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L475)
+[src/ui/packages/interface/src/IUI.ts:530](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L530)
 
 ___
 
@@ -2313,11 +2420,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[editInner](IRectData.md#editinner)
+[IImageData](IImageData.md).[editInner](IImageData.md#editinner)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:476](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L476)
+[src/ui/packages/interface/src/IUI.ts:531](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L531)
 
 ___
 
@@ -2327,11 +2434,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[scale](IRectData.md#scale)
+[IImageData](IImageData.md).[scale](IImageData.md#scale)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:485](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L485)
+[src/ui/packages/interface/src/IUI.ts:540](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L540)
 
 ___
 
@@ -2341,11 +2448,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isFills](IRectData.md#__isfills)
+[IImageData](IImageData.md).[__isFills](IImageData.md#__isfills)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:488](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L488)
+[src/ui/packages/interface/src/IUI.ts:543](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L543)
 
 ___
 
@@ -2355,11 +2462,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isStrokes](IRectData.md#__isstrokes)
+[IImageData](IImageData.md).[__isStrokes](IImageData.md#__isstrokes)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:489](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L489)
+[src/ui/packages/interface/src/IUI.ts:544](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L544)
 
 ___
 
@@ -2369,11 +2476,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__strokeWidth](IRectData.md#__strokewidth)
+[IImageData](IImageData.md).[__strokeWidth](IImageData.md#__strokewidth)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:491](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L491)
+[src/ui/packages/interface/src/IUI.ts:546](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L546)
 
 ___
 
@@ -2383,11 +2490,25 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__maxStrokeWidth](IRectData.md#__maxstrokewidth)
+[IImageData](IImageData.md).[__maxStrokeWidth](IImageData.md#__maxstrokewidth)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:492](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L492)
+[src/ui/packages/interface/src/IUI.ts:547](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L547)
+
+___
+
+### \_\_strokeWidthCache
+
+• `Optional` **\_\_strokeWidthCache**: `number`
+
+#### Inherited from
+
+[IImageData](IImageData.md).[__strokeWidthCache](IImageData.md#__strokewidthcache)
+
+#### Defined in
+
+[src/ui/packages/interface/src/IUI.ts:548](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L548)
 
 ___
 
@@ -2397,11 +2518,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__hasMultiStrokeStyle](IRectData.md#__hasmultistrokestyle)
+[IImageData](IImageData.md).[__hasMultiStrokeStyle](IImageData.md#__hasmultistrokestyle)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:493](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L493)
+[src/ui/packages/interface/src/IUI.ts:549](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L549)
 
 ___
 
@@ -2411,11 +2532,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__hasMultiPaint](IRectData.md#__hasmultipaint)
+[IImageData](IImageData.md).[__hasMultiPaint](IImageData.md#__hasmultipaint)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:494](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L494)
+[src/ui/packages/interface/src/IUI.ts:550](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L550)
 
 ___
 
@@ -2425,11 +2546,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isAlphaPixelFill](IRectData.md#__isalphapixelfill)
+[IImageData](IImageData.md).[__isAlphaPixelFill](IImageData.md#__isalphapixelfill)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:496](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L496)
+[src/ui/packages/interface/src/IUI.ts:552](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L552)
 
 ___
 
@@ -2439,11 +2560,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isAlphaPixelStroke](IRectData.md#__isalphapixelstroke)
+[IImageData](IImageData.md).[__isAlphaPixelStroke](IImageData.md#__isalphapixelstroke)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:497](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L497)
+[src/ui/packages/interface/src/IUI.ts:553](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L553)
 
 ___
 
@@ -2453,11 +2574,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isTransparentFill](IRectData.md#__istransparentfill)
+[IImageData](IImageData.md).[__isTransparentFill](IImageData.md#__istransparentfill)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:499](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L499)
+[src/ui/packages/interface/src/IUI.ts:555](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L555)
 
 ___
 
@@ -2467,11 +2588,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isTransparentStroke](IRectData.md#__istransparentstroke)
+[IImageData](IImageData.md).[__isTransparentStroke](IImageData.md#__istransparentstroke)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:500](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L500)
+[src/ui/packages/interface/src/IUI.ts:556](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L556)
 
 ___
 
@@ -2481,11 +2602,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isHitPixel](IRectData.md#__ishitpixel)
+[IImageData](IImageData.md).[__isHitPixel](IImageData.md#__ishitpixel)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:502](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L502)
+[src/ui/packages/interface/src/IUI.ts:558](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L558)
 
 ___
 
@@ -2495,11 +2616,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isCanvas](IRectData.md#__iscanvas)
+[IImageData](IImageData.md).[__isCanvas](IImageData.md#__iscanvas)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:503](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L503)
+[src/ui/packages/interface/src/IUI.ts:559](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L559)
 
 ___
 
@@ -2509,11 +2630,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__isFastShadow](IRectData.md#__isfastshadow)
+[IImageData](IImageData.md).[__isFastShadow](IImageData.md#__isfastshadow)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:504](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L504)
+[src/ui/packages/interface/src/IUI.ts:560](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L560)
 
 ___
 
@@ -2523,11 +2644,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__fillAfterStroke](IRectData.md#__fillafterstroke)
+[IImageData](IImageData.md).[__fillAfterStroke](IImageData.md#__fillafterstroke)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:506](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L506)
+[src/ui/packages/interface/src/IUI.ts:562](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L562)
 
 ___
 
@@ -2537,11 +2658,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__drawAfterFill](IRectData.md#__drawafterfill)
+[IImageData](IImageData.md).[__drawAfterFill](IImageData.md#__drawafterfill)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:507](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L507)
+[src/ui/packages/interface/src/IUI.ts:563](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L563)
 
 ___
 
@@ -2551,11 +2672,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__clipAfterFill](IRectData.md#__clipafterfill)
+[IImageData](IImageData.md).[__clipAfterFill](IImageData.md#__clipafterfill)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:508](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L508)
+[src/ui/packages/interface/src/IUI.ts:564](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L564)
 
 ___
 
@@ -2565,11 +2686,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__hasSurface](IRectData.md#__hassurface)
+[IImageData](IImageData.md).[__hasSurface](IImageData.md#__hassurface)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:509](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L509)
+[src/ui/packages/interface/src/IUI.ts:565](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L565)
 
 ___
 
@@ -2579,11 +2700,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__blendLayer](IRectData.md#__blendlayer)
+[IImageData](IImageData.md).[__blendLayer](IImageData.md#__blendlayer)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:511](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L511)
+[src/ui/packages/interface/src/IUI.ts:567](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L567)
 
 ___
 
@@ -2593,11 +2714,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__boxStroke](IRectData.md#__boxstroke)
+[IImageData](IImageData.md).[__boxStroke](IImageData.md#__boxstroke)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:513](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L513)
+[src/ui/packages/interface/src/IUI.ts:569](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L569)
 
 ___
 
@@ -2607,11 +2728,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__font](IRectData.md#__font)
+[IImageData](IImageData.md).[__font](IImageData.md#__font)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:516](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L516)
+[src/ui/packages/interface/src/IUI.ts:572](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L572)
 
 ___
 
@@ -2621,11 +2742,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__textDrawData](IRectData.md#__textdrawdata)
+[IImageData](IImageData.md).[__textDrawData](IImageData.md#__textdrawdata)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:517](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L517)
+[src/ui/packages/interface/src/IUI.ts:573](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L573)
 
 ___
 
@@ -2635,11 +2756,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__needComputePaint](IRectData.md#__needcomputepaint)
+[IImageData](IImageData.md).[__needComputePaint](IImageData.md#__needcomputepaint)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:519](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L519)
+[src/ui/packages/interface/src/IUI.ts:575](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L575)
 
 ## Methods
 
@@ -2659,11 +2780,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__get](IRectData.md#__get)
+[IImageData](IImageData.md).[__get](IImageData.md#__get)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:10](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L10)
+[src/leafer/packages/interface/src/data/ILeafData.ts:10](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L10)
 
 ___
 
@@ -2677,11 +2798,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__getData](IRectData.md#__getdata)
+[IImageData](IImageData.md).[__getData](IImageData.md#__getdata)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:11](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L11)
+[src/leafer/packages/interface/src/data/ILeafData.ts:11](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L11)
 
 ___
 
@@ -2702,11 +2823,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__setInput](IRectData.md#__setinput)
+[IImageData](IImageData.md).[__setInput](IImageData.md#__setinput)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:13](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L13)
+[src/leafer/packages/interface/src/data/ILeafData.ts:13](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L13)
 
 ___
 
@@ -2726,11 +2847,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__getInput](IRectData.md#__getinput)
+[IImageData](IImageData.md).[__getInput](IImageData.md#__getinput)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:14](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L14)
+[src/leafer/packages/interface/src/data/ILeafData.ts:14](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L14)
 
 ___
 
@@ -2750,11 +2871,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__removeInput](IRectData.md#__removeinput)
+[IImageData](IImageData.md).[__removeInput](IImageData.md#__removeinput)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:15](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L15)
+[src/leafer/packages/interface/src/data/ILeafData.ts:15](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L15)
 
 ___
 
@@ -2775,11 +2896,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__getInputData](IRectData.md#__getinputdata)
+[IImageData](IImageData.md).[__getInputData](IImageData.md#__getinputdata)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:16](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L16)
+[src/leafer/packages/interface/src/data/ILeafData.ts:16](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L16)
 
 ___
 
@@ -2800,11 +2921,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__setMiddle](IRectData.md#__setmiddle)
+[IImageData](IImageData.md).[__setMiddle](IImageData.md#__setmiddle)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:18](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L18)
+[src/leafer/packages/interface/src/data/ILeafData.ts:18](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L18)
 
 ___
 
@@ -2824,11 +2945,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__getMiddle](IRectData.md#__getmiddle)
+[IImageData](IImageData.md).[__getMiddle](IImageData.md#__getmiddle)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:19](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L19)
+[src/leafer/packages/interface/src/data/ILeafData.ts:19](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L19)
 
 ___
 
@@ -2842,11 +2963,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[destroy](IRectData.md#destroy)
+[IImageData](IImageData.md).[destroy](IImageData.md#destroy)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:21](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L21)
+[src/leafer/packages/interface/src/data/ILeafData.ts:21](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L21)
 
 ___
 
@@ -2860,11 +2981,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__checkSingle](IRectData.md#__checksingle)
+[IImageData](IImageData.md).[__checkSingle](IImageData.md#__checksingle)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:32](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L32)
+[src/leafer/packages/interface/src/data/ILeafData.ts:33](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L33)
 
 ___
 
@@ -2878,11 +2999,35 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__removeNaturalSize](IRectData.md#__removenaturalsize)
+[IImageData](IImageData.md).[__removeNaturalSize](IImageData.md#__removenaturalsize)
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/ILeafData.ts:33](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/ILeafData.ts#L33)
+[src/leafer/packages/interface/src/data/ILeafData.ts:34](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/ILeafData.ts#L34)
+
+___
+
+### \_\_setImageFill
+
+▸ **__setImageFill**(`value`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `value` | `string` |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[IImageData](IImageData.md).[__setImageFill](IImageData.md#__setimagefill)
+
+#### Defined in
+
+[src/ui/packages/interface/src/IUI.ts:259](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L259)
 
 ___
 
@@ -2896,11 +3041,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__computePaint](IRectData.md#__computepaint)
+[IImageData](IImageData.md).[__computePaint](IImageData.md#__computepaint)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:520](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L520)
+[src/ui/packages/interface/src/IUI.ts:576](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L576)
 
 ___
 
@@ -2920,11 +3065,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__getRealStrokeWidth](IRectData.md#__getrealstrokewidth)
+[IImageData](IImageData.md).[__getRealStrokeWidth](IImageData.md#__getrealstrokewidth)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:521](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L521)
+[src/ui/packages/interface/src/IUI.ts:577](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L577)
 
 ___
 
@@ -2945,11 +3090,11 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__setPaint](IRectData.md#__setpaint)
+[IImageData](IImageData.md).[__setPaint](IImageData.md#__setpaint)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:523](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L523)
+[src/ui/packages/interface/src/IUI.ts:579](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L579)
 
 ___
 
@@ -2970,8 +3115,8 @@ ___
 
 #### Inherited from
 
-[IRectData](IRectData.md).[__removePaint](IRectData.md#__removepaint)
+[IImageData](IImageData.md).[__removePaint](IImageData.md#__removepaint)
 
 #### Defined in
 
-[src/ui/packages/interface/src/IUI.ts:524](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/IUI.ts#L524)
+[src/ui/packages/interface/src/IUI.ts:580](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/IUI.ts#L580)

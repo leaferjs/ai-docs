@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:7](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L7)
+[src/leafer/packages/interface/src/image/IImageManager.ts:7](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L7)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:8](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L8)
+[src/leafer/packages/interface/src/image/IImageManager.ts:8](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L8)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:10](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L10)
+[src/leafer/packages/interface/src/image/IImageManager.ts:10](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L10)
 
 ___
 
@@ -58,19 +58,20 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:11](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L11)
+[src/leafer/packages/interface/src/image/IImageManager.ts:11](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L11)
 
 ## Methods
 
 ### get
 
-▸ **get**(`config`): [`ILeaferImage`](ILeaferImage.md)
+▸ **get**(`config`, `type?`): [`ILeaferImage`](ILeaferImage.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `config` | [`ILeaferImageConfig`](ILeaferImageConfig.md) |
+| `type?` | [`IMultimediaType`](../modules.md#imultimediatype) |
 
 #### Returns
 
@@ -78,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:13](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L13)
+[src/leafer/packages/interface/src/image/IImageManager.ts:13](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L13)
 
 ___
 
@@ -98,7 +99,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:14](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L14)
+[src/leafer/packages/interface/src/image/IImageManager.ts:14](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L14)
 
 ___
 
@@ -118,7 +119,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:16](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L16)
+[src/leafer/packages/interface/src/image/IImageManager.ts:16](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L16)
 
 ___
 
@@ -138,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:18](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L18)
+[src/leafer/packages/interface/src/image/IImageManager.ts:18](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L18)
 
 ___
 
@@ -152,7 +153,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:19](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L19)
+[src/leafer/packages/interface/src/image/IImageManager.ts:19](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L19)
 
 ___
 
@@ -172,7 +173,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:21](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L21)
+[src/leafer/packages/interface/src/image/IImageManager.ts:21](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L21)
 
 ___
 
@@ -193,7 +194,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:22](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L22)
+[src/leafer/packages/interface/src/image/IImageManager.ts:22](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L22)
 
 ___
 
@@ -207,4 +208,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/IImageManager.ts:24](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/IImageManager.ts#L24)
+[src/leafer/packages/interface/src/image/IImageManager.ts:24](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/IImageManager.ts#L24)

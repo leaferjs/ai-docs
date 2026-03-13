@@ -11,6 +11,7 @@
 - [list](ILeafList.md#list)
 - [keys](ILeafList.md#keys)
 - [length](ILeafList.md#length)
+- [needUpdate](ILeafList.md#needupdate)
 
 ### Methods
 
@@ -36,7 +37,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:15](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L15)
+[src/leafer/packages/interface/src/data/IList.ts:15](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L15)
 
 ___
 
@@ -46,7 +47,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:16](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L16)
+[src/leafer/packages/interface/src/data/IList.ts:16](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L16)
 
 ___
 
@@ -56,7 +57,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:17](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L17)
+[src/leafer/packages/interface/src/data/IList.ts:17](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L17)
+
+___
+
+### needUpdate
+
+• `Optional` **needUpdate**: `boolean`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/data/IList.ts:19](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L19)
 
 ## Methods
 
@@ -76,7 +87,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:18](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L18)
+[src/leafer/packages/interface/src/data/IList.ts:21](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L21)
 
 ___
 
@@ -96,7 +107,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:19](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L19)
+[src/leafer/packages/interface/src/data/IList.ts:22](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L22)
 
 ___
 
@@ -116,7 +127,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:20](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L20)
+[src/leafer/packages/interface/src/data/IList.ts:23](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L23)
 
 ___
 
@@ -136,7 +147,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:22](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L22)
+[src/leafer/packages/interface/src/data/IList.ts:25](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L25)
 
 ___
 
@@ -157,7 +168,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:23](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L23)
+[src/leafer/packages/interface/src/data/IList.ts:26](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L26)
 
 ___
 
@@ -177,7 +188,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:24](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L24)
+[src/leafer/packages/interface/src/data/IList.ts:27](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L27)
 
 ___
 
@@ -197,7 +208,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:25](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L25)
+[src/leafer/packages/interface/src/data/IList.ts:28](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L28)
 
 ___
 
@@ -217,7 +228,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:27](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L27)
+[src/leafer/packages/interface/src/data/IList.ts:30](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L30)
 
 ___
 
@@ -237,7 +248,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:28](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L28)
+[src/leafer/packages/interface/src/data/IList.ts:31](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L31)
 
 ___
 
@@ -251,7 +262,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:29](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L29)
+[src/leafer/packages/interface/src/data/IList.ts:32](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L32)
 
 ___
 
@@ -265,7 +276,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:30](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L30)
+[src/leafer/packages/interface/src/data/IList.ts:33](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L33)
 
 ___
 
@@ -279,7 +290,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:31](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L31)
+[src/leafer/packages/interface/src/data/IList.ts:34](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L34)
 
 ___
 
@@ -293,4 +304,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/data/IList.ts:32](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/data/IList.ts#L32)
+[src/leafer/packages/interface/src/data/IList.ts:35](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/data/IList.ts#L35)

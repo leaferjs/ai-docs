@@ -8,6 +8,7 @@
 - [offset](IPathDataArrow.md#offset)
 - [path](IPathDataArrow.md#path)
 - [dashPath](IPathDataArrow.md#dashpath)
+- [fill](IPathDataArrow.md#fill)
 
 ## Properties
 
@@ -17,7 +18,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:136](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IType.ts#L136)
+[src/ui/packages/interface/src/type/IType.ts:150](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L150)
 
 ___
 
@@ -27,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:137](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IType.ts#L137)
+[src/ui/packages/interface/src/type/IType.ts:151](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L151)
 
 ___
 
@@ -37,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:138](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IType.ts#L138)
+[src/ui/packages/interface/src/type/IType.ts:152](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L152)
 
 ___
 
@@ -47,4 +48,14 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:139](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IType.ts#L139)
+[src/ui/packages/interface/src/type/IType.ts:153](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L153)
+
+___
+
+### fill
+
+• `Optional` **fill**: `boolean`
+
+#### Defined in
+
+[src/ui/packages/interface/src/type/IType.ts:154](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L154)

@@ -12,6 +12,7 @@
 
 - [usePartRender](IRendererConfig.md#usepartrender)
 - [useCellRender](IRendererConfig.md#usecellrender)
+- [ceilPartPixel](IRendererConfig.md#ceilpartpixel)
 - [maxFPS](IRendererConfig.md#maxfps)
 - [fill](IRendererConfig.md#fill)
 
@@ -23,7 +24,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:30](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L30)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:35](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L35)
 
 ___
 
@@ -33,7 +34,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:31](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L31)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:36](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L36)
+
+___
+
+### ceilPartPixel
+
+• `Optional` **ceilPartPixel**: `boolean`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:37](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L37)
 
 ___
 
@@ -43,7 +54,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:32](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L32)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:38](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L38)
 
 ___
 
@@ -53,4 +64,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:33](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L33)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:39](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L39)

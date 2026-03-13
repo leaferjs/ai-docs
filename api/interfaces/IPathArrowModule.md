@@ -5,10 +5,12 @@
 ### Properties
 
 - [list](IPathArrowModule.md#list)
+- [fillList](IPathArrowModule.md#filllist)
 
 ### Methods
 
 - [addArrows](IPathArrowModule.md#addarrows)
+- [updateArrow](IPathArrowModule.md#updatearrow)
 - [register](IPathArrowModule.md#register)
 - [get](IPathArrowModule.md#get)
 
@@ -20,13 +22,44 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPathArrow.ts:6](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPathArrow.ts#L6)
+[src/ui/packages/interface/src/module/IPathArrow.ts:6](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPathArrow.ts#L6)
+
+___
+
+### fillList
+
+• **fillList**: [`IPathDataArrowMap`](IPathDataArrowMap.md)
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPathArrow.ts:7](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPathArrow.ts#L7)
 
 ## Methods
 
 ### addArrows
 
-▸ **addArrows**(`ui`): `void`
+▸ **addArrows**(`ui`, `updateCache?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ui` | [`IUI`](IUI.md) |
+| `updateCache?` | `boolean` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[src/ui/packages/interface/src/module/IPathArrow.ts:8](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPathArrow.ts#L8)
+
+___
+
+### updateArrow
+
+▸ **updateArrow**(`ui`): `void`
 
 #### Parameters
 
@@ -40,13 +73,13 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPathArrow.ts:7](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPathArrow.ts#L7)
+[src/ui/packages/interface/src/module/IPathArrow.ts:9](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPathArrow.ts#L9)
 
 ___
 
 ### register
 
-▸ **register**(`name`, `data`): `void`
+▸ **register**(`name`, `data`, `fillData?`): `void`
 
 #### Parameters
 
@@ -54,6 +87,7 @@ ___
 | :------ | :------ |
 | `name` | `string` |
 | `data` | [`IPathDataArrow`](IPathDataArrow.md) |
+| `fillData?` | [`IPathDataArrow`](IPathDataArrow.md) |
 
 #### Returns
 
@@ -61,7 +95,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPathArrow.ts:8](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPathArrow.ts#L8)
+[src/ui/packages/interface/src/module/IPathArrow.ts:10](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPathArrow.ts#L10)
 
 ___
 
@@ -81,4 +115,4 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/module/IPathArrow.ts:9](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/module/IPathArrow.ts#L9)
+[src/ui/packages/interface/src/module/IPathArrow.ts:11](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/module/IPathArrow.ts#L11)

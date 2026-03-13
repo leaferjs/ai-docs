@@ -4,30 +4,33 @@
 
 ### Properties
 
-- [size](ILeaferImageSliceData.md#size)
-- [columns](ILeaferImageSliceData.md#columns)
+- [width](ILeaferImageSliceData.md#width)
+- [height](ILeaferImageSliceData.md#height)
 - [total](ILeaferImageSliceData.md#total)
+- [columns](ILeaferImageSliceData.md#columns)
+- [size](ILeaferImageSliceData.md#size)
+- [addSize](ILeaferImageSliceData.md#addsize)
 - [list](ILeaferImageSliceData.md#list)
 
 ## Properties
 
-### size
+### width
 
-• **size**: `number`
+• **width**: `number`
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:39](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L39)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:55](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L55)
 
 ___
 
-### columns
+### height
 
-• **columns**: `number`
+• **height**: `number`
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:40](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L40)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:56](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L56)
 
 ___
 
@@ -37,7 +40,37 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:41](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L41)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:58](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L58)
+
+___
+
+### columns
+
+• **columns**: `number`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:59](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L59)
+
+___
+
+### size
+
+• **size**: `number`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:60](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L60)
+
+___
+
+### addSize
+
+• **addSize**: `number`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:61](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L61)
 
 ___
 
@@ -47,4 +80,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:42](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L42)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:63](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L63)

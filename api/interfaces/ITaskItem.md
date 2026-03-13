@@ -13,6 +13,7 @@
 - [isComplete](ITaskItem.md#iscomplete)
 - [isCancel](ITaskItem.md#iscancel)
 - [time](ITaskItem.md#time)
+- [task](ITaskItem.md#task)
 - [canUse](ITaskItem.md#canuse)
 
 ### Methods
@@ -29,7 +30,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:29](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L29)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:29](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L29)
 
 ___
 
@@ -39,7 +40,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:30](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L30)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:30](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L30)
 
 ___
 
@@ -49,7 +50,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:31](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L31)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:31](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L31)
 
 ___
 
@@ -59,7 +60,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:32](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L32)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:32](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L32)
 
 ___
 
@@ -69,7 +70,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:33](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L33)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:33](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L33)
+
+___
+
+### task
+
+• `Optional` **task**: [`IFunction`](IFunction.md)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:34](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L34)
 
 ___
 
@@ -79,7 +90,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:34](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L34)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:35](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L35)
 
 ## Methods
 
@@ -93,7 +104,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:35](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L35)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:36](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L36)
 
 ___
 
@@ -107,7 +118,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:36](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L36)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:37](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L37)
 
 ___
 
@@ -121,4 +132,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/task/ITaskProcessor.ts:37](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/task/ITaskProcessor.ts#L37)
+[src/leafer/packages/interface/src/task/ITaskProcessor.ts:38](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/task/ITaskProcessor.ts#L38)

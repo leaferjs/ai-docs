@@ -41,14 +41,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@2.0.2/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@2.0.3/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@2.0.2/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@2.0.3/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
@@ -87,7 +87,14 @@ type IArrowType =
   | 'diamond' // 菱形箭头
   | 'diamond-line' // 菱形箭头（线性）
   | 'mark' // 标注箭头
+  | IArrowTypeData // 箭头对象
   | string // 自定义箭头
+
+interface IArrowTypeData {
+  type: IArrowType // 箭头类型
+  scale?: number // 箭头大小放大比例，暂时不能设置过大，可能会产生残影
+  rotation?: number // 箭头增量旋转角度
+}
 ```
 
 ## points 模式
@@ -120,13 +127,14 @@ type IArrowType =
 
 注册自定义箭头样式，[查看示例](#注册自定义箭头样式)。
 
-按照线宽为 1 自定义，箭头末端为（0，0），内部会自动处理缩放、旋转角度。
+按照线宽为 1 自定义，想象箭头从左往右摆放，末端为（0，0），内部会自动处理缩放、旋转角度。
 
 ```ts
 interface IPathDataArrow {
   connect?: IPathDataArrowOffset // 箭头与线条的连接点位置
   offset?: IPathDataArrowOffset // 箭头偏移距离，与末端对齐
   path: IPathCommandData // 只支持 M、L、C、Q、O 绘图命令
+  fill?: boolean // v2.0.3 开始支持启用fill箭头，fill箭头的stroke不能为透明颜色值，可以整体设置元素的opacity实现
 }
 
 interface IPathDataArrowOffset {
@@ -532,6 +540,49 @@ const arrow = new Arrow({
 leafer.add(arrow)
 ```
 
+### 箭头大小放大2倍
+
+```ts
+// #箭头样式 [箭头大小放大2倍]
+import { Leafer } from 'leafer-ui'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
+
+const leafer = new Leafer({ view: window })
+
+const arrow = new Arrow({
+    y: 50,
+    stroke: '#32cd79',
+    endArrow: {
+        type: 'triangle',
+        scale: 2, // 箭头大小放大2倍 [!code hl]
+    }
+})
+
+leafer.add(arrow)
+```
+
+### 箭头增量旋转30度
+
+```ts
+// #箭头样式 [箭头增量旋转30度]
+import { Leafer } from 'leafer-ui'
+import { Arrow } from '@leafer-in/arrow' // 导入箭头插件 // [!code hl]
+
+const leafer = new Leafer({ view: window })
+
+const arrow = new Arrow({
+    y: 50,
+    stroke: '#32cd79',
+    strokeWidth: 5,
+    endArrow: {
+        type: 'angle',
+        rotation: 30, // 箭头增量旋转30度 [!code hl]
+    }
+})
+
+leafer.add(arrow)
+```
+
 ### 注册自定义箭头样式
 
 path() 方法创建的 PathCreator 实例，可以像 Canvas 2D API 一样快速 [绘制路径](/reference/path/PathCreator.md)。
@@ -552,7 +603,8 @@ Arrow.registerArrow('custom-arrow', {
         roundJoin: 0.22 // strokeJoin 为 round 时增加的偏移距离（x轴）
     },
     // 路径数据，用线条绘制、拼凑出箭头形状（没有fill)，只用关心箭头从左往右的水平样式，仅支持 M、L、C、Q、O 绘图命令
-    path: path().moveTo(-5, -5).lineTo(0, 0).lineTo(-5, 3).path // = [1, -5, -3, 2, 0, 0, 2, -5, 3] 
+    path: path().moveTo(-5, -5).lineTo(0, 0).lineTo(-5, 3).path, // = [1, -5, -3, 2, 0, 0, 2, -5, 3] 
+    // fill: true // v2.0.3 开始支持启用fill
 })
 
 

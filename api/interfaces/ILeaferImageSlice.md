@@ -7,6 +7,7 @@
 - [view](ILeaferImageSlice.md#view)
 - [bounds](ILeaferImageSlice.md#bounds)
 - [task](ILeaferImageSlice.md#task)
+- [destroyed](ILeaferImageSlice.md#destroyed)
 
 ## Properties
 
@@ -16,7 +17,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:46](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L46)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:67](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L67)
 
 ___
 
@@ -26,7 +27,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:47](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L47)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:68](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L68)
 
 ___
 
@@ -36,4 +37,14 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/image/ILeaferImage.ts:48](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/image/ILeaferImage.ts#L48)
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:69](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L69)
+
+___
+
+### destroyed
+
+• `Optional` **destroyed**: `boolean`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:70](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L70)

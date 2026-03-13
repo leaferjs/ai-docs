@@ -10,12 +10,14 @@
 - [matrix](IRenderOptions.md#matrix)
 - [inCamera](IRenderOptions.md#incamera)
 - [exporting](IRenderOptions.md#exporting)
+- [snapshot](IRenderOptions.md#snapshot)
 - [dimOpacity](IRenderOptions.md#dimopacity)
 - [topList](IRenderOptions.md#toplist)
 - [topRendering](IRenderOptions.md#toprendering)
 - [shape](IRenderOptions.md#shape)
 - [ignoreFill](IRenderOptions.md#ignorefill)
 - [ignoreStroke](IRenderOptions.md#ignorestroke)
+- [ignoreOpacity](IRenderOptions.md#ignoreopacity)
 - [cellList](IRenderOptions.md#celllist)
 
 ## Properties
@@ -26,7 +28,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:10](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L10)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:10](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L10)
 
 ___
 
@@ -36,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:11](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L11)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:11](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L11)
 
 ___
 
@@ -46,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:12](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L12)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:12](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L12)
 
 ___
 
@@ -56,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:13](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L13)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:13](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L13)
 
 ___
 
@@ -66,7 +68,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:14](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L14)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:14](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L14)
 
 ___
 
@@ -76,7 +78,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:15](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L15)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:16](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L16)
+
+___
+
+### snapshot
+
+• `Optional` **snapshot**: `boolean`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:17](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L17)
 
 ___
 
@@ -86,7 +98,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:17](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L17)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:19](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L19)
 
 ___
 
@@ -96,7 +108,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:18](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L18)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:20](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L20)
 
 ___
 
@@ -106,7 +118,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:19](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L19)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:21](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L21)
 
 ___
 
@@ -116,7 +128,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:22](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L22)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:24](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L24)
 
 ___
 
@@ -126,7 +138,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:23](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L23)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:25](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L25)
 
 ___
 
@@ -136,7 +148,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:24](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L24)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:26](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L26)
+
+___
+
+### ignoreOpacity
+
+• `Optional` **ignoreOpacity**: `boolean`
+
+#### Defined in
+
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:28](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L28)
 
 ___
 
@@ -146,4 +168,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/renderer/IRenderer.ts:26](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/renderer/IRenderer.ts#L26)
+[src/leafer/packages/interface/src/renderer/IRenderer.ts:31](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/renderer/IRenderer.ts#L31)

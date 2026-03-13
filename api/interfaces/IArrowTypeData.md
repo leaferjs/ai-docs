@@ -6,6 +6,7 @@
 
 - [type](IArrowTypeData.md#type)
 - [scale](IArrowTypeData.md#scale)
+- [rotation](IArrowTypeData.md#rotation)
 
 ## Properties
 
@@ -15,7 +16,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:127](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IType.ts#L127)
+[src/ui/packages/interface/src/type/IType.ts:140](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L140)
 
 ___
 
@@ -25,4 +26,14 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IType.ts:128](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IType.ts#L128)
+[src/ui/packages/interface/src/type/IType.ts:141](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L141)
+
+___
+
+### rotation
+
+• `Optional` **rotation**: `number`
+
+#### Defined in
+
+[src/ui/packages/interface/src/type/IType.ts:142](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IType.ts#L142)

@@ -1,0 +1,764 @@
+# Interface: ILeaferFilm
+
+## Hierarchy
+
+- [`ILeaferImage`](ILeaferImage.md)
+
+  ↳ **`ILeaferFilm`**
+
+## Implemented by
+
+- [`LeaferFilm`](../classes/LeaferFilm.md)
+
+## Table of contents
+
+### Properties
+
+- [innerId](ILeaferFilm.md#innerid)
+- [url](ILeaferFilm.md#url)
+- [lod](ILeaferFilm.md#lod)
+- [crossOrigin](ILeaferFilm.md#crossorigin)
+- [view](ILeaferFilm.md#view)
+- [width](ILeaferFilm.md#width)
+- [height](ILeaferFilm.md#height)
+- [isSVG](ILeaferFilm.md#issvg)
+- [hasAlphaPixel](ILeaferFilm.md#hasalphapixel)
+- [completed](ILeaferFilm.md#completed)
+- [ready](ILeaferFilm.md#ready)
+- [error](ILeaferFilm.md#error)
+- [loading](ILeaferFilm.md#loading)
+- [isPlacehold](ILeaferFilm.md#isplacehold)
+- [parent](ILeaferFilm.md#parent)
+- [childrenMap](ILeaferFilm.md#childrenmap)
+- [filterKey](ILeaferFilm.md#filterkey)
+- [largeThumb](ILeaferFilm.md#largethumb)
+- [thumb](ILeaferFilm.md#thumb)
+- [levels](ILeaferFilm.md#levels)
+- [levelsRange](ILeaferFilm.md#levelsrange)
+- [minLevel](ILeaferFilm.md#minlevel)
+- [loadId](ILeaferFilm.md#loadid)
+- [progress](ILeaferFilm.md#progress)
+- [use](ILeaferFilm.md#use)
+- [config](ILeaferFilm.md#config)
+
+### Methods
+
+- [load](ILeaferFilm.md#load)
+- [unload](ILeaferFilm.md#unload)
+- [getFull](ILeaferFilm.md#getfull)
+- [getCanvas](ILeaferFilm.md#getcanvas)
+- [getPattern](ILeaferFilm.md#getpattern)
+- [render](ILeaferFilm.md#render)
+- [getLoadUrl](ILeaferFilm.md#getloadurl)
+- [setThumbView](ILeaferFilm.md#setthumbview)
+- [getThumbSize](ILeaferFilm.md#getthumbsize)
+- [getMinLevel](ILeaferFilm.md#getminlevel)
+- [getLevelData](ILeaferFilm.md#getleveldata)
+- [clearLevels](ILeaferFilm.md#clearlevels)
+- [destroyFilter](ILeaferFilm.md#destroyfilter)
+- [destroy](ILeaferFilm.md#destroy)
+
+## Properties
+
+### innerId
+
+• `Readonly` **innerId**: `number`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[innerId](ILeaferImage.md#innerid)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:86](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L86)
+
+___
+
+### url
+
+• `Readonly` **url**: `string`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[url](ILeaferImage.md#url)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:87](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L87)
+
+___
+
+### lod
+
+• `Optional` **lod**: [`IImageLOD`](IImageLOD.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[lod](ILeaferImage.md#lod)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:88](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L88)
+
+___
+
+### crossOrigin
+
+• `Readonly` **crossOrigin**: [`IImageCrossOrigin`](../modules.md#iimagecrossorigin)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[crossOrigin](ILeaferImage.md#crossorigin)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:89](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L89)
+
+___
+
+### view
+
+• **view**: `any`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[view](ILeaferImage.md#view)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:91](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L91)
+
+___
+
+### width
+
+• **width**: `number`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[width](ILeaferImage.md#width)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:92](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L92)
+
+___
+
+### height
+
+• **height**: `number`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[height](ILeaferImage.md#height)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:93](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L93)
+
+___
+
+### isSVG
+
+• **isSVG**: `boolean`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[isSVG](ILeaferImage.md#issvg)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:95](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L95)
+
+___
+
+### hasAlphaPixel
+
+• **hasAlphaPixel**: `boolean`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[hasAlphaPixel](ILeaferImage.md#hasalphapixel)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:96](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L96)
+
+___
+
+### completed
+
+• `Readonly` **completed**: `boolean`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[completed](ILeaferImage.md#completed)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:98](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L98)
+
+___
+
+### ready
+
+• **ready**: `boolean`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[ready](ILeaferImage.md#ready)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:99](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L99)
+
+___
+
+### error
+
+• **error**: [`IObject`](IObject.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[error](ILeaferImage.md#error)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:100](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L100)
+
+___
+
+### loading
+
+• **loading**: `boolean`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[loading](ILeaferImage.md#loading)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:101](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L101)
+
+___
+
+### isPlacehold
+
+• `Optional` **isPlacehold**: `boolean`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[isPlacehold](ILeaferImage.md#isplacehold)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:103](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L103)
+
+___
+
+### parent
+
+• `Optional` **parent**: [`ILeaferImage`](ILeaferImage.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[parent](ILeaferImage.md#parent)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:106](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L106)
+
+___
+
+### childrenMap
+
+• `Optional` **childrenMap**: [`ILeaferImageMap`](ILeaferImageMap.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[childrenMap](ILeaferImage.md#childrenmap)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:107](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L107)
+
+___
+
+### filterKey
+
+• `Optional` **filterKey**: `string`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[filterKey](ILeaferImage.md#filterkey)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:108](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L108)
+
+___
+
+### largeThumb
+
+• `Optional` **largeThumb**: [`ILeaferImageLevel`](ILeaferImageLevel.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[largeThumb](ILeaferImage.md#largethumb)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:111](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L111)
+
+___
+
+### thumb
+
+• `Optional` **thumb**: [`ILeaferImageLevel`](ILeaferImageLevel.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[thumb](ILeaferImage.md#thumb)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:112](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L112)
+
+___
+
+### levels
+
+• `Optional` **levels**: [`ILeaferImageLevel`](ILeaferImageLevel.md)[]
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[levels](ILeaferImage.md#levels)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:113](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L113)
+
+___
+
+### levelsRange
+
+• `Optional` **levelsRange**: [`IRangeSize`](IRangeSize.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[levelsRange](ILeaferImage.md#levelsrange)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:114](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L114)
+
+___
+
+### minLevel
+
+• `Optional` **minLevel**: `number`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[minLevel](ILeaferImage.md#minlevel)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:115](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L115)
+
+___
+
+### loadId
+
+• `Optional` **loadId**: [`ITaskItem`](ITaskItem.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[loadId](ILeaferImage.md#loadid)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:116](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L116)
+
+___
+
+### progress
+
+• `Optional` **progress**: [`IProgressData`](IProgressData.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[progress](ILeaferImage.md#progress)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:118](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L118)
+
+___
+
+### use
+
+• **use**: `number`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[use](ILeaferImage.md#use)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:120](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L120)
+
+___
+
+### config
+
+• **config**: [`ILeaferImageConfig`](ILeaferImageConfig.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[config](ILeaferImage.md#config)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:121](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L121)
+
+## Methods
+
+### load
+
+▸ **load**(`onSuccess?`, `onError?`, `thumbSize?`): `number`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `onSuccess?` | [`ILeaferImageOnLoaded`](ILeaferImageOnLoaded.md) |
+| `onError?` | [`ILeaferImageOnError`](ILeaferImageOnError.md) |
+| `thumbSize?` | [`ISizeData`](ISizeData.md) |
+
+#### Returns
+
+`number`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[load](ILeaferImage.md#load)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:123](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L123)
+
+___
+
+### unload
+
+▸ **unload**(`index`, `stopEvent?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `index` | `number` |
+| `stopEvent?` | `boolean` |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[unload](ILeaferImage.md#unload)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:124](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L124)
+
+___
+
+### getFull
+
+▸ **getFull**(`filters?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `filters?` | [`IObject`](IObject.md) |
+
+#### Returns
+
+`any`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[getFull](ILeaferImage.md#getfull)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:125](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L125)
+
+___
+
+### getCanvas
+
+▸ **getCanvas**(`width`, `height`, `opacity?`, `filters?`, `xGap?`, `yGap?`, `smooth?`, `interlace?`): `any`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `width` | `number` |
+| `height` | `number` |
+| `opacity?` | `number` |
+| `filters?` | [`IObject`](IObject.md) |
+| `xGap?` | `number` |
+| `yGap?` | `number` |
+| `smooth?` | `boolean` |
+| `interlace?` | [`IInterlace`](IInterlace.md) |
+
+#### Returns
+
+`any`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[getCanvas](ILeaferImage.md#getcanvas)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:126](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L126)
+
+___
+
+### getPattern
+
+▸ **getPattern**(`canvas`, `repeat`, `transform?`, `paint?`): `CanvasPattern`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `canvas` | `any` |
+| `repeat` | `string` |
+| `transform?` | [`IMatrixData`](IMatrixData.md) |
+| `paint?` | [`IObject`](IObject.md) |
+
+#### Returns
+
+`CanvasPattern`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[getPattern](ILeaferImage.md#getpattern)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:127](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L127)
+
+___
+
+### render
+
+▸ **render**(`canvas`, `x`, `y`, `width`, `height`, `leaf`, `paint`, `imageScaleX`, `imageScaleY`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `canvas` | `any` |
+| `x` | `number` |
+| `y` | `number` |
+| `width` | `number` |
+| `height` | `number` |
+| `leaf` | [`ILeaf`](ILeaf.md) |
+| `paint` | `any` |
+| `imageScaleX` | `number` |
+| `imageScaleY` | `number` |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[render](ILeaferImage.md#render)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:129](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L129)
+
+___
+
+### getLoadUrl
+
+▸ **getLoadUrl**(`thumbSize?`): `string`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `thumbSize?` | [`ISizeData`](ISizeData.md) |
+
+#### Returns
+
+`string`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[getLoadUrl](ILeaferImage.md#getloadurl)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:131](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L131)
+
+___
+
+### setThumbView
+
+▸ **setThumbView**(`view`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `view` | `number` |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[setThumbView](ILeaferImage.md#setthumbview)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:132](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L132)
+
+___
+
+### getThumbSize
+
+▸ **getThumbSize**(`lod?`): [`ISizeData`](ISizeData.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `lod?` | [`IImageLOD`](IImageLOD.md) |
+
+#### Returns
+
+[`ISizeData`](ISizeData.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[getThumbSize](ILeaferImage.md#getthumbsize)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:133](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L133)
+
+___
+
+### getMinLevel
+
+▸ **getMinLevel**(): `number`
+
+#### Returns
+
+`number`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[getMinLevel](ILeaferImage.md#getminlevel)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:135](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L135)
+
+___
+
+### getLevelData
+
+▸ **getLevelData**(`level`, `width?`, `height?`): [`ILeaferImageLevel`](ILeaferImageLevel.md)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `level` | `number` |
+| `width?` | `number` |
+| `height?` | `number` |
+
+#### Returns
+
+[`ILeaferImageLevel`](ILeaferImageLevel.md)
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[getLevelData](ILeaferImage.md#getleveldata)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:136](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L136)
+
+___
+
+### clearLevels
+
+▸ **clearLevels**(`checkUse?`): `void`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `checkUse?` | `boolean` |
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[clearLevels](ILeaferImage.md#clearlevels)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:137](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L137)
+
+___
+
+### destroyFilter
+
+▸ **destroyFilter**(): `void`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[destroyFilter](ILeaferImage.md#destroyfilter)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:139](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L139)
+
+___
+
+### destroy
+
+▸ **destroy**(): `void`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[ILeaferImage](ILeaferImage.md).[destroy](ILeaferImage.md#destroy)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferImage.ts:140](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferImage.ts#L140)

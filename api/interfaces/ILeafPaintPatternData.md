@@ -7,11 +7,10 @@
 - [scaleX](ILeafPaintPatternData.md#scalex)
 - [scaleY](ILeafPaintPatternData.md#scaley)
 - [gap](ILeafPaintPatternData.md#gap)
-- [opacity](ILeafPaintPatternData.md#opacity)
 - [transform](ILeafPaintPatternData.md#transform)
-- [filters](ILeafPaintPatternData.md#filters)
 - [mode](ILeafPaintPatternData.md#mode)
 - [repeat](ILeafPaintPatternData.md#repeat)
+- [interlace](ILeafPaintPatternData.md#interlace)
 
 ## Properties
 
@@ -21,7 +20,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:31](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L31)
+[src/ui/packages/interface/src/type/IComputedType.ts:35](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L35)
 
 ___
 
@@ -31,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:32](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L32)
+[src/ui/packages/interface/src/type/IComputedType.ts:36](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L36)
 
 ___
 
@@ -41,17 +40,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:33](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L33)
-
-___
-
-### opacity
-
-• `Optional` **opacity**: `number`
-
-#### Defined in
-
-[src/ui/packages/interface/src/type/IComputedType.ts:34](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L34)
+[src/ui/packages/interface/src/type/IComputedType.ts:37](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L37)
 
 ___
 
@@ -61,17 +50,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:35](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L35)
-
-___
-
-### filters
-
-• `Optional` **filters**: [`IImageFilters`](IImageFilters.md)
-
-#### Defined in
-
-[src/ui/packages/interface/src/type/IComputedType.ts:36](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L36)
+[src/ui/packages/interface/src/type/IComputedType.ts:38](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L38)
 
 ___
 
@@ -81,7 +60,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:37](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L37)
+[src/ui/packages/interface/src/type/IComputedType.ts:39](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L39)
 
 ___
 
@@ -91,4 +70,14 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:38](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L38)
+[src/ui/packages/interface/src/type/IComputedType.ts:40](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L40)
+
+___
+
+### interlace
+
+• `Optional` **interlace**: [`IInterlace`](IInterlace.md)
+
+#### Defined in
+
+[src/ui/packages/interface/src/type/IComputedType.ts:41](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L41)

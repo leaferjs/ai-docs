@@ -6,6 +6,7 @@
 
 - [map](IResource.md#map)
 - [tasker](IResource.md#tasker)
+- [queue](IResource.md#queue)
 - [isComplete](IResource.md#iscomplete)
 
 ### Methods
@@ -15,6 +16,8 @@
 - [remove](IResource.md#remove)
 - [setImage](IResource.md#setimage)
 - [loadImage](IResource.md#loadimage)
+- [loadFilm](IResource.md#loadfilm)
+- [loadVideo](IResource.md#loadvideo)
 - [destroy](IResource.md#destroy)
 
 ## Properties
@@ -25,7 +28,7 @@
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:9](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L9)
+[src/leafer/packages/interface/src/file/IResource.ts:11](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L11)
 
 ___
 
@@ -35,7 +38,17 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:10](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L10)
+[src/leafer/packages/interface/src/file/IResource.ts:13](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L13)
+
+___
+
+### queue
+
+• **queue**: [`ITaskProcessor`](ITaskProcessor.md)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/file/IResource.ts:14](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L14)
 
 ___
 
@@ -45,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:11](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L11)
+[src/leafer/packages/interface/src/file/IResource.ts:16](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L16)
 
 ## Methods
 
@@ -66,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:13](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L13)
+[src/leafer/packages/interface/src/file/IResource.ts:18](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L18)
 
 ___
 
@@ -86,7 +99,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:14](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L14)
+[src/leafer/packages/interface/src/file/IResource.ts:19](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L19)
 
 ___
 
@@ -106,7 +119,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:15](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L15)
+[src/leafer/packages/interface/src/file/IResource.ts:20](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L20)
 
 ___
 
@@ -128,7 +141,7 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:17](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L17)
+[src/leafer/packages/interface/src/file/IResource.ts:22](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L22)
 
 ___
 
@@ -149,7 +162,49 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:18](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L18)
+[src/leafer/packages/interface/src/file/IResource.ts:23](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L23)
+
+___
+
+### loadFilm
+
+▸ **loadFilm**(`key`, `format?`): `Promise`\<[`ILeaferFilm`](ILeaferFilm.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `format?` | [`IFilmFileType`](../modules.md#ifilmfiletype) |
+
+#### Returns
+
+`Promise`\<[`ILeaferFilm`](ILeaferFilm.md)\>
+
+#### Defined in
+
+[src/leafer/packages/interface/src/file/IResource.ts:25](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L25)
+
+___
+
+### loadVideo
+
+▸ **loadVideo**(`key`, `format?`): `Promise`\<[`ILeaferVideo`](ILeaferVideo.md)\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `key` | `string` |
+| `format?` | [`IVideoFileType`](../modules.md#ivideofiletype) |
+
+#### Returns
+
+`Promise`\<[`ILeaferVideo`](ILeaferVideo.md)\>
+
+#### Defined in
+
+[src/leafer/packages/interface/src/file/IResource.ts:26](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L26)
 
 ___
 
@@ -163,4 +218,4 @@ ___
 
 #### Defined in
 
-[src/leafer/packages/interface/src/file/IResource.ts:20](https://github.com/leaferjs/leafer/blob/947cdf4c0c2cf45db46a9069fbd714fc504c8c68/packages/interface/src/file/IResource.ts#L20)
+[src/leafer/packages/interface/src/file/IResource.ts:28](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/file/IResource.ts#L28)

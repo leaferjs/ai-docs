@@ -39,13 +39,14 @@
 
 ### constructor
 
-• **new Finder**(`target`): [`Finder`](Finder.md)
+• **new Finder**(`target`, `_config`): [`Finder`](Finder.md)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `target` | [`ILeaf`](../interfaces/ILeaf.md) |
+| `_config` | [`ISelectorConfig`](../interfaces/ISelectorConfig.md) |
 
 #### Returns
 
@@ -53,7 +54,7 @@
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:28](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L28)
+[src/in/packages/find/src/Finder.ts:28](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L28)
 
 ## Properties
 
@@ -63,27 +64,27 @@
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:10](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L10)
+[src/in/packages/find/src/Finder.ts:10](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L10)
 
 ___
 
 ### innerIdMap
 
-• `Protected` **innerIdMap**: [`ILeafMap`](../interfaces/ILeafMap.md) = `{}`
+• `Protected` **innerIdMap**: [`ILeafMap`](../interfaces/ILeafMap.md)
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:12](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L12)
+[src/in/packages/find/src/Finder.ts:12](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L12)
 
 ___
 
 ### idMap
 
-• `Protected` **idMap**: [`ILeafMap`](../interfaces/ILeafMap.md) = `{}`
+• `Protected` **idMap**: [`ILeafMap`](../interfaces/ILeafMap.md)
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:13](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L13)
+[src/in/packages/find/src/Finder.ts:13](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L13)
 
 ___
 
@@ -93,7 +94,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:15](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L15)
+[src/in/packages/find/src/Finder.ts:15](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L15)
 
 ___
 
@@ -113,7 +114,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:17](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L17)
+[src/in/packages/find/src/Finder.ts:17](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L17)
 
 ___
 
@@ -123,7 +124,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:25](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L25)
+[src/in/packages/find/src/Finder.ts:25](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L25)
 
 ## Methods
 
@@ -150,7 +151,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:32](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L32)
+[src/in/packages/find/src/Finder.ts:41](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L41)
 
 ___
 
@@ -175,7 +176,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:62](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L62)
+[src/in/packages/find/src/Finder.ts:71](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L71)
 
 ___
 
@@ -200,7 +201,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:69](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L69)
+[src/in/packages/find/src/Finder.ts:78](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L78)
 
 ___
 
@@ -225,7 +226,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:76](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L76)
+[src/in/packages/find/src/Finder.ts:85](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L85)
 
 ___
 
@@ -250,7 +251,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:80](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L80)
+[src/in/packages/find/src/Finder.ts:89](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L89)
 
 ___
 
@@ -277,7 +278,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:84](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L84)
+[src/in/packages/find/src/Finder.ts:93](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L93)
 
 ___
 
@@ -300,7 +301,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:91](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L91)
+[src/in/packages/find/src/Finder.ts:100](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L100)
 
 ___
 
@@ -320,7 +321,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:109](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L109)
+[src/in/packages/find/src/Finder.ts:118](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L118)
 
 ___
 
@@ -340,7 +341,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:115](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L115)
+[src/in/packages/find/src/Finder.ts:124](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L124)
 
 ___
 
@@ -360,7 +361,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:121](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L121)
+[src/in/packages/find/src/Finder.ts:130](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L130)
 
 ___
 
@@ -374,7 +375,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:129](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L129)
+[src/in/packages/find/src/Finder.ts:138](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L138)
 
 ___
 
@@ -388,7 +389,7 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:136](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L136)
+[src/in/packages/find/src/Finder.ts:145](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L145)
 
 ___
 
@@ -406,4 +407,4 @@ ___
 
 #### Defined in
 
-[src/in/packages/find/src/Finder.ts:141](https://github.com/leaferjs/leafer-in/blob/e026f68b93165a2dd66081870c8cfc9ed8f20007/packages/find/src/Finder.ts#L141)
+[src/in/packages/find/src/Finder.ts:150](https://github.com/leaferjs/leafer-in/blob/bad6df38974c34c13b280ee22983611d4a4b42d1/packages/find/src/Finder.ts#L150)

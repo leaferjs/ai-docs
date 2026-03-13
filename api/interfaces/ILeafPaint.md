@@ -2,14 +2,24 @@
 
 ## Hierarchy
 
-- **`ILeafPaint`**
+- [`IFilmPlayOptions`](IFilmPlayOptions.md)
 
-  ↳ [`ILeafStrokePaint`](ILeafStrokePaint.md)
+  ↳ **`ILeafPaint`**
+
+  ↳↳ [`ILeafStrokePaint`](ILeafStrokePaint.md)
 
 ## Table of contents
 
 ### Properties
 
+- [nowIndex](ILeafPaint.md#nowindex)
+- [pauseIndex](ILeafPaint.md#pauseindex)
+- [loop](ILeafPaint.md#loop)
+- [speed](ILeafPaint.md#speed)
+- [autoplay](ILeafPaint.md#autoplay)
+- [frameTime](ILeafPaint.md#frametime)
+- [frameTimer](ILeafPaint.md#frametimer)
+- [paused](ILeafPaint.md#paused)
 - [type](ILeafPaint.md#type)
 - [style](ILeafPaint.md#style)
 - [strokeStyle](ILeafPaint.md#strokestyle)
@@ -21,11 +31,125 @@
 - [patternId](ILeafPaint.md#patternid)
 - [patternTask](ILeafPaint.md#patterntask)
 - [progressTimer](ILeafPaint.md#progresstimer)
+- [complex](ILeafPaint.md#complex)
 - [isTransparent](ILeafPaint.md#istransparent)
 - [data](ILeafPaint.md#data)
 - [originPaint](ILeafPaint.md#originpaint)
+- [film](ILeafPaint.md#film)
 
 ## Properties
+
+### nowIndex
+
+• `Optional` **nowIndex**: `number`
+
+#### Inherited from
+
+[IFilmPlayOptions](IFilmPlayOptions.md).[nowIndex](IFilmPlayOptions.md#nowindex)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferFilm.ts:52](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferFilm.ts#L52)
+
+___
+
+### pauseIndex
+
+• `Optional` **pauseIndex**: `number`
+
+#### Inherited from
+
+[IFilmPlayOptions](IFilmPlayOptions.md).[pauseIndex](IFilmPlayOptions.md#pauseindex)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferFilm.ts:53](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferFilm.ts#L53)
+
+___
+
+### loop
+
+• `Optional` **loop**: `number`
+
+#### Inherited from
+
+[IFilmPlayOptions](IFilmPlayOptions.md).[loop](IFilmPlayOptions.md#loop)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferFilm.ts:54](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferFilm.ts#L54)
+
+___
+
+### speed
+
+• `Optional` **speed**: `number`
+
+#### Inherited from
+
+[IFilmPlayOptions](IFilmPlayOptions.md).[speed](IFilmPlayOptions.md#speed)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferFilm.ts:55](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferFilm.ts#L55)
+
+___
+
+### autoplay
+
+• `Optional` **autoplay**: `boolean`
+
+#### Inherited from
+
+[IFilmPlayOptions](IFilmPlayOptions.md).[autoplay](IFilmPlayOptions.md#autoplay)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferFilm.ts:56](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferFilm.ts#L56)
+
+___
+
+### frameTime
+
+• `Optional` **frameTime**: `number`
+
+#### Inherited from
+
+[IFilmPlayOptions](IFilmPlayOptions.md).[frameTime](IFilmPlayOptions.md#frametime)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferFilm.ts:60](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferFilm.ts#L60)
+
+___
+
+### frameTimer
+
+• `Optional` **frameTimer**: `any`
+
+#### Inherited from
+
+[IFilmPlayOptions](IFilmPlayOptions.md).[frameTimer](IFilmPlayOptions.md#frametimer)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferFilm.ts:61](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferFilm.ts#L61)
+
+___
+
+### paused
+
+• `Optional` **paused**: `boolean`
+
+#### Inherited from
+
+[IFilmPlayOptions](IFilmPlayOptions.md).[paused](IFilmPlayOptions.md#paused)
+
+#### Defined in
+
+[src/leafer/packages/interface/src/image/ILeaferFilm.ts:62](https://github.com/leaferjs/leafer/blob/2dd3aed10b347ac75f7a82b60063601188ec448b/packages/interface/src/image/ILeaferFilm.ts#L62)
+
+___
 
 ### type
 
@@ -33,7 +157,7 @@
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:11](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L11)
+[src/ui/packages/interface/src/type/IComputedType.ts:11](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L11)
 
 ___
 
@@ -43,7 +167,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:12](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L12)
+[src/ui/packages/interface/src/type/IComputedType.ts:12](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L12)
 
 ___
 
@@ -53,7 +177,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:13](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L13)
+[src/ui/packages/interface/src/type/IComputedType.ts:13](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L13)
 
 ___
 
@@ -63,7 +187,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:14](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L14)
+[src/ui/packages/interface/src/type/IComputedType.ts:14](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L14)
 
 ___
 
@@ -73,7 +197,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:15](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L15)
+[src/ui/packages/interface/src/type/IComputedType.ts:15](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L15)
 
 ___
 
@@ -83,7 +207,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:17](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L17)
+[src/ui/packages/interface/src/type/IComputedType.ts:17](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L17)
 
 ___
 
@@ -93,7 +217,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:18](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L18)
+[src/ui/packages/interface/src/type/IComputedType.ts:18](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L18)
 
 ___
 
@@ -103,17 +227,17 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:20](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L20)
+[src/ui/packages/interface/src/type/IComputedType.ts:20](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L20)
 
 ___
 
 ### patternId
 
-• `Optional` **patternId**: `string`
+• `Optional` **patternId**: `string` \| `number`
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:21](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L21)
+[src/ui/packages/interface/src/type/IComputedType.ts:21](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L21)
 
 ___
 
@@ -123,7 +247,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:22](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L22)
+[src/ui/packages/interface/src/type/IComputedType.ts:22](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L22)
 
 ___
 
@@ -133,7 +257,17 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:23](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L23)
+[src/ui/packages/interface/src/type/IComputedType.ts:23](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L23)
+
+___
+
+### complex
+
+• `Optional` **complex**: `boolean` \| ``2``
+
+#### Defined in
+
+[src/ui/packages/interface/src/type/IComputedType.ts:25](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L25)
 
 ___
 
@@ -143,7 +277,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:25](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L25)
+[src/ui/packages/interface/src/type/IComputedType.ts:27](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L27)
 
 ___
 
@@ -153,7 +287,7 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:26](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L26)
+[src/ui/packages/interface/src/type/IComputedType.ts:28](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L28)
 
 ___
 
@@ -163,4 +297,14 @@ ___
 
 #### Defined in
 
-[src/ui/packages/interface/src/type/IComputedType.ts:27](https://github.com/leaferjs/leafer-ui/blob/0b47d9bb3ce3043816b290a732c28d937f45e12e/packages/interface/src/type/IComputedType.ts#L27)
+[src/ui/packages/interface/src/type/IComputedType.ts:29](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L29)
+
+___
+
+### film
+
+• `Optional` **film**: `boolean`
+
+#### Defined in
+
+[src/ui/packages/interface/src/type/IComputedType.ts:31](https://github.com/leaferjs/leafer-ui/blob/9d7de1104c165457fe25d60dc1beec0b12eed985/packages/interface/src/type/IComputedType.ts#L31)

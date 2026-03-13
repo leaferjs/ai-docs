@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@2.0.2/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@2.0.2/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@2.0.3/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@2.0.3/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@2.0.2/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@2.0.2/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@2.0.3/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@2.0.3/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -604,7 +604,7 @@ app.tree.add(Frame.one({ // 背景为透明方格的画板
         type: 'image',
         url: svg,
         mode: 'repeat',
-        scaleFixed: true // 固定平铺图比例，不随画布缩放  //[!code hl]
+        scaleFixed: 'zoom-in' // true // 固定平铺图比例，不随画布缩放  //[!code hl]
     },
     shadow: {
         x: 0,
