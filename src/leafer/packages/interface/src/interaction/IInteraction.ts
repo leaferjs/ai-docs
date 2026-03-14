@@ -1,0 +1,186 @@
+import { INumberFunction, IPointDataFunction } from '../function/IFunction'
+import { IPointerEvent, IMoveEvent, IZoomEvent, IRotateEvent, IUIEvent, IKeyEvent } from '../event/IUIEvent'
+import { ILeaf, ICursorType } from '../display/ILeaf'
+import { ILeafList } from '../data/IList'
+import { IClientPointData, IPointData } from '../math/IMath'
+import { ISelector, IPickOptions, IPickBottom } from '../selector/ISelector'
+import { IBounds } from '../math/IMath'
+import { IControl } from '../control/IControl'
+import { IKeepTouchData } from '../event/IEvent'
+import { ILeaferCanvas } from '../canvas/ILeaferCanvas'
+import { IFourNumber, IObject } from '../data/IData'
+
+
+export interface IInteraction extends IControl {
+    target: ILeaf
+    canvas: IInteractionCanvas
+    selector: ISelector
+
+    running: boolean
+
+    readonly dragging: boolean
+    readonly transforming: boolean
+
+    readonly moveMode: boolean
+    readonly canHover: boolean
+
+    readonly isDragEmpty: boolean
+    readonly isMobileDragEmpty: boolean
+    readonly isHoldMiddleKey: boolean
+    readonly isHoldRightKey: boolean
+    readonly isHoldSpaceKey: boolean
+
+    config: IInteractionConfig
+    readonly m: IMoveConfig
+    readonly p: IPointerConfig
+
+    cursor: ICursorType | ICursorType[]
+    readonly hitRadius: number
+
+    bottomList?: IPickBottom[] // 底部可拾取的虚拟元素
+
+    shrinkCanvasBounds: IBounds
+
+    downData: IPointerEvent
+    hoverData: IPointerEvent
+    downTime: number
+    focusData: ILeaf
+
+    receive(event: any): void
+
+    pointerDown(data?: IPointerEvent, defaultPath?: boolean): void
+    pointerMove(data?: IPointerEvent): void
+    pointerMoveReal(data: IPointerEvent): void
+    pointerUp(data?: IPointerEvent): void
+    pointerCancel(): void
+
+    multiTouch(data: IUIEvent, list: IKeepTouchData[]): void
+
+    menu(data: IPointerEvent): void
+    menuTap(data: IPointerEvent): void
+
+    move(data: IMoveEvent): void
+    zoom(data: IZoomEvent): void
+    rotate(data: IRotateEvent): void
+
+    keyDown(data: IKeyEvent): void
+    keyUp(data: IKeyEvent): void
+
+    findPath(data: IPointerEvent, options?: IPickOptions): ILeafList
+    isRootPath(data: IPointerEvent): boolean
+    isTreePath(data: IPointerEvent): boolean
+    canMove(data: IPointerEvent): boolean
+
+    isDrag(leaf: ILeaf): boolean
+    isPress(leaf: ILeaf): boolean
+    isHover(leaf: ILeaf): boolean
+    isFocus(leaf: ILeaf): boolean
+
+    cancelHover(): void
+    stopDragAnimate(): void
+
+    updateDownData(data?: IPointerEvent, options?: IPickOptions, merge?: boolean): void
+    updateHoverData(data: IPointerEvent): void
+
+    updateCursor(hoverData?: IPointerEvent): void
+    setCursor(cursor: ICursorType | ICursorType[]): void
+
+    getLocal(clientPoint: IClientPointData, updateClient?: boolean): IPointData
+
+    emit(type: string, data: IUIEvent, path?: ILeafList, excludePath?: ILeafList): void
+}
+
+export interface IInteractionCanvas extends ILeaferCanvas {
+
+}
+
+export interface IInteractionConfig {
+    wheel?: IWheelConfig
+    pointer?: IPointerConfig
+    touch?: ITouchConfig
+    multiTouch?: IMultiTouchConfig
+    zoom?: IZoomConfig
+    move?: IMoveConfig
+    eventer?: IObject
+    cursor?: boolean
+    keyEvent?: boolean
+}
+
+export interface IZoomConfig {
+    disabled?: boolean
+    min?: number
+    max?: number
+}
+
+export interface IMoveConfig {
+    disabled?: boolean
+    holdSpaceKey?: boolean
+    holdMiddleKey?: boolean
+    holdRightKey?: boolean
+    scroll?: boolean | 'x' | 'y' | 'limit' | 'x-limit' | 'y-limit'
+    scrollSpread?: IFourNumber
+    drag?: boolean | 'auto'
+    dragAnimate?: boolean | number
+    dragEmpty?: boolean
+    dragOut?: boolean | number
+    autoDistance?: number
+}
+
+export interface IWheelConfig {
+    disabled?: boolean
+    zoomMode?: boolean | 'mouse'
+    zoomSpeed?: number // 取值范围 0 ～ 1, 默认0.5
+    moveSpeed?: number
+    rotateSpeed?: number // 取值范围 0 ～ 1, 默认0.5
+    delta?: IPointData  // 以chrome为基准, 鼠标滚动一格的距离
+    posDeltaSpeed?: number // 正数delta的滚动速度，可设为负数进行反向delta
+    negDeltaSpeed?: number // 负数delta的滚动速度，可设为负数进行反向delta
+    getScale?: INumberFunction
+    getMove?: IPointDataFunction
+    preventDefault?: boolean
+}
+
+export interface IPointerConfig {
+    type?: 'mouse' | 'pointer' | 'touch'
+    snap?: boolean // 交互操作坐标是否对齐屏幕像素，避免出现小数
+
+    hitRadius?: number
+    through?: boolean
+    tapMore?: boolean
+    tapTime?: number
+    longPressTime?: number
+    transformTime?: number
+
+    // mobile
+    hover?: boolean
+    touch?: boolean // 使用touch事件代替pointer事件
+
+    dragLimitAnimate?: boolean | number //拖拽限制可在拖拽结束时进行动画归位
+    dragHover?: boolean
+    dragDistance?: number
+    swipeDistance?: number
+    ignoreMove?: boolean // 性能优化字段, 控制move事件触发次数
+    preventDefault?: boolean
+    preventDefaultMenu?: boolean
+}
+
+export interface ITouchConfig {
+    preventDefault?: boolean | 'auto'
+}
+
+export interface IMultiTouchConfig {
+    disabled?: boolean
+    singleGesture?: boolean | ISingleGestureConfig  // 是否单一手势，默认为多个
+}
+
+export interface ISingleGestureConfig {
+    move?: number, // 识别移动的阈值，默认为 5
+    scale?: number, // 识别缩放的阈值，默认为 0.03
+    rotation?: number, // 识别旋转的阈值，默认为 2度
+    count?: number // 连续识别几次锁定手势类型，默认为 2次
+    time?: number // 最长手势类型识别时间，默认为 160ms
+}
+
+export interface ICursorConfig {
+    stop?: boolean
+}

@@ -1,0 +1,101 @@
+export * from '@leafer/core'
+
+export * from '@leafer/canvas-web'
+export * from '@leafer/image-web'
+
+import { ICreator, IFunction, IExportImageType, IExportFileType, IResponseType, IObject, ICanvasType, IImageCrossOrigin, ILeaferImage } from '@leafer/interface'
+import { Platform, Creator, FileHelper, defineKey } from '@leafer/core'
+
+import { LeaferCanvas } from '@leafer/canvas-web'
+import { LeaferImage } from '@leafer/image-web'
+
+
+Object.assign(Creator, {
+    canvas: (options?, manager?) => new LeaferCanvas(options, manager),
+    image: (options) => new LeaferImage(options)
+} as ICreator)
+
+
+export function useCanvas(_canvasType: ICanvasType, _power?: IObject): void {
+    Platform.origin = {
+        createCanvas(width: number, height: number): HTMLCanvasElement {
+            const canvas = document.createElement('canvas')
+            canvas.width = width
+            canvas.height = height
+            return canvas
+        },
+        canvasToDataURL: (canvas: HTMLCanvasElement, type?: IExportImageType, quality?: number) => {
+            const imageType = FileHelper.mimeType(type), url = canvas.toDataURL(imageType, quality)
+            return imageType === 'image/bmp' ? url.replace('image/png;', 'image/bmp;') : url
+        },
+        canvasToBolb: (canvas: HTMLCanvasElement, type?: IExportFileType, quality?: number) => new Promise((resolve) => canvas.toBlob(resolve, FileHelper.mimeType(type), quality)),
+        canvasSaveAs: (canvas: HTMLCanvasElement, filename: string, quality?: any) => {
+            const url = canvas.toDataURL(FileHelper.mimeType(FileHelper.fileType(filename)), quality)
+            return Platform.origin.download(url, filename)
+        },
+        async download(url: string, filename: string): Promise<void> {
+            let el = document.createElement('a')
+            el.href = url
+            el.download = filename
+            document.body.appendChild(el)
+            el.click()
+            document.body.removeChild(el)
+        },
+        loadImage(src: any, crossOrigin?: IImageCrossOrigin, _leaferImage?: ILeaferImage): Promise<HTMLImageElement> {
+            return new Promise((resolve, reject) => {
+                const img = new Platform.origin.Image()
+                if (crossOrigin) {
+                    img.setAttribute('crossOrigin', crossOrigin)
+                    img.crossOrigin = crossOrigin
+                }
+                img.onload = () => { resolve(img) }
+                img.onerror = (e: any) => { reject(e) }
+                img.src = Platform.image.getRealURL(src)
+            })
+        },
+        async loadContent(url: string, responseType: IResponseType = 'text'): Promise<any> {
+            const response = await fetch(url)
+            if (!response.ok) throw new Error(`${response.status}`)
+            return await response[responseType]()
+        },
+        Image,
+        PointerEvent,
+        DragEvent
+    }
+
+    Platform.event = {
+        stopDefault(origin: Event): void { origin.preventDefault() },
+        stopNow(origin: Event): void { origin.stopImmediatePropagation() },
+        stop(origin: Event): void { origin.stopPropagation() }
+    }
+
+    Platform.canvas = Creator.canvas()
+    Platform.conicGradientSupport = !!Platform.canvas.context.createConicGradient
+}
+
+Platform.name = 'web'
+Platform.isMobile = 'ontouchstart' in window
+Platform.requestRender = function (render: IFunction): void { window.requestAnimationFrame(render) }
+defineKey(Platform, 'devicePixelRatio', { get() { return devicePixelRatio } })
+
+
+// same as worker
+
+const { userAgent } = navigator
+
+if (userAgent.indexOf("Firefox") > -1) {
+    Platform.conicGradientRotate90 = true
+    Platform.intWheelDeltaY = true
+    Platform.syncDomFont = true
+} else if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (/Macintosh/.test(navigator.userAgent) && /Version\/[\d.]+.*Safari/.test(navigator.userAgent))) {
+    Platform.fullImageShadow = true // 苹果内核渲染阴影
+}
+
+if (userAgent.indexOf('Windows') > -1) {
+    Platform.os = 'Windows'
+    Platform.intWheelDeltaY = true
+} else if (userAgent.indexOf('Mac') > -1) {
+    Platform.os = 'Mac'
+} else if (userAgent.indexOf('Linux') > -1) {
+    Platform.os = 'Linux'
+}

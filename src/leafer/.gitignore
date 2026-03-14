@@ -1,0 +1,13 @@
+dist
+lib
+types
+node_modules
+
+.DS_Store
+
+.idea
+.vscode
+
+.eslintcache
+*.tsbuildinfo
+*.log

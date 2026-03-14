@@ -1,0 +1,59 @@
+import { IObject, IFunction } from '@leafer/interface'
+import { Debug } from '@leafer/debug'
+import { getDescriptor, getNames } from './object'
+
+interface IRewriteItem {
+    name: string
+    run: IFunction
+}
+
+const debug = new Debug('rewrite')
+
+const list: IRewriteItem[] = []
+const excludeNames = ['destroy', 'constructor']
+
+
+// method
+
+export function rewrite(method: IFunction) {
+    return (target: IObject, key: string) => {
+        list.push({ name: target.constructor.name + '.' + key, run: () => { target[key] = method } })
+    }
+}
+
+export function rewriteAble() {
+    return (_target: IObject) => {
+        doRewrite()
+    }
+}
+
+function doRewrite(error?: boolean): void {
+    if (list.length) {
+        list.forEach(item => {
+            if (error) debug.error(item.name, '需在Class上装饰@rewriteAble()')
+            item.run()
+        })
+        list.length = 0
+    }
+}
+
+setTimeout(() => doRewrite(true))
+
+
+// class
+
+export function useModule(module: IObject, exclude?: string[]) {
+    return (target: IObject) => {
+        const names = module.prototype ? getNames(module.prototype) : Object.keys(module)
+        names.forEach(name => {
+            if (!excludeNames.includes(name) && (!exclude || !exclude.includes(name))) {
+                if (module.prototype) {
+                    const d = getDescriptor(module.prototype, name)
+                    if (d.writable) target.prototype[name] = module.prototype[name]
+                } else {
+                    target.prototype[name] = module[name]
+                }
+            }
+        })
+    }
+}
