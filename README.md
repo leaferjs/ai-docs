@@ -1,4 +1,4 @@
-# LeaferJS AI 知识库
+# Leafer AI
 
 本仓库为 AI 系统提供 LeaferJS 使用示例和文档，便于生成和理解代码。  
 包含示例、教程、API 参考、插件文档及源码。
