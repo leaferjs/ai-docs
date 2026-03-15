@@ -53,7 +53,7 @@ bun add @leafer-in/state
 按钮交互效果
 
 ```ts
-// #交互状态 [按钮效果]
+// #交互状态 [按钮效果 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
 

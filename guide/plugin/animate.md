@@ -18,7 +18,7 @@ import Case from '/component/Case.vue'
 <case name="AnimatePage" editor=false></case>
 
 ```ts
-// #动画样式 [入场和出场动画]
+// #动画样式 [入场和出场动画 (Leafer)]
 import { Group, Leafer, Frame } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
@@ -63,7 +63,7 @@ setInterval(() => {
 <case name="AnimateColor" editor=false></case>
 
 ```ts
-// #动画样式 [颜色过渡]
+// #动画样式 [颜色过渡 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
@@ -86,7 +86,7 @@ leafer.add(rect)
 <case name="AnimateFrames" editor=false></case>
 
 ```ts
-// #动画样式 [关键帧动画]
+// #动画样式 [关键帧动画 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 

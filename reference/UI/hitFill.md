@@ -34,8 +34,9 @@ type IHitType =
 
 拖动矩形试一试。
 
+::: code-group
 ```ts
-// #交互功能 [不可见的 fill 也能响应交互]
+// #交互功能 [不可见的 fill 也能响应交互 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -54,3 +55,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #交互功能 [不可见的 fill 也能响应交互 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: {
+        type: 'linear',
+        stops: [{ offset: 0, color: '#FF4B4B' }, { offset: 1, color: '#FEB027' }]
+    },
+    strokeWidth: 10,
+    draggable: true,
+    hitFill: 'all' // [!code hl] // 不可见的 fill 也能响应交互
+})
+
+app.tree.add(rect)
+```
+:::

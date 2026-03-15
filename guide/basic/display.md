@@ -64,7 +64,7 @@ leafer.add({ // [!code hl:8]
 了解 JSON 数据 [导入导出](/reference/UI/json.md)。
 
 ```ts
-// #创建元素 [使用 JSON]
+// #创建元素 [使用 JSON (Leafer)]
 import { Leafer } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

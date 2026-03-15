@@ -28,8 +28,9 @@ rect.flip('x', 2) // 过渡 2 秒
 
 ### 按 X 轴镜像元素
 
+::: code-group
 ```ts
-// #通过 flip() 镜像元素 [无动画过渡]
+// #通过 flip() 镜像元素 [无动画过渡 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -45,11 +46,32 @@ setTimeout(() => {
 
 }, 1000)
 ```
+```ts
+// #通过 flip() 镜像元素 [无动画过渡 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = Rect.one({ fill: '#32cd79' })
+
+app.tree.add(rect)
+
+setTimeout(() => {
+
+    // 按 X 轴镜像元素
+    rect.flip('x') // [!code hl]
+
+}, 1000)
+```
+:::
 
 ### 按 X 轴镜像元素，有动画过渡
 
+::: code-group
 ```ts
-// #通过 flip() 镜像元素 [有动画过渡]
+// #通过 flip() 镜像元素 [有动画过渡 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
@@ -66,3 +88,25 @@ setTimeout(() => {
 
 }, 1000)
 ```
+```ts
+// #通过 flip() 镜像元素 [有动画过渡 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
+
+const app = new App({ view: window, editor: {} })
+
+const rect = Rect.one({ fill: '#32cd79' })
+
+app.tree.add(rect)
+
+setTimeout(() => {
+
+    // 按 X 轴镜像元素
+    rect.flip('x', true) // [!code hl]
+
+}, 1000)
+```
+:::

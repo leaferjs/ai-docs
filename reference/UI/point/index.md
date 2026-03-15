@@ -94,7 +94,7 @@
 ### 世界坐标转内部坐标
 
 ```ts
-// #坐标转换 [世界坐标转内部坐标]
+// #坐标转换 [世界坐标转内部坐标 (Leafer)]
 import { Leafer, Group, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -117,7 +117,7 @@ console.log(innerPoint) // {x: 10, y: 10}
 将 relative 元素假设为世界坐标系，可以实现子级到任意一个父级坐标系之间的转换。
 
 ```ts
-// #坐标转换 [内部坐标转世界坐标]
+// #坐标转换 [内部坐标转世界坐标 (Leafer)]
 import { Leafer, Frame, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -143,7 +143,7 @@ console.log(framePoint) // {x: 100, y: 100} 在 frame 中的坐标
 可以转换移动距离、长度。
 
 ```ts
-// #坐标转换 [世界坐标中的移动距离 转 内部坐标移动距离]
+// #坐标转换 [世界坐标中的移动距离 转 内部坐标移动距离 (Leafer)]
 import { Leafer, Group, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

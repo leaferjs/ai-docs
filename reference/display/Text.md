@@ -498,7 +498,7 @@ app.tree.add(text)
 text 属性传入数字，可支持 count [动画](/guide/plugin/animate.md)，示例中的文本将从 0 到 100 动态变化。
 
 ```ts
-// #动画样式 [文本count动画]
+// #动画样式 [文本count动画 (Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
@@ -519,7 +519,7 @@ leafer.add(text)
 ### 打字机动画
 
 ```ts
-// #动画样式 [打字机动画]
+// #动画样式 [打字机动画 (Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 
@@ -539,7 +539,7 @@ leafer.add(text)
 ### 删除文字动画
 
 ```ts
-// #动画样式 [删除文本动画]
+// #动画样式 [删除文本动画 (Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 

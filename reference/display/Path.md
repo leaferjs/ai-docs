@@ -153,8 +153,9 @@ app.tree.add(path2)
 
 ### 使用画笔绘制
 
+::: code-group
 ```ts
-// #创建 Path [使用 pen 绘制]
+// #创建 Path [使用 pen 绘制 (Leafer)]
 import { Leafer, Path } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -169,11 +170,31 @@ path.windingRule = 'evenodd' // [!code hl:2]
 path.pen.roundRect(0, 0, 100, 100, 30).drawArc(50, 50, 25)
 
 ```
+```ts
+// #创建 Path [使用 pen 绘制 (App)]
+import { App, Path } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const path = new Path({
+    fill: '#32cd79'
+})
+
+app.tree.add(path)
+
+path.windingRule = 'evenodd' // [!code hl:2] 
+path.pen.roundRect(0, 0, 100, 100, 30).drawArc(50, 50, 25)
+
+```
+:::
 
 ### 使用路径数据
 
+::: code-group
 ```ts
-// #创建 Path [使用路径数据]
+// #创建 Path [使用路径数据 (Leafer)]
 import { Leafer, Path } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -187,3 +208,21 @@ const path = new Path({
 leafer.add(path)
 
 ```
+```ts
+// #创建 Path [使用路径数据 (App)]
+import { App, Path } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const path = new Path({
+    windingRule: 'evenodd',  // [!code hl:2] 
+    path: 'X0 0 100 100 30M75 50P50 50 25',
+    fill: '#32cd79'
+})
+
+app.tree.add(path)
+
+```
+:::

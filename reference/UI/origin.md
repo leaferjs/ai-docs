@@ -70,8 +70,9 @@ polygon.setTransform(transform) // 重设 transform，会自动处理 origin 的
 
 ### 设置原点在中心
 
+::: code-group
 ```ts
-// #原点 [设置原点在中心]
+// #原点 [设置原点在中心 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -88,13 +89,35 @@ const rect = new Rect({ // [!code hl:9]
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #原点 [设置原点在中心 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({ // [!code hl:9]
+    x: 25,
+    y: 25,
+    width: 50,
+    height: 50,
+    origin: 'center', // 设置原点在中心
+    draggable: true,
+    fill: '#4DCB71'
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::
 
 <case name="Around" index=1 editor=false></case>
 
 ### 围绕原点缩放 1.5 倍
 
+::: code-group
 ```ts
-// #原点 [围绕原点缩放 1.5 倍]
+// #原点 [围绕原点缩放 1.5 倍 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -112,13 +135,36 @@ const rect = new Rect({
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #原点 [围绕原点缩放 1.5 倍 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    x: 25,
+    y: 25,
+    width: 50,
+    height: 50,
+    origin: 'center', // [!code hl:2]
+    scale: 1.5, // scaleX = scaleY = 1.5
+    draggable: true,
+    fill: '#4DCB71'
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::
 
 <case name="Around" index=2 editor=false></case>
 
 ### 围绕原点旋转 45 度
 
+::: code-group
 ```ts
-// #原点 [围绕原点旋转 45 度]
+// #原点 [围绕原点旋转 45 度 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -136,13 +182,36 @@ const rect = new Rect({
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #原点 [围绕原点旋转 45 度 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    x: 25,
+    y: 25,
+    width: 50,
+    height: 50,
+    origin: 'center', // [!code hl:2]
+    rotation: 45,
+    draggable: true,
+    fill: '#4DCB71'
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::
 
 <case name="Around" index=3 editor=false></case>
 
 ### 围绕原点倾斜 45 度
 
+::: code-group
 ```ts
-// #原点 [围绕原点倾斜 45 度]
+// #原点 [围绕原点倾斜 45 度 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -160,6 +229,28 @@ const rect = new Rect({
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #原点 [围绕原点倾斜 45 度 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    x: 25,
+    y: 25,
+    width: 50,
+    height: 50,
+    origin: 'center', // [!code hl:2]
+    skewX: 45,
+    draggable: true,
+    fill: '#4DCB71'
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::
 
 ## 归属
 

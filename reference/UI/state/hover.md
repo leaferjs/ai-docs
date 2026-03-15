@@ -28,8 +28,9 @@ pointer.enter 状态， 支持添加 [过渡效果](/reference/UI/transition.md)
 
 ### 鼠标移入颜色加深
 
+::: code-group
 ```ts
-// #光标移入时的交互样式
+// #光标移入时的交互样式 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
 
@@ -47,3 +48,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #光标移入时的交互样式 (App)
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: 'rgba(50,205,121, 0.7)',
+    cornerRadius: 30,
+    hoverStyle: { // [!code hl:3] // hover 样式
+        fill: 'rgba(50,205,121, 0.8)'
+    }
+})
+
+app.tree.add(rect)
+```
+:::

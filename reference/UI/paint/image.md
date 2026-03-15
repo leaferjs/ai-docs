@@ -298,8 +298,9 @@ Platform.image.crossOrigin = null
 
 ### cover 覆盖模式
 
+::: code-group
 ```ts
-// #图案填充 [默认 cover 覆盖模式]
+// #图案填充 [默认 cover 覆盖模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -316,13 +317,35 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案填充 [默认 cover 覆盖模式 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:4]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        // mode: 'cover' // 默认模式，相当于 CSS 的 background-size: cover
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="ImageFill" index=1 editor=false></case>
 
 ### cover 覆盖模式旋转 90 度
 
+::: code-group
 ```ts
-// #图案填充 [cover 覆盖模式旋转 90 度]
+// #图案填充 [cover 覆盖模式旋转 90 度 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -339,13 +362,35 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案填充 [cover 覆盖模式旋转 90 度 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:5]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        rotation: 90
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="ImageFill" index=2 editor=false></case>
 
 ### fit 适应模式
 
+::: code-group
 ```ts
-// #图案填充 [fit 适应模式]
+// #图案填充 [fit 适应模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -362,13 +407,35 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案填充 [fit 适应模式 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:5]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        mode: 'fit' // 相当于 CSS 的 background-size: contain
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="ImageFill" index=3 editor=false></case>
 
 ### stretch 拉伸模式
 
+::: code-group
 ```ts
-// #图案填充 [stretch 拉伸模式]
+// #图案填充 [stretch 拉伸模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -385,13 +452,35 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案填充 [stretch 拉伸模式 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 120,
+    fill: {  // [!code hl:5]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        mode: 'stretch'
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="ImageFill" index=4 editor=false></case>
 
 ### clip 裁剪模式
 
+::: code-group
 ```ts
-// #图案填充 [clip 裁剪模式]
+// #图案填充 [clip 裁剪模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -411,13 +500,38 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案填充 [clip 裁剪模式 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:7]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        mode: 'clip',
+        offset: { x: -40, y: -90 },
+        scale: { x: 1.1, y: 1.1 },
+        rotation: 20
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="ImageFill" index=5 editor=false></case>
 
 ### repeat 平铺模式
 
+::: code-group
 ```ts
-// #图案填充 [repeat 平铺模式]
+// #图案填充 [repeat 平铺模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -435,13 +549,36 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案填充 [repeat 平铺模式 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:6]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        mode: 'repeat', // 相当于 CSS 的 background-repeat: repeat
+        scale: 0.2
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="ImageFill" index=6 editor=false></case>
 
 ### repeat 平铺模式旋转 90 度
 
+::: code-group
 ```ts
-// #图案填充 [repeat 平铺模式旋转 90 度]
+// #图案填充 [repeat 平铺模式旋转 90 度 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -460,6 +597,29 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案填充 [repeat 平铺模式旋转 90 度 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:7]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        mode: 'repeat',
+        scale: 0.2,
+        rotation: 90
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 ### repeat 平铺模式不随画布缩放
 

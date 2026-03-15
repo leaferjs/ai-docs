@@ -69,7 +69,7 @@ interface IImageCursor {
 可以通过 Cursor.set() 替换系统光标名，或注册自定义光标名。
 
 ```ts
-// #光标样式 [覆盖系统光标]
+// #光标样式 [覆盖系统光标 (Leafer)]
 import { Cursor } from 'leafer-ui'
 
 Cursor.set('pointer', { url: 'https://leaferjs.com/image/cursor.svg' }) // 替换pointer光标
@@ -95,8 +95,9 @@ Leafer 支持手动强制更新光标样式 [updateCursor()](/reference/display/
 
 ### 设置光标
 
+::: code-group
 ```ts
-// #光标样式 [设置光标]
+// #光标样式 [设置光标 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -112,6 +113,26 @@ const polygon = new Polygon({
 
 leafer.add(polygon)
 ```
+```ts
+// #光标样式 [设置光标 (App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({
+    width: 100,
+    height: 100,
+    points: [10, 90, 10, 10, 50, 70, 90, 10, 90, 90, 90, 90, 10, 90],
+    curve: true,
+    fill: '#32cd79',
+    cursor: 'no-drop' // [!code hl]
+})
+
+app.tree.add(polygon)
+```
+:::
 
 <case name="Cursor" index=5 editor=false></case>
 
@@ -119,8 +140,9 @@ leafer.add(polygon)
 
 支持 png、 svg 格式的图片, 偏移距离 x、y 为可选字段。
 
+::: code-group
 ```ts
-// #光标样式 [设置图片光标]
+// #光标样式 [设置图片光标 (Leafer)]
 import { Leafer, Polygon } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -136,3 +158,23 @@ const polygon = new Polygon({
 
 leafer.add(polygon)
 ```
+```ts
+// #光标样式 [设置图片光标 (App)]
+import { App, Polygon } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const polygon = new Polygon({
+    width: 100,
+    height: 100,
+    points: [0, 90, 20, 60, 40, 80, 60, 40, 75, 50, 90, 10, 100, 90, 100, 90, 0, 90],
+    curve: true,
+    fill: '#32cd79',
+    cursor: { url: 'https://leaferjs.com/image/cursor.svg', x: 2, y: 2 } // [!code hl]
+})
+
+app.tree.add(polygon)
+```
+:::

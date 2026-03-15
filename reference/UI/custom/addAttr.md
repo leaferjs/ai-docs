@@ -38,8 +38,9 @@
 
 ### 为文本新增一个 float 属性
 
+::: code-group
 ```ts
-// #新增元素属性 [为文本新增一个 float 属性]
+// #新增元素属性 [为文本新增一个 float 属性 (Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -60,11 +61,37 @@ const text2 = new Text({ float: 'right' } as any)
 
 console.log((text2 as any).float) // right
 ```
+```ts
+// #新增元素属性 [为文本新增一个 float 属性 (App)]
+import { App, Text } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+Text.addAttr('float', 'left')  //  [!code hl]
+
+// default float
+
+const text = new Text({ text: 'Welcome to AppJS' })
+
+app.tree.add(text)
+
+console.log((text as any).float) // left
+
+// set float
+
+const text2 = new Text({ float: 'right' } as any)
+
+console.log((text2 as any).float) // right
+```
+:::
 
 ### 为文本新增一个可变的 float 属性
 
+::: code-group
 ```ts
-// #新增元素属性 [为文本新增一个可变 float 属性]
+// #新增元素属性 [为文本新增一个可变 float 属性 (Leafer)]
 import { Leafer, Text } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -89,11 +116,41 @@ const text2 = new Text({ float: 'right' } as any)
 
 console.log((text2 as any).float) // right
 ```
+```ts
+// #新增元素属性 [为文本新增一个可变 float 属性 (App)]
+import { App, Text } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+Text.addAttr('float', (text: Text) => { return text.width === 200 ? 'center' : 'left' })  //  [!code hl]
+
+// default float
+
+const text = new Text({ text: 'Welcome to AppJS' })
+
+app.tree.add(text)
+
+console.log((text as any).float) // left
+
+text.width = 200
+
+console.log((text as any).float) // right
+
+// set float
+
+const text2 = new Text({ float: 'right' } as any)
+
+console.log((text2 as any).float) // right
+```
+:::
 
 ### 为文本新增一个 dataType 类型的属性
 
+::: code-group
 ```ts
-// #新增元素属性 [为文本新增一个 dataType 类型的属性]
+// #新增元素属性 [为文本新增一个 dataType 类型的属性 (Leafer)]
 import { Leafer, Text, dataType } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -114,3 +171,28 @@ const text2 = new Text({ version: '2.0.3' } as any)
 
 console.log((text2 as any).version) // 2.0.3
 ```
+```ts
+// #新增元素属性 [为文本新增一个 dataType 类型的属性 (App)]
+import { App, Text, dataType } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+Text.addAttr('version', '2.0.3', dataType)  //  [!code hl]
+
+// default version
+
+const text = new Text({ text: 'Welcome to AppJS' })
+
+app.tree.add(text)
+
+console.log((text as any).version) // 2.0.3
+
+// set version
+
+const text2 = new Text({ version: '2.0.3' } as any)
+
+console.log((text2 as any).version) // 2.0.3
+```
+:::

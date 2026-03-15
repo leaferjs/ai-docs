@@ -17,7 +17,7 @@ import Case from '/component/Case.vue'
 <case name="Transition" editor=false></case>
 
 ```ts
-// #过渡效果 [按钮交互]
+// #过渡效果 [按钮交互 (Leafer)]
 import { Leafer, Box } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件 // [!code hl:2] 
 import '@leafer-in/animate' // 导入动画插件  
@@ -60,7 +60,7 @@ leafer.add(box)
 <case name="State" index=0 editor=false></case>
 
 ```ts
-// #自定义状态 [切换状态] 
+// #自定义状态 [切换状态 (Leafer)] 
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
 import '@leafer-in/animate' // 导入动画插件

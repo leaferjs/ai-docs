@@ -78,8 +78,9 @@ polygon.setTransform(transform) // 重设 transform，会自动处理 around 的
 
 ### 围绕坐标(50,50) 为中心进行绘制
 
+::: code-group
 ```ts
-// #around 属性 [围绕坐标 (50,50) 为中心进行绘制]
+// #around 属性 [围绕坐标 (50,50) 为中心进行绘制 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -96,13 +97,35 @@ const rect = new Rect({ // [!code hl:9]
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #around 属性 [围绕坐标 (50,50) 为中心进行绘制 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({ // [!code hl:9]
+    x: 50,
+    y: 50,
+    width: 50,
+    height: 50,
+    around: 'center',
+    fill: '#4DCB71',
+    draggable: true
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::
 
 <case name="Around" index=1 editor=false></case>
 
 ### 围绕坐标(50,50) 为中心缩放 1.5 倍
 
+::: code-group
 ```ts
-// #around 属性 [围绕坐标(50,50) 为中心缩放 1.5 倍]
+// #around 属性 [围绕坐标(50,50) 为中心缩放 1.5 倍 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -120,13 +143,36 @@ const rect = new Rect({
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #around 属性 [围绕坐标(50,50) 为中心缩放 1.5 倍 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    x: 50,
+    y: 50,
+    width: 50,
+    height: 50,
+    around: 'center', // [!code hl:2]
+    scale: 1.5, // scaleX = scaleY = 1.5
+    fill: '#4DCB71',
+    draggable: true
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::
 
 <case name="Around" index=2 editor=false></case>
 
 ### 围绕坐标(50,50) 为中心旋转 45 度
 
+::: code-group
 ```ts
-// #around 属性 [围绕坐标(50,50) 为中心旋转 45 度]
+// #around 属性 [围绕坐标(50,50) 为中心旋转 45 度 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -144,13 +190,36 @@ const rect = new Rect({
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #around 属性 [围绕坐标(50,50) 为中心旋转 45 度 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    x: 50,
+    y: 50,
+    width: 50,
+    height: 50,
+    around: 'center', // [!code hl:2]
+    rotation: 45,
+    fill: '#4DCB71',
+    draggable: true
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::
 
 <case name="Around" index=3 editor=false></case>
 
 ### 围绕坐标(50,50) 为中心倾斜 45 度
 
+::: code-group
 ```ts
-// #around 属性 [围绕坐标(50,50) 为中心倾斜 45 度]
+// #around 属性 [围绕坐标(50,50) 为中心倾斜 45 度 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -168,13 +237,36 @@ const rect = new Rect({
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #around 属性 [围绕坐标(50,50) 为中心倾斜 45 度 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    x: 50,
+    y: 50,
+    width: 50,
+    height: 50,
+    around: 'center', // [!code hl:2]
+    skewX: 45,
+    fill: '#4DCB71',
+    draggable: true
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::
 
 <case name="Around" index=4 editor=false></case>
 
 ### around 坐标点(50,50) 在矩形的右下角
 
+::: code-group
 ```ts
-// #around 属性 [around 坐标点 (50,50) 在矩形的右下角]
+// #around 属性 [around 坐标点 (50,50) 在矩形的右下角 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -191,3 +283,24 @@ const rect = new Rect({
 
 leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
+```ts
+// #around 属性 [around 坐标点 (50,50) 在矩形的右下角 (App)]
+import { App, Rect, Frame } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    x: 50,
+    y: 50,
+    width: 50,
+    height: 50,
+    around: 'bottom-right', // [!code hl]
+    fill: '#4DCB71',
+    draggable: true
+})
+
+app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
+```
+:::

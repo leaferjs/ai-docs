@@ -154,7 +154,7 @@ setTimeout(() => {
 了解 JSON 数据 [导入导出](/reference/UI/json.md)。
 
 ```ts
-// #修改数据 [使用 JSON]
+// #修改数据 [使用 JSON (Leafer)]
 import { Group, Leafer } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -183,7 +183,7 @@ group.set(json)
 <case name="ImageFill" editor=false></case>
 
 ```ts
-// #线性渐变填充 [默认方向]
+// #线性渐变填充 [默认方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -209,7 +209,7 @@ leafer.add(rect)
 <case name="Stroke" editor=false></case>
 
 ```ts
-// #线性渐变描边 [默认方向]
+// #线性渐变描边 [默认方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -266,7 +266,7 @@ leafer.add(rect)
 <case name="Shadow" editor=false></case>
 
 ```ts
-// #外阴影 [drop-shadow]
+// #外阴影 [drop-shadow (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -294,7 +294,7 @@ leafer.add(rect)
 <case name="InnerShadow" editor=false></case>
 
 ```ts
-// #内阴影
+// #内阴影 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -322,7 +322,7 @@ leafer.add(rect)
 <case name="Mask" editor=false></case>
 
 ```ts
-// #遮罩功能 [将圆环设为遮罩]
+// #遮罩功能 [将圆环设为遮罩 (Leafer)]
 import { Leafer, Group, Ellipse, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -355,7 +355,7 @@ group.add([mask, image])   // [!code hl]
 <case name="Eraser" editor=false></case>
 
 ```ts
-// #擦除功能 [将圆环设为橡皮擦]
+// #擦除功能 [将圆环设为橡皮擦 (Leafer)]
 import { Leafer, Group, Ellipse, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -392,7 +392,7 @@ group.add([image, eraser])  // [!code hl]
 元素的可见性，可用于隐藏元素。
 
 ```ts
-// #隐藏元素
+// #隐藏元素 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -416,7 +416,7 @@ setTimeout(() => {
 元素的不透明度。
 
 ```ts
-// #设置不透明度
+// #设置不透明度 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -444,7 +444,7 @@ setTimeout(() => {
 <case name="Around"   editor=false></case>
 
 ```ts
-// #原点 [围绕原点旋转 45 度]
+// #原点 [围绕原点旋转 45 度 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -472,7 +472,7 @@ leafer.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect
 ![围绕中心点绘制](/svg/around.svg?d=0131)
 
 ```ts
-// #around 属性 [围绕坐标(50,50) 为中心旋转 45 度]
+// #around 属性 [围绕坐标(50,50) 为中心旋转 45 度 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

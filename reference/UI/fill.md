@@ -26,8 +26,9 @@ import Case from '/component/Case.vue'
 
 ### 纯色填充
 
+::: code-group
 ```ts
-// #纯色填充
+// #纯色填充 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -43,6 +44,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #纯色填充 (App)
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: { // [!code hl:4]
+        type: 'solid',
+        color: '#32cd79'
+    },
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Fill" index=1 editor=false></case>
 
@@ -50,8 +71,9 @@ leafer.add(rect)
 
 支持 [线性渐变](./paint/linear.md)、[径向渐变](./paint/radial.md)、[角度渐变](./paint/angular.md) 等类型。
 
+::: code-group
 ```ts
-// #线性渐变填充 [默认方向]
+// #线性渐变填充 [默认方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -67,6 +89,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #线性渐变填充 [默认方向 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:4]
+        type: 'linear', // 从顶部居中 -> 底部居中垂直绘制的渐变
+        stops: ['#FF4B4B', '#FEB027']
+    },
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Fill" index=5 editor=false></case>
 
@@ -74,8 +116,9 @@ leafer.add(rect)
 
 [图案填充](./paint/image.md) 支持 覆盖、适应、裁剪、平铺等模式。
 
+::: code-group
 ```ts
-// #图案填充 [默认 cover 覆盖模式]
+// #图案填充 [默认 cover 覆盖模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -92,6 +135,27 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案填充 [默认 cover 覆盖模式 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:4]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        // mode: 'cover' // 默认模式，相当于 CSS 的 background-size: cover
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Fill" index=4  editor=false></case>
 
@@ -99,8 +163,9 @@ leafer.add(rect)
 
 填充的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
 
+::: code-group
 ```ts
-// #多个不同类型的填充叠加 [线性渐变填充 + 图案填充]
+// #多个不同类型的填充叠加 [线性渐变填充 + 图案填充 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -123,3 +188,30 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #多个不同类型的填充叠加 [线性渐变填充 + 图案填充 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: [ // [!code hl:11]
+        {
+            type: 'linear', // 线性渐变填充
+            stops: [{ offset: 0, color: '#FF4B4B' }, { offset: 1, color: '#FEB027' }]
+        },
+        {
+            type: 'image', // 图案填充
+            url: '/image/leafer.jpg',
+            mode: 'cover',
+            opacity: 0.2
+        }]
+})
+
+app.tree.add(rect)
+```
+:::

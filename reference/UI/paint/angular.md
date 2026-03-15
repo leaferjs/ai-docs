@@ -110,8 +110,9 @@ to: {x: 0.5, y: 1} // 底部居中
 
 从中心 -> 底部居中垂直绘制的渐变
 
+::: code-group
 ```ts
-// #角度渐变填充 [默认方向]
+// #角度渐变填充 [默认方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -127,6 +128,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #角度渐变填充 [默认方向 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:4]
+        type: 'angular', // 从中心 -> 底部居中垂直绘制的渐变
+        stops: ['#FF4B4B', '#FEB027', '#79CB4D', '#FF4B4B']
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Angular" index=2 editor=false></case>
 
@@ -134,8 +155,9 @@ leafer.add(rect)
 
 从左上角 -> 中心呈 45 度绘制的渐变。
 
+::: code-group
 ```ts
-// #角度渐变填充 [控制方向]
+// #角度渐变填充 [控制方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -153,6 +175,28 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #角度渐变填充 [控制方向 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:6]
+        type: 'angular', // 从左上角 -> 中心呈 45 度绘制的渐变
+        from: { type: 'percent', x: 0.3, y: 0.3 },
+        to: 'center',
+        stops: [{ offset: 0, color: '#FF4B4B' }, { offset: 0.5, color: '#FEB027' }, { offset: 1, color: '#FF4B4B' }]
+    },
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Angular" index=1 editor=false></case>
 
@@ -160,8 +204,9 @@ leafer.add(rect)
 
 从中心 -> 右下角 呈 45 度, 且拉伸比例为 0.1 绘制的渐变。
 
+::: code-group
 ```ts
-// #角度渐变填充 [拉伸渐变]
+// #角度渐变填充 [拉伸渐变 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -179,6 +224,28 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #角度渐变填充 [拉伸渐变 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:6]
+        type: "angular", // 从中心 -> 右下角 呈 45 度, 且拉伸比例为 0.1 绘制的渐变。
+        stretch: 0.1,
+        to: 'bottom-right',
+        stops: [{ offset: 0, color: '#FF4B4B' }, { offset: 0.3, color: '#FEB027' }, { offset: 0.7, color: '#79CB4D' }, { offset: 1, color: '#FF4B4B' }]
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Angular" index=6 editor=false></case>
 
@@ -188,8 +255,9 @@ leafer.add(rect)
 
 color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 时 opacity 直接生效， 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/index.md) 才能生效， 或直接使用 `rgba(255,75,75,0,5)` 字符串颜色。
 
+::: code-group
 ```ts
-// #角度渐变填充 [设置不透明度]
+// #角度渐变填充 [设置不透明度 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -211,3 +279,29 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #角度渐变填充 [设置不透明度 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:10]
+        type: 'angular',
+        opacity: 0.5,
+        stops: [
+            { offset: 0, color: { r: 255, g: 75, b: 75 } },
+            { offset: 0.3, color: { r: 254, g: 176, b: 39 } },
+            { offset: 0.7, color: { r: 121, g: 203, b: 77 } },
+            { offset: 1, color: { r: 255, g: 75, b: 75 } }
+        ]
+    }
+})
+
+app.tree.add(rect)
+```
+:::

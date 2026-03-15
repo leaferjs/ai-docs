@@ -119,8 +119,9 @@ rect.stroke = [
 
 ### 纯色描边
 
+::: code-group
 ```ts
-// #纯色描边
+// #纯色描边 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -136,6 +137,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #纯色描边 (App)
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: { // [!code hl:4]
+        type: 'solid',
+        color: '#32cd79'
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="GradientStroke" index=0  editor=false></case>
 
@@ -143,8 +164,9 @@ leafer.add(rect)
 
 支持 [线性渐变](./paint/linear.md)、[径向渐变](./paint/radial.md)、[角度渐变](./paint/angular.md) 等类型。
 
+::: code-group
 ```ts
-// #线性渐变描边 [默认方向]
+// #线性渐变描边 [默认方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -160,6 +182,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #线性渐变描边 [默认方向 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: {  // [!code hl:4]
+        type: 'linear',  // 从顶部居中 -> 底部居中垂直绘制的渐变
+        stops: ['#FF4B4B', '#FEB027']
+    },
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="ImageStroke" index=0  editor=false></case>
 
@@ -167,8 +209,9 @@ leafer.add(rect)
 
 [图案描边](./paint/image.md) 支持 覆盖、适应、裁剪、平铺等模式。
 
+::: code-group
 ```ts
-// #图案描边 [默认 cover 覆盖模式]
+// #图案描边 [默认 cover 覆盖模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -185,6 +228,27 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #图案描边 [默认 cover 覆盖模式 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: {  // [!code hl:5]
+        type: 'image',
+        url: '/image/leafer.jpg',
+        // mode: 'cover' // 默认模式，相当于 CSS 的 background-size: cover
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Strokes" index=0  editor=false></case>
 
@@ -192,8 +256,9 @@ leafer.add(rect)
 
 描边的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
 
+::: code-group
 ```ts
-// #多个不同类型的描边叠加 [线性渐变描边 + 图案描边]
+// #多个不同类型的描边叠加 [线性渐变描边 + 图案描边 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -216,13 +281,41 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #多个不同类型的描边叠加 [线性渐变描边 + 图案描边 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: [ // [!code hl:11]
+        {
+            type: 'linear', // 线性渐变描边
+            stops: [{ offset: 0, color: '#FF4B4B' }, { offset: 1, color: '#FEB027' }]
+        },
+        {
+            type: 'image', // 图案描边
+            url: '/image/leafer.jpg',
+            mode: 'cover',
+            opacity: 0.5
+        }]
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Stroke" index=3  editor=false></case>
 
 ### 绘制虚线
 
+::: code-group
 ```ts
-// #虚线描边
+// #虚线描边 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -237,3 +330,22 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #虚线描边 (App)
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    stroke: '#32cd79',
+    strokeWidth: 2,
+    dashPattern: [6, 6] // [!code hl]
+})
+
+app.tree.add(rect)
+```
+:::

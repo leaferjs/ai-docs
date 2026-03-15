@@ -110,8 +110,9 @@ to: {x: 0.5, y: 1} // 底部居中
 
 从中心 -> 底部居中垂直绘制的渐变。
 
+::: code-group
 ```ts
-// #径向渐变填充 [默认方向]
+// #径向渐变填充 [默认方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -127,6 +128,26 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #径向渐变填充 [默认方向 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:4]
+        type: 'radial', // 从中心 -> 底部居中垂直绘制的渐变
+        stops: [{ offset: 0.2, color: '#FF4B4B' }, { offset: 1, color: '#FEB027' }]
+    },
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Radial" index=1 editor=false></case>
 
@@ -134,8 +155,9 @@ leafer.add(rect)
 
 从左上角 -> 右下角呈 45 度绘制的渐变。
 
+::: code-group
 ```ts
-// #径向渐变填充 [控制方向]
+// #径向渐变填充 [控制方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -153,6 +175,28 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #径向渐变填充 [控制方向 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:6]
+        type: 'radial', // 从左上角 -> 右下角呈 45 度绘制的渐变
+        from: { type: 'percent', x: 0.2, y: 0.2 },
+        to: { type: 'percent', x: 0.8, y: 0.8 },
+        stops: ['#FF4B4B', '#FEB027']
+    },
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Radial" index=2 editor=false></case>
 
@@ -160,8 +204,9 @@ leafer.add(rect)
 
 从中心 -> 右下角 呈 45 度, 且拉伸比例为 0.5 绘制的渐变。
 
+::: code-group
 ```ts
-// #径向渐变填充 [拉伸渐变]
+// #径向渐变填充 [拉伸渐变 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -179,6 +224,28 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #径向渐变填充 [拉伸渐变 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:6]
+        type: "radial", // 从中心 -> 右下角 呈 45 度, 且拉伸比例为 0.5 绘制的渐变
+        to: 'bottom-right',
+        stretch: 0.5,
+        stops: [{ offset: 0, color: '#FF4A2C' }, { offset: 1, color: '#FEB027' }]
+    }
+})
+
+app.tree.add(rect)
+```
+:::
 
 <case name="Radial" index=6 editor=false></case>
 
@@ -188,8 +255,9 @@ leafer.add(rect)
 
 color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 时 opacity 直接生效， 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/index.md) 才能生效， 或直接使用 `rgba(255,75,75,0,5)` 字符串颜色。
 
+::: code-group
 ```ts
-// #径向渐变填充 [设置不透明度]
+// #径向渐变填充 [设置不透明度 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })
@@ -209,3 +277,27 @@ const rect = new Rect({
 
 leafer.add(rect)
 ```
+```ts
+// #径向渐变填充 [设置不透明度 (App)]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({ view: window, editor: {} })
+
+const rect = new Rect({
+    width: 100,
+    height: 100,
+    fill: {  // [!code hl:8]
+        type: 'radial',
+        opacity: 0.5,
+        stops: [
+            { offset: 0, color: { r: 255, g: 75, b: 75 } },
+            { offset: 1, color: { r: 254, g: 176, b: 39 } }
+        ]
+    },
+})
+
+app.tree.add(rect)
+```
+:::
