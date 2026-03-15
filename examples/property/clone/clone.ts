@@ -1,4 +1,4 @@
-// #克隆元素
+// #克隆元素 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

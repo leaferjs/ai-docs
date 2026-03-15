@@ -1,4 +1,4 @@
-// #混合模式 [multiply 正片叠底]
+// #混合模式 [multiply 正片叠底 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

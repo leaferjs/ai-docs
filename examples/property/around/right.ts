@@ -1,4 +1,4 @@
-// #around 属性 [around 坐标点 (50,50) 在矩形的右下角]
+// #around 属性 [around 坐标点 (50,50) 在矩形的右下角 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

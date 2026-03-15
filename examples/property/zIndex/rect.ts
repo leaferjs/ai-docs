@@ -1,4 +1,4 @@
-// #调整元素在父元素中的层叠顺序
+// #调整元素在父元素中的层叠顺序 (Leafer)
 import { Leafer, Group, Rect, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

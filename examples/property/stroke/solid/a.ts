@@ -1,4 +1,4 @@
-// #纯色描边
+// #纯色描边 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

@@ -1,4 +1,4 @@
-// #混合模式 [copy 只显示新图形]
+// #混合模式 [copy 只显示新图形 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

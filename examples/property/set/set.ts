@@ -1,4 +1,4 @@
-// #通过 set() 修改属性 [无动画过渡]
+// #通过 set() 修改属性 [无动画过渡 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

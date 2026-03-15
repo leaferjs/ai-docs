@@ -1,4 +1,4 @@
-// #混合模式 [source-in 仅在新形状和目标画布重叠的地方绘制新形状，其他的都是透明的]
+// #混合模式 [source-in 仅在新形状和目标画布重叠的地方绘制新形状，其他的都是透明的 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

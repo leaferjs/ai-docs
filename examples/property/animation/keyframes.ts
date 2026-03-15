@@ -1,4 +1,4 @@
-// #动画样式 [关键帧动画]
+// #动画样式 [关键帧动画 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 

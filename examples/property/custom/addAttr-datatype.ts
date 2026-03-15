@@ -1,4 +1,4 @@
-// #新增元素属性 [为文本新增一个 dataType 类型的属性]
+// #新增元素属性 [为文本新增一个 dataType 类型的属性 (Leafer)]
 import { Leafer, Text, dataType } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

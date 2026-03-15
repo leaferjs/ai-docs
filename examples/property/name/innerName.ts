@@ -1,4 +1,4 @@
-// #显示矩形元素的 innerName
+// #显示矩形元素的 innerName (Leafer)
 import { Leafer, Rect, Text } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

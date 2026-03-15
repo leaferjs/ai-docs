@@ -1,4 +1,4 @@
-// #修改数据 [使用 JSON]
+// #修改数据 [使用 JSON (Leafer)]
 import { Group, Leafer } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

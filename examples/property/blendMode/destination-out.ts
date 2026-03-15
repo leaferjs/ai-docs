@@ -1,4 +1,4 @@
-// #混合模式 [destination-out 仅保留现有画布内容和新形状不重叠的部分]
+// #混合模式 [destination-out 仅保留现有画布内容和新形状不重叠的部分 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

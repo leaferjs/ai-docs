@@ -1,4 +1,4 @@
-// #线性渐变填充 [控制方向]
+// #线性渐变填充 [控制方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

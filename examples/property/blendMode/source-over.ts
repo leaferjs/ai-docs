@@ -1,4 +1,4 @@
-// #混合模式 [source-over 在现有画布上绘制新图形]
+// #混合模式 [source-over 在现有画布上绘制新图形 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

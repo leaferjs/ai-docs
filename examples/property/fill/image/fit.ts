@@ -1,4 +1,4 @@
-// #图案填充 [fit 适应模式]
+// #图案填充 [fit 适应模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

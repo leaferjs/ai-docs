@@ -1,4 +1,4 @@
-// #混合模式 [color 颜色]
+// #混合模式 [color 颜色 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

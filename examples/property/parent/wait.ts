@@ -1,4 +1,4 @@
-// #等待元素被添加到父元素中时，执行回调
+// #等待元素被添加到父元素中时，执行回调 (Leafer)
 import { Leafer, Group, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

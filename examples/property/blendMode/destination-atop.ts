@@ -1,4 +1,4 @@
-// #混合模式 [destination-atop 仅保留现有画布内容和新形状重叠的部分，新形状是在现有画布内容的后面绘制的]
+// #混合模式 [destination-atop 仅保留现有画布内容和新形状重叠的部分，新形状是在现有画布内容的后面绘制的 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

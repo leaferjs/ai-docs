@@ -1,4 +1,4 @@
-// #图案描边 [默认 cover 覆盖模式]
+// #图案描边 [默认 cover 覆盖模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

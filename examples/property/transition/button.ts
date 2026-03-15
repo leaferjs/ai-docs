@@ -1,4 +1,4 @@
-// #过渡效果 [按钮交互]
+// #过渡效果 [按钮交互 (Leafer)]
 import { Leafer, Box } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件 // [!code hl:2] 
 import '@leafer-in/animate' // 导入动画插件  

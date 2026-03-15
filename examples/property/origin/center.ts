@@ -1,4 +1,4 @@
-// #原点 [设置原点在中心]
+// #原点 [设置原点在中心 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

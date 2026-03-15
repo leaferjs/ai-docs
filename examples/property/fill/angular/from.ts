@@ -1,4 +1,4 @@
-// #角度渐变填充 [控制方向]
+// #角度渐变填充 [控制方向 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

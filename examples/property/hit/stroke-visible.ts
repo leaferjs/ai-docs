@@ -1,4 +1,4 @@
-// #交互功能 [只有 stroke 能响应交互]
+// #交互功能 [只有 stroke 能响应交互 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

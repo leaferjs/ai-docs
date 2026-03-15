@@ -1,4 +1,4 @@
-// #原点 [围绕原点缩放 1.5 倍]
+// #原点 [围绕原点缩放 1.5 倍 (Leafer)]
 import { Leafer, Rect, Frame } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

@@ -1,4 +1,4 @@
-// #光标移入时的交互样式
+// #光标移入时的交互样式 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
 

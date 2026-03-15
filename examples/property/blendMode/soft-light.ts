@@ -1,4 +1,4 @@
-// #混合模式 [soft-light 柔光]
+// #混合模式 [soft-light 柔光 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

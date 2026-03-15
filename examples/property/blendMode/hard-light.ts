@@ -1,4 +1,4 @@
-// #混合模式 [hard-light 强光]
+// #混合模式 [hard-light 强光 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

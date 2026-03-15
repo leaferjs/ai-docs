@@ -1,4 +1,4 @@
-// #径向渐变填充 [拉伸渐变]
+// #径向渐变填充 [拉伸渐变 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

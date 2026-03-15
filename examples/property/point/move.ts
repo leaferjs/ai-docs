@@ -1,4 +1,4 @@
-// #坐标转换 [世界坐标中的移动距离 转 内部坐标移动距离]
+// #坐标转换 [世界坐标中的移动距离 转 内部坐标移动距离 (Leafer)]
 import { Leafer, Group, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

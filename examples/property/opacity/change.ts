@@ -1,4 +1,4 @@
-// #设置不透明度
+// #设置不透明度 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

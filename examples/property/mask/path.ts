@@ -1,4 +1,4 @@
-// #遮罩功能 [将路径设为遮罩]
+// #遮罩功能 [将路径设为遮罩 (Leafer)]
 import { Leafer, Group, Path, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

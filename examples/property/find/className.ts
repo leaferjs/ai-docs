@@ -1,4 +1,4 @@
-// #查找功能 [通过 className 查找]
+// #查找功能 [通过 className 查找 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/find' // 导入查找元素插件 // [!code hl] 
 

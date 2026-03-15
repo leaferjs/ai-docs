@@ -1,4 +1,4 @@
-// #多个不同类型的填充叠加 [线性渐变填充 + 图案填充]
+// #多个不同类型的填充叠加 [线性渐变填充 + 图案填充 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

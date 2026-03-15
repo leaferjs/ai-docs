@@ -1,4 +1,4 @@
-// #通过 set() 修改属性 [有动画过渡]
+// #通过 set() 修改属性 [有动画过渡 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 

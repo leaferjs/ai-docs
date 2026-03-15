@@ -1,4 +1,4 @@
-// #外阴影 [box-shadow]
+// #外阴影 [box-shadow (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

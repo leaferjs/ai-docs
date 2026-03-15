@@ -1,4 +1,4 @@
-// #隐藏元素
+// #隐藏元素 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

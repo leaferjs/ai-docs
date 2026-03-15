@@ -1,4 +1,4 @@
-// #停用子元素交互事件
+// #停用子元素交互事件 (Leafer)
 import { Leafer, Group, Rect, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

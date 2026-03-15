@@ -1,4 +1,4 @@
-// #获取元素的字符串路径
+// #获取元素的字符串路径 (Leafer)
 import { Leafer, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

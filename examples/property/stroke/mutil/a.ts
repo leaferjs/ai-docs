@@ -1,4 +1,4 @@
-// #多个不同类型的描边叠加 [线性渐变描边 + 图案描边]
+// #多个不同类型的描边叠加 [线性渐变描边 + 图案描边 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

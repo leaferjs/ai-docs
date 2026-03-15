@@ -1,4 +1,4 @@
-// #混合模式 [color-dodge 颜色减淡]
+// #混合模式 [color-dodge 颜色减淡 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

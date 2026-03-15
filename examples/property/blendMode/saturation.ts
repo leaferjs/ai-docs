@@ -1,4 +1,4 @@
-// #混合模式 [saturation 饱和度]
+// #混合模式 [saturation 饱和度 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

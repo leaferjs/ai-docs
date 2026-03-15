@@ -1,4 +1,4 @@
-// #坐标转换 [内部坐标转世界坐标]
+// #坐标转换 [内部坐标转世界坐标 (Leafer)]
 import { Leafer, Frame, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

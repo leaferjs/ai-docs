@@ -1,4 +1,4 @@
-// #动画样式 [入场和出场动画]
+// #动画样式 [入场和出场动画 (Leafer)]
 import { Group, Leafer, Frame } from 'leafer-ui'
 import '@leafer-in/animate' // 导入动画插件 // [!code hl] 
 

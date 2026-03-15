@@ -1,4 +1,4 @@
-// #导出图片 [同步导出 Base64 编码数据]
+// #导出图片 [同步导出 Base64 编码数据 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
 

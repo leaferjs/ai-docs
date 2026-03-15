@@ -1,4 +1,4 @@
-// #遮罩功能 [将半透明的圆环设为遮罩]
+// #遮罩功能 [将半透明的圆环设为遮罩 (Leafer)]
 import { Leafer, Group, Ellipse, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

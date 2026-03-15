@@ -1,4 +1,4 @@
-// #图案填充 [stretch 拉伸模式]
+// #图案填充 [stretch 拉伸模式 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

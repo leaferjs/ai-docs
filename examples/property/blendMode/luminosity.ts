@@ -1,4 +1,4 @@
-// #混合模式 [luminosity 明度]
+// #混合模式 [luminosity 明度 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

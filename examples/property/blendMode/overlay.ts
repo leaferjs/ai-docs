@@ -1,4 +1,4 @@
-// #混合模式 [overlay 叠加]
+// #混合模式 [overlay 叠加 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

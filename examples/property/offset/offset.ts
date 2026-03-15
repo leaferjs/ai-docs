@@ -1,4 +1,4 @@
-// #偏移元素
+// #偏移元素 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

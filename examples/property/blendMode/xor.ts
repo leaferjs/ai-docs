@@ -1,4 +1,4 @@
-// #混合模式 [xor 形状在重叠处变为透明，并在其他地方正常绘制]
+// #混合模式 [xor 形状在重叠处变为透明，并在其他地方正常绘制 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

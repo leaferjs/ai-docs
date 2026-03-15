@@ -1,4 +1,4 @@
-// #图案填充 [cover 覆盖模式旋转 90 度]
+// #图案填充 [cover 覆盖模式旋转 90 度 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

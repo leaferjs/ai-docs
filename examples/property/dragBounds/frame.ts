@@ -1,4 +1,4 @@
-// #限制元素拖动范围 [在 Frame 内拖动]
+// #限制元素拖动范围 [在 Frame 内拖动 (Leafer)]
 import { Leafer, Frame, Ellipse } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window, fill: '#333' })

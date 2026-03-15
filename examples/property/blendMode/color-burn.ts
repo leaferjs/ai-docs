@@ -1,4 +1,4 @@
-// #混合模式 [color-burn 颜色加深]
+// #混合模式 [color-burn 颜色加深 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

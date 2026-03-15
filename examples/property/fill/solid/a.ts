@@ -1,4 +1,4 @@
-// #纯色填充
+// #纯色填充 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

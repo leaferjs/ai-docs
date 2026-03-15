@@ -1,4 +1,4 @@
-// #创建 Path [使用路径数据]
+// #创建 Path [使用路径数据 (Leafer)]
 import { Leafer, Path } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

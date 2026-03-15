@@ -1,4 +1,4 @@
-// #擦除功能 [将圆环设为橡皮擦]
+// #擦除功能 [将圆环设为橡皮擦 (Leafer)]
 import { Leafer, Group, Ellipse, Image } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

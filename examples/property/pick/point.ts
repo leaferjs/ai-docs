@@ -1,4 +1,4 @@
-// #通过 point 拾取元素
+// #通过 point 拾取元素 (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

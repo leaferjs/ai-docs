@@ -1,4 +1,4 @@
-// #遮罩功能 [快速设置遮罩]
+// #遮罩功能 [快速设置遮罩 (Leafer)]
 import { Leafer, Group, Ellipse, Image, UI } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

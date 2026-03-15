@@ -1,4 +1,4 @@
-// #混合模式 [destination-over 在现有画布内容的后面绘制新的图形]
+// #混合模式 [destination-over 在现有画布内容的后面绘制新的图形 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

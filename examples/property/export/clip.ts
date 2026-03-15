@@ -1,4 +1,4 @@
-// #导出图片 [裁剪元素]
+// #导出图片 [裁剪元素 (Leafer)]
 import { Leafer, Ellipse } from 'leafer-ui'
 import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
 

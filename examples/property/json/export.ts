@@ -1,4 +1,4 @@
-// #导出 JSON
+// #导出 JSON (Leafer)
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

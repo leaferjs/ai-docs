@@ -1,4 +1,4 @@
-// #混合模式 [difference 差集]
+// #混合模式 [difference 差集 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

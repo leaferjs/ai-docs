@@ -1,4 +1,4 @@
-// #导出图片 [导出文件]
+// #导出图片 [导出文件 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/export' // 引入导出元素插件 // [!code hl] 
 

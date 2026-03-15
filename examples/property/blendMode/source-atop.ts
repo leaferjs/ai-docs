@@ -1,4 +1,4 @@
-// #混合模式 [source-atop 只在与现有画布内容重叠的地方绘制新图形]
+// #混合模式 [source-atop 只在与现有画布内容重叠的地方绘制新图形 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

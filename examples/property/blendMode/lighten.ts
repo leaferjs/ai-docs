@@ -1,4 +1,4 @@
-// #混合模式 [lighten 变亮]
+// #混合模式 [lighten 变亮 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

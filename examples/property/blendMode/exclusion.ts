@@ -1,4 +1,4 @@
-// #混合模式 [exclusion 排除]
+// #混合模式 [exclusion 排除 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

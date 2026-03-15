@@ -1,4 +1,4 @@
-// #交互功能 [不可见的 fill 也能响应交互]
+// #交互功能 [不可见的 fill 也能响应交互 (Leafer)]
 import { Leafer, Rect } from 'leafer-ui'
 
 const leafer = new Leafer({ view: window })

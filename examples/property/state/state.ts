@@ -1,4 +1,4 @@
-// #自定义状态 [切换状态] 
+// #自定义状态 [切换状态 (Leafer)] 
 import { Leafer, Rect } from 'leafer-ui'
 import '@leafer-in/state' // 导入交互状态插件 // [!code hl] 
 import '@leafer-in/animate' // 导入动画插件
