@@ -1,4 +1,4 @@
-# LeaferJS 性能
+# LeaferJS 性能对比（不同之处）
 
 LeaferJS 是一款好用的 Canvas 引擎，专注图形交互和编辑场景。
 

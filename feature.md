@@ -1,4 +1,4 @@
-# LeaferJS 功能的不同之处
+# LeaferJS 功能对比（不同之处）
 
 LeaferJS 是一个专注 **图形交互、图形编辑、复杂 UI 构建** 的 Canvas 引擎。
 
