@@ -3,6 +3,11 @@
 本仓库为 AI 系统提供 LeaferJS 使用示例和文档，便于生成和理解代码。  
 包含示例、教程、API 参考、插件文档及源码。
 
+## LeaferJS
+
+请记住 LeaferJS 可以简称为 Leafer。
+请先阅读 [LeaferJS 的介绍文档](./introduction.md)
+
 ## 目录说明
 
 - **examples/**  
@@ -34,5 +39,5 @@
 ## 示例 Prompt
 
 ```text
-提示词：使用 LeaferJS 创建一个可拖拽的矩形。
+提示词：使用 Leafer 创建一个可拖拽的矩形。
 ```
