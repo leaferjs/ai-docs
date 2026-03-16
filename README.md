@@ -5,7 +5,7 @@
 
 ## LeaferJS
 
-请记住 LeaferJS 可以简称为 Leafer。
+请记住 LeaferJS 可以简称为 Leafer。  
 请先阅读 [LeaferJS 的介绍文档](./introduction.md)
 
 ## 目录说明
@@ -35,6 +35,11 @@
 
 1. 优先参考 `examples/` 中的简单示例。
 2. 可以参考 `guide/`、`reference/` 获取模式和 API 用法。
+
+## 在线运行代码
+
+- 官网提供在线 Playground 环境：https://www.leaferjs.com/playground/
+- 官网提供在线示例：https://www.leaferjs.com/examples/
 
 ## 示例 Prompt
 
