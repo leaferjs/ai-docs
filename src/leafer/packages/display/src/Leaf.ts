@@ -415,18 +415,20 @@ export class Leaf<TInputData = ILeafInputData> implements ILeaf {
             relative.innerToWorld(world, to, distance)
             world = to ? to : world
         }
-        toInnerPoint(this.scrollWorldTransform, world, to, distance)
+        toInnerPoint(this.worldTransform, world, to, distance)
     }
 
     public innerToWorld(inner: IPointData, to?: IPointData, distance?: boolean, relative?: ILeaf): void {
-        toOuterPoint(this.scrollWorldTransform, inner, to, distance)
+        toOuterPoint(this.worldTransform, inner, to, distance)
         if (relative) relative.worldToInner(to ? to : inner, null, distance)
     }
 
     // simple
 
     public getBoxPoint(world: IPointData, relative?: ILeaf, distance?: boolean, change?: boolean): IPointData {
-        return this.getBoxPointByInner(this.getInnerPoint(world, relative, distance, change), null, null, true)
+        const inner = this.getInnerPoint(world, relative, distance, change)
+        if (distance) return inner
+        return this.getBoxPointByInner(inner, null, null, true)
     }
 
     public getBoxPointByInner(inner: IPointData, _relative?: ILeaf, _distance?: boolean, change?: boolean): IPointData {

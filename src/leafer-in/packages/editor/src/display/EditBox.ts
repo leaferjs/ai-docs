@@ -174,6 +174,7 @@ export class EditBox extends Group implements IEditBox {
         if (!isUndefined(dimOthers) || !isUndefined(bright)) {  // 没有配置时不强制bright
             editor.setDimOthers(dimOthers)
             editor.setBright(!!dimOthers || bright)
+            editor.hasDimOthers = true
         }
 
         if (spread) BoundsHelper.spread(bounds, spread)
@@ -300,10 +301,12 @@ export class EditBox extends Group implements IEditBox {
     public onDragStart(e: DragEvent): void {
         this.dragging = true
         const point = this.dragPoint = e.current as IEditPoint, { pointType } = point
-        const { moveable, resizeable, rotateable, skewable } = this.mergeConfig
+        const { moveable, resizeable, rotateable, skewable, onCopy } = this.mergeConfig
 
         // 确定模式
         if (pointType === 'move') {
+            // alt复制钩子
+            if (e.altKey && onCopy && onCopy() && this.editor.single) this.app.interaction.replaceDownTarget(this.target)
             moveable && (this.moving = true)
         } else {
             if (pointType.includes('rotate') || this.isHoldRotateKey(e) || !resizeable) {
@@ -417,23 +420,28 @@ export class EditBox extends Group implements IEditBox {
     }
 
     public onArrow(e: IKeyEvent): void {
-        if (this.canUse && this.mergeConfig.keyEvent) {
+        if (this.canUse) {
             let x = 0, y = 0
-            const distance = e.shiftKey ? 10 : 1
             switch (e.code) {
                 case 'ArrowDown':
-                    y = distance
+                    y = 1
                     break
                 case 'ArrowUp':
-                    y = -distance
+                    y = -1
                     break
                 case 'ArrowLeft':
-                    x = -distance
+                    x = -1
                     break
                 case 'ArrowRight':
-                    x = distance
+                    x = 1
             }
-            if (x || y) this.transformTool.move(x, y)
+            if (x || y) {
+                const { keyEvent, arrowStep, arrowFastStep } = this.mergeConfig
+                if (keyEvent) {
+                    const step = e.shiftKey ? arrowFastStep : arrowStep
+                    this.transformTool.move(x * step, y * step)
+                }
+            }
         }
     }
 

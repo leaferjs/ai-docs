@@ -132,6 +132,10 @@ Resource.loadImage(url).then(() => { // [!code hl:5]
 
 ### [ImageEvent](/reference/event/basic/Image.md)
 
+## box 元素
+
+### [ImageBox](/plugin/in/box/ImageBox.md)
+
 <!-- ## 继承元素
 
 ### [Rect](./Rect.md) -->

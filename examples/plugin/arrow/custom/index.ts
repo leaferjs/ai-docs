@@ -14,7 +14,7 @@ Arrow.registerArrow('custom-arrow', {
     },
     // 路径数据，用线条绘制、拼凑出箭头形状（没有fill)，只用关心箭头从左往右的水平样式，仅支持 M、L、C、Q、O 绘图命令
     path: path().moveTo(-5, -5).lineTo(0, 0).lineTo(-5, 3).path, // = [1, -5, -3, 2, 0, 0, 2, -5, 3] 
-    // fill: true // v2.0.3 开始支持启用fill
+    // fill: true // v2.0.4 开始支持启用fill
 })
 
 

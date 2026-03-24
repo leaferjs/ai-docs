@@ -18,6 +18,14 @@ import Case from '/component/Case.vue'
 
 是否接收键盘事件（如方向键移动），默认为 true。
 
+### arrowStep: `number`
+
+方向键移动步长，默认为 1。
+
+### arrowFastStep: `number`
+
+按住 shift 键的移动步长，默认为 10。
+
 ### multipleSelectKey: [IShortcutKeysCheck](/api/interfaces/IShortcutKeysCheck.md)
 
 多选元素的快捷键钩子函数。
@@ -157,6 +165,17 @@ beforeSkew(data) {
 }
 ```
 
+### onCopy: [`IEditorOnCopy`](/api/interfaces/IEditorOnCopy.md)
+
+返回 true 表示进行了copy操作（必须返回），查看 [代码示例](#按住alt键移动可复制元素)。
+
+```ts
+onCopy() {
+    // clone elements
+    return true
+}
+```
+
 ## 示例
 
 ### 限制最小编辑尺寸
@@ -215,3 +234,31 @@ app.tree.add(rect)
 app.editor.select(rect)
 ```
 :::
+
+### 按住alt键移动可复制元素
+
+```ts
+// #图形编辑器 [按住alt键移动可复制元素]
+import { App, Rect } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件 
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+
+const app = new App({
+    view: window,
+    editor: {
+        onCopy() {  // 按住alt键可复制元素 // [!code hl]
+            const list = app.editor.list.map(item => {
+                const cloneItem = item.clone()
+                item.parent.add(cloneItem)
+                return cloneItem
+            })
+            app.editor.target = list.length > 1 ? list : list[0]
+            return true
+        }
+    }
+})
+
+app.tree.add(Rect.one({ editable: true, fill: '#FEB027', cornerRadius: [20, 0, 0, 20] }, 100, 100))
+app.tree.add(Rect.one({ editable: true, fill: '#FFE04B', cornerRadius: [0, 20, 20, 0] }, 300, 100))
+
+```

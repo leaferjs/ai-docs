@@ -22,6 +22,10 @@ export class Interaction extends InteractionBase {
     protected viewEvents: IObject
     protected windowEvents: IObject
 
+    // 使用 ownerDocument 替代 window，以支持微前端环境（如 wujie）
+    // 在 wujie 中，ownerDocument 被代理到 shadow root，可以正常接收事件
+    protected get windowTarget(): EventTarget { const { view } = this; return (view && view.ownerDocument) || window }
+
     protected usePointer: boolean
     protected useMultiTouch: boolean
     protected useTouch: boolean
@@ -81,9 +85,10 @@ export class Interaction extends InteractionBase {
             view.addEventListener(name, viewEvents[name])
         }
 
+
         for (let name in windowEvents) {
             windowEvents[name] = windowEvents[name].bind(this)
-            window.addEventListener(name, windowEvents[name])
+            this.windowTarget.addEventListener(name, windowEvents[name])
         }
     }
 
@@ -98,7 +103,7 @@ export class Interaction extends InteractionBase {
         }
 
         for (let name in windowEvents) {
-            window.removeEventListener(name, windowEvents[name])
+            this.windowTarget.removeEventListener(name, windowEvents[name])
             this.windowEvents = {}
         }
     }
@@ -123,7 +128,10 @@ export class Interaction extends InteractionBase {
     }
 
     protected preventWindowPointer(e: UIEvent) {
-        return !this.downData && e.target !== this.view
+        // 在微前端环境（如 wujie） shadow DOM 中，事件目标可能不是 canvas 本身
+        // 可使用 composedPath 检查事件路径中是否包含 canvas
+        if (this.downData || e.target === this.view) return false
+        return (this.config.shadowDOM && e.composedPath) ? !e.composedPath().includes(this.view) : true
     }
 
     // key

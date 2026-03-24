@@ -22,6 +22,11 @@ export {
     IVideo, IVideoInputData, IVideoData,
     IRobot, IRobotInputData, IRobotData, IRobotActions, IRobotActionName, IRobotKeyframe, IRobotComputedKeyframe, IRobotAnimation,
     IBox, IBoxInputData, IBoxData,
+    IEllipseBox, IEllipseBoxInputData, IEllipseBoxData,
+    IPolygonBox, IPolygonBoxInputData, IPolygonBoxData,
+    IStarBox, IStarBoxInputData, IStarBoxData,
+    IPathBox, IPathBoxInputData, IPathBoxData,
+    IImageBox, IImageBoxInputData, IImageBoxData,
     IGroup, IGroupInputData, IGroupData,
     ILeaferInputData, ILeaferData,
     IAppInputData, IAppData,
@@ -52,4 +57,4 @@ export { IEffectModule } from './module/IEffect'
 export { IFilterModule, IFilterProcessor, IFilterFunction } from './module/IFilter'
 export { ICachedShape } from './ICachedShape'
 
-export { IEditorBase, IEditorConfig, ITransformTool, IEditBoxBase, IEditPoint, IEditPointInputData, IEditPointType, IEditorDragStartData, IEditToolFunction, IEditorConfigFunction, IEditorBeforeSelect, IEditorBeforeEditOuter, IEditorBeforeEditInner, IEditorBeforeMove, IEditorBeforeScale, IEditorBeforeRotate, IEditorBeforeSkew, IEditorSelectData, IEditorEditOuterData, IEditorEditInnerData, IEditorMoveData, IEditorScaleData, IEditorRotationData, IEditorSkewData } from './editor/IEditor'
+export { IEditorBase, IEditorConfig, ITransformTool, IEditBoxBase, IEditPoint, IEditPointInputData, IEditPointType, IEditorDragStartData, IEditToolFunction, IEditorConfigFunction, IEditorBeforeSelect, IEditorBeforeEditOuter, IEditorBeforeEditInner, IEditorBeforeMove, IEditorBeforeScale, IEditorBeforeRotate, IEditorBeforeSkew, IEditorOnCopy, IEditorSelectData, IEditorEditOuterData, IEditorEditInnerData, IEditorMoveData, IEditorScaleData, IEditorRotationData, IEditorSkewData } from './editor/IEditor'
