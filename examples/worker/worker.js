@@ -1,5 +1,5 @@
 // 你也可以使用npm包模式，编译成js文件供worker调用
-importScripts('https://unpkg.com/@leafer-ui/worker@2.0.4/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@2.0.6/dist/worker.min.js')
 
 const { Leafer, Rect } = LeaferUI
 

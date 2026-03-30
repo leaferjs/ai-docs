@@ -5,7 +5,7 @@ import '@leafer-in/viewport' // 导入视口插件 (可选)
 
 const app = new App({ view: window, editor: {} })
 
-Text.addAttr('version', '2.0.4', dataType)  //  [!code hl]
+Text.addAttr('version', '2.0.6', dataType)  //  [!code hl]
 
 // default version
 
@@ -13,10 +13,10 @@ const text = new Text({ text: 'Welcome to AppJS' })
 
 app.tree.add(text)
 
-console.log((text as any).version) // 2.0.4
+console.log((text as any).version) // 2.0.6
 
 // set version
 
-const text2 = new Text({ version: '2.0.4' } as any)
+const text2 = new Text({ version: '2.0.6' } as any)
 
-console.log((text2 as any).version) // 2.0.4
+console.log((text2 as any).version) // 2.0.6
