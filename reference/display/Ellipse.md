@@ -55,6 +55,16 @@ endAngle: 180
 innerRadius: 0.5
 ```
 
+## 圆角属性
+
+### cornerRadius: `number`
+
+圆角大小，使图形拐角处变的圆滑。
+
+::: tip 注意事项
+需安装 [corner 插件](/plugin/in/corner/index.md) 才能使用，或直接安装 [leafer](/guide/install/editor/start.md) 全量包（已集成该插件）。
+:::
+
 ## box 元素
 
 ### [EllipseBox](/plugin/in/box/EllipseBox.md)
@@ -286,6 +296,54 @@ app.tree.add(ellipse)
 :::
 
 <case name="Ellipse" index=5 editor=false></case>
+
+### 绘制带圆角的扇形圆环
+
+::: code-group
+```ts
+// #创建 Ellipse [绘制带圆角的扇形圆环 (Leafer)]
+import { Leafer, Ellipse } from 'leafer-ui'
+import '@leafer-in/corner' // 导入圆角插件  // [!code hl]
+
+const leafer = new Leafer({ view: window })
+
+const ellipse = new Ellipse({  // [!code hl:9]
+    width: 100,
+    height: 100,
+    startAngle: -60,
+    endAngle: 180,
+    innerRadius: 0.5,
+    cornerRadius: 10,
+    fill: "#32cd79"
+})
+
+leafer.add(ellipse)
+```
+```ts
+// #创建 Ellipse [绘制带圆角的扇形圆环 (App)]
+import { App, Ellipse } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+import '@leafer-in/corner' // 导入圆角插件 // [!code hl]
+
+const app = new App({ view: window, editor: {} })
+
+const ellipse = new Ellipse({  // [!code hl:10]
+    width: 100,
+    height: 100,
+    startAngle: -60,
+    endAngle: 180,
+    innerRadius: 0.5,
+    cornerRadius: 10,
+    fill: "#32cd79",
+    editable: true
+})
+
+app.tree.add(ellipse)
+```
+:::
+
+<case name="Ellipse" index=6 editor=false></case>
 
 ### 绘制椭圆
 

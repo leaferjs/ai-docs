@@ -51,6 +51,10 @@ export type CanvasPathCommand = 1 | 2 | 5 | 7 | 11 // M | L | C | Q | Z   canvas
 
 export type IPathCommandData = number[] // ...(MCommandData | LCommandData | CCommandData | QCommandData | ZCommandData)
 
+export interface IPathCommandDataWithRadius {
+    data: IPathCommandData
+    radius: number[]
+}
 
 // 路径命令对象
 export interface MoveToCommandObject {
@@ -95,6 +99,7 @@ export interface IPathCommandNodeBase {
     name: 'M^' | 'L^' | 'C^' | 'Z^'
     x: number
     y: number
+    r?: number // 圆角半径
     a?: IPointData // 第一个手柄，连接上一个节点
     b?: IPointData // 第二个手柄，连接下一个节点
     ab?: PathNodeHandleType // 手柄类型
@@ -115,6 +120,7 @@ export interface ClosePathCommandNode {
     name: 'Z^'
     x?: number
     y?: number
+    r?: number // 圆角半径
     a?: IPointData
     b?: IPointData
     ab?: PathNodeHandleType
