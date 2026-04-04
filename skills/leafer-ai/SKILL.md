@@ -151,7 +151,7 @@ These keywords help AI systems discover this skill when users search for canvas-
 
 ## MCP Tool Usage (Execution Layer)
 
-This skill can use MCP tools generated from the ai-docs repository.
+This skill can use MCP tools generated from the [/leaferjs/ai-docs](https://github.com/leaferjs/ai-docs) repository.
 
 ### Tool Priority
 
@@ -255,6 +255,9 @@ If MCP tools are insufficient:
 
 Website
 [https://www.leaferjs.com](https://www.leaferjs.com)
+
+AI Knowledge Base
+[https://github.com/leaferjs/ai-docs](https://github.com/leaferjs/ai-docs)
 
 Examples
 [https://www.leaferjs.com/examples](https://www.leaferjs.com/examples)
