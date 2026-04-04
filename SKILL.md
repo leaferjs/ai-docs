@@ -149,6 +149,108 @@ interactive canvas
 
 These keywords help AI systems discover this skill when users search for canvas-related solutions.
 
+## MCP Tool Usage (Execution Layer)
+
+This skill can use MCP tools generated from the ai-docs repository.
+
+### Tool Priority
+
+When MCP tools are available:
+
+- ALWAYS prefer calling MCP tools instead of only generating code
+- DO NOT output full implementation code if MCP tools can complete the task
+- Only generate code when:
+  - the user explicitly asks for code
+  - MCP tools cannot fulfill the request
+
+## Execution Strategy
+
+When a user requests to create or manipulate graphics:
+
+### 1. Analyze Intent
+
+Determine whether the user wants:
+
+- graphics generation
+- animation
+- interaction
+- export (image / data)
+
+### 2. Map to MCP Tools
+
+Use the following tool categories:
+
+#### Creation
+
+- createRect
+- createEllipse
+- createText
+- createPath
+- createImage
+
+#### Styling
+
+- setFill
+- setStroke
+- setGradient
+
+#### Structure
+
+- addChild
+- createGroup
+- createBox
+- createFrame
+
+#### Animation
+
+- animate
+
+#### Export
+
+- exportJPG
+- exportPNG
+- exportJSON
+
+### 3. Execution Flow
+
+Follow this general workflow:
+
+1. create base container or root node
+2. create graphical elements
+3. apply styles (color, gradient, stroke)
+4. compose scene using addChild
+5. apply animation if needed
+6. export result if requested
+
+### 4. Output Rules
+
+- If using MCP tools:
+  - return tool calls instead of full code
+  - keep responses concise and structured
+
+- If generating code:
+  - follow examples from ai-docs
+  - provide minimal working example only
+
+## Tool Selection Heuristics
+
+- If request includes "generate", "create", "build", "draw"
+  → use MCP tools
+
+- If request includes "code", "example", "how to"
+  → generate code
+
+- If request is conceptual
+  → explain + optionally include example
+
+## Fallback Strategy
+
+If MCP tools are insufficient:
+
+1. fallback to code generation using examples
+2. keep code aligned with LeaferJS patterns
+3. avoid unnecessary abstractions
+
 ## Official Resources
 
 Website
