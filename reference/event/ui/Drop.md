@@ -16,7 +16,7 @@ DropEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 ## 关键属性
 
-### list: [`ILeafList`](/api/interfaces/ILeafList.md)
+### list: [`ILeafList`](../../../api/interfaces/ILeafList.md)
 
 待放置的对象列表，当前正在拖拽的对象列表，可通过 [DragEvent.setList()](./Drag.md#静态方法) 另外设置。
 
@@ -24,14 +24,14 @@ DropEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 自定义数据，通过 [DragEvent.setData()](./Drag.md#静态方法) 设置。
 
-<!-- ## 继承事件
+## 继承事件
 
-### [PointerEvent](./Pointer) -->
+### DropEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!--
 ## API
 
-### [DropEvent](/api/classes/DropEvent.md) -->
+### [DropEvent](../../../api/classes/DropEvent.md) -->
 
 ## 示例
 

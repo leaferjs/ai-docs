@@ -127,4 +127,4 @@ CustomEditor.registerInnerEditor()
 
 ## 下一步
 
-### [使用内部编辑器](/plugin/in/editor/editInner/use.md)
+### [使用内部编辑器](./use.md)

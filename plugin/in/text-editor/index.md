@@ -4,23 +4,13 @@ import Case from '/component/Case.vue'
 
 # TextEditor 编辑器
 
-文本编辑，双击 [Text](/reference/display/Text.md) 元素进入编辑状态。
+文本编辑，双击 [Text](../../../reference/display/Text.md) 元素进入编辑状态。
 
 <case name="TextEditor"  count=6 height=160></case>
 
 ::: tip 继承
-TextEditor &nbsp;>&nbsp; [InnerEditor](/plugin/in/editor/InnerEditor.md)
+TextEditor &nbsp;>&nbsp; [InnerEditor](../editor/InnerEditor.md)
 :::
-
-<!-- # 文本编辑
-
-双击文本进入编辑状态，需要先安装 [图形编辑器](/plugin/in/editor/index.md) 插件。 -->
-
-<!-- ## beta 版 公测插件 (本周会随新版本完全开放)
-
-目前该插件仅供公测用户体验使用、参与测试。
-
-稳定后会开放给大众使用，可通过 [发电](/sponsor/charge.md) 获得 公测资格。 -->
 
 ## 适用平台
 
@@ -28,7 +18,7 @@ TextEditor &nbsp;>&nbsp; [InnerEditor](/plugin/in/editor/InnerEditor.md)
 
 ## 安装插件
 
-需要安装 text-editor 插件、[图形编辑器插件](/plugin/in/editor/index.md) 才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/text-editor)。
+需要安装 text-editor 插件、[图形编辑器插件](../editor/index.md) 才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/text-editor)。
 
 ::: code-group
 
@@ -55,14 +45,14 @@ bun add @leafer-in/text-editor
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@2.0.8/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@2.0.9/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@2.0.8/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@2.0.9/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
@@ -95,9 +85,9 @@ app.editor.getInnerEditor('TextEditor').config.selectAll = false
 
 默认添加了 css 类名：'leafer-text-editor'
 
-<!-- ## 继承
+## 继承
 
-### [InnerEditor](/plugin/in/editor/InnerEditor.md) -->
+### TextEditor &nbsp;>&nbsp; [InnerEditor](../editor/InnerEditor.md)
 
 ## 示例
 

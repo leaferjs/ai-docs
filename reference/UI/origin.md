@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### origin: [`IAlign`](/api/modules.md#ialign) | [`IUnitPointData`](/api/interfaces/IUnitPointData.md)
+### origin: [`IAlign`](../../api/modules.md#ialign) | [`IUnitPointData`](../../api/interfaces/IUnitPointData.md)
 
 元素旋转、缩放的原点，相对元素的实际内容定位，基础元素及 Group 均支持。
 
@@ -50,7 +50,7 @@ rect.origin = {
 }
 ```
 
-**保持原位不动，切换元素的 origin 点： [localTransform](/reference/UI/transform.md#localtransform-imatrixdata) 、[setTransform()](/reference/UI/transform.md#settransform-matrix-imatrixdata-resize-boolean-transition-itranstion)**
+**保持原位不动，切换元素的 origin 点： [localTransform](./transform.md#localtransform-imatrixdata) 、[setTransform()](./transform.md#settransform-matrix-imatrixdata-resize-boolean-transition-itranstion)**
 
 ```ts
 // 多边形原始 origin
@@ -63,6 +63,10 @@ polygon.origin = 'right'
 
 polygon.setTransform(transform) // 重设 transform，会自动处理 origin 的变化
 ```
+
+## 归属
+
+### [UI 元素](../display/UI.md)
 
 ## 示例
 
@@ -251,7 +255,3 @@ const rect = new Rect({
 app.tree.add(new Frame({ width: 100, height: 100, fill: '#FF4A2C', children: [rect] }))
 ```
 :::
-
-## 归属
-
-### [UI 元素](/reference/display/UI.md)

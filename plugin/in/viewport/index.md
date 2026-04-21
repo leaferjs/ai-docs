@@ -1,6 +1,6 @@
 # 视口
 
-通过滚轮/触摸板滑动或捏合可 [缩放平移视图](/guide/advanced/viewport.md)，类似浏览器、设计软件的视口交互功能。
+通过滚轮/触摸板滑动或捏合可 [缩放平移视图](../../../guide/advanced/viewport.md)，类似浏览器、设计软件的视口交互功能。
 
 ## 安装插件
 
@@ -31,11 +31,11 @@ bun add @leafer-in/viewport
 ::: code-group
 
 ```html [viewport.min]
-<script src="https://unpkg.com/@leafer-in/viewport@2.0.8/dist/viewport.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/viewport@2.0.9/dist/viewport.min.js"></script>
 ```
 
 ```html [viewport]
-<script src="https://unpkg.com/@leafer-in/viewport@2.0.8/dist/viewport.js"></script>
+<script src="https://unpkg.com/@leafer-in/viewport@2.0.9/dist/viewport.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
@@ -44,4 +44,4 @@ bun add @leafer-in/viewport
 
 ## 下一步
 
-### [缩放平移视图](/guide/advanced/viewport.md)
+### [缩放平移视图](../../../guide/advanced/viewport.md)

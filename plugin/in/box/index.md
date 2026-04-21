@@ -31,14 +31,14 @@ bun add @leafer-in/box
 ::: code-group
 
 ```html [box.min]
-<script src="https://unpkg.com/@leafer-in/box@2.0.8/dist/box.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/box@2.0.9/dist/box.min.js"></script>
 <script>
   const { ImageBox } = LeaferIN.box
 </script>
 ```
 
 ```html [box]
-<script src="https://unpkg.com/@leafer-in/box@2.0.8/dist/box.js"></script>
+<script src="https://unpkg.com/@leafer-in/box@2.0.9/dist/box.js"></script>
 <script>
   const { ImageBox } = LeaferIN.box
 </script>
@@ -50,15 +50,15 @@ bun add @leafer-in/box
 
 ## 元素
 
-### [ImageBox](/plugin/in/box/ImageBox.md)
+### [ImageBox](./ImageBox.md)
 
-### [EllipseBox](/plugin/in/box/EllipseBox.md)
+### [EllipseBox](./EllipseBox.md)
 
-### [PolygonBox](/plugin/in/box/PolygonBox.md)
+### [PolygonBox](./PolygonBox.md)
 
-### [StarBox](/plugin/in/box/StarBox.md)
+### [StarBox](./StarBox.md)
 
-### [PathBox](/plugin/in/box/PathBox.md)
+### [PathBox](./PathBox.md)
 
 ## 示例
 

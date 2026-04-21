@@ -8,14 +8,14 @@ import Case from '/component/Case.vue'
 
 :::tip 注意事项
 
-[Image](/reference/display/Image.md) / [PointerEvent](/reference/event/ui/Pointer.md) / [DragEvent](/reference/event/ui/Drag.md) 会与浏览器的全局变量冲突，需使用以下别名。
+[Image](../../reference/display/Image.md) / [PointerEvent](../../reference/event/ui/Pointer.md) / [DragEvent](../../reference/event/ui/Drag.md) 会与浏览器的全局变量冲突，需使用以下别名。
 
 :::
 
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-ui@2.0.8/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-ui@2.0.9/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui 的所有功能
 
@@ -27,7 +27,7 @@ import Case from '/component/Case.vue'
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-ui@2.0.8/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-ui@2.0.9/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui的所有功能
 
@@ -40,14 +40,14 @@ import Case from '/component/Case.vue'
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@2.0.8/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@2.0.9/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@2.0.8/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@2.0.9/dist/web.module.js'
   // ...
 </script>
 ```

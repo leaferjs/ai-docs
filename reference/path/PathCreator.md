@@ -104,7 +104,6 @@ curve 表示转换为平滑曲线，设置 0 ～ 1 控制曲率，或设置 true
 
 close 表示是否闭合折线。
 
-
 ## 示例
 
 <case name="Pen" index=2 editor=false></case>

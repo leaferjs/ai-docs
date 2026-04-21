@@ -2,7 +2,7 @@
 
 观察事件。
 
-想了解事件的触发顺序，请查看 [渲染生命周期](/guide/life/render.md) 图示。
+想了解事件的触发顺序，请查看 [渲染生命周期](../../../guide/life/render.md) 图示。
 
 ::: tip 继承
 WatchEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
@@ -24,18 +24,18 @@ WatchEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ## 关键属性
 
-### data: [`IWatchEventData`](/api/interfaces/IWatchEventData.md)
+### data: [`IWatchEventData`](../../../api/interfaces/IWatchEventData.md)
 
 观察数据。
 
-<!-- ## 继承事件
+## 继承事件
 
-### [Event](./Event.md) -->
+### WatchEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!--
 ## API
 
-### [WatchEvent](/api/classes/WatchEvent.md) -->
+### [WatchEvent](../../../api/classes/WatchEvent.md) -->
 
 ## 示例
 

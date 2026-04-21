@@ -9,7 +9,7 @@ import Case from '/component/Case.vue'
 <case name="Arrow" editor=false></case>
 
 ::: tip 继承
-Arrow &nbsp;>&nbsp; [Line](/reference/display/Line.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+Arrow &nbsp;>&nbsp; [Line](../../../reference/display/Line.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 :::
 
 ## 安装插件
@@ -41,14 +41,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@2.0.8/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@2.0.9/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@2.0.8/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@2.0.9/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
@@ -64,13 +64,13 @@ bun add @leafer-in/arrow
 
 起始箭头， 默认无。
 
-[支持自定义箭头样式](#注册自定义箭头样式)，[Line](/reference/display/Leaf.md) / [Path](/reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
+[支持自定义箭头样式](#注册自定义箭头样式)，[Line](../../../reference/display/Leaf.md) / [Path](../../../reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
 
 ### endArrow: `IArrowType`
 
 结束箭头， 默认为 angle。
 
-[支持自定义箭头样式](#注册自定义箭头样式)，[Line](/reference/display/Leaf.md) / [Path](/reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
+[支持自定义箭头样式](#注册自定义箭头样式)，[Line](../../../reference/display/Leaf.md) / [Path](../../../reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
 
 ```ts
 type IArrowType =
@@ -113,7 +113,7 @@ interface IArrowTypeData {
 
 ## 路径模式
 
-### [path 优先模式](/reference/UI/path.md)
+### [path 优先模式](../../../reference/UI/path.md)
 
 ## 圆角属性
 
@@ -123,7 +123,7 @@ interface IArrowTypeData {
 
 ## 静态方法
 
-### registerArrow ( name: `string`, data: [`IPathDataArrow`](/api/interfaces/IPathDataArrow.md) )
+### registerArrow ( name: `string`, data: [`IPathDataArrow`](../../../api/interfaces/IPathDataArrow.md) )
 
 注册自定义箭头样式，[查看示例](#注册自定义箭头样式)。
 
@@ -134,7 +134,7 @@ interface IPathDataArrow {
   connect?: IPathDataArrowOffset // 箭头与线条的连接点位置
   offset?: IPathDataArrowOffset // 箭头偏移距离，与末端对齐
   path: IPathCommandData // 只支持 M、L、C、Q、O 绘图命令
-  fill?: boolean // v2.0.8 开始支持启用fill箭头，fill箭头的stroke不能为透明颜色值，可以整体设置元素的opacity实现
+  fill?: boolean // v2.0.9 开始支持启用fill箭头，fill箭头的stroke不能为透明颜色值，可以整体设置元素的opacity实现
 }
 
 interface IPathDataArrowOffset {
@@ -144,9 +144,9 @@ interface IPathDataArrowOffset {
 }
 ```
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Line](/reference/display/Line.md) -->
+### Arrow &nbsp;>&nbsp; [Line](../../../reference/display/Line.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 ## 示例
 
@@ -193,7 +193,7 @@ leafer.add(arrow)
 
 <case name="Arrow" index=9 editor=false></case>
 
-[strokeJoin](/reference/UI/stroke.md#strokejoin-strokejoin) 变得平滑
+[strokeJoin](../../../reference/UI/stroke.md#strokejoin-strokejoin) 变得平滑
 
 ```ts
 // #箭头样式 [角度箭头 - strokeCap变的平滑]
@@ -214,7 +214,7 @@ leafer.add(arrow)
 
 <case name="Arrow" index=10 editor=false></case>
 
-[strokeCap](/reference/UI/stroke.md#strokecap-strokecap) 变得平滑
+[strokeCap](../../../reference/UI/stroke.md#strokecap-strokecap) 变得平滑
 
 ```ts
 // #箭头样式 [角度箭头 - strokeJoin变的平滑]
@@ -235,7 +235,7 @@ leafer.add(arrow)
 
 <case name="Arrow" index=8 editor=false></case>
 
-[strokeCap](/reference/UI/stroke.md#strokecap-strokecap) / [strokeJoin](/reference/UI/stroke.md#strokejoin-strokejoin) 都变得平滑
+[strokeCap](../../../reference/UI/stroke.md#strokecap-strokecap) / [strokeJoin](../../../reference/UI/stroke.md#strokejoin-strokejoin) 都变得平滑
 
 ```ts
 // #箭头样式 [角度箭头 - 箭头变得平滑]
@@ -299,7 +299,7 @@ leafer.add(arrow)
 
 <case name="Arrow" index=23 editor=false></case>
 
-[strokeCap](/reference/UI/stroke.md#strokecap-strokecap) / [strokeJoin](/reference/UI/stroke.md#strokejoin-strokejoin) 都变得平滑
+[strokeCap](../../../reference/UI/stroke.md#strokecap-strokecap) / [strokeJoin](../../../reference/UI/stroke.md#strokejoin-strokejoin) 都变得平滑
 
 ```ts
 // #箭头样式 [标准箭头 - 箭头都变得平滑]
@@ -585,7 +585,7 @@ leafer.add(arrow)
 
 ### 注册自定义箭头样式
 
-path() 方法创建的 PathCreator 实例，可以像 Canvas 2D API 一样快速 [绘制路径](/reference/path/PathCreator.md)。
+path() 方法创建的 PathCreator 实例，可以像 Canvas 2D API 一样快速 [绘制路径](../../../reference/path/PathCreator.md)。
 
 ```ts
 // #箭头样式 [自定义箭头样式]

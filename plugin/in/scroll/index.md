@@ -3,7 +3,7 @@
 无限画布滚动条，按需显示横向、竖向滚动条，支持切换黑白主题或自定义样式。
 
 ::: tip 继承
-ScrollBar &nbsp;>&nbsp; [Group](/reference/display/Group.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+ScrollBar &nbsp;>&nbsp; [Group](../../../reference/display/Group.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 :::
 
 ## 安装插件
@@ -35,14 +35,14 @@ bun add @leafer-in/scroll
 ::: code-group
 
 ```html [scroll.min]
-<script src="https://unpkg.com/@leafer-in/scroll@2.0.8/dist/scroll.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@2.0.9/dist/scroll.min.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>
 ```
 
 ```html [scroll]
-<script src="https://unpkg.com/@leafer-in/scroll@2.0.8/dist/scroll.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@2.0.9/dist/scroll.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>
@@ -54,7 +54,7 @@ bun add @leafer-in/scroll
 
 ## 关键属性
 
-### config: [`IScrollBarConfig`](/api/interfaces/IScrollBarConfig.md)
+### config: [`IScrollBarConfig`](../../../api/interfaces/IScrollBarConfig.md)
 
 滚动条的配置，可作为 ScrollBar 实例化的第二个参数传入。
 
@@ -70,7 +70,7 @@ type IScrollBarTheme = 'light' | 'dark' | IBoxInputData
 
 ## 关键方法
 
-### changeTheme ( theme: [`IScrollBarTheme`](/api/modules.md#iscrollbartheme) )
+### changeTheme ( theme: [`IScrollBarTheme`](../../../api/modules.md#iscrollbartheme) )
 
 修改主题或自定义样式。
 
@@ -80,15 +80,15 @@ type IScrollBarTheme = 'light' | 'dark' | IBoxInputData
 
 ## 限制滚动范围
 
-引擎配置 [config.move.scroll = 'limit' ](/reference/config/app/move.md#move-scroll-boolean-x-y-limit-x-limit-y-limit) 可限制在有内容的区域滚动
+引擎配置 [config.move.scroll = 'limit' ](../../../reference/config/app/move.md#move-scroll-boolean-x-y-limit-x-limit-y-limit) 可限制在有内容的区域滚动
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Group](/reference/display/Group.md) -->
+### ScrollBar &nbsp;>&nbsp; [Group](../../../reference/display/Group.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 <!-- ## API
 
-### [ScrollBar](/api/classes/ScrollBar.md) -->
+### [ScrollBar](../../../api/classes/ScrollBar.md) -->
 
 ## 示例
 
@@ -173,7 +173,7 @@ setTimeout(() => {
 
 ### 画布 padding
 
-padding 支持 [fourNumber](/reference/interface/math/Math.md#ifournumber)
+padding 支持 [fourNumber](../../../reference/interface/math/Math.md#ifournumber)
 
 ```ts
 // #滚动条 [设置画布 padding]

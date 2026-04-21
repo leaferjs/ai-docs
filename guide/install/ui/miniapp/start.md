@@ -1,12 +1,12 @@
 # @leafer-ui/miniapp
 
-### [web 版](/guide/install/ui/start.md) &nbsp; &nbsp; [worker 版](/guide/install/ui/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/ui/node/start.md) &nbsp; &nbsp; 小程序版
+### [web 版](../start.md) &nbsp; &nbsp; [worker 版](../worker/start.md) &nbsp; &nbsp; [node 版](../node/start.md) &nbsp; &nbsp; 小程序版
 
 ##
 
 在小程序环境中运行。
 
-继承了 [跨平台核心包](/guide/install/ui/core/index.md)。
+继承了 [跨平台核心包](../core/index.md)。
 
 ## 安装
 
@@ -32,7 +32,7 @@ bun add @leafer-ui/miniapp
 
 ## 更新
 
-了解如何 [快速更新版本](/guide/update.md)。
+了解如何 [快速更新版本](../../../update.md)。
 
 ## 微信开发工具中使用 npm 包
 
@@ -56,9 +56,9 @@ var __TEMP2__ =__TEMP__; Object.defineProperty(exports, k, { enumerable: true, c
 
 ```sh
 
-https://unpkg.com/@leafer-ui/miniapp@2.0.8/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@2.0.9/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@2.0.8/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@2.0.9/dist/miniapp.module.min.js
 ```
 
 ## 环境

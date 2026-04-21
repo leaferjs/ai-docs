@@ -32,13 +32,13 @@ SwipeEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Poin
 
 `swipe.down`
 
-<!-- ## 继承事件
+## 继承事件
 
-### [DragEvent](./Drag) -->
+### SwipeEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 
-### [SwipeEvent](/api/classes/SwipeEvent.md) -->
+### [SwipeEvent](../../../api/classes/SwipeEvent.md) -->
 
 ## 示例
 

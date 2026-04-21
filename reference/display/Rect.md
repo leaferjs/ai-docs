@@ -26,7 +26,7 @@ Rect &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 圆角属性
 
-### cornerRadius: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber)
+### cornerRadius: [`IFourNumber`](../interface/math/Math.md#ifournumber)
 
 圆角大小，可以分别设置 4 个圆角，默认为 0。
 
@@ -37,13 +37,28 @@ cornerRadius: [20, 10] // [ (topLeft-bottomRight), (topRight-bottomLeft)]
 cornerRadius: 20 // all
 ```
 
-<!-- ## 继承元素
+## 边框属性
 
-### [UI](./UI.md) -->
+### strokeWidth: [`IFourNumber`](../interface/math/Math.md#ifournumber)
+
+边框粗细，可以分别设置 4 个边框，默认为 0。
+
+了解更多 [描边样式](../UI/stroke.md)。
+
+```ts
+strokeWidth: [20, 10, 20, 10] // [top, right, bottom, left]
+strokeWidth: [20, 10, 20] // [top, (right-left), bottom]
+strokeWidth: [20, 10] // [ (top-bottom), (right-left)]
+strokeWidth: 20 // all
+```
+
+## 继承元素
+
+### Rect &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 
-### [Rect](/api/classes/Rect.md) -->
+### [Rect](../../api/classes/Rect.md) -->
 
 ## 示例
 

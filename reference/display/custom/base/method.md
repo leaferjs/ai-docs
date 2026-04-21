@@ -124,4 +124,4 @@ custom.on(PointerEvent.DOWN, () => {
 
 ## 恭喜 🎉
 
-你已完成自定义元素的基础学习，可通过 [高级示例](/reference/display/custom/extends.md) 进一步掌握自定义元素～
+你已完成自定义元素的基础学习，可通过 [高级示例](../extends.md) 进一步掌握自定义元素～

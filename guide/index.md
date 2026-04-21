@@ -1,16 +1,14 @@
 # 概览
 
-LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高效绘图 、UI 交互（小游戏、互动应用、组态）、图形编辑。
+LeaferJS 是一款革新、好用的 Canvas 引擎，轻松实现图形交互与编辑。适用于AI 无限画布、AI 设计工具、图形编辑、小游戏、互动应用、工业可视化、生成图片与短视频等场景。
 
 [![leaferjs](/svg/leaferjs.svg?d=013007)](/guide/index.md#使命与愿景)
 
-提供了丰富的 UI 绘图元素，和开箱即用的功能，如自动布局、图形编辑、SVG 导出等，方便与 PS、 Figma、Sketch 等产品进行对接。并为跨平台开发提供了统一的交互事件，如拖拽、旋转、缩放手势等。
+提供了丰富的 UI 绘图元素，和开箱即用的功能，如视窗控制、自动布局、图形编辑、SVG 导出等，方便与 PS、 Figma、Sketch 等产品进行对接。并为跨平台开发提供了统一的交互事件，如拖拽、旋转、缩放手势等。
 
-📗 [图文并茂、由浅入深的了解 LeaferJS](/blog/2024-07-09.md)
+📗 [图文并茂、由浅入深的了解 LeaferJS](../blog/2024-07-09.md)
 
-📙 [全新动画、状态、过渡、游戏功能](/blog/2024-09-20.md)
-
-<!-- 📘 [绝境中盛开，LeaferJS 的创业故事](/blog/2024-04-08.md) -->
+📙 [全新动画、状态、过渡、游戏功能](../blog/2024-09-20.md)
 
 如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/leafer-ui) 🌟 ，让这个库被更多的人看见 ✨ ✨ ✨
 
@@ -25,23 +23,77 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ## 快速入门
 
-**[1. 准备在线 Playground 环境](/guide/runtime.md)**
-
-<!-- 可通过 **Cloud Studio** 模版创建一个 **LeaferJS 项目**， -->
+**[1. 准备在线 Playground 环境](./runtime.md)**
 
 用于运行、练习后续的示例代码。
 
-**[2. 学习 LeaferJS 快速入门教程](/guide/basic/leafer.md)**
+**[2. 学习 LeaferJS 快速入门教程](./basic/leafer.md)**
 
 跟随官网教程步骤（文档底部有下一步引导按钮）从浅到深的学习，动手调试每一段示例代码。
 
 ## 快速安装
 
-🚀 想马上在产品中使用，请安装 [leafer-ui](/guide/install/ui/start.md) （66KB min+gzip 零依赖），开始你的探索之旅。
+🚀 想马上在产品中使用，请安装 [leafer-ui](./install/ui/start.md) （70KB min+gzip 零依赖），开始你的探索之旅。
 
-也可直接安装 [leafer](/guide/install/leafer/start.md) 全量包, 会自动安装 `leafer-ui` 包和 `@leafer-in/*` 所有插件包。
+也可直接安装 [leafer](./install/leafer/start.md) 全量包, 会自动安装 `leafer-ui` 包和 `@leafer-in/*` 所有插件包。
 
-<!--@include: ./problem/ask-question.md-->
+## 社区提问指南
+
+[常见问题](./problem/) ｜ [社区问答](https://www.zhihu.com/topic/736459154/unanswered) ｜ [提交 issue](https://github.com/leaferjs/leafer-ui/issues)
+
+简单问题可通过右下角的 AI 气泡对话框进行询问～
+
+### ⏰ 每周 4 天工作制
+
+LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.html)（周一、二、四、五）！
+
+我们相信，充沛的精力和广阔的视野孕育灵感与创新，因此，我们重视休息、学习和探索世界。
+
+⚠️ 休息日（周三、六、日及法定节假日）不处理事务，感谢理解与支持！
+
+### 一. 反馈 Bug 与建议
+
+发现 Bug 或有改进建议？欢迎在 GitHub 上 [提交 issue](https://github.com/leaferjs/leafer-ui/issues)，你的贡献能让 LeaferJS 变得更强大！
+
+::: tip 提交模版
+**【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
+
+环境：电脑 + window 11 + chrome 131 + leaferjs 2.0.9
+
+复现步骤：请提供详细的复现逻辑及可直接运行的代码，将大幅提升问题解决效率。
+:::
+
+### 二. 求助使用问题？
+
+[前往知乎](https://www.zhihu.com/topic/736459154/unanswered) 创建一个问题并绑定话题 [#LeaferJS](https://www.zhihu.com/topic/736459154/unanswered)。
+
+为记录问答过程（避免重复劳动、沉淀群体智慧），请公开求助你的问题，可将链接转发至群里。
+
+::: tip 提交模版
+**【LeaferJS】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx** （需包含 LeaferJS 关键词）
+
+环境：电脑 + window 11 + chrome 131 + leaferjs 2.0.9
+
+#LeaferJS （点击知乎提问框底部的 # 号绑定话题，大家就都能通过 [社区问答](https://www.zhihu.com/topic/736459154/unanswered) 看见问题）
+:::
+
+### 三、技术交流
+
+欢迎加入 [LeaferJS 技术交流群](https://leaferjs.com/#contact)，与社区开发者交流、分享经验、沟通改进产品。
+
+第一时间获取版本更新通知，偶尔还有 **福利活动**，不容错过！
+
+::: tip 注意事项
+
+请保持友善交流，避免政治敏感话题或无关内容，违规者将被移出群聊。
+
+随着社区发展，技术交流群不再进行一对一解答问题，请公开求助，让更多人受益。
+
+:::
+
+### 免责声明
+
+LeaferJS 采用 MIT 协议，免费开源，使用前请阅读 [免责声明](./disclaimer.md)。我们欢迎社区用户相互帮助和贡献，我们没有义务解答、修复所有问题（会尽力参与），为了让 LeaferJS 变得更强大，我们的精力主要投入在产品开发上，希望大家共同参与、互相支持，让社区更加繁荣！
 
 ## 增强 LeaferJS
 
@@ -113,4 +165,4 @@ LeaferJS 不仅致力打造前沿的 2D 和未来的 3D 引擎技术，更希望
 
 我们知道成功并非一蹴而就，所以我们接纳路途中的失败、偶尔的躺平，只要拥有坚韧的气质和永不放弃的精神，从失败中吸取教训，不断成长，积累一个个小小的胜利，就一定会抵达目的地。
 
-希望我们能一起创办出 **一家像胖东来一样的新型互联网企业和社区，** 如果你喜欢这样的文化，欢迎阅读 [贡献指南](/contribute/guide.md)，可以一起参与进来。
+希望我们能一起创办出 **一家新型互联网企业和社区，** 如果你喜欢这样的文化，欢迎阅读 [贡献指南](../contribute/guide.md)，可以一起参与进来。

@@ -1,6 +1,6 @@
 # Leafer
 
-创建 Leafer 引擎，了解初始化 [引擎配置](/reference/config/app/base.md)、[视口交互](/guide/advanced/viewport.md)。
+创建 Leafer 引擎，了解初始化 [引擎配置](../config/app/base.md)、[视口交互](../../guide/advanced/viewport.md)。
 
 <br/>
 
@@ -50,11 +50,11 @@ App 实例, 如果不存在则是自身。
 
 子元素是否响应交互事件，默认为 true。
 
-### config: [`ILeaferConfig`](/reference/config/app/base.md)
+### config: [`ILeaferConfig`](../config/app/base.md)
 
 引擎的配置对象，部分配置运行中可以修改，立即生效。
 
-### canvas: [`ILeaferCanvas`](/api/interfaces/ILeaferCanvas.md)
+### canvas: [`ILeaferCanvas`](../../api/interfaces/ILeaferCanvas.md)
 
 可以适配不同平台的画布封装对象。
 
@@ -72,17 +72,17 @@ console.log('canvas', canvas) // HTMLCanvasElement
 console.log('2d context', context) // CanvasRenderingContext2D
 ```
 
-可结合 [RenderEvent.END](/reference/event/basic/Render.md) 事件 drawImage() 到另一张小 canvas 上，实现高性能的鸟瞰图。
+可结合 [RenderEvent.END](../event/basic/Render.md) 事件 drawImage() 到另一张小 canvas 上，实现高性能的鸟瞰图。
 
 ## 视口属性（viewport）
 
 ### zoomLayer：[`Group`](./Group.md)
 
-缩放平移视图层， 默认为 Leafer 自身，可 [单独指定缩放层](/reference/display/Leafer.md#单独指定缩放层)。
+缩放平移视图层， 默认为 Leafer 自身，可 [单独指定缩放层](./Leafer.md#单独指定缩放层)。
 
-可以手动修改它的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scale](/reference/UI/layout.md#scale-number-ipointdata)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 属性进行缩放平移视图，监听 [视图变化事件](/reference/event/basic/Leafer.md#视图事件)。
+可以手动修改它的 [x](../UI/layout.md)、[y](../UI/layout.md)、[scale](../UI/layout.md#scale-number-ipointdata)、[scaleX](../UI/layout.md#scalex-number)、[scaleY](../UI/layout.md#scaley-number) 属性进行缩放平移视图，监听 [视图变化事件](../event/basic/Leafer.md#视图事件)。
 
-另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
+另通过 [视图控制插件](../../plugin/in/view/index.md) / [滚动条插件](../../plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
 ### 画布平移 move
 
@@ -106,7 +106,7 @@ y 轴画布缩放比例，为负数时表示镜像 Y 轴。
 
 ### 计算属性
 
-### scale: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### scale: `number` ｜ [`IPointData`](../interface/math/Math.md#ipointdata)
 
 快速设置 / 获取 scaleX, scaleY。
 
@@ -158,7 +158,7 @@ leafer.on(LeaferEvent.VIEW_READY, function () {
 
 实时渲染帧率， 默认与当前显示器的刷新频率一致（一般为每秒 60 帧，最高 120 帧）。
 
-引擎支持配置 [maxFPS](/reference/config/app/base.md#maxfps-number) 来控制最高渲染帧率，节省性能开销。
+引擎支持配置 [maxFPS](../config/app/base.md#maxfps-number) 来控制最高渲染帧率，节省性能开销。
 
 ### layoutLocked: `boolean`
 
@@ -166,13 +166,13 @@ leafer.on(LeaferEvent.VIEW_READY, function () {
 
 ### cursorPoint：[`IPointData`](../interface/math/Math#ipointdata)
 
-当前光标的位置 - [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)。
+当前光标的位置 - [世界坐标](../../guide/advanced/coordinate.md#world-世界坐标系)。
 
 ### clientBounds：[`IBoundsData`](../interface/math/Math#iboundsdata)
 
 当前引擎在浏览器窗口中的位置（client 坐标）及宽高。
 
-另可使用 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法转换浏览器原生事件坐标到引擎中。
+另可使用 [getWorldPointByClient()](./Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法转换浏览器原生事件坐标到引擎中。
 
 ## 辅助属性
 
@@ -182,15 +182,15 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ## 缓存属性
 
-需安装 [查找元素插件](/plugin/in/find/index.md) 才能使用, App 结构下要设置在子 Leafer 实例上才能生效。
+需安装 [查找元素插件](../../plugin/in/find/index.md) 才能使用, App 结构下要设置在子 Leafer 实例上才能生效。
 
 ### cacheId: `boolean`
 
-是否在创建元素时，全局缓存id元素，提升查找 [id](/reference/UI/find.md#通过-id-查找) 的速度。
+是否在创建元素时，全局缓存id元素，提升查找 [id](../UI/find.md#通过-id-查找) 的速度。
 
 ### cacheInnerId: `boolean`
 
-是否在创建元素时，全局缓存innerId元素，提升查找 [innerId](/reference/UI/find.md#通过-innerid-查找) 的速度。
+是否在创建元素时，全局缓存innerId元素，提升查找 [innerId](../UI/find.md#通过-innerid-查找) 的速度。
 
 启用 cacheInnerId 时，必须同时启用 cacheId 才能生效。
 
@@ -202,7 +202,7 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ## 关键方法
 
-### resize ( size: [`IScreenSizeData`](/api/interfaces/IScreenSizeData.md))
+### resize ( size: [`IScreenSizeData`](../../api/interfaces/IScreenSizeData.md))
 
 重置画布大小。
 
@@ -230,15 +230,15 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 已完成则立即执行。
 
-### forceRender ( bounds?: [`IBoundsData`](/api/interfaces/IBoundsData.md), sync?: `boolean` )
+### forceRender ( bounds?: [`IBoundsData`](../../api/interfaces/IBoundsData.md), sync?: `boolean` )
 
 强制渲染（异步），默认重渲染整个画布。
 
-支持传入一个 bounds 进行局部重渲染, 可以打开 [显示重绘区域](/reference/debug/basic.md#showrepaint-boolean) 查看重绘情况。
+支持传入一个 bounds 进行局部重渲染, 可以打开 [显示重绘区域](../debug/basic.md#showrepaint-boolean) 查看重绘情况。
 
 当 sync 参数设为 true 时，表示立即同步渲染。
 
-### updateCursor ( cursor?: [`ICursorType`](/api/modules.md#icursortype) )
+### updateCursor ( cursor?: [`ICursorType`](../../api/modules.md#icursortype) )
 
 更新光标样式，默认更新当前 hover 元素的 cursor 样式 （注意按下鼠标后的光标样式会始终保持，直到抬起鼠标）。
 
@@ -282,15 +282,15 @@ leafer.start()
 
 ### updateClientBounds ( )
 
-强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），如 view 使用了 transform 属性移动需要调用此方法手动更新。
+强制更新画布的 [clientBounds](./Leafer.md#clientbounds-iboundsdata)（一般会自动更新），如 view 使用了 transform 属性移动需要调用此方法手动更新。
 
 ### getWorldPointByClient ( clientPoint: `IClientPointData`, update?: `boolean` ):[`IPointData`](../interface/math/Math#ipointdata)
 
-获取 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](/guide/advanced/coordinate.md#拖拽创建图形)。
+获取 [世界坐标](../../guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [世界坐标](../../guide/advanced/coordinate.md#world-世界坐标系)），update 表示是否强制更新画布的 [clientBounds](./Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](../../guide/advanced/coordinate.md#拖拽创建图形)。
 
 ### getPagePointByClient ( clientPoint: `IClientPointData`, update?: `boolean` ):[`IPointData`](../interface/math/Math#ipointdata)
 
-获取 [page 坐标](/guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](/guide/advanced/coordinate.md#拖拽创建图形)。
+获取 [page 坐标](../../guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [page 坐标](../../guide/advanced/coordinate.md#page-场景坐标系)），update 表示是否强制更新画布的 [clientBounds](./Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](../../guide/advanced/coordinate.md#拖拽创建图形)。
 
 可用于转换浏览器原生事件坐标（自带 clientX / clientY 坐标属性）到引擎中。
 
@@ -305,7 +305,7 @@ interface IClientPointData {
 
 ### lockLayout ( )
 
-锁定布局, 锁定前会自动 [updateLayout()](/reference/UI/layout.md#updatelayout) 一次。
+锁定布局, 锁定前会自动 [updateLayout()](../UI/layout.md#updatelayout) 一次。
 
 锁定后，元素的数据变化会暂时收集，但不会更新布局，等待解锁后再进行更新。
 ::: tip
@@ -314,7 +314,7 @@ interface IClientPointData {
 
 ### unlockLayout ( )
 
-## 示例
+解锁布局。
 
 通过锁定可以避免多次重复布局，列表越大，性能优化效果越明显。
 
@@ -331,33 +331,33 @@ leafer.unlockLayout()
 
 ## 配置
 
-### [引擎配置](/reference/config/app/base.md)
+### [引擎配置](../config/app/base.md)
 
 ## 视图
 
-### [缩放平移视图](/guide/advanced/viewport.md)
+### [缩放平移视图](../../guide/advanced/viewport.md)
 
 ## 监听事件
 
-### [LeaferEvent](/reference/event/basic/Leafer.md)
+### [LeaferEvent](../event/basic/Leafer.md)
 
-### [ChildEvent](/reference/event/basic/Child.md)
+### [ChildEvent](../event/basic/Child.md)
 
-### [PropertyEvent](/reference/event/basic/Property.md)
+### [PropertyEvent](../event/basic/Property.md)
 
-### [WatchEvent](/reference/event/basic/Watch.md)
+### [WatchEvent](../event/basic/Watch.md)
 
-### [LayoutEvent](/reference/event/basic/Layout.md)
+### [LayoutEvent](../event/basic/Layout.md)
 
-### [RenderEvent](/reference/event/basic/Render.md)
+### [RenderEvent](../event/basic/Render.md)
 
-### [KeyEvent](/reference/event/ui/Key.md)
+### [KeyEvent](../event/ui/Key.md)
 
-### [ResizeEvent](/reference/event/basic/Resize.md)
+### [ResizeEvent](../event/basic/Resize.md)
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Group](./Group.md) -->
+### Leafer &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 示例
 
@@ -433,7 +433,7 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 
 ### 创建自适应布局的 Leafer
 
-当画布的父节点尺寸改变后会自动 resize， [了解详情](/reference/config/app/canvas.md#自适应布局)。
+当画布的父节点尺寸改变后会自动 resize， [了解详情](../config/app/canvas.md#自适应布局)。
 
 ::: code-group
 ```ts
@@ -474,9 +474,9 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 
 ### 创建自动生长的 Leafer
 
-画布大小会生长，自动贴合实际内容，用于快速在 HTML 中嵌入 Leafer 元素，[了解详情](/reference/config/app/canvas.md#自动生长)。
+画布大小会生长，自动贴合实际内容，用于快速在 HTML 中嵌入 Leafer 元素，[了解详情](../config/app/canvas.md#自动生长)。
 
-注意 [App 结构](/guide/advanced/app.md) 暂不支持此功能。
+注意 [App 结构](../../guide/advanced/app.md) 暂不支持此功能。
 
 ::: code-group
 ```ts
@@ -526,7 +526,7 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 
 ### 单独指定缩放层
 
-默认将 leafer 自身作为平移缩放层(viewport 视口)，可单独指定一个 [Group](/reference/display/Group.md) 作为平移缩放层。
+默认将 leafer 自身作为平移缩放层(viewport 视口)，可单独指定一个 [Group](./Group.md) 作为平移缩放层。
 
 ::: code-group
 ```ts

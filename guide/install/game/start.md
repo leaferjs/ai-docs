@@ -4,11 +4,11 @@ import Case from '/component/Case.vue'
 
 # leafer-game
 
-在 [leafer-ui](/guide/install/ui/start.md) 基础上，引入了 [Robot](/plugin/in/robot/index.md) 、[交互状态](/plugin/in/state/index.md) 、 [动画](/plugin/in/animate/index.md)、[运动路径](/plugin/in/motion-path/index.md)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
+在 [leafer-ui](../ui/start.md) 基础上，引入了 [Robot](../../../plugin/in/robot/index.md) 、[交互状态](../../../plugin/in/state/index.md) 、 [动画](../../../plugin/in/animate/index.md)、[运动路径](../../../plugin/in/motion-path/index.md)、[查找元素](../../../plugin/in/find/index.md) 插件，适用于小游戏场景。
 
 ##
 
-### web 版 &nbsp; &nbsp; [worker 版](/guide/install/game/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/game/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/game/miniapp/start.md)
+### web 版 &nbsp; &nbsp; [worker 版](./worker/start.md) &nbsp; &nbsp; [node 版](./node/start.md) &nbsp; &nbsp; [小程序版](./miniapp/start.md)
 
 ##
 
@@ -36,14 +36,14 @@ bun add leafer-game
 
 :::
 
-同时我们提供了 [Playground 环境](/guide/runtime.md) 和 [create-leafer 命令行工具](/create/leafer.md)，方便大家直接体验官网示例。
+同时我们提供了 [Playground 环境](../../runtime.md) 和 [create-leafer 命令行工具](../../../create/leafer.md)，方便大家直接体验官网示例。
 
 #### 或通过 script 标签引入
 
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-game@2.0.8/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-game@2.0.9/dist/web.min.js"></script>
 <script>
   const { Leafer, Robot, Animate } = LeaferUI
   // ...
@@ -51,7 +51,7 @@ bun add leafer-game
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-game@2.0.8/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-game@2.0.9/dist/web.js"></script>
 <script>
   const { Leafer, Robot, Animate } = LeaferUI
   // ...
@@ -64,7 +64,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@2.0.8/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer-game@2.0.9/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -75,7 +75,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@2.0.8/dist/web.module.js'
+  } from 'https://unpkg.com/leafer-game@2.0.9/dist/web.module.js'
   // ...
 </script>
 ```
@@ -86,23 +86,23 @@ bun add leafer-game
 
 ## 更新
 
-了解如何 [快速更新版本](/guide/update.md)。
+了解如何 [快速更新版本](../../update.md)。
 
 ## 使用
 
-使用方式、全局变量和 [leafer-ui](/guide/install/ui/start.md) 一致, 只需改下包名，即可运行官网示例代码。
+使用方式、全局变量和 [leafer-ui](../ui/start.md) 一致, 只需改下包名，即可运行官网示例代码。
 
 ## create-leafer 命令行工具
 
-### 直接创建 [Vue + Leafer 项目](/create/leafer.md)
+### 直接创建 [Vue + Leafer 项目](../../../create/leafer.md)
 
-### 在项目中 [快速集成 Leafer](/create/leafer.md)
+### 在项目中 [快速集成 Leafer](../../../create/leafer.md)
 
-### 在项目中 [安装、升级插件](/create/leafer.md)
+### 在项目中 [安装、升级插件](../../../create/leafer.md)
 
 ## Playground 环境
 
-### 想直接运行官网示例代码，可以使用 [Playground 环境](/guide/runtime.md) 。
+### 想直接运行官网示例代码，可以使用 [Playground 环境](../../runtime.md) 。
 
 ## 开始体验
 

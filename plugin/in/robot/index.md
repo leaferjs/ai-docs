@@ -15,7 +15,7 @@ import Case from '/component/Case.vue'
 按住、抬起不同的方向键试试～
 
 ::: tip 继承
-Robot &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+Robot &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 :::
 
 ## 安装插件
@@ -47,14 +47,14 @@ bun add @leafer-in/robot
 ::: code-group
 
 ```html [robot.min]
-<script src="https://unpkg.com/@leafer-in/robot@2.0.8/dist/robot.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@2.0.9/dist/robot.min.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>
 ```
 
 ```html [robot]
-<script src="https://unpkg.com/@leafer-in/robot@2.0.8/dist/robot.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@2.0.9/dist/robot.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>
@@ -66,7 +66,7 @@ bun add @leafer-in/robot
 
 ## 关键属性
 
-### robot: [`IRobotKeyframe`](/api/interfaces/IRobotKeyframe.md) | [`IRobotKeyframe`](/api/interfaces/IRobotKeyframe.md) []
+### robot: [`IRobotKeyframe`](../../../api/interfaces/IRobotKeyframe.md) | [`IRobotKeyframe`](../../../api/interfaces/IRobotKeyframe.md) []
 
 机器人的图片序列帧，按顺序加载，从 0 开始对图片帧进行编号。
 
@@ -82,7 +82,7 @@ interface IRobotKeyframe {
 }
 ```
 
-### actions: [`IRobotActions`](/api/interfaces/IRobotActions.md)
+### actions: [`IRobotActions`](../../../api/interfaces/IRobotActions.md)
 
 预设动作列表， 一个键值对象（通过图片帧编号进行组合）。
 
@@ -116,13 +116,13 @@ interface IRobotAnimation {
 
 是否循环播放动作中的图片帧。
 
-<!-- ## 继承元素
+## 继承元素
 
-### [UI](/reference/display/UI.md) -->
+### Robot &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 <!-- ## API
 
-### [Robot](/api/classes/Robot.md) -->
+### [Robot](../../../api/classes/Robot.md) -->
 
 ## 示例
 

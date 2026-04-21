@@ -31,11 +31,11 @@ bun add @leafer-in/find
 ::: code-group
 
 ```html [find.min]
-<script src="https://unpkg.com/@leafer-in/find@2.0.8/dist/find.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/find@2.0.9/dist/find.min.js"></script>
 ```
 
 ```html [find]
-<script src="https://unpkg.com/@leafer-in/find@2.0.8/dist/find.js"></script>
+<script src="https://unpkg.com/@leafer-in/find@2.0.9/dist/find.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
@@ -44,6 +44,6 @@ bun add @leafer-in/find
 
 ## 下一步
 
-### [find ()](/reference/UI/find.md)
+### [find ()](../../../reference/UI/find.md)
 
-### [findOne ()](/reference/UI/findOne.md)
+### [findOne ()](../../../reference/UI/findOne.md)

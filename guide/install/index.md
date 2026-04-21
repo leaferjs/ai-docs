@@ -2,11 +2,11 @@
 
 ## 通用场景
 
-🚀 想马上在产品中使用，请安装 [leafer-ui](https://leaferjs.com/ui/guide/install/ui/start.html)（66KB min+gzip 零依赖），开始你的探索之旅。
+🚀 想马上在产品中使用，请安装 [leafer-ui](https://leaferjs.com/ui/guide/install/ui/start.html)（70KB min+gzip 零依赖），开始你的探索之旅。
 
 ## 高效绘图场景
 
-高效绘图场景，推荐直接安装更轻量的 [leafer-draw](https://leaferjs.com/ui/guide/install/draw/start.html) （56KB min+gzip）。
+高效绘图场景，推荐直接安装更轻量的 [leafer-draw](https://leaferjs.com/ui/guide/install/draw/start.html) （58KB min+gzip）。
 
 ## 游戏开发场景
 
@@ -20,4 +20,4 @@
 
 也可直接安装 [leafer](https://leaferjs.com/ui/guide/install/leafer/start.md) 全量包, 会自动安装 `leafer-ui` 包和 `@leafer-in/*` 所有插件包。
 
-可通过 [import 子包](/guide/install/leafer/start.md#import-子包) 缩小打包体积，让官方示例代码可直接复制使用，需了解 [注意事项](/guide/install/leafer/start.md#import-子包)！
+可通过 [import 子包](./leafer/start.md#import-子包) 缩小打包体积，让官方示例代码可直接复制使用，需了解 [注意事项](./leafer/start.md#import-子包)！
