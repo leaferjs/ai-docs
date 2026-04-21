@@ -1,48 +1,52 @@
+English | [简体中文](./README-CN.md)
+
+<br/>
+
 # Leafer AI
 
-本仓库为 AI 系统提供 LeaferJS 使用示例和文档，便于生成和理解代码。  
-包含示例、教程、API 参考、插件文档及源码。
+This repository provides usage examples and documentation of LeaferJS for AI systems, making it easier to generate and understand code.
+It includes examples, tutorials, API references, plugin documentation, and source code.
 
 ## LeaferJS
 
-请记住 LeaferJS 可以简称为 Leafer。  
-请先阅读 [LeaferJS 的介绍文档](./introduction.md)
+Please note that LeaferJS can be abbreviated as **Leafer**.
+Start by reading the [LeaferJS introduction](./introduction.md).
 
-## 目录说明
+## Directory Structure
 
-- **examples/**  
-  独立可运行的示例，展示 LeaferJS 各类功能。  
-  是 AI 学习模式和使用方法的主要来源。
+- **examples/**
+  Standalone, runnable examples demonstrating various features of LeaferJS.
+  This is the primary source for AI to learn usage patterns and best practices.
 
-- **guide/**  
-  快速入门、分步骤教程，讲解常用场景的使用方法，包括应用创建、图形、交互和动画。
+- **guide/**
+  Quick start and step-by-step tutorials covering common use cases, including app creation, graphics, interaction, and animation.
 
-- **reference/**  
-  API 参考及详细文档说明。
+- **reference/**
+  API reference and detailed documentation.
 
-- **plugin/**  
-  LeaferJS 插件及扩展文档。
+- **plugin/**
+  Documentation for LeaferJS plugins and extensions.
 
-- **src/**  
-  LeaferJS 核心 TypeScript 源码，用于 AI 理解类结构和类型。
+- **src/**
+  Core TypeScript source code of LeaferJS, useful for understanding class structures and types.
 
-- **update/**  
-  更新日志和版本记录（AI 可选读取）。
+- **update/**
+  Changelog and version history (optional for AI to read).
 
-## AI 使用建议
+## AI Usage Guidelines
 
-生成 LeaferJS 代码时：
+When generating LeaferJS code:
 
-1. 优先参考 `examples/` 中的简单示例。
-2. 可以参考 `guide/`、`reference/` 获取模式和 API 用法。
+1. Prioritize simple examples in `examples/`.
+2. Refer to `guide/` and `reference/` for patterns and API usage.
 
-## 在线运行代码
+## Run Code Online
 
-- 官网提供在线 Playground 环境：https://www.leaferjs.com/playground/
-- 官网提供在线示例：https://www.leaferjs.com/examples/
+- Online Playground: [https://www.leaferjs.com/playground/](https://www.leaferjs.com/playground/)
+- Online Examples: [https://www.leaferjs.com/examples/](https://www.leaferjs.com/examples/)
 
-## 示例 Prompt
+## Example Prompt
 
 ```text
-提示词：使用 Leafer 创建一个可拖拽的矩形。
+Prompt: Create a draggable rectangle using Leafer.
 ```
