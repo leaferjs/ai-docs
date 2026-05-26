@@ -1,5 +1,5 @@
 import { ILeaferCanvas, IBoolean, INumber, IString, IBoundsData, IUnitData, IRenderOptions, IFourNumber } from '@leafer/interface'
-import { BoundsHelper, boundsType, surfaceType, dataProcessor, registerUI, affectStrokeBoundsType, dataType, hitType, MathHelper, DataHelper } from '@leafer/core'
+import { BoundsHelper, boundsType, surfaceType, dataProcessor, registerUI, affectStrokeBoundsType, dataType, hitType, MathHelper, DataHelper, FourNumberHelper } from '@leafer/core'
 
 import { IFill, IText, IFontWeight, ITextCase, ITextDecoration, ITextData, ITextInputData, ITextAlign, IVerticalAlign, ITextDrawData, ITextOverflow, IStrokeAlign, IHitType, ITextWrap, IWritingMode, IBackgroundBoxStyle } from '@leafer-ui/interface'
 import { TextData } from '@leafer-ui/data'
@@ -9,7 +9,7 @@ import { TextConvert, UnitConvert } from '@leafer-ui/external'
 import { UI } from './UI'
 
 
-const { copyAndSpread, includes, spread, setList } = BoundsHelper, { stintSet } = DataHelper
+const { copyAndSpread, includes, setList } = BoundsHelper, { stintSet } = DataHelper
 
 @registerUI()
 export class Text<TConstructorData = ITextInputData> extends UI<TConstructorData> implements IText {
@@ -132,7 +132,7 @@ export class Text<TConstructorData = ITextInputData> extends UI<TConstructorData
 
         layout.contentBounds = contentBounds
 
-        if (data.__lineHeight < fontSize) spread(contentBounds, fontSize / 2)
+        if (data.__lineHeight < fontSize) layout.renderChanged = true
 
         if (autoWidth || autoHeight) {
             b.x = autoWidth ? contentBounds.x : 0
@@ -159,6 +159,9 @@ export class Text<TConstructorData = ITextInputData> extends UI<TConstructorData
     override __updateRenderSpread(): IFourNumber {
         let spread = super.__updateRenderSpread()
         if (!spread) spread = this.isOverflow ? 1 : 0
+
+        const { __lineHeight, fontSize } = this.__
+        if (__lineHeight < fontSize) spread = FourNumberHelper.max(spread, (fontSize - __lineHeight) / 2)
         return spread
     }
 

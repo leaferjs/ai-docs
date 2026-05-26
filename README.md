@@ -50,3 +50,9 @@
 ```text
 提示词：使用 Leafer 创建一个可拖拽的矩形。
 ```
+
+## 作为 Skills 直接使用
+
+下载本仓库后本地解压，名称改为 leafer-skills
+
+可直接放在 cluade、codex 等工具的 skills 目录下使用

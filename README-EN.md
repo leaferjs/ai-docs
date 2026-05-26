@@ -50,3 +50,9 @@ When generating LeaferJS code:
 ```text
 Prompt: Create a draggable rectangle using Leafer.
 ```
+
+## Use Directly as Skills
+
+Download and extract this repository locally, then rename it to `leafer-skills`.
+
+You can place it directly into the `skills` directory of tools such as Claude, Codex, etc.
