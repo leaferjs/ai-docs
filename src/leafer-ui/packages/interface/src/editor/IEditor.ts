@@ -1,4 +1,4 @@
-import { IGroup, IUI, IBox, IRectInputData, ISelectorProxy, IEditSize, ICursorType, IAlign, IUnitPointData, IDragEvent, IMoveEvent, IRotateEvent, IStroke, IFill, ILeaf, ILeafList, IObject, IBoxInputData, IGroupInputData, IImageCursor, IKeyEvent, IUIInputData, IZoomEvent, IColorString, IDirection4, IPointData, IScaleData, ISkewData, ILayoutBoundsData, ITransition, IFourNumber, IShortcutKeys, IShortcutKeysCheck, IUIEvent, ILeafer } from '@leafer-ui/interface'
+import { IGroup, IUI, IBox, IRectInputData, ISelectorProxy, IEditSize, ICursorType, IAlign, IUnitPointData, IDragEvent, IMoveEvent, IRotateEvent, IStroke, IFill, ILeaf, ILeafList, IObject, IBoxInputData, IGroupInputData, IImageCursor, IKeyEvent, IUIInputData, IZoomEvent, IColorString, IDirection4, IPointData, IScaleData, ISkewData, ILayoutBoundsData, ITransition, IFourNumber, IShortcutKeys, IShortcutKeysCheck, IUIEvent, ILeafer, IBoundsType } from '@leafer-ui/interface'
 
 export interface IEditorBase extends IGroup, ISelectorProxy, ITransformTool {
     config: IEditorConfig
@@ -91,7 +91,7 @@ export interface ITransformTool {
     onSkew(e: IDragEvent): void
 
     move(x: number | IPointData, y?: number, transition?: ITransition): void
-    scaleOf(origin: IPointData | IAlign, scaleX: number, scaleY?: number | ITransition, resize?: boolean, transition?: ITransition): void
+    scaleOf(origin: IPointData | IAlign, scaleX: number, scaleY?: number | ITransition, resize?: boolean, transition?: ITransition, boundsType?: IBoundsType): void
     rotateOf(origin: IPointData | IAlign, rotation: number, transition?: ITransition): void
     skewOf(origin: IPointData | IAlign, skewX: number, skewY?: number, resize?: boolean, transition?: ITransition): void
 }
@@ -153,12 +153,14 @@ export interface IEditorConfig extends IObject {
 
     selector?: boolean
     editBox?: boolean
+    editBoxType?: IBoundsType
     hover?: boolean
     hoverStyle?: IUIInputData
+    hoverPathType?: 'path' | 'render-path' | 'box' | 'stroke'
     select?: 'press' | 'tap'
     selectKeep?: boolean
     selectedStyle?: IUIInputData
-    selectedPathType?: 'path' | 'render-path'
+    selectedPathType?: 'path' | 'render-path' | 'box' | 'stroke'
     multipleSelect?: boolean
 
     boxSelect?: boolean

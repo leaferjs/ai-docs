@@ -82,7 +82,8 @@ export const PathConvert = {
                 // m/M命令连续数据需转成l/L: m1 1 2 2m5 5 6 6
                 if (char === 'm') current.name = Command['l']
                 else if (char === 'M') current.name = Command['L']
-                else if (!needConvert && convertCommand[char]) needConvert = true
+
+                if (!needConvert && convertCommand[char]) needConvert = true
 
             } else {
 
@@ -169,8 +170,8 @@ export const PathConvert = {
                     command = S
                 case S:
                     smooth = (lastCommand === C) || (lastCommand === S)
-                    x1 = smooth ? (x * 2 - controlX) : old[i + 1]
-                    y1 = smooth ? (y * 2 - controlY) : old[i + 2]
+                    x1 = smooth ? (x * 2 - controlX) : x
+                    y1 = smooth ? (y * 2 - controlY) : y
                     controlX = old[i + 1]
                     controlY = old[i + 2]
                     x = old[i + 3]
@@ -204,8 +205,8 @@ export const PathConvert = {
                     command = T
                 case T:  //smooth
                     smooth = (lastCommand === Q) || (lastCommand === T)
-                    controlX = smooth ? (x * 2 - controlX) : old[i + 1]
-                    controlY = smooth ? (y * 2 - controlY) : old[i + 2]
+                    controlX = smooth ? (x * 2 - controlX) : x
+                    controlY = smooth ? (y * 2 - controlY) : y
                     curveMode ? quadraticCurveTo(data, x, y, controlX, controlY, old[i + 1], old[i + 2]) : data.push(Q, controlX, controlY, old[i + 1], old[i + 2])
                     x = old[i + 1]
                     y = old[i + 2]
