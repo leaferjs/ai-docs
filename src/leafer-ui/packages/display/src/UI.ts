@@ -1,5 +1,5 @@
 import { ILeaferCanvas, IRenderOptions, IPathDrawer, IPathCommandData, IHitType, INumber, IBoolean, IString, IPathString, IExportFileType, IPointData, ICursorType, IMaskType, IEraserType, IWindingRule, IPathCreator, IFourNumber, IBoundsData, IFlowType, IGap, IFlowWrap, IAxis, IConstraint, IAutoBoxData, IFlowBoxType, IPointGap, IFlowAlign, IFlowAxisAlign, IFindCondition, IAutoSize, IRangeSize, IAlign, IUnitPointData, IObject, IScaleData, IUnitData, IPathCommandObject, ITransition, IFilter, IScaleFixed, IDragBoundsType, IPathCommandNode } from '@leafer/interface'
-import { Leaf, PathDrawer, surfaceType, dimType, dataType, positionType, scrollType, boundsType, pathType, scaleType, rotationType, opacityType, visibleType, sortType, maskType, dataProcessor, registerUI, useModule, rewrite, rewriteAble, UICreator, PathCorner, hitType, strokeType, PathConvert, eraserType, cursorType, autoLayoutType, pen, naturalBoundsType, pathInputType, MathHelper, Plugin, DataHelper, affectRenderBoundsType, isString, isNumber } from '@leafer/core'
+import { Leaf, PathDrawer, surfaceType, dimType, dataType, positionType, scrollType, boundsType, pathType, scaleType, rotationType, opacityType, visibleType, sortType, maskType, dataProcessor, registerUI, useModule, rewriteAble, UICreator, PathCorner, hitType, strokeType, PathConvert, eraserType, cursorType, autoLayoutType, pen, naturalBoundsType, pathInputType, MathHelper, Plugin, DataHelper, affectRenderBoundsType, isString, isNumber } from '@leafer/core'
 
 import { IUI, IShadowEffect, IBlurEffect, IStrokeAlign, IStrokeJoin, IStrokeCap, IBlendMode, IDashPatternString, IShadowString, IGrayscaleEffect, IUIData, IGroup, IStrokeWidthString, ICornerRadiusString, IUIInputData, IExportOptions, IExportResult, IFill, IStroke, IArrowStyle, IFindUIMethod, ILeafer, IEditorConfig, IEditorConfigFunction, IEditToolFunction, IKeyframe, IAnimation, IAnimate, IStates, IStateName, IAnimateType, IStateStyle, IColorString, IAnimateList, ILeafPaint, ILinker, IPathCommandDataWithRadius } from '@leafer-ui/interface'
 import { effectType, zoomLayerType } from '@leafer-ui/decorator'
@@ -419,12 +419,6 @@ export class UI<TInputData = IUIInputData> extends Leaf<TInputData> implements I
     }
 
 
-    // data
-
-    @rewrite(Leaf.prototype.reset)
-    public reset(_data?: IUIInputData): void { }
-
-
     // @leafer-in/animate and @leafer-in/state will rewrite
 
     public set(data: IUIInputData, _transition?: ITransition | 'temp'): void {
@@ -434,9 +428,6 @@ export class UI<TInputData = IUIInputData> extends Leaf<TInputData> implements I
     public get<K extends keyof this>(name?: K | K[] | IUIInputData): IUIInputData | this[K] {
         return isString(name) ? this.__.__getInput(name) : this.__.__getInputData(name as string[] | undefined)
     }
-
-    public createProxyData(): IUIInputData { return undefined }
-    public clearProxyData(): void { }
 
 
     // hit rewrite
@@ -477,6 +468,8 @@ export class UI<TInputData = IUIInputData> extends Leaf<TInputData> implements I
             (data.lazy && !this.__inLazyBounds && !Export.running) ? data.__needComputePaint = true : data.__computePaint()
         }
     }
+
+    public __updatePath(): void { }
 
     public __updateRenderPath(updateCache?: boolean): void {
         const data = this.__
@@ -521,9 +514,6 @@ export class UI<TInputData = IUIInputData> extends Leaf<TInputData> implements I
         this.set(keyframe as IUIInputData)
         return Plugin.need('animate')
     }
-
-    public killAnimate(_type?: IAnimateType, _nextStyle?: IUIInputData): void { }
-
 
     // create
 
@@ -571,5 +561,17 @@ export class UI<TInputData = IUIInputData> extends Leaf<TInputData> implements I
         if (this.__animate) this.killAnimate()
         super.destroy()
     }
+
+}
+
+export interface UI {
+
+    reset(data?: IUIInputData): void
+
+    createProxyData(): IUIInputData
+    clearProxyData(): void
+
+    // @leafer-in/animate rewrite
+    killAnimate(type?: IAnimateType, nextStyle?: IUIInputData): void
 
 }

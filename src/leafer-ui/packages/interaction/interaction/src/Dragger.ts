@@ -219,7 +219,6 @@ export class Dragger {
         this.dragDataList = []
     }
 
-
     // @leafer-in/viewport will rewrite
 
     public checkDragEndAnimate(_data: IPointerEvent, _speed?: number): boolean | number { return false }
