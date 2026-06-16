@@ -9,6 +9,7 @@ const ellipse = new Ellipse({  // [!code hl:11]
     startAngle: -60,
     endAngle: 180,
     innerRadius: 1,
+    closed: false,  // 建议加上，性能更好
     stroke: "#32cd79",
     strokeWidth: 10,
     strokeAlign: 'center',

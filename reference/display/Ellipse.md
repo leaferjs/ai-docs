@@ -55,6 +55,10 @@ endAngle: 180
 innerRadius: 0.5
 ```
 
+### closed: `boolean`
+
+是否自动闭合路径，默认为 true。
+
 ## 圆角属性
 
 ### cornerRadius: `number`
@@ -262,6 +266,7 @@ const ellipse = new Ellipse({  // [!code hl:11]
     startAngle: -60,
     endAngle: 180,
     innerRadius: 1,
+    closed: false,  // 建议加上，性能更好
     stroke: "#32cd79",
     strokeWidth: 10,
     strokeAlign: 'center',
@@ -284,6 +289,7 @@ const ellipse = new Ellipse({  // [!code hl:12]
     startAngle: -60,
     endAngle: 180,
     innerRadius: 1,
+    closed: false,  // 建议加上，性能更好
     stroke: "#32cd79",
     strokeWidth: 10,
     strokeAlign: 'center',
