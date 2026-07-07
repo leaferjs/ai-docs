@@ -1,4 +1,4 @@
-import { IPathDrawer, IPathCommandData } from '@leafer/interface'
+import { IPathDrawer, IPathCommandData, IPointData } from '@leafer/interface'
 import { OneRadian, PI2 } from '@leafer/math'
 import { Debug } from '@leafer/debug'
 
@@ -80,6 +80,9 @@ export const PathDrawer = {
             }
         }
 
-    }
+    },
+
+    // need rewrite
+    drawPathByPoints(_drawer: IPathDrawer, _points: number[] | IPointData[], _closed: boolean): void { },
 
 }
