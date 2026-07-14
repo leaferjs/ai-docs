@@ -47,6 +47,9 @@ export interface IArrowInputData extends IArrowAttrData, ILineInputData { }
 export interface ILinker extends ILine {
     __: ILinkerData
 
+    startPoint?: ILinkerPointData
+    endPoint?: ILinkerPointData
+
     startNode: IUI
     endNode: IUI
 
@@ -642,7 +645,7 @@ export interface IUIComputedData extends IUIAttrData, IFillComputedData, IBorder
 
 }
 
-export interface IUIBaseInputData extends IUIAttrData, IFillInputData, IStrokeInputData, ITextStyleInputData, ICornerRadiusInputData, IEffectInputData, ILeafInputData {
+export interface IUIBaseInputData extends IUIAttrData, IFillInputData, IStrokeInputData, ITextStyleInputData, ICornerRadiusInputData, IEffectInputData, ILeafInputData, IObject {
     children?: IUIInputData[]
 }
 
@@ -677,7 +680,7 @@ export type IUITag =
     | 'CanvasBox'
 
 
-export interface IUIInputData extends IRectInputData, IEllipseInputData, IPolygonInputData, IStarInputData, ILineInputData, IPathInputData, ITextInputData, IImageInputData, IGroupInputData, IBoxInputData, IFrameInputData, IFlowInputData, IArrowInputData, IVideoInputData, IRobotInputData, IUIBaseInputData, IObject {
+export interface IUIInputData extends IRectInputData, IEllipseInputData, IPolygonInputData, IStarInputData, ILineInputData, IPathInputData, ITextInputData, IImageInputData, IGroupInputData, IBoxInputData, IFrameInputData, IFlowInputData, IArrowInputData, IVideoInputData, IRobotInputData, IUIBaseInputData {
     children?: IUIInputData[]
 }
 

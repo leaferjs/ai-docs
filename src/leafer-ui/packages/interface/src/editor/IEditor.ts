@@ -1,4 +1,4 @@
-import { IGroup, IUI, IBox, IRectInputData, ISelectorProxy, IEditSize, ICursorType, IAlign, IUnitPointData, IDragEvent, IMoveEvent, IRotateEvent, IStroke, IFill, ILeaf, ILeafList, IObject, IBoxInputData, IGroupInputData, IImageCursor, IKeyEvent, IUIInputData, IZoomEvent, IColorString, IDirection4, IPointData, IScaleData, ISkewData, ILayoutBoundsData, ITransition, IFourNumber, IShortcutKeys, IShortcutKeysCheck, IUIEvent, ILeafer, IBoundsType } from '@leafer-ui/interface'
+import { IGroup, IUI, IBox, IRectInputData, ISelectorProxy, IEditSize, ICursorType, IAlign, IUnitPointData, IDragEvent, IMoveEvent, IRotateEvent, IStroke, IFill, ILeaf, ILeafList, IObject, IBoxInputData, IGroupInputData, IImageCursor, IKeyEvent, IUIInputData, IZoomEvent, IColorString, IDirection4, IPointData, IScaleData, ISkewData, ILayoutBoundsData, ITransition, IFourNumber, IShortcutKeys, IShortcutKeysCheck, IUIEvent, ILeafer, IBoundsType, IBoundsData } from '@leafer-ui/interface'
 
 export interface IEditorBase extends IGroup, ISelectorProxy, ITransformTool {
     config: IEditorConfig
@@ -113,6 +113,7 @@ export interface IEditorConfig extends IObject {
     point?: IEditPointInputData | IEditPointInputData[]
     middlePoint?: IEditPointInputData | IEditPointInputData[]
     resizeLine?: IEditPointInputData | IEditPointInputData[]
+    linkPoint?: IEditPointInputData | IEditPointInputData[]
 
     rect?: IBoxInputData
     rectThrough?: boolean // 是否穿透rect（穿透后，可以拾取到rect下面的元素，默认单选元素时穿透）
@@ -136,6 +137,7 @@ export interface IEditorConfig extends IObject {
     hideOnSmall?: boolean | number
     hideRotatePoints?: boolean // 是否隐藏透明的旋转控制点
     hideResizeLines?: boolean  // 是否隐藏透明的resize线条
+    hideLinkPoints?: boolean
 
     moveCursor?: ICursorType
     resizeCursor?: IImageCursor
@@ -291,11 +293,15 @@ export interface IEditBoxBase extends IGroup {
     resizePoints: IEditPoint[]
     rotatePoints: IEditPoint[]
     resizeLines: IEditPoint[]
+    linkPoints: IEditPoint[]
 
     enterPoint: IEditPoint
     dragPoint: IEditPoint // 正在拖拽的控制点
 
     dragStartData: IEditorDragStartData
+
+    rectBounds: IBoundsData // 编辑框的bounds
+    showPoints: boolean // 当前是否显示编辑框控制点，元素缩太小时一般会隐藏
 
     config: IEditorConfig
     readonly mergeConfig: IEditorConfig // 合并了config与编辑器的mergeConfig，频繁访问会消耗性能

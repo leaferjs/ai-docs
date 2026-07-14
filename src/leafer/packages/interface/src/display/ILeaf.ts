@@ -80,6 +80,11 @@ export type IHitType =
     | 'all'
     | 'none'
 
+export type IHitThrough =
+    | 'parent'
+    | 'leafer'
+    | 'app'
+
 export type IMaskType =
     | 'path'
     | 'pixel'
@@ -125,6 +130,8 @@ export type IEditSize = 'size' | 'font-size' | 'scale'
 export type IDragBoundsType = 'auto' | 'outer' | 'inner'
 
 export type IMotionVerticalType = 'above' | 'center' | 'below' | number
+
+export type ILinkable = boolean | 'start' | 'end'
 
 export interface IMotionVerticalData {
     type: IMotionVerticalType,
@@ -225,6 +232,12 @@ export interface IFilter extends IObject {
     visible?: boolean
 }
 
+export type IForceUpdateType =
+    | 'bounds'
+    | 'stroke'
+    | 'surface'
+    | (string & {})
+
 export interface ILeafAttrData {
     // layer data
     id?: IString
@@ -245,6 +258,7 @@ export interface ILeafAttrData {
     bright?: IBoolean // 突出显示内容，并置顶渲染，不受dim影响
 
     mask?: IBoolean | IMaskType
+    maskskip?: IBoolean
     eraser?: IBoolean | IEraserType
     filter?: IFilter | IFilter[]
     complex?: boolean
@@ -303,8 +317,10 @@ export interface ILeafAttrData {
     dragBoundsType?: IDragBoundsType
 
     editable?: IBoolean
+    linkable?: ILinkable
 
     hittable?: IBoolean
+    hitThrough?: IHitThrough
     hitFill?: IHitType
     hitStroke?: IHitType
     hitBox?: IBoolean
@@ -356,6 +372,7 @@ export interface ILeafComputedData {
     bright?: boolean // 突出显示内容，并置顶渲染，不受dim影响
 
     mask?: boolean | IMaskType
+    maskskip?: boolean
     eraser?: boolean | IEraserType
     filter?: IFilter[]
     complex?: boolean
@@ -412,8 +429,10 @@ export interface ILeafComputedData {
     dragBoundsType?: IDragBoundsType
 
     editable?: boolean
+    linkable?: ILinkable
 
     hittable?: boolean
+    hitThrough?: IHitThrough
     hitFill?: IHitType
     hitStroke?: IHitType
     hitBox?: boolean
@@ -554,7 +573,7 @@ export interface ILeaf extends ILeafRender, ILeafHit, ILeafBounds, ILeafMatrix, 
     __hasMotionPath?: boolean
     __hasComplex?: boolean
 
-    __hasMask?: boolean
+    __hasMask?: boolean | number // 为 0 时表示 maskskip 状态
     __hasEraser?: boolean
     __hitCanvas?: IHitCanvas
 
@@ -617,7 +636,7 @@ export interface ILeaf extends ILeafRender, ILeafHit, ILeafBounds, ILeafMatrix, 
 
     updateState(): void
     updateLayout(): void
-    forceUpdate(attrName?: string): void
+    forceUpdate(typeOrAttrName?: IForceUpdateType): void
     forceRender(bounds?: IBoundsData, sync?: boolean): void
 
     __extraUpdate(): void // 额外更新
@@ -652,6 +671,7 @@ export interface ILeaf extends ILeafRender, ILeafHit, ILeafBounds, ILeafMatrix, 
     __updateEraser(value?: boolean): void
     __updateMask(value?: boolean): void
     __renderMask(canvas: ILeaferCanvas, options: IRenderOptions): void
+    __rerenderMask(canvas: ILeaferCanvas, options: IRenderOptions): void
     __renderEraser(canvas: ILeaferCanvas, options: IRenderOptions): void
 
     // convert

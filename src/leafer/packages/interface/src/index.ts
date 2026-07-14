@@ -1,6 +1,6 @@
 export { IAppBase } from './app/IApp'
 export { ILeaferBase, ILeaferAttrData, ILeaferType, ILeaferMode, ILeaferTypeCreator, ILeaferTypeFunction, ILeaferTypeList, ILeaferConfig, ICreator, IUICreator, IZoomType, IZoomOptions } from './app/ILeafer'
-export { ILeaf, ILeafAttrData, ILeafComputedData, ILeafInputData, ICachedLeaf, ILeafComplexCachedData, IFlowType, IFlowBoxType, IAlign, IAxisAlign, IFlowAlign, IFlowAxisAlign, ISide, IAxis, IGap, IPointGap, IAxisReverse, IBaseLineAlign, IFlowWrap, IAutoSize, IRangeSize, IInterlace, IPercentData, IUnitData, IConstraint, IConstraintType, IMotionVertical, IMotionVerticalType, IMotionVerticalData, IScaleFixed, IHitType, IMaskType, IEraserType, IBlendMode, IEditSize, IDragBoundsType, IImageCursor, ICursorType, IStateStyleType, IDirection, IDirection4, IAround, IFilter, ILeafAttrDescriptor, ILeafAttrDescriptorFn, IArrowPathData } from './display/ILeaf'
+export { ILeaf, ILeafAttrData, ILeafComputedData, ILeafInputData, ICachedLeaf, ILeafComplexCachedData, IFlowType, IFlowBoxType, IAlign, IAxisAlign, IFlowAlign, IFlowAxisAlign, ISide, IAxis, IGap, IPointGap, IAxisReverse, IBaseLineAlign, IFlowWrap, IAutoSize, IRangeSize, IInterlace, IPercentData, IUnitData, IConstraint, IConstraintType, IMotionVertical, IMotionVerticalType, IMotionVerticalData, IScaleFixed, IHitType, IHitThrough, IMaskType, IEraserType, IBlendMode, IEditSize, ILinkable, IDragBoundsType, IImageCursor, ICursorType, IStateStyleType, IDirection, IDirection4, IAround, IFilter, IForceUpdateType, ILeafAttrDescriptor, ILeafAttrDescriptorFn, IArrowPathData } from './display/ILeaf'
 export { IBranch } from './display/IBranch'
 export { IZoomView } from './display/IView'
 
@@ -56,7 +56,7 @@ export { ICursorTypeMap, ICursorRotate, ICursorRotateMap } from './interaction/I
 export { IInteraction, IInteractionCanvas, IInteractionConfig, IMoveConfig, ICursorConfig, IZoomConfig, IWheelConfig, ITouchConfig, IMultiTouchConfig, ISingleGestureConfig, IPointerConfig } from './interaction/IInteraction'
 export { ITransformer } from './interaction/ITransformer'
 
-export { INumber, IBoolean, IString, IValue, IFourNumber, IPathString, ITimer, IObject, INumberMap, IStringMap, IBooleanMap, IFunctionMap, IPointDataMap, IDataTypeHandle } from './data/IData'
+export { INumber, IBoolean, IString, IValue, IFourNumber, IPathString, ITimer, IObject, INumberMap, IStringMap, IBooleanMap, IFunctionMap, IPointDataMap, IDataTypeHandle, OptionalKeys } from './data/IData'
 export { ILeafList, ILeafArrayMap, ILeafMap, ILeafLevelList, ILeafListItemCallback } from './data/IList'
 export { IPoint, IPointData, IOptionPointData, IFromToData, IUnitPointData, IRotationPointData, IScrollPointData, IClientPointData, IRadiusPointData, ISize, ISizeData, IOptionSizeData, IScreenSizeData, IBounds, IBoundsData, IBoundsDataFn, IOffsetBoundsData, IBoundsDataWithOptionRotation, ITwoPointBoundsData, IAutoBounds, IAutoBoxData, IAutoBoundsData, IMatrix, IMatrixData, IMatrixWithBoundsData, IMatrixWithScaleData, IMatrixWithOptionScaleData, IMatrixWithOptionHalfData, IMatrixWithBoundsScaleData, IMatrixWithLayoutData, IScaleRotationData, IScaleData, ISkewData, ILayoutBoundsData, ILayoutData, ILayoutAttr } from './math/IMath'
 export { IFunction, IStringFunction, INumberFunction, IObjectFunction, IValueFunction, IPointDataFunction, IAttrDecorator } from './function/IFunction'
