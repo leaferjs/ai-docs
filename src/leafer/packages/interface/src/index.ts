@@ -1,6 +1,6 @@
 export { IAppBase } from './app/IApp'
 export { ILeaferBase, ILeaferAttrData, ILeaferType, ILeaferMode, ILeaferTypeCreator, ILeaferTypeFunction, ILeaferTypeList, ILeaferConfig, ICreator, IUICreator, IZoomType, IZoomOptions } from './app/ILeafer'
-export { ILeaf, ILeafAttrData, ILeafComputedData, ILeafInputData, ICachedLeaf, ILeafComplexCachedData, IFlowType, IFlowBoxType, IAlign, IAxisAlign, IFlowAlign, IFlowAxisAlign, ISide, IAxis, IGap, IPointGap, IAxisReverse, IBaseLineAlign, IFlowWrap, IAutoSize, IRangeSize, IInterlace, IPercentData, IUnitData, IConstraint, IConstraintType, IMotionVertical, IMotionVerticalType, IMotionVerticalData, IScaleFixed, IHitType, IHitThrough, IMaskType, IEraserType, IBlendMode, IEditSize, ILinkable, IDragBoundsType, IImageCursor, ICursorType, IStateStyleType, IDirection, IDirection4, IAround, IFilter, IForceUpdateType, ILeafAttrDescriptor, ILeafAttrDescriptorFn, IArrowPathData } from './display/ILeaf'
+export { ILeaf, ILeafAttrData, ILeafComputedData, ILeafInputData, ICachedLeaf, ILeafComplexCachedData, IFlowType, IFlowBoxType, IAlign, IAxisAlign, IFlowAlign, IFlowAxisAlign, ISide, IAxis, IGap, IPointGap, IAxisReverse, IBaseLineAlign, IFlowWrap, IAutoSize, IRangeSize, IInterlace, IPercentData, IUnitData, IConstraint, IConstraintType, IMotionVertical, IMotionVerticalType, IMotionVerticalData, IScaleFixed, IHitType, IHitThrough, IMaskType, IEraserType, IBlendMode, IEditSize, IEditable, ILinkable, IDragBoundsType, IImageCursor, ICursorType, IStateStyleType, IDirection, IDirection4, IAround, IFilter, IForceUpdateType, ILeafAttrDescriptor, ILeafAttrDescriptorFn, IArrowPathData } from './display/ILeaf'
 export { IBranch } from './display/IBranch'
 export { IZoomView } from './display/IView'
 
@@ -42,7 +42,7 @@ export { CanvasPathCommand, IPathCommandData, IPathCommandDataWithRadius, IPathC
 
 export { ILeaferImage, ILeaferImageMap, ILeaferImageConfig, IImageLOD, IImageTileLOD, ILeaferImageSliceData, ILeaferImageSlice, ILeaferImageLevel, ILeaferImageOnLoaded, ILeaferImageOnError, ILeaferImageCacheCanvas, ILeaferImagePatternPaint } from './image/ILeaferImage'
 export { ILeaferFilm, ILeaferFilmConfig, IFilmDecoder, IFilmFrame, IFilmOptions, IFilmPlayOptions } from './image/ILeaferFilm'
-export { ILeaferVideo, ILeaferVideoConfig } from './image/ILeaferVideo'
+export { ILeaferVideo, ILeaferVideoConfig, IVideoDecoder, IVideoOptions, IVideoPlayOptions } from './image/ILeaferVideo'
 export { IResource } from './file/IResource'
 export { IExportFileType, IExportImageType, IFilmFileType, IVideoFileType, IMultimediaType, IResponseType } from './file/IFileType'
 export { IExportOptions, IJSONOptions, IExportResult, IExportResultFunction, IExportOnCanvasFunction } from './file/IExport'

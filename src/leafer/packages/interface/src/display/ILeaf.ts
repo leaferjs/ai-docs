@@ -131,6 +131,8 @@ export type IDragBoundsType = 'auto' | 'outer' | 'inner'
 
 export type IMotionVerticalType = 'above' | 'center' | 'below' | number
 
+export type IEditable = boolean | 'single'
+
 export type ILinkable = boolean | 'start' | 'end'
 
 export interface IMotionVerticalData {
@@ -316,7 +318,7 @@ export interface ILeafAttrData {
     dragBounds?: IBoundsData | 'parent'
     dragBoundsType?: IDragBoundsType
 
-    editable?: IBoolean
+    editable?: IEditable
     linkable?: ILinkable
 
     hittable?: IBoolean
@@ -428,7 +430,7 @@ export interface ILeafComputedData {
     dragBounds?: IBoundsData | 'parent'
     dragBoundsType?: IDragBoundsType
 
-    editable?: boolean
+    editable?: IEditable
     linkable?: ILinkable
 
     hittable?: boolean
@@ -513,14 +515,18 @@ export interface ILeaf extends ILeafRender, ILeafHit, ILeafBounds, ILeafMatrix, 
     leafer?: ILeaferBase
     parent?: ILeaf
     zoomLayer?: ILeaf
+    frame?: ILeaf
 
     readonly leaferIsCreated: boolean
     readonly leaferIsReady: boolean
 
     readonly isApp?: boolean
     readonly isLeafer?: boolean
+    readonly isFrame?: boolean
+
     readonly isBranch?: boolean
     readonly isBranchLeaf?: boolean
+
     readonly isOutside?: boolean // scrollBar ...
 
     __: ILeafData
@@ -603,6 +609,7 @@ export interface ILeaf extends ILeafRender, ILeafHit, ILeafBounds, ILeafMatrix, 
     removeNextRender(item: IFunction): void
 
     __bindLeafer(leafer: ILeaferBase | null): void
+    __bindFrame(frame: ILeaf | null): void
 
     set(data: IObject, transition?: ITransition): void
     get<K extends keyof this>(name: K): this[K]
