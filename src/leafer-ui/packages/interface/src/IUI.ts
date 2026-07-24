@@ -296,6 +296,9 @@ export interface IFilm extends IFilmAttrData, IPlayerMethods, IImage {
 }
 interface IFilmAttrData {
     url?: string
+    autoplay?: boolean
+    speed?: number
+    loop?: boolean | number
 }
 export interface IFilmData extends IFilmAttrData, IImageData {
 
@@ -307,7 +310,7 @@ export interface IFilmInputData extends IFilmAttrData, IUIBaseInputData { }
 // Video
 export interface IVideo extends IVideoAttrData, IPlayerMethods, IImage {
     __: IVideoData
-    duration: number // 总时长
+    readonly duration: number // 总时长
     currentTime: number // 当前播放进度 (秒)
     volume: number // 音量 0 ~1 
 
@@ -324,6 +327,9 @@ interface IPlayerMethods {
 
 interface IVideoAttrData {
     url?: string
+    autoplay?: boolean
+    muted?: boolean
+    loop?: boolean | number
 }
 export interface IVideoData extends IVideoAttrData, IImageData { }
 export interface IVideoInputData extends IVideoAttrData, IImageInputData { }
