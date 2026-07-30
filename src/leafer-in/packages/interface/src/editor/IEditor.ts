@@ -1,4 +1,4 @@
-import { IUI, IPointData, IAround, IDragEvent, IEvent, IEventListenerId, IMatrixData, IEditorBase, IGroup, IObject, IMoveEvent, IZoomEvent, IRotateEvent, IEditorConfig } from '@leafer-ui/interface'
+import { IUI, IPointData, IAround, IDragEvent, IEvent, IEventListenerId, IMatrixData, IEditorBase, IGroup, IObject, IMoveEvent, IZoomEvent, IRotateEvent, IEditorConfig, OptionalKeys } from '@leafer-ui/interface'
 
 import { IEditBox } from './IEditBox'
 import { IEditSelect } from './IEditSelect'
@@ -25,25 +25,33 @@ export interface IEditor extends IEditorBase {
 }
 
 export interface IEditTool extends IInnerEditor {
+    readonly isMotionElement?: boolean
+    readonly isFlowElement?: boolean
+
     // 操作
     onMove(e: IEditorMoveEvent): void
     onScale(e: IEditorScaleEvent): void
     onScaleWithDrag?(e: IEditorScaleEvent): void
     onRotate(e: IEditorRotateEvent): void
     onSkew(e: IEditorSkewEvent): void
+
+    // 扩展
+    onMoveMotion(e: IEditorMoveEvent): void
+    onMoveFlow(e: IEditorMoveEvent): void
 }
 
 export interface IInnerEditor {
     readonly tag: string
     readonly mode: IInnerEditorMode
+
     editTarget: IUI
     editConfig?: IEditorConfig
 
-    config: IObject
+    config: IInnerEditorConfig
     readonly userConfig: IObject
-    mergeConfig?: IObject
-    mergedConfig?: IObject
-    configKeepKeys?: string[]
+    mergeConfig: IInnerEditorConfig
+    mergedConfig: IInnerEditorConfig
+    configKeepKeys: OptionalKeys<IInnerEditorConfig>[]
 
     editor: IEditor
     editBox: IEditBox
@@ -59,6 +67,9 @@ export interface IInnerEditor {
     getEditBoxPoint(editTargetPoint: IPointData, change?: boolean): IPointData
     getEditTargetPoint(editBoxPoint: IPointData, change?: boolean): IPointData
 
+    showView(): void
+    hideView(): void
+
     // 状态
     onLoad(): void
     load(): void
@@ -69,11 +80,18 @@ export interface IInnerEditor {
     onUpdate(): void
     update(): void
 
+    updateEditBoxConfig(): void
+    unloadEditBoxConfig(): void
+
     onDestroy(): void
     destroy(): void
 }
 
 export type IInnerEditorMode = 'focus' | 'both'
+
+export interface IInnerEditorConfig extends IObject {
+    editBox?: IEditorConfig
+}
 
 export interface IEditorEvent extends IEvent {
     readonly target?: IUI

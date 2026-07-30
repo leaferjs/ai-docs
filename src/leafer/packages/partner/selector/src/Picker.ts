@@ -60,7 +60,7 @@ export class Picker implements IPicker {
             for (let i = 0, len = list.length; i < len; i++) {
                 find = list[i]
                 if (ignoreHittable || LeafHelper.worldHittable(find)) {
-                    this.hitChild(find, find.hitThrough ? this.point : point)
+                    this.hitChild(find, find.hitThrough ? this.point : point, find.mask && find.parent && find.parent.__onlyHitMask)
                     if (findList.length) {
                         if (find.isBranchLeaf && list.some(item => item !== find && LeafHelper.hasParent(item, find))) {
                             findList.reset()
@@ -166,7 +166,7 @@ export class Picker implements IPicker {
         }
     }
 
-    protected hitChild(child: ILeaf, point: IRadiusPointData, onlyHitMask?: boolean, proxy?: ILeaf,): void {
+    protected hitChild(child: ILeaf, point: IRadiusPointData, onlyHitMask?: boolean, proxy?: ILeaf): void {
         if (this.exclude && this.exclude.has(child)) return
         if (child.__hitWorld(point, onlyHitMask && child.mask === 'path' ? true : undefined)) {
             const { parent, mask } = child
@@ -176,7 +176,7 @@ export class Picker implements IPicker {
 
             const leaf = proxy || child, { hitThrough } = child, { findList } = this
             if (hitThrough) {
-                const index = findList.list.findIndex(item => item[hitThrough] === child[hitThrough])
+                const index = findList.list.findIndex(item => hitThrough === 'parent' ? LeafHelper.hasParent(item.parent, child.parent) : item[hitThrough] === child[hitThrough])
                 if (index > 0) return findList.addAt(leaf, index)
             }
 

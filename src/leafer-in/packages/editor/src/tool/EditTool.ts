@@ -16,10 +16,11 @@ export class EditTool extends InnerEditor implements IEditTool {
 
     public get tag() { return 'EditTool' }
 
-
     // 操作
 
     public onMove(e: IEditorMoveEvent): void {
+        if (this.isMotionElement) return this.onMoveMotion(e)
+        else if (this.isFlowElement) return this.onMoveFlow(e)
         const { moveX, moveY, editor } = e
         const { app, list } = editor
         app.lockLayout()
@@ -71,13 +72,25 @@ export class EditTool extends InnerEditor implements IEditTool {
     }
 
     public update(): void {
+        this.updateEditBoxConfig()
         this.editBox.update()
         this.onUpdate()
     }
 
     public unload(): void {
         this.editBox.view.visible = false
+        this.unloadEditBoxConfig()
         this.onUnload()
     }
 
+}
+
+
+export interface EditTool {
+    // 扩展
+    readonly isMotionElement?: boolean
+    readonly isFlowElement?: boolean
+
+    onMoveMotion(e: IEditorMoveEvent): void
+    onMoveFlow(e: IEditorMoveEvent): void
 }
