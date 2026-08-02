@@ -129,18 +129,12 @@ export type IEditSize = 'size' | 'font-size' | 'scale'
 
 export type IDragBoundsType = 'auto' | 'outer' | 'inner'
 
-export type IMotionVerticalType = 'above' | 'center' | 'below' | number
 
 export type IEditable = boolean | 'single'
 
 export type ILinkable = boolean | 'start' | 'end'
 
-export interface IMotionVerticalData {
-    type: IMotionVerticalType,
-    offset: number
-}
-
-export type IMotionVertical = IMotionVerticalType | IMotionVerticalData
+export type IOverflow = 'show' | 'hide' | 'scroll' | 'x-scroll' | 'y-scroll'
 
 export interface IImageCursor {
     url: string
@@ -290,6 +284,7 @@ export interface ILeafAttrData {
     lazy?: IBoolean
     pixelRatio?: INumber
 
+    overflow?: IOverflow
     renderSpread?: IFourNumber // 扩大渲染边界
 
     path?: IPathCommandData | IPathCommandNode[] | IPathCommandObject[] | IPathString
@@ -338,7 +333,6 @@ export interface ILeafAttrData {
 
     motion?: INumber | IUnitData
     motionAround?: IAround
-    motionVertical?: IMotionVertical
     motionRotation?: INumber | IBoolean
     motionText?: IBoolean
 
@@ -403,6 +397,7 @@ export interface ILeafComputedData {
     lazy?: boolean
     pixelRatio?: number
 
+    overflow?: IOverflow
     renderSpread?: IFourNumber
 
     path?: IPathCommandData
@@ -451,7 +446,6 @@ export interface ILeafComputedData {
 
     motion?: number | IUnitData
     motionAround?: IAround
-    motionVertical?: IMotionVertical
     motionRotation?: number | boolean
     motionText?: boolean
 
@@ -769,9 +763,8 @@ export interface ILeaf extends ILeafRender, ILeafHit, ILeafBounds, ILeafMatrix, 
     // motion path
     getMotionPath(): ILeaf
     getMotionPathData(): IMotionPathData
-    getMotionPoint(motionDistance: number | IUnitData, motionAround?: IAround, motionVertical?: IMotionVertical, offsetX?: number, offsetY?: number, pathElement?: ILeaf): IRotationPointData
-    getMotionNearPoint(localPoint: IPointData, currentMotion?: number): number
-    getMotionContentHeight(): number
+    getMotionPoint(motionDistance: number | IUnitData, motionAround?: IAround, offsetX?: number, offsetY?: number, pathElement?: ILeaf): IRotationPointData
+    getMotionNearPoint(localPoint: IPointData, currentMotion?: number | IUnitData): number
     getMotionTotal(): number
 
     __updateMotionPath(): void

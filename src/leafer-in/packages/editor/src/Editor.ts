@@ -154,8 +154,7 @@ export class Editor extends Group implements IEditor {
     public update(): void {
         if (this.editing) {
             if (!this.element.parent) return this.cancel()
-            if (this.innerEditing) this.innerEditor.update()
-            this.editTool.update()
+            this.innerEditing ? this.innerEditor.update() : this.editTool.update() // 同一时间只能有一个工具更新
             this.selector.update()
         }
     }
@@ -290,6 +289,7 @@ export class Editor extends Group implements IEditor {
         if (opened.length) {
             let { list } = opened
             if (this.editing) list = [], opened.forEach(item => this.list.every(leaf => !LeafHelper.hasParent(leaf, item)) && list.push(item))
+            else list = [...list] // 防止 list 循环时被修改
             list.forEach(item => this.closeGroup(item as IGroup))
         }
         if (this.editing && !this.selector.dragging) this.checkDeepSelect()

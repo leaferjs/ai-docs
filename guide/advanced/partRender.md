@@ -80,6 +80,8 @@ leafer.add(Rect.one({ fill: '#32cd79', draggable: true }, 100, 100))
 ```
 :::
 
+游戏、工业场景 还可进一步配置 [trackChanges](../../reference/config/app/base.md#trackchanges-boolean) 关闭元素变化追踪，可节省大量性能开销。
+
 ## 下一步
 
 接下来将带你了解几个重要的 **生命周期**，就算完成入门的学习了。
