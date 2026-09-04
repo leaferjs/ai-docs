@@ -68,6 +68,9 @@ export class Text<TInputData = ITextInputData> extends UI<TInputData> implements
     @boundsType(0)
     public letterSpacing?: INumber | IUnitData
 
+    @boundsType(0)
+    public wordSpacing?: INumber | IUnitData
+
     @boundsType({ type: 'percent', value: 1.5 } as IUnitData)
     public lineHeight?: INumber | IUnitData
 
@@ -105,16 +108,17 @@ export class Text<TInputData = ITextInputData> extends UI<TInputData> implements
 
     public __updateTextDrawData(): void {
         const data = this.__
-        const { lineHeight, letterSpacing, fontFamily, fontSize, fontWeight, italic, textCase, textOverflow, padding, width, height } = data
+        const { lineHeight, letterSpacing, wordSpacing, fontFamily, fontSize, fontWeight, italic, textCase, textOverflow, padding, width, height } = data
 
         data.__lineHeight = UnitConvert.number(lineHeight, fontSize)
         data.__letterSpacing = UnitConvert.number(letterSpacing, fontSize)
+        data.__wordSpacing = UnitConvert.number(wordSpacing, fontSize)
         data.__baseLine = data.__lineHeight - (data.__lineHeight - fontSize * 0.7) / 2 // 基线位置
         data.__font = `${italic ? 'italic ' : ''}${textCase === 'small-caps' ? 'small-caps ' : ''}${fontWeight !== 'normal' ? fontWeight + ' ' : ''}${fontSize || 12}px ${fontFamily || 'caption'}`
 
         stintSet(data, '__padding', padding && MathHelper.fourNumber(padding))
         stintSet(data, '__clipText', textOverflow !== 'show' && !data.__autoSize)
-        stintSet(data, '__isCharMode', (width || height || data.__letterSpacing || data.motionText || (textCase !== 'none')) as boolean)
+        stintSet(data, '__isCharMode', (width || height || data.__letterSpacing || data.__wordSpacing || data.motionText || (textCase !== 'none')) as boolean)
 
         data.__textDrawData = TextConvert.getDrawData((data.__isPlacehold = data.placeholder && data.text === '') ? data.placeholder : data.text, this.__)
     }
