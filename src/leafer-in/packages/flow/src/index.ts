@@ -1,7 +1,7 @@
 export { Flow } from './Flow'
 
 
-import { BoundsHelper, Box, Group, UI, autoLayoutType, boundsType, Plugin } from '@leafer-ui/draw'
+import { BoundsHelper, Box, Group, UI, autoLayoutType, boundsType, Plugin, UIData } from '@leafer-ui/draw'
 
 import '@leafer-in/resize'
 
@@ -13,7 +13,7 @@ import { autoBoundsType } from './decorate'
 Plugin.add('flow', 'resize')
 
 
-const box = Box.prototype, { __updateBoxBounds } = Group.prototype
+const box = Box.prototype, uiData = UIData.prototype, { __updateBoxBounds } = Group.prototype
 
 // addAttr
 UI.addAttr('flow', false, autoLayoutType)
@@ -29,7 +29,7 @@ UI.addAttr('autoHeight', undefined, autoBoundsType)
 UI.addAttr('autoBox', undefined, boundsType)
 
 
-const { copyAndSpread } = BoundsHelper
+const { copyAndSpread, unsign } = BoundsHelper
 
 box.__updateFlowLayout = function (): void {
     const { leaferIsCreated, flow } = this
@@ -62,14 +62,17 @@ box.__updateContentBounds = function (): void {
 
     if (padding) {
         if (same) layout.shrinkContent()
+
         copyAndSpread(layout.contentBounds, layout.boxBounds, padding, true)
+        unsign(layout.contentBounds) // fix: 防止产生负数宽高，导致排版异常
+
     } else {
         if (!same) layout.shrinkContentCancel()
     }
 }
 
 box.__updateBoxBounds = function (secondLayout?: boolean): void { // autoSide且自动布局时需要二次布局
-    if (this.children.length && !this.pathInputed) {
+    if (this.children.length && !this.__useSelfBox) {
 
         const data = this.__, { flow } = data
 
@@ -105,3 +108,19 @@ box.__updateBoxBounds = function (secondLayout?: boolean): void { // autoSide且
         this.__updateRectBoxBounds()
     }
 }
+
+Object.defineProperty(uiData, '__autoWidth', {
+    get(): boolean { return this._width == null && this._autoWidth == null }
+})
+
+Object.defineProperty(uiData, '__autoHeight', {
+    get(): boolean { return this._height == null && this._autoHeight == null }
+})
+
+Object.defineProperty(uiData, '__autoSide', {
+    get(): boolean { return this.__autoWidth || this.__autoHeight }
+})
+
+Object.defineProperty(uiData, '__autoSize', {
+    get(): boolean { return this.__autoWidth && this.__autoHeight }
+})
