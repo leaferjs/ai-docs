@@ -1,7 +1,7 @@
 import { IBoundsData, IFourNumber, ILeaf, ILeafLayout } from '@leafer/interface'
 import { ChildEvent } from '@leafer/event'
 import { BoundsHelper } from '@leafer/math'
-import { BranchHelper, LeafBoundsHelper } from '@leafer/helper'
+import { BranchHelper, isTrackChanges, LeafBoundsHelper } from '@leafer/helper'
 import { useModule } from '@leafer/decorator'
 import { BranchRender } from '@leafer/display-module'
 import { UICreator } from '@leafer/platform'
@@ -81,7 +81,12 @@ export class Branch extends Leaf { // tip: rewrited Group
         if (child.parent) child.parent.remove(child)
         child.parent = this
 
-        noIndex ? this.children.push(child) : this.children.splice(index, 0, child)
+        if (noIndex) this.children.push(child)
+        else {
+            BranchHelper.zIndex(this, child, index)
+            this.children.splice(index, 0, child)
+        }
+
         if (child.isBranch) this.__.__childBranchNumber = (this.__.__childBranchNumber || 0) + 1
 
         const childLayout = child.__layout
@@ -91,7 +96,7 @@ export class Branch extends Leaf { // tip: rewrited Group
         if (child.__parentChange) child.__parentChange.forEach(item => item(this, child))
         if (child.__bubbleMap) child.__emitLifeEvent(ChildEvent.ADD)
 
-        if (this.isFrame) child.__bindFrame(this)
+        if (this.frame) child.__bindFrame(this.frame)
 
         if (this.leafer) {
             child.__bindLeafer(this.leafer)
@@ -163,12 +168,12 @@ export class Branch extends Leaf { // tip: rewrited Group
                 if (this.leafer.hitCanvasManager) this.leafer.hitCanvasManager.clear()
             }
         }
-        if (this.isFrame) child.__bindFrame(null)
+        if (child.frame && !child.isFrame) child.__bindFrame(null)
     }
 
     protected __emitChildEvent(type: string, child: ILeaf): void {
         const { leafer } = this
-        if (leafer.config.trackChanges || leafer.zoomLayer === this) {
+        if (isTrackChanges(leafer) || leafer.zoomLayer === this) {
             const event = new ChildEvent(type, child, this)
             if (this.hasEvent(type) && !this.isLeafer) this.emitEvent(event)
             leafer.emitEvent(event)

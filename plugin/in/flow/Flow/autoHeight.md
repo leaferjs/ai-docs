@@ -8,11 +8,23 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### autoHeight: `number`
+### autoHeight: `number` | `IUnitData`
 
 自动高度权重，分配剩余高度给此元素（忽略 height），类似 Flex 的 grow / shrink，默认为 0。
 
-设为大于 0 的值会自动扩充高度，一般设为 1，后面会支持百分比高度。
+设为大于 0 的值会自动扩充高度，一般设为 1，已支持百分比高度。
+
+```ts
+interface IUnitData {
+  type: 'percent' ｜ 'px'
+  value: number
+}
+
+rect.autoHeight = {
+  type: 'percent',
+  value: 0.5, // 50%
+}
+```
 
 ## 归属
 
@@ -72,6 +84,31 @@ const flow = new Flow({
             autoHeight: 1,  // 自动高度和宽度 // [!code hl:2]
             autoWidth: 1,
             fill: '#79CB4D', children: [{ tag: 'Text', text: '3', fill: 'white', textAlign: 'center', verticalAlign: 'middle', width: 30, height: 25 }]
+        })
+    ],
+})
+
+leafer.add(flow)
+```
+
+### 自动高度为百分比单位
+
+```ts
+// #自动布局 - 自动宽高 [使用百分比]
+import { Leafer, Box } from 'leafer-ui'
+import { Flow } from '@leafer-in/flow'  // 导入自动布局插件
+
+const leafer = new Leafer({ view: window })
+
+const flow = new Flow({
+    fill: '#676',
+    width: 100,
+    height: 100,
+    children: [
+        new Box({
+            autoWidth: { type: 'percent', value: 0.8 }, // 80% 父元素宽度
+            autoHeight: { type: 'percent', value: 0.8 }, // 80% 父元素高度
+            fill: '#79CB4D', children: [{ tag: 'Text', text: '3', fill: 'white', textAlign: 'center', verticalAlign: 'middle', width: 25, height: 30 }]
         })
     ],
 })
