@@ -60,7 +60,7 @@
 
 #### 🌱 新增
 
-\- 🌸 元素新增 waitParentChange() 常驻方法，parent 切换后均能触发
+\- 🌸 元素新增 [waitParentChange()](../reference/UI/parent.md#waitparentchange-item-function) 常驻方法，parent 切换后均能触发
 
 \- 🌸 支持扩展编辑自动布局元素
 
