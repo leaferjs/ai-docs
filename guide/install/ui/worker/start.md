@@ -72,7 +72,7 @@ worker.onmessage = (e) => { // 通过worker生成一张图片进行显示
 
 ```js
 // 你也可以使用npm包模式，编译成js文件供worker调用
-importScripts('https://unpkg.com/@leafer-ui/worker@2.3.0/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@2.3.1/dist/worker.min.js')
 
 const { Leafer, Rect } = LeaferUI
 
