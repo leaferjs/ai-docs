@@ -55,4 +55,4 @@
 
 下载本仓库后本地解压，名称改为 leafer-skills
 
-可直接放在 cluade、codex 等工具的 skills 目录下使用
+可直接放在 claude、codex 等工具的 skills 目录下使用
