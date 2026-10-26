@@ -4,7 +4,7 @@ English | [简体中文](./README.md)
 
 # LeaferJS: An Easy-to-Use Canvas Engine
 
-Effortlessly build graphic interaction and editing — an infinite canvas engine for the AI era
+Build interactive, editable graphics apps with ease — The Infinite Canvas Engine for the AI Era
 
 Official Website: [leaferjs.com](https://www.leaferjs.com)
 
@@ -47,7 +47,7 @@ With the explosion of AI-generated content, the challenge for graphics engines h
 - **🤖 Semantic Editing:** A structured scene tree allows AI to manipulate graphics like the DOM, enabling true AI collaborative workflows.
 - **🛠️ Native Editor:** Built-in Editor plugin enables one-click access to industrial-grade editing features such as rotation, scaling, and multi-selection for AI-generated content.
 
-[Leafer AI Knowledge Base](https://github.com/leaferjs/ai-docs) | [MCP & Skills](https://context7.com/leaferjs/ai-docs?tab=skills) | [Ask AI](https://context7.com/leaferjs/ai-docs?tab=chat)
+[Skills & Leafer AI Knowledge Base](https://github.com/leaferjs/ai-docs) | [MCP](https://context7.com/leaferjs/ai-docs?tab=skills) | [Ask AI](https://context7.com/leaferjs/ai-docs?tab=chat)
 
 ## 🎨 Use Cases
 
@@ -160,9 +160,9 @@ LeaferJS is an original open-source engine refined over five years. Our mission 
 
 When you use LeaferJS, you become part of this vibrant community — stepping into a growing “tech castle.” Only through collective participation can it truly flourish.
 
-[Code of Conduct](./contributor/CODE_OF_CONDUCT.md)
+[Code of Conduct](https://github.com/leaferjs/leafer-ui/blob/main/contributor/CODE_OF_CONDUCT.md)
 
-[Commit Convention](./contributor/COMMIT_CONVENTION.md)
+[Commit Convention](https://github.com/leaferjs/leafer-ui/blob/main/contributor/COMMIT_CONVENTION.md)
 
 [How to Ask Questions the Smart Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md#%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7)
 
