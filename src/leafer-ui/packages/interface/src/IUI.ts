@@ -9,7 +9,7 @@ import {
     ITextStyleAttrData, ITextStyleInputData, ITextStyleComputedData,
     IStrokeComputedStyle
 } from './ICommonAttr'
-import { IFill, IPaintAttr } from './type/IType'
+import { IFill, ILineType, IPaintAttr } from './type/IType'
 import { IAnimation, IAnimate, IKeyframe, IKeyframeId, IAnimateType } from './IAnimation'
 import { ILeafer } from './app/ILeafer'
 import { IEditorConfig } from './editor/IEditor'
@@ -84,9 +84,11 @@ export interface ILinkerComputedPointData {
     auto: boolean
     direction: IDirection
     point: IPointData
+    bounds?: IBoundsData // 元素的包围盒
 }
 
 interface ILinkerAttrData {
+    lineType?: ILineType
     startPoint?: ILinkerPointData | IUI | string
     endPoint?: ILinkerPointData | IUI | string
 }
@@ -527,6 +529,8 @@ export interface IUI extends IUIAttrData, IFillAttrData, IStrokeAttrData, ICorne
 
     __box?: IUI // 背景box, 一般用于文本背景框
     __animate?: IAnimate
+
+    positionNode?: IUI
 
     readonly pen: IPathCreator
 

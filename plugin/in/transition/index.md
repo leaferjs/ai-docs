@@ -39,14 +39,14 @@ bun add @leafer-in/transition
 ::: code-group
 
 ```html [transition.min]
-<script src="https://unpkg.com/@leafer-in/transition@2.3.2/dist/transition.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/transition@2.3.3/dist/transition.min.js"></script>
 <script>
   const { Transition, TransitionData } = LeaferIN.transition
 </script>
 ```
 
 ```html [transition]
-<script src="https://unpkg.com/@leafer-in/transition@2.3.2/dist/transition.js"></script>
+<script src="https://unpkg.com/@leafer-in/transition@2.3.3/dist/transition.js"></script>
 <script>
   const { Transition, TransitionData } = LeaferIN.transition
 </script>
@@ -155,7 +155,7 @@ const rect3 = Box.one({
         style: {
             stroke: {
                 type: 'angular',
-                rotation: 360, // 依赖 LeaferJS v2.3.2
+                rotation: 360, // 依赖 LeaferJS v2.3.3
                 stops: ['#836DFF', '#836DFF', 'white', '#836DFF', '#836DFF']
             }
         },

@@ -1,4 +1,4 @@
-// #position 布局 [距离父级左右各20px]
+// #position 布局 [距离父级左右边缘各20px]
 import { Leafer, Frame, Rect } from 'leafer-ui'
 import '@leafer-in/position' // 导入 position 插件 // [!code hl] 
 
@@ -12,7 +12,7 @@ const frame = new Frame({
 })
 
 const rect = new Rect({
-    position: { left: 20, right: 20 }, // 距离父级左右各20px, 会自动修改元素的 x、width 属性 // [!code hl] 
+    position: { left: 20, right: 20 }, // 距离父级左右边缘各20px, 会自动修改元素的 x、width 属性 // [!code hl] 
     fill: '#32cd79',
 })
 

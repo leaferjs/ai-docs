@@ -45,14 +45,14 @@ bun add @leafer-in/linker
 ::: code-group
 
 ```html [linker.min]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.2/dist/linker.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.3/dist/linker.min.js"></script>
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
 </script>
 ```
 
 ```html [linker]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.2/dist/linker.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.3/dist/linker.js"></script>
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
 </script>
@@ -61,6 +61,17 @@ bun add @leafer-in/linker
 :::
 
 ## 关键属性
+
+### lineType: `ILineType `
+
+线条的类型，默认为 'curve'。
+
+```ts
+type ILineType =
+  | 'straight' // 直线
+  | 'polyline' // 折线
+  | 'curve' // 曲线
+```
 
 ### startPoint: `ILinkerPointData`
 
@@ -471,4 +482,102 @@ setTimeout(() => {
 }, 2000)
 
 
+```
+
+### 直线类型的连线元素
+
+```ts
+// #Linker [直线类型的连线元素]
+import { App, Box, Ellipse } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+import '@leafer-in/find' // 导入查找元素插件
+import '@leafer-in/arrow' // 导入箭头插件
+
+import { Linker } from '@leafer-in/linker' // 导入连线插件  // [!code hl]
+
+const app = new App({ view: window, editor: {} })
+
+app.tree.cacheId = true // 创建时缓存元素id, 加快查找id的速度
+
+const rect1 = Box.one({ id: 'rect1', editable: true, fill: '#FFE04B', cornerRadius: [20, 0, 0, 20], children: [new Ellipse({ x: 92, y: 50, width: 8, height: 8, around: 'center', fill: '#836DFF', stroke: '#000', strokeWidth: 1 })] }, 100, 100, 100, 100)
+const rect2 = Box.one({ id: 'rect2', editable: true, fill: '#FFE04B', cornerRadius: [20, 0, 0, 20] }, 100, 300, 100, 100)
+const rect3 = Box.one({ id: 'rect3', editable: true, fill: '#FEB027', cornerRadius: [0, 20, 20, 0], children: [new Ellipse({ x: 8, y: 20, width: 8, height: 8, around: 'center', fill: '#836DFF' })] }, 400, 200, 100, 100)
+
+
+const linker1 = new Linker({
+    lineType: 'straight', // 直线类型 [!code hl]
+    startPoint: { id: 'rect1', point: 'right' },
+    endPoint: { id: 'rect3', direction: 'left', point: 'top-left', offset: { y: 20 } },
+    stroke: [{ type: 'solid', color: '#000', style: { strokeWidth: 4 } }, { type: 'solid', color: '#836DFF' }],
+    strokeWidth: 2,
+})
+
+app.tree.add(linker1)
+
+
+app.tree.add(rect1)
+app.tree.add(rect2)
+app.tree.add(rect3)
+
+
+const linker2 = new Linker({
+    lineType: 'straight', // 直线类型 [!code hl]
+    startPoint: { id: 'rect2' }, // 箭头自动方向
+    endPoint: { id: 'rect3' },
+    endArrow: 'angle',
+    stroke: '#ff4c4c',
+    strokeWidth: 2
+})
+
+app.tree.add(linker2)
+```
+
+### 折线类型的连线元素
+
+```ts
+// #Linker [折线类型的连线元素]
+import { App, Box, Ellipse } from 'leafer-ui'
+import '@leafer-in/editor' // 导入图形编辑器插件
+import '@leafer-in/viewport' // 导入视口插件 (可选)
+import '@leafer-in/find' // 导入查找元素插件
+import '@leafer-in/arrow' // 导入箭头插件
+
+import { Linker } from '@leafer-in/linker' // 导入连线插件  // [!code hl]
+
+const app = new App({ view: window, editor: {} })
+
+app.tree.cacheId = true // 创建时缓存元素id, 加快查找id的速度
+
+const rect1 = Box.one({ id: 'rect1', editable: true, fill: '#FFE04B', cornerRadius: [20, 0, 0, 20], children: [new Ellipse({ x: 92, y: 50, width: 8, height: 8, around: 'center', fill: '#836DFF', stroke: '#000', strokeWidth: 1 })] }, 100, 100, 100, 100)
+const rect2 = Box.one({ id: 'rect2', editable: true, fill: '#FFE04B', cornerRadius: [20, 0, 0, 20] }, 100, 300, 100, 100)
+const rect3 = Box.one({ id: 'rect3', editable: true, fill: '#FEB027', cornerRadius: [0, 20, 20, 0], children: [new Ellipse({ x: 8, y: 20, width: 8, height: 8, around: 'center', fill: '#836DFF' })] }, 400, 200, 100, 100)
+
+
+const linker1 = new Linker({
+    lineType: 'polyline', // 折线类型 [!code hl]
+    startPoint: { id: 'rect1', point: 'right' },
+    endPoint: { id: 'rect3', direction: 'left', point: 'top-left', offset: { y: 20 } },
+    stroke: [{ type: 'solid', color: '#000', style: { strokeWidth: 4 } }, { type: 'solid', color: '#836DFF' }],
+    strokeWidth: 2,
+})
+
+app.tree.add(linker1)
+
+
+app.tree.add(rect1)
+app.tree.add(rect2)
+app.tree.add(rect3)
+
+
+const linker2 = new Linker({  // 带箭头的连线，位于顶部 // [!code hl:7]
+    lineType: 'polyline', // 折线类型 [!code hl]
+    startPoint: { id: 'rect2' }, // 箭头自动方向
+    endPoint: { id: 'rect3' },
+    endArrow: 'angle',
+    stroke: '#ff4c4c',
+    strokeWidth: 2
+})
+
+app.tree.add(linker2)
 ```
