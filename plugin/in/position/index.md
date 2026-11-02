@@ -225,10 +225,10 @@ leafer.add(frame)
 frame.add(rect)
 ```
 
-### 在指定 id 元素的居中位置显示
+### 在指定 id 元素的底部位置显示
 
 ```ts
-// #position 布局 [在指定id元素的居中位置显示]
+// #position 布局 [在指定id元素的底部位置显示]
 import { Leafer, Frame, Rect } from 'leafer-ui'
 import '@leafer-in/position' // 导入 position 插件 // [!code hl] 
 import '@leafer-in/find' // 导入查找元素插件
@@ -243,7 +243,7 @@ const frame = new Frame({
 })
 
 const rect = new Rect({
-    position: { id: 'rect2', align: 'bottom' }, // 在指定 rect2 元素的居中位置显示，会自动修改元素的 x、y 属性 // [!code hl] 
+    position: { id: 'rect2', align: 'bottom' }, // 在指定 rect2 元素的底部位置显示，会自动修改元素的 x、y 属性 // [!code hl] 
     fill: '#32cd79',
     zIndex: 1
 })
