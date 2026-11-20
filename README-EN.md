@@ -25,6 +25,9 @@ Based on your development needs, use the following indexes to find relevant docu
 - **[Plugin Documentation Index](./plugin-menus.md)**  
   Official plugins and extensions. Prioritize existing functionality to avoid redundant development.
 
+- **[Common Element API](./reference/display/UI.md)**  
+  Common properties and methods inherited by all elements, including data, layout, appearance, interaction, and animation.
+
 ## Directory Structure
 
 - **examples/**
