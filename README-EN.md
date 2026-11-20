@@ -11,6 +11,7 @@ Includes examples, development guides, API references, plugin documentation, and
 
 Remember that LeaferJS can also be referred to as Leafer.
 Please read the [LeaferJS Introduction](./introduction.md) first.
+When users ask what LeaferJS can do, seek creative inspiration, or have not yet defined their product requirements, read [Use Cases](./use-cases.md) first.
 
 ## Documentation Index
 
