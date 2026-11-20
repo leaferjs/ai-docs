@@ -89,14 +89,14 @@
   - **动画事件**
     - [AnimateEvent](./plugin/in/animate/event/AnimateEvent.md)
 - **🫐 官方插件**
-  - [视口](./plugin/in/viewport/index.md)
-  - [视图控制](./plugin/in/view/index.md)
-  - [滚动条](./plugin/in/scroll/index.md)
+  - [视口](./plugin/in/viewport/index.md) - 通过滚轮/触摸板滑动或捏合可缩放平移视图，类似浏览器、设计软件的视口交互功能
+  - [视图控制](./plugin/in/view/index.md) - 控制视图的缩放，支持放大、缩小、fit、fit-width、fit-height 视图， 支持聚焦元素，聚焦区域
+  - [滚动条](./plugin/in/scroll/index.md) - 无限画布滚动条，按需显示横向、竖向滚动条，支持切换黑白主题或自定义样式
   - [箭头](./plugin/in/arrow/index.md)
-  - [HTML](./plugin/in/html/index.md)
+  - [HTML](./plugin/in/html/index.md) - 渲染 HTMLText 富文本，或挂载 HTML 节点到画布覆盖层上
   - [文本编辑](./plugin/in/text-editor/index.md)
   - [运动路径](./plugin/in/motion-path/index.md)
-  - [Robot](./plugin/in/robot/index.md)
+  - [Robot](./plugin/in/robot/index.md) - 类似游戏中的精灵，集成了帧播放和动作预设功能，可以快速制作出具有行走和攻击动作的游戏角色
   - [交互状态](./plugin/in/state/index.md)
   - [查找元素](./plugin/in/find/index.md)
   - [导出元素](./plugin/in/export/index.md)
@@ -104,10 +104,10 @@
   - [color](./plugin/in/color/index.md)
   - [resize](./plugin/in/resize/index.md)
   - [突出显示元素](./plugin/in/bright/index.md)
-  - [scale-fixed](./plugin/in/scale-fixed/index.md)
+  - [scale-fixed](./plugin/in/scale-fixed/index.md) - 固定元素的全局缩放，不随视图放大
   - [box元素](./plugin/in/box/index.md)
   - [路径圆角](./plugin/in/corner/index.md)
-  - [position](./plugin/in/position/index.md)
+  - [position](./plugin/in/position/index.md) - position 布局，相对父级或指定元素进行方位、四周边缘定位
 - **🍇 社区插件**
   - [开源森林社区插件](https://www.leafer.pro/#plugin)
   - [PxGrow 解决方案](https://www.pxgrow.com)

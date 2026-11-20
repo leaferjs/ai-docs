@@ -5,30 +5,30 @@
   - [App](./reference/display/App.md)
   - [Leafer](./reference/display/Leafer.md)
 - **🥥 组元素**
-  - [Group](./reference/display/Group.md)
-  - [Box](./reference/display/Box.md)
-  - [Frame](./reference/display/Frame.md)
+  - [Group](./reference/display/Group.md) - 用于组合多个子元素，自身没有填充/描边等外观样式，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套
+  - [Box](./reference/display/Box.md) - 支持 Group 元素的功能和 Rect 元素的外观样式， 类似于 HTML5 中的 DIV，可以不断嵌套
+  - [Frame](./reference/display/Frame.md) - 继承自 Box 元素，默认白色背景、会裁剪掉超出宽高的内容，类似于 HTML5 中的页面，一般用于设计软件中创建画板
 - **🍊 元素**
-  - [Rect](./reference/display/Rect.md)
-  - [Ellipse](./reference/display/Ellipse.md)
-  - [Line](./reference/display/Line.md)
-  - [Polygon](./reference/display/Polygon.md)
-  - [Star](./reference/display/Star.md)
-  - [Path](./reference/display/Path.md)
-  - [Pen](./reference/display/Pen.md)
+  - [Rect](./reference/display/Rect.md) - 绘制矩形、圆角矩形，支持四条边框单独设置
+  - [Ellipse](./reference/display/Ellipse.md) - 绘制圆、圆环、扇形圆环、扇形、弧线、椭圆
+  - [Line](./reference/display/Line.md) - 绘制横线、斜线、竖线、折线、平滑曲线、趋势图
+  - [Polygon](./reference/display/Polygon.md) - 绘制三角形、菱形、五边形、正多边形、自由多边形、平滑多变形、趋势图
+  - [Star](./reference/display/Star.md) - 绘制车标、星光、五角星、多角星形
+  - [Path](./reference/display/Path.md) - 绘制路径，可以画出任意形状的图形
+  - [Pen](./reference/display/Pen.md) - 像绘画一样，快速画出不同样式的路径组合，支持 Canvas 2D 绘制路径的 API 方法
   - [Image](./reference/display/Image.md)
   - [SVG](./reference/display/SVG.md)
-  - [Canvas](./reference/display/Canvas.md)
+  - [Canvas](./reference/display/Canvas.md) - 画布对象，可以自由绘制、操作像素，或将其他图形直接绘制到 Canvas 上
   - [Text](./reference/display/Text.md)
-  - [UI](./reference/display/UI.md)
+  - [UI](./reference/display/UI.md) - 基础元素（所有元素的基类），展示所有元素通用的属性方法
 - **🥭 扩展元素**
-  - [Arrow](./plugin/in/arrow/index.md)
-  - [Linker](./plugin/in/linker/index.md)
-  - [Robot](./plugin/in/robot/index.md)
-  - [Film](./plugin/in/film/index.md)
-  - [Video](./plugin/in/video/index.md)
-  - [HTML](./plugin/in/html/HTML.md)
-  - [HTMLText](./plugin/in/html/HTMLText.md)
+  - [Arrow](./plugin/in/arrow/index.md) - 箭头元素，为线条添加起始/结束箭头，自带 12 种常用的箭头样式，并支持自定义。
+  - [Linker](./plugin/in/linker/index.md) - 高性能 Canvas 连线元素
+  - [Robot](./plugin/in/robot/index.md) - 类似游戏中的精灵元素，集成了帧播放和动作预设功能
+  - [Film](./plugin/in/film/index.md) - 动图元素，支持在任意图形元素中播放 GIF 动图
+  - [Video](./plugin/in/video/index.md) - 视频元素，支持在任意图形元素中播放视频
+  - [HTML](./plugin/in/html/HTML.md) - HTML 节点元素，支持挂载 dom / Vue / React 节点，方便使用 HTML 的表单、复杂组件
+  - [HTMLText](./plugin/in/html/HTMLText.md) - HTML 富文本，用于在 Canvas 中渲染 HTML 相关内容
   - **box 元素**
     - [ImageBox](./plugin/in/box/ImageBox.md)
     - [EllipseBox](./plugin/in/box/EllipseBox.md)
