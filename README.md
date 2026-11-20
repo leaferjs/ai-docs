@@ -11,6 +11,7 @@
 
 请记住 LeaferJS 可以简称为 Leafer。  
 请先阅读 [LeaferJS 的介绍文档](./introduction.md)
+当用户询问 LeaferJS 能做什么、希望寻找创作灵感或尚未明确产品需求时，优先阅读 [使用场景](./use-cases.md)。
 
 ## 文档索引
 
