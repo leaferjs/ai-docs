@@ -1,0 +1,209 @@
+# API 参考
+
+- **元素参考**
+- **🍉 应用与引擎**
+  - [App](./reference/display/App.md)
+  - [Leafer](./reference/display/Leafer.md)
+- **🥥 组元素**
+  - [Group](./reference/display/Group.md)
+  - [Box](./reference/display/Box.md)
+  - [Frame](./reference/display/Frame.md)
+- **🍊 元素**
+  - [Rect](./reference/display/Rect.md)
+  - [Ellipse](./reference/display/Ellipse.md)
+  - [Line](./reference/display/Line.md)
+  - [Polygon](./reference/display/Polygon.md)
+  - [Star](./reference/display/Star.md)
+  - [Path](./reference/display/Path.md)
+  - [Pen](./reference/display/Pen.md)
+  - [Image](./reference/display/Image.md)
+  - [SVG](./reference/display/SVG.md)
+  - [Canvas](./reference/display/Canvas.md)
+  - [Text](./reference/display/Text.md)
+  - [UI](./reference/display/UI.md)
+- **🥭 扩展元素**
+  - [Arrow](./plugin/in/arrow/index.md)
+  - [Linker](./plugin/in/linker/index.md)
+  - [Robot](./plugin/in/robot/index.md)
+  - [Film](./plugin/in/film/index.md)
+  - [Video](./plugin/in/video/index.md)
+  - [HTML](./plugin/in/html/HTML.md)
+  - [HTMLText](./plugin/in/html/HTMLText.md)
+  - **box 元素**
+    - [ImageBox](./plugin/in/box/ImageBox.md)
+    - [EllipseBox](./plugin/in/box/EllipseBox.md)
+    - [StarBox](./plugin/in/box/StarBox.md)
+    - [PathBox](./plugin/in/box/PathBox.md)
+- **🥝 自定义元素**
+  - **基础**
+    - [注册元素](./reference/display/custom/base/register.md)
+    - [注册数据](./reference/display/custom/base/data.md)
+    - [添加属性](./reference/display/custom/base/attr.md)
+    - [添加方法](./reference/display/custom/base/method.md)
+  - **高级**
+    - [继承元素](./reference/display/custom/extends.md)
+    - [绘制路径](./reference/display/custom/path.md)
+    - [context](./reference/display/custom/context.md)
+- **元素通用功能**
+- **🎞️  数据**
+  - **id /  name**
+    - [id](./reference/UI/id.md)
+    - [tag](./reference/UI/tag.md)
+    - [name](./reference/UI/name.md)
+    - [className](./reference/UI/className.md)
+    - [innerId](./reference/UI/innerId.md)
+    - [innerName](./reference/UI/innerName.md)
+  - **parent / leafer**
+    - [parent](./reference/UI/parent.md)
+    - [leafer](./reference/UI/leafer.md)
+  - **数据 / 克隆**
+    - [data](./reference/UI/data.md)
+    - [proxyData](./reference/UI/proxy.md)
+    - [clone()](./reference/UI/clone.md)
+  - **路径数据**
+    - [getPath()](./reference/UI/getPath.md)
+    - [getPathString()](./reference/UI/getPathString.md)
+    - [path](./reference/UI/path.md)
+  - **导入导出**
+    - [export()](./reference/UI/export.md)
+    - [toJSON()](./reference/UI/json.md)
+  - **移除 / 销毁**
+    - [remove()](./reference/UI/remove.md)
+    - [destroy()](./reference/UI/destroy.md)
+- **📐 布局**
+  - **位置 / 缩放 / 旋转**
+    - [position](./reference/UI/position.md)
+    - [size](./reference/UI/size.md)
+    - [scale](./reference/UI/scale.md)
+    - [scaleFixed](./reference/UI/scaleFixed.md)
+    - [flip()](./reference/UI/flip.md)
+    - [rotation](./reference/UI/rotation.md)
+    - [skew](./reference/UI/skew.md)
+  - **偏移 / resize**
+    - [offset](./reference/UI/offset.md)
+    - [resize](./reference/UI/resize.md)
+  - **围绕中心**
+    - [origin](./reference/UI/origin.md)
+    - [around](./reference/UI/around.md)
+  - **包围盒 / 变换**
+    - [bounds](./reference/UI/bounds.md)
+    - [transform](./reference/UI/transform.md)
+  - **转换坐标**
+    - [转换坐标](./reference/UI/point/index.md)
+    - [快速转换](./reference/UI/point/high.md)
+  - **层叠 / 放置**
+    - [zIndex](./reference/UI/zIndex.md)
+    - [dropTo()](./reference/UI/dropTo.md)
+- **🏼  外观**
+  - **透明 / 隐藏**
+    - [opacity](./reference/UI/opacity.md)
+    - [visible](./reference/UI/visible.md)
+  - **填充 / 描边**
+    - [fill](./reference/UI/fill.md)
+    - [stroke](./reference/UI/stroke.md)
+  - **渐变 / 图像**
+    - [linear](./reference/UI/paint/linear.md)
+    - [radial](./reference/UI/paint/radial.md)
+    - [angular](./reference/UI/paint/angular.md)
+    - [solid](./reference/UI/paint/solid.md)
+    - [image](./reference/UI/paint/image.md)
+  - **内外阴影**
+    - [shadow](./reference/UI/shadow.md)
+    - [innerShadow](./reference/UI/innerShadow.md)
+  - **滤镜**
+    - [图片滤镜](./plugin/in/image-filter/index.md)
+    - [元素滤镜](./plugin/in/filter/index.md)
+  - **淡化 / 突出**
+    - [dim](./reference/UI/dim.md)
+    - [bright](./reference/UI/bright.md)
+  - **裁剪 / 擦除**
+    - [clip](./reference/UI/clip.md)
+    - [mask](./reference/UI/mask.md)
+    - [eraser](./reference/UI/eraser.md)
+  - **混合模式**
+    - [blendMode](./reference/UI/blendMode.md)
+- **🖱  交互**
+  - **可交互性**
+    - [hittable](./reference/UI/hit.md)
+    - [hitChildren](./reference/UI/hitChildren.md)
+    - [hitSelf](./reference/UI/hitSelf.md)
+    - [hitFill](./reference/UI/hitFill.md)
+    - [hitStroke](./reference/UI/hitStroke.md)
+  - **编辑 / 拖拽**
+    - [editable](./reference/UI/editable.md)
+    - [draggable](./reference/UI/draggable.md)
+  - **光标样式**
+    - [cursor](./reference/UI/cursor.md)
+  - **交互状态**
+    - [state](./reference/UI/state/state.md)
+    - [hover](./reference/UI/state/hover.md)
+    - [press](./reference/UI/state/press.md)
+    - [focus](./reference/UI/state/focus.md)
+    - [selected](./reference/UI/state/selected.md)
+    - [disabled](./reference/UI/state/disabled.md)
+  - **事件处理**
+    - [on() / once()](./reference/UI/on.md)
+    - [off()](./reference/UI/off.md)
+    - [emit()](./reference/UI/emit.md)
+    - [命名](./reference/event/name.md)
+    - [捕获/冒泡](./reference/event/flow.md)
+    - [模拟交互](./reference/event/simulation.md)
+- **🐆  动画**
+  - **动画**
+    - [animation](./reference/UI/animation.md)
+    - [animate()](./reference/UI/animate.md)
+  - **过渡**
+    - [transition](./reference/UI/transition.md)
+  - **运动路径**
+    - [motionPath](./reference/UI/motionPath.md)
+    - [motion](./reference/UI/motion.md)
+    - [getMotionTotal()](./reference/UI/getMotionTotal.md)
+    - [getMotionPoint()](./reference/UI/getMotionPoint.md)
+- **🌴 高级**
+  - **限制拖动范围**
+    - [dragBounds](./reference/UI/dragBounds.md)
+  - **强制渲染**
+    - [forceUpdate()](./reference/UI/forceUpdate.md)
+    - [forceRender()](./reference/UI/forceRender.md)
+    - [nextRender()](./reference/UI/nextRender.md)
+  - **查找拾取**
+    - [find()](./reference/UI/find.md)
+    - [findOne()](./reference/UI/findOne.md)
+    - [pick()](./reference/UI/pick.md)
+  - **自定义属性**
+    - [changeAttr()](./reference/UI/custom/changeAttr.md)
+    - [addAttr()](./reference/UI/custom/addAttr.md)
+- **常用功能**
+- **🌲 事件**
+  - **交互事件**
+    - [PointerEvent](./reference/event/ui/Pointer.md)
+    - [DragEvent](./reference/event/ui/Drag.md)
+    - [DropEvent](./reference/event/ui/Drop.md)
+    - [SwipeEvent](./reference/event/ui/Swipe.md)
+    - [MoveEvent](./reference/event/ui/Move.md)
+    - [ZoomEvent](./reference/event/ui/Zoom.md)
+    - [RotateEvent](./reference/event/ui/Rotate.md)
+    - [KeyEvent](./reference/event/ui/Key.md)
+  - **元素事件**
+    - [ImageEvent](./reference/event/basic/Image.md)
+    - [ChildEvent](./reference/event/basic/Child.md)
+    - [PropertyEvent](./reference/event/basic/Property.md)
+    - [BoundsEvent](./reference/event/basic/Bounds.md)
+  - **平台事件**
+    - [LeaferEvent](./reference/event/basic/Leafer.md)
+    - [ResizeEvent](./reference/event/basic/Resize.md)
+    - [RenderEvent](./reference/event/basic/Render.md)
+    - [LayoutEvent](./reference/event/basic/Layout.md)
+    - [WatchEvent](./reference/event/basic/Watch.md)
+  - **基础事件**
+    - [Event](./reference/event/basic/Event.md)
+    - [UIEvent](./reference/event/ui/UIEvent.md)
+- **🌷 实用**
+  - **数学**
+    - [Point](./reference/math/Point.md)
+    - [Bounds](./reference/math/Bounds.md)
+    - [Matrix](./reference/math/Matrix.md)
+  - **列表**
+    - [LeafList](./reference/list/LeafList.md)
+  - **资源**
+    - [Resource](./reference/resource/Resource.md)

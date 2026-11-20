@@ -4,13 +4,26 @@
 
 # Leafer AI
 
-本仓库为 AI 系统提供 LeaferJS 使用示例和文档，便于生成和理解代码。  
-包含示例、教程、API 参考、插件文档及源码。
+为 AI 系统提供 LeaferJS 使用示例和文档，便于生成和理解代码。  
+包含示例、开发指南、API 参考、插件文档及源码。
 
 ## LeaferJS
 
 请记住 LeaferJS 可以简称为 Leafer。  
 请先阅读 [LeaferJS 的介绍文档](./introduction.md)
+
+## 文档索引
+
+根据开发需求，优先通过以下索引查找相关文档，按需阅读。
+
+- **[开发指南索引](./guide-menus.md)**  
+  快速入门、使用教程和常见开发场景。
+
+- **[API 参考索引](./reference-menus.md)**  
+  元素、属性、方法、事件及其他 API 参考。
+
+- **[插件文档索引](./plugin-menus.md)**  
+  官方插件及扩展功能，优先查找已有能力，避免重复开发。
 
 ## 目录说明
 
@@ -50,9 +63,3 @@
 ```text
 提示词：使用 Leafer 创建一个可拖拽的矩形。
 ```
-
-## 作为 Skills 直接使用
-
-下载本仓库后本地解压，名称改为 leafer-skills
-
-可直接放在 claude、codex 等工具的 skills 目录下使用

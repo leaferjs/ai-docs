@@ -1,0 +1,82 @@
+# 开发指南
+
+- **快速上手**
+  - [概览](./guide/index.md)
+  - **快速安装**
+    - [web 版](./guide/install/ui/start.md)
+    - [worker 版](./guide/install/ui/worker/start.md)
+    - [node 版](./guide/install/ui/node/start.md)
+    - [小程序版](./guide/install/ui/miniapp/start.md)
+    - [跨平台核心包](./guide/install/ui/core/index.md)
+  - [快速更新](./guide/update.md)
+  - **更多场景**
+    - [多产品形态](./guide/install/index.md)
+    - **leafer-draw**
+      - [web 版](./guide/install/draw/start.md)
+      - [worker 版](./guide/install/draw/worker/start.md)
+      - [node 版](./guide/install/draw/node/start.md)
+      - [小程序版](./guide/install/draw/miniapp/start.md)
+    - **leafer-game**
+      - [web 版](./guide/install/game/start.md)
+      - [worker 版](./guide/install/game/worker/start.md)
+      - [node 版](./guide/install/game/node/start.md)
+      - [小程序版](./guide/install/game/miniapp/start.md)
+    - **leafer-editor**
+      - [web 版](./guide/install/editor/start.md)
+      - [worker 版](./guide/install/editor/worker/start.md)
+      - [node 版](./guide/install/editor/node/start.md)
+      - [小程序版](./guide/install/editor/miniapp/start.md)
+    - **leafer**
+      - [web 版](./guide/install/leafer/start.md)
+      - [worker 版](./guide/install/leafer/worker/start.md)
+      - [node 版](./guide/install/leafer/node/start.md)
+      - [小程序版](./guide/install/leafer/miniapp/start.md)
+- **快速入门**
+- **🧬 基础**
+  - [创建 Leafer 引擎](./guide/basic/leafer.md)
+  - [创建元素](./guide/basic/display.md)
+  - [设置样式](./guide/basic/style.md)
+  - [事件处理](./guide/basic/event.md)
+  - [移除元素](./guide/basic/remove.md)
+  - [导出元素](./guide/basic/export.md)
+  - **Vue / React**
+    - **前端环境**
+      - [Vue](./guide/framework/vue/index.md)
+      - [React](./guide/framework/react/index.md)
+      - [HTML](./guide/framework/html.md)
+    - **服务端渲染**
+      - [Nuxt.js](./guide/framework/nuxt/index.md)
+      - [VitePress](./guide/framework/vitepress/index.md)
+      - [Next.js](./guide/framework/next/index.md)
+    - **组件式开发（社区提供）**
+      - [leafer-vue](https://leafer-vue.netlify.app)
+- **🧲 好玩**
+  - [动画](./guide/plugin/animate.md)
+  - [交互状态](./guide/plugin/state.md)
+  - [运动路径](./guide/plugin/motion-path.md)
+  - [Robot 游戏元素](./guide/plugin/robot.md)
+  - [自动布局](./guide/plugin/flow.md)
+  - [图形编辑器](./guide/plugin/editor.md)
+- **😎 进阶**
+  - [创建 App 应用](./guide/advanced/app.md)
+  - [缩放平移视图](./guide/advanced/viewport.md)
+  - [转换坐标](./guide/advanced/coordinate.md)
+  - [获取包围盒](./guide/advanced/bounds.md)
+  - [局部渲染](./guide/advanced/partRender.md)
+  - **生命周期**
+    - [元素生命周期](./guide/life/ui.md)
+    - [引擎生命周期](./guide/life/leafer.md)
+    - [渲染生命周期](./guide/life/render.md)
+  - **应用与引擎配置**
+    - [基础](./reference/config/app/base.md)
+    - [视口类型](./reference/config/app/type.md)
+    - [画布](./reference/config/app/canvas.md)
+    - [点按操作](./reference/config/app/pointer.md)
+    - [触屏操作](./reference/config/app/touch.md)
+    - [多点触屏](./reference/config/app/multiTouch.md)
+    - [滚轮操作](./reference/config/app/wheel.md)
+    - [平移视图](./reference/config/app/move.md)
+    - [缩放视图](./reference/config/app/zoom.md)
+- **🛠 开发**
+  - [调试模式](./reference/debug/basic.md)
+  - [开发插件](./plugin/dev.md)

@@ -4,13 +4,26 @@ English | [简体中文](./README-CN.md)
 
 # Leafer AI
 
-This repository provides usage examples and documentation of LeaferJS for AI systems, making it easier to generate and understand code.
-It includes examples, tutorials, API references, plugin documentation, and source code.
+Provides LeaferJS examples and documentation for AI systems to generate and understand code.
+Includes examples, development guides, API references, plugin documentation, and source code.
 
 ## LeaferJS
 
-Please note that LeaferJS can be abbreviated as **Leafer**.
-Start by reading the [LeaferJS introduction](./introduction.md).
+Remember that LeaferJS can also be referred to as Leafer.
+Please read the [LeaferJS Introduction](./introduction.md) first.
+
+## Documentation Index
+
+Based on your development needs, use the following indexes to find relevant documentation and read only what is necessary.
+
+- **[Development Guide Index](./guide-menus.md)**  
+  Quick start, tutorials, and common development scenarios.
+
+- **[API Reference Index](./reference-menus.md)**  
+  Elements, properties, methods, events, and other API references.
+
+- **[Plugin Documentation Index](./plugin-menus.md)**  
+  Official plugins and extensions. Prioritize existing functionality to avoid redundant development.
 
 ## Directory Structure
 
@@ -50,9 +63,3 @@ When generating LeaferJS code:
 ```text
 Prompt: Create a draggable rectangle using Leafer.
 ```
-
-## Use Directly as Skills
-
-Download and extract this repository locally, then rename it to `leafer-skills`.
-
-You can place it directly into the `skills` directory of tools such as Claude, Codex, etc.
